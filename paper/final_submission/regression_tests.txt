@@ -1,0 +1,72 @@
+test_fractional_recall_is_not_a_binomial_event (test_analysis.StrataTest) ... ok
+test_positive_count_bins_are_fixed (test_analysis.StrataTest) ... ok
+test_random_ranking_expectations_match_exhaustive_rankings (test_analysis.StrataTest) ... ok
+test_reranking_cannot_inject_a_recorded_positive (test_analysis.StrataTest) ... ok
+test_shared_partner_connects_bootstrap_units (test_analysis.StrataTest) ... ok
+test_source_length_bins_are_fixed (test_analysis.StrataTest) ... ok
+test_calibration_values_do_not_fit_score_scaling_or_fusion (test_calibration_v2.CalibrationTests) ... ok
+test_constant_score_scaling_is_finite (test_calibration_v2.CalibrationTests) ... ok
+test_fusion_favors_smallest_ranker_weight_when_hit5_ties (test_calibration_v2.CalibrationTests) ... ok
+test_no_generated_positive_means_reject_all (test_calibration_v2.CalibrationTests) ... ok
+test_other_known_partners_are_omitted_from_calibration_negatives (test_calibration_v2.CalibrationTests) ... ok
+test_saved_curve_endpoints_and_threshold_match_direct_rejection (test_calibration_v2.CalibrationTests) ... ok
+test_threshold_uses_balanced_accuracy_and_never_splits_ties (test_calibration_v2.CalibrationTests) ... ok
+test_pairs_require_one_chain_of_each_type_in_one_library (test_clean_data.Gse180059Test) ... ok
+test_completed_run_and_changed_resume_inputs_are_rejected (test_completion.CompletionProtocolTests) ... ok
+test_copy_control_cannot_recover_masked_or_deleted_residues (test_completion.CompletionProtocolTests) ... ok
+test_directional_protocols_and_nested_components (test_completion.CompletionProtocolTests) ... ok
+test_negative_sampler_excludes_all_known_alternative_partners (test_completion.CompletionProtocolTests) ... ok
+test_query_macro_validation_keeps_query_identity_for_constant_sources (test_completion.CompletionProtocolTests) ... ok
+test_reverse_direction_contributes_to_ranker_selection (test_completion.CompletionProtocolTests) ... ok
+test_single_chain_pretraining_never_draws_other_chain (test_completion.CompletionProtocolTests) ... ok
+test_budget_exhaustion_keeps_invalid_flag_and_original_reason (test_evaluation_audit_v2.SavedTokenAuditTests) ... ok
+test_observed_eos_reconstruction_preserves_valid_sequence (test_evaluation_audit_v2.SavedTokenAuditTests) ... ok
+test_chunked_nearest_distances_match_exhaustive_search (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_free_evaluation_uses_nested_fixed_draws (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_multi_positive_recall_uses_positive_denominator (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_other_known_partners_are_not_constructed_negatives (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_pool_scores_use_same_candidates_and_keep_all_positives (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_provenance_audit_counts_cross_study_pair_in_both_studies (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_ranker_selection_excludes_known_alternatives_in_both_directions (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_shallow_control_trains_only_from_given_pairs_and_scores_both_directions (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_strict_decoding_requires_chain_eos_and_allowed_length (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_two_chain_neighbor_search_checks_every_training_edge (test_evaluation_v2.EvaluationV2Tests) ... ok
+test_dry_run_never_submits (test_legacy_submission_cli.LegacySubmissionTests) ... ok
+test_unknown_argument_never_submits (test_legacy_submission_cli.LegacySubmissionTests) ... ok
+test_baseline_distance_and_query_metrics (test_model.ModelSmokeTest) ... ok
+test_both_evaluation_directions_preserve_gamma_delta_score_order (test_model.ModelSmokeTest) ... /gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages/torch/nn/modules/transformer.py:382: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+ok
+test_conditional_batch_forward_and_backward (test_model.ModelSmokeTest) ... ok
+test_denoising_mask_is_deterministic_and_excludes_chain_token (test_model.ModelSmokeTest) ... ok
+test_multi_positive_loss_accepts_duplicate_partners (test_model.ModelSmokeTest) ... ok
+test_ranker_diagnostics_handle_ties_and_validation_thresholds (test_model.ModelSmokeTest) ... ok
+test_ranker_scores_and_checkpoint_round_trip (test_model.ModelSmokeTest) ... /gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages/torch/nn/modules/transformer.py:382: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+ok
+test_sample_returns_valid_target_tokens (test_model.ModelSmokeTest) ... ok
+test_shuffled_sources_are_deranged_and_candidate_pools_are_fixed (test_model.ModelSmokeTest) ... ok
+test_source_ablation_preserves_target_draws_and_validation_labels (test_model.ModelSmokeTest) ... ok
+test_unconditional_reuse_rejects_wrong_chain_or_stage (test_model.ModelSmokeTest) ... ok
+test_unconditional_targets_follow_requested_chain (test_model.ModelSmokeTest) ... ok
+test_frozen_code_tampering_is_rejected_before_restoration (test_public_release.PublicReproductionTests) ... ok
+test_legacy_diagnostic_waits_for_undeclared_checkpoint (test_public_release.PublicReproductionTests) ... ok
+test_paths_cannot_escape_or_follow_an_external_symlink (test_public_release.PublicReproductionTests) ... ok
+test_porting_preserves_scientific_commands_and_supersessions (test_public_release.PublicReproductionTests) ... ok
+test_verified_asset_rejects_conflicting_existing_checkpoint (test_public_release.PublicReproductionTests) ... ok
+test_giant_edges_remain_unseen_with_seen_nodes (test_revision_bmc.RevisionChecks) ... ok
+test_query_roles_avoid_single_hub_selection (test_revision_bmc.RevisionChecks) ... ok
+test_selection_distractors_exclude_other_recorded_positives (test_revision_bmc.RevisionChecks) ... ok
+test_transfer_does_not_inject_truth_and_has_lexical_ties (test_revision_bmc.RevisionChecks) ... ok
+test_actual_paired_comparison_aligns_sources_and_rejects_different_positives (test_statistics_v2.ClusterStatisticsTests) ... ok
+test_empty_strata_remain_explicit (test_statistics_v2.ClusterStatisticsTests) ... ok
+test_fractional_recall_never_gets_a_binomial_interval (test_statistics_v2.ClusterStatisticsTests) ... ok
+test_identical_paired_models_have_exact_zero_difference (test_statistics_v2.ClusterStatisticsTests) ... ok
+test_joint_endpoint_preserves_equal_direction_weight_with_unequal_queries (test_statistics_v2.ClusterStatisticsTests) ... ok
+test_whole_cluster_and_edge_weighting_are_preserved (test_statistics_v2.ClusterStatisticsTests) ... ok
+test_zero_events_keep_nonzero_iid_reference_and_degenerate_cluster_flag (test_statistics_v2.ClusterStatisticsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 63 tests in 14.204s
+
+OK

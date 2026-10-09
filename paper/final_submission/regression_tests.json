@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "date": "2026-10-09",
+  "tests_passed": 63,
+  "elapsed_seconds": 14.204,
+  "command": "OMP_NUM_THREADS=2 PYTHONPATH=src:. python -B -m unittest discover -s tests -v",
+  "log": "paper/final_submission/regression_tests.txt",
+  "log_sha256": "31b564a8be63ffd0003e291410cc830cd8760adfdd7694c88e4d3dc69ea72fc2",
+  "scope": "Existing full unit suite on the author-review branch. No model retraining, scientific protocol changes or additional model tests. Package restoration and current-payload verification are separate.",
+  "historical_public_clone_validation": "reproducibility/VALIDATION.json",
+  "code_files_unchanged_from_public_validation": [
+    "scripts/reproduce.py",
+    "tests/test_public_release.py"
+  ]
+}

@@ -1,5 +1,11 @@
 # Reproducing the BMC revision
 
+Current author-review update (9 October 2026): the scientific base is publicly
+available at https://github.com/he2238751697-afk/GDTCR/releases/tag/reproducibility-v1 .
+Use the root `REPRODUCIBILITY.md` for a fresh public clone. The scientific
+results below remain unchanged; `final_submission/` records the current
+manuscript compilation, consistency and page-inspection audits.
+
 This revision preserves the original completed benchmark and adds explicitly
 post-primary diagnostics. The authoritative original evidence remains
 `artifacts/completion_v2/final_evidence/evidence.json`, SHA256
@@ -41,7 +47,7 @@ OMP_NUM_THREADS=2 PYTHONPATH=src:. artifacts/completion_v2/runtime/bin/python sc
 artifacts/completion_v2/runtime/bin/python scripts/export_revision_tables_bmc.py
 artifacts/completion_v2/runtime/bin/python scripts/export_primary_supplement_bmc.py
 artifacts/completion_v2/publishing_runtime/bin/python scripts/plot_revision_bmc.py
-artifacts/completion_v2/publishing_runtime/bin/python scripts/render_bmc_pdf.py --source paper/manuscript_bmc.tex --output output/pdf/gdtcr_bmc_revision.pdf
+python scripts/build_submission_pdfs.py --copy-reading-copies
 ```
 
 The analysis checks task hashes, test membership, candidate token decoding,
@@ -67,16 +73,17 @@ is Additional file 1. Figures are exported as vector PDF/SVG and 300-dpi PNG fro
 `plot_revision_bmc.py`. Numerical supplements retain raw fractions, explicit
 event counts and original fit identities. Main text uses percentages.
 
-`render_bmc_pdf.py` produces a reading copy with numbered, double-spaced body
-text and textual numeric mathematics. It is not a TeX compiler. Native editor
-compilation status is recorded separately; a readable PDF must not be reported
-as successful native TeX compilation. The source uses separate figure files,
-which the standalone native editor may not support.
+`build_submission_pdfs.py` compiles both current TeX documents with native
+pdflatex, stabilizes references and retains the logs and input hashes. It
+requires TeX Live and Poppler; compilation needs neither model fitting nor
+the large artifact tree. The earlier `render_bmc_pdf.py` and its ReportLab
+outputs remain historical reading-copy tools, not the current publication
+build. Every final PDF page is rendered and inspected separately.
 
 The six local Additional-file archives are intended for author review and each
-must remain below 20 MB. Public deposition, source-data redistribution,
-repository URL/DOI and license are pending; see `BMC_AUTHOR_ITEMS.md`. Local
-packaging does not resolve these administrative requirements.
+must remain below 20 MB. Public repository access is established. A persistent
+archive DOI, code/weight licenses, unresolved third-party terms and author
+declarations remain pending; see `BMC_AUTHOR_ITEMS.md`.
 
 ## Local delivery verification
 
@@ -90,8 +97,11 @@ python scripts/bundle_bmc_delivery.py
 
 The second command checks all archive/member hashes against the current local
 files, every compact nearest-input query against its original full record, and
-materializes all 25 exact frozen source snapshots in a temporary directory.
+materializes every exact frozen source snapshot in a temporary directory;
+the verification report gives the snapshot and restored-file counts.
 The six individual attachments are each smaller than 20,000,000 bytes. Large
 weight files and full raw free-draw arrays remain outside these bounded
-attachments; hashes and rerun instructions identify them without claiming
-that a public archive already exists.
+attachments. The four inherited initialization weights are available as a
+verified GitHub release asset; full raw free-draw arrays are reconstructed by
+the frozen execution workflow. Hashes and rerun instructions identify them.
+No Zenodo DOI is claimed until a real deposit is completed.

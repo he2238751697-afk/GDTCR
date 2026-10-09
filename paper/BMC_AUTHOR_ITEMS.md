@@ -1,20 +1,38 @@
-# Author-owned items for the BMC revision
+# Author decisions before submission
 
-Status confirmed by the user in this chat on 6 October 2026:
+Updated 9 October 2026 from the user's explicit answers. This is an
+**author-review draft**, not an approved submission. The user confirmed that
+author review has not yet taken place.
 
-- Author names, affiliations, order, corresponding author and contributions: pending.
-- Funding, competing interests, ethics secondary-use determination/exemption,
-  consent for publication and acknowledgements: all pending.
-- A GitHub repository has not been established.
-- Code/weight license and public archive/DOI: not established in the repository.
+| Item | Verified status | Remaining action |
+| --- | --- | --- |
+| First author | Zihan He | Confirm the complete author list and order |
+| Corresponding author | Jia Meng | Supply the correspondence email |
+| Both affiliations | Academy of Life and Natural Sciences, Xi'an Jiaotong-Liverpool University | Confirm the final affiliation format |
+| Author contributions | Not supplied | Provide truthful individual contributions |
+| Review and submission approval | Not yet performed | Both authors must review and approve the final version; confirm any other authors |
+| Funding | Pending | Supply funder/grant details or confirm no specific funding |
+| Competing interests | Pending | Supply a verified declaration; absence is not inferred |
+| Ethics and consent to participate | Secondary-use determination not supplied | Provide the responsible institution's determination or exemption basis for reuse of public human sequence data |
+| Consent for publication | Pending | Confirm applicability and the factual basis of the statement |
+| Acknowledgements | Pending | Confirm the text or explicitly confirm none |
+| AI-use disclosure | OpenAI Codex assistance described in Methods | Authors must verify the assisted work before submission |
+| Code and model-weight licenses | The user explicitly deferred selection | Rights holders must select the licenses; third-party data retain their source terms |
+| Zenodo archive/DOI | Zenodo selected; account configuration deferred | Configure authentication locally, finalize author/license metadata, then deposit and record the actual version DOI |
+| Third-party data terms | Source accessions and article-license evidence recorded | Confirm database/export redistribution terms where not established |
+| IEDB paired row | Original study unresolved | Resolve provenance if possible, or approve an explicit limitation |
 
-The local scientific revision and reproducibility attachments can be prepared,
-but they are not a submission-ready public release. Do not invent declarations,
-claim an exemption, assign a rights-holder license, create a public DOI, or
-publish third-party sequence exports on the authors' behalf.
+The public repository already exists:
+https://github.com/he2238751697-afk/GDTCR . Its immutable scientific release is
+reproducibility-v1 at commit fcf153c76d8eeac358d1a26da3df470eb4118992.
+The requested raw input exports and verified initialization asset are available.
+A GitHub release is not a Zenodo DOI, and public access does not create a license.
 
-The manuscript intentionally retains explicit pending declarations. The checklist
-items requiring final author information, a persistent public data/code location,
-a license and removal of all administrative placeholders remain open. This is
-not an experiment failure or an approval request. No external publication or
-journal submission has been performed.
+No ethics exemption, lack of conflicts, lack of funding, consent statement,
+author contribution, approval, license or DOI has been invented. The manuscript
+retains explicit administrative pending statements because those facts remain
+unconfirmed. No journal submission has been made.
+
+Historical status from 6 October is retained in Git at reproducibility-v1;
+its statement that a GitHub repository did not exist is superseded by the
+authorized public release on 9 October.

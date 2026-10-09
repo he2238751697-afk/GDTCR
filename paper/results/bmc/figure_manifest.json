@@ -18,20 +18,20 @@
     "id": "figure_3_primary",
     "label": "primary",
     "title": "Sparse free recorded-partner recovery at 64 draws.",
-    "caption": "No recorded positive is injected into free candidates; training targets are allowed. Conditional, constant-source, random-initialization and shuffled-input conditions share the evaluation rule. Points are three split means after averaging two model seeds; diamonds and ranges are their mean and descriptive SD, not subject-level confidence intervals. Likelihood, ranker and fused scores order identical conditional candidates. The graphic gives conditional events:query counts for each fitted model; all conditions are tabulated in Additional file 4. Zero events are retained. A lower NLL does not imply reliable candidate availability or top-five recovery."
+    "caption": "No recorded positive is injected into free candidates; training targets are allowed. Conditional, constant-source, random-initialization and shuffled-input conditions share the evaluation rule. Points are three split means after averaging two model seeds; diamonds and ranges are their mean and across-split descriptive SD, not confidence intervals. Likelihood, ranker and fused scores order identical conditional candidates. The graphic gives conditional events:query counts for each fitted model; all conditions are tabulated in Additional file 4. Zero events are retained. A lower NLL does not imply reliable candidate availability or top-five recovery."
   },
   {
     "number": 4,
     "id": "figure_4_retrieval",
     "label": "retrieval",
-    "title": "Ranking within truth-containing fixed candidate pools.",
+    "title": "Diagnostic ranking in truth-containing fixed candidate pools.",
     "caption": "Fixed pools contain recorded positives by construction. Random, length, motif and edit pools add up to 100 unrecorded distractors; Full uses the complete role-specific target universe. Values average seeds within split and then the three primary splits equally. Deterministic methods have one value per split. Nearest-input similarity scores candidates by target distance to partners of the single nearest training input; direct partner transfer is reported separately. No scorer dominates all pools and directions. These retrieval outcomes cannot be equated with free-generation recovery or biological specificity."
   },
   {
     "number": 5,
     "id": "figure_5_efficiency",
     "label": "efficiency",
-    "title": "Likelihood and recovery across nested complete-component training subsets.",
+    "title": "Training-size and graph-composition sensitivity.",
     "caption": "The actual subsets contain 725/1814/2249/7254 edges. The nominal 50% subset contains only 31.0% of training edges. All smaller subsets contain singleton components; the giant component enters only at full data, so composition and size change together. Lines average two model seeds and shading spans their fitted estimates; it is not a confidence interval. Lower NLL does not provide a consistent small-data free-recovery advantage."
   },
   {
@@ -46,6 +46,6 @@
     "id": "figure_7_budget",
     "label": "budget",
     "title": "Sampling budgets and exploratory calibration.",
-    "caption": "The 16/64/256 budgets are prefixes of the same saved draws on split 17. Left and middle panels separate candidate coverage from likelihood Hit@5, with exact training targets allowed (solid) or excluded (dashed); lines average two seeds. Coverage is unchanged by target exclusion in the chain-disjoint primary test. Right panels are exploratory calibration-quantile operating curves; solid/dashed lines identify seeds and markers identify independently calibrated thresholds. All test queries remain in recovery denominators. More draws can increase coverage without improving top-five ordering. No threshold is a validated biological selector."
+    "caption": "The 16/64/256 budgets are prefixes of the same saved draws on split 17. The first two rows separate candidate coverage from likelihood Hit@5, with exact training targets allowed (solid) or excluded (dashed); lines average two seeds. Coverage is unchanged by target exclusion in the chain-disjoint primary test. The last row shows exploratory calibration-quantile operating curves; solid/dashed lines identify seeds and markers identify independently calibrated thresholds. All test queries remain in recovery denominators. More draws can increase coverage without improving top-five ordering. No threshold is a validated biological selector."
   }
 ]

@@ -8,6 +8,7 @@ import sys
 import tempfile
 import zipfile
 from pathlib import Path
+from reproduce import frozen_sources
 
 
 def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
@@ -17,7 +18,7 @@ def vector_hash(value):return hashlib.sha256(json.dumps(value,separators=(',',':
 def main():
     manifest=json.load(open('output/bmc_revision/release_manifest.json'))
     records=[]
-    for r in manifest['attachments']+[manifest['editable_source']]:
+    for r in manifest['attachments']+[manifest['editable_source'],manifest['journal_figures']]:
         path=Path(r['path'])
         assert sha(path)==r['sha256']
         if 'additional_file_' in path.name:assert path.stat().st_size<20_000_000
@@ -65,9 +66,12 @@ def main():
             restored+=1
             for path,h in r['files_sha256'].items():
                 assert sha(folder/'restored_snapshots'/name/path)==h;files+=1
+        public_snapshots=frozen_sources(folder/'current_source/reproducibility/frozen_source.zip')
     result={'passed':True,'archives':records,'baseline_queries_verified':baseline_queries,
             'restored_snapshots':restored,'restored_files_verified':files,
-            'public_release':False,'author_items_pending':True}
+            'public_scientific_release_snapshots_verified':public_snapshots,
+            'scientific_base_public':True,'persistent_archive_doi':None,
+            'author_review_complete':False,'author_items_pending':True}
     Path('output/bmc_revision/package_verification.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k!='archives'}))
 

@@ -1,6 +1,7 @@
 # License and access record
 
-Reviewed: 30 September 2026. This document records the available evidence; it
+Updated: 9 October 2026; source-license evidence was reviewed on 30 September.
+This document records the available evidence; it
 does not assign an unapproved license or infer permission from public access.
 
 | Material | Verified access or license evidence | Release treatment |
@@ -9,20 +10,22 @@ does not assign an unapproved license or infer permission from public access.
 | Suo et al. source study | E-MTAB-11388; DOI 10.1126/science.abo0510; source article records CC BY 4.0 | Cite original study and UcTCRdb export separately; article license is not assumed to cover every database export |
 | UcTCRdb | Public exports; DOI 10.3389/fimmu.2023.1158295 article records CC BY 4.0 | Preserve study/export lineage; database redistribution terms not independently established here |
 | TCRdb 2.0 | Public project archives; DOI 10.1093/nar/gkaf876 article records CC BY-NC 4.0 | Article license does not automatically relicense all deposited sequence data; retain accessions and hashes |
-| IEDB receptor export | Public export preserved locally; one pair has unresolved original study provenance | Do not claim an independent study or broad redistribution permission for that row |
-| GDTCR source code and new model weights | No repository LICENSE or rights-holder grant found | No new public license is assigned; local reproducibility materials retain this status |
+| IEDB receptor export | Export is in the public scientific release; one pair has unresolved original study provenance | Do not claim an independent study or broad redistribution permission for that row |
+| GDTCR source code and new model weights | The user explicitly deferred license selection on 9 October 2026 | No new license is assigned; public access does not imply permission to relicense |
 
 The article-license statements above were checked in PMC full-text records
 PMC9532436, PMC7612819, PMC10040587 and PMC12807725. Those cached XMLs are
 reference evidence, not a replacement for a dataset-specific permission grant.
 Upstream accessions, processed hashes and original citations accompany the
-scientific materials. Public deposition of third-party raw exports or a new
-license for source code/weights requires a rights-holder decision.
+scientific materials. The user authorized the public repository and original
+input-export upload on 9 October 2026. That publication is complete at
+https://github.com/he2238751697-afk/GDTCR/releases/tag/reproducibility-v1 .
+It does not establish unresolved third-party rights or supply a code/weight
+license. Source-specific terms must also be addressed before a Zenodo deposit.
 
-The anonymous review manuscript omits author names, affiliations, personal paths,
-institutional account names and email addresses. Local execution logs and
-provenance remain intact for reproducibility; they must not be copied unchanged
-into an anonymous review attachment. No public repository URL, DOI, funding,
-conflict declaration or ethics approval has been invented. Author-specific
-declarations and a public release license are administrative fields to complete
-before actual journal submission.
+The current author-review manuscript identifies Zihan He and Jia Meng using
+information supplied by the user. Historical computational records retain
+their original execution provenance. No DOI, funding, conflict declaration,
+consent statement or ethics approval has been invented. The remaining decisions
+are recorded in BMC_AUTHOR_ITEMS.md. Zenodo was selected for long-term archiving,
+but authentication and license selection were explicitly deferred.

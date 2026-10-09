@@ -1,5 +1,7 @@
 # BMC Bioinformatics 投稿版修改清单
 
+> 2026-10-09 当前状态：已完成作者审阅前版本的科学一致性修订、原生 LaTeX 编译和 40 页主稿／6 页补充说明的逐页视觉检查；原始输入导出、代码及初始化权重已公开于 GitHub 的 reproducibility-v1 发布。作者尚未审阅，通讯邮箱、贡献及其他声明仍待确认，代码／权重许可待定，Zenodo 认证和 DOI 发布由用户延后。完整交付与审计见 [final_submission/README.md](paper/final_submission/README.md)，剩余事项见 [BMC_AUTHOR_ITEMS.md](paper/BMC_AUTHOR_ITEMS.md)。下方 2026-10-06 状态保留为历史记录，不代表当前编译或仓库状态。
+
 > 适用稿件：`gdtcr_anonymous.pdf`
 > 目标期刊：BMC Bioinformatics（首选）
 > 文章定位：controlled benchmark / evaluation study of single-CDR3 recorded-partner recovery in human gamma-delta TCRs

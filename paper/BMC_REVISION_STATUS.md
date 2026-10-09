@@ -1,5 +1,12 @@
 # BMC scientific revision status
 
+**Historical scientific status recorded on 6 October 2026.** The public
+GitHub release was established on 9 October. The current author-review
+manuscript uses native TeX compilation and the supplied author names.
+See `final_submission/README.md` for current delivery and audit records and
+`BMC_AUTHOR_ITEMS.md` for the remaining declarations, licenses and Zenodo DOI.
+The dated account below is retained for traceability.
+
 Updated: 6 October 2026. The local scientific revision and supplemental
 experiments are complete. **This is not yet a submission-ready public release.**
 Author declarations, repository/DOI and licensing remain pending as explicitly

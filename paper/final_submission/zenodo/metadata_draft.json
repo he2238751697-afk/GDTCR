@@ -1,0 +1,56 @@
+{
+  "status": "local_metadata_draft_only",
+  "author_review_complete": false,
+  "publication_ready": false,
+  "license_confirmed": false,
+  "persistent_archive_doi": null,
+  "zenodo_deposit_id": null,
+  "metadata_requires_confirmation": [
+    "complete author list and order",
+    "code license",
+    "model weight license",
+    "third-party redistribution terms",
+    "author review and approval"
+  ],
+  "proposed_metadata": {
+    "title": "GDTCR: Benchmarking single-CDR3 partner recovery in human gamma-delta T-cell receptors under controlled exposure protocols",
+    "upload_type": "software",
+    "version": "bmc-author-review-2026-10-09",
+    "description": "Author-review source, original sequence/contig/database input exports, cleaned inputs, frozen splits, code snapshots, task manifests, reference analyses, manuscript and figure assets for the GDTCR controlled recorded-partner recovery benchmark. Recorded pairing is not biological function. Truth-containing retrieval is distinct from free generation. This draft precedes author review and is not an approved journal submission. Initialization weights are supplied as a separate checksum-verified asset; downstream training and full free-draw arrays are reproducible from the fixed task graph, not all embedded in this archive. No license or ethics determination has been inferred.",
+    "creators": [
+      {
+        "name": "Zihan He",
+        "affiliation": "Academy of Life and Natural Sciences, Xi'an Jiaotong-Liverpool University"
+      },
+      {
+        "name": "Jia Meng",
+        "affiliation": "Academy of Life and Natural Sciences, Xi'an Jiaotong-Liverpool University"
+      }
+    ],
+    "keywords": [
+      "gamma-delta T-cell receptors",
+      "CDR3",
+      "recorded-partner recovery",
+      "conditional generation",
+      "controlled benchmark",
+      "reproducibility"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/he2238751697-afk/GDTCR",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/he2238751697-afk/GDTCR/releases/tag/reproducibility-v1",
+        "relation": "isDerivedFrom",
+        "scheme": "url"
+      }
+    ]
+  },
+  "confirmed_author_roles": {
+    "first_author": "Zihan He",
+    "corresponding_author": "Jia Meng"
+  },
+  "license_note": "No license field is supplied until the rights holders confirm code and model-weight licensing; third-party data retain source-specific terms. This wrapper is not an API-ready publishing request."
+}

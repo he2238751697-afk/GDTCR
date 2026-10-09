@@ -26,7 +26,7 @@ class Archive:
         data=value.encode();self.zip.writestr(name,data);self.names.add(name)
         self.entries[name]={'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)}
     def finish(self):
-        self.text('README_LOCAL_RELEASE.txt','Local BMC revision attachment. Public repository/DOI, licensing and author declarations are pending. Third-party data remain subject to original source terms. No public deposition is asserted.\n')
+        self.text('README_RELEASE.txt','BMC author-review attachment, 9 October 2026. The scientific base is public at https://github.com/he2238751697-afk/GDTCR/releases/tag/reproducibility-v1 . The manuscript PDFs are native LaTeX builds. Author review, final declarations, code/weight licenses and a Zenodo archive DOI remain pending. Third-party data retain original source terms. This is not an approved journal submission.\n')
         self.zip.writestr('MANIFEST.json',json.dumps(self.entries,indent=2,sort_keys=True)+'\n');self.zip.close()
         if self.path.stat().st_size>=20_000_000:raise ValueError(f'Additional file exceeds 20 MB: {self.path}')
         with zipfile.ZipFile(self.path) as z:
@@ -37,11 +37,16 @@ class Archive:
 def main():
     revision=json.load(open('paper/results/bmc/revision_summary.json'))
     assert revision['complete'] and revision['test_outcome_audit_passed'] and revision['primary_evidence_unchanged']
+    visual=json.load(open('paper/final_submission/visual_audit.json'))
+    assert visual['passed'] and visual['total_pages_inspected']==46
+    for document in visual['documents']:
+        assert digest(document['source'])==document['source_sha256']
+        assert digest(document['pdf'])==document['pdf_sha256']
     OUT.mkdir(parents=True,exist_ok=True);records=[]
     a=Archive(1)
     a.add('output/pdf/additional_file_1_bmc.pdf','additional_file_1.pdf')
     a.add('paper/supplementary_methods_bmc.tex','paper/supplementary_methods_bmc.tex')
-    for p in Path('paper/results/v2/figures').glob('figure_S*'):
+    for p in Path('paper/results/bmc/figures').glob('figure_S*'):
         a.add(p)
     records.append(a.finish())
     a=Archive(2)
@@ -105,8 +110,10 @@ def main():
     for folder in ('src','scripts','slurm','tests','configs'):
         for p in sorted(Path(folder).rglob('*')):
             if p.is_file() and '__pycache__' not in p.parts and p.suffix in ('.py','.json','.sbatch','.sh','.txt','.yml','.yaml','.toml'):a.add(p,'current_source/'+str(p))
-    for name in ('README.md','requirements.txt','BMC_Bioinformatics_submission_revision_checklist.md'):
+    for name in ('README.md','REPRODUCIBILITY.md','THIRD_PARTY_DATA.md','requirements.txt','BMC_Bioinformatics_submission_revision_checklist.md'):
         a.add(name,'current_source/'+name)
+    for name in ('release.json','tasks.json','frozen_source.zip'):
+        a.add(Path('reproducibility')/name,'current_source/reproducibility/'+name)
     for p in sorted(Path('paper').glob('*.md')):a.add(p)
     for p in ('paper/references_bmc.json','paper/BMC_CLAIM_AUDIT.tsv','paper/BMC_REVISION_LOG.md',
               'artifacts/completion_v2/environment.json','artifacts/revision_bmc/regression.log',
@@ -119,6 +126,12 @@ def main():
     for p in Path('paper/results/bmc').glob('*audit*.json'):a.add(p)
     for p in Path('paper/results/bmc').glob('native_compile*.json'):a.add(p)
     for p in Path('paper/results/bmc').glob('visual*.json'):a.add(p)
+    # Current pre-packaging audits; archive-hash reports must not include themselves.
+    for name in ('README.md','CHANGES.md','PLACEMENT_AUDIT.md','CONSISTENCY_AUDIT.md',
+                 'scientific_freeze.json','native_compile.json','visual_audit.json',
+                 'placement_audit.json','crossref_numerical_audit.json'):
+        p=Path('paper/final_submission')/name
+        if p.is_file():a.add(p)
     # Deduplicate identical frozen files by their content hash. Manifests are
     # sufficient to restore the exact snapshot directories before execution.
     objects={};snapshots={}
@@ -140,13 +153,26 @@ def main():
         for p in [Path('paper/manuscript_bmc.tex'),Path('paper/supplementary_methods_bmc.tex'),*Path('paper/results/bmc/figures').glob('*'),*Path('paper/results/v2/figures').glob('figure_S*')]:
             z.write(p,str(p));members[str(p)]=digest(p)
         z.writestr('MANIFEST.json',json.dumps(members,indent=2)+'\n')
-        z.writestr('README.txt','Compile from paper/ so relative figure paths resolve. Author declarations and public deposition remain pending. Native compilation status is documented separately.\n')
+        z.writestr('README.txt','Compile both TeX documents with pdflatex from paper/ so relative figure paths resolve. These sources were natively compiled and every final page inspected. Figure PDF/SVG/PNG assets remain separate. This is an author-review draft: final declarations, licenses and Zenodo DOI remain outstanding. The scientific base is public at https://github.com/he2238751697-afk/GDTCR/releases/tag/reproducibility-v1 .\n')
     with zipfile.ZipFile(main) as z:
         assert z.testzip() is None
         for name,h in members.items():assert hashlib.sha256(z.read(name)).hexdigest()==h
-    report={'status':'local_release_candidate','public_deposition':False,'author_items_pending':True,
+    figures=OUT/'journal_figure_assets.zip';figure_members={}
+    with zipfile.ZipFile(figures,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
+        for p in sorted(Path('paper/results/bmc/figures').glob('*')):
+            if p.suffix not in ('.pdf','.svg','.png'):continue
+            z.write(p,p.name);figure_members[p.name]={'sha256':digest(p),'bytes':p.stat().st_size,'source':str(p)}
+        assert len(figure_members)==27
+        z.writestr('MANIFEST.json',json.dumps(figure_members,indent=2)+'\n')
+        z.writestr('README.txt','Figures 1-7 and S1-S2 for the 9 October 2026 author-review manuscript. Each figure has a vector PDF, editable SVG and 300 dpi PNG. Upload the appropriate individual files to the journal system after author approval. Captions are in the manuscript and supplementary TeX/PDF, not detached from their readable figures.\n')
+    report={'status':'author_review_draft','scientific_base_public':True,
+            'repository':'https://github.com/he2238751697-afk/GDTCR',
+            'base_release':'reproducibility-v1','persistent_archive_doi':None,
+            'author_review_complete':False,'author_items_pending':True,
+            'native_compilation_verified':True,
             'revision_evidence_sha256':digest('paper/results/bmc/revision_summary.json'),
             'attachments':records,'editable_source':{'path':str(main),'bytes':main.stat().st_size,'sha256':digest(main),'verified':True},
+            'journal_figures':{'path':str(figures),'bytes':figures.stat().st_size,'sha256':digest(figures),'members':len(figure_members)},
             'source_snapshots':len(snapshots),'distinct_source_objects':len(objects)}
     (OUT/'release_manifest.json').write_text(json.dumps(report,indent=2,sort_keys=True)+'\n')
     print(json.dumps(report,indent=2))
