@@ -1,0 +1,59 @@
+protocol	evaluated_direction	role	pairs	components	largest_component_pairs	gamma_queries	delta_queries	study_GSE180059	study_Suo_2022	delta_train_test_exact_overlap	gamma_train_test_exact_overlap	delta_train_validation_exact_overlap	gamma_train_validation_exact_overlap	delta_validation_test_exact_overlap	gamma_validation_test_exact_overlap	study_IEDB_untraced
+seen_input_delta_to_gamma	delta_to_gamma	test	333	94	199	158	264	293	40	264	129	264	127	264	65	
+seen_input_delta_to_gamma	delta_to_gamma	train	8402	3351	4194	3880	6989	7857	546	264	129	264	127	264	65	1
+seen_input_delta_to_gamma	delta_to_gamma	validation	333	93	164	162	264	293	40	264	129	264	127	264	65	
+seen_input_delta_to_gamma	delta_to_gamma	validation_calibration	83	28	35	61	50	76	7	264	129	264	127	264	65	
+seen_input_delta_to_gamma	delta_to_gamma	validation_selection	167	82	17	85	164	144	23	264	129	264	127	264	65	
+seen_input_delta_to_gamma	delta_to_gamma	validation_tuning	83	30	25	63	50	73	10	264	129	264	127	264	65	
+seen_input_gamma_to_delta	gamma_to_delta	test	706	361	269	450	612	632	74	138	450	153	450	48	450	
+seen_input_gamma_to_delta	gamma_to_delta	train	7656	3359	3789	3944	6073	7156	501	138	450	153	450	48	450	1
+seen_input_gamma_to_delta	gamma_to_delta	validation	706	349	276	450	598	655	51	138	450	153	450	48	450	
+seen_input_gamma_to_delta	gamma_to_delta	validation_calibration	177	68	97	78	167	166	11	138	450	153	450	48	450	
+seen_input_gamma_to_delta	gamma_to_delta	validation_selection	353	243	16	293	303	333	20	138	450	153	450	48	450	
+seen_input_gamma_to_delta	gamma_to_delta	validation_tuning	176	68	55	79	164	156	20	138	450	153	450	48	450	
+source_holdout	both	test	626	90	529	207	419	2	626	0	0	0	0	0	0	
+source_holdout	both	train	4956	3219	1292	3594	4433	4956		0	0	0	0	0	0	
+source_holdout	both	validation	551	125	19	129	547	551		0	0	0	0	0	0	
+source_holdout	both	validation_calibration	138	26	18	29	135	138		0	0	0	0	0	0	
+source_holdout	both	validation_selection	275	74	8	75	274	275		0	0	0	0	0	0	
+source_holdout	both	validation_tuning	138	25	19	25	138	138		0	0	0	0	0	0	
+source_shared	both	test	626	90	529	207	419	2	626	13	144	0	0	0	10	
+source_shared	both	train	7597	3025	4397	3630	5743	7597		13	144	0	0	0	10	
+source_shared	both	validation	844	255	19	260	839	844		13	144	0	0	0	10	
+source_shared	both	validation_calibration	211	51	19	52	210	211		13	144	0	0	0	10	
+source_shared	both	validation_selection	422	152	5	153	421	422		13	144	0	0	0	10	
+source_shared	both	validation_tuning	211	52	12	55	208	211		13	144	0	0	0	10	
+split_seed17	both	test	907	522	19	529	900	897	9	0	0	0	0	0	0	1
+split_seed17	both	train	7254	2250	5005	2890	5185	6653	603	0	0	0	0	0	0	
+split_seed17	both	validation	907	522	12	525	904	893	14	0	0	0	0	0	0	
+split_seed17	both	validation_calibration	227	101	11	101	227	223	4	0	0	0	0	0	0	
+split_seed17	both	validation_selection	453	319	3	322	450	445	8	0	0	0	0	0	0	
+split_seed17	both	validation_tuning	227	102	12	102	227	225	2	0	0	0	0	0	0	
+split_seed17	both	train_fraction10	725	725	1	725	725	718	7	0	0	0	0	0	0	
+split_seed17	both	train_fraction100	7254	2250	5005	2890	5185	6653	603	0	0	0	0	0	0	
+split_seed17	both	train_fraction25	1814	1814	1	1814	1814	1790	24	0	0	0	0	0	0	
+split_seed17	both	train_fraction50	2249	2249	1	2249	2249	2220	29	0	0	0	0	0	0	
+split_seed2026	both	test	907	522	19	525	904	896	11	0	0	0	0	0	0	
+split_seed2026	both	train	7254	2250	5005	2890	5185	6657	598	0	0	0	0	0	0	1
+split_seed2026	both	validation	907	522	12	529	900	890	17	0	0	0	0	0	0	
+split_seed2026	both	validation_calibration	227	101	11	101	227	222	5	0	0	0	0	0	0	
+split_seed2026	both	validation_selection	453	319	4	323	449	444	9	0	0	0	0	0	0	
+split_seed2026	both	validation_tuning	227	102	12	105	224	224	3	0	0	0	0	0	0	
+split_seed3407	both	test	907	522	19	523	906	894	13	0	0	0	0	0	0	
+split_seed3407	both	train	7254	2250	5005	2890	5185	6653	602	0	0	0	0	0	0	1
+split_seed3407	both	validation	907	522	12	531	898	896	11	0	0	0	0	0	0	
+split_seed3407	both	validation_calibration	227	101	11	101	227	223	4	0	0	0	0	0	0	
+split_seed3407	both	validation_selection	453	319	3	325	447	447	6	0	0	0	0	0	0	
+split_seed3407	both	validation_tuning	227	102	12	105	224	226	1	0	0	0	0	0	0	
+unseen_input_delta_to_gamma	delta_to_gamma	test	907	70	838	399	161	828	81	0	244	0	250	0	159	
+unseen_input_delta_to_gamma	delta_to_gamma	train	7254	3370	2802	3661	6667	6770	483	0	244	0	250	0	159	1
+unseen_input_delta_to_gamma	delta_to_gamma	validation	907	67	840	388	161	845	62	0	244	0	250	0	159	
+unseen_input_delta_to_gamma	delta_to_gamma	validation_calibration	227	13	215	161	28	207	20	0	244	0	250	0	159	
+unseen_input_delta_to_gamma	delta_to_gamma	validation_selection	453	53	400	225	105	415	38	0	244	0	250	0	159	
+unseen_input_delta_to_gamma	delta_to_gamma	validation_tuning	227	13	215	155	28	223	4	0	244	0	250	0	159	
+unseen_input_gamma_to_delta	gamma_to_delta	test	907	53	847	64	771	718	190	252	0	243	0	176	0	
+unseen_input_gamma_to_delta	gamma_to_delta	train	7254	3244	3190	3817	5942	6921	332	252	0	243	0	176	0	1
+unseen_input_gamma_to_delta	gamma_to_delta	validation	907	53	841	63	816	804	104	252	0	243	0	176	0	
+unseen_input_gamma_to_delta	gamma_to_delta	validation_calibration	163	26	137	26	163	132	31	252	0	243	0	176	0	
+unseen_input_gamma_to_delta	gamma_to_delta	validation_selection	581	1	581	1	581	520	62	252	0	243	0	176	0	
+unseen_input_gamma_to_delta	gamma_to_delta	validation_tuning	163	32	110	36	157	152	11	252	0	243	0	176	0	

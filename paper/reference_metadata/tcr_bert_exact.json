@@ -1,0 +1,866 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22TCR-BERT%22&format=json&pageSize=10&resultType=core",
+  "retrieved_utc": "2026-09-30T05:56:41.416841+00:00",
+  "response": {
+    "version": "6.9",
+    "hitCount": 5,
+    "request": {
+      "queryString": "TITLE_ABS:\"TCR-BERT\"",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 10,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "PPR1328399",
+          "source": "PPR",
+          "doi": "10.64898/2026.09.21.753204",
+          "title": "Limitations of general protein language models and public TCRpMHC data in training specificity prediction models",
+          "authorString": "Rai B, Hall-Swan S.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Rai B",
+                "lastName": "Rai",
+                "firstName": "Brajesh",
+                "initials": "B"
+              },
+              {
+                "fullName": "Hall-Swan S",
+                "lastName": "Hall-Swan",
+                "firstName": "Sarah",
+                "initials": "S"
+              }
+            ]
+          },
+          "pubYear": "2026",
+          "abstractText": "T cell receptor (TCR) specificity prediction is critical for understanding adaptive immunity and for enabling the development of therapeutic interventions. Current machine learning models for predicting TCR-peptide-MHC interactions perform poorly, despite large efforts by many groups and advances in protein language models. This work identifies and addresses the fundamental issues that might be hindering progress in this field, focusing on current approaches for constructing training and validation sets, particularly on the strategies used by commonly used methods, which generate negative data either by shuffling TCRs between epitopes or by pairing epitopes with TCRs from background datasets of healthy donors. Here, we visualize and quantify the overlap between positive and generated negative TCR sets produced by both strategies using a range of sequence embedding approaches, including simple encodings (one-hot and BLOSUM62), general protein language models (ESM-2 and ProtGPT2), and a TCR-specific embedding model (TCR-BERT). Using paired \u03b1\u03b2TCR data from VDJdb for two well-studied epitopes (GILGFVFTL and KLGGALQAK), we train Random Forest classifiers on each embedding representation and evaluate their ability to distinguish positive from negative data examples. We find that general sequence embedding methods struggle to differentiate between positive and negative TCRs. We further show that the choice of negative data generation method significantly impacts classifier performance. Our findings highlight fundamental limitations in current TCR specificity training data and general protein language models, and underscore the need for TCR-specific embeddings, experimentally validated negative datasets, transparent reporting of negative data construction, and epitope-specific modeling approaches.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2026
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.64898/2026.09.21.753204"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "N",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2026-09-27",
+          "firstPublicationDate": "2026-09-25",
+          "firstIndexDate": "2026-09-27",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42644114",
+          "source": "MED",
+          "pmid": "42644114",
+          "pmcid": "PMC13505571",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13505571"
+            ]
+          },
+          "doi": "10.34133/csbj.0117",
+          "title": "HELP-TCR: Harmonized Explainable Language Processing Toolkit for T Cell Antigen Receptor Repertoires.",
+          "authorString": "Kalesnik Y, Krawczyk D, Pietrzak M, Seweryn M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Kalesnik Y",
+                "lastName": "Kalesnik",
+                "firstName": "Yulyana",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0009-3195-4994"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centre for Digital Biology and Biomedical Sciences, University of Lodz, Lodz, Poland."
+                    },
+                    {
+                      "affiliation": "Regional Digital Medicine Center, Copernicus Memorial Hospital and University of Lodz, Lodz, Poland."
+                    },
+                    {
+                      "affiliation": "University of Lodz Doctoral School of Exact and Natural Sciences, University of Lodz, Lodz, Poland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Krawczyk D",
+                "lastName": "Krawczyk",
+                "firstName": "Dawid",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5276-7436"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Regional Digital Medicine Center, Copernicus Memorial Hospital and University of Lodz, Lodz, Poland."
+                    },
+                    {
+                      "affiliation": "University of Lodz Doctoral School of Exact and Natural Sciences, University of Lodz, Lodz, Poland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pietrzak M",
+                "lastName": "Pietrzak",
+                "firstName": "Maciej",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5768-7884"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biomedical Informatics, The Ohio State University, Columbus, OH, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Seweryn M",
+                "lastName": "Seweryn",
+                "firstName": "Micha\u0142",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9090-3435"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centre for Digital Biology and Biomedical Sciences, University of Lodz, Lodz, Poland."
+                    },
+                    {
+                      "affiliation": "Regional Digital Medicine Center, Copernicus Memorial Hospital and University of Lodz, Lodz, Poland."
+                    },
+                    {
+                      "affiliation": "College of Medicine, The Ohio State University, Columbus, OH, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5768-7884"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5276-7436"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9090-3435"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0009-3195-4994"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "35",
+            "journalIssueId": 4172634,
+            "dateOfPublication": "2026 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Comput Struct Biotechnol J",
+              "title": "Computational and structural biotechnology journal",
+              "essn": "2001-0370",
+              "issn": "2001-0370",
+              "isoabbreviation": "Comput Struct Biotechnol J",
+              "nlmid": "101585369"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "0117",
+          "abstractText": "Functional characterization of T cell antigen receptor (TCR) repertoires is critical for understanding adaptive immune responses across diverse contexts, including infectious diseases, cancer, autoimmune conditions, and allergic disorders. Detailed analysis of TCR repertoires can reveal disease-specific signatures and support biomarker discovery and the development of immunotherapies as well as vaccines. Current computational approaches often prioritize global repertoire metrics or employ deep learning models that, while powerful, offer limited interpretability. Here, we present HELP-TCR, a novel machine learning framework based on natural language processing that integrates low-dimensional, explainable feature extraction with robust sample classification performance. HELP-TCR aims to classify the per-sample TCR repertoires via a nonparametric probabilistic approach. TCR repertoires are represented by modeling within sample position-specific distributions of single amino acids and amino acid pairs, transforming sequences into multidimensional tensor structures. To increase reproducibility, a consensus grouping method is proposed to merge the features with highly similar position-wise distributions. A modified ResNet-18 deep learning architecture, adapted to process these tensors, enables accurate sample classification, while post hoc analysis based on saliency map highlights the most informative features contributing to model predictions. Using a dataset of bootstrapped TCR sequences, HELP-TCR achieved an area under the curve (AUC) of 0.96, outperforming existing methods including DeepTCR (AUC 0.76) and TCR-BERT embeddings, which exhibited limited class separability. Beyond performance, HELP-TCR enables identification of position-specific amino acid motifs (pairs) associated with sample TCR repertoire classification decisions, offering biologically interpretable insights into TCR repertoire differences. By emphasizing model interpretability alongside predictive accuracy, HELP-TCR provides a versatile platform for functional TCR repertoire analysis with potential applications in immunotherapy development, vaccine design, and immune monitoring.",
+          "affiliation": "Centre for Digital Biology and Biomedical Sciences, University of Lodz, Lodz, Poland.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "methods-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "P30 CA016058",
+                "orderIn": 0
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.34133/csbj.0117"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13505571"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13505571?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-08-26",
+          "dateOfCreation": "2026-08-26",
+          "dateOfRevision": "2026-08-28",
+          "electronicPublicationDate": "2026-08-21",
+          "firstPublicationDate": "2026-08-21",
+          "firstIndexDate": "2026-08-27",
+          "fullTextReceivedDate": "2026-09-10",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42504034",
+          "source": "MED",
+          "pmid": "42504034",
+          "pmcid": "PMC13402767",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13402767"
+            ]
+          },
+          "doi": "10.1111/imr.70145",
+          "title": "Machine Learning of Personal Repertoires From Public T Cell Receptors.",
+          "authorString": "Malca O, Zilberberg A, Efroni S.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Malca O",
+                "lastName": "Malca",
+                "firstName": "Or",
+                "initials": "O",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, Israel."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zilberberg A",
+                "lastName": "Zilberberg",
+                "firstName": "Alona",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, Israel."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Efroni S",
+                "lastName": "Efroni",
+                "firstName": "Sol",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7927-6349"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, Israel."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7927-6349"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "341",
+            "journalIssueId": 4232383,
+            "dateOfPublication": "2026 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Immunol Rev",
+              "title": "Immunological reviews",
+              "essn": "1600-065X",
+              "issn": "0105-2896",
+              "isoabbreviation": "Immunol Rev",
+              "nlmid": "7702118"
+            },
+            "printPublicationDate": "2026-08-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e70145",
+          "abstractText": "The T-cell receptor (TCR) repertoire records an individual's immunological history, but most unique CDR3 sequences in any one person are private and uninformative about anyone else. A small subset, however, recurs predictably across unrelated donors. These public TCR\u03b2 sequences are independently generated by multiple mechanisms: enrichment by thymic positive selection on a largely shared self-peptide-MHC ligandome, further amplified by selection on common foreign antigens and convergent recombination, together, they are what makes a personal repertoire computationally legible: they provide the shared coordinate system on which otherwise incommensurable repertoires can be aligned and compared. This review takes public TCR sequences as its protagonist. We trace the biology of TCR publicity through new measurements on a 1.5-billion-sequence meta-repertoire (7943 samples, 41 studies) that quantify five interrelated properties: the universe is finite, with Chao2-bounded ceilings (i.e., a lower estimate) of \u22481.97\u2009\u00d7\u200910<sup>9</sup> amino acid and \u22488.25\u2009\u00d7\u200910<sup>9</sup> nucleotide CDR3\u03b2 sequences of which \u224822.5% and \u224812% have already been observed; the rarefaction curve already bends within [0, 7943] by a factor of \u00d73.3 (amino acid) and \u00d71.6 (nucleotide) relative to a linear-at-initial-rate extrapolation; publicness is a cohort-scale statistic, with the heavy tail of the publicness distribution growing predictably from N\u2009=\u2009200 to N\u2009=\u20097943; super-public sequences are \u22480.014% of unique amino acid CDR3s but carry 8.45% of the total observation mass; and the recapture rate of a CDR3 already observed in another donor reaches 73.3% (amino acid) and 36.2% (nucleotide) at N\u2009\u2248\u20097900. We then trace the family of computational methods that exploit public sequences as features: frequency vectors, sequence-similarity networks, self-supervised transformer embeddings (CVC, Beaker, TCR-BERT, SCEPTR), and our own anchor-based graph neural networks (GraffiTee). We summarize their performance across cancer detection, autoimmunity, infectious disease, immunotherapy monitoring, and immunological aging, alongside the structural confounders (HLA, age, sex, sequencing platform) that bound generalizability. We connect repertoire-level classification to TCR-pMHC binding prediction and antigen identity, and ask what stands between current capabilities and a universal TCR-based diagnostic.",
+          "affiliation": "Faculty of Life Sciences, Bar-Ilan University, Ramat Gan, Israel.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Israeli Council for Higher Education",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Complementarity Determining Regions",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, alpha-beta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Machine Learning"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunoinformatics"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, alpha-beta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Complementarity Determining Regions",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1111/imr.70145"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13402767"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13402767?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-07-27",
+          "dateOfCreation": "2026-07-27",
+          "dateOfRevision": "2026-08-13",
+          "firstPublicationDate": "2026-08-01",
+          "firstIndexDate": "2026-07-30",
+          "fullTextReceivedDate": "2026-09-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR423052",
+          "source": "PPR",
+          "doi": "10.1101/2021.11.18.469186",
+          "title": "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-xbinding analyses",
+          "authorString": "Wu K, Yost KE, Daniel B, Belk JA, Xia Y, Egawa T, Satpathy A, Chang HY, Zou J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Wu K",
+                "lastName": "Wu",
+                "firstName": "Kevin",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4786-9796"
+                }
+              },
+              {
+                "fullName": "Yost KE",
+                "lastName": "Yost",
+                "firstName": "Kathryn",
+                "initials": "KE",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6807-950X"
+                }
+              },
+              {
+                "fullName": "Daniel B",
+                "lastName": "Daniel",
+                "firstName": "Bence",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2410-8767"
+                }
+              },
+              {
+                "fullName": "Belk JA",
+                "lastName": "Belk",
+                "firstName": "Julia",
+                "initials": "JA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4724-6158"
+                }
+              },
+              {
+                "fullName": "Xia Y",
+                "lastName": "Xia",
+                "firstName": "Yu",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Egawa T",
+                "lastName": "Egawa",
+                "firstName": "Takeshi",
+                "initials": "T"
+              },
+              {
+                "fullName": "Satpathy A",
+                "lastName": "Satpathy",
+                "firstName": "Ansuman",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5167-537X"
+                }
+              },
+              {
+                "fullName": "Chang HY",
+                "lastName": "Chang",
+                "firstName": "Howard",
+                "initials": "HY"
+              },
+              {
+                "fullName": "Zou J",
+                "lastName": "Zou",
+                "firstName": "James",
+                "initials": "J"
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6807-950X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2410-8767"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4786-9796"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5167-537X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4724-6158"
+              }
+            ]
+          },
+          "pubYear": "2021",
+          "abstractText": "The T-cell receptor (TCR) allows T-cells to recognize and respond to antigens presented by infected and diseased cells. However, due to TCRs\u2019 staggering diversity and the complex binding dynamics underlying TCR antigen recognition, it is challenging to predict which antigens a given TCR may bind to. Here, we present TCR-BERT, a deep learning model that applies self-supervised transfer learning to this problem. TCR-BERT leverages unlabeled TCR sequences to learn a general, versatile representation of TCR sequences, enabling numerous downstream applications. We demonstrate that TCR-BERT can be used to build state-of-the-art TCR-antigen binding predictors with improved generalizability compared to prior methods. TCR-BERT simultaneously facilitates clustering sequences likely to share antigen specificities. It also facilitates computational approaches to challenging, unsolved problems such as designing novel TCR sequences with engineered binding affinities. Importantly, TCR-BERT enables all these advances by focusing on residues with known biological significance. TCR-BERT can be a useful tool for T-cell scientists, enabling greater understanding and more diverse applications, and provides a conceptual framework for leveraging unlabeled data to improve machine learning on biological sequences.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2021
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.biorxiv.org/content/biorxiv/early/2021/11/20/2021.11.18.469186.full.pdf"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1101/2021.11.18.469186"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 21,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2021-11-21",
+          "firstPublicationDate": "2021-11-20",
+          "firstIndexDate": "2021-11-21",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40092527",
+          "source": "MED",
+          "pmid": "40092527",
+          "pmcid": "PMC11908642",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11908642"
+            ]
+          },
+          "doi": "10.1093/bioadv/vbaf028",
+          "title": "Masked language modeling pretraining dynamics for downstream peptide: T-cell receptor binding prediction.",
+          "authorString": "Landry B, Zhang J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Landry B",
+                "lastName": "Landry",
+                "firstName": "Brock",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0002-5495-5892"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Computer Science & Engineering, Louisiana State University, Baton Rouge, LA 70803, United States."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang J",
+                "lastName": "Zhang",
+                "firstName": "Jian",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2673-8818"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Computer Science & Engineering, Louisiana State University, Baton Rouge, LA 70803, United States."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2673-8818"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0002-5495-5892"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "5",
+            "journalIssueId": 3876806,
+            "dateOfPublication": "2025 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Bioinform Adv",
+              "title": "Bioinformatics advances",
+              "essn": "2635-0041",
+              "issn": "2635-0041",
+              "isoabbreviation": "Bioinform Adv",
+              "nlmid": "9918282081306676"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "vbaf028",
+          "abstractText": "<h4>Motivation</h4>Predicting antigen peptide and T-cell receptor (TCR) binding is difficult due to the combinatoric nature of peptides and the scarcity of labeled peptide-binding pairs. The masked language modeling method of pretraining is reliably used to increase the downstream performance of peptide:TCR binding prediction models by leveraging unlabeled data. In the literature, binding prediction models are commonly trained until the validation loss converges. To evaluate this method, cited transformer model architectures pretrained with masked language modeling are investigated to assess the benefits of achieving lower loss metrics during pretraining. The downstream performance metrics for these works are recorded after each subsequent interval of masked language modeling pretraining.<h4>Results</h4>The results demonstrate that the downstream performance benefit achieved from masked language modeling peaks substantially before the pretraining loss converges. Using the pretraining loss metric is largely ineffective for precisely identifying the best downstream performing pretrained model checkpoints (or saved states). However, the pretraining loss metric in these scenarios can be used to mark a threshold in which the downstream performance benefits from pretraining have fully diminished. Further pretraining beyond this threshold does not negatively impact downstream performance but results in unpredictable bilateral deviations from the post-threshold average downstream performance benefit.<h4>Availability and implementation</h4>The datasets used in this article for model training are publicly available from each original model's authors at https://github.com/SFGLab/bertrand, https://github.com/wukevin/tcr-bert, https://github.com/NKI-AI/STAPLER, and https://github.com/barthelemymp/TULIP-TCR.",
+          "affiliation": "Division of Computer Science & Engineering, Louisiana State University, Baton Rouge, LA 70803, United States.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/bioadv/vbaf028"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11908642"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11908642?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-03-17",
+          "dateOfRevision": "2025-03-18",
+          "electronicPublicationDate": "2025-02-20",
+          "firstPublicationDate": "2025-02-20",
+          "firstIndexDate": "2025-03-17",
+          "fullTextReceivedDate": "2025-03-24",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

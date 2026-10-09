@@ -1,0 +1,581 @@
+{
+  "code_digest": "51fae69d178939dc0d3542266549d19b43433b0b22a081e27df6edb428682db3",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/code/20260930T040449Z_51fae69d1789",
+  "created_utc": "2026-09-30T04:04:49.790219+00:00",
+  "job_records": "artifacts/completion_v2/jobs/pretrain",
+  "phase": "pretrain",
+  "protocol": "paper/protocol_v2.md",
+  "python": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/pretrain/train.tsv",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/raw/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--sampling",
+            "raw",
+            "--steps",
+            "20000",
+            "--batch-size",
+            "1024",
+            "--learning-rate",
+            "3e-4",
+            "--warmup-steps",
+            "500",
+            "--validation-interval",
+            "500",
+            "--validation-sequences",
+            "2048",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_denoiser.py"
+        },
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/completion_v2/pretrain/raw/seed-0/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/raw/seed-0/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-raw-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/raw/seed-0/last.pt",
+        "artifacts/completion_v2/pretrain/raw/seed-0/summary.json",
+        "artifacts/completion_v2/pretrain/raw/seed-0/provenance.json",
+        "artifacts/completion_v2/pretrain/raw/seed-0/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/pretrain/train.tsv",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/raw/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--sampling",
+            "raw",
+            "--steps",
+            "20000",
+            "--batch-size",
+            "1024",
+            "--learning-rate",
+            "3e-4",
+            "--warmup-steps",
+            "500",
+            "--validation-interval",
+            "500",
+            "--validation-sequences",
+            "2048",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_denoiser.py"
+        },
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/completion_v2/pretrain/raw/seed-1/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/raw/seed-1/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-raw-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/raw/seed-1/last.pt",
+        "artifacts/completion_v2/pretrain/raw/seed-1/summary.json",
+        "artifacts/completion_v2/pretrain/raw/seed-1/provenance.json",
+        "artifacts/completion_v2/pretrain/raw/seed-1/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/pretrain/train.tsv",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/balanced/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--sampling",
+            "balanced",
+            "--steps",
+            "20000",
+            "--batch-size",
+            "1024",
+            "--learning-rate",
+            "3e-4",
+            "--warmup-steps",
+            "500",
+            "--validation-interval",
+            "500",
+            "--validation-sequences",
+            "2048",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_denoiser.py"
+        },
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/completion_v2/pretrain/balanced/seed-0/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/balanced/seed-0/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-balanced-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/balanced/seed-0/last.pt",
+        "artifacts/completion_v2/pretrain/balanced/seed-0/summary.json",
+        "artifacts/completion_v2/pretrain/balanced/seed-0/provenance.json",
+        "artifacts/completion_v2/pretrain/balanced/seed-0/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/pretrain/train.tsv",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/balanced/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--sampling",
+            "balanced",
+            "--steps",
+            "20000",
+            "--batch-size",
+            "1024",
+            "--learning-rate",
+            "3e-4",
+            "--warmup-steps",
+            "500",
+            "--validation-interval",
+            "500",
+            "--validation-sequences",
+            "2048",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_denoiser.py"
+        },
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/completion_v2/pretrain/balanced/seed-1/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/balanced/seed-1/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-balanced-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/balanced/seed-1/last.pt",
+        "artifacts/completion_v2/pretrain/balanced/seed-1/summary.json",
+        "artifacts/completion_v2/pretrain/balanced/seed-1/provenance.json",
+        "artifacts/completion_v2/pretrain/balanced/seed-1/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/pretrain/train.tsv",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/gamma/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--sampling",
+            "gamma",
+            "--steps",
+            "20000",
+            "--batch-size",
+            "1024",
+            "--learning-rate",
+            "3e-4",
+            "--warmup-steps",
+            "500",
+            "--validation-interval",
+            "500",
+            "--validation-sequences",
+            "2048",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_denoiser.py"
+        },
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/completion_v2/pretrain/gamma/seed-0/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/gamma/seed-0/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-gamma-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/gamma/seed-0/last.pt",
+        "artifacts/completion_v2/pretrain/gamma/seed-0/summary.json",
+        "artifacts/completion_v2/pretrain/gamma/seed-0/provenance.json",
+        "artifacts/completion_v2/pretrain/gamma/seed-0/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/pretrain/train.tsv",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/gamma/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--sampling",
+            "gamma",
+            "--steps",
+            "20000",
+            "--batch-size",
+            "1024",
+            "--learning-rate",
+            "3e-4",
+            "--warmup-steps",
+            "500",
+            "--validation-interval",
+            "500",
+            "--validation-sequences",
+            "2048",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_denoiser.py"
+        },
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/completion_v2/pretrain/gamma/seed-1/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/gamma/seed-1/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-gamma-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/gamma/seed-1/last.pt",
+        "artifacts/completion_v2/pretrain/gamma/seed-1/summary.json",
+        "artifacts/completion_v2/pretrain/gamma/seed-1/provenance.json",
+        "artifacts/completion_v2/pretrain/gamma/seed-1/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/pretrain/train.tsv",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/delta/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--sampling",
+            "delta",
+            "--steps",
+            "20000",
+            "--batch-size",
+            "1024",
+            "--learning-rate",
+            "3e-4",
+            "--warmup-steps",
+            "500",
+            "--validation-interval",
+            "500",
+            "--validation-sequences",
+            "2048",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_denoiser.py"
+        },
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/completion_v2/pretrain/delta/seed-0/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/delta/seed-0/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-delta-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/delta/seed-0/last.pt",
+        "artifacts/completion_v2/pretrain/delta/seed-0/summary.json",
+        "artifacts/completion_v2/pretrain/delta/seed-0/provenance.json",
+        "artifacts/completion_v2/pretrain/delta/seed-0/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/pretrain/train.tsv",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/delta/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--sampling",
+            "delta",
+            "--steps",
+            "20000",
+            "--batch-size",
+            "1024",
+            "--learning-rate",
+            "3e-4",
+            "--warmup-steps",
+            "500",
+            "--validation-interval",
+            "500",
+            "--validation-sequences",
+            "2048",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_denoiser.py"
+        },
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/completion_v2/pretrain/delta/seed-1/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/delta/seed-1/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-delta-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/delta/seed-1/last.pt",
+        "artifacts/completion_v2/pretrain/delta/seed-1/summary.json",
+        "artifacts/completion_v2/pretrain/delta/seed-1/provenance.json",
+        "artifacts/completion_v2/pretrain/delta/seed-1/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/sqrt/seed-0/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-sqrt-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/sqrt/seed-0/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--checkpoint",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt",
+            "--validation",
+            "data/splits/pretrain/gamma_validation.tsv",
+            "data/splits/pretrain/delta_validation.tsv",
+            "--output",
+            "artifacts/completion_v2/pretrain/sqrt/seed-1/denoising_audit.json",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_denoising.py"
+        }
+      ],
+      "id": "pretrain-sqrt-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/pretrain/sqrt/seed-1/denoising_audit.json"
+      ],
+      "requirements": [
+        "P1",
+        "P2"
+      ]
+    }
+  ]
+}

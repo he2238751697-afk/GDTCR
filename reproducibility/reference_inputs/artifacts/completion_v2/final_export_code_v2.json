@@ -1,0 +1,9 @@
+{
+  "created_utc": "20260930T102848Z",
+  "digest": "43b16a4385db4e30f991cfb7b5fe4192c298402ca8727b70e99e918ff789e375",
+  "files": 156,
+  "git_head": "3fd44abbee0e10a858dd65aa8cbfb0b34cc84197",
+  "reason": "Includes complete export of the already executed tuning sampling grid; scientific tasks and results unchanged.",
+  "snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/publication_code/20260930T102848Z_43b16a4385db",
+  "supersedes_candidate": "artifacts/completion_v2/final_export_code.json"
+}

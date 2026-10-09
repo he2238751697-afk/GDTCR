@@ -1,0 +1,11 @@
+{
+  "comparisons": 552,
+  "complete": true,
+  "evidence_sha256": "5badb3b9b8ead02c57afeb5f578f85f3a5e343bad9714fb7daa08f48342b2f3b",
+  "metrics_rows": 298562,
+  "run_reports": 193,
+  "strata_rows": 236898,
+  "task_counts": {
+    "complete": 557
+  }
+}

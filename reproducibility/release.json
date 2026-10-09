@@ -1,0 +1,38 @@
+{
+  "code_license": "not yet selected by rights holder",
+  "effective_primary_tasks": 557,
+  "initializations": {
+    "bytes": 325445055,
+    "filename": "gdtcr-legacy-initializations.tar.gz",
+    "files": {
+      "artifacts/runs/pretrain/a800/seed-0/last.pt": {
+        "bytes": 88918727,
+        "sha256": "6513edd4cd2bd10908c995748b0dc2c2e48e621d21f6d4e10c9e7c64fde5be7c"
+      },
+      "artifacts/runs/pretrain/a800/seed-1/last.pt": {
+        "bytes": 88918727,
+        "sha256": "a1acac8384c99b9010938ff00502a723d9257e2a535c922c0bdad17987a556d9"
+      },
+      "artifacts/runs/pretrain/source_holdout/seed-0/last.pt": {
+        "bytes": 88918727,
+        "sha256": "2ffd597ad16695e67075304d781faff51d5abbf3171e2f20e5991be5860ae451"
+      },
+      "artifacts/runs/pretrain/source_holdout/seed-1/last.pt": {
+        "bytes": 88918727,
+        "sha256": "439bacbeab1dbff54cc1d14b066ebaeba536856018a1fc94dbc35206cefe8a3a"
+      }
+    },
+    "sha256": "18a3dbedaa1023278339512392bb72fe81f8bf10c11541fce65d7ec08f5f5e4c"
+  },
+  "primary_evidence_sha256": "5badb3b9b8ead02c57afeb5f578f85f3a5e343bad9714fb7daa08f48342b2f3b",
+  "raw_data_terms": "See THIRD_PARTY_DATA.md; no blanket relicensing",
+  "release_tag": "reproducibility-v1",
+  "repository": "he2238751697-afk/GDTCR",
+  "revision_tasks": 43,
+  "schema_version": 1,
+  "source_snapshots": {
+    "distinct_objects": 271,
+    "restored_files": 2768,
+    "snapshots": 27
+  }
+}

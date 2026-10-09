@@ -1,0 +1,62 @@
+{
+  "code_digest": "68d5053ed67841a464df98492a3f561ed818e9394efcc5caaef907f5ba8148b5",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/code/20260930T062313Z_68d5053ed678",
+  "created_utc": "2026-09-30T06:23:13.702069+00:00",
+  "job_records": "artifacts/completion_v2/jobs/distance_audit",
+  "phase": "distance_audit",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--output",
+            "artifacts/completion_v2/distance_audit"
+          ],
+          "script": "scripts/audit_distances_v2.py"
+        }
+      ],
+      "id": "distance-audit-all",
+      "outputs": [
+        "artifacts/completion_v2/distance_audit/summary.json",
+        "artifacts/completion_v2/distance_audit/provenance.json",
+        "artifacts/completion_v2/distance_audit/checksums.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "artifacts/completion_v2/distances/pretrain_gamma/summary.json",
+        "artifacts/completion_v2/distances/pretrain_delta/summary.json",
+        "artifacts/completion_v2/distances/pretrain_source_excluded_delta/summary.json",
+        "artifacts/completion_v2/distances/pretrain_source_excluded_gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction50/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction50/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/source_holdout/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/source_holdout/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed3407/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed3407/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed2026/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed2026/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction10/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction10/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed17/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed17/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction25/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction25/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/source_shared/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/source_shared/gamma/summary.json"
+      ]
+    }
+  ]
+}

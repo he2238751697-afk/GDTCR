@@ -1,0 +1,13 @@
+condition	training_seed	path	reconstructed	total_sequence_draws	observed_gamma_fraction	sequence_draws_delta	sequence_draws_gamma	target_tokens_including_eos_delta	target_tokens_including_eos_gamma
+balanced	3407	artifacts/completion_v2/pretrain/balanced/seed-0	False	20480000	0.500086376953125	10238231	10241769	203812603	160081589
+balanced	3508	artifacts/completion_v2/pretrain/balanced/seed-1	False	20480000	0.5002322265625	10235244	10244756	203745117	160138414
+delta	3407	artifacts/completion_v2/pretrain/delta/seed-0	False	20480000	0.0	20480000	0	407698056	0
+delta	3508	artifacts/completion_v2/pretrain/delta/seed-1	False	20480000	0.0	20480000	0	407698873	0
+gamma	3407	artifacts/completion_v2/pretrain/gamma/seed-0	False	20480000	1.0	0	20480000	0	320119910
+gamma	3508	artifacts/completion_v2/pretrain/gamma/seed-1	False	20480000	1.0	0	20480000	0	320116691
+raw	3407	artifacts/completion_v2/pretrain/raw/seed-0	False	20480000	0.1319869140625	17776908	2703092	353880529	42248642
+raw	3508	artifacts/completion_v2/pretrain/raw/seed-1	False	20480000	0.13199423828125	17776758	2703242	353879430	42256294
+sqrt	3407	artifacts/runs/pretrain/a800/seed-0	True	20480000	0.280606787109375	14733173	5746827	293288123	89818445
+sqrt	3508	artifacts/runs/pretrain/a800/seed-1	True	20480000	0.280612353515625	14733059	5746941	293283958	89832019
+source_sqrt	3407	artifacts/runs/pretrain/source_holdout/seed-0	True	20480000	0.280559326171875	14734145	5745855	293348990	89825187
+source_sqrt	3508	artifacts/runs/pretrain/source_holdout/seed-1	True	20480000	0.28056396484375	14734050	5745950	293304148	89812499

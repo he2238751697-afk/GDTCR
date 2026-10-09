@@ -1,0 +1,79 @@
+{
+  "code_digest": "1ee87248f3c591e8f94001fa78fe1678793abad85b6ae6b32c2de2a377e81a24",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/code/20260930T065621Z_1ee87248f3c5",
+  "created_utc": "2026-09-30T06:56:21.108218+00:00",
+  "job_records": "artifacts/completion_v2/jobs/evaluation_audit_integration",
+  "phase": "evaluation_audit",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--task",
+            "2",
+            "--output",
+            "artifacts/completion_v2/evaluation_audit_integration"
+          ],
+          "script": "scripts/audit_evaluations_v2.py"
+        }
+      ],
+      "id": "evaluation_audit_constant_integration",
+      "outputs": [
+        "artifacts/completion_v2/evaluation_audit_integration/summary.json",
+        "artifacts/completion_v2/evaluation_audit_integration/provenance.json",
+        "artifacts/completion_v2/evaluation_audit_integration/checksums.json"
+      ],
+      "requirements": [
+        "E1",
+        "E2",
+        "E3",
+        "C1"
+      ],
+      "requires": [
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/validation_tuning/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/validation_tuning/rows.json.gz",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/validation_tuning/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/validation_tuning/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/validation_calibration/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/validation_calibration/rows.json.gz",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/validation_calibration/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/validation_calibration/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/calibration/free/settings.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/calibration/free/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/calibration/free/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/calibration/free/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/validation_tuning/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/validation_tuning/rows.json.gz",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/validation_tuning/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/validation_tuning/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/validation_calibration/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/validation_calibration/rows.json.gz",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/validation_calibration/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/validation_calibration/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/calibration/pools/settings.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/calibration/pools/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/calibration/pools/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/calibration/pools/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/test/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/test/rows.json.gz",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/test/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/free/test/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/analyzed/free/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/analyzed/free/rows.json.gz",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/analyzed/free/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/analyzed/free/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/test/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/test/rows.json.gz",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/test/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/pools/test/checksums.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/analyzed/pools/summary.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/analyzed/pools/rows.json.gz",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/analyzed/pools/provenance.json",
+        "artifacts/completion_v2/evaluation/split_seed17/constant/seed-0/analyzed/pools/checksums.json"
+      ]
+    }
+  ]
+}

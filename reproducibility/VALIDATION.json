@@ -1,0 +1,40 @@
+{
+  "acyclic_dependency_graph": true,
+  "all_query_results_equal_reference": true,
+  "canonical_query_results_sha256": "8e1d8461212c96da5262630c947b56902acd58b3d2820ccd30e3cec42dcc733d",
+  "checked_utc": "2026-10-09T03:40:56.530441+00:00",
+  "effective_tasks": 600,
+  "executed_reproduction_task": "transfer-unseen_gamma_repaired",
+  "gpu_retraining_during_publication": false,
+  "legacy_checkpoints_restored": 4,
+  "missing_external_inputs": [],
+  "passed": true,
+  "portable_manifests": 25,
+  "processed_reconstruction": {
+    "passed": true,
+    "processed_sha256": {
+      "heavy_chain.txt": "2b94a7d70c6deb484607af9f9f4d1649d875f680f4516a5e831355ec7e935246",
+      "light_chain.txt": "c7a1ceeb939acfbd9bc7c846fcbd81b3c0f646bf459e13c2bb65aa6ef85cd6b7",
+      "paired_chain.txt": "c144fd4ad466021d276540eb9210e55e34ad12591e5d50e25d8746950de157b4"
+    },
+    "records": {
+      "heavy_chain.txt": 1262692,
+      "light_chain.txt": 194887,
+      "paired_chain.txt": 9068
+    }
+  },
+  "python": "3.10.20",
+  "query_count": 64,
+  "restored_frozen_files": 2768,
+  "scope": "Data reconstruction, full unit suite, frozen-source restoration, dependency closure and one deterministic CPU task. Full GPU training was not repeated for publication.",
+  "source_snapshots": 27,
+  "summary_equal_reference": true,
+  "tested_source_sha256": {
+    "scripts/prepare_github_release.py": "402557d187b698101ba010b5ebf0ea1a56c37425c2f90199cad2c6d2462fcb5f",
+    "scripts/reproduce.py": "cd1e92ab63a22e6dacfa92a021beaeeea35e073b421e577c4db8aa29bbd9facf",
+    "tests/test_public_release.py": "18fb6903a6338686b5088841c80e30de54e88297bea0c4656ad2944e41cf4076"
+  },
+  "torch": "2.7.1+cu126",
+  "unit_test_command": "OMP_NUM_THREADS=2 PYTHONPATH=src:. python -B -m unittest discover -s tests -v",
+  "unit_tests_passed": 63
+}

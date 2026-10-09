@@ -1,0 +1,174 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1101/2021.11.18.469186",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR423052",
+        "source": "PPR",
+        "doi": "10.1101/2021.11.18.469186",
+        "title": "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-xbinding analyses",
+        "authorString": "Wu K, Yost KE, Daniel B, Belk JA, Xia Y, Egawa T, Satpathy A, Chang HY, Zou J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu K",
+              "lastName": "Wu",
+              "firstName": "Kevin",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4786-9796"
+              }
+            },
+            {
+              "fullName": "Yost KE",
+              "lastName": "Yost",
+              "firstName": "Kathryn",
+              "initials": "KE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6807-950X"
+              }
+            },
+            {
+              "fullName": "Daniel B",
+              "lastName": "Daniel",
+              "firstName": "Bence",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2410-8767"
+              }
+            },
+            {
+              "fullName": "Belk JA",
+              "lastName": "Belk",
+              "firstName": "Julia",
+              "initials": "JA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4724-6158"
+              }
+            },
+            {
+              "fullName": "Xia Y",
+              "lastName": "Xia",
+              "firstName": "Yu",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Egawa T",
+              "lastName": "Egawa",
+              "firstName": "Takeshi",
+              "initials": "T"
+            },
+            {
+              "fullName": "Satpathy A",
+              "lastName": "Satpathy",
+              "firstName": "Ansuman",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5167-537X"
+              }
+            },
+            {
+              "fullName": "Chang HY",
+              "lastName": "Chang",
+              "firstName": "Howard",
+              "initials": "HY"
+            },
+            {
+              "fullName": "Zou J",
+              "lastName": "Zou",
+              "firstName": "James",
+              "initials": "J"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6807-950X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2410-8767"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4786-9796"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5167-537X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4724-6158"
+            }
+          ]
+        },
+        "pubYear": "2021",
+        "abstractText": "The T-cell receptor (TCR) allows T-cells to recognize and respond to antigens presented by infected and diseased cells. However, due to TCRs\u2019 staggering diversity and the complex binding dynamics underlying TCR antigen recognition, it is challenging to predict which antigens a given TCR may bind to. Here, we present TCR-BERT, a deep learning model that applies self-supervised transfer learning to this problem. TCR-BERT leverages unlabeled TCR sequences to learn a general, versatile representation of TCR sequences, enabling numerous downstream applications. We demonstrate that TCR-BERT can be used to build state-of-the-art TCR-antigen binding predictors with improved generalizability compared to prior methods. TCR-BERT simultaneously facilitates clustering sequences likely to share antigen specificities. It also facilitates computational approaches to challenging, unsolved problems such as designing novel TCR sequences with engineered binding affinities. Importantly, TCR-BERT enables all these advances by focusing on residues with known biological significance. TCR-BERT can be a useful tool for T-cell scientists, enabling greater understanding and more diverse applications, and provides a conceptual framework for leveraging unlabeled data to improve machine learning on biological sequences.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2021
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.biorxiv.org/content/biorxiv/early/2021/11/20/2021.11.18.469186.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2021.11.18.469186"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 21,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2021-11-21",
+        "firstPublicationDate": "2021-11-20",
+        "firstIndexDate": "2021-11-21",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

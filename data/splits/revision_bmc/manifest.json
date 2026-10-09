@@ -1,0 +1,133 @@
+{
+  "known_pairs_sha256": "c144fd4ad466021d276540eb9210e55e34ad12591e5d50e25d8746950de157b4",
+  "protocol": "paper/revision_bmc_protocol.md",
+  "protocol_sha256": "5e41bf6956ed5ae6d605eb569163ef13fa0d4e048bedd2d02777c0650324324a",
+  "protocols": {
+    "giant_edge_holdout": {
+      "direction": "both",
+      "output_sha256": {
+        "test.tsv": "0513bca84c2da512a3905d15920149477a17e86dad81055a58cc293bea6ffb15",
+        "train.tsv": "7a267de6a42e6862e0436a1bf0bced40528bcf527df0882edf42c9dc58e91d35",
+        "validation.tsv": "f5c5ab763d88301d3c171e8110b62508d1985ce3f0977821083c4451ad5ffee0",
+        "validation_selection.tsv": "f5c5ab763d88301d3c171e8110b62508d1985ce3f0977821083c4451ad5ffee0"
+      },
+      "selection_information": {
+        "0": {
+          "edges": 500,
+          "largest_query_edges": 43,
+          "minimum_distractors": 104,
+          "queries": 177,
+          "queries_without_distractors": 0,
+          "target_universe": 242
+        },
+        "1": {
+          "edges": 500,
+          "largest_query_edges": 34,
+          "minimum_distractors": 89,
+          "queries": 242,
+          "queries_without_distractors": 0,
+          "target_universe": 177
+        }
+      },
+      "sizes": {
+        "test": 500,
+        "train": 6254,
+        "validation": 500
+      },
+      "train_test_overlap": [
+        177,
+        261
+      ],
+      "uncertainty_unit": "single_original_component",
+      "unique_chains": {
+        "test": [
+          177,
+          261
+        ],
+        "train": [
+          2890,
+          5185
+        ],
+        "validation": [
+          177,
+          242
+        ]
+      },
+      "validation_roles": {
+        "selection": {
+          "edges": 500,
+          "gamma_queries": 177
+        }
+      }
+    },
+    "unseen_gamma_repaired": {
+      "direction": "gamma_to_delta",
+      "original_sha256": {
+        "test": "b9670b129f6a293ea19c0546491f518750c8e33a7adca67a7d32f9e65e0b1193",
+        "train": "eebbb22f32e0f36875a970f359a8608295909e858ec5e0524904319c2dd015b6",
+        "validation": "4b3a7036114b4a730243358cfb956cef10f8b953960c44417e1e631debf2cc52"
+      },
+      "output_sha256": {
+        "test.tsv": "b9670b129f6a293ea19c0546491f518750c8e33a7adca67a7d32f9e65e0b1193",
+        "train.tsv": "eebbb22f32e0f36875a970f359a8608295909e858ec5e0524904319c2dd015b6",
+        "validation.tsv": "4b3a7036114b4a730243358cfb956cef10f8b953960c44417e1e631debf2cc52",
+        "validation_calibration.tsv": "ed6ded6003585b9112a636fdd021cfbb89a26d7532e1f45caf409c8c5afff900",
+        "validation_selection.tsv": "0acdc6e22b2bc00c0b9dad5d00b33b7faa9cdffd76e37899afda82f9461ea28a",
+        "validation_tuning.tsv": "dd801da498895ec56e82d9e132f76fb41c1573f83d609c337c8834e2411e4df5"
+      },
+      "selection_information": {
+        "0": {
+          "edges": 275,
+          "largest_query_edges": 137,
+          "minimum_distractors": 118,
+          "queries": 31,
+          "queries_without_distractors": 0,
+          "target_universe": 255
+        }
+      },
+      "sizes": {
+        "test": 907,
+        "train": 7254,
+        "validation": 907
+      },
+      "train_test_overlap": [
+        0,
+        252
+      ],
+      "uncertainty_unit": "source_query",
+      "unchanged_original_membership": {
+        "test": true,
+        "train": true,
+        "validation": true
+      },
+      "unique_chains": {
+        "test": [
+          64,
+          771
+        ],
+        "train": [
+          3817,
+          5942
+        ],
+        "validation": [
+          63,
+          816
+        ]
+      },
+      "validation_roles": {
+        "calibration": {
+          "edges": 24,
+          "gamma_queries": 16
+        },
+        "selection": {
+          "edges": 275,
+          "gamma_queries": 31
+        },
+        "tuning": {
+          "edges": 608,
+          "gamma_queries": 16
+        }
+      }
+    }
+  }
+}

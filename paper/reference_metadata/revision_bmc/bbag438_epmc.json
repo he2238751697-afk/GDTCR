@@ -1,0 +1,313 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1093/bib/bbag438",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42649117",
+        "source": "MED",
+        "pmid": "42649117",
+        "pmcid": "PMC13518066",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13518066"
+          ]
+        },
+        "doi": "10.1093/bib/bbag438",
+        "title": "DTCR: generating realistic, diverse, and epitope-specific T cell receptor sequences via a discrete diffusion model.",
+        "authorString": "Wang H, Zang T, Liu Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang H",
+              "lastName": "Wang",
+              "firstName": "Haoyan",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0005-9209-8440"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Computing, Harbin Institute of Technology, No. 92 West Dazhi Street, Nangang District, Harbin, Heilongjiang 150001, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zang T",
+              "lastName": "Zang",
+              "firstName": "Tianyi",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-5839-2328"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Computing, Harbin Institute of Technology, No. 92 West Dazhi Street, Nangang District, Harbin, Heilongjiang 150001, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Yadong",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8385-1908"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Computing, Harbin Institute of Technology, No. 92 West Dazhi Street, Nangang District, Harbin, Heilongjiang 150001, China."
+                  },
+                  {
+                    "affiliation": "Zhengzhou Research Institute, Harbin Institute of Technology, No. 26 Longyuan East Seventh Street, Zhengdong New District, Zhengzhou, Henan 450000, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8385-1908"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-9209-8440"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-5839-2328"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "27",
+          "journalIssueId": 4226278,
+          "dateOfPublication": "2026 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Brief Bioinform",
+            "title": "Briefings in bioinformatics",
+            "essn": "1477-4054",
+            "issn": "1467-5463",
+            "isoabbreviation": "Brief Bioinform",
+            "nlmid": "100912837"
+          },
+          "printPublicationDate": "2026-07-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "bbag438",
+        "abstractText": "T lymphocytes are central to adaptive immunity, utilizing clonally distributed T cell receptors (TCRs) to recognize peptide-major histocompatibility complex ligands with high specificity. The immense diversity and precise antigen recognition of TCRs are critical for mounting effective immune responses. However, conventional experimental approaches for TCR discovery and optimization remain constrained by a narrow range of targetable epitopes, tumor immune evasion, and prohibitive costs. These bottlenecks hinder the broad clinical translation of TCR-T immunotherapies and create an urgent demand for advanced computational frameworks for the de novo, controllable generation of functional, epitope-specific TCR sequences. Here, we introduce DTCR, the first discrete diffusion-based generative model for epitope-specific TCR sequence generation. Unlike existing models, DTCR emulates the natural TCR amino acid substitution dynamics through a discrete corruption scheme and incorporates a binding specificity prediction module to guide controllable generation. This integrated framework not only enhances binding specificity and sequence diversity, but also enables flexible TCR generation tailored to target epitopes. DTCR outperforms state-of-the-art epitope-specific TCR generation models (GRATCR, an epitope\u2011specific TCR generation model, and TCR-TRANSLATE) in binding specificity, achieving relative improvements of 7.56%, 17.21%, 7.60%, 0.45%, and 6.86% over the second-best model TCR-TRANSLATE, as evaluated by five widely used TCR specificity prediction tools (Physics-Inspired Sliding Transformer (PISTE); TCR-Epitope Interaction Modelling (TEIM); ERGO, a peptide\u2011TCR matching prediction tool; epiTCR, a Random Forest\u2011based TCR\u2011peptide binding predictor; and NetTCR-2.0, a convolutional neural network\u2011based TCR\u2011peptide binding prediction tool), respectively. Furthermore, DTCR-generated TCRs exhibit stronger sequence diversity, better consistency with natural biological conservation patterns, and greater binding interface burials that support enhanced binding interface stability. The application of DTCR in the development of novel immunotherapies holds significant promise, offering a powerful tool for accelerating the discovery of effective and specific TCRs and advancing personalized medicine. The source code is available at: https://github.com/skybluewhy/DTCR.",
+        "affiliation": "Faculty of Computing, Harbin Institute of Technology, No. 92 West Dazhi Street, Nangang District, Harbin, Heilongjiang 150001, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Key Research and Development Program of China",
+              "grantId": "2024YFF1206202",
+              "orderIn": 0
+            },
+            {
+              "agency": "\"Unveiling the Leader\" Science and Technology R&D Projects",
+              "grantId": "2022ZXJ03C06",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "62076082",
+              "orderIn": 0
+            },
+            {
+              "agency": "\u201cUnveiling the Leader\u201d Science and Technology R&amp;D Projects",
+              "grantId": "2022ZXJ03C06",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "62402140",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Receptors, Antigen, T-Cell",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Epitopes, T-Lymphocyte",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amino Acid Sequence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoinformatics"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Immunotherapy",
+            "T Cell Receptors (Tcrs)",
+            "Tcr Sequence Generation",
+            "Discrete Diffusion Model"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Receptors, Antigen, T-Cell",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Epitopes, T-Lymphocyte",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/bib/bbag438"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13518066"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13518066?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2026-08-26",
+        "dateOfCreation": "2026-08-26",
+        "dateOfRevision": "2026-08-29",
+        "firstPublicationDate": "2026-07-01",
+        "firstIndexDate": "2026-08-27",
+        "fullTextReceivedDate": "2026-09-10",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+protocol	seed	direction	contrast	metric	unit	estimate	lower	upper
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_constant	coverage	fraction	0.11864406779661017		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_constant	likelihood_recall_at_5	fraction	0.051090847227437466		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_constant	likelihood_hit_at_5	fraction	0.07344632768361582		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_constant	nll	nats/token	-0.04522855253351753		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_constant	likelihood_mrr	fraction	0.04382584846194019		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_random	coverage	fraction	0.2033898305084746		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_random	likelihood_recall_at_5	fraction	0.11946667213367113		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_random	likelihood_hit_at_5	fraction	0.15819209039548024		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_random	nll	nats/token	-0.17362219691765338		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_random	likelihood_mrr	fraction	0.09809004001426733		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_shuffled	coverage	fraction	0.03389830508474576		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_shuffled	ranker_hit_at_5	fraction	0.011299435028248588		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_shuffled	likelihood_recall_at_5	fraction	0.019141061663494364		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_shuffled	likelihood_hit_at_5	fraction	0.01694915254237288		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_shuffled	nll	nats/token	-0.011791044327154148		
+giant_edge_holdout	3407	gamma_to_delta	conditional_minus_shuffled	likelihood_mrr	fraction	0.01836624842606897		
+giant_edge_holdout	3407	gamma_to_delta	ranker_minus_likelihood	hit_at_5	fraction	-0.1694915254237288		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_constant	coverage	fraction	0.07909604519774012		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_constant	likelihood_recall_at_5	fraction	0.022693229834306605		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_constant	likelihood_hit_at_5	fraction	0.01694915254237288		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_constant	nll	nats/token	-0.0397914177377165		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_constant	likelihood_mrr	fraction	-0.0011047215496368056		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_random	coverage	fraction	0.1977401129943503		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_random	likelihood_recall_at_5	fraction	0.0971224493906448		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_random	likelihood_hit_at_5	fraction	0.12994350282485875		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_random	nll	nats/token	-0.17797293451838456		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_random	likelihood_mrr	fraction	0.0715883104654291		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_shuffled	coverage	fraction	0.005649717514124294		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_shuffled	ranker_hit_at_5	fraction	-0.005649717514124294		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_shuffled	likelihood_recall_at_5	fraction	-0.011497254268939217		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_shuffled	likelihood_hit_at_5	fraction	-0.022598870056497175		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_shuffled	nll	nats/token	-0.007312999448610104		
+giant_edge_holdout	3508	gamma_to_delta	conditional_minus_shuffled	likelihood_mrr	fraction	-0.007645520092717971		
+giant_edge_holdout	3508	gamma_to_delta	ranker_minus_likelihood	hit_at_5	fraction	-0.0847457627118644		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_constant	coverage	fraction	0.034482758620689655		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_constant	likelihood_recall_at_5	fraction	0.03242337164750958		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_constant	likelihood_hit_at_5	fraction	0.038314176245210725		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_constant	nll	nats/token	-0.03524635555803199		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_constant	likelihood_mrr	fraction	0.03190279452711567		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_random	coverage	fraction	0.06513409961685823		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_random	likelihood_recall_at_5	fraction	0.004980842911877394		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_random	likelihood_hit_at_5	fraction	0.007662835249042145		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_random	nll	nats/token	-0.09307549178917544		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_random	likelihood_mrr	fraction	0.024036811672038177		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_shuffled	coverage	fraction	-0.038314176245210725		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_shuffled	ranker_hit_at_5	fraction	-0.0038314176245210726		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_shuffled	likelihood_recall_at_5	fraction	-0.009993614303959135		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_shuffled	likelihood_hit_at_5	fraction	-0.011494252873563218		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_shuffled	nll	nats/token	-0.007965152332114844		
+giant_edge_holdout	3407	delta_to_gamma	conditional_minus_shuffled	likelihood_mrr	fraction	0.003708086044123906		
+giant_edge_holdout	3407	delta_to_gamma	ranker_minus_likelihood	hit_at_5	fraction	-0.19923371647509577		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_constant	coverage	fraction	0.06896551724137931		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_constant	likelihood_recall_at_5	fraction	0.0014367816091954023		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_constant	likelihood_hit_at_5	fraction	-0.011494252873563218		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_constant	nll	nats/token	-0.03237555957620199		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_constant	likelihood_mrr	fraction	0.0219564659894495		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_random	coverage	fraction	0.08045977011494253		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_random	likelihood_recall_at_5	fraction	-0.0037675606641123884		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_random	likelihood_hit_at_5	fraction	-0.022988505747126436		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_random	nll	nats/token	-0.08812003016882426		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_random	likelihood_mrr	fraction	0.00992693007514544		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_shuffled	coverage	fraction	0.038314176245210725		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_shuffled	ranker_hit_at_5	fraction	0.038314176245210725		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_shuffled	likelihood_recall_at_5	fraction	0.008301404853128993		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_shuffled	likelihood_hit_at_5	fraction	0.007662835249042145		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_shuffled	nll	nats/token	-0.008328328907734307		
+giant_edge_holdout	3508	delta_to_gamma	conditional_minus_shuffled	likelihood_mrr	fraction	0.02561985940059674		
+giant_edge_holdout	3508	delta_to_gamma	ranker_minus_likelihood	hit_at_5	fraction	-0.09195402298850575		
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_constant	coverage	fraction	0.0	0.0	0.0
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_constant	likelihood_hit_at_5	fraction	0.0	0.0	0.0
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_constant	likelihood_mrr	fraction	0.0078125	0.0	0.0234375
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_constant	likelihood_recall_at_5	fraction	0.002551626461988304	-0.0011751873172514617	0.009192251461988304
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_constant	nll	nats/token	-0.010385892747079904	-0.02072689692256867	4.281023107524527e-05
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_random	coverage	fraction	-0.03125	-0.078125	0.0
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_random	likelihood_hit_at_5	fraction	-0.03125	-0.078125	0.0
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_random	likelihood_mrr	fraction	-0.0078125	-0.046875	0.03125
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_random	likelihood_recall_at_5	fraction	-0.015024167561761547	-0.052780118077932925	0.006850832438238453
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_random	nll	nats/token	-0.12003423694466503	-0.15005853652583456	-0.09214488715077122
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_shuffled	coverage	fraction	0.03125	0.0	0.078125
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_shuffled	likelihood_hit_at_5	fraction	0.03125	0.0	0.078125
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_shuffled	likelihood_mrr	fraction	0.046875	0.0078125	0.1015625
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_shuffled	likelihood_recall_at_5	fraction	0.0032375496436156366	0.0004251700680272109	0.007186747347427662
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_shuffled	nll	nats/token	-0.04238145514849064	-0.06259978474353732	-0.024408290316921318
+unseen_gamma_repaired	3407	gamma_to_delta	conditional_minus_shuffled	ranker_hit_at_5	fraction	0.0625	0.0	0.140625
+unseen_gamma_repaired	3407	gamma_to_delta	ranker_minus_likelihood	hit_at_5	fraction	-0.03125	-0.078125	0.0
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_constant	coverage	fraction	0.015625	0.0	0.046875
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_constant	likelihood_hit_at_5	fraction	0.015625	0.0	0.046875
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_constant	likelihood_mrr	fraction	0.015625	0.0	0.046875
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_constant	likelihood_recall_at_5	fraction	0.019837423730457094	0.0003906249999999999	0.05480057565789474
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_constant	nll	nats/token	-0.008569766926315558	-0.017399111923190196	0.0004301083144200372
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_random	coverage	fraction	0.03125	0.0	0.078125
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_random	likelihood_hit_at_5	fraction	0.03125	0.0	0.078125
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_random	likelihood_mrr	fraction	0.03125	0.0	0.078125
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_random	likelihood_recall_at_5	fraction	0.02272708836824203	0.0008078231292517006	0.05960682782570264
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_random	nll	nats/token	-0.11671738515014708	-0.14526740734787016	-0.08896834530864339
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_shuffled	coverage	fraction	0.046875	0.0	0.109375
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_shuffled	likelihood_hit_at_5	fraction	0.046875	0.0	0.109375
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_shuffled	likelihood_mrr	fraction	0.046875	0.0	0.109375
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_shuffled	likelihood_recall_at_5	fraction	0.021820475095422863	0.001365918908301933	0.05705934484952427
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_shuffled	nll	nats/token	-0.028278635326518357	-0.046045981799391913	-0.011638525459640087
+unseen_gamma_repaired	3508	gamma_to_delta	conditional_minus_shuffled	ranker_hit_at_5	fraction	0.0625	0.015625	0.125
+unseen_gamma_repaired	3508	gamma_to_delta	ranker_minus_likelihood	hit_at_5	fraction	-0.03125	-0.078125	0.0

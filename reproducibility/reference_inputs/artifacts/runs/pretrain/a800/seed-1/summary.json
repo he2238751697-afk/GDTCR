@@ -1,0 +1,22 @@
+{
+  "elapsed_seconds": 1627.8243119716644,
+  "last_validation": {
+    "damaged_residue_accuracy": 0.6758682904826342,
+    "damaged_token_nll": 1.195243563585363,
+    "n_damaged_residues": 11085,
+    "n_sequences": 2048,
+    "token_nll": 0.41436176340803305
+  },
+  "peak_memory_allocated_gib": 4.146697521209717,
+  "peak_memory_reserved_gib": 5.91796875,
+  "recovery": {
+    "checkpoint": "artifacts/runs/pretrain/a800/seed-1/last.pt",
+    "checkpoint_sha256": "a1acac8384c99b9010938ff00502a723d9257e2a535c922c0bdad17987a556d9",
+    "method": "Original completed-job stdout summary and saved checkpoint arguments; no inferred timing/device metadata",
+    "original_job_id": "2995691_1",
+    "reconstructed": true,
+    "source_log": "artifacts/slurm/gdtcr-pretrain-2995691_1.out",
+    "source_log_sha256": "f8d4a1d07800771a5c8e88e1cff16880ee2aebfe99b1debc19421d1d776e3d6b"
+  },
+  "steps_completed": 20000
+}

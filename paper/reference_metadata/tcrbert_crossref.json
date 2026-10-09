@@ -1,0 +1,694 @@
+{
+  "url": "https://api.crossref.org/works/10.1101/2021.11.18.469186",
+  "retrieved_utc": "2026-09-30T06:43:10.469057+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            26
+          ]
+        ],
+        "date-time": "2026-09-26T15:12:26Z",
+        "timestamp": 1790435546956,
+        "version": "4.1.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 69,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The T-cell receptor (TCR) allows T-cells to recognize and respond to antigens presented by infected and diseased cells. However, due to TCRs’ staggering diversity and the complex binding dynamics underlying TCR antigen recognition, it is challenging to predict which antigens a given TCR may bind to. Here, we present TCR-BERT, a deep learning model that applies self-supervised transfer learning to this problem. TCR-BERT leverages unlabeled TCR sequences to learn a general, versatile representation of TCR sequences, enabling numerous downstream applications. We demonstrate that TCR-BERT can be used to build state-of-the-art TCR-antigen binding predictors with improved generalizability compared to prior methods. TCR-BERT simultaneously facilitates clustering sequences likely to share antigen specificities. It also facilitates computational approaches to challenging, unsolved problems such as designing novel TCR sequences with engineered binding affinities. Importantly, TCR-BERT enables all these advances by focusing on residues with known biological significance. TCR-BERT can be a useful tool for T-cell scientists, enabling greater understanding and more diverse applications, and provides a conceptual framework for leveraging unlabeled data to improve machine learning on biological sequences.</jats:p>",
+      "DOI": "10.1101/2021.11.18.469186",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2021-11-20T05:05:34Z",
+        "timestamp": 1637384734000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 55,
+      "title": [
+        "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-xbinding analyses"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4786-9796",
+          "authenticated-orcid": false,
+          "given": "Kevin",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6807-950X",
+          "authenticated-orcid": false,
+          "given": "Kathryn E.",
+          "family": "Yost",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2410-8767",
+          "authenticated-orcid": false,
+          "given": "Bence",
+          "family": "Daniel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4724-6158",
+          "authenticated-orcid": false,
+          "given": "Julia A.",
+          "family": "Belk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7489-1051",
+          "authenticated-orcid": false,
+          "given": "Takeshi",
+          "family": "Egawa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5167-537X",
+          "authenticated-orcid": false,
+          "given": "Ansuman",
+          "family": "Satpathy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Howard Y.",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James",
+          "family": "Zou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2018.01.007"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a007054"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaa4971"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1615/CritRevImmunol.v17.i1.20"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1172/JCI114800"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "305",
+          "DOI": "10.1007/s00125-003-1089-5",
+          "article-title": "The role of T-cells in the pathogenesis of Type 1 diabetes: from cause to cure",
+          "volume": "46",
+          "year": "2003",
+          "journal-title": "Diabetologia"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1172/JCI94549"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2249.2005.02715.x"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "127",
+          "DOI": "10.1111/imr.12772",
+          "article-title": "T cell receptor-based cancer immunotherapy: Emerging efficacy and pathways of resistance",
+          "volume": "290",
+          "year": "2019",
+          "journal-title": "Immunol Rev"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/2326-6066.CIR-15-0190"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.11",
+          "first-page": "73",
+          "article-title": "Regulatory T cell-based therapies for autoimmunity",
+          "volume": "22",
+          "year": "2016",
+          "journal-title": "Discov Med Discovery medicine"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "e20191663",
+          "DOI": "10.1084/jem.20191663",
+          "article-title": "Challenges of CAR-and TCR-T cell-based therapy for chronic infections",
+          "volume": "217",
+          "year": "2020",
+          "journal-title": "J Exp Med"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/1381612811319330003"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.1700744"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22976"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "e9416",
+          "DOI": "10.15252/msb.20199416",
+          "article-title": "Predicting antigen specificity of single T cells based on TCR CDR3 regions",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "Mol Syst Biol"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.115428.110"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2009-04-217604"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1409155111"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2009.12.002"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.289488"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1615/CritRevImmunol.v32.i4.50"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri3279"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1638",
+          "DOI": "10.3389/fimmu.2018.01638",
+          "article-title": "Single Cell T Cell Receptor Sequencing: Techniques and Future Challenges",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Frontiers in Immunology"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "881",
+          "DOI": "10.1038/s41592-021-01201-8",
+          "article-title": "High-throughput and single-cell T cell receptor sequencing technologies",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nat Methods"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1194",
+          "DOI": "10.1038/s41587-020-0505-4",
+          "article-title": "Analyzing the Mycobacterium tuberculosis immune response by T-cell receptor clustering with GLIPH2 and genome-wide antigen screening",
+          "volume": "38",
+          "year": "2020",
+          "journal-title": "Nat Biotechnol"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2021.640725"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22383"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1605",
+          "DOI": "10.1038/s41467-021-21879-w",
+          "article-title": "DeepTCR is a deep learning framework for revealing sequence concepts within T-cell repertoires",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "107281",
+          "DOI": "10.1016/j.compbiolchem.2020.107281",
+          "article-title": "SETE: Sequence-based Ensemble learning approach for TCR Epitope binding prediction",
+          "volume": "87",
+          "year": "2020",
+          "journal-title": "Comput Biol Chem"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.31",
+          "unstructured": "Devlin, J. , Chang, M.-W. , Lee, K. & Toutanova, K. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). Proceedings of the 2019 Conference of the North 4171–4186 (2019)."
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ji, Y. , Zhou, Z. , Liu, H. & Davuluri, R. V. DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome. Bioinformatics btab083 (2021).",
+          "DOI": "10.1101/2020.09.17.301879"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.34",
+          "first-page": "9689",
+          "article-title": "Evaluating Protein Transfer Learning with TAPE",
+          "volume": "32",
+          "year": "2019",
+          "journal-title": "Adv Neural Inf Process Syst"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "321",
+          "DOI": "10.1038/s41598-020-79682-4",
+          "article-title": "Transformer neural network for protein-specific de novo drug generation as a machine translation problem",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "D1057",
+          "DOI": "10.1093/nar/gkz874",
+          "article-title": "VDJdb in 2019: database extension, new analysis infrastructure and a T-cell receptor motif compendium",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz614"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "McInnes, L. , Healy, J. & Melville, J. UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. arXiv 1802.03426v3 (2018).",
+          "DOI": "10.21105/joss.00861"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "873",
+          "DOI": "10.1038/s41592-020-0867-z",
+          "article-title": "T cell antigen discovery",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nat Methods"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "D468",
+          "DOI": "10.1093/nar/gkaa796",
+          "article-title": "TCRdb: a comprehensive database for T-cell receptor sequences with powerful search function",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "e38358",
+          "DOI": "10.7554/eLife.38358",
+          "article-title": "Human T cell receptor occurrence patterns encode immune history, genetic background, and receptor specificity",
+          "volume": "7",
+          "year": "2018",
+          "journal-title": "Elife"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-019-41695-z"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.43",
+          "article-title": "Neural machine translation by jointly learning to align and translate",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-7613(00)80178-8"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nm.3910"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1038/s41392-019-0070-9",
+          "article-title": "Genetically engineered T cells for cancer immunotherapy",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "Signal Transduct Target Ther"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "2250",
+          "DOI": "10.3389/fimmu.2019.02250",
+          "article-title": "Engineered T Cell Therapy for Cancer in the Clinic",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Front Immunol"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "1149",
+          "DOI": "10.1038/mt.2015.70",
+          "article-title": "Engineering T Cells to Functionally Cure HIV-1 Infection",
+          "volume": "23",
+          "year": "2015",
+          "journal-title": "Mol Ther"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hie, B. L. , Yang, K. K. & Kim, P. S. Evolutionary velocity with protein language models. bioRxiv 2021.06.07.447389 (2021).",
+          "DOI": "10.1101/2021.06.07.447389"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41577-018-0007-5"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3662"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.53",
+          "year": "2019",
+          "journal-title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.54",
+          "unstructured": "Wolf, T. A. et al. Transformers: State-of-the-Art Natural Language Processing Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. 38–45 (2020)."
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.55",
+          "unstructured": "Vaswani, A. et al. Attention is all you need. Advances in neural information processing systems, 5998–6008 (2017)."
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.56",
+          "article-title": "Decoupled weight decay regularization",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.200535.115"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0218073"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.59",
+          "unstructured": "Kingma, D. P. & Ba, J. Adam: A Method for Stochastic Optimization. CoRR abs/1412.6980, (2015)."
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vig, J. A Multiscale Visualization of Attention in the Transformer Model. ArXiv abs/1906.05714, (2019).",
+          "DOI": "10.18653/v1/P19-3007"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-5-113"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "2272",
+          "DOI": "10.1093/bioinformatics/btz921",
+          "article-title": "Logomaker: beautiful sequence logos in Python",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/mcse.2007.55"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0686-2"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1524/auto.2011.0951"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2649-2"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1382-0"
+        },
+        {
+          "key": "2021112304351079000_2021.11.18.469186v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.22.10915"
+        }
+      ],
+      "container-title": [],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.18.469186",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:24:13Z",
+        "timestamp": 1768443853000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.11.18.469186"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            20
+          ]
+        ]
+      },
+      "references-count": 69,
+      "URL": "https://doi.org/10.1101/2021.11.18.469186",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

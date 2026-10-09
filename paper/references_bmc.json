@@ -1,0 +1,633 @@
+{
+  "verified_date": "2026-10-06",
+  "references": [
+    {
+      "key": "gse180059",
+      "title": "Identification of distinct functional thymic programming of fetal and pediatric human γδ thymocytes via single-cell analysis",
+      "authors": [
+        {
+          "family": "Sanchez Sanchez",
+          "given": "Guillem"
+        },
+        {
+          "family": "Papadopoulou",
+          "given": "Maria"
+        },
+        {
+          "family": "Azouz",
+          "given": "Abdulkader"
+        },
+        {
+          "family": "Tafesse",
+          "given": "Yohannes"
+        },
+        {
+          "family": "Mishra",
+          "given": "Archita"
+        },
+        {
+          "family": "Chan",
+          "given": "Jerry K Y"
+        },
+        {
+          "family": "Fan",
+          "given": "Yiping"
+        },
+        {
+          "family": "Verdebout",
+          "given": "Isoline"
+        },
+        {
+          "family": "Porco",
+          "given": "Silvana"
+        },
+        {
+          "family": "Libert",
+          "given": "Frédérick"
+        },
+        {
+          "family": "Ginhoux",
+          "given": "Florent"
+        },
+        {
+          "family": "Vandekerckhove",
+          "given": "Bart"
+        },
+        {
+          "family": "Goriely",
+          "given": "Stanislas"
+        },
+        {
+          "family": "Vermijlen",
+          "given": "David"
+        }
+      ],
+      "year": 2022,
+      "journal": "Nature Communications",
+      "volume": "13",
+      "issue": "1",
+      "pages_or_article": "5842",
+      "doi": "10.1038/s41467-022-33488-2",
+      "source": "artifacts/literature/PMC9532436.xml",
+      "type": "journal-article",
+      "verification_source": "paper/reference_metadata/revision_bmc/gse180059_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "88c175e6f81a72ad04c2ea3d87ae7d8a204c6b8af1d8b7e4c904f59b376c0470"
+    },
+    {
+      "key": "uctcrdb",
+      "title": "UcTCRdb: An unconventional T cell receptor sequence database with online analysis functions",
+      "authors": [
+        {
+          "family": "Dou",
+          "given": "Yunsheng"
+        },
+        {
+          "family": "Shan",
+          "given": "Shiwen"
+        },
+        {
+          "family": "Zhang",
+          "given": "Jian"
+        }
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Immunology",
+      "volume": "14",
+      "issue": null,
+      "pages_or_article": "1158295",
+      "doi": "10.3389/fimmu.2023.1158295",
+      "source": "artifacts/literature/PMC10040587.xml",
+      "type": "journal-article",
+      "verification_source": "paper/reference_metadata/revision_bmc/fimmu.2023.1158295_epmc.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "028d6468a3a207c565ce484a689c9d15526f8d525d8e96296d71589a5051ea7b"
+    },
+    {
+      "key": "suo2022",
+      "title": "Mapping the developing human immune system across organs",
+      "authors": [
+        {
+          "family": "Suo",
+          "given": "Chenqu"
+        },
+        {
+          "family": "Dann",
+          "given": "Emma"
+        },
+        {
+          "family": "Goh",
+          "given": "Issac"
+        },
+        {
+          "family": "Jardine",
+          "given": "Laura"
+        },
+        {
+          "family": "Kleshchevnikov",
+          "given": "Vitalii"
+        },
+        {
+          "family": "Park",
+          "given": "Jong-Eun"
+        },
+        {
+          "family": "Botting",
+          "given": "Rachel A"
+        },
+        {
+          "family": "Stephenson",
+          "given": "Emily"
+        },
+        {
+          "family": "Engelbert",
+          "given": "Justin"
+        },
+        {
+          "family": "Tuong",
+          "given": "Zewen Kelvin"
+        },
+        {
+          "family": "Polanski",
+          "given": "Krzysztof"
+        },
+        {
+          "family": "Yayon",
+          "given": "Nadav"
+        },
+        {
+          "family": "Xu",
+          "given": "Chuan"
+        },
+        {
+          "family": "Suchanek",
+          "given": "Ondrej"
+        },
+        {
+          "family": "Elmentaite",
+          "given": "Rasa"
+        },
+        {
+          "family": "Conde",
+          "given": "Cecilia Domínguez"
+        },
+        {
+          "family": "He",
+          "given": "Peng"
+        },
+        {
+          "family": "Pritchard",
+          "given": "Sophie"
+        },
+        {
+          "family": "Miah",
+          "given": "Mohi"
+        },
+        {
+          "family": "Moldovan",
+          "given": "Corina"
+        },
+        {
+          "family": "Steemers",
+          "given": "Alexander S"
+        },
+        {
+          "family": "Mazin",
+          "given": "Pavel"
+        },
+        {
+          "family": "Prete",
+          "given": "Martin"
+        },
+        {
+          "family": "Horsfall",
+          "given": "Dave"
+        },
+        {
+          "family": "Marioni",
+          "given": "John C"
+        },
+        {
+          "family": "Clatworthy",
+          "given": "Menna R"
+        },
+        {
+          "family": "Haniffa",
+          "given": "Muzlifah"
+        },
+        {
+          "family": "Teichmann",
+          "given": "Sarah A"
+        }
+      ],
+      "year": 2022,
+      "journal": "Science (New York, N.Y.)",
+      "volume": "376",
+      "issue": "6597",
+      "pages_or_article": "eabo0510",
+      "doi": "10.1126/science.abo0510",
+      "source": "artifacts/literature/PMC7612819.xml",
+      "type": "journal-article",
+      "pmc_pages_or_article": "science.abo0510",
+      "pagination_source": "paper/reference_metadata/suo2022_crossref.json",
+      "verification_source": "paper/reference_metadata/revision_bmc/suo2022_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "8992acac8731310187ec53150212443c0f2775c16516b0fd41c6f46ec59dbd25"
+    },
+    {
+      "key": "tcrdb2",
+      "title": "TCRdb 2.0: an updated T-cell receptor sequence database",
+      "authors": [
+        {
+          "family": "Yue",
+          "given": "Tao"
+        },
+        {
+          "family": "Chen",
+          "given": "Si-Yi"
+        },
+        {
+          "family": "Shen",
+          "given": "Wen-Kang"
+        },
+        {
+          "family": "Liao",
+          "given": "Yu"
+        },
+        {
+          "family": "Lei",
+          "given": "Qian"
+        },
+        {
+          "family": "Guo",
+          "given": "An-Yuan"
+        }
+      ],
+      "year": 2026,
+      "journal": "Nucleic Acids Research",
+      "volume": "54",
+      "issue": "D1",
+      "pages_or_article": "D504–D510",
+      "doi": "10.1093/nar/gkaf876",
+      "source": "artifacts/literature/PMC12807725.xml",
+      "type": "journal-article",
+      "pmc_pages_or_article": "D504",
+      "pagination_source": "paper/reference_metadata/tcrdb2_crossref.json",
+      "date_note": "2026 issue year from PMC volume 54(D1); Crossref reports the advance-online publication date 2025-09-09.",
+      "verification_source": "paper/reference_metadata/revision_bmc/tcrdb2_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "4629228f973f4667dbdf761925d469c112552b3d56db2d278ccf643488a53609"
+    },
+    {
+      "key": "tcrbinder",
+      "title": "TCRBinder: Unified pre-trained language model with paired-chain synergy for predicting T-cell receptor binding specificity.",
+      "author_string": "Dong W, Yang Q, Xu L, Li X, Wang K, Dong S, Luo G, Zhang X, Yang T, Gao X, Wang G.",
+      "year": 2026,
+      "journal": "PLoS computational biology",
+      "volume": "22",
+      "issue": "6",
+      "pages_or_article": "e1014396",
+      "doi": "10.1371/journal.pcbi.1014396",
+      "source": "paper/reference_metadata/paired_tcr_literature.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "Deciphering how human T cells recognise peptide-HLA (pHLA) complexes underpins next-generation vaccines and personalised immunotherapies, yet extreme sequence diversity and paired-chains interdependence still hamper reliable in silico prediction of T-cell receptor (TCR) specificity. To overcome these hurdles, we built TCRBinder, a paired-chain-aware deep model with a multi-branch encoder that routes each molecular component through dedicated transformer-based modules to capture contextual signals in both HLA pseudo-sequences and antigenic peptides while simultaneously processing the TCR [Formula: see text] and [Formula: see text] chains. This design captures the synergistic interaction between paired chains to emulate peptide-HLA-TCR (PHT) interactions and expose residue-level contact motifs. Across PHT and peptide-TCR (pTCR) benchmarks, the model delivered state-of-the-art performance (AUC-ROC = 0.911, AUPR = 0.791 for the PHT task) and remained superior on multiple independent datasets. We tracked the dynamics of clonal expansion and, in a large SARS-CoV-2 repertoire containing completely unseen peptides, improved the AUC-ROC by up to 16.3% over the leading alternatives. Moreover, TCRBinder provided mechanistic insights by pinpointing contact hotspots and quantifying residue contributions to binding probability. These capabilities position TCRBinder as a versatile tool for rational antigen discovery, immunotherapy stratification, and neoantigen vaccine design.",
+      "verification_source": "paper/reference_metadata/revision_bmc/tcrbinder_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "ec55805f75ea85c3a9836348868214e1b261f0358dc019b8c3e096e0bbeaa819"
+    },
+    {
+      "key": "ots",
+      "title": "The Observed T Cell Receptor Space database enables paired-chain repertoire mining, coherence analysis, and language modeling.",
+      "author_string": "Raybould MIJ, Greenshields-Watson A, Agarwal P, Aguilar-Sanjuan B, Olsen TH, Turnbull OM, Quast NP, Deane CM.",
+      "year": 2024,
+      "journal": "Cell reports",
+      "volume": "43",
+      "issue": "9",
+      "pages_or_article": "114704",
+      "doi": "10.1016/j.celrep.2024.114704",
+      "source": "paper/reference_metadata/paired_tcr_literature.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "T cell activation is governed through T cell receptors (TCRs), heterodimers of two sequence-variable chains (often an α and β chain) that synergistically recognize antigen fragments presented on cell surfaces. Despite this, there only exist repositories dedicated to collecting single-chain, not paired-chain, TCR sequence data. We addressed this gap by creating the Observed TCR Space (OTS) database, a source of consistently processed and annotated, full-length, paired-chain TCR sequences. Currently, OTS contains 5.35 million redundant (1.63 million non-redundant), predominantly human sequences from across 50 studies and at least 75 individuals. Using OTS, we identify pairing biases, public TCRs, and distinct chain coherence patterns relative to antibodies. We also release a paired-chain TCR language model, providing paired embedding representations and a method for residue in-filling conditional on the partner chain. OTS will be updated as a central community resource and is freely downloadable and available as a web application.",
+      "verification_source": "paper/reference_metadata/revision_bmc/j.celrep.2024.114704_epmc.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "6098e9e70b39f825eb1f1fb6a95e15313e8b5338b27a9f5fad332097971599f5"
+    },
+    {
+      "key": "tcrdesign",
+      "title": "TCRdesign: an antigen-specific generative language model for de novo design of T-cell receptors.",
+      "author_string": "Li X, Yang Q, Xu L, Dong W, Wang K, Dong S, Wang W, Luo G, Zhang X, Yang T, Gao X, Wang G.",
+      "year": 2025,
+      "journal": "Briefings in bioinformatics",
+      "volume": "26",
+      "issue": "6",
+      "pages_or_article": "bbaf691",
+      "doi": "10.1093/bib/bbaf691",
+      "source": "paper/reference_metadata/paired_tcr_literature.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "T-cell receptors (TCR), which are heterodimers of $\\alpha $ and $\\beta $ chains that recognize foreign antigens, are of great significance to current immunotherapy. Although artificial intelligence (AI) has explosively accelerated de novo protein design, the challenge of therapeutic TCR design has been overlooked by most researchers. Existing TCR engineering relies heavily on isolating antigen-specific TCRs from tumor tissues, which requires a large amount of labor resources and wet experimental verification. To mitigate this issue, we present TCRdesign, a pretrained generative protein language model (PLM) for the de novo design of artificial TCR $\\beta $-chain complementarity-determining region 3 sequences conditioned on antigen-binding specificity (BS). In parallel, we develop a high-accuracy binding predictor (TCRBinder) that couples paired $\\alpha $/$\\beta $ chain information with antigen sequences to assess BS. Our in silico comparisons demonstrate that (i) TCRdesign surpasses state-of-the-art baselines in generating antigen-specific TCR sequences. The model leverages paired-chain coherence to refine amino-acid level interaction patterns. (ii) TCRdesign-generated TCR sequences exhibit better antigen binding capability to diverse oncogenic hotspots compared with natural counterparts. (iii) TCRdesign inherits the intrinsic properties of large PLMs, enabling effectively identify the determinant residues in TCR-antigen binding, which enhances its interpretability. These results highlight the significant capability of TCRdesign in understanding and generating TCR sequences with an antigen-specific interaction pattern, charting a versatile path toward AI-driven T-cell engineering for precision immunotherapy.",
+      "verification_source": "paper/reference_metadata/revision_bmc/tcrdesign_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "515bd99c852e60348a01b07365293f7790b8d38398afdd327f3061e07cfd814f"
+    },
+    {
+      "key": "tcrbert",
+      "title": "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses",
+      "author_string": "Wu K, Yost KE, Daniel B, Belk JA, Xia Y, Egawa T, Satpathy A, Chang HY, Zou J.",
+      "year": 2021,
+      "journal": "bioRxiv",
+      "volume": null,
+      "issue": null,
+      "pages_or_article": null,
+      "doi": "10.1101/2021.11.18.469186",
+      "source": "paper/reference_metadata/tcr_bert_exact.json",
+      "type": "preprint",
+      "abstract_read": true,
+      "abstract": "The T-cell receptor (TCR) allows T-cells to recognize and respond to antigens presented by infected and diseased cells. However, due to TCRs’ staggering diversity and the complex binding dynamics underlying TCR antigen recognition, it is challenging to predict which antigens a given TCR may bind to. Here, we present TCR-BERT, a deep learning model that applies self-supervised transfer learning to this problem. TCR-BERT leverages unlabeled TCR sequences to learn a general, versatile representation of TCR sequences, enabling numerous downstream applications. We demonstrate that TCR-BERT can be used to build state-of-the-art TCR-antigen binding predictors with improved generalizability compared to prior methods. TCR-BERT simultaneously facilitates clustering sequences likely to share antigen specificities. It also facilitates computational approaches to challenging, unsolved problems such as designing novel TCR sequences with engineered binding affinities. Importantly, TCR-BERT enables all these advances by focusing on residues with known biological significance. TCR-BERT can be a useful tool for T-cell scientists, enabling greater understanding and more diverse applications, and provides a conceptual framework for leveraging unlabeled data to improve machine learning on biological sequences.",
+      "display_title": "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses",
+      "title_note": "Publisher-indexed title contains antigen-xbinding; manuscript normalizes this apparent typographic insertion while preserving the indexed title and exact DOI here.",
+      "verification_source": "paper/reference_metadata/revision_bmc/tcrbert_publisher.json",
+      "metadata_note": "Crossref and Europe PMC add a spurious x in antigen-xbinding. Publisher API confirms antigen-binding; manuscript retains publisher title.",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "ae784c9f81dd32bdf226c67404887d1d2c44cfbff6ce451818d6b6850e9af2d5"
+    },
+    {
+      "key": "landry2025",
+      "title": "Masked language modeling pretraining dynamics for downstream peptide: T-cell receptor binding prediction.",
+      "author_string": "Landry B, Zhang J.",
+      "year": 2025,
+      "journal": "Bioinformatics advances",
+      "volume": "5",
+      "issue": "1",
+      "pages_or_article": "vbaf028",
+      "doi": "10.1093/bioadv/vbaf028",
+      "source": "paper/reference_metadata/tcr_bert_exact.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "<h4>Motivation</h4>Predicting antigen peptide and T-cell receptor (TCR) binding is difficult due to the combinatoric nature of peptides and the scarcity of labeled peptide-binding pairs. The masked language modeling method of pretraining is reliably used to increase the downstream performance of peptide:TCR binding prediction models by leveraging unlabeled data. In the literature, binding prediction models are commonly trained until the validation loss converges. To evaluate this method, cited transformer model architectures pretrained with masked language modeling are investigated to assess the benefits of achieving lower loss metrics during pretraining. The downstream performance metrics for these works are recorded after each subsequent interval of masked language modeling pretraining.<h4>Results</h4>The results demonstrate that the downstream performance benefit achieved from masked language modeling peaks substantially before the pretraining loss converges. Using the pretraining loss metric is largely ineffective for precisely identifying the best downstream performing pretrained model checkpoints (or saved states). However, the pretraining loss metric in these scenarios can be used to mark a threshold in which the downstream performance benefits from pretraining have fully diminished. Further pretraining beyond this threshold does not negatively impact downstream performance but results in unpredictable bilateral deviations from the post-threshold average downstream performance benefit.<h4>Availability and implementation</h4>The datasets used in this article for model training are publicly available from each original model's authors at https://github.com/SFGLab/bertrand, https://github.com/wukevin/tcr-bert, https://github.com/NKI-AI/STAPLER, and https://github.com/barthelemymp/TULIP-TCR.",
+      "verification_source": "paper/reference_metadata/revision_bmc/vbaf028_epmc.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "bb3e71f25be7c8c20b7f9f888f76e9661762b8fac7aa6551b4b5918669010cb7"
+    },
+    {
+      "key": "pr_metrics",
+      "title": "The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets.",
+      "author_string": "Saito T, Rehmsmeier M.",
+      "year": 2015,
+      "journal": "PloS one",
+      "volume": "10",
+      "issue": "3",
+      "pages_or_article": "e0118432",
+      "doi": "10.1371/journal.pone.0118432",
+      "source": "artifacts/literature/precision_recall.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "Binary classifiers are routinely evaluated with performance measures such as sensitivity and specificity, and performance is frequently illustrated with Receiver Operating Characteristics (ROC) plots. Alternative measures such as positive predictive value (PPV) and the associated Precision/Recall (PRC) plots are used less frequently. Many bioinformatics studies develop and evaluate classifiers that are to be applied to strongly imbalanced datasets in which the number of negatives outweighs the number of positives significantly. While ROC plots are visually appealing and provide an overview of a classifier's performance across a wide range of specificities, one can ask whether ROC plots could be misleading when applied in imbalanced classification scenarios. We show here that the visual interpretability of ROC plots in the context of imbalanced datasets can be deceptive with respect to conclusions about the reliability of classification performance, owing to an intuitive but wrong interpretation of specificity. PRC plots, on the other hand, can provide the viewer with an accurate prediction of future classification performance due to the fact that they evaluate the fraction of true positives among positive predictions. Our findings have potential implications for the interpretation of a large number of studies that use ROC plots on imbalanced datasets.",
+      "verification_source": "paper/reference_metadata/revision_bmc/pr_metrics_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "821ca3cea23d26405299002f9f93b4177531c7a17a779c99452b256cfd75cac1"
+    },
+    {
+      "key": "iedb",
+      "title": "The Immune Epitope Database (IEDB): 2024 update.",
+      "author_string": "Vita R, Blazeska N, Marrama D, IEDB Curation Team Members\n, Duesing S, Bennett J, Greenbaum J, De Almeida Mendes M, Mahita J, Wheeler DK, Cantrell JR, Overton JA, Natale DA, Sette A, Peters B.",
+      "year": 2025,
+      "journal": "Nucleic acids research",
+      "volume": "53",
+      "issue": "D1",
+      "pages_or_article": "D436-D443",
+      "doi": "10.1093/nar/gkae1092",
+      "source": "paper/reference_metadata/iedb2025.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "Over the past 20 years, the Immune Epitope Database (IEDB, iedb.org) has established itself as the foremost resource for immune epitope data. The IEDB catalogs published epitopes and their contextual experimental data in a freely searchable public resource. The IEDB team manually curates data from the literature into a structured format and spans infectious, allergic, autoimmune, and transplant diseases. Here, we describe the enhancements made since our 2018 paper, capturing user-directed updates to the search interface, advanced data exports, increases in data quality, and improved interoperability across related resources. As we look forward to the next 20 years, we are confident in our ability to meet the needs of our users and to contribute to the broader field of data standardization.",
+      "verification_source": "paper/reference_metadata/revision_bmc/iedb_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "a942214e3366750897e3c6cb8c42dd38bc72931e2248fbddc3eee48c1c05a568"
+    },
+    {
+      "key": "gd_review",
+      "title": "Human gamma delta T cells: Evolution and ligand recognition.",
+      "author_string": "Adams EJ, Gu S, Luoma AM.",
+      "year": 2015,
+      "journal": "Cellular immunology",
+      "volume": "296",
+      "issue": "1",
+      "pages_or_article": "31-40",
+      "doi": "10.1016/j.cellimm.2015.04.008",
+      "source": "paper/reference_metadata/gamma_delta_overview.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "The γδ T cell lineage in humans remains much of an enigma due to the low number of defined antigens, the non-canonical ways in which these cells respond to their environment and difficulty in tracking this population in vivo. In this review, we survey a comparative evolutionary analysis of the primate V, D and J gene segments and contrast these findings with recent progress in defining antigen recognition by different populations of γδ T cells in humans. Signatures of both purifying and diversifying selection at the Vδ and Vγ gene loci are placed into context of Vδ1+ γδ T cell recognition of CD1d presenting different lipids, and Vγ 9Vδ2 T cell modulation by pyrophosphate-based phosphoantigens through the butyrophilins BTN3A. From this comparison, it is clear that co-evolution between γδ TCRs and these ligands is likely occurring, but the diversity inherent in these recombined receptors is an important feature in ligand surveillance.",
+      "verification_source": "paper/reference_metadata/revision_bmc/gd_review_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "954f566d5b8cd3a8d9c0f364fda4d36e1a206c8e8d4b6974b0199e7f2da0d51b"
+    },
+    {
+      "key": "pairing_constraints",
+      "title": "Systematic analysis of CDR contacts and pairing constraints between T cell receptor αβ chains.",
+      "author_string": "Milighetti M, Nagano Y, Henderson J, Hershberg U, Tiffeau-Mayer A, Bitbol AF, Chain B.",
+      "year": 2026,
+      "journal": "Bioinformatics (Oxford, England)",
+      "volume": "42",
+      "issue": "8",
+      "pages_or_article": "btag551",
+      "doi": "10.1093/bioinformatics/btag551",
+      "source": "paper/reference_metadata/tcr_pairing_bias.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "<h4>Motivation</h4>The six complementarity determining regions (CDRs) of the T cell receptor (TCR) form multiple contacts with cognate peptide and major histocompatibility complex, thus determining antigen specificity. However, the contacts between the CDRs themselves are less understood.<h4>Results</h4>Our systematic study of all available TCR crystallographic structures identified consistent patterns of intra- and inter-chain CDR contacts in both free and antigen-bound TCRs. In addition, the protein sequences of TCRα and TCRβ from sets of TCRs which recognise a shared antigen shared mutual information and were not independent. As a result, sequence-based models can partially predict TCRα/TCRβ pairing de novo. The conserved patterns of CDR amino acid contacts, and the mutual sequence constraints between antigen-specific sets of TCR α and β chains represent an under-appreciated element of TCR structure, which may play an important role in T cell antigen recognition.<h4>Availability and implementation</h4>The code and data necessary to reproduce the analyses are available at https://github.com/mm523/TCRab-pairing.",
+      "verification_source": "paper/reference_metadata/revision_bmc/pairing_constraints_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "3b7d1bc738341522c5d5685621d7bbe88ff7d010ed9def4d78e441d3b42eeb80"
+    },
+    {
+      "key": "tcrpair",
+      "title": "TCRpair: prediction of functional pairing between HLA-A*02:01-restricted T-cell receptor α and β chains.",
+      "author_string": "Mösch A, Frishman D.",
+      "year": 2021,
+      "journal": "Bioinformatics (Oxford, England)",
+      "volume": "37",
+      "issue": "21",
+      "pages_or_article": "3938-3940",
+      "doi": "10.1093/bioinformatics/btab573",
+      "source": "paper/reference_metadata/tcr_pairing_bias.json",
+      "type": "journal-article",
+      "abstract_read": true,
+      "abstract": "<h4>Summary</h4>The ability of a T cell to recognize foreign peptides is defined by a single α and a single β hypervariable complementarity determining region (CDR3), which together form the T-cell receptor (TCR) heterodimer. In ∼30-35% of T cells, two α chains are expressed at the mRNA level but only one α chain is part of the functional TCR. This effect can also be observed for β chains, although it is less common. The identification of functional α/β chain pairs is instrumental in high-throughput characterization of therapeutic TCRs. TCRpair is the first method that predicts whether an α and β chain pair forms a functional, HLA-A*02:01 specific TCR without requiring the sequence of a recognized peptide. By taking additional amino acids flanking the CDR3 regions into account, TCRpair achieves an AUC of 0.71.<h4>Availability and implementation</h4>TCRpair is implemented in Python using TensorFlow 2.0 and is freely available at https://www.github.com/amoesch/TCRpair.<h4>Supplementary information</h4>Supplementary data are available at Bioinformatics online.",
+      "verification_source": "paper/reference_metadata/revision_bmc/tcrpair_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "7e19840c6e1ece8682d326f32733475ae4d417f7023cbc0727d339ec209a1769"
+    },
+    {
+      "key": "dtcr",
+      "doi": "10.1093/bib/bbag438",
+      "title": "DTCR: generating realistic, diverse, and epitope-specific T cell receptor sequences via a discrete diffusion model",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0009-0005-9209-8440",
+          "authenticated-orcid": false,
+          "given": "Haoyan",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , No. 92 West Dazhi Street, Nangang District, Harbin, Heilongjiang 150001 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-5839-2328",
+          "authenticated-orcid": false,
+          "given": "Tianyi",
+          "family": "Zang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , No. 92 West Dazhi Street, Nangang District, Harbin, Heilongjiang 150001 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8385-1908",
+          "authenticated-orcid": false,
+          "given": "Yadong",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , No. 92 West Dazhi Street, Nangang District, Harbin, Heilongjiang 150001 ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "Zhengzhou Research Institute, Harbin Institute of Technology , No. 26 Longyuan East Seventh Street, Zhengdong New District, Zhengzhou, Henan 450000 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "27",
+      "issue": "4",
+      "pages_or_article": "bbag438",
+      "year": 2026,
+      "type": "journal-article",
+      "verification_source": "paper/reference_metadata/revision_bmc/dtcr_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "8a36c28fb069fe9caf6033c1bdc595377815396f9657e9d02e822fcd94a78bfd"
+    },
+    {
+      "key": "germline_shortcut",
+      "doi": "10.64898/2026.07.21.739963",
+      "title": "A germline shortcut in protein language model retrieval of adaptive immune receptors",
+      "authors": [
+        {
+          "given": "Suyue",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratory of Genome Informatics, Research Institute for Microbial Diseases, The University of Osaka, Suita, Japan 565-0871"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ayan",
+          "family": "Sengupta",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MyImmune Corporation, 251 Little Falls Drive, Wilmington, DE 16808, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Songling",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Genome Informatics, Research Institute for Microbial Diseases, The University of Osaka, Suita, Japan 565-0871"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4078-0817",
+          "authenticated-orcid": false,
+          "given": "Daron M",
+          "family": "Standley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Genome Informatics, Research Institute for Microbial Diseases, The University of Osaka, Suita, Japan 565-0871"
+            },
+            {
+              "name": "MyImmune Corporation, 251 Little Falls Drive, Wilmington, DE 16808, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": null,
+      "issue": null,
+      "pages_or_article": null,
+      "year": 2026,
+      "type": "preprint",
+      "verification_source": "paper/reference_metadata/revision_bmc/germline_shortcut_crossref.json",
+      "verified_date": "2026-10-06",
+      "verification_sha256": "59a32590a585c32d15d644008a8ee9fdacb31e7bb9b386915c164b70e778eb5b"
+    }
+  ]
+}

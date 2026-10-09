@@ -1,0 +1,2103 @@
+{
+  "passed": true,
+  "checks": 418,
+  "source": "paper/manuscript_bmc.tex",
+  "source_sha256": "2d9d2661241d0f3a75eeace8647c9121a3ec38026f92bd54d572d2f10feb7f99",
+  "primary_evidence_sha256": "5badb3b9b8ead02c57afeb5f578f85f3a5e343bad9714fb7daa08f48342b2f3b",
+  "revision_evidence_sha256": "d19a7f3a517058dc230e73b6b10c2bbc19cfdd83c9b0a9a407945804a277ef70",
+  "scope": "Deterministic source/figure/reference/table checks and key numerical excerpts; sentence interpretation is documented separately",
+  "native_compilation_verified": false,
+  "author_items_pending": true,
+  "records": [
+    {
+      "check": "unchanged primary evidence",
+      "passed": true,
+      "source": "frozen evidence SHA256"
+    },
+    {
+      "check": "all revision tasks and saved-outcome audit",
+      "passed": true,
+      "source": "revision_summary.json"
+    },
+    {
+      "check": "all Slurm exits successful",
+      "passed": true,
+      "source": "sacct COMPLETED, 0:0"
+    },
+    {
+      "check": "three main tables",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "data_table.tex row 1 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "data_table.tex row 2 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "data_table.tex row 3 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "data_table.tex row 4 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "data_table.tex row 5 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "data_table.tex row 6 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 1 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 2 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 3 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 4 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 5 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 6 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 7 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 8 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 9 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 10 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 11 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "primary_table.tex row 12 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "paired_primary_table.tex row 1 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "paired_primary_table.tex row 2 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "paired_primary_table.tex row 3 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "paired_primary_table.tex row 4 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "paired_primary_table.tex row 5 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "paired_primary_table.tex row 6 unchanged",
+      "passed": true,
+      "source": "evidence-generated primary table"
+    },
+    {
+      "check": "seven main figures",
+      "passed": true,
+      "source": "figure manifest"
+    },
+    {
+      "check": "resolved reference fig:workflow",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:data",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:workflow",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference tab:data",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:data",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference tab:primary",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:primary",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference tab:paired",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:retrieval",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:efficiency",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:protocols",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:protocols",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference fig:budget",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "all citations resolve and are verified",
+      "passed": true,
+      "source": "references_bmc.json"
+    },
+    {
+      "check": "DOI gse180059",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1038/s41467-022-33488-2"
+    },
+    {
+      "check": "DOI uctcrdb",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.3389/fimmu.2023.1158295"
+    },
+    {
+      "check": "DOI suo2022",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1126/science.abo0510"
+    },
+    {
+      "check": "DOI tcrdb2",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1093/nar/gkaf876"
+    },
+    {
+      "check": "DOI tcrbinder",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1371/journal.pcbi.1014396"
+    },
+    {
+      "check": "DOI ots",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1016/j.celrep.2024.114704"
+    },
+    {
+      "check": "DOI tcrdesign",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1093/bib/bbaf691"
+    },
+    {
+      "check": "DOI tcrbert",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1101/2021.11.18.469186"
+    },
+    {
+      "check": "DOI landry2025",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1093/bioadv/vbaf028"
+    },
+    {
+      "check": "DOI pr_metrics",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1371/journal.pone.0118432"
+    },
+    {
+      "check": "DOI iedb",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1093/nar/gkae1092"
+    },
+    {
+      "check": "DOI gd_review",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1016/j.cellimm.2015.04.008"
+    },
+    {
+      "check": "DOI pairing_constraints",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1093/bioinformatics/btag551"
+    },
+    {
+      "check": "DOI tcrpair",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1093/bioinformatics/btab573"
+    },
+    {
+      "check": "DOI dtcr",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.1093/bib/bbag438"
+    },
+    {
+      "check": "DOI germline_shortcut",
+      "passed": true,
+      "source": "verified DOI metadata; expected 10.64898/2026.07.21.739963"
+    },
+    {
+      "check": "figure title/legend lengths 1",
+      "passed": true,
+      "source": "figure manifest"
+    },
+    {
+      "check": "figure output figure_1_workflow.pdf",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_1_workflow.png",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_1_workflow.svg",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure title/legend lengths 2",
+      "passed": true,
+      "source": "figure manifest"
+    },
+    {
+      "check": "figure output figure_2_data.pdf",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_2_data.png",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_2_data.svg",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure title/legend lengths 3",
+      "passed": true,
+      "source": "figure manifest"
+    },
+    {
+      "check": "figure output figure_3_primary.pdf",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_3_primary.png",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_3_primary.svg",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure title/legend lengths 4",
+      "passed": true,
+      "source": "figure manifest"
+    },
+    {
+      "check": "figure output figure_4_retrieval.pdf",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_4_retrieval.png",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_4_retrieval.svg",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure title/legend lengths 5",
+      "passed": true,
+      "source": "figure manifest"
+    },
+    {
+      "check": "figure output figure_5_efficiency.pdf",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_5_efficiency.png",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_5_efficiency.svg",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure title/legend lengths 6",
+      "passed": true,
+      "source": "figure manifest"
+    },
+    {
+      "check": "figure output figure_6_protocols.pdf",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_6_protocols.png",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_6_protocols.svg",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure title/legend lengths 7",
+      "passed": true,
+      "source": "figure manifest"
+    },
+    {
+      "check": "figure output figure_7_budget.pdf",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_7_budget.png",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "figure output figure_7_budget.svg",
+      "passed": true,
+      "source": "saved plot file"
+    },
+    {
+      "check": "table 1 title/legend lengths",
+      "passed": true,
+      "source": "table caption"
+    },
+    {
+      "check": "table 2 title/legend lengths",
+      "passed": true,
+      "source": "table caption"
+    },
+    {
+      "check": "table 3 title/legend lengths",
+      "passed": true,
+      "source": "table caption"
+    },
+    {
+      "check": "format \\doublespacing",
+      "passed": true,
+      "source": "editable source; expected \\doublespacing"
+    },
+    {
+      "check": "format \\linenumbers",
+      "passed": true,
+      "source": "editable source; expected \\linenumbers"
+    },
+    {
+      "check": "format \\pagestyle{plain}",
+      "passed": true,
+      "source": "editable source; expected \\pagestyle{plain}"
+    },
+    {
+      "check": "no forced source page breaks",
+      "passed": true,
+      "source": "editable source"
+    },
+    {
+      "check": "no thousands separators in numeric manuscript text",
+      "passed": true,
+      "source": "editable source"
+    },
+    {
+      "check": "no unfinished scientific-result marker",
+      "passed": true,
+      "source": "main text"
+    },
+    {
+      "check": "author facts remain pending",
+      "passed": true,
+      "source": "user-confirmed pending declarations"
+    },
+    {
+      "check": "primary NLL mean/SD paired",
+      "passed": true,
+      "source": "frozen evidence; expected 1.005\\pm0.004"
+    },
+    {
+      "check": "primary NLL mean/SD constant",
+      "passed": true,
+      "source": "frozen evidence; expected 1.013\\pm0.003"
+    },
+    {
+      "check": "primary NLL mean/SD random",
+      "passed": true,
+      "source": "frozen evidence; expected 1.115\\pm0.006"
+    },
+    {
+      "check": "primary NLL mean/SD shuffled",
+      "passed": true,
+      "source": "frozen evidence; expected 1.018\\pm0.003"
+    },
+    {
+      "check": "primary conditional mean/SD coverage",
+      "passed": true,
+      "source": "frozen evidence; expected 0.88 \\pm 0.19"
+    },
+    {
+      "check": "primary conditional mean/SD likelihood|hit_at_5",
+      "passed": true,
+      "source": "frozen evidence; expected 0.03 \\pm 0.03"
+    },
+    {
+      "check": "primary conditional mean/SD ranker|hit_at_5",
+      "passed": true,
+      "source": "frozen evidence; expected 0.06 \\pm 0.03"
+    },
+    {
+      "check": "primary conditional mean/SD fused|hit_at_5",
+      "passed": true,
+      "source": "frozen evidence; expected 0.03 \\pm 0.03"
+    },
+    {
+      "check": "unseen_gamma_repaired/paired/0/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 8/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/0/gamma_to_delta coverage events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 8/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/0/gamma_to_delta ranker_hit_at_5 events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 6/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/paired/1/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 10/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/1/gamma_to_delta coverage events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 10/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/1/gamma_to_delta ranker_hit_at_5 events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 8/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/constant/0/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 8/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/constant/1/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 9/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/random/0/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 10/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/random/1/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 8/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/shuffled/0/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 6/64"
+    },
+    {
+      "check": "unseen_gamma_repaired/shuffled/1/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 7/64"
+    },
+    {
+      "check": "giant_edge_holdout/paired/0/delta_to_gamma likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 123/261"
+    },
+    {
+      "check": "giant_edge_holdout/0/delta_to_gamma coverage events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 155/261"
+    },
+    {
+      "check": "giant_edge_holdout/0/delta_to_gamma ranker_hit_at_5 events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 71/261"
+    },
+    {
+      "check": "giant percentage 0/delta_to_gamma",
+      "passed": true,
+      "source": "frozen evidence; expected 47.13\\%"
+    },
+    {
+      "check": "giant_edge_holdout/paired/0/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 60/177"
+    },
+    {
+      "check": "giant_edge_holdout/0/gamma_to_delta coverage events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 70/177"
+    },
+    {
+      "check": "giant_edge_holdout/0/gamma_to_delta ranker_hit_at_5 events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 30/177"
+    },
+    {
+      "check": "giant percentage 0/gamma_to_delta",
+      "passed": true,
+      "source": "frozen evidence; expected 33.90\\%"
+    },
+    {
+      "check": "giant_edge_holdout/paired/1/delta_to_gamma likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 118/261"
+    },
+    {
+      "check": "giant_edge_holdout/1/delta_to_gamma coverage events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 164/261"
+    },
+    {
+      "check": "giant_edge_holdout/1/delta_to_gamma ranker_hit_at_5 events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 94/261"
+    },
+    {
+      "check": "giant percentage 1/delta_to_gamma",
+      "passed": true,
+      "source": "frozen evidence; expected 45.21\\%"
+    },
+    {
+      "check": "giant_edge_holdout/paired/1/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 50/177"
+    },
+    {
+      "check": "giant_edge_holdout/1/gamma_to_delta coverage events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 62/177"
+    },
+    {
+      "check": "giant_edge_holdout/1/gamma_to_delta ranker_hit_at_5 events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 35/177"
+    },
+    {
+      "check": "giant percentage 1/gamma_to_delta",
+      "passed": true,
+      "source": "frozen evidence; expected 28.25\\%"
+    },
+    {
+      "check": "giant_edge_holdout/constant/0/delta_to_gamma likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 113/261"
+    },
+    {
+      "check": "giant_edge_holdout/constant/0/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 47/177"
+    },
+    {
+      "check": "giant_edge_holdout/constant/1/delta_to_gamma likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 121/261"
+    },
+    {
+      "check": "giant_edge_holdout/constant/1/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 47/177"
+    },
+    {
+      "check": "giant_edge_holdout/random/0/delta_to_gamma likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 121/261"
+    },
+    {
+      "check": "giant_edge_holdout/random/0/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 32/177"
+    },
+    {
+      "check": "giant_edge_holdout/random/1/delta_to_gamma likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 124/261"
+    },
+    {
+      "check": "giant_edge_holdout/random/1/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 27/177"
+    },
+    {
+      "check": "giant_edge_holdout/shuffled/0/delta_to_gamma likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 126/261"
+    },
+    {
+      "check": "giant_edge_holdout/shuffled/0/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 57/177"
+    },
+    {
+      "check": "giant_edge_holdout/shuffled/1/delta_to_gamma likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 116/261"
+    },
+    {
+      "check": "giant_edge_holdout/shuffled/1/gamma_to_delta likelihood events",
+      "passed": true,
+      "source": "revision_metrics.tsv; expected 54/177"
+    },
+    {
+      "check": "no inferential giant interval",
+      "passed": true,
+      "source": "revision summary"
+    },
+    {
+      "check": "repaired ranker selection MRR 3407",
+      "passed": true,
+      "source": "frozen evidence; expected 0.1405"
+    },
+    {
+      "check": "repaired ranker selection MRR 3508",
+      "passed": true,
+      "source": "frozen evidence; expected 0.1618"
+    },
+    {
+      "check": "repaired paired interval 3407",
+      "passed": true,
+      "source": "frozen evidence; expected [0.00,0.00]"
+    },
+    {
+      "check": "repaired paired interval 3508",
+      "passed": true,
+      "source": "frozen evidence; expected [0.00,4.69]"
+    },
+    {
+      "check": "original diagnostic unseen_input_delta_to_gamma/paired",
+      "passed": true,
+      "source": "frozen evidence; expected 39.75\\%/38.51\\%"
+    },
+    {
+      "check": "original diagnostic unseen_input_delta_to_gamma/constant",
+      "passed": true,
+      "source": "frozen evidence; expected 41.61\\%/39.13\\%"
+    },
+    {
+      "check": "original diagnostic seen_input_gamma_to_delta/paired",
+      "passed": true,
+      "source": "frozen evidence; expected 6.89\\%/6.67\\%"
+    },
+    {
+      "check": "original diagnostic seen_input_gamma_to_delta/constant",
+      "passed": true,
+      "source": "frozen evidence; expected 5.33\\%/5.33\\%"
+    },
+    {
+      "check": "original diagnostic seen_input_delta_to_gamma/paired",
+      "passed": true,
+      "source": "frozen evidence; expected 32.58\\%/34.09\\%"
+    },
+    {
+      "check": "original diagnostic seen_input_delta_to_gamma/constant",
+      "passed": true,
+      "source": "frozen evidence; expected 30.30\\%/29.92\\%"
+    },
+    {
+      "check": "original diagnostic source_holdout/paired",
+      "passed": true,
+      "source": "frozen evidence; expected 11.93\\%/10.26\\%"
+    },
+    {
+      "check": "original diagnostic source_holdout/constant",
+      "passed": true,
+      "source": "frozen evidence; expected 6.68\\%/6.44\\%"
+    },
+    {
+      "check": "original shuffled source_holdout",
+      "passed": true,
+      "source": "frozen evidence; expected 8.83\\%/9.79\\%"
+    },
+    {
+      "check": "original ranker source_holdout",
+      "passed": true,
+      "source": "frozen evidence; expected 3.10\\%/2.86\\%"
+    },
+    {
+      "check": "original diagnostic source_shared/paired",
+      "passed": true,
+      "source": "frozen evidence; expected 47.49\\%/44.39\\%"
+    },
+    {
+      "check": "original diagnostic source_shared/constant",
+      "passed": true,
+      "source": "frozen evidence; expected 43.68\\%/43.20\\%"
+    },
+    {
+      "check": "original shuffled source_shared",
+      "passed": true,
+      "source": "frozen evidence; expected 43.68\\%/43.91\\%"
+    },
+    {
+      "check": "original ranker source_shared",
+      "passed": true,
+      "source": "frozen evidence; expected 14.32\\%/13.60\\%"
+    },
+    {
+      "check": "preserved original unseen-gamma events",
+      "passed": true,
+      "source": "frozen evidence; expected 9/64"
+    },
+    {
+      "check": "preserved original unseen-gamma events",
+      "passed": true,
+      "source": "frozen evidence; expected 9/64"
+    },
+    {
+      "check": "preserved original unseen-gamma events",
+      "passed": true,
+      "source": "frozen evidence; expected 9/64"
+    },
+    {
+      "check": "preserved original unseen-gamma events",
+      "passed": true,
+      "source": "frozen evidence; expected 8/64"
+    },
+    {
+      "check": "data efficiency NLL 10/pretrained",
+      "passed": true,
+      "source": "frozen evidence; expected 1.273/0.780"
+    },
+    {
+      "check": "data efficiency NLL 10/random",
+      "passed": true,
+      "source": "frozen evidence; expected 1.392/0.849"
+    },
+    {
+      "check": "data efficiency NLL 50/pretrained",
+      "passed": true,
+      "source": "frozen evidence; expected 1.255/0.771"
+    },
+    {
+      "check": "data efficiency NLL 50/random",
+      "passed": true,
+      "source": "frozen evidence; expected 1.375/0.838"
+    },
+    {
+      "check": "data efficiency NLL 100/pretrained",
+      "passed": true,
+      "source": "frozen evidence; expected 1.256/0.754"
+    },
+    {
+      "check": "data efficiency NLL 100/random",
+      "passed": true,
+      "source": "frozen evidence; expected 1.376/0.847"
+    },
+    {
+      "check": "retrieval gamma_to_delta/random/likelihood",
+      "passed": true,
+      "source": "frozen evidence; expected 8.9\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/random/prior",
+      "passed": true,
+      "source": "frozen evidence; expected 8.5\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/random/random",
+      "passed": true,
+      "source": "frozen evidence; expected 8.0\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/full/likelihood",
+      "passed": true,
+      "source": "frozen evidence; expected 1.2\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/full/prior",
+      "passed": true,
+      "source": "frozen evidence; expected 1.1\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/full/ranker",
+      "passed": true,
+      "source": "frozen evidence; expected 1.1\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/full/difference",
+      "passed": true,
+      "source": "frozen evidence; expected 1.4\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/motif/likelihood",
+      "passed": true,
+      "source": "frozen evidence; expected 5.4\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/motif/difference",
+      "passed": true,
+      "source": "frozen evidence; expected 12.4\\%"
+    },
+    {
+      "check": "retrieval gamma_to_delta/motif/ranker",
+      "passed": true,
+      "source": "frozen evidence; expected 8.3\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/random/likelihood",
+      "passed": true,
+      "source": "frozen evidence; expected 13.5\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/random/prior",
+      "passed": true,
+      "source": "frozen evidence; expected 11.5\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/random/random",
+      "passed": true,
+      "source": "frozen evidence; expected 5.1\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/full/likelihood",
+      "passed": true,
+      "source": "frozen evidence; expected 4.2\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/full/prior",
+      "passed": true,
+      "source": "frozen evidence; expected 3.8\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/full/ranker",
+      "passed": true,
+      "source": "frozen evidence; expected 1.4\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/full/difference",
+      "passed": true,
+      "source": "frozen evidence; expected 1.0\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/motif/likelihood",
+      "passed": true,
+      "source": "frozen evidence; expected 8.0\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/motif/difference",
+      "passed": true,
+      "source": "frozen evidence; expected 6.0\\%"
+    },
+    {
+      "check": "retrieval delta_to_gamma/motif/ranker",
+      "passed": true,
+      "source": "frozen evidence; expected 5.1\\%"
+    },
+    {
+      "check": "nearest-input retrieval gamma_to_delta/random",
+      "passed": true,
+      "source": "frozen evidence; expected 9.2\\%"
+    },
+    {
+      "check": "nearest-input retrieval gamma_to_delta/full",
+      "passed": true,
+      "source": "frozen evidence; expected 1.5\\%"
+    },
+    {
+      "check": "nearest-input retrieval delta_to_gamma/random",
+      "passed": true,
+      "source": "frozen evidence; expected 7.9\\%"
+    },
+    {
+      "check": "nearest-input retrieval delta_to_gamma/full",
+      "passed": true,
+      "source": "frozen evidence; expected 1.5\\%"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'constant', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'paired', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'random', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('17', 'shuffled', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'constant', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'paired', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'random', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('2026', 'shuffled', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'constant', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'paired', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'random', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3407', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'delta_to_gamma', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'delta_to_gamma', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'delta_to_gamma', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'delta_to_gamma', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'delta_to_gamma', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'gamma_to_delta', 'query_mean_nll')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'gamma_to_delta', 'coverage')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'gamma_to_delta', 'likelihood|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'gamma_to_delta', 'ranker|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "component-size recomposition ('3407', 'shuffled', '3508', 'gamma_to_delta', 'fused|hit_at_5')",
+      "passed": true,
+      "source": "post-hoc strata versus unchanged primary query-macro mean"
+    },
+    {
+      "check": "gdtcr_bmc_revision PDF/source hashes",
+      "passed": true,
+      "source": "renderer manifest"
+    },
+    {
+      "check": "gdtcr_bmc_revision no broken glyph/reference tokens",
+      "passed": true,
+      "source": "extracted PDF text"
+    },
+    {
+      "check": "additional_file_1_bmc PDF/source hashes",
+      "passed": true,
+      "source": "renderer manifest"
+    },
+    {
+      "check": "additional_file_1_bmc no broken glyph/reference tokens",
+      "passed": true,
+      "source": "extracted PDF text"
+    }
+  ]
+}

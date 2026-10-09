@@ -1,0 +1,10 @@
+{
+  "source_sha256": "2d9d2661241d0f3a75eeace8647c9121a3ec38026f92bd54d572d2f10feb7f99",
+  "sentences": 412,
+  "scope": "All prose sentences in main scientific sections and declarations; figures/tables and bibliography have separate numerical/layout/reference audits",
+  "method": "Sentence inventory with explicitly reviewed section-specific answers to the ten checklist questions; not automatic semantic verification",
+  "author_facts_pending": true,
+  "public_deposition_pending": true,
+  "scientific_review": "bounded recorded-partner claims retained; original negative outcomes preserved",
+  "revision_tasks": 43
+}

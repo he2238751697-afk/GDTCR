@@ -1,0 +1,370 @@
+{
+  "code_digest": "78f1af8b20195ba5a64e1bef4aa9473f76a83253916c5d0e696f8ed063244e90",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/revision_bmc/code/20261006T132118Z_78f1af8b2019",
+  "created_utc": "2026-10-06T13:21:19.024371+00:00",
+  "job_records": "artifacts/revision_bmc/jobs/revision_transfer",
+  "phase": "revision_transfer",
+  "protocol": "paper/revision_bmc_protocol.md",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--test",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/test.tsv",
+            "--directions",
+            "delta_to_gamma",
+            "--unit",
+            "source_query",
+            "--output",
+            "artifacts/revision_bmc/transfer/seen_input_delta_to_gamma",
+            "--pool",
+            "artifacts/completion_v2/pools/seen_input_delta_to_gamma/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-seen_input_delta_to_gamma",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/seen_input_delta_to_gamma/summary.json",
+        "artifacts/revision_bmc/transfer/seen_input_delta_to_gamma/rows.json.gz",
+        "artifacts/revision_bmc/transfer/seen_input_delta_to_gamma/provenance.json",
+        "artifacts/revision_bmc/transfer/seen_input_delta_to_gamma/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/seen_input_delta_to_gamma/test.tsv",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--test",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/test.tsv",
+            "--directions",
+            "gamma_to_delta",
+            "--unit",
+            "source_query",
+            "--output",
+            "artifacts/revision_bmc/transfer/seen_input_gamma_to_delta",
+            "--pool",
+            "artifacts/completion_v2/pools/seen_input_gamma_to_delta/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-seen_input_gamma_to_delta",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/seen_input_gamma_to_delta/summary.json",
+        "artifacts/revision_bmc/transfer/seen_input_gamma_to_delta/rows.json.gz",
+        "artifacts/revision_bmc/transfer/seen_input_gamma_to_delta/provenance.json",
+        "artifacts/revision_bmc/transfer/seen_input_gamma_to_delta/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/seen_input_gamma_to_delta/test.tsv",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--test",
+            "data/splits/completion_v2/source_holdout/test.tsv",
+            "--directions",
+            "both",
+            "--unit",
+            "component",
+            "--output",
+            "artifacts/revision_bmc/transfer/source_holdout",
+            "--pool",
+            "artifacts/completion_v2/pools/source_holdout/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-source_holdout",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/source_holdout/summary.json",
+        "artifacts/revision_bmc/transfer/source_holdout/rows.json.gz",
+        "artifacts/revision_bmc/transfer/source_holdout/provenance.json",
+        "artifacts/revision_bmc/transfer/source_holdout/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/splits/completion_v2/source_holdout/test.tsv",
+        "artifacts/completion_v2/pools/source_holdout/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--test",
+            "data/splits/completion_v2/source_shared/test.tsv",
+            "--directions",
+            "both",
+            "--unit",
+            "component",
+            "--output",
+            "artifacts/revision_bmc/transfer/source_shared",
+            "--pool",
+            "artifacts/completion_v2/pools/source_shared/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-source_shared",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/source_shared/summary.json",
+        "artifacts/revision_bmc/transfer/source_shared/rows.json.gz",
+        "artifacts/revision_bmc/transfer/source_shared/provenance.json",
+        "artifacts/revision_bmc/transfer/source_shared/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/splits/completion_v2/source_shared/test.tsv",
+        "artifacts/completion_v2/pools/source_shared/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--test",
+            "data/splits/completion_v2/split_seed17/test.tsv",
+            "--directions",
+            "both",
+            "--unit",
+            "component",
+            "--output",
+            "artifacts/revision_bmc/transfer/split_seed17",
+            "--pool",
+            "artifacts/completion_v2/pools/split_seed17/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-split_seed17",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/split_seed17/summary.json",
+        "artifacts/revision_bmc/transfer/split_seed17/rows.json.gz",
+        "artifacts/revision_bmc/transfer/split_seed17/provenance.json",
+        "artifacts/revision_bmc/transfer/split_seed17/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/test.tsv",
+        "artifacts/completion_v2/pools/split_seed17/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--test",
+            "data/splits/completion_v2/split_seed2026/test.tsv",
+            "--directions",
+            "both",
+            "--unit",
+            "component",
+            "--output",
+            "artifacts/revision_bmc/transfer/split_seed2026",
+            "--pool",
+            "artifacts/completion_v2/pools/split_seed2026/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-split_seed2026",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/split_seed2026/summary.json",
+        "artifacts/revision_bmc/transfer/split_seed2026/rows.json.gz",
+        "artifacts/revision_bmc/transfer/split_seed2026/provenance.json",
+        "artifacts/revision_bmc/transfer/split_seed2026/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/test.tsv",
+        "artifacts/completion_v2/pools/split_seed2026/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--test",
+            "data/splits/completion_v2/split_seed3407/test.tsv",
+            "--directions",
+            "both",
+            "--unit",
+            "component",
+            "--output",
+            "artifacts/revision_bmc/transfer/split_seed3407",
+            "--pool",
+            "artifacts/completion_v2/pools/split_seed3407/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-split_seed3407",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/split_seed3407/summary.json",
+        "artifacts/revision_bmc/transfer/split_seed3407/rows.json.gz",
+        "artifacts/revision_bmc/transfer/split_seed3407/provenance.json",
+        "artifacts/revision_bmc/transfer/split_seed3407/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/test.tsv",
+        "artifacts/completion_v2/pools/split_seed3407/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--test",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/test.tsv",
+            "--directions",
+            "delta_to_gamma",
+            "--unit",
+            "source_query",
+            "--output",
+            "artifacts/revision_bmc/transfer/unseen_input_delta_to_gamma",
+            "--pool",
+            "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-unseen_input_delta_to_gamma",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/unseen_input_delta_to_gamma/summary.json",
+        "artifacts/revision_bmc/transfer/unseen_input_delta_to_gamma/rows.json.gz",
+        "artifacts/revision_bmc/transfer/unseen_input_delta_to_gamma/provenance.json",
+        "artifacts/revision_bmc/transfer/unseen_input_delta_to_gamma/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/test.tsv",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--test",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/test.tsv",
+            "--directions",
+            "gamma_to_delta",
+            "--unit",
+            "source_query",
+            "--output",
+            "artifacts/revision_bmc/transfer/unseen_input_gamma_to_delta",
+            "--pool",
+            "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/test.json.gz"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-unseen_input_gamma_to_delta",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/unseen_input_gamma_to_delta/summary.json",
+        "artifacts/revision_bmc/transfer/unseen_input_gamma_to_delta/rows.json.gz",
+        "artifacts/revision_bmc/transfer/unseen_input_gamma_to_delta/provenance.json",
+        "artifacts/revision_bmc/transfer/unseen_input_gamma_to_delta/checksums.json"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/test.tsv",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--test",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--directions",
+            "both",
+            "--unit",
+            "single_original_component",
+            "--output",
+            "artifacts/revision_bmc/transfer/giant_edge_holdout"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-giant_edge_holdout",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/giant_edge_holdout/summary.json",
+        "artifacts/revision_bmc/transfer/giant_edge_holdout/rows.json.gz",
+        "artifacts/revision_bmc/transfer/giant_edge_holdout/provenance.json",
+        "artifacts/revision_bmc/transfer/giant_edge_holdout/checksums.json"
+      ],
+      "requires": [
+        "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+        "data/splits/revision_bmc/giant_edge_holdout/test.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--test",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--directions",
+            "gamma_to_delta",
+            "--unit",
+            "source_query",
+            "--output",
+            "artifacts/revision_bmc/transfer/unseen_gamma_repaired"
+          ],
+          "script": "scripts/evaluate_transfer_bmc.py"
+        }
+      ],
+      "id": "transfer-unseen_gamma_repaired",
+      "outputs": [
+        "artifacts/revision_bmc/transfer/unseen_gamma_repaired/summary.json",
+        "artifacts/revision_bmc/transfer/unseen_gamma_repaired/rows.json.gz",
+        "artifacts/revision_bmc/transfer/unseen_gamma_repaired/provenance.json",
+        "artifacts/revision_bmc/transfer/unseen_gamma_repaired/checksums.json"
+      ],
+      "requires": [
+        "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+        "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv"
+      ]
+    }
+  ]
+}

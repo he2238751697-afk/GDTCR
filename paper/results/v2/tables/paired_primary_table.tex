@@ -1,0 +1,19 @@
+\begin{table}[ht]
+\centering
+\caption{Primary paired contrasts, with 95\% component-bootstrap percentile intervals conditional on each fitted model pair and its saved samples. All endpoints are equal-direction query means at 64 draws. C denotes the pretrained conditional model and P the matched constant-source prior. NLL differences are nats per token; Hit@5 differences are percentage points. Negative NLL and positive Hit@5 differences favor the first named condition. Ranker and fusion contrasts reorder the conditional model's identical candidates. Intervals are not adjusted for multiple comparisons; a zero-event [0,0] interval is not a population upper bound.}
+\label{tab:paired}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.2200\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}}
+\toprule
+Split / model seed & NLL: C minus P & Hit@5: C minus P & NLL: C minus random & Hit@5: ranker minus likelihood & Hit@5: fused minus likelihood\\
+\midrule
+17 / 3407 & -0.007 [-0.010, -0.004] & 0.11 [0.00, 0.27] & -0.109 [-0.116, -0.102] & 0.00 [-0.21, 0.22] & 0.00 [0.00, 0.00]\\
+17 / 3508 & -0.009 [-0.012, -0.006] & 0.00 [0.00, 0.00] & -0.104 [-0.111, -0.097] & 0.00 [0.00, 0.00] & 0.00 [0.00, 0.00]\\
+3407 / 3407 & -0.006 [-0.009, -0.004] & 0.00 [0.00, 0.00] & -0.115 [-0.123, -0.108] & 0.00 [0.00, 0.00] & 0.00 [0.00, 0.00]\\
+3407 / 3508 & -0.006 [-0.009, -0.004] & 0.06 [0.00, 0.17] & -0.111 [-0.118, -0.104] & 0.00 [-0.17, 0.16] & 0.00 [0.00, 0.00]\\
+2026 / 3407 & -0.009 [-0.011, -0.006] & 0.00 [0.00, 0.00] & -0.114 [-0.121, -0.106] & 0.06 [0.00, 0.17] & 0.00 [0.00, 0.00]\\
+2026 / 3508 & -0.008 [-0.010, -0.005] & 0.00 [0.00, 0.00] & -0.106 [-0.113, -0.099] & 0.11 [0.00, 0.28] & 0.00 [0.00, 0.00]\\
+\bottomrule
+\end{tabular}
+\end{table}

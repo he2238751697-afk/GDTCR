@@ -1,0 +1,733 @@
+{
+  "code_digest": "ee9314288651effc0ff6ccba6936c394b5234d9f58e26425b60c9cbd021b7646",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/code/20260930T050817Z_ee9314288651",
+  "created_utc": "2026-09-30T05:08:17.069986+00:00",
+  "job_records": "artifacts/completion_v2/jobs/shallow",
+  "phase": "shallow",
+  "protocol": "paper/protocol_v2.md",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/seen_input_delta_to_gamma",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0",
+            "--directions",
+            "delta_to_gamma",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-seen_input_delta_to_gamma-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/seen_input_delta_to_gamma",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1",
+            "--directions",
+            "delta_to_gamma",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-seen_input_delta_to_gamma-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_delta_to_gamma/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/seen_input_delta_to_gamma/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/seen_input_gamma_to_delta",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0",
+            "--directions",
+            "gamma_to_delta",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-seen_input_gamma_to_delta-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/seen_input_gamma_to_delta",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1",
+            "--directions",
+            "gamma_to_delta",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-seen_input_gamma_to_delta-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/seen_input_gamma_to_delta/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/seen_input_gamma_to_delta/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/source_holdout",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0",
+            "--directions",
+            "both",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-source_holdout-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "artifacts/completion_v2/pools/source_holdout/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/source_holdout/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/source_holdout/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/source_holdout/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/source_holdout",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1",
+            "--directions",
+            "both",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-source_holdout-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_holdout/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "artifacts/completion_v2/pools/source_holdout/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/source_holdout/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/source_holdout/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/source_holdout/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/source_shared",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/source_shared/seed-0",
+            "--directions",
+            "both",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-source_shared-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "artifacts/completion_v2/pools/source_shared/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/source_shared/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/source_shared/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/source_shared/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/source_shared",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/source_shared/seed-1",
+            "--directions",
+            "both",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-source_shared-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/source_shared/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "artifacts/completion_v2/pools/source_shared/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/source_shared/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/source_shared/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/source_shared/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/split_seed17",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0",
+            "--directions",
+            "both",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-split_seed17-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "artifacts/completion_v2/pools/split_seed17/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/split_seed17/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/split_seed17/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/split_seed17/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/split_seed17",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1",
+            "--directions",
+            "both",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-split_seed17-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed17/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "artifacts/completion_v2/pools/split_seed17/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/split_seed17/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/split_seed17/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/split_seed17/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/split_seed2026",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0",
+            "--directions",
+            "both",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-split_seed2026-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "artifacts/completion_v2/pools/split_seed2026/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/split_seed2026/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/split_seed2026/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/split_seed2026/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/split_seed2026",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1",
+            "--directions",
+            "both",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-split_seed2026-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed2026/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "artifacts/completion_v2/pools/split_seed2026/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/split_seed2026/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/split_seed2026/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/split_seed2026/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/split_seed3407",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0",
+            "--directions",
+            "both",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-split_seed3407-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "artifacts/completion_v2/pools/split_seed3407/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/split_seed3407/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/split_seed3407/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/split_seed3407/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/split_seed3407",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1",
+            "--directions",
+            "both",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-split_seed3407-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/split_seed3407/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "artifacts/completion_v2/pools/split_seed3407/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/split_seed3407/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/split_seed3407/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/split_seed3407/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/unseen_input_delta_to_gamma",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0",
+            "--directions",
+            "delta_to_gamma",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-unseen_input_delta_to_gamma-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/unseen_input_delta_to_gamma",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1",
+            "--directions",
+            "delta_to_gamma",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-unseen_input_delta_to_gamma-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_delta_to_gamma/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_delta_to_gamma/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/unseen_input_gamma_to_delta",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0",
+            "--directions",
+            "gamma_to_delta",
+            "--seed",
+            "3407"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-unseen_input_gamma_to_delta-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0/summary.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-0/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/test.json.gz"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--pool-root",
+            "artifacts/completion_v2/pools/unseen_input_gamma_to_delta",
+            "--output",
+            "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1",
+            "--directions",
+            "gamma_to_delta",
+            "--seed",
+            "3508"
+          ],
+          "script": "scripts/evaluate_shallow_v2.py"
+        }
+      ],
+      "id": "shallow-unseen_input_gamma_to_delta-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1/summary.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1/model.joblib",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1/provenance.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1/checksums.json",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1/validation_selection.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1/validation_tuning.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1/validation_calibration.json.gz",
+        "artifacts/completion_v2/baselines/shallow/unseen_input_gamma_to_delta/seed-1/test.json.gz"
+      ],
+      "requirements": [
+        "E1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/validation_selection.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/validation_tuning.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/validation_calibration.json.gz",
+        "artifacts/completion_v2/pools/unseen_input_gamma_to_delta/test.json.gz"
+      ]
+    }
+  ]
+}

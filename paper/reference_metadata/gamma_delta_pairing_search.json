@@ -1,0 +1,876 @@
+{
+  "url": "https://api.crossref.org/works?rows=5&query.bibliographic=gamma%20delta%20T%20cell%20receptor%20chain%20pairing%20deep%20learning",
+  "retrieved_utc": "2026-09-30T05:42:24.890247+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 7143186,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2026-05-01T15:15:27Z",
+            "timestamp": 1777648527195,
+            "version": "3.51.4"
+          },
+          "reference-count": 0,
+          "publisher": "Oxford University Press (OUP)",
+          "issue": "3",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    1990,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "1990-02-01T00:00:00Z",
+                "timestamp": 633830400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://academic.oup.com/pages/standard-publication-reuse-rights"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1990,
+                2,
+                1
+              ]
+            ]
+          },
+          "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Specific TCR V gamma and V delta segments are found to be coordinately used on subpopulations of gamma delta T lymphocytes. The reasons for this phenomenon are unknown, but may include the inability of particular chains expressing unique V delta and V gamma segments to physically associate. V delta 2 is typically used together with V gamma 2 on human peripheral blood gamma delta T lymphocytes. To examine whether V delta 2 can be used in conjunction with distinct V gamma segments, a TCR- mutant of the human gamma delta T cell line MOLT-13, which expresses parental TCR gamma (V gamma 1.3) but not TCR-delta protein, was transfected with plasmids containing full-length TCR-delta cDNA using either V delta 2 or V delta3. TCR reconstitution was successful in both transfectants and resulted in TCR protein and RNA levels similar to that of the parental MOLT-13 cell line. These cell lines could be activated through their receptors as assessed by increases in cytoplasmic free calcium. These studies imply that physical constraints cannot explain the observed chain pairing preferences. Other possible explanations are discussed.</jats:p>",
+          "DOI": "10.4049/jimmunol.144.3.1120",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                31
+              ]
+            ],
+            "date-time": "2022-12-31T23:56:15Z",
+            "timestamp": 1672530975000
+          },
+          "page": "1120-1126",
+          "source": "Crossref",
+          "is-referenced-by-count": 12,
+          "title": [
+            "Human T cell receptor-gamma and -delta chain pairing analyzed by transfection of a T cell receptor-delta negative mutant cell line."
+          ],
+          "prefix": "10.1093",
+          "volume": "144",
+          "author": [
+            {
+              "given": "K R",
+              "family": "Solomon",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Division of Tumor Virology, Dana-Farber Cancer Institute, Harvard Medical School , Boston, MA 02115"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "M S",
+              "family": "Krangel",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Division of Tumor Virology, Dana-Farber Cancer Institute, Harvard Medical School , Boston, MA 02115"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "J",
+              "family": "McLean",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Laboratory of Immunochemistry, Dana-Farber Cancer Institute, Harvard Medical School , Boston, MA 02115"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "M B",
+              "family": "Brenner",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Laboratory of Immunochemistry, Dana-Farber Cancer Institute, Harvard Medical School , Boston, MA 02115"
+                },
+                {
+                  "name": "Department of Rheumatology and Immunology, Harvard Medical School , Boston, MA 02115"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "H",
+              "family": "Band",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Laboratory of Immunochemistry, Dana-Farber Cancer Institute, Harvard Medical School , Boston, MA 02115"
+                },
+                {
+                  "name": "Department of Rheumatology and Immunology, Harvard Medical School , Boston, MA 02115"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "286",
+          "published-online": {
+            "date-parts": [
+              [
+                1990,
+                2,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "The Journal of Immunology"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://academic.oup.com/jimmunol/article-pdf/144/3/1120/62379538/1120.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "https://academic.oup.com/jimmunol/article-pdf/144/3/1120/62379538/1120.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                29
+              ]
+            ],
+            "date-time": "2025-03-29T23:01:42Z",
+            "timestamp": 1743289302000
+          },
+          "score": 40.24294,
+          "resource": {
+            "primary": {
+              "URL": "https://academic.oup.com/jimmunol/article/144/3/1120/8070445"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1990,
+                2,
+                1
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "3",
+            "published-print": {
+              "date-parts": [
+                [
+                  1990,
+                  2,
+                  1
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.4049/jimmunol.144.3.1120",
+          "ISSN": [
+            "0022-1767",
+            "1550-6606"
+          ],
+          "issn-type": [
+            {
+              "value": "0022-1767",
+              "type": "print"
+            },
+            {
+              "value": "1550-6606",
+              "type": "electronic"
+            }
+          ],
+          "published-other": {
+            "date-parts": [
+              [
+                1990,
+                2
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                1990,
+                2,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2022-03-31T18:39:16Z",
+            "timestamp": 1648751956909
+          },
+          "reference-count": 0,
+          "publisher": "Elsevier BV",
+          "issue": "1",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    1989,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "1989-11-01T00:00:00Z",
+                "timestamp": 625881600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Cytokine"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                1989,
+                11
+              ]
+            ]
+          },
+          "DOI": "10.1016/1043-4666(89)91140-x",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2004,
+                4,
+                21
+              ]
+            ],
+            "date-time": "2004-04-21T12:48:18Z",
+            "timestamp": 1082551698000
+          },
+          "page": "87",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "IL-2 induces T-cell receptor gamma chain mRNA expression in immature gamma/delta thymocytes in vitro"
+          ],
+          "prefix": "10.1016",
+          "volume": "1",
+          "member": "78",
+          "container-title": [
+            "Cytokine"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:104346668991140X?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:104346668991140X?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                2,
+                10
+              ]
+            ],
+            "date-time": "2019-02-10T11:53:51Z",
+            "timestamp": 1549799631000
+          },
+          "score": 35.523933,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/104346668991140X"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1989,
+                11
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "1",
+            "published-print": {
+              "date-parts": [
+                [
+                  1989,
+                  11
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "104346668991140X"
+          ],
+          "URL": "https://doi.org/10.1016/1043-4666(89)91140-x",
+          "ISSN": [
+            "1043-4666"
+          ],
+          "issn-type": [
+            {
+              "value": "1043-4666",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1989,
+                11
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2025-09-11T17:48:43Z",
+            "timestamp": 1757612923975,
+            "version": "3.44.0"
+          },
+          "reference-count": 6,
+          "publisher": "Elsevier",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9780323376785"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2016,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2016-01-01T00:00:00Z",
+                "timestamp": 1451606400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2016,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2016-01-01T00:00:00Z",
+                "timestamp": 1451606400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "DOI": "10.1016/b978-0-323-37678-5.50032-3",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                8,
+                28
+              ]
+            ],
+            "date-time": "2020-08-28T18:57:21Z",
+            "timestamp": 1598641041000
+          },
+          "page": "3-38-3-41",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "T-Cell Receptor Gamma (TRG) and Delta (TRD) Chain Rearrangements"
+          ],
+          "prefix": "10.1016",
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/B978-0-323-37678-5.50032-3_bib1",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jaad.2015.04.030",
+              "article-title": "T-cell clonality assessment by next-generation sequencing improves detection sensitivity in mycosis fungoides",
+              "author": "Sufficool",
+              "year": "2015",
+              "journal-title": "J Am Acad Dermatol. Epub ahead of print"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/B978-0-323-37678-5.50032-3_bib2",
+              "doi-asserted-by": "crossref",
+              "first-page": "35",
+              "DOI": "10.1177/2040620713519729",
+              "article-title": "The evolution of clonality testing in the diagnosis and monitoring of hematological malignancies",
+              "volume": "5",
+              "author": "Gazzola",
+              "year": "2014",
+              "journal-title": "Ther Adv Hematol."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/B978-0-323-37678-5.50032-3_bib3",
+              "doi-asserted-by": "crossref",
+              "first-page": "302",
+              "DOI": "10.1309/AJCP5YM3AALKQBII",
+              "article-title": "Clinical use of next-generation sequencing of TRG gene rearrangements has arrived",
+              "volume": "141",
+              "author": "Greiner",
+              "year": "2014",
+              "journal-title": "Am J Clin Pathol."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/B978-0-323-37678-5.50032-3_bib4",
+              "doi-asserted-by": "crossref",
+              "first-page": "348",
+              "DOI": "10.1309/AJCP5TYGBVW4ZITR",
+              "article-title": "A comparison of deep sequencing of TCRG rearrangements vs traditional capillary electrophoresis for assessment of clonality in T-Cell lymphoproliferative disorders",
+              "volume": "141",
+              "author": "Schumacher",
+              "year": "2014",
+              "journal-title": "Am J Clin Pathol."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/B978-0-323-37678-5.50032-3_bib5",
+              "doi-asserted-by": "crossref",
+              "first-page": "137",
+              "DOI": "10.1016/S1525-1578(10)60694-0",
+              "article-title": "Effectiveness of capillary electrophoresis using fluorescent-labeled primers in detecting T-cell receptor gamma gene rearrangements",
+              "volume": "4",
+              "author": "Greiner",
+              "year": "2002",
+              "journal-title": "J Mol Diagn."
+            },
+            {
+              "issue": "12",
+              "key": "10.1016/B978-0-323-37678-5.50032-3_bib6",
+              "doi-asserted-by": "crossref",
+              "first-page": "2257",
+              "DOI": "10.1038/sj.leu.2403202",
+              "article-title": "Design and standardization of PCR primers and protocols for detection of clonal immunoglobulin and T-cell receptor gene recombinations in suspect lymphoproliferations: report of the BIOMED-2 Concerted Action BMH4-CT98-3936",
+              "volume": "17",
+              "author": "van Dongen",
+              "year": "2003",
+              "journal-title": "Leukemia."
+            }
+          ],
+          "container-title": [
+            "Diagnostic Pathology: Molecular Oncology"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323376785500323?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323376785500323?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                4
+              ]
+            ],
+            "date-time": "2025-09-04T16:08:54Z",
+            "timestamp": 1757002134000
+          },
+          "score": 35.361423,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780323376785500323"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780323376785"
+          ],
+          "references-count": 6,
+          "URL": "https://doi.org/10.1016/b978-0-323-37678-5.50032-3",
+          "published": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2024-09-11T09:48:26Z",
+            "timestamp": 1726048106891
+          },
+          "reference-count": 1,
+          "publisher": "Qeios",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.32388/apwz4l",
+          "type": "reference-entry",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                2
+              ]
+            ],
+            "date-time": "2020-02-02T19:18:13Z",
+            "timestamp": 1580671093000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "T-Cell Receptor Gamma-Delta"
+          ],
+          "prefix": "10.32388",
+          "author": [
+            {
+              "name": "National Cancer Institute",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "17262",
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                2
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ref1",
+              "unstructured": "National Cancer Institute. T-Cell Receptor Gamma-Delta. NCI Thesaurus. Code C17432."
+            }
+          ],
+          "container-title": [
+            "Definitions"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                2
+              ]
+            ],
+            "date-time": "2020-02-02T19:18:13Z",
+            "timestamp": 1580671093000
+          },
+          "score": 33.62947,
+          "resource": {
+            "primary": {
+              "URL": "https://www.qeios.com/read/definition/40304"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                2
+              ]
+            ]
+          },
+          "references-count": 1,
+          "URL": "https://doi.org/10.32388/apwz4l",
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T12:14:45Z",
+            "timestamp": 1785413685621,
+            "version": "3.56.0"
+          },
+          "publisher": "Wellcome",
+          "award": "092973",
+          "DOI": "10.35802/092973",
+          "type": "grant",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                12,
+                17
+              ]
+            ],
+            "date-time": "2020-12-17T13:56:13Z",
+            "timestamp": 1608213373000
+          },
+          "source": "Crossref",
+          "prefix": "10.35802",
+          "member": "13928",
+          "project": [
+            {
+              "project-title": [
+                {
+                  "title": "Understanding T cell receptor (TCR) signalling requirements for thymic gamma/delta cell development; are gamma/delta cells selected through their TCR?."
+                }
+              ],
+              "project-description": [
+                {
+                  "description": "Gamma/delta T cells make robust non-redundant immune responses against a range of infections and cancers. However, surprisingly little is known about their basic biology. Indeed, although gamma/delta T cells recognise pathogens and tumours through their T cell receptors (TCRs), the individual identities of the TCR targets are still largely unknown. Moreover, how useful gamma/delta TCRs are selected during development in the thymus, and how gamma/delta T cells gain the specialised functional po tential that characterises their unique peripheral immune responses are equally unclear. This proposal seeks to provide important insight into how the characteristics of the gamma/delta TCR regulate the thymic development of gamma/delta T cells. We will test the idea that certain gamma/delta TCRs are positively or negatively selected, and have hypothesised that TCR signal strength at this stage of development fundamentally influences subsequent immune potential with specific reference to the pro duction of interferon-gamma and interleukin-17. Such knowledge will facilitate the search for both the microbial- and tumour-associated targets of the gamma/delta TCR, and should instruct the future refinement of immunotherapeutic strategies in the clinic.",
+                  "language": "en"
+                }
+              ],
+              "investigator": [
+                {
+                  "given": "Daniel",
+                  "family": "Pennington",
+                  "affiliation": [
+                    {
+                      "id": [
+                        {
+                          "id": "https://ror.org/026zzn846",
+                          "id-type": "ROR",
+                          "asserted-by": "publisher"
+                        }
+                      ],
+                      "name": "Queen Mary University of London",
+                      "country": "GB"
+                    }
+                  ]
+                }
+              ],
+              "award-amount": {
+                "amount": 293533.0,
+                "currency": "GBP"
+              },
+              "award-start": {
+                "date-parts": [
+                  [
+                    2011,
+                    9,
+                    1
+                  ]
+                ]
+              },
+              "award-end": {
+                "date-parts": [
+                  [
+                    2015,
+                    10,
+                    31
+                  ]
+                ]
+              },
+              "funding": [
+                {
+                  "type": "grant",
+                  "scheme": "Immune System in Health and Disease",
+                  "funder": {
+                    "id": [
+                      {
+                        "id": "10.13039/100010269",
+                        "id-type": "DOI",
+                        "asserted-by": "publisher"
+                      }
+                    ],
+                    "name": "Wellcome Trust"
+                  }
+                }
+              ]
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2022-12-01T09:23:53Z",
+            "timestamp": 1669886633000
+          },
+          "score": 32.792984,
+          "resource": {
+            "primary": {
+              "URL": "https://europepmc.org/grantfinder/grantdetails?query=pi:\"%7BProf%7D%7BPennington%7D%7BDaniel%7D%7BDJ%7D\" gid:\"092973\" ga:\"Wellcome Trust\""
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2011,
+                9,
+                1
+              ]
+            ]
+          },
+          "URL": "https://doi.org/10.35802/092973"
+        }
+      ],
+      "items-per-page": 5,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

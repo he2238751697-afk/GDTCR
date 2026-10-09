@@ -1,0 +1,3749 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22T-cell+receptor%22+OR+TITLE_ABS%3ATCR%29+AND+%28TITLE_ABS%3Apairing+OR+TITLE_ABS%3A%22paired+chain%22%29+AND+%28TITLE_ABS%3A%22language+model%22+OR+TITLE_ABS%3A%22deep+learning%22%29&format=json&pageSize=10&resultType=core",
+  "retrieved_utc": "2026-09-30T05:56:40.279017+00:00",
+  "response": {
+    "version": "6.9",
+    "hitCount": 15,
+    "nextCursorMark": "AoIIQIOb6yg0OTY4NTU3MA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22T-cell+receptor%22+OR+TITLE_ABS%3ATCR%29+AND+%28TITLE_ABS%3Apairing+OR+TITLE_ABS%3A%22paired+chain%22%29+AND+%28TITLE_ABS%3A%22language+model%22+OR+TITLE_ABS%3A%22deep+learning%22%29&cursorMark=AoIIQIOb6yg0OTY4NTU3MA%3D%3D&resultType=core&pageSize=10&format=json",
+    "request": {
+      "queryString": "(TITLE_ABS:\"T-cell receptor\" OR TITLE_ABS:TCR) AND (TITLE_ABS:pairing OR TITLE_ABS:\"paired chain\") AND (TITLE_ABS:\"language model\" OR TITLE_ABS:\"deep learning\")",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 10,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42330011",
+          "source": "MED",
+          "pmid": "42330011",
+          "pmcid": "PMC13298993",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13298993"
+            ]
+          },
+          "doi": "10.1371/journal.pcbi.1014396",
+          "title": "TCRBinder: Unified pre-trained language model with paired-chain synergy for predicting T-cell receptor binding specificity.",
+          "authorString": "Dong W, Yang Q, Xu L, Li X, Wang K, Dong S, Luo G, Zhang X, Yang T, Gao X, Wang G.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Dong W",
+                "lastName": "Dong",
+                "firstName": "Weihe",
+                "initials": "W",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8022-9793"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang Q",
+                "lastName": "Yang",
+                "firstName": "Qiang",
+                "initials": "Q",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, Harbin, China."
+                    },
+                    {
+                      "affiliation": "Zhengzhou Advanced Research Institute, Harbin Institute of Technology, Zhengzhou, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xu L",
+                "lastName": "Xu",
+                "firstName": "Long",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Li X",
+                "lastName": "Li",
+                "firstName": "Xiaokun",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6645-6890"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, Harbin, China."
+                    },
+                    {
+                      "affiliation": "School of Computer and Big Data, Heilongjiang University, Harbin, China."
+                    },
+                    {
+                      "affiliation": "Postdoctoral Program of Heilongjiang Hengxun Technology Co., Ltd., Harbin, China."
+                    },
+                    {
+                      "affiliation": "Shandong Hengxun Technology Co., Ltd., Qingdao, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang K",
+                "lastName": "Wang",
+                "firstName": "Kuanquan",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1347-3491"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dong S",
+                "lastName": "Dong",
+                "firstName": "Suyu",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence for Smart Health (KCSH), King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence on Generative AI, King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Luo G",
+                "lastName": "Luo",
+                "firstName": "Gongning",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang X",
+                "lastName": "Zhang",
+                "firstName": "Xianyu",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Breast Surgery, Harbin Medical University Cancer Hospital, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang T",
+                "lastName": "Yang",
+                "firstName": "Tiansong",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Rehabilitation, The First Affiliated Hospital of Heilongjiang University of Traditional Chinese Medicine, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gao X",
+                "lastName": "Gao",
+                "firstName": "Xin",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7108-3574"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence for Smart Health (KCSH), King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence on Generative AI, King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang G",
+                "lastName": "Wang",
+                "firstName": "Guohua",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8022-9793"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6645-6890"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7108-3574"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1347-3491"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "22",
+            "journalIssueId": 4204544,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "PLoS Comput Biol",
+              "title": "PLoS computational biology",
+              "essn": "1553-7358",
+              "issn": "1553-734X",
+              "nlmid": "101238922",
+              "isoabbreviation": "PLoS Comput Biol"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "e1014396",
+          "abstractText": "Deciphering how human T cells recognise peptide-HLA (pHLA) complexes underpins next-generation vaccines and personalised immunotherapies, yet extreme sequence diversity and paired-chains interdependence still hamper reliable in silico prediction of T-cell receptor (TCR) specificity. To overcome these hurdles, we built TCRBinder, a paired-chain-aware deep model with a multi-branch encoder that routes each molecular component through dedicated transformer-based modules to capture contextual signals in both HLA pseudo-sequences and antigenic peptides while simultaneously processing the TCR [Formula: see text] and [Formula: see text] chains. This design captures the synergistic interaction between paired chains to emulate peptide-HLA-TCR (PHT) interactions and expose residue-level contact motifs. Across PHT and peptide-TCR (pTCR) benchmarks, the model delivered state-of-the-art performance (AUC-ROC\u2009=\u20090.911, AUPR\u2009=\u20090.791 for the PHT task) and remained superior on multiple independent datasets. We tracked the dynamics of clonal expansion and, in a large SARS-CoV-2 repertoire containing completely unseen peptides, improved the AUC-ROC by up to 16.3% over the leading alternatives. Moreover, TCRBinder provided mechanistic insights by pinpointing contact hotspots and quantifying residue contributions to binding probability. These capabilities position TCRBinder as a versatile tool for rational antigen discovery, immunotherapy stratification, and neoantigen vaccine design.",
+          "affiliation": "Faculty of Computing, Harbin Institute of Technology, Harbin, China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Peptides",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "HLA Antigens",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Computational Biology",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Protein Binding"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "COVID-19",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "VI",
+                      "qualifierName": "virology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunoinformatics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Large Language Models"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Peptides",
+                "registryNumber": "0"
+              },
+              {
+                "name": "HLA Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1371/journal.pcbi.1014396"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13298993"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13298993?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb"
+            ]
+          },
+          "dateOfCompletion": "2026-06-25",
+          "dateOfCreation": "2026-06-22",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-22",
+          "firstPublicationDate": "2026-06-22",
+          "firstIndexDate": "2026-06-23",
+          "fullTextReceivedDate": "2026-06-26",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42288475",
+          "source": "MED",
+          "pmid": "42288475",
+          "pmcid": "PMC13408770",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13408770"
+            ]
+          },
+          "doi": "10.1038/s41467-026-73396-3",
+          "title": "Deciphering small sequence differences in T cell receptor-antigen pairing.",
+          "authorString": "Han Y, Yang Y, Zhu J, Fattah FJ, von Itzstein MS, Zhang M, Bermack C, Jiang P, Singh S, Tian Y, Hu Y, Deng Y, Kang X, Yang DM, Liu J, Xue Y, Liang C, Raman I, Zhu C, Xiao O, Dowell JE, Homsi J, Rashdan S, Pan K, Yang S, Gwin ME, Hsiehchen D, Gloria-McCutchen Y, Wu F, Heymach JV, Gibbons D, Huang J, Cheng C, Zhang J, Yee C, Reuben A, Gerber DE, Wang T.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Han Y",
+                "lastName": "Han",
+                "firstName": "Yi",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang Y",
+                "lastName": "Yang",
+                "firstName": "Yuqiu",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0975-1658"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhu J",
+                "lastName": "Zhu",
+                "firstName": "James",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fattah FJ",
+                "lastName": "Fattah",
+                "firstName": "Farjana J",
+                "initials": "FJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "von Itzstein MS",
+                "lastName": "von Itzstein",
+                "firstName": "Mitchell S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0530-3169"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang M",
+                "lastName": "Zhang",
+                "firstName": "Minying",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bermack C",
+                "lastName": "Bermack",
+                "firstName": "Casey",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Melanoma Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jiang P",
+                "lastName": "Jiang",
+                "firstName": "Peixin",
+                "initials": "P",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-8033-1639"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Singh S",
+                "lastName": "Singh",
+                "firstName": "Shailbala",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Melanoma Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tian Y",
+                "lastName": "Tian",
+                "firstName": "Yanhua",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7095-8765"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    },
+                    {
+                      "affiliation": "Department of Genomic Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hu Y",
+                "lastName": "Hu",
+                "firstName": "Yifei",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-5709-4129"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Deng Y",
+                "lastName": "Deng",
+                "firstName": "Yafang",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5524-9629"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Biology and Center for Inflammation Research, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kang X",
+                "lastName": "Kang",
+                "firstName": "Xiongbin",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang DM",
+                "lastName": "Yang",
+                "firstName": "Donghan M",
+                "initials": "DM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Liu J",
+                "lastName": "Liu",
+                "firstName": "Jialiang",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xue Y",
+                "lastName": "Xue",
+                "firstName": "Yaming",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Liang C",
+                "lastName": "Liang",
+                "firstName": "Chaoying",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Raman I",
+                "lastName": "Raman",
+                "firstName": "Indu",
+                "initials": "I",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhu C",
+                "lastName": "Zhu",
+                "firstName": "Chengsong",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8872-9450"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xiao O",
+                "lastName": "Xiao",
+                "firstName": "Olivia",
+                "initials": "O",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dowell JE",
+                "lastName": "Dowell",
+                "firstName": "Jonathan E",
+                "initials": "JE",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Homsi J",
+                "lastName": "Homsi",
+                "firstName": "Jade",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rashdan S",
+                "lastName": "Rashdan",
+                "firstName": "Sawsan",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pan K",
+                "lastName": "Pan",
+                "firstName": "Ke",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Melanoma Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang S",
+                "lastName": "Yang",
+                "firstName": "Shengjie",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gwin ME",
+                "lastName": "Gwin",
+                "firstName": "Mary E",
+                "initials": "ME",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hsiehchen D",
+                "lastName": "Hsiehchen",
+                "firstName": "David",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9139-302X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, USA."
+                    },
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gloria-McCutchen Y",
+                "lastName": "Gloria-McCutchen",
+                "firstName": "Yvonne",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wu F",
+                "lastName": "Wu",
+                "firstName": "Fangjiang",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8812-8655"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Heymach JV",
+                "lastName": "Heymach",
+                "firstName": "John V",
+                "initials": "JV",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9068-8942"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gibbons D",
+                "lastName": "Gibbons",
+                "firstName": "Don",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2362-3094"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Huang J",
+                "lastName": "Huang",
+                "firstName": "Junzhou",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9548-1227"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Science and Engineering, University of Texas at Arlington, Arlington, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cheng C",
+                "lastName": "Cheng",
+                "firstName": "Chao",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5002-3417"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, Baylor College of Medicine, Houston, TX, USA."
+                    },
+                    {
+                      "affiliation": "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX, USA."
+                    },
+                    {
+                      "affiliation": "The Institute for Clinical and Translational Research, Baylor College of Medicine, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang J",
+                "lastName": "Zhang",
+                "firstName": "Jianjun",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7872-3477"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yee C",
+                "lastName": "Yee",
+                "firstName": "Cassian",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4429-7307"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Melanoma Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. CYee@mdanderson.org."
+                    },
+                    {
+                      "affiliation": "Department of Immunology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. CYee@mdanderson.org."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Reuben A",
+                "lastName": "Reuben",
+                "firstName": "Alexandre",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4510-0382"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. AReuben@mdanderson.org."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gerber DE",
+                "lastName": "Gerber",
+                "firstName": "David E",
+                "initials": "DE",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7812-6741"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, USA. David.Gerber@utsoutwestern.edu."
+                    },
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA. David.Gerber@utsoutwestern.edu."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang T",
+                "lastName": "Wang",
+                "firstName": "Tao",
+                "initials": "T",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4355-149X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. twang10@mdanderson.org."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5524-9629"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7095-8765"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7872-3477"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8812-8655"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8872-9450"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9068-8942"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9139-302X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0975-1658"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4355-149X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4429-7307"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5002-3417"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7812-6741"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9548-1227"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0530-3169"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2362-3094"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4510-0382"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-5709-4129"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-8033-1639"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "17",
+            "journalIssueId": 4204868,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Nat Commun",
+              "title": "Nature communications",
+              "essn": "2041-1723",
+              "issn": "2041-1723",
+              "nlmid": "101528555",
+              "isoabbreviation": "Nat Commun"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "7511",
+          "abstractText": "T cells have important functions in development and disease processes through T cell receptor (TCR)-dependent activities. Many tools were developed to predict the binding between TCRs and antigens. However, one of the uncertainties is whether such tools can decipher how small changes in the TCRs or antigenic peptides contribute to binding. We develop a deep learning model, pMTnet-omni, which not only predicts the binding vs. non-binding of TCRs towards pMHCs, but also distinguishes the stronger vs. weaker binding of TCRs similar in sequence. We leverage this capability to interpret the biological rules that govern TCR-antigen pairing. This also enables pMTnet-omni to accurately predict variant TCRs with desired stronger or weaker binding to the antigen, in conjunction with a Lab-in-the-Loop (LiL) mechanism. We show that pMTnet-omni can also predict binding of TCRs towards similar pMHCs. Overall, we provide a flexible toolkit for research and translational applications involving antigens and TCRs.",
+          "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute",
+                "grantId": "5R01CA258584",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health & Human Services | NIH | National Cancer Institute (NCI)",
+                "grantId": "5R01CA258584",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI190103",
+                "orderIn": 0
+              },
+              {
+                "agency": "Cancer Prevention and Research Institute of Texas",
+                "grantId": "RP230363",
+                "orderIn": 0
+              },
+              {
+                "agency": "Cancer Prevention and Research Institute of Texas (Cancer Prevention Research Institute of Texas)",
+                "grantId": "RP230363",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "R01 CA258584",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI192499",
+                "orderIn": 0
+              },
+              {
+                "agency": "Division of Intramural Research, National Institute of Allergy and Infectious Diseases (Division of Intramural Research of the NIAID)",
+                "grantId": "R01AI190103",
+                "orderIn": 0
+              },
+              {
+                "agency": "Division of Intramural Research, National Institute of Allergy and Infectious Diseases",
+                "grantId": "R01AI190103",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antigens",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Amino Acid Sequence"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Protein Binding"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41467-026-73396-3"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13408770"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13408770?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-07-30",
+          "dateOfCreation": "2026-06-13",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-13",
+          "firstPublicationDate": "2026-06-13",
+          "firstIndexDate": "2026-06-16",
+          "fullTextReceivedDate": "2026-09-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40855636",
+          "source": "MED",
+          "pmid": "40855636",
+          "pmcid": "PMC12802949",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12802949"
+            ]
+          },
+          "doi": "10.1093/intimm/dxaf048",
+          "title": "TCR representation learning with protein language models: a comprehensive review.",
+          "authorString": "Kinoshita K, Kobayashi TJ.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Kinoshita K",
+                "lastName": "Kinoshita",
+                "firstName": "Kyohei",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-0365-7985"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Electrical Engineering and Information Systems, Graduate School of Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kobayashi TJ",
+                "lastName": "Kobayashi",
+                "firstName": "Tetsuya J",
+                "initials": "TJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Electrical Engineering and Information Systems, Graduate School of Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan."
+                    },
+                    {
+                      "affiliation": "Institute of Industrial Science, The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo 153-8505, Japan."
+                    },
+                    {
+                      "affiliation": "Universal Biology Institute, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0009-0005-0365-7985"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "38",
+            "journalIssueId": 4091574,
+            "dateOfPublication": "2026 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Int Immunol",
+              "title": "International immunology",
+              "essn": "1460-2377",
+              "issn": "0953-8178",
+              "nlmid": "8916182",
+              "isoabbreviation": "Int Immunol"
+            },
+            "printPublicationDate": "2026-01-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "15-27",
+          "abstractText": "The T-cell receptor (TCR) repertoire is a valuable source of information that reflects an individual's immune status and infection history. However, due to the exceptional diversity and complexity of the TCR repertoire, predicting its functional properties remains a challenging task. This review summarizes recent advances in protein language models (PLMs), which apply natural language processing techniques to protein sequences, focusing specifically on TCR repertoire analysis. We begin by outlining the biological basis of the TCR repertoire and its current clinical applications. We then describe the methods used for representing TCR data and the training procedures of the corresponding PLMs. PLMs capture context-dependent features from large unlabeled TCR datasets and achieve high generalization performance even with limited labeled data through transfer learning. In this respect, PLMs offer significant advantages over conventional sequence representation methods. We highlight antigen specificity prediction as a key application, comparing supervised deep learning models with PLM-based approaches. While employment of PLMs is promising, TCR repertoire analysis still faces challenges such as data scarcity, bias, and lack of paired-chain information. Addressing these challenges requires rigorous dataset optimization, integration, and augmentation strategies. Future advances will require better interpretation of the representations learned by PLMs and the development of multimodal approaches that integrate structural information. These advances could enable several clinical applications, including disease diagnosis, vaccine development, and personalized immune profiling.",
+          "affiliation": "Department of Electrical Engineering and Information Systems, Graduate School of Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "JST CREST",
+                "grantId": "JPMJCR2011",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Natural Language Processing"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Deep Learning"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Transfer Learning",
+              "Tcr Repertoire",
+              "Self-supervised Learning",
+              "Airr",
+              "Antigen Specificity Prediction"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/intimm/dxaf048"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12802949"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12802949?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 3,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-01-14",
+          "dateOfCreation": "2025-08-26",
+          "dateOfRevision": "2026-06-22",
+          "firstPublicationDate": "2026-01-01",
+          "firstIndexDate": "2025-08-26",
+          "fullTextReceivedDate": "2026-01-15",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "39216000",
+          "source": "MED",
+          "pmid": "39216000",
+          "doi": "10.1016/j.celrep.2024.114704",
+          "title": "The Observed T Cell Receptor Space database enables paired-chain repertoire mining, coherence analysis, and language modeling.",
+          "authorString": "Raybould MIJ, Greenshields-Watson A, Agarwal P, Aguilar-Sanjuan B, Olsen TH, Turnbull OM, Quast NP, Deane CM.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Raybould MIJ",
+                "lastName": "Raybould",
+                "firstName": "Matthew I J",
+                "initials": "MIJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5663-5297"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK. Electronic address: raybould@stats.ox.ac.uk."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Greenshields-Watson A",
+                "lastName": "Greenshields-Watson",
+                "firstName": "Alexander",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8740-9823"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Agarwal P",
+                "lastName": "Agarwal",
+                "firstName": "Parth",
+                "initials": "P",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Aguilar-Sanjuan B",
+                "lastName": "Aguilar-Sanjuan",
+                "firstName": "Broncio",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8068-6417"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Olsen TH",
+                "lastName": "Olsen",
+                "firstName": "Tobias H",
+                "initials": "TH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Turnbull OM",
+                "lastName": "Turnbull",
+                "firstName": "Oliver M",
+                "initials": "OM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Quast NP",
+                "lastName": "Quast",
+                "firstName": "Nele P",
+                "initials": "NP",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Deane CM",
+                "lastName": "Deane",
+                "firstName": "Charlotte M",
+                "initials": "CM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1388-2252"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK. Electronic address: deane@stats.ox.ac.uk."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8068-6417"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5663-5297"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8740-9823"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1388-2252"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "9",
+            "volume": "43",
+            "journalIssueId": 3822956,
+            "dateOfPublication": "2024 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Cell Rep",
+              "title": "Cell reports",
+              "essn": "2211-1247",
+              "issn": "2211-1247",
+              "nlmid": "101573691",
+              "isoabbreviation": "Cell Rep"
+            },
+            "printPublicationDate": "2024-09-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "114704",
+          "abstractText": "T cell activation is governed through T\u00a0cell receptors (TCRs), heterodimers of two sequence-variable chains (often an \u03b1 and \u03b2 chain) that synergistically recognize antigen fragments presented on cell surfaces. Despite this, there only exist repositories dedicated to collecting single-chain, not paired-chain, TCR sequence data. We addressed this gap by creating the Observed TCR Space (OTS) database, a source of consistently processed and annotated, full-length, paired-chain TCR sequences. Currently, OTS contains 5.35 million redundant (1.63 million non-redundant), predominantly human sequences from across 50 studies and at least 75 individuals. Using OTS, we identify pairing biases, public TCRs, and distinct chain coherence patterns relative to antibodies. We also release a paired-chain TCR language model, providing paired embedding representations and a method for residue in-filling conditional on the partner chain. OTS will be updated as a central community resource and is freely downloadable and available as a web application.",
+          "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK. Electronic address: raybould@stats.ox.ac.uk.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Data Mining",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Coherence",
+              "Beta",
+              "Alpha",
+              "Repertoire",
+              "Language Model",
+              "Cp: Immunology",
+              "T Cell Receptor, Tcr",
+              "Paired Sequences"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.celrep.2024.114704"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "PPR",
+                "id": "PPR855492",
+                "type": "Preprint in",
+                "note": "CrossRef Pre-print loader",
+                "orderIn": 10002
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 23,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2024-09-26",
+          "dateOfCreation": "2024-08-31",
+          "dateOfRevision": "2025-01-22",
+          "electronicPublicationDate": "2024-08-29",
+          "firstPublicationDate": "2024-08-29",
+          "firstIndexDate": "2024-09-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR855492",
+          "source": "PPR",
+          "doi": "10.1101/2024.05.20.594960",
+          "title": "The Observed T cell receptor Space database enables paired-chain repertoire mining, coherence analysis and language modelling",
+          "authorString": "Raybould MIJ, Greenshields-Watson A, Agarwal P, Aguilar-Sanjuan B, Olsen TH, Turnbull OM, Quast NP, Deane CM.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Raybould MIJ",
+                "lastName": "Raybould",
+                "firstName": "Matthew",
+                "initials": "MIJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5663-5297"
+                }
+              },
+              {
+                "fullName": "Greenshields-Watson A",
+                "lastName": "Greenshields-Watson",
+                "firstName": "Alexander",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8740-9823"
+                }
+              },
+              {
+                "fullName": "Agarwal P",
+                "lastName": "Agarwal",
+                "firstName": "Parth",
+                "initials": "P"
+              },
+              {
+                "fullName": "Aguilar-Sanjuan B",
+                "lastName": "Aguilar-Sanjuan",
+                "firstName": "Broncio",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8068-6417"
+                }
+              },
+              {
+                "fullName": "Olsen TH",
+                "lastName": "Olsen",
+                "firstName": "Tobias",
+                "initials": "TH",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6348-4650"
+                }
+              },
+              {
+                "fullName": "Turnbull OM",
+                "lastName": "Turnbull",
+                "firstName": "Oliver",
+                "initials": "OM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0239-1207"
+                }
+              },
+              {
+                "fullName": "Quast NP",
+                "lastName": "Quast",
+                "firstName": "Nele",
+                "initials": "NP"
+              },
+              {
+                "fullName": "Deane CM",
+                "lastName": "Deane",
+                "firstName": "Charlotte",
+                "initials": "CM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1388-2252"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8068-6417"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0239-1207"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5663-5297"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6348-4650"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8740-9823"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1388-2252"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0002-7460-8572"
+              }
+            ]
+          },
+          "pubYear": "2024",
+          "abstractText": "T cell activation is governed through T cell receptors (TCRs), heterodimers of two sequence-variable chains (often an alpha [  \u03b1 ] and beta [  \u03b2 ] chain) that recognise linear antigen fragments presented on the cell surfaces. Early sequencing technologies limited the study of immune repertoire TCRs to unpaired transcripts, leading to extensive analysis of  \u03b2 -chain data alone as its greater sequence diversity suggested it should dominate antigen recognition. Over time, structural data has revealed that both  \u03b1 and  \u03b2 chains contribute to binding most antigens and highthroughput single-cell handling technologies have been increasingly applied to obtain samples of complete TCR variable region sequences from repertoires. Despite this, there is currently no repository dedicated to the curation of publicly available paired TCR sequence data. We have addressed this gap by creating the Observed T cell receptor Space (OTS) database, a source of consistently processed and annotated, full-length, paired-chain TCR sequencing data from 50 studies and at least 75 individuals. Currently, OTS contains 5.35M redundant (1.63M nonredundant) predominantly human TCR sequences and, based on recent data availability trends, will grow rapidly. We perform an initial analysis of OTS, leading to the identification of pairing biases, public TCRs, and distinct chain coherence patterns relative to antibodies. We also harness the data to build a publicly available paired-chain TCR language model, providing paired embedding representations and a method for residue in-filling that is conditional on the partner chain. OTS will be updated and maintained as a central community resource and is freely downloadable and available as a web application at  https://opig.stats.ox.ac.uk/webapps/ots .",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2024
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.1101/2024.05.20.594960"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1101/2024.05.20.594960"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "MED",
+                "id": "39216000",
+                "reference": "Cell reports. 2024 Sep;43(9):114704",
+                "type": "Preprint of",
+                "note": "CrossRef Pre-print loader",
+                "orderIn": 10001
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 5,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2024-05-23",
+          "firstPublicationDate": "2024-05-21",
+          "firstIndexDate": "2024-05-23",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "39052940",
+          "source": "MED",
+          "pmid": "39052940",
+          "pmcid": "PMC11297499",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11297499"
+            ]
+          },
+          "doi": "10.1093/bioinformatics/btae472",
+          "title": "TSpred: a robust prediction framework for TCR-epitope interactions using paired chain TCR sequence data.",
+          "authorString": "Kim HY, Kim S, Park WY, Kim D.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Kim HY",
+                "lastName": "Kim",
+                "firstName": "Ha Young",
+                "initials": "HY",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bio and Brain Engineering, Korea Advanced Institute of Science and Technology, Daejeon 34141, South Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kim S",
+                "lastName": "Kim",
+                "firstName": "Sungsik",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "GENINUS Inc., Seoul 05836, South Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Park WY",
+                "lastName": "Park",
+                "firstName": "Woong-Yang",
+                "initials": "WY",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "GENINUS Inc., Seoul 05836, South Korea."
+                    },
+                    {
+                      "affiliation": "Samsung Genome Institute, Samsung Medical Center, Seoul 06351, South Korea."
+                    },
+                    {
+                      "affiliation": "Department of Molecular Cell Biology, Sungkyunkwan University School of Medicine, Suwon 16419, South Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kim D",
+                "lastName": "Kim",
+                "firstName": "Dongsup",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5916-6799"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bio and Brain Engineering, Korea Advanced Institute of Science and Technology, Daejeon 34141, South Korea."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5916-6799"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "8",
+            "volume": "40",
+            "journalIssueId": 3811097,
+            "dateOfPublication": "2024 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Bioinformatics",
+              "title": "Bioinformatics (Oxford, England)",
+              "essn": "1367-4811",
+              "issn": "1367-4803",
+              "nlmid": "9808944",
+              "isoabbreviation": "Bioinformatics"
+            },
+            "printPublicationDate": "2024-08-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "btae472",
+          "abstractText": "<h4>Motivation</h4>Prediction of T-cell receptor (TCR)-epitope interactions is important for many applications in biomedical research, such as cancer immunotherapy and vaccine design. The prediction of TCR-epitope interactions remains challenging especially for novel epitopes, due to the scarcity of available data.<h4>Results</h4>We propose TSpred, a new deep learning approach for the pan-specific prediction of TCR binding specificity based on paired chain TCR data. We develop a robust model that generalizes well to unseen epitopes by combining the predictive power of CNN and the attention mechanism. In particular, we design a reciprocal attention mechanism which focuses on extracting the patterns underlying TCR-epitope interactions. Upon a comprehensive evaluation of our model, we find that TSpred achieves state-of-the-art performances in both seen and unseen epitope specificity prediction tasks. Also, compared to other predictors, TSpred is more robust to bias related to peptide imbalance in the dataset. In addition, the reciprocal attention component of our model allows for model interpretability by capturing structurally important binding regions. Results indicate that TSpred is a robust and reliable method for the task of TCR-epitope binding prediction.<h4>Availability and implementation</h4>Source code is available at https://github.com/ha01994/TSpred.",
+          "affiliation": "Department of Bio and Brain Engineering, Korea Advanced Institute of Science and Technology, Daejeon 34141, South Korea.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "National Research Foundation of Korea",
+                "grantId": "NRF-2022R1A2C1006609",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Research Foundation of Korea",
+                "grantId": "RS-2024-00399520",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Research Foundation of Korea",
+                "grantId": "RS-2024-00344154",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Epitopes, T-Lymphocyte",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Computational Biology",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Protein Binding"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Software"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Deep Learning"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Epitopes, T-Lymphocyte",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/bioinformatics/btae472"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11297499"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11297499?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 3,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb"
+            ]
+          },
+          "dateOfCompletion": "2024-08-03",
+          "dateOfCreation": "2024-07-25",
+          "dateOfRevision": "2024-09-12",
+          "firstPublicationDate": "2024-08-01",
+          "firstIndexDate": "2024-07-26",
+          "fullTextReceivedDate": "2024-08-08",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41451541",
+          "source": "MED",
+          "pmid": "41451541",
+          "pmcid": "PMC12741563",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12741563"
+            ]
+          },
+          "doi": "10.1093/bib/bbaf691",
+          "title": "TCRdesign: an antigen-specific generative language model for de novo design of T-cell receptors.",
+          "authorString": "Li X, Yang Q, Xu L, Dong W, Wang K, Dong S, Wang W, Luo G, Zhang X, Yang T, Gao X, Wang G.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Li X",
+                "lastName": "Li",
+                "firstName": "Xiaokun",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6645-6890"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, West Dazhi Street, 150001 Harbin, China."
+                    },
+                    {
+                      "affiliation": "School of Computer Science and Technology, Heilongjiang University, Xuefu Road, 150080 Harbin, China."
+                    },
+                    {
+                      "affiliation": "Postdoctoral Program of Heilongjiang Hengxun Technology Co., Ltd., Xuefu Road, 150080 Harbin, China."
+                    },
+                    {
+                      "affiliation": "Shandong Hengxun Technology Co., Ltd., Miaoling Road, 266100 Qingdao, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang Q",
+                "lastName": "Yang",
+                "firstName": "Qiang",
+                "initials": "Q",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6524-9443"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, West Dazhi Street, 150001 Harbin, China."
+                    },
+                    {
+                      "affiliation": "Zhengzhou Research Institute, Harbin Institute of Technology, 450000 Zhengzhou, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xu L",
+                "lastName": "Xu",
+                "firstName": "Long",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4952-9178"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, West Dazhi Street, 150001 Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dong W",
+                "lastName": "Dong",
+                "firstName": "Weihe",
+                "initials": "W",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8022-9793"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, West Dazhi Street, 150001 Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang K",
+                "lastName": "Wang",
+                "firstName": "Kuanquan",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1347-3491"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, West Dazhi Street, 150001 Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dong S",
+                "lastName": "Dong",
+                "firstName": "Suyu",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7521-8782"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Suite 4328, Thuwal 23955-6900, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence for Smart Health (KCSH), King Abdullah University of Science and Technology (KAUST), Suite 4328, Thuwal 23955-6900, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence on Generative AI, King Abdullah University of Science and Technology (KAUST), Suite 4328, Thuwal 23955-6900, Kingdom of Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang W",
+                "lastName": "Wang",
+                "firstName": "Wei",
+                "initials": "W",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), Xili University Town, 518055 Shenzhen, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Luo G",
+                "lastName": "Luo",
+                "firstName": "Gongning",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3662-0335"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, West Dazhi Street, 150001 Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang X",
+                "lastName": "Zhang",
+                "firstName": "Xianyu",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9738-2361"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Breast Surgery, Harbin Medical University Cancer Hospital, Haping Road, 150081 Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang T",
+                "lastName": "Yang",
+                "firstName": "Tiansong",
+                "initials": "T",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4008-702X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Rehabilitation, the First Affiliated Hospital of Heilongjiang University of Traditional Chinese Medicine, and Traditional Chinese Medicine Informatics Key Laboratory of Heilongjiang Province, Heping Road, 150040 Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gao X",
+                "lastName": "Gao",
+                "firstName": "Xin",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7108-3574"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Suite 4328, Thuwal 23955-6900, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence for Smart Health (KCSH), King Abdullah University of Science and Technology (KAUST), Suite 4328, Thuwal 23955-6900, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence on Generative AI, King Abdullah University of Science and Technology (KAUST), Suite 4328, Thuwal 23955-6900, Kingdom of Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang G",
+                "lastName": "Wang",
+                "firstName": "Guohua",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7381-2374"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Faculty of Computing, Harbin Institute of Technology, West Dazhi Street, 150001 Harbin, China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7381-2374"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7521-8782"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8022-9793"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4008-702X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6524-9443"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6645-6890"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7108-3574"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9738-2361"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1347-3491"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3662-0335"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4952-9178"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "26",
+            "journalIssueId": 4040159,
+            "dateOfPublication": "2025 Nov",
+            "monthOfPublication": 11,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Brief Bioinform",
+              "title": "Briefings in bioinformatics",
+              "essn": "1477-4054",
+              "issn": "1467-5463",
+              "nlmid": "100912837",
+              "isoabbreviation": "Brief Bioinform"
+            },
+            "printPublicationDate": "2025-11-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "bbaf691",
+          "abstractText": "T-cell receptors (TCR), which are heterodimers of $\\alpha $ and $\\beta $ chains that recognize foreign antigens, are of great significance to current immunotherapy. Although artificial intelligence (AI) has explosively accelerated de novo protein design, the challenge of therapeutic TCR design has been overlooked by most researchers. Existing TCR engineering relies heavily on isolating antigen-specific TCRs from tumor tissues, which requires a large amount of labor resources and wet experimental verification. To mitigate this issue, we present TCRdesign, a pretrained generative protein language model (PLM) for the de novo design of artificial TCR $\\beta $-chain complementarity-determining region 3 sequences conditioned on antigen-binding specificity (BS). In parallel, we develop a high-accuracy binding predictor (TCRBinder) that couples paired $\\alpha $/$\\beta $ chain information with antigen sequences to assess BS. Our in silico comparisons demonstrate that (i) TCRdesign surpasses state-of-the-art baselines in generating antigen-specific TCR sequences. The model leverages paired-chain coherence to refine amino-acid level interaction patterns. (ii) TCRdesign-generated TCR sequences exhibit better antigen binding capability to diverse oncogenic hotspots compared with natural counterparts. (iii) TCRdesign inherits the intrinsic properties of large PLMs, enabling effectively identify the determinant residues in TCR-antigen binding, which enhances its interpretability. These results highlight the significant capability of TCRdesign in understanding and generating TCR sequences with an antigen-specific interaction pattern, charting a versatile path toward AI-driven T-cell engineering for precision immunotherapy.",
+          "affiliation": "Faculty of Computing, Harbin Institute of Technology, West Dazhi Street, 150001 Harbin, China.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Center of Excellence for Smart Health",
+                "grantId": "5932",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "62272135",
+                "orderIn": 0
+              },
+              {
+                "agency": "Science and Technology Innovation Committee of Shenzhen Municipality",
+                "grantId": "JCYJ20250604145426036",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration (ORA)",
+                "grantId": "REI/1/5234-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration",
+                "grantId": "REI/1/5289-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration",
+                "grantId": "REI/1/5414-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration",
+                "grantId": "URF/1/4663-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "62450122",
+                "orderIn": 0
+              },
+              {
+                "agency": "Shenzhen Medical Research Fund",
+                "grantId": "C2501016",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration",
+                "grantId": "REI/1/5404-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "Center of Excellence on Generative AI",
+                "grantId": "5940",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "62225109",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration",
+                "grantId": "REI/1/5234-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration (ORA)",
+                "grantId": "REI/1/5404-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration",
+                "grantId": "REI/1/5992-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration (ORA)",
+                "grantId": "URF/1/4663-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "Natural Science Foundation of Heilongjiang Province of China",
+                "grantId": "ZD2024F001",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "62372135",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration (ORA)",
+                "grantId": "REI/1/5414-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration (ORA)",
+                "grantId": "REI/1/5992-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST) Office of Research Administration (ORA)",
+                "grantId": "REI/1/5289-01-01",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Complementarity Determining Regions",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antigens",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Protein Engineering",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Protein Binding"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Model Interpretability",
+              "Protein Large Language Model",
+              "Tcr Sequence Design",
+              "Antigen-specific Generation",
+              "Pretraining Technique",
+              "Encoder\u2013decoder Framework"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Complementarity Determining Regions",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/bib/bbaf691"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12741563"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12741563?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by-nc",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-12-26",
+          "dateOfCreation": "2025-12-26",
+          "dateOfRevision": "2025-12-29",
+          "firstPublicationDate": "2025-11-01",
+          "firstIndexDate": "2025-12-27",
+          "fullTextReceivedDate": "2025-12-27",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR1008167",
+          "source": "PPR",
+          "doi": "10.1101/2025.04.14.648678",
+          "title": "THLANet: A Deep Learning Framework for Predicting TCR-pHLA Binding in Immunotherapy Applications",
+          "authorString": "Long X, Yang Q, Dong W, Li X, Wang K, Dong S, Luo G, Zhang X, Yang T, Gao X, Wang G.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Long X",
+                "lastName": "Long",
+                "firstName": "Xu",
+                "initials": "X"
+              },
+              {
+                "fullName": "Yang Q",
+                "lastName": "Yang",
+                "firstName": "Qiang",
+                "initials": "Q"
+              },
+              {
+                "fullName": "Dong W",
+                "lastName": "Dong",
+                "firstName": "Weihe",
+                "initials": "W"
+              },
+              {
+                "fullName": "Li X",
+                "lastName": "Li",
+                "firstName": "Xiaokun",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6645-6890"
+                }
+              },
+              {
+                "fullName": "Wang K",
+                "lastName": "Wang",
+                "firstName": "Kuanquan",
+                "initials": "K"
+              },
+              {
+                "fullName": "Dong S",
+                "lastName": "Dong",
+                "firstName": "Suyu",
+                "initials": "S"
+              },
+              {
+                "fullName": "Luo G",
+                "lastName": "Luo",
+                "firstName": "Gongning",
+                "initials": "G"
+              },
+              {
+                "fullName": "Zhang X",
+                "lastName": "Zhang",
+                "firstName": "Xianyu",
+                "initials": "X"
+              },
+              {
+                "fullName": "Yang T",
+                "lastName": "Yang",
+                "firstName": "Tiansong",
+                "initials": "T"
+              },
+              {
+                "fullName": "Gao X",
+                "lastName": "Gao",
+                "firstName": "Xin",
+                "initials": "X"
+              },
+              {
+                "fullName": "Wang G",
+                "lastName": "Wang",
+                "firstName": "Guohua",
+                "initials": "G"
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6645-6890"
+              }
+            ]
+          },
+          "pubYear": "2025",
+          "abstractText": "Adaptive immunity is a targeted immune response that enables the body to identify and eliminate foreign pathogens, playing a critical role in the anti-tumor immune response. Tumor cell expression of antigens forms the foundation for inducing this adaptive response. However, the human leukocyte antigens (HLA)-restricted recognition of antigens by T-cell receptors (TCR) limits their ability to detect all neoantigens, with only a small subset capable of activating T-cells. Accurately predicting neoantigen binding to TCR is, therefore, crucial for assessing their immunogenic potential in clinical settings. We present THLANet, a deep learning model designed to predict the binding specificity of TCR to neoantigens presented by class I HLAs. THLANet employs evolutionary scale modeling-2 (ESM-2), replacing the traditional embedding methods to enhance sequence feature representation. Using scTCR-seq data, we obtained the TCR immune repertoire and constructed a TCR-pHLA binding database to validate THLANet\u2019s clinical potential. The model\u2019s performance was further evaluated using clinical cancer data across various cancer types. Additionally, by analyzing divided complementarity-determining region (CDR3) sequences and simulating alanine scanning of antigen sequences, we unveiled the 3D binding conformations of TCRs and antigens. Predicting TCR-neoantigen pairing remains a significant challenge in immunology, THLANet provides accurate predictions using only the TCR sequence (CDR3  \u03b2 ), antigen sequence, and class I HLA, offering novel insights into TCR-antigen interactions.  <h4>Author summary</h4>  T-cell receptor (TCR) recognition of peptide-human leukocyte antigen (pHLA) complexes is fundamental to immune responses. However, predicting their binding poses a significant challenge due to the intricate dynamics of their interactions. We developed THLANet, a novel deep learning model, to address this challenge by integrating the ESM-2 and Transformer-Encoder modules. This approach enhances sequence feature encoding, improving the model\u2019s generalization capability and enabling accurate predictions of TCR-pHLA binding in clinical datasets. Using data processed from open-source databases, THLANet outperformed existing methods, such as PanPep and pMTnet, in precision-recall metrics across multiple epitopes. Additionally, THLANet demonstrates superior capability in identifying critical binding sites within 3D structures, providing structural insights into TCR-pHLA interactions. THLANet offers a robust framework for advancing immunotherapy research, with potential applications in the development of personalized medicine.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2025
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/19/2025.04.14.648678.full.pdf"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1101/2025.04.14.648678"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "MED",
+                "id": "40939018",
+                "reference": "PLoS computational biology. 2025 Sep;21(9):e1013050",
+                "type": "Preprint of",
+                "note": "CrossRef Pre-print loader",
+                "orderIn": 10001
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2025-04-25",
+          "firstPublicationDate": "2025-04-19",
+          "firstIndexDate": "2025-04-25",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40939018",
+          "source": "MED",
+          "pmid": "40939018",
+          "pmcid": "PMC12449017",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12449017"
+            ]
+          },
+          "doi": "10.1371/journal.pcbi.1013050",
+          "title": "THLANet: A deep learning framework for predicting TCR-pHLA binding in immunotherapy applications.",
+          "authorString": "Long X, Yang Q, Dong W, Li X, Wang K, Dong S, Luo G, Zhang X, Yang T, Gao X, Wang G.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Long X",
+                "lastName": "Long",
+                "firstName": "Xu",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4952-9178"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang Q",
+                "lastName": "Yang",
+                "firstName": "Qiang",
+                "initials": "Q",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dong W",
+                "lastName": "Dong",
+                "firstName": "Weihe",
+                "initials": "W",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Li X",
+                "lastName": "Li",
+                "firstName": "Xiaokun",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6645-6890"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China."
+                    },
+                    {
+                      "affiliation": "School of Computer Science and Technology, Heilongjiang University, Harbin, China."
+                    },
+                    {
+                      "affiliation": "Postdoctoral Program of Heilongjiang Hengxun Technology Co., Ltd., Harbin, China."
+                    },
+                    {
+                      "affiliation": "Shandong Hengxun Technology Co., Ltd., Qingdao, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang K",
+                "lastName": "Wang",
+                "firstName": "Kuanquan",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dong S",
+                "lastName": "Dong",
+                "firstName": "Suyu",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Computer and Control Engineering, Northeast Forestry University, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Luo G",
+                "lastName": "Luo",
+                "firstName": "Gongning",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang X",
+                "lastName": "Zhang",
+                "firstName": "Xianyu",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Breast Surgery, Harbin Medical University Cancer Hospital, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang T",
+                "lastName": "Yang",
+                "firstName": "Tiansong",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Rehabilitation, The First Affiliated Hospital of Heilongjiang University of Traditional Chinese Medicine, Harbin, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gao X",
+                "lastName": "Gao",
+                "firstName": "Xin",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7108-3574"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Science Program, King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence for Smart Health (KCSH), King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Center of Excellence for Smart Health (KCSH), King Abdullah University of Science and Technology (KAUST), Thuwal, Kingdom of Saudi Arabia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang G",
+                "lastName": "Wang",
+                "firstName": "Guohua",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8022-9793"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6645-6890"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7108-3574"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4952-9178"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "9",
+            "volume": "21",
+            "journalIssueId": 4008603,
+            "dateOfPublication": "2025 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "PLoS Comput Biol",
+              "title": "PLoS computational biology",
+              "essn": "1553-7358",
+              "issn": "1553-734X",
+              "nlmid": "101238922",
+              "isoabbreviation": "PLoS Comput Biol"
+            },
+            "printPublicationDate": "2025-09-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "e1013050",
+          "abstractText": "Adaptive immunity is a targeted immune response that enables the body to identify and eliminate foreign pathogens, playing a critical role in the anti-tumor immune response. Tumor cell expression of antigens forms the foundation for inducing this adaptive response. However, the human leukocyte antigens (HLA)-restricted recognition of antigens by T-cell receptors (TCR) limits their ability to detect all neoantigens, with only a small subset capable of activating T-cells. Accurately predicting neoantigen binding to TCR is, therefore, crucial for assessing their immunogenic potential in clinical settings. We present THLANet, a deep learning model designed to predict the binding specificity of TCR to neoantigens presented by class I HLAs. THLANet employs evolutionary scale modeling-2 (ESM-2), replacing the traditional embedding methods to enhance sequence feature representation. Using scTCR-seq data, we obtained the TCR immune repertoire and constructed a TCR-pHLA binding database to validate THLANet's clinical potential. The model's performance was further evaluated using clinical cancer data across various cancer types. Additionally, by analyzing divided complementarity-determining region (CDR3) sequences and simulating alanine scanning of antigen sequences, we provided new insights into the 3D binding interactions of TCRs and antigens. Predicting TCR-neoantigen pairing remains a significant challenge in immunology, THLANet provides accurate predictions using only the TCR sequence (CDR3\u03b2), antigen sequence, and class I HLA, offering novel insights into TCR-antigen interactions.",
+          "affiliation": "School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "62225109",
+                "orderIn": 0
+              },
+              {
+                "agency": "Center of Excellence on Generative AI under award number",
+                "grantId": "5940",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "62450122",
+                "orderIn": 0
+              },
+              {
+                "agency": "King Abdullah University of Science and Technology (KAUST)",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "62202092",
+                "orderIn": 0
+              },
+              {
+                "agency": "Heilongjiang Province",
+                "grantId": "ZD2024F001",
+                "orderIn": 0
+              },
+              {
+                "agency": "The King Abdullah University of Science and Technology (KAUST) Office of Research Administration",
+                "grantId": "REI/1/5234-01-01, REI/1/5414-01-01, REI/1/5289-01-01, REI/1/5404-01-01, REI/1/5992-01-01, URF/1/4663-01-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "62372135",
+                "orderIn": 0
+              },
+              {
+                "agency": "Center of Excellence for Stress and Mental Health",
+                "grantId": "5932",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "orderIn": 0
+              },
+              {
+                "agency": "Natural Science Foundation of Heilongjiang Province of China",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TH",
+                      "qualifierName": "therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antigens, Neoplasm",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "HLA Antigens",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Immunotherapy",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Computational Biology",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Protein Binding"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Deep Learning"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "HLA Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antigens, Neoplasm",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1371/journal.pcbi.1013050"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12449017"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12449017?pdf=render"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "PPR",
+                "id": "PPR1008167",
+                "type": "Preprint in",
+                "note": "CrossRef Pre-print loader",
+                "orderIn": 10002
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb"
+            ]
+          },
+          "dateOfCompletion": "2025-09-19",
+          "dateOfCreation": "2025-09-12",
+          "dateOfRevision": "2026-09-03",
+          "electronicPublicationDate": "2025-09-12",
+          "firstPublicationDate": "2025-09-12",
+          "firstIndexDate": "2025-09-12",
+          "fullTextReceivedDate": "2025-11-29",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR770250",
+          "source": "PPR",
+          "doi": "10.1101/2023.12.04.570002",
+          "title": "TSpred: a robust prediction framework for TCR-epitope interactions based on an ensemble deep learning approach using paired chain TCR sequence data",
+          "authorString": "Kim HY, Kim S, Park W, Kim D.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Kim HY",
+                "lastName": "Kim",
+                "firstName": "Ha Young",
+                "initials": "HY"
+              },
+              {
+                "fullName": "Kim S",
+                "lastName": "Kim",
+                "firstName": "Sungsik",
+                "initials": "S"
+              },
+              {
+                "fullName": "Park W",
+                "lastName": "Park",
+                "firstName": "Woong-Yang",
+                "initials": "W"
+              },
+              {
+                "fullName": "Kim D",
+                "lastName": "Kim",
+                "firstName": "Dongsup",
+                "initials": "D"
+              }
+            ]
+          },
+          "pubYear": "2023",
+          "abstractText": "<h4>ABSTRACT</h4>  Prediction of T-cell receptor (TCR)-epitope interactions is important for many applications such as cancer immunotherapy. However, due to the scarcity of available data, it is known to be a challenging task particularly for novel epitopes. Here, we propose TSpred, a new ensemble deep learning approach for the pan-specific prediction of TCR binding specificity based on paired chain TCR data. This method combines the predictive power of CNN and the attention mechanism to capture the patterns underlying TCR-epitope interactions. In particular, we design a reciprocal attention mechanism which contributes to higher model generalizability to unseen epitopes. We perform a comprehensive evaluation of our model and observe that TSpred achieves state-of-the-art performances in both seen and unseen epitope specificity prediction tasks. Our model performs consistently well across both of the two widely used negative sampling strategies, while avoiding the potential bias associated with each strategy. Also, compared to other predictors, it is more robust to bias related to peptide imbalance in the dataset. In addition, the reciprocal attention component of our model allows for model interpretability by capturing structurally important binding regions. Results indicate that TSpred is a robust and reliable method for the task of TCR-epitope binding prediction.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2023
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.04.570002.full.pdf"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1101/2023.12.04.570002"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2023-12-08",
+          "firstPublicationDate": "2023-12-06",
+          "firstIndexDate": "2023-12-08",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

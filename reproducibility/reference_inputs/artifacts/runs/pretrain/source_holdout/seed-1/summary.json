@@ -1,0 +1,13 @@
+{
+  "elapsed_seconds": 1626.9164671897888,
+  "last_validation": {
+    "damaged_residue_accuracy": 0.671036092655773,
+    "damaged_token_nll": 1.1924614162242997,
+    "n_damaged_residues": 11138,
+    "n_sequences": 2048,
+    "token_nll": 0.41931060488606536
+  },
+  "peak_memory_allocated_gib": 4.147799968719482,
+  "peak_memory_reserved_gib": 5.11328125,
+  "steps_completed": 20000
+}

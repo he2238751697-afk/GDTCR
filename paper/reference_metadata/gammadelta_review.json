@@ -1,0 +1,19 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22The+human+gamma+delta+T+cell+receptor+repertoire%22&format=json&resultType=core&pageSize=6",
+  "retrieved_utc": "2026-09-30T06:41:03.289683+00:00",
+  "response": {
+    "version": "6.9",
+    "hitCount": 0,
+    "request": {
+      "queryString": "TITLE:\"The human gamma delta T cell receptor repertoire\"",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 6,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": []
+    }
+  }
+}

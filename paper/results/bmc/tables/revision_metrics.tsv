@@ -1,0 +1,133 @@
+protocol	condition	training_seed	direction	metric	queries	uncertainty_unit	estimate	events	denominator	lower	upper	iid_wilson_reference	zero_event
+giant_edge_holdout	paired	3407	delta_to_gamma	nll	261	single_original_component	0.34675474231376147						
+giant_edge_holdout	paired	3407	delta_to_gamma	coverage	261	single_original_component	0.5938697318007663	155	261				
+giant_edge_holdout	paired	3407	delta_to_gamma	likelihood_hit_at_5	261	single_original_component	0.47126436781609193	123	261				
+giant_edge_holdout	paired	3407	delta_to_gamma	likelihood_recall_at_5	261	single_original_component	0.3701787994891443						
+giant_edge_holdout	paired	3407	delta_to_gamma	likelihood_mrr	261	single_original_component	0.3364924860529999						
+giant_edge_holdout	paired	3407	delta_to_gamma	ranker_hit_at_5	261	single_original_component	0.2720306513409962	71	261				
+giant_edge_holdout	paired	3407	gamma_to_delta	nll	177	single_original_component	0.4805009778848256						
+giant_edge_holdout	paired	3407	gamma_to_delta	coverage	177	single_original_component	0.3954802259887006	70	177				
+giant_edge_holdout	paired	3407	gamma_to_delta	likelihood_hit_at_5	177	single_original_component	0.3389830508474576	60	177				
+giant_edge_holdout	paired	3407	gamma_to_delta	likelihood_recall_at_5	177	single_original_component	0.21455600730276705						
+giant_edge_holdout	paired	3407	gamma_to_delta	likelihood_mrr	177	single_original_component	0.22916348634195094						
+giant_edge_holdout	paired	3407	gamma_to_delta	ranker_hit_at_5	177	single_original_component	0.1694915254237288	30	177				
+giant_edge_holdout	paired	3508	delta_to_gamma	nll	261	single_original_component	0.3490090631909644						
+giant_edge_holdout	paired	3508	delta_to_gamma	coverage	261	single_original_component	0.6283524904214559	164	261				
+giant_edge_holdout	paired	3508	delta_to_gamma	likelihood_hit_at_5	261	single_original_component	0.4521072796934866	118	261				
+giant_edge_holdout	paired	3508	delta_to_gamma	likelihood_recall_at_5	261	single_original_component	0.3607918263090677						
+giant_edge_holdout	paired	3508	delta_to_gamma	likelihood_mrr	261	single_original_component	0.3313314989295381						
+giant_edge_holdout	paired	3508	delta_to_gamma	ranker_hit_at_5	261	single_original_component	0.36015325670498083	94	261				
+giant_edge_holdout	paired	3508	gamma_to_delta	nll	177	single_original_component	0.4896091922924588						
+giant_edge_holdout	paired	3508	gamma_to_delta	coverage	177	single_original_component	0.3502824858757062	62	177				
+giant_edge_holdout	paired	3508	gamma_to_delta	likelihood_hit_at_5	177	single_original_component	0.2824858757062147	50	177				
+giant_edge_holdout	paired	3508	gamma_to_delta	likelihood_recall_at_5	177	single_original_component	0.17957635031413693						
+giant_edge_holdout	paired	3508	gamma_to_delta	likelihood_mrr	177	single_original_component	0.18646589991928975						
+giant_edge_holdout	paired	3508	gamma_to_delta	ranker_hit_at_5	177	single_original_component	0.1977401129943503	35	177				
+giant_edge_holdout	constant	3407	delta_to_gamma	nll	261	single_original_component	0.3820010978717934						
+giant_edge_holdout	constant	3407	delta_to_gamma	coverage	261	single_original_component	0.5593869731800766	146	261				
+giant_edge_holdout	constant	3407	delta_to_gamma	likelihood_hit_at_5	261	single_original_component	0.4329501915708812	113	261				
+giant_edge_holdout	constant	3407	delta_to_gamma	likelihood_recall_at_5	261	single_original_component	0.33775542784163476						
+giant_edge_holdout	constant	3407	delta_to_gamma	likelihood_mrr	261	single_original_component	0.30458969152588417						
+giant_edge_holdout	constant	3407	gamma_to_delta	nll	177	single_original_component	0.525729530418343						
+giant_edge_holdout	constant	3407	gamma_to_delta	coverage	177	single_original_component	0.2768361581920904	49	177				
+giant_edge_holdout	constant	3407	gamma_to_delta	likelihood_hit_at_5	177	single_original_component	0.2655367231638418	47	177				
+giant_edge_holdout	constant	3407	gamma_to_delta	likelihood_recall_at_5	177	single_original_component	0.16346516007532957						
+giant_edge_holdout	constant	3407	gamma_to_delta	likelihood_mrr	177	single_original_component	0.18533763788001076						
+giant_edge_holdout	constant	3508	delta_to_gamma	nll	261	single_original_component	0.38138462276716645						
+giant_edge_holdout	constant	3508	delta_to_gamma	coverage	261	single_original_component	0.5593869731800766	146	261				
+giant_edge_holdout	constant	3508	delta_to_gamma	likelihood_hit_at_5	261	single_original_component	0.46360153256704983	121	261				
+giant_edge_holdout	constant	3508	delta_to_gamma	likelihood_recall_at_5	261	single_original_component	0.35935504469987223						
+giant_edge_holdout	constant	3508	delta_to_gamma	likelihood_mrr	261	single_original_component	0.30937503294008867						
+giant_edge_holdout	constant	3508	gamma_to_delta	nll	177	single_original_component	0.5294006100301752						
+giant_edge_holdout	constant	3508	gamma_to_delta	coverage	177	single_original_component	0.2711864406779661	48	177				
+giant_edge_holdout	constant	3508	gamma_to_delta	likelihood_hit_at_5	177	single_original_component	0.2655367231638418	47	177				
+giant_edge_holdout	constant	3508	gamma_to_delta	likelihood_recall_at_5	177	single_original_component	0.15688312047983036						
+giant_edge_holdout	constant	3508	gamma_to_delta	likelihood_mrr	177	single_original_component	0.18757062146892653						
+giant_edge_holdout	random	3407	delta_to_gamma	nll	261	single_original_component	0.43983023410293687						
+giant_edge_holdout	random	3407	delta_to_gamma	coverage	261	single_original_component	0.5287356321839081	138	261				
+giant_edge_holdout	random	3407	delta_to_gamma	likelihood_hit_at_5	261	single_original_component	0.46360153256704983	121	261				
+giant_edge_holdout	random	3407	delta_to_gamma	likelihood_recall_at_5	261	single_original_component	0.3651979565772669						
+giant_edge_holdout	random	3407	delta_to_gamma	likelihood_mrr	261	single_original_component	0.3124556743809617						
+giant_edge_holdout	random	3407	gamma_to_delta	nll	177	single_original_component	0.654123174802479						
+giant_edge_holdout	random	3407	gamma_to_delta	coverage	177	single_original_component	0.192090395480226	34	177				
+giant_edge_holdout	random	3407	gamma_to_delta	likelihood_hit_at_5	177	single_original_component	0.1807909604519774	32	177				
+giant_edge_holdout	random	3407	gamma_to_delta	likelihood_recall_at_5	177	single_original_component	0.09508933516909589						
+giant_edge_holdout	random	3407	gamma_to_delta	likelihood_mrr	177	single_original_component	0.1310734463276836						
+giant_edge_holdout	random	3508	delta_to_gamma	nll	261	single_original_component	0.43712909335978867						
+giant_edge_holdout	random	3508	delta_to_gamma	coverage	261	single_original_component	0.5478927203065134	143	261				
+giant_edge_holdout	random	3508	delta_to_gamma	likelihood_hit_at_5	261	single_original_component	0.47509578544061304	124	261				
+giant_edge_holdout	random	3508	delta_to_gamma	likelihood_recall_at_5	261	single_original_component	0.3645593869731801						
+giant_edge_holdout	random	3508	delta_to_gamma	likelihood_mrr	261	single_original_component	0.32140456885439267						
+giant_edge_holdout	random	3508	gamma_to_delta	nll	177	single_original_component	0.6675821268108434						
+giant_edge_holdout	random	3508	gamma_to_delta	coverage	177	single_original_component	0.15254237288135594	27	177				
+giant_edge_holdout	random	3508	gamma_to_delta	likelihood_hit_at_5	177	single_original_component	0.15254237288135594	27	177				
+giant_edge_holdout	random	3508	gamma_to_delta	likelihood_recall_at_5	177	single_original_component	0.08245390092349214						
+giant_edge_holdout	random	3508	gamma_to_delta	likelihood_mrr	177	single_original_component	0.11487758945386066						
+giant_edge_holdout	shuffled	3407	delta_to_gamma	nll	261	single_original_component	0.3547198946458763						
+giant_edge_holdout	shuffled	3407	delta_to_gamma	coverage	261	single_original_component	0.632183908045977	165	261				
+giant_edge_holdout	shuffled	3407	delta_to_gamma	likelihood_hit_at_5	261	single_original_component	0.4827586206896552	126	261				
+giant_edge_holdout	shuffled	3407	delta_to_gamma	likelihood_recall_at_5	261	single_original_component	0.3801724137931034						
+giant_edge_holdout	shuffled	3407	delta_to_gamma	likelihood_mrr	261	single_original_component	0.332784400008876						
+giant_edge_holdout	shuffled	3407	delta_to_gamma	ranker_hit_at_5	261	single_original_component	0.27586206896551724	72	261				
+giant_edge_holdout	shuffled	3407	gamma_to_delta	nll	177	single_original_component	0.4922920222119797						
+giant_edge_holdout	shuffled	3407	gamma_to_delta	coverage	177	single_original_component	0.3615819209039548	64	177				
+giant_edge_holdout	shuffled	3407	gamma_to_delta	likelihood_hit_at_5	177	single_original_component	0.3220338983050847	57	177				
+giant_edge_holdout	shuffled	3407	gamma_to_delta	likelihood_recall_at_5	177	single_original_component	0.19541494563927267						
+giant_edge_holdout	shuffled	3407	gamma_to_delta	likelihood_mrr	177	single_original_component	0.21079723791588198						
+giant_edge_holdout	shuffled	3407	gamma_to_delta	ranker_hit_at_5	177	single_original_component	0.15819209039548024	28	177				
+giant_edge_holdout	shuffled	3508	delta_to_gamma	nll	261	single_original_component	0.3573373920986987						
+giant_edge_holdout	shuffled	3508	delta_to_gamma	coverage	261	single_original_component	0.5900383141762452	154	261				
+giant_edge_holdout	shuffled	3508	delta_to_gamma	likelihood_hit_at_5	261	single_original_component	0.4444444444444444	116	261				
+giant_edge_holdout	shuffled	3508	delta_to_gamma	likelihood_recall_at_5	261	single_original_component	0.3524904214559387						
+giant_edge_holdout	shuffled	3508	delta_to_gamma	likelihood_mrr	261	single_original_component	0.30571163952894137						
+giant_edge_holdout	shuffled	3508	delta_to_gamma	ranker_hit_at_5	261	single_original_component	0.3218390804597701	84	261				
+giant_edge_holdout	shuffled	3508	gamma_to_delta	nll	177	single_original_component	0.49692219174106883						
+giant_edge_holdout	shuffled	3508	gamma_to_delta	coverage	177	single_original_component	0.3446327683615819	61	177				
+giant_edge_holdout	shuffled	3508	gamma_to_delta	likelihood_hit_at_5	177	single_original_component	0.3050847457627119	54	177				
+giant_edge_holdout	shuffled	3508	gamma_to_delta	likelihood_recall_at_5	177	single_original_component	0.19107360458307615						
+giant_edge_holdout	shuffled	3508	gamma_to_delta	likelihood_mrr	177	single_original_component	0.1941114200120077						
+giant_edge_holdout	shuffled	3508	gamma_to_delta	ranker_hit_at_5	177	single_original_component	0.2033898305084746	36	177				
+unseen_gamma_repaired	paired	3407	gamma_to_delta	coverage	64	source_query	0.125	8	64	0.046875	0.203125	{'lower': 0.06472242663330453, 'upper': 0.22774561821129946, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	paired	3407	gamma_to_delta	likelihood_hit_at_5	64	source_query	0.125	8	64	0.046875	0.203125	{'lower': 0.06472242663330453, 'upper': 0.22774561821129946, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	paired	3407	gamma_to_delta	likelihood_mrr	64	source_query	0.125			0.046875	0.203125		
+unseen_gamma_repaired	paired	3407	gamma_to_delta	likelihood_recall_at_5	64	source_query	0.025169681871506797			0.0022509694431930194	0.06322831236387097		
+unseen_gamma_repaired	paired	3407	gamma_to_delta	nll	64	source_query	1.1335707943527145			1.0384382486511736	1.235948364818454		
+unseen_gamma_repaired	paired	3407	gamma_to_delta	ranker_hit_at_5	64	source_query	0.09375	6	64	0.03125	0.171875	{'lower': 0.04367825258519838, 'upper': 0.18982879599645597, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	paired	3508	gamma_to_delta	coverage	64	source_query	0.15625	10	64	0.0625	0.25	{'lower': 0.08714842338206585, 'upper': 0.2642806177254878, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	paired	3508	gamma_to_delta	likelihood_hit_at_5	64	source_query	0.15625	10	64	0.0625	0.25	{'lower': 0.08714842338206585, 'upper': 0.2642806177254878, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	paired	3508	gamma_to_delta	likelihood_mrr	64	source_query	0.15625			0.0625	0.25		
+unseen_gamma_repaired	paired	3508	gamma_to_delta	likelihood_recall_at_5	64	source_query	0.044493055409518485			0.00781340700251777	0.0948400367056864		
+unseen_gamma_repaired	paired	3508	gamma_to_delta	nll	64	source_query	1.1373549875365019			1.0433593236112755	1.2454085893545694		
+unseen_gamma_repaired	paired	3508	gamma_to_delta	ranker_hit_at_5	64	source_query	0.125	8	64	0.046875	0.203125	{'lower': 0.06472242663330453, 'upper': 0.22774561821129946, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	constant	3407	gamma_to_delta	coverage	64	source_query	0.125	8	64	0.046875	0.203125	{'lower': 0.06472242663330453, 'upper': 0.22774561821129946, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	constant	3407	gamma_to_delta	likelihood_hit_at_5	64	source_query	0.125	8	64	0.046875	0.203125	{'lower': 0.06472242663330453, 'upper': 0.22774561821129946, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	constant	3407	gamma_to_delta	likelihood_mrr	64	source_query	0.1171875			0.046875	0.1953125		
+unseen_gamma_repaired	constant	3407	gamma_to_delta	likelihood_recall_at_5	64	source_query	0.022618055409518494			0.002368987936226197	0.05862898503699723		
+unseen_gamma_repaired	constant	3407	gamma_to_delta	nll	64	source_query	1.1439566870997944			1.0503827493938744	1.2476957278342322		
+unseen_gamma_repaired	constant	3508	gamma_to_delta	coverage	64	source_query	0.140625	9	64	0.0625	0.234375	{'lower': 0.0757857255603086, 'upper': 0.24616281741577023, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	constant	3508	gamma_to_delta	likelihood_hit_at_5	64	source_query	0.140625	9	64	0.0625	0.234375	{'lower': 0.0757857255603086, 'upper': 0.24616281741577023, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	constant	3508	gamma_to_delta	likelihood_mrr	64	source_query	0.140625			0.0625	0.234375		
+unseen_gamma_repaired	constant	3508	gamma_to_delta	likelihood_recall_at_5	64	source_query	0.024655631679061398			0.00342153564917565	0.062357953396561465		
+unseen_gamma_repaired	constant	3508	gamma_to_delta	nll	64	source_query	1.1459247544628175			1.0525087513577	1.2519346528192912		
+unseen_gamma_repaired	random	3407	gamma_to_delta	coverage	64	source_query	0.15625	10	64	0.0625	0.25	{'lower': 0.08714842338206585, 'upper': 0.2642806177254878, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	random	3407	gamma_to_delta	likelihood_hit_at_5	64	source_query	0.15625	10	64	0.0625	0.25	{'lower': 0.08714842338206585, 'upper': 0.2642806177254878, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	random	3407	gamma_to_delta	likelihood_mrr	64	source_query	0.1328125			0.0546875	0.21875		
+unseen_gamma_repaired	random	3407	gamma_to_delta	likelihood_recall_at_5	64	source_query	0.04019384943326834			0.004683483348786302	0.08904576442602441		
+unseen_gamma_repaired	random	3407	gamma_to_delta	nll	64	source_query	1.2536050312973797			1.1497915379144972	1.3607334385857186		
+unseen_gamma_repaired	random	3508	gamma_to_delta	coverage	64	source_query	0.125	8	64	0.046875	0.203125	{'lower': 0.06472242663330453, 'upper': 0.22774561821129946, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	random	3508	gamma_to_delta	likelihood_hit_at_5	64	source_query	0.125	8	64	0.046875	0.203125	{'lower': 0.06472242663330453, 'upper': 0.22774561821129946, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	random	3508	gamma_to_delta	likelihood_mrr	64	source_query	0.125			0.046875	0.203125		
+unseen_gamma_repaired	random	3508	gamma_to_delta	likelihood_recall_at_5	64	source_query	0.02176596704127646			0.001960608599251104	0.05787794269181989		
+unseen_gamma_repaired	random	3508	gamma_to_delta	nll	64	source_query	1.2540723726866492			1.1514182379013052	1.3603667619981419		
+unseen_gamma_repaired	shuffled	3407	gamma_to_delta	coverage	64	source_query	0.09375	6	64	0.03125	0.171875	{'lower': 0.04367825258519838, 'upper': 0.18982879599645597, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	shuffled	3407	gamma_to_delta	likelihood_hit_at_5	64	source_query	0.09375	6	64	0.03125	0.171875	{'lower': 0.04367825258519838, 'upper': 0.18982879599645597, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	shuffled	3407	gamma_to_delta	likelihood_mrr	64	source_query	0.078125			0.0234375	0.1484375		
+unseen_gamma_repaired	shuffled	3407	gamma_to_delta	likelihood_recall_at_5	64	source_query	0.021932132227891154			0.0005779655612244898	0.05910695463081065		
+unseen_gamma_repaired	shuffled	3407	gamma_to_delta	nll	64	source_query	1.1759522495012054			1.08132880934023	1.2739952939242556		
+unseen_gamma_repaired	shuffled	3407	gamma_to_delta	ranker_hit_at_5	64	source_query	0.03125	2	64	0.0	0.078125	{'lower': 0.008612138346171874, 'upper': 0.10697291770958313, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	shuffled	3508	gamma_to_delta	coverage	64	source_query	0.109375	7	64	0.03125	0.1875	{'lower': 0.05400113344416797, 'upper': 0.20898641326896122, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	shuffled	3508	gamma_to_delta	likelihood_hit_at_5	64	source_query	0.109375	7	64	0.03125	0.1875	{'lower': 0.05400113344416797, 'upper': 0.20898641326896122, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False
+unseen_gamma_repaired	shuffled	3508	gamma_to_delta	likelihood_mrr	64	source_query	0.109375			0.03125	0.1875		
+unseen_gamma_repaired	shuffled	3508	gamma_to_delta	likelihood_recall_at_5	64	source_query	0.022672580314095622			0.001188913930875669	0.05917479660631417		
+unseen_gamma_repaired	shuffled	3508	gamma_to_delta	nll	64	source_query	1.1656336228630202			1.0678726663673623	1.2721707129986288		
+unseen_gamma_repaired	shuffled	3508	gamma_to_delta	ranker_hit_at_5	64	source_query	0.0625	4	64	0.015625	0.125	{'lower': 0.024571201396618017, 'upper': 0.14997485092208662, 'assumption': 'iid binomial reference only; not the primary clustered interval'}	False

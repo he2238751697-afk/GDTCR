@@ -1,0 +1,13 @@
+# Inputs and frozen reference material are deliberately tracked.
+/artifacts/
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/tmp/
+/output/
+*.log
+*.tmp
+.DS_Store
+.env
+.env.*

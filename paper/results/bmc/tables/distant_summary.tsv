@@ -1,0 +1,4 @@
+split_seed	test_edges	test_gamma_queries	gamma_one_edit_pretraining	gamma_ge3_pretraining	distant_edges	largest_component_assignment
+17	907	529	487	8	5	training
+3407	907	523	494	7	5	training
+2026	907	525	493	4	3	training

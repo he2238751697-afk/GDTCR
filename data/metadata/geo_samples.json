@@ -1,0 +1,173 @@
+{
+  "GSM5451968": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5451968&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "FT1, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: 14 wk gestation time",
+      "tissue: fetal thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN20204304",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX11437843"
+    ]
+  },
+  "GSM5451969": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5451969&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "FT2, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: 21 wk gestation time",
+      "tissue: fetal thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN20204303",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX11437844"
+    ]
+  },
+  "GSM5451970": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5451970&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "PNT1, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: post natal 4.0 years",
+      "tissue: pediatric thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN20204302",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX11437845"
+    ]
+  },
+  "GSM5451971": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5451971&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "PNT2, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: post natal 4.5 years",
+      "tissue: pediatric thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN20204301",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX11437846"
+    ]
+  },
+  "GSM6470055": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6470055&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "FT3, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: 15 wk and 2 days gestation time",
+      "tissue: fetal thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN30369735",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17115472"
+    ]
+  },
+  "GSM6470056": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6470056&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "FT6, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: 22 wk and 6 days gestation time",
+      "tissue: fetal thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN30369737",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17115473"
+    ]
+  },
+  "GSM6470057": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6470057&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "FT5, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: 17 wk and 5 days gestation time",
+      "tissue: fetal thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN30369738",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17115474"
+    ]
+  },
+  "GSM6470058": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6470058&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "FT4, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: 16 wk and 2 days gestation time",
+      "tissue: fetal thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN30369739",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17115475"
+    ]
+  },
+  "GSM6470059": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6470059&targ=self&form=text&view=full",
+    "!Sample_title": [
+      "PNT3, TCR"
+    ],
+    "!Sample_organism_ch1": [
+      "Homo sapiens"
+    ],
+    "!Sample_characteristics_ch1": [
+      "cell type: Gamma delta T cell",
+      "age: 11 years",
+      "tissue: pediatric thymus",
+      "group: barcoded CDR3 RNA sequences"
+    ],
+    "!Sample_relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN30369740",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17115476"
+    ]
+  }
+}

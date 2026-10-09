@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "interpreter": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/bin/python3.10",
+    "requirements": "configs/revision_bmc/requirements-analysis-lock.txt",
+    "python": "Python 3.10.20"
+  },
+  "publishing": {
+    "interpreter": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/bin/python3.10",
+    "requirements": "configs/revision_bmc/requirements-publishing-lock.txt",
+    "python": "Python 3.10.20"
+  },
+  "platform": "Linux-4.18.0-372.9.1.el8.x86_64-x86_64-with-glibc2.28"
+}

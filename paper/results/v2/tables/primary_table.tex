@@ -1,0 +1,25 @@
+\begin{table}[ht]
+\centering
+\caption{Free generation at 64 draws with training targets allowed. Values are means and descriptive standard deviations of three split means, each averaging two model seeds. NLL is in nats per target token; coverage and Hit@5 are percentages. The equal mean weights directions equally. A dash denotes an unavailable scorer, not a zero outcome.}
+\label{tab:primary}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.2200\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}}
+\toprule
+Model / direction & NLL & Coverage & Likelihood Hit@5 & Ranker Hit@5 & Fused Hit@5\\
+\midrule
+Conditional / \gtd{} & 1.253 $\pm$ 0.008 & 0.09 $\pm$ 0.16 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00\\
+Conditional / \dtg{} & 0.757 $\pm$ 0.003 & 1.66 $\pm$ 0.23 & 0.06 $\pm$ 0.06 & 0.11 $\pm$ 0.06 & 0.06 $\pm$ 0.06\\
+Conditional / Equal mean & 1.005 $\pm$ 0.004 & 0.88 $\pm$ 0.19 & 0.03 $\pm$ 0.03 & 0.06 $\pm$ 0.03 & 0.03 $\pm$ 0.03\\
+Constant source / \gtd{} & 1.257 $\pm$ 0.007 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & -- & --\\
+Constant source / \dtg{} & 0.769 $\pm$ 0.003 & 1.00 $\pm$ 0.20 & 0.00 $\pm$ 0.00 & -- & --\\
+Constant source / Equal mean & 1.013 $\pm$ 0.003 & 0.50 $\pm$ 0.10 & 0.00 $\pm$ 0.00 & -- & --\\
+Random init. / \gtd{} & 1.377 $\pm$ 0.010 & 0.03 $\pm$ 0.05 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00\\
+Random init. / \dtg{} & 0.853 $\pm$ 0.005 & 1.33 $\pm$ 0.22 & 0.00 $\pm$ 0.00 & 0.07 $\pm$ 0.03 & 0.02 $\pm$ 0.03\\
+Random init. / Equal mean & 1.115 $\pm$ 0.006 & 0.68 $\pm$ 0.11 & 0.00 $\pm$ 0.00 & 0.04 $\pm$ 0.02 & 0.01 $\pm$ 0.02\\
+Shuffled input / \gtd{} & 1.267 $\pm$ 0.006 & 0.03 $\pm$ 0.05 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00\\
+Shuffled input / \dtg{} & 0.769 $\pm$ 0.001 & 1.33 $\pm$ 0.10 & 0.02 $\pm$ 0.03 & 0.15 $\pm$ 0.08 & 0.04 $\pm$ 0.03\\
+Shuffled input / Equal mean & 1.018 $\pm$ 0.003 & 0.68 $\pm$ 0.07 & 0.01 $\pm$ 0.02 & 0.07 $\pm$ 0.04 & 0.02 $\pm$ 0.02\\
+\bottomrule
+\end{tabular}
+\end{table}

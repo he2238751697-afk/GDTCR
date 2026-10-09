@@ -1,0 +1,2762 @@
+{
+  "audit_scope": "All output hashes; decoded candidates and prefix metrics; test membership; logged selection checkpoints. GPU scores are not recomputed.",
+  "comparisons": [
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.11864406779661017,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.051090847227437466,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.07344632768361582,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": -0.04522855253351753,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.04382584846194019,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.2033898305084746,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.11946667213367113,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.15819209039548024,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": -0.17362219691765338,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.09809004001426733,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.03389830508474576,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.011299435028248588,
+      "metric": "ranker_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.019141061663494364,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.01694915254237288,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": -0.011791044327154148,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.01836624842606897,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "ranker_minus_likelihood",
+      "direction": "gamma_to_delta",
+      "estimate": -0.1694915254237288,
+      "metric": "hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.07909604519774012,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.022693229834306605,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.01694915254237288,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": -0.0397914177377165,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": -0.0011047215496368056,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.1977401129943503,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.0971224493906448,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.12994350282485875,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": -0.17797293451838456,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.0715883104654291,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.005649717514124294,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": -0.005649717514124294,
+      "metric": "ranker_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": -0.011497254268939217,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": -0.022598870056497175,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": -0.007312999448610104,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": -0.007645520092717971,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "ranker_minus_likelihood",
+      "direction": "gamma_to_delta",
+      "estimate": -0.0847457627118644,
+      "metric": "hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": 0.034482758620689655,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": 0.03242337164750958,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": 0.038314176245210725,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": -0.03524635555803199,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": 0.03190279452711567,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": 0.06513409961685823,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": 0.004980842911877394,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": 0.007662835249042145,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": -0.09307549178917544,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": 0.024036811672038177,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": -0.038314176245210725,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": -0.0038314176245210726,
+      "metric": "ranker_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": -0.009993614303959135,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": -0.011494252873563218,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": -0.007965152332114844,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": 0.003708086044123906,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "ranker_minus_likelihood",
+      "direction": "delta_to_gamma",
+      "estimate": -0.19923371647509577,
+      "metric": "hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": 0.06896551724137931,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": 0.0014367816091954023,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": -0.011494252873563218,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": -0.03237555957620199,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "delta_to_gamma",
+      "estimate": 0.0219564659894495,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": 0.08045977011494253,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": -0.0037675606641123884,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": -0.022988505747126436,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": -0.08812003016882426,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "delta_to_gamma",
+      "estimate": 0.00992693007514544,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": 0.038314176245210725,
+      "metric": "coverage",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": 0.038314176245210725,
+      "metric": "ranker_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": 0.008301404853128993,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": 0.007662835249042145,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": -0.008328328907734307,
+      "metric": "nll",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "nats/token"
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "delta_to_gamma",
+      "estimate": 0.02561985940059674,
+      "metric": "likelihood_mrr",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "ranker_minus_likelihood",
+      "direction": "delta_to_gamma",
+      "estimate": -0.09195402298850575,
+      "metric": "hit_at_5",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "unit": "fraction"
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.0,
+      "lower": 0.0,
+      "metric": "coverage",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.0
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.0,
+      "lower": 0.0,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.0
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.0078125,
+      "lower": 0.0,
+      "metric": "likelihood_mrr",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.0234375
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.002551626461988304,
+      "lower": -0.0011751873172514617,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.009192251461988304
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": -0.010385892747079904,
+      "lower": -0.02072689692256867,
+      "metric": "nll",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "nats/token",
+      "upper": 4.281023107524527e-05
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": -0.03125,
+      "lower": -0.078125,
+      "metric": "coverage",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.0
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": -0.03125,
+      "lower": -0.078125,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.0
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": -0.0078125,
+      "lower": -0.046875,
+      "metric": "likelihood_mrr",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.03125
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": -0.015024167561761547,
+      "lower": -0.052780118077932925,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.006850832438238453
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": -0.12003423694466503,
+      "lower": -0.15005853652583456,
+      "metric": "nll",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "nats/token",
+      "upper": -0.09214488715077122
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.03125,
+      "lower": 0.0,
+      "metric": "coverage",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.078125
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.03125,
+      "lower": 0.0,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.078125
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.046875,
+      "lower": 0.0078125,
+      "metric": "likelihood_mrr",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.1015625
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.0032375496436156366,
+      "lower": 0.0004251700680272109,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.007186747347427662
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": -0.04238145514849064,
+      "lower": -0.06259978474353732,
+      "metric": "nll",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "nats/token",
+      "upper": -0.024408290316921318
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.0625,
+      "lower": 0.0,
+      "metric": "ranker_hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.140625
+    },
+    {
+      "contrast": "ranker_minus_likelihood",
+      "direction": "gamma_to_delta",
+      "estimate": -0.03125,
+      "lower": -0.078125,
+      "metric": "hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "unit": "fraction",
+      "upper": 0.0
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.015625,
+      "lower": 0.0,
+      "metric": "coverage",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.046875
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.015625,
+      "lower": 0.0,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.046875
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.015625,
+      "lower": 0.0,
+      "metric": "likelihood_mrr",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.046875
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": 0.019837423730457094,
+      "lower": 0.0003906249999999999,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.05480057565789474
+    },
+    {
+      "contrast": "conditional_minus_constant",
+      "direction": "gamma_to_delta",
+      "estimate": -0.008569766926315558,
+      "lower": -0.017399111923190196,
+      "metric": "nll",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "nats/token",
+      "upper": 0.0004301083144200372
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.03125,
+      "lower": 0.0,
+      "metric": "coverage",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.078125
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.03125,
+      "lower": 0.0,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.078125
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.03125,
+      "lower": 0.0,
+      "metric": "likelihood_mrr",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.078125
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": 0.02272708836824203,
+      "lower": 0.0008078231292517006,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.05960682782570264
+    },
+    {
+      "contrast": "conditional_minus_random",
+      "direction": "gamma_to_delta",
+      "estimate": -0.11671738515014708,
+      "lower": -0.14526740734787016,
+      "metric": "nll",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "nats/token",
+      "upper": -0.08896834530864339
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.046875,
+      "lower": 0.0,
+      "metric": "coverage",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.109375
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.046875,
+      "lower": 0.0,
+      "metric": "likelihood_hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.109375
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.046875,
+      "lower": 0.0,
+      "metric": "likelihood_mrr",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.109375
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.021820475095422863,
+      "lower": 0.001365918908301933,
+      "metric": "likelihood_recall_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.05705934484952427
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": -0.028278635326518357,
+      "lower": -0.046045981799391913,
+      "metric": "nll",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "nats/token",
+      "upper": -0.011638525459640087
+    },
+    {
+      "contrast": "conditional_minus_shuffled",
+      "direction": "gamma_to_delta",
+      "estimate": 0.0625,
+      "lower": 0.015625,
+      "metric": "ranker_hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.125
+    },
+    {
+      "contrast": "ranker_minus_likelihood",
+      "direction": "gamma_to_delta",
+      "estimate": -0.03125,
+      "lower": -0.078125,
+      "metric": "hit_at_5",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "unit": "fraction",
+      "upper": 0.0
+    }
+  ],
+  "complete": true,
+  "primary_evidence_unchanged": true,
+  "runs": {
+    "giant_edge_holdout/constant/seed-0": {
+      "candidate_sha256": "68190eaa12d16ec4daff4fb45a6e0b06818958276d92123edb071e4e97ac44c2",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "delta_to_gamma": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 261,
+              "estimate": 0.5593869731800766,
+              "events": 146
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.4329501915708812,
+              "events": 113
+            },
+            "likelihood_mrr": {
+              "estimate": 0.30458969152588417
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.33775542784163476
+            },
+            "nll": {
+              "estimate": 0.3820010978717934
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 261
+        },
+        "gamma_to_delta": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 177,
+              "estimate": 0.2768361581920904,
+              "events": 49
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.2655367231638418,
+              "events": 47
+            },
+            "likelihood_mrr": {
+              "estimate": 0.18533763788001076
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.16346516007532957
+            },
+            "nll": {
+              "estimate": 0.525729530418343
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 177
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-0"
+    },
+    "giant_edge_holdout/constant/seed-1": {
+      "candidate_sha256": "ea8ac654f995cdfcbac5deb43474a14f221c7032f5ab0fba2572af073e760947",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "delta_to_gamma": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 261,
+              "estimate": 0.5593869731800766,
+              "events": 146
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.46360153256704983,
+              "events": 121
+            },
+            "likelihood_mrr": {
+              "estimate": 0.30937503294008867
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.35935504469987223
+            },
+            "nll": {
+              "estimate": 0.38138462276716645
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 261
+        },
+        "gamma_to_delta": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 177,
+              "estimate": 0.2711864406779661,
+              "events": 48
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.2655367231638418,
+              "events": 47
+            },
+            "likelihood_mrr": {
+              "estimate": 0.18757062146892653
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.15688312047983036
+            },
+            "nll": {
+              "estimate": 0.5294006100301752
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 177
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-1"
+    },
+    "giant_edge_holdout/paired/seed-0": {
+      "candidate_sha256": "d1c5273f3d650c67c5d0ffe654e789c91c81ae60bdf19d6f0b093f99f87c6112",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "delta_to_gamma": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 261,
+              "estimate": 0.5938697318007663,
+              "events": 155
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.47126436781609193,
+              "events": 123
+            },
+            "likelihood_mrr": {
+              "estimate": 0.3364924860529999
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.3701787994891443
+            },
+            "nll": {
+              "estimate": 0.34675474231376147
+            },
+            "ranker_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.2720306513409962,
+              "events": 71
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 261
+        },
+        "gamma_to_delta": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 177,
+              "estimate": 0.3954802259887006,
+              "events": 70
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.3389830508474576,
+              "events": 60
+            },
+            "likelihood_mrr": {
+              "estimate": 0.22916348634195094
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.21455600730276705
+            },
+            "nll": {
+              "estimate": 0.4805009778848256
+            },
+            "ranker_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.1694915254237288,
+              "events": 30
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 177
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-0"
+    },
+    "giant_edge_holdout/paired/seed-1": {
+      "candidate_sha256": "fdecc14aa863b954f305aa913116f3a8a72c018015390155581cc337814e51a8",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "delta_to_gamma": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 261,
+              "estimate": 0.6283524904214559,
+              "events": 164
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.4521072796934866,
+              "events": 118
+            },
+            "likelihood_mrr": {
+              "estimate": 0.3313314989295381
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.3607918263090677
+            },
+            "nll": {
+              "estimate": 0.3490090631909644
+            },
+            "ranker_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.36015325670498083,
+              "events": 94
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 261
+        },
+        "gamma_to_delta": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 177,
+              "estimate": 0.3502824858757062,
+              "events": 62
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.2824858757062147,
+              "events": 50
+            },
+            "likelihood_mrr": {
+              "estimate": 0.18646589991928975
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.17957635031413693
+            },
+            "nll": {
+              "estimate": 0.4896091922924588
+            },
+            "ranker_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.1977401129943503,
+              "events": 35
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 177
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-1"
+    },
+    "giant_edge_holdout/random/seed-0": {
+      "candidate_sha256": "10977c4c87e1e21fb324f385af742f1aeaed2a1b41b3ed30161c8bea34380b9d",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "delta_to_gamma": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 261,
+              "estimate": 0.5287356321839081,
+              "events": 138
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.46360153256704983,
+              "events": 121
+            },
+            "likelihood_mrr": {
+              "estimate": 0.3124556743809617
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.3651979565772669
+            },
+            "nll": {
+              "estimate": 0.43983023410293687
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 261
+        },
+        "gamma_to_delta": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 177,
+              "estimate": 0.192090395480226,
+              "events": 34
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.1807909604519774,
+              "events": 32
+            },
+            "likelihood_mrr": {
+              "estimate": 0.1310734463276836
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.09508933516909589
+            },
+            "nll": {
+              "estimate": 0.654123174802479
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 177
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-0"
+    },
+    "giant_edge_holdout/random/seed-1": {
+      "candidate_sha256": "4c80094249aede423234f9a168e910ee839be2c4d8de609515896d5facd7eb60",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "delta_to_gamma": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 261,
+              "estimate": 0.5478927203065134,
+              "events": 143
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.47509578544061304,
+              "events": 124
+            },
+            "likelihood_mrr": {
+              "estimate": 0.32140456885439267
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.3645593869731801
+            },
+            "nll": {
+              "estimate": 0.43712909335978867
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 261
+        },
+        "gamma_to_delta": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 177,
+              "estimate": 0.15254237288135594,
+              "events": 27
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.15254237288135594,
+              "events": 27
+            },
+            "likelihood_mrr": {
+              "estimate": 0.11487758945386066
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.08245390092349214
+            },
+            "nll": {
+              "estimate": 0.6675821268108434
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 177
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-1"
+    },
+    "giant_edge_holdout/shuffled/seed-0": {
+      "candidate_sha256": "78ba625fc0618e66abb7f54a37a5cabda5b6ac82cc1660980ad2960fee85d821",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "delta_to_gamma": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 261,
+              "estimate": 0.632183908045977,
+              "events": 165
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.4827586206896552,
+              "events": 126
+            },
+            "likelihood_mrr": {
+              "estimate": 0.332784400008876
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.3801724137931034
+            },
+            "nll": {
+              "estimate": 0.3547198946458763
+            },
+            "ranker_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.27586206896551724,
+              "events": 72
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 261
+        },
+        "gamma_to_delta": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 177,
+              "estimate": 0.3615819209039548,
+              "events": 64
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.3220338983050847,
+              "events": 57
+            },
+            "likelihood_mrr": {
+              "estimate": 0.21079723791588198
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.19541494563927267
+            },
+            "nll": {
+              "estimate": 0.4922920222119797
+            },
+            "ranker_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.15819209039548024,
+              "events": 28
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 177
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-0"
+    },
+    "giant_edge_holdout/shuffled/seed-1": {
+      "candidate_sha256": "3bba222b309069e2b21d4af00020598fb5dc1d48a55a2c8f7ac0d4ee748e35c3",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "delta_to_gamma": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 261,
+              "estimate": 0.5900383141762452,
+              "events": 154
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.4444444444444444,
+              "events": 116
+            },
+            "likelihood_mrr": {
+              "estimate": 0.30571163952894137
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.3524904214559387
+            },
+            "nll": {
+              "estimate": 0.3573373920986987
+            },
+            "ranker_hit_at_5": {
+              "denominator": 261,
+              "estimate": 0.3218390804597701,
+              "events": 84
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 261
+        },
+        "gamma_to_delta": {
+          "interval_unavailable_reason": "One original graph component; point estimates only",
+          "metrics": {
+            "coverage": {
+              "denominator": 177,
+              "estimate": 0.3446327683615819,
+              "events": 61
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.3050847457627119,
+              "events": 54
+            },
+            "likelihood_mrr": {
+              "estimate": 0.1941114200120077
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.19107360458307615
+            },
+            "nll": {
+              "estimate": 0.49692219174106883
+            },
+            "ranker_hit_at_5": {
+              "denominator": 177,
+              "estimate": 0.2033898305084746,
+              "events": 36
+            }
+          },
+          "n_clusters": 1,
+          "n_queries": 177
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-1"
+    },
+    "unseen_gamma_repaired/constant/seed-0": {
+      "candidate_sha256": "8caf1261ee2933abecb5ade6af30a112e0d1b1be5be16084e14900f12bf3645e",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "gamma_to_delta": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261006,
+          "method": "paired cluster percentile bootstrap",
+          "metrics": {
+            "coverage": {
+              "denominator": 64,
+              "estimate": 0.125,
+              "events": 8,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.06472242663330453,
+                "upper": 0.22774561821129946
+              },
+              "lower": 0.046875,
+              "upper": 0.203125,
+              "zero_event": false
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.125,
+              "events": 8,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.06472242663330453,
+                "upper": 0.22774561821129946
+              },
+              "lower": 0.046875,
+              "upper": 0.203125,
+              "zero_event": false
+            },
+            "likelihood_mrr": {
+              "estimate": 0.1171875,
+              "lower": 0.046875,
+              "upper": 0.1953125
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.022618055409518494,
+              "lower": 0.002368987936226197,
+              "upper": 0.05862898503699723
+            },
+            "nll": {
+              "estimate": 1.1439566870997944,
+              "lower": 1.0503827493938744,
+              "upper": 1.2476957278342322
+            }
+          },
+          "n_clusters": 64,
+          "n_queries": 64,
+          "single_cluster": false,
+          "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+          "weight_sum": 64.0
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-0"
+    },
+    "unseen_gamma_repaired/constant/seed-1": {
+      "candidate_sha256": "d702c32acad4e6e34ac78e45456d8dd79ae84d67333d148d321db5fc78eb30ca",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "gamma_to_delta": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261006,
+          "method": "paired cluster percentile bootstrap",
+          "metrics": {
+            "coverage": {
+              "denominator": 64,
+              "estimate": 0.140625,
+              "events": 9,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.0757857255603086,
+                "upper": 0.24616281741577023
+              },
+              "lower": 0.0625,
+              "upper": 0.234375,
+              "zero_event": false
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.140625,
+              "events": 9,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.0757857255603086,
+                "upper": 0.24616281741577023
+              },
+              "lower": 0.0625,
+              "upper": 0.234375,
+              "zero_event": false
+            },
+            "likelihood_mrr": {
+              "estimate": 0.140625,
+              "lower": 0.0625,
+              "upper": 0.234375
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.024655631679061398,
+              "lower": 0.00342153564917565,
+              "upper": 0.062357953396561465
+            },
+            "nll": {
+              "estimate": 1.1459247544628175,
+              "lower": 1.0525087513577,
+              "upper": 1.2519346528192912
+            }
+          },
+          "n_clusters": 64,
+          "n_queries": 64,
+          "single_cluster": false,
+          "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+          "weight_sum": 64.0
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-1"
+    },
+    "unseen_gamma_repaired/paired/seed-0": {
+      "candidate_sha256": "e751d5bb5846d125aca94dfc7ae633d321f99b09b3b074da0c49a1260d509597",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "gamma_to_delta": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261006,
+          "method": "paired cluster percentile bootstrap",
+          "metrics": {
+            "coverage": {
+              "denominator": 64,
+              "estimate": 0.125,
+              "events": 8,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.06472242663330453,
+                "upper": 0.22774561821129946
+              },
+              "lower": 0.046875,
+              "upper": 0.203125,
+              "zero_event": false
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.125,
+              "events": 8,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.06472242663330453,
+                "upper": 0.22774561821129946
+              },
+              "lower": 0.046875,
+              "upper": 0.203125,
+              "zero_event": false
+            },
+            "likelihood_mrr": {
+              "estimate": 0.125,
+              "lower": 0.046875,
+              "upper": 0.203125
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.025169681871506797,
+              "lower": 0.0022509694431930194,
+              "upper": 0.06322831236387097
+            },
+            "nll": {
+              "estimate": 1.1335707943527145,
+              "lower": 1.0384382486511736,
+              "upper": 1.235948364818454
+            },
+            "ranker_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.09375,
+              "events": 6,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.04367825258519838,
+                "upper": 0.18982879599645597
+              },
+              "lower": 0.03125,
+              "upper": 0.171875,
+              "zero_event": false
+            }
+          },
+          "n_clusters": 64,
+          "n_queries": 64,
+          "single_cluster": false,
+          "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+          "weight_sum": 64.0
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-0"
+    },
+    "unseen_gamma_repaired/paired/seed-1": {
+      "candidate_sha256": "88cd198ffab1ac09324edb45ce2bfe48c4e7c55a2dab7b081ae9049de61c40a2",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "gamma_to_delta": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261006,
+          "method": "paired cluster percentile bootstrap",
+          "metrics": {
+            "coverage": {
+              "denominator": 64,
+              "estimate": 0.15625,
+              "events": 10,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.08714842338206585,
+                "upper": 0.2642806177254878
+              },
+              "lower": 0.0625,
+              "upper": 0.25,
+              "zero_event": false
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.15625,
+              "events": 10,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.08714842338206585,
+                "upper": 0.2642806177254878
+              },
+              "lower": 0.0625,
+              "upper": 0.25,
+              "zero_event": false
+            },
+            "likelihood_mrr": {
+              "estimate": 0.15625,
+              "lower": 0.0625,
+              "upper": 0.25
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.044493055409518485,
+              "lower": 0.00781340700251777,
+              "upper": 0.0948400367056864
+            },
+            "nll": {
+              "estimate": 1.1373549875365019,
+              "lower": 1.0433593236112755,
+              "upper": 1.2454085893545694
+            },
+            "ranker_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.125,
+              "events": 8,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.06472242663330453,
+                "upper": 0.22774561821129946
+              },
+              "lower": 0.046875,
+              "upper": 0.203125,
+              "zero_event": false
+            }
+          },
+          "n_clusters": 64,
+          "n_queries": 64,
+          "single_cluster": false,
+          "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+          "weight_sum": 64.0
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-1"
+    },
+    "unseen_gamma_repaired/random/seed-0": {
+      "candidate_sha256": "dd3bc1e3c9b4ba4f98a80d3aaf557c9482675107cd5b8ceda915e222bc2467d4",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "gamma_to_delta": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261006,
+          "method": "paired cluster percentile bootstrap",
+          "metrics": {
+            "coverage": {
+              "denominator": 64,
+              "estimate": 0.15625,
+              "events": 10,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.08714842338206585,
+                "upper": 0.2642806177254878
+              },
+              "lower": 0.0625,
+              "upper": 0.25,
+              "zero_event": false
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.15625,
+              "events": 10,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.08714842338206585,
+                "upper": 0.2642806177254878
+              },
+              "lower": 0.0625,
+              "upper": 0.25,
+              "zero_event": false
+            },
+            "likelihood_mrr": {
+              "estimate": 0.1328125,
+              "lower": 0.0546875,
+              "upper": 0.21875
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.04019384943326834,
+              "lower": 0.004683483348786302,
+              "upper": 0.08904576442602441
+            },
+            "nll": {
+              "estimate": 1.2536050312973797,
+              "lower": 1.1497915379144972,
+              "upper": 1.3607334385857186
+            }
+          },
+          "n_clusters": 64,
+          "n_queries": 64,
+          "single_cluster": false,
+          "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+          "weight_sum": 64.0
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-0"
+    },
+    "unseen_gamma_repaired/random/seed-1": {
+      "candidate_sha256": "2ed1028017c301d70c817ffedb61e4d215279539233c4c9f63f398736a43ce8d",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "gamma_to_delta": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261006,
+          "method": "paired cluster percentile bootstrap",
+          "metrics": {
+            "coverage": {
+              "denominator": 64,
+              "estimate": 0.125,
+              "events": 8,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.06472242663330453,
+                "upper": 0.22774561821129946
+              },
+              "lower": 0.046875,
+              "upper": 0.203125,
+              "zero_event": false
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.125,
+              "events": 8,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.06472242663330453,
+                "upper": 0.22774561821129946
+              },
+              "lower": 0.046875,
+              "upper": 0.203125,
+              "zero_event": false
+            },
+            "likelihood_mrr": {
+              "estimate": 0.125,
+              "lower": 0.046875,
+              "upper": 0.203125
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.02176596704127646,
+              "lower": 0.001960608599251104,
+              "upper": 0.05787794269181989
+            },
+            "nll": {
+              "estimate": 1.2540723726866492,
+              "lower": 1.1514182379013052,
+              "upper": 1.3603667619981419
+            }
+          },
+          "n_clusters": 64,
+          "n_queries": 64,
+          "single_cluster": false,
+          "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+          "weight_sum": 64.0
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-1"
+    },
+    "unseen_gamma_repaired/shuffled/seed-0": {
+      "candidate_sha256": "ae5e8c52e8d58db7556ca0f7d11e869d52bbd0954783eccdf69002da3496a3cc",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "gamma_to_delta": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261006,
+          "method": "paired cluster percentile bootstrap",
+          "metrics": {
+            "coverage": {
+              "denominator": 64,
+              "estimate": 0.09375,
+              "events": 6,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.04367825258519838,
+                "upper": 0.18982879599645597
+              },
+              "lower": 0.03125,
+              "upper": 0.171875,
+              "zero_event": false
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.09375,
+              "events": 6,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.04367825258519838,
+                "upper": 0.18982879599645597
+              },
+              "lower": 0.03125,
+              "upper": 0.171875,
+              "zero_event": false
+            },
+            "likelihood_mrr": {
+              "estimate": 0.078125,
+              "lower": 0.0234375,
+              "upper": 0.1484375
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.021932132227891154,
+              "lower": 0.0005779655612244898,
+              "upper": 0.05910695463081065
+            },
+            "nll": {
+              "estimate": 1.1759522495012054,
+              "lower": 1.08132880934023,
+              "upper": 1.2739952939242556
+            },
+            "ranker_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.03125,
+              "events": 2,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.008612138346171874,
+                "upper": 0.10697291770958313
+              },
+              "lower": 0.0,
+              "upper": 0.078125,
+              "zero_event": false
+            }
+          },
+          "n_clusters": 64,
+          "n_queries": 64,
+          "single_cluster": false,
+          "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+          "weight_sum": 64.0
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-0"
+    },
+    "unseen_gamma_repaired/shuffled/seed-1": {
+      "candidate_sha256": "93bcdbbce9dab914bbc5a8a44619b67390b4005f5ede4b0455c4824328f94e3c",
+      "device": "NVIDIA GeForce RTX 3090",
+      "directions": {
+        "gamma_to_delta": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 20261006,
+          "method": "paired cluster percentile bootstrap",
+          "metrics": {
+            "coverage": {
+              "denominator": 64,
+              "estimate": 0.109375,
+              "events": 7,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.05400113344416797,
+                "upper": 0.20898641326896122
+              },
+              "lower": 0.03125,
+              "upper": 0.1875,
+              "zero_event": false
+            },
+            "likelihood_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.109375,
+              "events": 7,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.05400113344416797,
+                "upper": 0.20898641326896122
+              },
+              "lower": 0.03125,
+              "upper": 0.1875,
+              "zero_event": false
+            },
+            "likelihood_mrr": {
+              "estimate": 0.109375,
+              "lower": 0.03125,
+              "upper": 0.1875
+            },
+            "likelihood_recall_at_5": {
+              "estimate": 0.022672580314095622,
+              "lower": 0.001188913930875669,
+              "upper": 0.05917479660631417
+            },
+            "nll": {
+              "estimate": 1.1656336228630202,
+              "lower": 1.0678726663673623,
+              "upper": 1.2721707129986288
+            },
+            "ranker_hit_at_5": {
+              "denominator": 64,
+              "estimate": 0.0625,
+              "events": 4,
+              "iid_wilson_reference": {
+                "assumption": "iid binomial reference only; not the primary clustered interval",
+                "lower": 0.024571201396618017,
+                "upper": 0.14997485092208662
+              },
+              "lower": 0.015625,
+              "upper": 0.125,
+              "zero_event": false
+            }
+          },
+          "n_clusters": 64,
+          "n_queries": 64,
+          "single_cluster": false,
+          "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+          "weight_sum": 64.0
+        }
+      },
+      "source": "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-1"
+    }
+  },
+  "splits": {
+    "known_pairs_sha256": "c144fd4ad466021d276540eb9210e55e34ad12591e5d50e25d8746950de157b4",
+    "protocol": "paper/revision_bmc_protocol.md",
+    "protocol_sha256": "5e41bf6956ed5ae6d605eb569163ef13fa0d4e048bedd2d02777c0650324324a",
+    "protocols": {
+      "giant_edge_holdout": {
+        "direction": "both",
+        "output_sha256": {
+          "test.tsv": "0513bca84c2da512a3905d15920149477a17e86dad81055a58cc293bea6ffb15",
+          "train.tsv": "7a267de6a42e6862e0436a1bf0bced40528bcf527df0882edf42c9dc58e91d35",
+          "validation.tsv": "f5c5ab763d88301d3c171e8110b62508d1985ce3f0977821083c4451ad5ffee0",
+          "validation_selection.tsv": "f5c5ab763d88301d3c171e8110b62508d1985ce3f0977821083c4451ad5ffee0"
+        },
+        "selection_information": {
+          "0": {
+            "edges": 500,
+            "largest_query_edges": 43,
+            "minimum_distractors": 104,
+            "queries": 177,
+            "queries_without_distractors": 0,
+            "target_universe": 242
+          },
+          "1": {
+            "edges": 500,
+            "largest_query_edges": 34,
+            "minimum_distractors": 89,
+            "queries": 242,
+            "queries_without_distractors": 0,
+            "target_universe": 177
+          }
+        },
+        "sizes": {
+          "test": 500,
+          "train": 6254,
+          "validation": 500
+        },
+        "train_test_overlap": [
+          177,
+          261
+        ],
+        "uncertainty_unit": "single_original_component",
+        "unique_chains": {
+          "test": [
+            177,
+            261
+          ],
+          "train": [
+            2890,
+            5185
+          ],
+          "validation": [
+            177,
+            242
+          ]
+        },
+        "validation_roles": {
+          "selection": {
+            "edges": 500,
+            "gamma_queries": 177
+          }
+        }
+      },
+      "unseen_gamma_repaired": {
+        "direction": "gamma_to_delta",
+        "original_sha256": {
+          "test": "b9670b129f6a293ea19c0546491f518750c8e33a7adca67a7d32f9e65e0b1193",
+          "train": "eebbb22f32e0f36875a970f359a8608295909e858ec5e0524904319c2dd015b6",
+          "validation": "4b3a7036114b4a730243358cfb956cef10f8b953960c44417e1e631debf2cc52"
+        },
+        "output_sha256": {
+          "test.tsv": "b9670b129f6a293ea19c0546491f518750c8e33a7adca67a7d32f9e65e0b1193",
+          "train.tsv": "eebbb22f32e0f36875a970f359a8608295909e858ec5e0524904319c2dd015b6",
+          "validation.tsv": "4b3a7036114b4a730243358cfb956cef10f8b953960c44417e1e631debf2cc52",
+          "validation_calibration.tsv": "ed6ded6003585b9112a636fdd021cfbb89a26d7532e1f45caf409c8c5afff900",
+          "validation_selection.tsv": "0acdc6e22b2bc00c0b9dad5d00b33b7faa9cdffd76e37899afda82f9461ea28a",
+          "validation_tuning.tsv": "dd801da498895ec56e82d9e132f76fb41c1573f83d609c337c8834e2411e4df5"
+        },
+        "selection_information": {
+          "0": {
+            "edges": 275,
+            "largest_query_edges": 137,
+            "minimum_distractors": 118,
+            "queries": 31,
+            "queries_without_distractors": 0,
+            "target_universe": 255
+          }
+        },
+        "sizes": {
+          "test": 907,
+          "train": 7254,
+          "validation": 907
+        },
+        "train_test_overlap": [
+          0,
+          252
+        ],
+        "uncertainty_unit": "source_query",
+        "unchanged_original_membership": {
+          "test": true,
+          "train": true,
+          "validation": true
+        },
+        "unique_chains": {
+          "test": [
+            64,
+            771
+          ],
+          "train": [
+            3817,
+            5942
+          ],
+          "validation": [
+            63,
+            816
+          ]
+        },
+        "validation_roles": {
+          "calibration": {
+            "edges": 24,
+            "gamma_queries": 16
+          },
+          "selection": {
+            "edges": 275,
+            "gamma_queries": 31
+          },
+          "tuning": {
+            "edges": 608,
+            "gamma_queries": 16
+          }
+        }
+      }
+    }
+  },
+  "task_count": 43,
+  "tasks": [
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "eeed52dd00820008167a23c8ed8a6dd20a7539e2540ffcd8c46ea366e9cc782f",
+      "slurm_array_job_id": "3010640",
+      "slurm_array_task_id": "0",
+      "slurm_job_id": "3010640",
+      "task": "evaluate-unseen_gamma_repaired-paired-seed-0"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "53ffd9aaabab9c967c5e550f5b8cee66622fab23c7ac57fa01f877e51951eb01",
+      "slurm_array_job_id": "3010454",
+      "slurm_array_task_id": "1",
+      "slurm_job_id": "3010454",
+      "task": "evaluate-unseen_gamma_repaired-constant-seed-0"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "4a844fbdfe0000cdffe25ce6c9678ed5a9f2c6dc4ad443b80623dd7b8eb6929a",
+      "slurm_array_job_id": "3010477",
+      "slurm_array_task_id": "2",
+      "slurm_job_id": "3010477",
+      "task": "evaluate-unseen_gamma_repaired-random-seed-0"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "29afbc70cc1d32b52269eecd7f962d8149a1c3c87e478780d15c0a12b6dc9d31",
+      "slurm_array_job_id": "3010641",
+      "slurm_array_task_id": "3",
+      "slurm_job_id": "3010641",
+      "task": "evaluate-unseen_gamma_repaired-shuffled-seed-0"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "8def332970a2f8daa2ab6605491dcb400fab460faee7730fc3a0ede3b8062cc1",
+      "slurm_array_job_id": "3010644",
+      "slurm_array_task_id": "4",
+      "slurm_job_id": "3010644",
+      "task": "evaluate-unseen_gamma_repaired-paired-seed-1"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "955ba5108fcb083ee98448e62598839f8862ae0f0f9c6edababc54e27a28ab44",
+      "slurm_array_job_id": "3010521",
+      "slurm_array_task_id": "5",
+      "slurm_job_id": "3010521",
+      "task": "evaluate-unseen_gamma_repaired-constant-seed-1"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "1f1c2108385d9bc609426c7a3153b2f6d4cc966cda960df6a98c985a8108ab6c",
+      "slurm_array_job_id": "3010544",
+      "slurm_array_task_id": "6",
+      "slurm_job_id": "3010544",
+      "task": "evaluate-unseen_gamma_repaired-random-seed-1"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "e363733ff214467918dabb9fec75ecba62358d0fef9fef64595ad059ea13c756",
+      "slurm_array_job_id": "3010654",
+      "slurm_array_task_id": "7",
+      "slurm_job_id": "3010654",
+      "task": "evaluate-unseen_gamma_repaired-shuffled-seed-1"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "939acdf9297b13d2b2fd412ac405e54ca7ac336b17d5323fff39407e6f863fbb",
+      "slurm_array_job_id": "3010717",
+      "slurm_array_task_id": "8",
+      "slurm_job_id": "3010717",
+      "task": "evaluate-giant_edge_holdout-paired-seed-0"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "57777de377b59bbaf1a3b048179ca78fb174ad9d73bc015fefd6416e54badb44",
+      "slurm_array_job_id": "3010556",
+      "slurm_array_task_id": "9",
+      "slurm_job_id": "3010556",
+      "task": "evaluate-giant_edge_holdout-constant-seed-0"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "40ce2b0c941e0723867dcd9919ce53b1eec1c21fcdbbfcf5af7955c4bc2f70d2",
+      "slurm_array_job_id": "3010720",
+      "slurm_array_task_id": "10",
+      "slurm_job_id": "3010720",
+      "task": "evaluate-giant_edge_holdout-random-seed-0"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "bbcfc9c71fb3429d07a4075a83115a2570edb58819cbed7c804e372128e08322",
+      "slurm_array_job_id": "3010721",
+      "slurm_array_task_id": "11",
+      "slurm_job_id": "3010721",
+      "task": "evaluate-giant_edge_holdout-shuffled-seed-0"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "28566502cec7d27cf9d42a5cd1e650fb5149dd84d93007ab3ec1ac5aeb28d644",
+      "slurm_array_job_id": "3010730",
+      "slurm_array_task_id": "12",
+      "slurm_job_id": "3010730",
+      "task": "evaluate-giant_edge_holdout-paired-seed-1"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "3af0f771a1857f8d052a36aabf62acfa748073ad4ad0fd1141a8b1d7f474323c",
+      "slurm_array_job_id": "3010731",
+      "slurm_array_task_id": "13",
+      "slurm_job_id": "3010731",
+      "task": "evaluate-giant_edge_holdout-constant-seed-1"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "5079891d769b51606fa1ad2ed1842dc46216a244f24ed9a377542b0fe2fededb",
+      "slurm_array_job_id": "3010736",
+      "slurm_array_task_id": "14",
+      "slurm_job_id": "3010736",
+      "task": "evaluate-giant_edge_holdout-random-seed-1"
+    },
+    {
+      "manifest_sha256": "4a65ced22d5b57101c78db71ba7140adbed5d26c858bfa6b8c7cf945c508fb19",
+      "record_sha256": "bc20395adfc63bf634ada3ad59dc39343a97f0743428215888c7f7b2a3a050e4",
+      "slurm_array_job_id": "3010741",
+      "slurm_array_task_id": "15",
+      "slurm_job_id": "3010741",
+      "task": "evaluate-giant_edge_holdout-shuffled-seed-1"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "13f1ef541ddf5ac366e6b3911b06b34d27b9a98091cc57c97a28a9e7c32b094e",
+      "slurm_array_job_id": "3010349",
+      "slurm_array_task_id": "0",
+      "slurm_job_id": "3010349",
+      "task": "generator-unseen_gamma_repaired-paired-seed-0"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "ecc3977f0feb8e6035e8936d1fa17012750e82f42cc6807b0c3896f60c916c12",
+      "slurm_array_job_id": "3010350",
+      "slurm_array_task_id": "1",
+      "slurm_job_id": "3010350",
+      "task": "generator-unseen_gamma_repaired-constant-seed-0"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "2237f74927a43f589526d1642f927e482bca70bb84c0f65e968c8b3e23ba672c",
+      "slurm_array_job_id": "3010351",
+      "slurm_array_task_id": "2",
+      "slurm_job_id": "3010351",
+      "task": "generator-unseen_gamma_repaired-random-seed-0"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "79648224eecb87ee15d374148da4c459753cf95e15e797fcd6bd42ee8e97aed6",
+      "slurm_array_job_id": "3010453",
+      "slurm_array_task_id": "3",
+      "slurm_job_id": "3010453",
+      "task": "ranker-unseen_gamma_repaired-seed-0"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "2729792fb07fb256acf3dee0b3a048174d1694d3fe2d57c1847c4528aa6e7d23",
+      "slurm_array_job_id": "3010352",
+      "slurm_array_task_id": "4",
+      "slurm_job_id": "3010352",
+      "task": "generator-unseen_gamma_repaired-paired-seed-1"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "4030ae1cbcca78d9af4d09a10f7c58e98386eea6011e225a691232791afdda97",
+      "slurm_array_job_id": "3010353",
+      "slurm_array_task_id": "5",
+      "slurm_job_id": "3010353",
+      "task": "generator-unseen_gamma_repaired-constant-seed-1"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "5472a734e2a9e164d53cb2bef7faf7bf7c1483ef980f2c37f826e36f412c2fe4",
+      "slurm_array_job_id": "3010354",
+      "slurm_array_task_id": "6",
+      "slurm_job_id": "3010354",
+      "task": "generator-unseen_gamma_repaired-random-seed-1"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "981fd7b04c3171334a85d9ffb12f9c8a4828bfffe62f655dc6a3913929501ed2",
+      "slurm_array_job_id": "3010476",
+      "slurm_array_task_id": "7",
+      "slurm_job_id": "3010476",
+      "task": "ranker-unseen_gamma_repaired-seed-1"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "ba99af4c797e17bf4e5a809fb50b62042a0be59ba0c45df8d444b0b2d136824a",
+      "slurm_array_job_id": "3010355",
+      "slurm_array_task_id": "8",
+      "slurm_job_id": "3010355",
+      "task": "generator-giant_edge_holdout-paired-seed-0"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "09ef76cd5e10145a85ae3120dadf638857c623e2f6c11cdd6e656606924a0f91",
+      "slurm_array_job_id": "3010356",
+      "slurm_array_task_id": "9",
+      "slurm_job_id": "3010356",
+      "task": "generator-giant_edge_holdout-constant-seed-0"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "ee76e68ed98c64aa9a7213ae6673f0a5ca16d6aeb613ce1a992d2b35b941fcc2",
+      "slurm_array_job_id": "3010408",
+      "slurm_array_task_id": "10",
+      "slurm_job_id": "3010408",
+      "task": "generator-giant_edge_holdout-random-seed-0"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "326bbbe27a50857aa10e3121e299815097cf837380fcdcf9691b38c7c98c7d36",
+      "slurm_array_job_id": "3010520",
+      "slurm_array_task_id": "11",
+      "slurm_job_id": "3010520",
+      "task": "ranker-giant_edge_holdout-seed-0"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "8cb7f3c04614f1352a7eeff16752f67be99dfac8c85460467738e566f65b7e67",
+      "slurm_array_job_id": "3010417",
+      "slurm_array_task_id": "12",
+      "slurm_job_id": "3010417",
+      "task": "generator-giant_edge_holdout-paired-seed-1"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "2d13f8cfa35e6c45906bdd91ba2a9e01fba8249c40eb40db023d9bf47f2362ca",
+      "slurm_array_job_id": "3010418",
+      "slurm_array_task_id": "13",
+      "slurm_job_id": "3010418",
+      "task": "generator-giant_edge_holdout-constant-seed-1"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "f642fd2e22de5ff82572afee5a98620c717e0cd8b7de3f66f001c9a24dd34dc5",
+      "slurm_array_job_id": "3010419",
+      "slurm_array_task_id": "14",
+      "slurm_job_id": "3010419",
+      "task": "generator-giant_edge_holdout-random-seed-1"
+    },
+    {
+      "manifest_sha256": "845d2a9e83801327b46a69dc4a99f6317afce4d090df29d47d90f840dc3ea86d",
+      "record_sha256": "5d322f3637f912b1c088ec67f58cf8b7869f9abc7cf2c101c31ba6cf56cb818c",
+      "slurm_array_job_id": "3010543",
+      "slurm_array_task_id": "15",
+      "slurm_job_id": "3010543",
+      "task": "ranker-giant_edge_holdout-seed-1"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "9c4821682df91cda056bc84180f1f016b3b51bab70ac36063536f62b52699836",
+      "slurm_array_job_id": "3010359",
+      "slurm_array_task_id": "0",
+      "slurm_job_id": "3010359",
+      "task": "transfer-seen_input_delta_to_gamma"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "cfb546b532b59de4a11419272672fc37d4688816a5843996d3f8983cbdef90eb",
+      "slurm_array_job_id": "3010362",
+      "slurm_array_task_id": "1",
+      "slurm_job_id": "3010362",
+      "task": "transfer-seen_input_gamma_to_delta"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "c677ec6a9bbd044ea0585287bf53cd999546944c25bb3396244629e636605849",
+      "slurm_array_job_id": "3010367",
+      "slurm_array_task_id": "2",
+      "slurm_job_id": "3010367",
+      "task": "transfer-source_holdout"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "9ef95c3a7f5718c69c58112e5ce578c6fd81c4c7455be9e6d81156b3d28fe900",
+      "slurm_array_job_id": "3010370",
+      "slurm_array_task_id": "3",
+      "slurm_job_id": "3010370",
+      "task": "transfer-source_shared"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "73642e9959fc1579ac1ea7b7443bcec914cc8beba28486efe664813217076c8e",
+      "slurm_array_job_id": "3010392",
+      "slurm_array_task_id": "4",
+      "slurm_job_id": "3010392",
+      "task": "transfer-split_seed17"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "e577403939c9c28fa25520d1970dee37171545bbc3392a479b7d235942e50038",
+      "slurm_array_job_id": "3010397",
+      "slurm_array_task_id": "5",
+      "slurm_job_id": "3010397",
+      "task": "transfer-split_seed2026"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "01292e8d0b7e6d5734fef77c9f7389d4bcb9b1ab529f4e4650168550e7fa6bc3",
+      "slurm_array_job_id": "3010400",
+      "slurm_array_task_id": "6",
+      "slurm_job_id": "3010400",
+      "task": "transfer-split_seed3407"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "1931ad02aefa95e75244ec15297e910a07556578b6581d01c867bb540e722a83",
+      "slurm_array_job_id": "3010409",
+      "slurm_array_task_id": "7",
+      "slurm_job_id": "3010409",
+      "task": "transfer-unseen_input_delta_to_gamma"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "6bb4cc74f35604f85d30c1ff6d4ef4baf5d0e4f6406c6f6ce38dda5a524011f5",
+      "slurm_array_job_id": "3010420",
+      "slurm_array_task_id": "8",
+      "slurm_job_id": "3010420",
+      "task": "transfer-unseen_input_gamma_to_delta"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "47ec4034377f72885f8a6026cb9c73dac848e9cc49f4b47f0224a7ecb6ddc2c0",
+      "slurm_array_job_id": "3010430",
+      "slurm_array_task_id": "9",
+      "slurm_job_id": "3010430",
+      "task": "transfer-giant_edge_holdout"
+    },
+    {
+      "manifest_sha256": "58d4a231db0a07042bfc8eaa8ab0eb5490f1018f0cbf5fd792e2d30c19ac8e07",
+      "record_sha256": "d4c33a64e8533f72aaefa01db8a185238096af3a25f7d74c2bf75c7b6c2976f5",
+      "slurm_array_job_id": "3010438",
+      "slurm_array_task_id": "10",
+      "slurm_job_id": "3010438",
+      "task": "transfer-unseen_gamma_repaired"
+    }
+  ],
+  "test_outcome_audit_passed": true,
+  "training": [
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 192484, \"gamma_to_delta\": 191516}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 2794689, \"gamma_to_delta\": 3625444}",
+      "best_step": 1400,
+      "checkpoint_sha256": "c1d377418666f4cc1eeee6a41b4600d1acbacc87ec44059e006ed9b2183efb9a",
+      "condition": "paired",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "selection_value": 0.4233136018039263,
+      "stage": "generator",
+      "steps": 1500
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 191533, \"gamma_to_delta\": 192467}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 2783000, \"gamma_to_delta\": 3643269}",
+      "best_step": 1100,
+      "checkpoint_sha256": "0b1b48fd810e273cdfdb58815f7992761855965b1f3820dc07c8cddc100f0ebf",
+      "condition": "paired",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "selection_value": 0.42689352814493,
+      "stage": "generator",
+      "steps": 1500
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 192484, \"gamma_to_delta\": 191516}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 2794689, \"gamma_to_delta\": 3625444}",
+      "best_step": 1200,
+      "checkpoint_sha256": "2fb4c19065293ee990721a706ac1bfe882689cbcc10f9ddc4478c7dde4ad0526",
+      "condition": "constant",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "selection_value": 0.45608472130358246,
+      "stage": "generator",
+      "steps": 1500
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 191533, \"gamma_to_delta\": 192467}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 2783000, \"gamma_to_delta\": 3643269}",
+      "best_step": 1300,
+      "checkpoint_sha256": "1a4ea23dbbb268225ec22a6ca8b55fbbfd39d3639f16418411c81323a7389638",
+      "condition": "constant",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "selection_value": 0.45911185549623346,
+      "stage": "generator",
+      "steps": 1500
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 192484, \"gamma_to_delta\": 191516}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 2794689, \"gamma_to_delta\": 3625444}",
+      "best_step": 1500,
+      "checkpoint_sha256": "edccaf1e448ec102b9b2a810f299d69c4ae9f72022398482bf4972006117f9ec",
+      "condition": "random",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "selection_value": 0.5483038821840409,
+      "stage": "generator",
+      "steps": 1500
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 191533, \"gamma_to_delta\": 192467}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 2783000, \"gamma_to_delta\": 3643269}",
+      "best_step": 1500,
+      "checkpoint_sha256": "bcc729a566713f062c78c85fbeec48585af399432d2d4990587be6202bb070b9",
+      "condition": "random",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "selection_value": 0.5516635211899688,
+      "stage": "generator",
+      "steps": 1500
+    },
+    {
+      "actual_sequences": "not tracked for legacy ranker loops; training draw counts in negative_audit",
+      "actual_target_tokens": "not logged; no token-matching claim",
+      "bce_negative_pair_draws": 1152000,
+      "bce_positive_pair_draws": 384000,
+      "best_step": 3000,
+      "checkpoint_sha256": "269f4c4b21446d1598f070b8b197f782bdfa737db427328d634e3623bd9ab76e",
+      "condition": "paired",
+      "contrastive_positive_pair_draws": 384000,
+      "copied_encoder_trainable": true,
+      "device": "NVIDIA GeForce RTX 3090",
+      "negative_counts": "{\"hard_draws\": 576725, \"length_difference_0\": 634787, \"length_difference_1\": 127788, \"length_difference_10\": 6471, \"length_difference_11\": 3836, \"length_difference_12\": 2125, \"length_difference_13\": 1117, \"length_difference_14\": 448, \"length_difference_15\": 122, \"length_difference_16\": 40, \"length_difference_17\": 9, \"length_difference_2\": 107095, \"length_difference_3\": 84715, \"length_difference_4\": 63154, \"length_difference_5\": 44420, \"length_difference_6\": 30646, \"length_difference_7\": 20888, \"length_difference_8\": 14544, \"length_difference_9\": 9795, \"random_draws\": 575275, \"source_delta\": 575951, \"source_gamma\": 576049}",
+      "pair_count_scope": "sampled pairs with replacement, not unique sequences or encoded-token exposure",
+      "positive_pair_draws": 768000,
+      "protocol": "giant_edge_holdout",
+      "seed": 3407,
+      "selection_range": "[0.11805794178841661, 0.1472249055773323]",
+      "selection_value": 0.1472249055773323,
+      "stage": "ranker",
+      "steps": 3000
+    },
+    {
+      "actual_sequences": "not tracked for legacy ranker loops; training draw counts in negative_audit",
+      "actual_target_tokens": "not logged; no token-matching claim",
+      "bce_negative_pair_draws": 1152000,
+      "bce_positive_pair_draws": 384000,
+      "best_step": 1750,
+      "checkpoint_sha256": "0dd1f4f5bae6459e4e58306364fb2473eaa531a7fa8df93f05f4246f6ef77f1b",
+      "condition": "paired",
+      "contrastive_positive_pair_draws": 384000,
+      "copied_encoder_trainable": true,
+      "device": "NVIDIA GeForce RTX 3090",
+      "negative_counts": "{\"hard_draws\": 576595, \"length_difference_0\": 634761, \"length_difference_1\": 127871, \"length_difference_10\": 6479, \"length_difference_11\": 3851, \"length_difference_12\": 2128, \"length_difference_13\": 1101, \"length_difference_14\": 455, \"length_difference_15\": 119, \"length_difference_16\": 37, \"length_difference_17\": 7, \"length_difference_2\": 106966, \"length_difference_3\": 84916, \"length_difference_4\": 63143, \"length_difference_5\": 44396, \"length_difference_6\": 30636, \"length_difference_7\": 20789, \"length_difference_8\": 14555, \"length_difference_9\": 9790, \"random_draws\": 575405, \"source_delta\": 575867, \"source_gamma\": 576133}",
+      "pair_count_scope": "sampled pairs with replacement, not unique sequences or encoded-token exposure",
+      "positive_pair_draws": 768000,
+      "protocol": "giant_edge_holdout",
+      "seed": 3508,
+      "selection_range": "[0.11945584408562337, 0.18659960863235134]",
+      "selection_value": 0.18659960863235134,
+      "stage": "ranker",
+      "steps": 3000
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 281600}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 5368368}",
+      "best_step": 600,
+      "checkpoint_sha256": "eac6d1959dd6240041c056a47fd8b50b50b9fca9abe151d06569a450f1e3d95e",
+      "condition": "paired",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "selection_value": 1.141633102236213,
+      "stage": "generator",
+      "steps": 1100
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 358400}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 6832709}",
+      "best_step": 900,
+      "checkpoint_sha256": "0a76b865576ea9f8a5104b647cb988f5050b814007749df69a1fe4fdabab7718",
+      "condition": "paired",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "selection_value": 1.1251568185220902,
+      "stage": "generator",
+      "steps": 1400
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 307200}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 5856287}",
+      "best_step": 700,
+      "checkpoint_sha256": "137218ad21ab48724d1516d937df3295677b0ee4afa2db1d5da902e4d93e8a37",
+      "condition": "constant",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "selection_value": 1.1565756109458478,
+      "stage": "generator",
+      "steps": 1200
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 358400}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 6832709}",
+      "best_step": 900,
+      "checkpoint_sha256": "7c2bf3a597b6fcb0995620d4b36bb9f0fbc70d1b6145d1494d12f5635a3b6d87",
+      "condition": "constant",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "selection_value": 1.1445569218673037,
+      "stage": "generator",
+      "steps": 1400
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 384000}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 7319732}",
+      "best_step": 1500,
+      "checkpoint_sha256": "c746b9ca37652b3ba564c45bd7582ccf65066eaaa7bf159aba3fa4e7c12bdc94",
+      "condition": "random",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "selection_value": 1.26388716157689,
+      "stage": "generator",
+      "steps": 1500
+    },
+    {
+      "actual_sequences": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 384000}",
+      "actual_target_tokens": "{\"delta_to_gamma\": 0, \"gamma_to_delta\": 7321490}",
+      "best_step": 1300,
+      "checkpoint_sha256": "3f77461f08663f08ef2cc9136c085e13f5315a5c94dea25f40342cd9b76b5af7",
+      "condition": "random",
+      "device": "NVIDIA GeForce RTX 3090",
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "selection_value": 1.2628540189418989,
+      "stage": "generator",
+      "steps": 1500
+    },
+    {
+      "actual_sequences": "not tracked for legacy ranker loops; training draw counts in negative_audit",
+      "actual_target_tokens": "not logged; no token-matching claim",
+      "bce_negative_pair_draws": 1152000,
+      "bce_positive_pair_draws": 384000,
+      "best_step": 3000,
+      "checkpoint_sha256": "231115412acf84623fecb97c5b2d643e96e7e4cc930147e2a59159cabdf5b896",
+      "condition": "paired",
+      "contrastive_positive_pair_draws": 384000,
+      "copied_encoder_trainable": true,
+      "device": "NVIDIA GeForce RTX 3090",
+      "negative_counts": "{\"hard_draws\": 576802, \"hard_fallbacks\": 26, \"length_difference_0\": 636103, \"length_difference_1\": 128574, \"length_difference_10\": 6155, \"length_difference_11\": 3653, \"length_difference_12\": 2021, \"length_difference_13\": 1055, \"length_difference_14\": 484, \"length_difference_15\": 125, \"length_difference_16\": 38, \"length_difference_17\": 11, \"length_difference_18\": 4, \"length_difference_19\": 3, \"length_difference_2\": 106906, \"length_difference_20\": 3, \"length_difference_3\": 84643, \"length_difference_4\": 63084, \"length_difference_5\": 44102, \"length_difference_6\": 30235, \"length_difference_7\": 20628, \"length_difference_8\": 14492, \"length_difference_9\": 9681, \"random_draws\": 575198, \"source_delta\": 575826, \"source_gamma\": 576174}",
+      "pair_count_scope": "sampled pairs with replacement, not unique sequences or encoded-token exposure",
+      "positive_pair_draws": 768000,
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3407,
+      "selection_range": "[0.0910002659571075, 0.14049977792428156]",
+      "selection_value": 0.14049977792428156,
+      "stage": "ranker",
+      "steps": 3000
+    },
+    {
+      "actual_sequences": "not tracked for legacy ranker loops; training draw counts in negative_audit",
+      "actual_target_tokens": "not logged; no token-matching claim",
+      "bce_negative_pair_draws": 1152000,
+      "bce_positive_pair_draws": 384000,
+      "best_step": 2750,
+      "checkpoint_sha256": "580a5295acbe2357a79b587ab437bf21203ba0598f46d8da809b0252004b831b",
+      "condition": "paired",
+      "contrastive_positive_pair_draws": 384000,
+      "copied_encoder_trainable": true,
+      "device": "NVIDIA GeForce RTX 3090",
+      "negative_counts": "{\"hard_draws\": 576656, \"hard_fallbacks\": 30, \"length_difference_0\": 636115, \"length_difference_1\": 128438, \"length_difference_10\": 6144, \"length_difference_11\": 3681, \"length_difference_12\": 2050, \"length_difference_13\": 1052, \"length_difference_14\": 487, \"length_difference_15\": 127, \"length_difference_16\": 37, \"length_difference_17\": 11, \"length_difference_18\": 3, \"length_difference_19\": 3, \"length_difference_2\": 106675, \"length_difference_20\": 3, \"length_difference_3\": 84798, \"length_difference_4\": 63094, \"length_difference_5\": 44213, \"length_difference_6\": 30282, \"length_difference_7\": 20588, \"length_difference_8\": 14506, \"length_difference_9\": 9693, \"random_draws\": 575344, \"source_delta\": 575779, \"source_gamma\": 576221}",
+      "pair_count_scope": "sampled pairs with replacement, not unique sequences or encoded-token exposure",
+      "positive_pair_draws": 768000,
+      "protocol": "unseen_gamma_repaired",
+      "seed": 3508,
+      "selection_range": "[0.08085817980471481, 0.1617989283025845]",
+      "selection_value": 0.1617989283025845,
+      "stage": "ranker",
+      "steps": 3000
+    }
+  ]
+}

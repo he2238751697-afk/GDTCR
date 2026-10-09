@@ -1,0 +1,652 @@
+{
+  "url": "https://api.crossref.org/works?rows=5&query.bibliographic=TCR%20BERT%20language%20model%20T%20cell%20receptor",
+  "retrieved_utc": "2026-09-30T05:42:26.523250+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 7742328,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                6
+              ]
+            ],
+            "date-time": "2024-09-06T02:24:20Z",
+            "timestamp": 1725589460005
+          },
+          "publisher-location": "Berlin/Heidelberg",
+          "reference-count": 0,
+          "publisher": "Springer-Verlag",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.1007/springerreference_33063",
+          "type": "reference-entry",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2011-08-10T12:27:47Z",
+            "timestamp": 1312979267000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "T Cell Receptor (TCR)"
+          ],
+          "prefix": "10.1007",
+          "member": "297",
+          "container-title": [
+            "SpringerReference"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2011,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2011-08-10T12:30:50Z",
+            "timestamp": 1312979450000
+          },
+          "score": 28.955502,
+          "resource": {
+            "primary": {
+              "URL": "http://www.springerreference.com/index/doi/10.1007/SpringerReference_33063"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1007/springerreference_33063"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                6
+              ]
+            ],
+            "date-time": "2024-09-06T03:03:27Z",
+            "timestamp": 1725591807183
+          },
+          "publisher-location": "Berlin/Heidelberg",
+          "reference-count": 0,
+          "publisher": "Springer-Verlag",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.1007/springerreference_107011",
+          "type": "reference-entry",
+          "created": {
+            "date-parts": [
+              [
+                2012,
+                1,
+                20
+              ]
+            ],
+            "date-time": "2012-01-20T13:50:50Z",
+            "timestamp": 1327067450000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "T Cell Receptor (TCR)"
+          ],
+          "prefix": "10.1007",
+          "member": "297",
+          "container-title": [
+            "SpringerReference"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2012,
+                1,
+                20
+              ]
+            ],
+            "date-time": "2012-01-20T14:02:57Z",
+            "timestamp": 1327068177000
+          },
+          "score": 28.873028,
+          "resource": {
+            "primary": {
+              "URL": "http://www.springerreference.com/index/doi/10.1007/SpringerReference_107011"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1007/springerreference_107011"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                6
+              ]
+            ],
+            "date-time": "2024-09-06T02:24:21Z",
+            "timestamp": 1725589461141
+          },
+          "publisher-location": "Berlin/Heidelberg",
+          "reference-count": 0,
+          "publisher": "Springer-Verlag",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.1007/springerreference_33064",
+          "type": "reference-entry",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2011-08-10T12:27:47Z",
+            "timestamp": 1312979267000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "T Cell Receptor (TCR) Complex"
+          ],
+          "prefix": "10.1007",
+          "member": "297",
+          "container-title": [
+            "SpringerReference"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2011,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2011-08-10T12:30:51Z",
+            "timestamp": 1312979451000
+          },
+          "score": 28.535706,
+          "resource": {
+            "primary": {
+              "URL": "http://www.springerreference.com/index/doi/10.1007/SpringerReference_33064"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1007/springerreference_33064"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                6
+              ]
+            ],
+            "date-time": "2024-09-06T02:24:11Z",
+            "timestamp": 1725589451865
+          },
+          "publisher-location": "Berlin/Heidelberg",
+          "reference-count": 0,
+          "publisher": "Springer-Verlag",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.1007/springerreference_33057",
+          "type": "reference-entry",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2011-08-10T16:27:47Z",
+            "timestamp": 1312993667000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "T Cell Antigen Receptor (TCR)"
+          ],
+          "prefix": "10.1007",
+          "member": "297",
+          "container-title": [
+            "SpringerReference"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2011,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2011-08-10T16:30:48Z",
+            "timestamp": 1312993848000
+          },
+          "score": 28.511795,
+          "resource": {
+            "primary": {
+              "URL": "http://www.springerreference.com/index/doi/10.1007/SpringerReference_33057"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1007/springerreference_33057"
+        },
+        {
+          "institution": [
+            {
+              "name": "bioRxiv"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ],
+            "date-time": "2026-01-15T16:39:27Z",
+            "timestamp": 1768495167302,
+            "version": "3.49.0"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                14
+              ]
+            ]
+          },
+          "group-title": "Immunology",
+          "reference-count": 27,
+          "publisher": "openRxiv",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                14
+              ]
+            ]
+          },
+          "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Temporal analysis of the T cell receptor (TCR) repertoire has been used to monitor treatment-induced changes in antigen-specific T cells in patients with cancer. However, the lack of experimental models that allow temporal analysis of the TCR repertoire in the same individual in a homogeneous population limits the understanding of the causal relationship between changes in TCR repertoire and antitumor responses. A bilateral tumor model, where tumor cells were inoculated bilaterally into the backs of mice, could be used for temporal analysis of the TCR repertoire. This study examined the prerequisite for this strategy: the TCR repertoire is conserved between bilateral tumors with the same growth rate. Bilateral tumors with equivalent size and draining lymph nodes (dLNs) were collected 13 days after tumor inoculation to analyze the TCR repertoire of CD4\n                  <jats:sup>+</jats:sup>\n                  and CD8\n                  <jats:sup>+</jats:sup>\n                  T cells. The tumor-infiltrating T cell clones were highly conserved between the bilateral tumors, and the extent of clonal expansion was equivalent. In addition, the similarity between the bilateral tumors was equivalent to heterogeneity on one side of the tumor. The similarity of the TCR repertoire in the bilateral dLNs was markedly lower than that in the tumor, suggesting that tumor-reactive T cell clones induced independently in each dLN integrated during recirculation and then infiltrated the tumor. These findings suggest that our bilateral tumor model is suitable for temporal monitoring of the TCR repertoire to evaluate temporal and treatment-induced changes in tumor-reactive T cell clones.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Significance Statement</jats:title>\n                  <jats:p>The bilateral subcutaneous tumor model, where tumor cells were inoculated bilaterally into the backs of mice, is a promising model for temporal analysis of the antitumor response in cancer immunotherapy. This study demonstrated a highly conserved TCR repertoire in bilateral tumors and provided the basis for using a bilateral tumor model for evaluating temporal and treatment-induced changes in tumor-responsive T cell clones in individual mice. In humans, accurate statistical analysis is hampered by various background factors, including cancer type and stage and history of treatment. Moreover, temporal tumor biopsy in patients is highly invasive. Our bilateral tumor model overcomes these clinical issues and is expected to be a valuable tool for the development of novel immune monitoring and therapeutic strategies.</jats:p>\n                </jats:sec>",
+          "DOI": "10.1101/2021.05.13.443732",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                14
+              ]
+            ],
+            "date-time": "2021-05-14T14:25:32Z",
+            "timestamp": 1621002332000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "T cell receptor (TCR) repertoire analysis reveals a highly conserved TCR repertoire in a bilateral tumor mouse model"
+          ],
+          "prefix": "10.64898",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-2931-8250",
+              "authenticated-orcid": false,
+              "given": "Mikiya",
+              "family": "Tsunoda",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hiroyasu",
+              "family": "Aoki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Haruka",
+              "family": "Shimizu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Shigeyuki",
+              "family": "Shichino",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Kouji",
+              "family": "Matsushima",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Satoshi",
+              "family": "Ueha",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "54368",
+          "reference": [
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.1",
+              "first-page": "1",
+              "article-title": "The hallmarks of successful anticancer immunotherapy",
+              "volume": "10",
+              "year": "2018",
+              "journal-title": "Sci. Transl. Med"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A. Ribas , J. D. Wolchok , Cancer immunotherapy using checkpoint blockade. Science (80-.). 359 (2018).",
+              "DOI": "10.1126/science.aar4060"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.3",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Y. Kim , et al., Hyperprogressive disease during anti-PD-1 (PDCD1) / PD-L1 (CD274) therapy: A systematic review and meta-analysis. Cancers (Basel). 11 (2019).",
+              "DOI": "10.3390/cancers11111699"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.4",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. A. Postow , R. Sidlow , M. D. Hellmann , Immune-Related Adverse Events Associated with Immune Checkpoint Blockade. N. Engl. J. Med. 378 (2018).",
+              "DOI": "10.1056/NEJMra1703481"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. L. Topalian , J. M. Taube , R. A. Anders , D. M. Pardoll , Mechanism-driven biomarkers to guide immune checkpoint blockade in cancer therapy. Nat. Rev. Cancer 16 (2016).",
+              "DOI": "10.1038/nrc.2016.36"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "G. V. Masucci , et al., Validation of biomarkers to predict response to immunotherapy in cancer: Volume I - pre-analytical and analytical validation. J. Immunother. Cancer 4 (2016).",
+              "DOI": "10.1186/s40425-016-0178-1"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.7",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. O. Alsaab , et al., PD-1 and PD-L1 checkpoint signaling inhibition for cancer immunotherapy: mechanism, combinations, and clinical outcome. Front. Pharmacol. 8 (2017).",
+              "DOI": "10.3389/fphar.2017.00561"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1158/2326-6066.CIR-16-0001"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A. Gros , et al., PD-1 identifies the patient-specific CD8+ tumor-reactive repertoire infiltrating human tumors. J. Clin. Invest. 124 (2014).",
+              "DOI": "10.1172/JCI73639"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "E. Rosati , et al., Overview of methodologies for T-cell receptor repertoire analysis. BMC Biotechnol. 17 (2017).",
+              "DOI": "10.1186/s12896-017-0379-9"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "X. Liu , J. Wu , History, applications, and challenges of immune repertoire research. Cell Biol. Toxicol. 34 (2018).",
+              "DOI": "10.1007/s10565-018-9426-0"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.12",
+              "doi-asserted-by": "crossref",
+              "first-page": "102100",
+              "DOI": "10.1016/j.isci.2021.102100",
+              "article-title": "A T cell repertoire timestamp is at the core of responsiveness to CTLA-4 blockade",
+              "volume": "24",
+              "year": "2021",
+              "journal-title": "iScience"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1158/2326-6066.CIR-17-0134"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Aoki , et al., TCR repertoire analysis reveals mobilization of novel CD8+T cell clones into the cancer-immunity cycle following anti-CD4 antibody administration. Front. Immunol. 10 (2019).",
+              "DOI": "10.3389/fimmu.2018.03185"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.immuni.2013.07.012"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1186/s40425-019-0677-y"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.17",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. M. Zemek , et al., Bilateral murine tumor models for characterizing the response to immune checkpoint blockade. Nat. Protoc. 15 (2020).",
+              "DOI": "10.1038/s41596-020-0299-3"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.18",
+              "doi-asserted-by": "crossref",
+              "unstructured": "I. X. Chen , et al., A bilateral tumor model identifies transcriptional programs associated with patient response to immune checkpoint blockade. Proc. Natl. Acad. Sci. U. S. A. 117 (2020).",
+              "DOI": "10.1073/pnas.2002806117"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.19",
+              "doi-asserted-by": "crossref",
+              "first-page": "284",
+              "DOI": "10.1016/j.copbio.2020.07.010",
+              "article-title": "T-cell repertoire analysis and metrics of diversity and clonality",
+              "volume": "65",
+              "year": "2020",
+              "journal-title": "Curr. Opin. Biotechnol"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3389/fonc.2020.00442"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/s41568-019-0116-x"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.22",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Aoki , et al., Transient Depletion of CD4 + Cells Induces Remodeling of the TCR Repertoire in Gastrointestinal Cancer. Cancer Immunol. Res. (2021) https://doi.org/10.1158/2326-6066.cir-20-0989. in press.",
+              "DOI": "10.1158/2326-6066.CIR-20-0989"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. G. Anderson , et al., Intravascular staining for discrimination of vascular and tissue leukocytes. Nat. Protoc. 9 (2014).",
+              "DOI": "10.1038/nprot.2014.005"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.24",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Martin , Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet.journal 17 (2011).",
+              "DOI": "10.14806/ej.17.1.200"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.25",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btr026"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.26",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/nmeth.3364"
+            },
+            {
+              "key": "2021051706350623000_2021.05.13.443732v1.27",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1371/journal.pcbi.1004584"
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.13.443732",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ],
+            "date-time": "2026-01-15T01:43:17Z",
+            "timestamp": 1768441397000
+          },
+          "score": 27.064188,
+          "resource": {
+            "primary": {
+              "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.05.13.443732"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                14
+              ]
+            ]
+          },
+          "references-count": 27,
+          "URL": "https://doi.org/10.1101/2021.05.13.443732",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                14
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        }
+      ],
+      "items-per-page": 5,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "code_digest": "2a69289ce1792b3366c2a61264a410908df397ee67f377021f7e928a574d9d0f",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/code/20260930T054513Z_2a69289ce179",
+  "created_utc": "2026-09-30T05:45:13.310314+00:00",
+  "job_records": "artifacts/completion_v2/jobs/smoke_precision",
+  "phase": "smoke_precision",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "scientific_result": false,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--mode",
+            "free",
+            "--base",
+            "artifacts/completion_v2/smoke_cycle_gpu/free/test",
+            "--ranker",
+            "artifacts/completion_v2/smoke_cycle_gpu/ranker/best.pt",
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--settings",
+            "artifacts/completion_v2/smoke_cycle_gpu/calibration/free/settings.json",
+            "--output",
+            "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/free",
+            "--device",
+            "cuda"
+          ],
+          "script": "scripts/rescore_v2.py"
+        },
+        {
+          "args": [
+            "--mode",
+            "pools",
+            "--base",
+            "artifacts/completion_v2/smoke_cycle_gpu/pools/test",
+            "--ranker",
+            "artifacts/completion_v2/smoke_cycle_gpu/ranker/best.pt",
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--settings",
+            "artifacts/completion_v2/smoke_cycle_gpu/calibration/pools/settings.json",
+            "--output",
+            "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/pools",
+            "--device",
+            "cuda",
+            "--pool",
+            "artifacts/completion_v2/smoke_cycle_gpu/test_pool.json.gz"
+          ],
+          "script": "scripts/rescore_v2.py"
+        }
+      ],
+      "id": "gpu-ranker-rescore-precision",
+      "outputs": [
+        "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/free/summary.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/free/rows.json.gz",
+        "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/free/provenance.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/free/checksums.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/pools/summary.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/pools/rows.json.gz",
+        "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/pools/provenance.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/rescored_tf32/pools/checksums.json"
+      ],
+      "requirements": [],
+      "requires": [
+        "artifacts/completion_v2/smoke_cycle_gpu/calibration/free/settings.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/calibration/pools/settings.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/free/test/checksums.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/free/test/summary.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/pools/test/checksums.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/pools/test/summary.json",
+        "artifacts/completion_v2/smoke_cycle_gpu/ranker/best.pt"
+      ]
+    }
+  ]
+}

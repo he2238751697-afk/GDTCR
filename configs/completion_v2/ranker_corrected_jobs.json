@@ -1,0 +1,2707 @@
+{
+  "code_digest": "13473434d2c3ea461a84c9731ff51558294d2e379bacd39d584aa65eed2421d7",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/code/20260930T051131Z_13473434d2c3",
+  "created_utc": "2026-09-30T05:11:31.607869+00:00",
+  "job_records": "artifacts/completion_v2/jobs/ranker",
+  "phase": "ranker",
+  "protocol": "paper/protocol_v2.md",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/main/split_seed17/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-main-split_seed17-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/main/split_seed17/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/main/split_seed17/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/main/split_seed17/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/main/split_seed17/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "R1",
+        "D2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/random/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/random_init/split_seed17/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-random_init-split_seed17-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/random_init/split_seed17/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/random_init/split_seed17/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed17/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed17/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed3407/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/main/split_seed3407/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-main-split_seed3407-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/main/split_seed3407/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/main/split_seed3407/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/main/split_seed3407/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/main/split_seed3407/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "R1",
+        "D2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed3407/random/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-random_init-split_seed3407-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed2026/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/main/split_seed2026/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-main-split_seed2026-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/main/split_seed2026/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/main/split_seed2026/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/main/split_seed2026/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/main/split_seed2026/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "R1",
+        "D2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed2026/random/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-random_init-split_seed2026-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/random1/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "random",
+            "--negative-ratio",
+            "1",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-random1-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/random1/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/negatives/random1/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/negatives/random1/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/random1/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/random3/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "random",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-random3-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/random3/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/negatives/random3/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/negatives/random3/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/random3/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/random5/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "random",
+            "--negative-ratio",
+            "5",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-random5-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/random5/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/negatives/random5/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/negatives/random5/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/random5/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/mixed1/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "1",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-mixed1-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/mixed1/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/negatives/mixed1/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/negatives/mixed1/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/mixed1/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/mixed5/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "5",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-mixed5-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/mixed5/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/negatives/mixed5/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/negatives/mixed5/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/mixed5/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/pretrain_raw/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/pretrain_raw/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-pretrain_raw-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/pretrain_raw/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/pretrain_raw/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/pretrain_raw/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/pretrain_raw/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-0/best.pt",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-0/summary.json",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/pretrain_balanced/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/pretrain_balanced/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-pretrain_balanced-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/pretrain_balanced/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/pretrain_balanced/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/pretrain_balanced/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/pretrain_balanced/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-0/best.pt",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-0/summary.json",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/pretrain_gamma/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/pretrain_gamma/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-pretrain_gamma-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/pretrain_gamma/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/pretrain_gamma/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/pretrain_gamma/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/pretrain_gamma/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-0/best.pt",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-0/summary.json",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/pretrain_delta/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/pretrain_delta/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-pretrain_delta-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/pretrain_delta/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/pretrain_delta/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/pretrain_delta/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/pretrain_delta/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-0/best.pt",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-0/summary.json",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/source_holdout/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/source_holdout/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-source_holdout-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/source_holdout/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/source_holdout/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/source_holdout/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/source_holdout/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_shared/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/source_shared/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/source_shared/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-source_shared-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/source_shared/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/source_shared/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/source_shared/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/source_shared/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/splits/completion_v2/source_shared/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "gamma_to_delta",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-unseen_input_gamma_to_delta-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "delta_to_gamma",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-unseen_input_delta_to_gamma-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "gamma_to_delta",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-seen_input_gamma_to_delta-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "delta_to_gamma",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-seen_input_delta_to_gamma-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-0/best.pt",
+        "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-0/summary.json",
+        "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-0/provenance.json",
+        "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/main/split_seed17/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-main-split_seed17-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/main/split_seed17/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/main/split_seed17/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/main/split_seed17/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/main/split_seed17/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "R1",
+        "D2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/random/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/random_init/split_seed17/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-random_init-split_seed17-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/random_init/split_seed17/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/random_init/split_seed17/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed17/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed17/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed3407/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/main/split_seed3407/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-main-split_seed3407-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/main/split_seed3407/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/main/split_seed3407/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/main/split_seed3407/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/main/split_seed3407/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "R1",
+        "D2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed3407/random/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-random_init-split_seed3407-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed3407/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed2026/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/main/split_seed2026/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-main-split_seed2026-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/main/split_seed2026/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/main/split_seed2026/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/main/split_seed2026/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/main/split_seed2026/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "R1",
+        "D2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed2026/random/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-random_init-split_seed2026-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/random_init/split_seed2026/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/random1/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "random",
+            "--negative-ratio",
+            "1",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-random1-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/random1/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/negatives/random1/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/negatives/random1/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/random1/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/random3/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "random",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-random3-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/random3/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/negatives/random3/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/negatives/random3/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/random3/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/random5/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "random",
+            "--negative-ratio",
+            "5",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-random5-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/random5/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/negatives/random5/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/negatives/random5/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/random5/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/mixed1/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "1",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-mixed1-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/mixed1/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/negatives/mixed1/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/negatives/mixed1/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/mixed1/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/negatives/mixed5/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "5",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-negatives-mixed5-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/negatives/mixed5/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/negatives/mixed5/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/negatives/mixed5/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/negatives/mixed5/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "R1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/pretrain_raw/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/pretrain_raw/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-pretrain_raw-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/pretrain_raw/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/pretrain_raw/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/pretrain_raw/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/pretrain_raw/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-1/best.pt",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-1/summary.json",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/pretrain_balanced/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/pretrain_balanced/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-pretrain_balanced-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/pretrain_balanced/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/pretrain_balanced/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/pretrain_balanced/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/pretrain_balanced/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-1/best.pt",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-1/summary.json",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/pretrain_gamma/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/pretrain_gamma/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-pretrain_gamma-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/pretrain_gamma/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/pretrain_gamma/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/pretrain_gamma/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/pretrain_gamma/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-1/best.pt",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-1/summary.json",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/pretrain_delta/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/pretrain_delta/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-pretrain_delta-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/pretrain_delta/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/pretrain_delta/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/pretrain_delta/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/pretrain_delta/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-1/best.pt",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-1/summary.json",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/source_holdout/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/source_holdout/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-source_holdout-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/source_holdout/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/source_holdout/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/source_holdout/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/source_holdout/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_shared/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/source_shared/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/source_shared/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "both",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-source_shared-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/source_shared/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/source_shared/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/source_shared/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/source_shared/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/splits/completion_v2/source_shared/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "gamma_to_delta",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-unseen_input_gamma_to_delta-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/unseen_input_gamma_to_delta/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "delta_to_gamma",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-unseen_input_delta_to_gamma-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/unseen_input_delta_to_gamma/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "gamma_to_delta",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-seen_input_gamma_to_delta-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/seen_input_gamma_to_delta/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+            "--validation-known-pairs",
+            "data/processed/paired_chain.txt",
+            "--init",
+            "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1/best.pt",
+            "--output",
+            "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--steps",
+            "3000",
+            "--batch-size",
+            "256",
+            "--embedding-batch-size",
+            "256",
+            "--learning-rate",
+            "3e-4",
+            "--validation-interval",
+            "250",
+            "--early-stopping-patience",
+            "8",
+            "--ranker-version",
+            "2",
+            "--validation-direction",
+            "delta_to_gamma",
+            "--negative-mode",
+            "mixed",
+            "--negative-ratio",
+            "3",
+            "--contrastive-steps",
+            "1500",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_ranker.py"
+        }
+      ],
+      "id": "ranker-seen_input_delta_to_gamma-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-1/best.pt",
+        "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-1/summary.json",
+        "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-1/provenance.json",
+        "artifacts/completion_v2/ranker/seen_input_delta_to_gamma/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+        "data/processed/paired_chain.txt",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1/checksums.json"
+      ]
+    }
+  ]
+}

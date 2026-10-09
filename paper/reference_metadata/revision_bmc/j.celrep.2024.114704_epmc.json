@@ -1,0 +1,316 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1016/j.celrep.2024.114704",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39216000",
+        "source": "MED",
+        "pmid": "39216000",
+        "doi": "10.1016/j.celrep.2024.114704",
+        "title": "The Observed T Cell Receptor Space database enables paired-chain repertoire mining, coherence analysis, and language modeling.",
+        "authorString": "Raybould MIJ, Greenshields-Watson A, Agarwal P, Aguilar-Sanjuan B, Olsen TH, Turnbull OM, Quast NP, Deane CM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Raybould MIJ",
+              "lastName": "Raybould",
+              "firstName": "Matthew I J",
+              "initials": "MIJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5663-5297"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK. Electronic address: raybould@stats.ox.ac.uk."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Greenshields-Watson A",
+              "lastName": "Greenshields-Watson",
+              "firstName": "Alexander",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8740-9823"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Agarwal P",
+              "lastName": "Agarwal",
+              "firstName": "Parth",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aguilar-Sanjuan B",
+              "lastName": "Aguilar-Sanjuan",
+              "firstName": "Broncio",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8068-6417"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Olsen TH",
+              "lastName": "Olsen",
+              "firstName": "Tobias H",
+              "initials": "TH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Turnbull OM",
+              "lastName": "Turnbull",
+              "firstName": "Oliver M",
+              "initials": "OM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Quast NP",
+              "lastName": "Quast",
+              "firstName": "Nele P",
+              "initials": "NP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Deane CM",
+              "lastName": "Deane",
+              "firstName": "Charlotte M",
+              "initials": "CM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1388-2252"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK. Electronic address: deane@stats.ox.ac.uk."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8068-6417"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5663-5297"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8740-9823"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1388-2252"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "43",
+          "journalIssueId": 3822956,
+          "dateOfPublication": "2024 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Cell Rep",
+            "title": "Cell reports",
+            "essn": "2211-1247",
+            "issn": "2211-1247",
+            "nlmid": "101573691",
+            "isoabbreviation": "Cell Rep"
+          },
+          "printPublicationDate": "2024-09-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "114704",
+        "abstractText": "T cell activation is governed through T\u00a0cell receptors (TCRs), heterodimers of two sequence-variable chains (often an \u03b1 and \u03b2 chain) that synergistically recognize antigen fragments presented on cell surfaces. Despite this, there only exist repositories dedicated to collecting single-chain, not paired-chain, TCR sequence data. We addressed this gap by creating the Observed TCR Space (OTS) database, a source of consistently processed and annotated, full-length, paired-chain TCR sequences. Currently, OTS contains 5.35 million redundant (1.63 million non-redundant), predominantly human sequences from across 50 studies and at least 75 individuals. Using OTS, we identify pairing biases, public TCRs, and distinct chain coherence patterns relative to antibodies. We also release a paired-chain TCR language model, providing paired embedding representations and a method for residue in-filling conditional on the partner chain. OTS will be updated as a central community resource and is freely downloadable and available as a web application.",
+        "affiliation": "Oxford Protein Informatics Group, Department of Statistics, University of Oxford, 24-29 St Giles', OX1 3LB Oxford, UK. Electronic address: raybould@stats.ox.ac.uk.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Receptors, Antigen, T-Cell",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Data Mining",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Coherence",
+            "Beta",
+            "Alpha",
+            "Repertoire",
+            "Language Model",
+            "Cp: Immunology",
+            "T Cell Receptor, Tcr",
+            "Paired Sequences"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Receptors, Antigen, T-Cell",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.celrep.2024.114704"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "PPR",
+              "id": "PPR855492",
+              "type": "Preprint in",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 23,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-09-26",
+        "dateOfCreation": "2024-08-31",
+        "dateOfRevision": "2025-01-22",
+        "electronicPublicationDate": "2024-08-29",
+        "firstPublicationDate": "2024-08-29",
+        "firstIndexDate": "2024-09-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

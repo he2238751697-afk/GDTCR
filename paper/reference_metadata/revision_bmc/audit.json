@@ -1,0 +1,3068 @@
+{
+  "search_date": "2026-10-06",
+  "scope": "Targeted literature update, not a systematic review",
+  "queries": {
+    "gamma_delta_pairing": "(TITLE_ABS:\"gamma delta\" OR TITLE_ABS:\"gamma-delta\" OR TITLE_ABS:\"γδ\") AND (TITLE_ABS:pairing OR TITLE_ABS:paired OR TITLE_ABS:generation OR TITLE_ABS:prediction)",
+    "tcr_language_benchmark": "(TITLE_ABS:\"T cell receptor\" OR TITLE_ABS:\"T-cell receptor\" OR TITLE_ABS:TCR) AND (TITLE_ABS:\"language model\" OR TITLE_ABS:benchmark OR TITLE_ABS:generative)",
+    "sequence_split_benchmark": "(TITLE_ABS:protein OR TITLE_ABS:TCR) AND (TITLE_ABS:leakage OR TITLE_ABS:\"sequence similarity\") AND (TITLE_ABS:benchmark OR TITLE_ABS:prediction)"
+  },
+  "requests": {
+    "uctcrdb": {
+      "url": "https://api.crossref.org/works/10.3389%2Ffimmu.2023.1158295",
+      "status": "unavailable",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "tcrdb2": {
+      "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkaf876",
+      "resolved_url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkaf876",
+      "file": "paper/reference_metadata/revision_bmc/tcrdb2_crossref.json",
+      "sha256": "4629228f973f4667dbdf761925d469c112552b3d56db2d278ccf643488a53609",
+      "status": "ok"
+    },
+    "suo2022": {
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.abo0510",
+      "resolved_url": "https://api.crossref.org/works/10.1126%2Fscience.abo0510",
+      "file": "paper/reference_metadata/revision_bmc/suo2022_crossref.json",
+      "sha256": "8992acac8731310187ec53150212443c0f2775c16516b0fd41c6f46ec59dbd25",
+      "status": "ok"
+    },
+    "gse180059": {
+      "url": "https://api.crossref.org/works/10.1038%2Fs41467-022-33488-2",
+      "resolved_url": "https://api.crossref.org/works/10.1038%2Fs41467-022-33488-2",
+      "file": "paper/reference_metadata/revision_bmc/gse180059_crossref.json",
+      "sha256": "88c175e6f81a72ad04c2ea3d87ae7d8a204c6b8af1d8b7e4c904f59b376c0470",
+      "status": "ok"
+    },
+    "tcrbinder": {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1014396",
+      "resolved_url": "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1014396",
+      "file": "paper/reference_metadata/revision_bmc/tcrbinder_crossref.json",
+      "sha256": "ec55805f75ea85c3a9836348868214e1b261f0358dc019b8c3e096e0bbeaa819",
+      "status": "ok"
+    },
+    "ots": {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.celrep.2024.114704",
+      "status": "unavailable",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "tcrbert": {
+      "url": "https://api.crossref.org/works/10.1101%2F2021.11.18.469186",
+      "resolved_url": "https://api.crossref.org/works/10.1101%2F2021.11.18.469186",
+      "file": "paper/reference_metadata/revision_bmc/tcrbert_crossref.json",
+      "sha256": "2a1c3aa08c142d705f216fc6fdca515b9f3d07fd357dabea2dbd574046eb450d",
+      "status": "ok"
+    },
+    "tcrdesign": {
+      "url": "https://api.crossref.org/works/10.1093%2Fbib%2Fbbaf691",
+      "resolved_url": "https://api.crossref.org/works/10.1093%2Fbib%2Fbbaf691",
+      "file": "paper/reference_metadata/revision_bmc/tcrdesign_crossref.json",
+      "sha256": "515bd99c852e60348a01b07365293f7790b8d38398afdd327f3061e07cfd814f",
+      "status": "ok"
+    },
+    "landry2025": {
+      "url": "https://api.crossref.org/works/10.1093%2Fbioadv%2Fvbaf028",
+      "status": "unavailable",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "pr_metrics": {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0118432",
+      "resolved_url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0118432",
+      "file": "paper/reference_metadata/revision_bmc/pr_metrics_crossref.json",
+      "sha256": "821ca3cea23d26405299002f9f93b4177531c7a17a779c99452b256cfd75cac1",
+      "status": "ok"
+    },
+    "iedb": {
+      "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkae1092",
+      "resolved_url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkae1092",
+      "file": "paper/reference_metadata/revision_bmc/iedb_crossref.json",
+      "sha256": "a942214e3366750897e3c6cb8c42dd38bc72931e2248fbddc3eee48c1c05a568",
+      "status": "ok"
+    },
+    "gd_review": {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cellimm.2015.04.008",
+      "resolved_url": "https://api.crossref.org/works/10.1016%2Fj.cellimm.2015.04.008",
+      "file": "paper/reference_metadata/revision_bmc/gd_review_crossref.json",
+      "sha256": "954f566d5b8cd3a8d9c0f364fda4d36e1a206c8e8d4b6974b0199e7f2da0d51b",
+      "status": "ok"
+    },
+    "pairing_constraints": {
+      "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtag551",
+      "resolved_url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtag551",
+      "file": "paper/reference_metadata/revision_bmc/pairing_constraints_crossref.json",
+      "sha256": "3b7d1bc738341522c5d5685621d7bbe88ff7d010ed9def4d78e441d3b42eeb80",
+      "status": "ok"
+    },
+    "tcrpair": {
+      "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtab573",
+      "resolved_url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtab573",
+      "file": "paper/reference_metadata/revision_bmc/tcrpair_crossref.json",
+      "sha256": "7e19840c6e1ece8682d326f32733475ae4d417f7023cbc0727d339ec209a1769",
+      "status": "ok"
+    },
+    "sequence_split_benchmark": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Aprotein+OR+TITLE_ABS%3ATCR%29+AND+%28TITLE_ABS%3Aleakage+OR+TITLE_ABS%3A%22sequence+similarity%22%29+AND+%28TITLE_ABS%3Abenchmark+OR+TITLE_ABS%3Aprediction%29+AND+FIRST_PDATE%3A%5B2025-01-01+TO+2026-10-06%5D&format=json&pageSize=100&resultType=core&sort=FIRST_PDATE_D+desc",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Aprotein+OR+TITLE_ABS%3ATCR%29+AND+%28TITLE_ABS%3Aleakage+OR+TITLE_ABS%3A%22sequence+similarity%22%29+AND+%28TITLE_ABS%3Abenchmark+OR+TITLE_ABS%3Aprediction%29+AND+FIRST_PDATE%3A%5B2025-01-01+TO+2026-10-06%5D&format=json&pageSize=100&resultType=core&sort=FIRST_PDATE_D+desc",
+      "file": "paper/reference_metadata/revision_bmc/sequence_split_benchmark_search.json",
+      "sha256": "b451b6e59e4dc66963f17709c04985cc3ce95e3f2f4f343a923108985decc5cd",
+      "status": "ok"
+    },
+    "tcr_language_benchmark": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22T+cell+receptor%22+OR+TITLE_ABS%3A%22T-cell+receptor%22+OR+TITLE_ABS%3ATCR%29+AND+%28TITLE_ABS%3A%22language+model%22+OR+TITLE_ABS%3Abenchmark+OR+TITLE_ABS%3Agenerative%29+AND+FIRST_PDATE%3A%5B2025-01-01+TO+2026-10-06%5D&format=json&pageSize=100&resultType=core&sort=FIRST_PDATE_D+desc",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22T+cell+receptor%22+OR+TITLE_ABS%3A%22T-cell+receptor%22+OR+TITLE_ABS%3ATCR%29+AND+%28TITLE_ABS%3A%22language+model%22+OR+TITLE_ABS%3Abenchmark+OR+TITLE_ABS%3Agenerative%29+AND+FIRST_PDATE%3A%5B2025-01-01+TO+2026-10-06%5D&format=json&pageSize=100&resultType=core&sort=FIRST_PDATE_D+desc",
+      "file": "paper/reference_metadata/revision_bmc/tcr_language_benchmark_search.json",
+      "sha256": "54f3767959683e62a64575e9e417c70fa5824fa874f72908316ae4f425eef1ce",
+      "status": "ok"
+    },
+    "journal_guidelines": {
+      "url": "https://bmcbioinformatics.biomedcentral.com/submission-guidelines/preparing-your-manuscript/research-article",
+      "resolved_url": "https://link.springer.com/journal/12859?error=cookies_not_supported&code=6ad890d0-1821-4d7e-ac43-4029aa17a2b7",
+      "file": "paper/reference_metadata/revision_bmc/journal_guidelines.html",
+      "sha256": "3e30e04e6cb182829f1847a5589a4c6f5b600081ffc77c6098605958847c6f6a",
+      "status": "ok"
+    },
+    "gamma_delta_pairing": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22gamma+delta%22+OR+TITLE_ABS%3A%22gamma-delta%22+OR+TITLE_ABS%3A%22%CE%B3%CE%B4%22%29+AND+%28TITLE_ABS%3Apairing+OR+TITLE_ABS%3Apaired+OR+TITLE_ABS%3Ageneration+OR+TITLE_ABS%3Aprediction%29+AND+FIRST_PDATE%3A%5B2025-01-01+TO+2026-10-06%5D&format=json&pageSize=100&resultType=core&sort=FIRST_PDATE_D+desc",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22gamma+delta%22+OR+TITLE_ABS%3A%22gamma-delta%22+OR+TITLE_ABS%3A%22%CE%B3%CE%B4%22%29+AND+%28TITLE_ABS%3Apairing+OR+TITLE_ABS%3Apaired+OR+TITLE_ABS%3Ageneration+OR+TITLE_ABS%3Aprediction%29+AND+FIRST_PDATE%3A%5B2025-01-01+TO+2026-10-06%5D&format=json&pageSize=100&resultType=core&sort=FIRST_PDATE_D+desc",
+      "file": "paper/reference_metadata/revision_bmc/gamma_delta_pairing_search.json",
+      "sha256": "d2a25a113d93279773af7613d2d71d9d4c8c6a839e903b0aefe950376f91e447",
+      "status": "ok"
+    }
+  },
+  "reference_comparison": [
+    {
+      "key": "gse180059",
+      "doi": "10.1038/s41467-022-33488-2",
+      "title": [
+        "Identification of distinct functional thymic programming of fetal and pediatric human γδ thymocytes via single-cell analysis"
+      ],
+      "journal": [
+        "Nature Communications"
+      ],
+      "volume": "13",
+      "issue": "1",
+      "page": null,
+      "article_number": "5842",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            4
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            4
+          ]
+        ]
+      },
+      "published_print": null,
+      "type": "journal-article",
+      "original_reference": {
+        "key": "gse180059",
+        "title": "Identification of distinct functional thymic programming of fetal and pediatric human γδ thymocytes via single-cell analysis",
+        "authors": [
+          {
+            "family": "Sanchez Sanchez",
+            "given": "Guillem"
+          },
+          {
+            "family": "Papadopoulou",
+            "given": "Maria"
+          },
+          {
+            "family": "Azouz",
+            "given": "Abdulkader"
+          },
+          {
+            "family": "Tafesse",
+            "given": "Yohannes"
+          },
+          {
+            "family": "Mishra",
+            "given": "Archita"
+          },
+          {
+            "family": "Chan",
+            "given": "Jerry K Y"
+          },
+          {
+            "family": "Fan",
+            "given": "Yiping"
+          },
+          {
+            "family": "Verdebout",
+            "given": "Isoline"
+          },
+          {
+            "family": "Porco",
+            "given": "Silvana"
+          },
+          {
+            "family": "Libert",
+            "given": "Frédérick"
+          },
+          {
+            "family": "Ginhoux",
+            "given": "Florent"
+          },
+          {
+            "family": "Vandekerckhove",
+            "given": "Bart"
+          },
+          {
+            "family": "Goriely",
+            "given": "Stanislas"
+          },
+          {
+            "family": "Vermijlen",
+            "given": "David"
+          }
+        ],
+        "year": 2022,
+        "journal": "Nature Communications",
+        "volume": "13",
+        "issue": null,
+        "pages_or_article": "5842",
+        "doi": "10.1038/s41467-022-33488-2",
+        "source": "artifacts/literature/PMC9532436.xml",
+        "type": "journal-article"
+      },
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9919-1748",
+          "authenticated-orcid": false,
+          "given": "Guillem",
+          "family": "Sanchez Sanchez",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3006-1993",
+          "authenticated-orcid": false,
+          "given": "Maria",
+          "family": "Papadopoulou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8626-4370",
+          "authenticated-orcid": false,
+          "given": "Abdulkader",
+          "family": "Azouz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3883-6244",
+          "authenticated-orcid": false,
+          "given": "Yohannes",
+          "family": "Tafesse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Archita",
+          "family": "Mishra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jerry K. Y.",
+          "family": "Chan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yiping",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4012-170X",
+          "authenticated-orcid": false,
+          "given": "Isoline",
+          "family": "Verdebout",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Silvana",
+          "family": "Porco",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Frédérick",
+          "family": "Libert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2857-7755",
+          "authenticated-orcid": false,
+          "given": "Florent",
+          "family": "Ginhoux",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bart",
+          "family": "Vandekerckhove",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7005-6195",
+          "authenticated-orcid": false,
+          "given": "Stanislas",
+          "family": "Goriely",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7605-8845",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Vermijlen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "uctcrdb",
+      "status": "metadata_unavailable"
+    },
+    {
+      "key": "suo2022",
+      "doi": "10.1126/science.abo0510",
+      "title": [
+        "Mapping the developing human immune system across organs"
+      ],
+      "journal": [
+        "Science"
+      ],
+      "volume": "376",
+      "issue": "6597",
+      "page": null,
+      "article_number": "eabo0510",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            3
+          ]
+        ]
+      },
+      "published_online": null,
+      "published_print": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            3
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "original_reference": {
+        "key": "suo2022",
+        "title": "Mapping the developing human immune system across organs",
+        "authors": [
+          {
+            "family": "Suo",
+            "given": "Chenqu"
+          },
+          {
+            "family": "Dann",
+            "given": "Emma"
+          },
+          {
+            "family": "Goh",
+            "given": "Issac"
+          },
+          {
+            "family": "Jardine",
+            "given": "Laura"
+          },
+          {
+            "family": "Kleshchevnikov",
+            "given": "Vitalii"
+          },
+          {
+            "family": "Park",
+            "given": "Jong-Eun"
+          },
+          {
+            "family": "Botting",
+            "given": "Rachel A"
+          },
+          {
+            "family": "Stephenson",
+            "given": "Emily"
+          },
+          {
+            "family": "Engelbert",
+            "given": "Justin"
+          },
+          {
+            "family": "Tuong",
+            "given": "Zewen Kelvin"
+          },
+          {
+            "family": "Polanski",
+            "given": "Krzysztof"
+          },
+          {
+            "family": "Yayon",
+            "given": "Nadav"
+          },
+          {
+            "family": "Xu",
+            "given": "Chuan"
+          },
+          {
+            "family": "Suchanek",
+            "given": "Ondrej"
+          },
+          {
+            "family": "Elmentaite",
+            "given": "Rasa"
+          },
+          {
+            "family": "Conde",
+            "given": "Cecilia Domínguez"
+          },
+          {
+            "family": "He",
+            "given": "Peng"
+          },
+          {
+            "family": "Pritchard",
+            "given": "Sophie"
+          },
+          {
+            "family": "Miah",
+            "given": "Mohi"
+          },
+          {
+            "family": "Moldovan",
+            "given": "Corina"
+          },
+          {
+            "family": "Steemers",
+            "given": "Alexander S"
+          },
+          {
+            "family": "Mazin",
+            "given": "Pavel"
+          },
+          {
+            "family": "Prete",
+            "given": "Martin"
+          },
+          {
+            "family": "Horsfall",
+            "given": "Dave"
+          },
+          {
+            "family": "Marioni",
+            "given": "John C"
+          },
+          {
+            "family": "Clatworthy",
+            "given": "Menna R"
+          },
+          {
+            "family": "Haniffa",
+            "given": "Muzlifah"
+          },
+          {
+            "family": "Teichmann",
+            "given": "Sarah A"
+          }
+        ],
+        "year": 2022,
+        "journal": "Science (New York, N.Y.)",
+        "volume": "376",
+        "issue": "6597",
+        "pages_or_article": "eabo0510",
+        "doi": "10.1126/science.abo0510",
+        "source": "artifacts/literature/PMC7612819.xml",
+        "type": "journal-article",
+        "pmc_pages_or_article": "science.abo0510",
+        "pagination_source": "paper/reference_metadata/suo2022_crossref.json"
+      },
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8813-0875",
+          "authenticated-orcid": true,
+          "given": "Chenqu",
+          "family": "Suo",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "Department of Paediatrics, Cambridge University Hospitals, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7400-7438",
+          "authenticated-orcid": true,
+          "given": "Emma",
+          "family": "Dann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6397-3518",
+          "authenticated-orcid": true,
+          "given": "Issac",
+          "family": "Goh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4495-8205",
+          "authenticated-orcid": true,
+          "given": "Laura",
+          "family": "Jardine",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+            },
+            {
+              "name": "Haematology Department, Freeman Hospital, Newcastle upon Tyne Hospitals NHS Foundation Trust, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9110-7441",
+          "authenticated-orcid": true,
+          "given": "Vitalii",
+          "family": "Kleshchevnikov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1687-2423",
+          "authenticated-orcid": true,
+          "given": "Jong-Eun",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "Graduate School of Medical Science and Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Korea."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9595-4605",
+          "authenticated-orcid": true,
+          "given": "Rachel A.",
+          "family": "Botting",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4244-4019",
+          "authenticated-orcid": true,
+          "given": "Emily",
+          "family": "Stephenson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Engelbert",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6735-6808",
+          "authenticated-orcid": true,
+          "given": "Zewen Kelvin",
+          "family": "Tuong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "Molecular Immunity Unit, University of Cambridge Department of Medicine, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2586-9576",
+          "authenticated-orcid": true,
+          "given": "Krzysztof",
+          "family": "Polanski",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7034-0524",
+          "authenticated-orcid": true,
+          "given": "Nadav",
+          "family": "Yayon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "European Molecular Biology Laboratory European Bioinformatics Institute, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6265-999X",
+          "authenticated-orcid": true,
+          "given": "Chuan",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1048-5251",
+          "authenticated-orcid": true,
+          "given": "Ondrej",
+          "family": "Suchanek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular Immunity Unit, University of Cambridge Department of Medicine, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7366-5466",
+          "authenticated-orcid": true,
+          "given": "Rasa",
+          "family": "Elmentaite",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8684-4655",
+          "authenticated-orcid": true,
+          "given": "Cecilia",
+          "family": "Domínguez Conde",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2457-3554",
+          "authenticated-orcid": true,
+          "given": "Peng",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "European Molecular Biology Laboratory European Bioinformatics Institute, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sophie",
+          "family": "Pritchard",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohi",
+          "family": "Miah",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5021-6473",
+          "authenticated-orcid": true,
+          "given": "Corina",
+          "family": "Moldovan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Cellular Pathology, Newcastle upon Tyne Hospitals NHS Foundation Trust, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7162-7279",
+          "authenticated-orcid": true,
+          "given": "Alexander S.",
+          "family": "Steemers",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9268-3352",
+          "authenticated-orcid": true,
+          "given": "Pavel",
+          "family": "Mazin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5946-821X",
+          "authenticated-orcid": true,
+          "given": "Martin",
+          "family": "Prete",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8086-812X",
+          "authenticated-orcid": true,
+          "given": "Dave",
+          "family": "Horsfall",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9092-0852",
+          "authenticated-orcid": true,
+          "given": "John C.",
+          "family": "Marioni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "European Molecular Biology Laboratory European Bioinformatics Institute, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "Cancer Research UK Cambridge Institute, Li Ka Shing Centre, University of Cambridge, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3340-9828",
+          "authenticated-orcid": true,
+          "given": "Menna R.",
+          "family": "Clatworthy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "Molecular Immunity Unit, University of Cambridge Department of Medicine, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3927-2084",
+          "authenticated-orcid": true,
+          "given": "Muzlifah",
+          "family": "Haniffa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+            },
+            {
+              "name": "Department of Dermatology and National Institute for Health Research (NIHR) Newcastle Biomedical Research Centre, Newcastle upon Tyne Hospitals NHS Foundation Trust, Newcastle upon Tyne, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6294-6366",
+          "authenticated-orcid": true,
+          "given": "Sarah A.",
+          "family": "Teichmann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+            },
+            {
+              "name": "Theory of Condensed Matter, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tcrdb2",
+      "doi": "10.1093/nar/gkaf876",
+      "title": [
+        "TCRdb 2.0: an updated T-cell receptor sequence database"
+      ],
+      "journal": [
+        "Nucleic Acids Research"
+      ],
+      "volume": "54",
+      "issue": "D1",
+      "page": "D504-D510",
+      "article_number": null,
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            9
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            9
+          ]
+        ]
+      },
+      "published_print": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            6
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "original_reference": {
+        "key": "tcrdb2",
+        "title": "TCRdb 2.0: an updated T-cell receptor sequence database",
+        "authors": [
+          {
+            "family": "Yue",
+            "given": "Tao"
+          },
+          {
+            "family": "Chen",
+            "given": "Si-Yi"
+          },
+          {
+            "family": "Shen",
+            "given": "Wen-Kang"
+          },
+          {
+            "family": "Liao",
+            "given": "Yu"
+          },
+          {
+            "family": "Lei",
+            "given": "Qian"
+          },
+          {
+            "family": "Guo",
+            "given": "An-Yuan"
+          }
+        ],
+        "year": 2026,
+        "journal": "Nucleic Acids Research",
+        "volume": "54",
+        "issue": "D1",
+        "pages_or_article": "D504–D510",
+        "doi": "10.1093/nar/gkaf876",
+        "source": "artifacts/literature/PMC12807725.xml",
+        "type": "journal-article",
+        "pmc_pages_or_article": "D504",
+        "pagination_source": "paper/reference_metadata/tcrdb2_crossref.json",
+        "date_note": "2026 issue year from PMC volume 54(D1); Crossref reports the advance-online publication date 2025-09-09."
+      },
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7500-1433",
+          "authenticated-orcid": false,
+          "given": "Tao",
+          "family": "Yue",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "West China Biomedical Big Data Center, West China Hospital, Sichuan University Department of Thoracic Surgery, , Chengdu 610041 ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "The Radiology Department of Shanxi Provincial People’s Hospital Affiliated to Shanxi Medical University , Taiyuan 030001 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8076-0576",
+          "authenticated-orcid": false,
+          "given": "Si-Yi",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology Department of Rheumatology & Immunology, , Wuhan 430021 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9168-4465",
+          "authenticated-orcid": false,
+          "given": "Wen-Kang",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "West China Biomedical Big Data Center, West China Hospital, Sichuan University Department of Thoracic Surgery, , Chengdu 610041 ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "Hubei Bioinformatics & Molecular Imaging Key Laboratory, College of Life Science and Technology, Huazhong University of Science and Technology , Wuhan 430074 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Liao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "West China Biomedical Big Data Center, West China Hospital, Sichuan University Department of Thoracic Surgery, , Chengdu 610041 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qian",
+          "family": "Lei",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "West China Biomedical Big Data Center, West China Hospital, Sichuan University Department of Thoracic Surgery, , Chengdu 610041 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "An-Yuan",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "West China Biomedical Big Data Center, West China Hospital, Sichuan University Department of Thoracic Surgery, , Chengdu 610041 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tcrbinder",
+      "doi": "10.1371/journal.pcbi.1014396",
+      "title": [
+        "TCRBinder: Unified pre-trained language model with paired-chain synergy for predicting T-cell receptor binding specificity"
+      ],
+      "journal": [
+        "PLOS Computational Biology"
+      ],
+      "volume": "22",
+      "issue": "6",
+      "page": "e1014396",
+      "article_number": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            22
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            22
+          ]
+        ]
+      },
+      "published_print": null,
+      "type": "journal-article",
+      "original_reference": {
+        "key": "tcrbinder",
+        "title": "TCRBinder: Unified pre-trained language model with paired-chain synergy for predicting T-cell receptor binding specificity.",
+        "author_string": "Dong W, Yang Q, Xu L, Li X, Wang K, Dong S, Luo G, Zhang X, Yang T, Gao X, Wang G.",
+        "year": 2026,
+        "journal": "PLoS computational biology",
+        "volume": "22",
+        "issue": "6",
+        "pages_or_article": "e1014396",
+        "doi": "10.1371/journal.pcbi.1014396",
+        "source": "paper/reference_metadata/paired_tcr_literature.json",
+        "type": "journal-article",
+        "abstract_read": true,
+        "abstract": "Deciphering how human T cells recognise peptide-HLA (pHLA) complexes underpins next-generation vaccines and personalised immunotherapies, yet extreme sequence diversity and paired-chains interdependence still hamper reliable in silico prediction of T-cell receptor (TCR) specificity. To overcome these hurdles, we built TCRBinder, a paired-chain-aware deep model with a multi-branch encoder that routes each molecular component through dedicated transformer-based modules to capture contextual signals in both HLA pseudo-sequences and antigenic peptides while simultaneously processing the TCR [Formula: see text] and [Formula: see text] chains. This design captures the synergistic interaction between paired chains to emulate peptide-HLA-TCR (PHT) interactions and expose residue-level contact motifs. Across PHT and peptide-TCR (pTCR) benchmarks, the model delivered state-of-the-art performance (AUC-ROC = 0.911, AUPR = 0.791 for the PHT task) and remained superior on multiple independent datasets. We tracked the dynamics of clonal expansion and, in a large SARS-CoV-2 repertoire containing completely unseen peptides, improved the AUC-ROC by up to 16.3% over the leading alternatives. Moreover, TCRBinder provided mechanistic insights by pinpointing contact hotspots and quantifying residue contributions to binding probability. These capabilities position TCRBinder as a versatile tool for rational antigen discovery, immunotherapy stratification, and neoantigen vaccine design."
+      },
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8022-9793",
+          "authenticated-orcid": true,
+          "given": "Weihe",
+          "family": "Dong",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qiang",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Long",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6645-6890",
+          "authenticated-orcid": true,
+          "given": "Xiaokun",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1347-3491",
+          "authenticated-orcid": true,
+          "given": "Kuanquan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Suyu",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gongning",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xianyu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tiansong",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guohua",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ots",
+      "status": "metadata_unavailable"
+    },
+    {
+      "key": "tcrdesign",
+      "doi": "10.1093/bib/bbaf691",
+      "title": [
+        "TCRdesign: an antigen-specific generative language model for\n                    <i>de novo</i>\n                    design of T-cell receptors"
+      ],
+      "journal": [
+        "Briefings in Bioinformatics"
+      ],
+      "volume": "26",
+      "issue": "6",
+      "page": null,
+      "article_number": "bbaf691",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            1
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            26
+          ]
+        ]
+      },
+      "published_print": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            1
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "original_reference": {
+        "key": "tcrdesign",
+        "title": "TCRdesign: an antigen-specific generative language model for de novo design of T-cell receptors.",
+        "author_string": "Li X, Yang Q, Xu L, Dong W, Wang K, Dong S, Wang W, Luo G, Zhang X, Yang T, Gao X, Wang G.",
+        "year": 2025,
+        "journal": "Briefings in bioinformatics",
+        "volume": "26",
+        "issue": "6",
+        "pages_or_article": "bbaf691",
+        "doi": "10.1093/bib/bbaf691",
+        "source": "paper/reference_metadata/paired_tcr_literature.json",
+        "type": "journal-article",
+        "abstract_read": true,
+        "abstract": "T-cell receptors (TCR), which are heterodimers of $\\alpha $ and $\\beta $ chains that recognize foreign antigens, are of great significance to current immunotherapy. Although artificial intelligence (AI) has explosively accelerated de novo protein design, the challenge of therapeutic TCR design has been overlooked by most researchers. Existing TCR engineering relies heavily on isolating antigen-specific TCRs from tumor tissues, which requires a large amount of labor resources and wet experimental verification. To mitigate this issue, we present TCRdesign, a pretrained generative protein language model (PLM) for the de novo design of artificial TCR $\\beta $-chain complementarity-determining region 3 sequences conditioned on antigen-binding specificity (BS). In parallel, we develop a high-accuracy binding predictor (TCRBinder) that couples paired $\\alpha $/$\\beta $ chain information with antigen sequences to assess BS. Our in silico comparisons demonstrate that (i) TCRdesign surpasses state-of-the-art baselines in generating antigen-specific TCR sequences. The model leverages paired-chain coherence to refine amino-acid level interaction patterns. (ii) TCRdesign-generated TCR sequences exhibit better antigen binding capability to diverse oncogenic hotspots compared with natural counterparts. (iii) TCRdesign inherits the intrinsic properties of large PLMs, enabling effectively identify the determinant residues in TCR-antigen binding, which enhances its interpretability. These results highlight the significant capability of TCRdesign in understanding and generating TCR sequences with an antigen-specific interaction pattern, charting a versatile path toward AI-driven T-cell engineering for precision immunotherapy."
+      },
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6645-6890",
+          "authenticated-orcid": false,
+          "given": "Xiaokun",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , West Dazhi Street, 150001 Harbin ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "School of Computer Science and Technology, Heilongjiang University , Xuefu Road, 150080 Harbin ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "Postdoctoral Program of Heilongjiang Hengxun Technology Co., Ltd. , Xuefu Road, 150080 Harbin ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "Shandong Hengxun Technology Co., Ltd. , Miaoling Road, 266100 Qingdao ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6524-9443",
+          "authenticated-orcid": false,
+          "given": "Qiang",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , West Dazhi Street, 150001 Harbin ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "Zhengzhou Research Institute, Harbin Institute of Technology , 450000 Zhengzhou ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4952-9178",
+          "authenticated-orcid": false,
+          "given": "Long",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , West Dazhi Street, 150001 Harbin ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8022-9793",
+          "authenticated-orcid": false,
+          "given": "Weihe",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , West Dazhi Street, 150001 Harbin ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1347-3491",
+          "authenticated-orcid": false,
+          "given": "Kuanquan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , West Dazhi Street, 150001 Harbin ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7521-8782",
+          "authenticated-orcid": false,
+          "given": "Suyu",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST) , Suite 4328, Thuwal 23955-6900 ,",
+              "place": [
+                "Kingdom of Saudi Arabia"
+              ]
+            },
+            {
+              "name": "Center of Excellence for Smart Health (KCSH), King Abdullah University of Science and Technology (KAUST) , Suite 4328, Thuwal 23955-6900 ,",
+              "place": [
+                "Kingdom of Saudi Arabia"
+              ]
+            },
+            {
+              "name": "Center of Excellence on Generative AI, King Abdullah University of Science and Technology (KAUST) , Suite 4328, Thuwal 23955-6900 ,",
+              "place": [
+                "Kingdom of Saudi Arabia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen) , Xili University Town, 518055 Shenzhen ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3662-0335",
+          "authenticated-orcid": false,
+          "given": "Gongning",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , West Dazhi Street, 150001 Harbin ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9738-2361",
+          "authenticated-orcid": false,
+          "given": "Xianyu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Breast Surgery, Harbin Medical University Cancer Hospital , Haping Road, 150081 Harbin ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4008-702X",
+          "authenticated-orcid": false,
+          "given": "Tiansong",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Rehabilitation, the First Affiliated Hospital of Heilongjiang University of Traditional Chinese Medicine, and Traditional Chinese Medicine Informatics Key Laboratory of Heilongjiang Province , Heping Road, 150040 Harbin ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7108-3574",
+          "authenticated-orcid": false,
+          "given": "Xin",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST) , Suite 4328, Thuwal 23955-6900 ,",
+              "place": [
+                "Kingdom of Saudi Arabia"
+              ]
+            },
+            {
+              "name": "Center of Excellence for Smart Health (KCSH), King Abdullah University of Science and Technology (KAUST) , Suite 4328, Thuwal 23955-6900 ,",
+              "place": [
+                "Kingdom of Saudi Arabia"
+              ]
+            },
+            {
+              "name": "Center of Excellence on Generative AI, King Abdullah University of Science and Technology (KAUST) , Suite 4328, Thuwal 23955-6900 ,",
+              "place": [
+                "Kingdom of Saudi Arabia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7381-2374",
+          "authenticated-orcid": false,
+          "given": "Guohua",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Computing, Harbin Institute of Technology , West Dazhi Street, 150001 Harbin ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tcrbert",
+      "doi": "10.1101/2021.11.18.469186",
+      "title": [
+        "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-xbinding analyses"
+      ],
+      "journal": [],
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "article_number": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            20
+          ]
+        ]
+      },
+      "published_online": null,
+      "published_print": null,
+      "type": "posted-content",
+      "original_reference": {
+        "key": "tcrbert",
+        "title": "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-xbinding analyses",
+        "author_string": "Wu K, Yost KE, Daniel B, Belk JA, Xia Y, Egawa T, Satpathy A, Chang HY, Zou J.",
+        "year": 2021,
+        "journal": "bioRxiv",
+        "volume": null,
+        "issue": null,
+        "pages_or_article": null,
+        "doi": "10.1101/2021.11.18.469186",
+        "source": "paper/reference_metadata/tcr_bert_exact.json",
+        "type": "preprint",
+        "abstract_read": true,
+        "abstract": "The T-cell receptor (TCR) allows T-cells to recognize and respond to antigens presented by infected and diseased cells. However, due to TCRs’ staggering diversity and the complex binding dynamics underlying TCR antigen recognition, it is challenging to predict which antigens a given TCR may bind to. Here, we present TCR-BERT, a deep learning model that applies self-supervised transfer learning to this problem. TCR-BERT leverages unlabeled TCR sequences to learn a general, versatile representation of TCR sequences, enabling numerous downstream applications. We demonstrate that TCR-BERT can be used to build state-of-the-art TCR-antigen binding predictors with improved generalizability compared to prior methods. TCR-BERT simultaneously facilitates clustering sequences likely to share antigen specificities. It also facilitates computational approaches to challenging, unsolved problems such as designing novel TCR sequences with engineered binding affinities. Importantly, TCR-BERT enables all these advances by focusing on residues with known biological significance. TCR-BERT can be a useful tool for T-cell scientists, enabling greater understanding and more diverse applications, and provides a conceptual framework for leveraging unlabeled data to improve machine learning on biological sequences.",
+        "display_title": "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses",
+        "title_note": "Publisher-indexed title contains antigen-xbinding; manuscript normalizes this apparent typographic insertion while preserving the indexed title and exact DOI here."
+      },
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4786-9796",
+          "authenticated-orcid": false,
+          "given": "Kevin",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6807-950X",
+          "authenticated-orcid": false,
+          "given": "Kathryn E.",
+          "family": "Yost",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2410-8767",
+          "authenticated-orcid": false,
+          "given": "Bence",
+          "family": "Daniel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4724-6158",
+          "authenticated-orcid": false,
+          "given": "Julia A.",
+          "family": "Belk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7489-1051",
+          "authenticated-orcid": false,
+          "given": "Takeshi",
+          "family": "Egawa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5167-537X",
+          "authenticated-orcid": false,
+          "given": "Ansuman",
+          "family": "Satpathy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Howard Y.",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James",
+          "family": "Zou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "landry2025",
+      "status": "metadata_unavailable"
+    },
+    {
+      "key": "pr_metrics",
+      "doi": "10.1371/journal.pone.0118432",
+      "title": [
+        "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+      ],
+      "journal": [
+        "PLOS ONE"
+      ],
+      "volume": "10",
+      "issue": "3",
+      "page": "e0118432",
+      "article_number": null,
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            3,
+            4
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2015,
+            3,
+            4
+          ]
+        ]
+      },
+      "published_print": null,
+      "type": "journal-article",
+      "original_reference": {
+        "key": "pr_metrics",
+        "title": "The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets.",
+        "author_string": "Saito T, Rehmsmeier M.",
+        "year": 2015,
+        "journal": "PloS one",
+        "volume": "10",
+        "issue": "3",
+        "pages_or_article": "e0118432",
+        "doi": "10.1371/journal.pone.0118432",
+        "source": "artifacts/literature/precision_recall.json",
+        "type": "journal-article",
+        "abstract_read": true,
+        "abstract": "Binary classifiers are routinely evaluated with performance measures such as sensitivity and specificity, and performance is frequently illustrated with Receiver Operating Characteristics (ROC) plots. Alternative measures such as positive predictive value (PPV) and the associated Precision/Recall (PRC) plots are used less frequently. Many bioinformatics studies develop and evaluate classifiers that are to be applied to strongly imbalanced datasets in which the number of negatives outweighs the number of positives significantly. While ROC plots are visually appealing and provide an overview of a classifier's performance across a wide range of specificities, one can ask whether ROC plots could be misleading when applied in imbalanced classification scenarios. We show here that the visual interpretability of ROC plots in the context of imbalanced datasets can be deceptive with respect to conclusions about the reliability of classification performance, owing to an intuitive but wrong interpretation of specificity. PRC plots, on the other hand, can provide the viewer with an accurate prediction of future classification performance due to the fact that they evaluate the fraction of true positives among positive predictions. Our findings have potential implications for the interpretation of a large number of studies that use ROC plots on imbalanced datasets."
+      },
+      "authors": [
+        {
+          "given": "Takaya",
+          "family": "Saito",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marc",
+          "family": "Rehmsmeier",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "iedb",
+      "doi": "10.1093/nar/gkae1092",
+      "title": [
+        "The Immune Epitope Database (IEDB): 2024 update"
+      ],
+      "journal": [
+        "Nucleic Acids Research"
+      ],
+      "volume": "53",
+      "issue": "D1",
+      "page": "D436-D443",
+      "article_number": null,
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            18
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            18
+          ]
+        ]
+      },
+      "published_print": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            6
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "original_reference": {
+        "key": "iedb",
+        "title": "The Immune Epitope Database (IEDB): 2024 update.",
+        "author_string": "Vita R, Blazeska N, Marrama D, IEDB Curation Team Members\n, Duesing S, Bennett J, Greenbaum J, De Almeida Mendes M, Mahita J, Wheeler DK, Cantrell JR, Overton JA, Natale DA, Sette A, Peters B.",
+        "year": 2025,
+        "journal": "Nucleic acids research",
+        "volume": "53",
+        "issue": "D1",
+        "pages_or_article": "D436-D443",
+        "doi": "10.1093/nar/gkae1092",
+        "source": "paper/reference_metadata/iedb2025.json",
+        "type": "journal-article",
+        "abstract_read": true,
+        "abstract": "Over the past 20 years, the Immune Epitope Database (IEDB, iedb.org) has established itself as the foremost resource for immune epitope data. The IEDB catalogs published epitopes and their contextual experimental data in a freely searchable public resource. The IEDB team manually curates data from the literature into a structured format and spans infectious, allergic, autoimmune, and transplant diseases. Here, we describe the enhancements made since our 2018 paper, capturing user-directed updates to the search interface, advanced data exports, increases in data quality, and improved interoperability across related resources. As we look forward to the next 20 years, we are confident in our ability to meet the needs of our users and to contribute to the broader field of data standardization."
+      },
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8957-7612",
+          "authenticated-orcid": false,
+          "given": "Randi",
+          "family": "Vita",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nina",
+          "family": "Blazeska",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Marrama",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "name": "IEDB Curation Team Members",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Deborah",
+          "family": "Shackelford",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Leora",
+          "family": "Zalman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gabriele",
+          "family": "Foos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Laura",
+          "family": "Zarebski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kenneth",
+          "family": "Chan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Reardon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sidne",
+          "family": "Fitzpatrick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew",
+          "family": "Busse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sara",
+          "family": "Coleman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Caitlin",
+          "family": "Sedwick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lindy",
+          "family": "Edwards",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Catriona",
+          "family": "MacFarlane",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marcus",
+          "family": "Ennis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sebastian",
+          "family": "Duesing",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jason",
+          "family": "Bennett",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1381-0390",
+          "authenticated-orcid": false,
+          "given": "Jason",
+          "family": "Greenbaum",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marcus",
+          "family": "De Almeida Mendes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jarjapu",
+          "family": "Mahita",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel K",
+          "family": "Wheeler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Leidos, Inc , San Diego , CA  92121 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jason R",
+          "family": "Cantrell",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Leidos, Inc , San Diego , CA  92121 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5139-5557",
+          "authenticated-orcid": false,
+          "given": "James A",
+          "family": "Overton",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Knocean Inc , Toronto , Ontario  M2P 2T3 ,",
+              "place": [
+                "Canada"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Darren A",
+          "family": "Natale",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Protein Information Resource, Georgetown University Medical Center , Washington , DC 20007 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alessandro",
+          "family": "Sette",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            },
+            {
+              "name": "Department of Medicine, University of California San Diego , La Jolla , CA  92093 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8457-6693",
+          "authenticated-orcid": false,
+          "given": "Bjoern",
+          "family": "Peters",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Vaccine Innovation, La Jolla Institute for Immunology , La Jolla , CA  92037 ,",
+              "place": [
+                "USA"
+              ]
+            },
+            {
+              "name": "Department of Medicine, University of California San Diego , La Jolla , CA  92093 ,",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gd_review",
+      "doi": "10.1016/j.cellimm.2015.04.008",
+      "title": [
+        "Human gamma delta T cells: Evolution and ligand recognition"
+      ],
+      "journal": [
+        "Cellular Immunology"
+      ],
+      "volume": "296",
+      "issue": "1",
+      "page": "31-40",
+      "article_number": null,
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            7
+          ]
+        ]
+      },
+      "published_online": null,
+      "published_print": {
+        "date-parts": [
+          [
+            2015,
+            7
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "original_reference": {
+        "key": "gd_review",
+        "title": "Human gamma delta T cells: Evolution and ligand recognition.",
+        "author_string": "Adams EJ, Gu S, Luoma AM.",
+        "year": 2015,
+        "journal": "Cellular immunology",
+        "volume": "296",
+        "issue": "1",
+        "pages_or_article": "31-40",
+        "doi": "10.1016/j.cellimm.2015.04.008",
+        "source": "paper/reference_metadata/gamma_delta_overview.json",
+        "type": "journal-article",
+        "abstract_read": true,
+        "abstract": "The γδ T cell lineage in humans remains much of an enigma due to the low number of defined antigens, the non-canonical ways in which these cells respond to their environment and difficulty in tracking this population in vivo. In this review, we survey a comparative evolutionary analysis of the primate V, D and J gene segments and contrast these findings with recent progress in defining antigen recognition by different populations of γδ T cells in humans. Signatures of both purifying and diversifying selection at the Vδ and Vγ gene loci are placed into context of Vδ1+ γδ T cell recognition of CD1d presenting different lipids, and Vγ 9Vδ2 T cell modulation by pyrophosphate-based phosphoantigens through the butyrophilins BTN3A. From this comparison, it is clear that co-evolution between γδ TCRs and these ligands is likely occurring, but the diversity inherent in these recombined receptors is an important feature in ligand surveillance."
+      },
+      "authors": [
+        {
+          "given": "Erin J.",
+          "family": "Adams",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Siyi",
+          "family": "Gu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adrienne M.",
+          "family": "Luoma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pairing_constraints",
+      "doi": "10.1093/bioinformatics/btag551",
+      "title": [
+        "Systematic analysis of CDR contacts and pairing constraints between T cell receptor\n                    <i>αβ</i>\n                    chains"
+      ],
+      "journal": [
+        "Bioinformatics"
+      ],
+      "volume": "42",
+      "issue": "8",
+      "page": null,
+      "article_number": "btag551",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            22
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            22
+          ]
+        ]
+      },
+      "published_print": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            3
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "original_reference": {
+        "key": "pairing_constraints",
+        "title": "Systematic analysis of CDR contacts and pairing constraints between T cell receptor αβ chains.",
+        "author_string": "Milighetti M, Nagano Y, Henderson J, Hershberg U, Tiffeau-Mayer A, Bitbol AF, Chain B.",
+        "year": 2026,
+        "journal": "Bioinformatics (Oxford, England)",
+        "volume": "42",
+        "issue": "8",
+        "pages_or_article": "btag551",
+        "doi": "10.1093/bioinformatics/btag551",
+        "source": "paper/reference_metadata/tcr_pairing_bias.json",
+        "type": "journal-article",
+        "abstract_read": true,
+        "abstract": "<h4>Motivation</h4>The six complementarity determining regions (CDRs) of the T cell receptor (TCR) form multiple contacts with cognate peptide and major histocompatibility complex, thus determining antigen specificity. However, the contacts between the CDRs themselves are less understood.<h4>Results</h4>Our systematic study of all available TCR crystallographic structures identified consistent patterns of intra- and inter-chain CDR contacts in both free and antigen-bound TCRs. In addition, the protein sequences of TCRα and TCRβ from sets of TCRs which recognise a shared antigen shared mutual information and were not independent. As a result, sequence-based models can partially predict TCRα/TCRβ pairing de novo. The conserved patterns of CDR amino acid contacts, and the mutual sequence constraints between antigen-specific sets of TCR α and β chains represent an under-appreciated element of TCR structure, which may play an important role in T cell antigen recognition.<h4>Availability and implementation</h4>The code and data necessary to reproduce the analyses are available at https://github.com/mm523/TCRab-pairing."
+      },
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4170-8796",
+          "authenticated-orcid": false,
+          "given": "Martina",
+          "family": "Milighetti",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Division of Infection and Immunity, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            },
+            {
+              "name": "Cancer Institute, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1784-9276",
+          "authenticated-orcid": false,
+          "given": "Yuta",
+          "family": "Nagano",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Division of Infection and Immunity, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            },
+            {
+              "name": "Division of Medicine, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James",
+          "family": "Henderson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Division of Infection and Immunity, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            },
+            {
+              "name": "Institute for the Physics of Living Systems, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Uri",
+          "family": "Hershberg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Human Biology, School of Life Sciences, Faculty of Sciences and Center of Biophysics and Quantitative Biology, University of Haifa , Haifa 3498858,",
+              "place": [
+                "Israel"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6643-7622",
+          "authenticated-orcid": false,
+          "given": "Andreas",
+          "family": "Tiffeau-Mayer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Division of Infection and Immunity, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            },
+            {
+              "name": "Institute for the Physics of Living Systems, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1020-494X",
+          "authenticated-orcid": false,
+          "given": "Anne-Florence",
+          "family": "Bitbol",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), CH-1015 Lausanne ,",
+              "place": [
+                "Switzerland"
+              ]
+            },
+            {
+              "name": "SIB Swiss Institute of Bioinformatics, CH-1015 Lausanne ,",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7417-3970",
+          "authenticated-orcid": false,
+          "given": "Benny",
+          "family": "Chain",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Division of Infection and Immunity, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            },
+            {
+              "name": "Department of Computer Science, University College London , London, WC1E 6BT,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tcrpair",
+      "doi": "10.1093/bioinformatics/btab573",
+      "title": [
+        "TCRpair: prediction of functional pairing between HLA-A*02:01-restricted T-cell receptor α and β chains"
+      ],
+      "journal": [
+        "Bioinformatics"
+      ],
+      "volume": "37",
+      "issue": "21",
+      "page": "3938-3940",
+      "article_number": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            6
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            6
+          ]
+        ]
+      },
+      "published_print": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            5
+          ]
+        ]
+      },
+      "type": "journal-article",
+      "original_reference": {
+        "key": "tcrpair",
+        "title": "TCRpair: prediction of functional pairing between HLA-A*02:01-restricted T-cell receptor α and β chains.",
+        "author_string": "Mösch A, Frishman D.",
+        "year": 2021,
+        "journal": "Bioinformatics (Oxford, England)",
+        "volume": "37",
+        "issue": "21",
+        "pages_or_article": "3938-3940",
+        "doi": "10.1093/bioinformatics/btab573",
+        "source": "paper/reference_metadata/tcr_pairing_bias.json",
+        "type": "journal-article",
+        "abstract_read": true,
+        "abstract": "<h4>Summary</h4>The ability of a T cell to recognize foreign peptides is defined by a single α and a single β hypervariable complementarity determining region (CDR3), which together form the T-cell receptor (TCR) heterodimer. In ∼30-35% of T cells, two α chains are expressed at the mRNA level but only one α chain is part of the functional TCR. This effect can also be observed for β chains, although it is less common. The identification of functional α/β chain pairs is instrumental in high-throughput characterization of therapeutic TCRs. TCRpair is the first method that predicts whether an α and β chain pair forms a functional, HLA-A*02:01 specific TCR without requiring the sequence of a recognized peptide. By taking additional amino acids flanking the CDR3 regions into account, TCRpair achieves an AUC of 0.71.<h4>Availability and implementation</h4>TCRpair is implemented in Python using TensorFlow 2.0 and is freely available at https://www.github.com/amoesch/TCRpair.<h4>Supplementary information</h4>Supplementary data are available at Bioinformatics online."
+      },
+      "authors": [
+        {
+          "given": "Anja",
+          "family": "Mösch",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, Wissenschaftszentrum Weihenstephan, Technical University of Munich , Freising 85354, Germany"
+            },
+            {
+              "name": "Medigene Immunotherapies GmbH, A Subsidiary of Medigene AG , Planegg 82152, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9006-4707",
+          "authenticated-orcid": false,
+          "given": "Dmitrij",
+          "family": "Frishman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioinformatics, Wissenschaftszentrum Weihenstephan, Technical University of Munich , Freising 85354, Germany"
+            },
+            {
+              "name": "Department of Bioinformatics, Peter the Great Saint Petersburg Polytechnic University , Saint Petersburg 195251, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

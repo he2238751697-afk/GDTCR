@@ -1,0 +1,110 @@
+{
+  "directions": {
+    "gamma_to_delta": {
+      "transfer/1": {
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20260930,
+        "method": "paired cluster percentile bootstrap",
+        "metrics": {
+          "coverage": {
+            "denominator": 64,
+            "estimate": 0.046875,
+            "events": 3,
+            "iid_wilson_reference": {
+              "assumption": "iid binomial reference only; not the primary clustered interval",
+              "lower": 0.016069016786292974,
+              "upper": 0.12899653740093686
+            },
+            "lower": 0.0,
+            "upper": 0.109375,
+            "zero_event": false
+          },
+          "hit_at_5": {
+            "denominator": 64,
+            "estimate": 0.046875,
+            "events": 3,
+            "iid_wilson_reference": {
+              "assumption": "iid binomial reference only; not the primary clustered interval",
+              "lower": 0.016069016786292974,
+              "upper": 0.12899653740093686
+            },
+            "lower": 0.0,
+            "upper": 0.109375,
+            "zero_event": false
+          },
+          "mrr": {
+            "estimate": 0.046875,
+            "lower": 0.0,
+            "upper": 0.109375
+          },
+          "recall_at_5": {
+            "estimate": 0.01630231176900585,
+            "lower": 0.0,
+            "upper": 0.04813824926900585
+          }
+        },
+        "n_clusters": 64,
+        "n_queries": 64,
+        "single_cluster": false,
+        "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+        "weight_sum": 64.0
+      },
+      "transfer/5": {
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 20260930,
+        "method": "paired cluster percentile bootstrap",
+        "metrics": {
+          "coverage": {
+            "denominator": 64,
+            "estimate": 0.125,
+            "events": 8,
+            "iid_wilson_reference": {
+              "assumption": "iid binomial reference only; not the primary clustered interval",
+              "lower": 0.06472242663330453,
+              "upper": 0.22774561821129946
+            },
+            "lower": 0.046875,
+            "upper": 0.21875,
+            "zero_event": false
+          },
+          "hit_at_5": {
+            "denominator": 64,
+            "estimate": 0.109375,
+            "events": 7,
+            "iid_wilson_reference": {
+              "assumption": "iid binomial reference only; not the primary clustered interval",
+              "lower": 0.05400113344416797,
+              "upper": 0.20898641326896122
+            },
+            "lower": 0.03125,
+            "upper": 0.1875,
+            "zero_event": false
+          },
+          "mrr": {
+            "estimate": 0.06953125,
+            "lower": 0.022128906249999997,
+            "upper": 0.13255859374999998
+          },
+          "recall_at_5": {
+            "estimate": 0.023941200657894738,
+            "lower": 0.002695540935672515,
+            "upper": 0.059296446683114006
+          }
+        },
+        "n_clusters": 64,
+        "n_queries": 64,
+        "single_cluster": false,
+        "uncertainty": "conditional on fitted models and saved samples; repeated splits/seeds are not independent subjects",
+        "weight_sum": 64.0
+      }
+    }
+  },
+  "distance": "full-CDR3 Levenshtein divided by longer sequence length",
+  "pool_sha256": null,
+  "proposal_budget": "at most 64 unique training targets, not 64 stochastic draws",
+  "truth_injected": {
+    "retrieval": true,
+    "transfer": false
+  },
+  "unit": "source_query"
+}

@@ -1,0 +1,3737 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Gamma+delta+T+cells%22+AND+%28AUTH%3A%22Chien%22+OR+AUTH%3A%22Adams%22+OR+AUTH%3A%22Hayday%22%29&format=json&resultType=core&pageSize=10",
+  "retrieved_utc": "2026-09-30T06:43:07.350019+00:00",
+  "response": {
+    "version": "6.9",
+    "hitCount": 21,
+    "nextCursorMark": "AoIIPxtRLCgxMzE4NzkzMA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Gamma+delta+T+cells%22+AND+%28AUTH%3A%22Chien%22+OR+AUTH%3A%22Adams%22+OR+AUTH%3A%22Hayday%22%29&cursorMark=AoIIPxtRLCgxMzE4NzkzMA%3D%3D&resultType=core&pageSize=10&format=json",
+    "request": {
+      "queryString": "TITLE:\"Gamma delta T cells\" AND (AUTH:\"Chien\" OR AUTH:\"Adams\" OR AUTH:\"Hayday\")",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 10,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "39307410",
+          "source": "MED",
+          "pmid": "39307410",
+          "pmcid": "PMC11471373",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11471373"
+            ]
+          },
+          "doi": "10.1016/j.canlet.2024.217267",
+          "title": "Localized ablative immunotherapy enhances antitumor immunity by modulating the transcriptome of tumor-infiltrating Gamma delta T cells.",
+          "authorString": "Liu K, Hoover AR, Wang L, Sun Y, Valerio TI, Furrer C, Adams J, Yang J, Li M, Chen WR.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Liu K",
+                "lastName": "Liu",
+                "firstName": "Kaili",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7700-4075"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hoover AR",
+                "lastName": "Hoover",
+                "firstName": "Ashley R",
+                "initials": "AR",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA; Arthritis and Clinical Immunology Research Program, Oklahoma Medical Research Foundation, Oklahoma City, OK, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang L",
+                "lastName": "Wang",
+                "firstName": "Lin",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4636-8225"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sun Y",
+                "lastName": "Sun",
+                "firstName": "Yuanhong",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Valerio TI",
+                "lastName": "Valerio",
+                "firstName": "Trisha I",
+                "initials": "TI",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Furrer C",
+                "lastName": "Furrer",
+                "firstName": "Coline",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8822-3887"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Adams J",
+                "lastName": "Adams",
+                "firstName": "Jacob",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0004-6277-5159"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang J",
+                "lastName": "Yang",
+                "firstName": "Jingxuan",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-3265-161X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, Department of Surgery, University of Oklahoma Health Sciences Center, Oklahoma City, OK, 73104, USA; Stephenson Cancer Center, University of Oklahoma Health Sciences Center, Oklahoma City, OK, 73104, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Li M",
+                "lastName": "Li",
+                "firstName": "Min",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3971-9130"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, Department of Surgery, University of Oklahoma Health Sciences Center, Oklahoma City, OK, 73104, USA; Stephenson Cancer Center, University of Oklahoma Health Sciences Center, Oklahoma City, OK, 73104, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chen WR",
+                "lastName": "Chen",
+                "firstName": "Wei R",
+                "initials": "WR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7133-5794"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA; Stephenson Cancer Center, University of Oklahoma Health Sciences Center, Oklahoma City, OK, 73104, USA. Electronic address: Wei-R-Chen@ou.edu."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7700-4075"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3971-9130"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7133-5794"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8822-3887"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3265-161X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4636-8225"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0004-6277-5159"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data",
+              "related_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "604",
+            "journalIssueId": 3839604,
+            "dateOfPublication": "2024 Nov",
+            "monthOfPublication": 11,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Cancer Lett",
+              "title": "Cancer letters",
+              "essn": "1872-7980",
+              "issn": "0304-3835",
+              "isoabbreviation": "Cancer Lett",
+              "nlmid": "7600053"
+            },
+            "printPublicationDate": "2024-11-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "217267",
+          "abstractText": "Gamma delta T cells (γδT cells) play crucial roles in the immune response against tumors, yet their functional dynamics under different cancer therapies remain poorly understood. Laser Ablative Immunotherapy (LAIT) is a novel cancer treatment modality combining local photothermal therapy (PTT) and intratumoral injection of an immunostimulant, N-dihydrogalactochitosan (glycated chitosan, GC). LAIT has been shown to induce systemic antitumor immune responses in pre-clinical studies and clinical trials, eradicating both treated local tumors and untreated distant metastases. In this study, we used LAIT to treat breast tumors in a mouse model and investigated the effects of LAIT on tumor-infiltrating γδT cells using single-cell RNA sequencing (scRNAseq). We characterized the γδT cells from tumors in control, PTT, GC, and LAIT (PTT + GC) groups, by identifying six distinct subtypes: activated, cytotoxic, cycling cytotoxic, IFN-enriched, antigen-presenting, and IL17-producing γδT cells. Differential gene expression analysis revealed that LAIT significantly upregulated genes associated with T cell activation, leukocyte adhesion, and interferon signaling in treated tumor tissues while downregulating genes involved in protein folding and stress responses. LAIT also uniquely increased the proportion of IL17-producing γδT cells, which correlated with prolonged survival in breast cancer patients, as analyzed using TCGA data. Furthermore, the transcriptomic profiles of γδT cells in LAIT-treated tumors closely resembled those in immune checkpoint inhibitor (ICI)-treated patients, suggesting potential synergistic effects. Our findings indicate that LAIT modulates the γδT cell transcriptome, enhancing their antitumor capabilities and providing a basis for combining LAIT with ICI therapy to improve cancer treatment outcomes.",
+          "affiliation": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK, USA.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Oklahoma Center for the Advancement of Science and Technology",
+                "grantId": "HF20-019",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "R01 CA205348",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIGMS NIH HHS",
+                "acronym": "GM",
+                "grantId": "P20 GM135009",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "R01 CA269897",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Cancer Institute",
+                "grantId": "R01CA269897",
+                "orderIn": 0
+              },
+              {
+                "agency": "Oklahoma Center for the Advancement of Science and Technology",
+                "grantId": "HR23-069",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Cancer Institute",
+                "grantId": "R01CA205348",
+                "orderIn": 0
+              },
+              {
+                "agency": "Oklahoma Medical Research Foundation",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institute of General Medical Sciences",
+                "grantId": "P20GM135009",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Lymphocytes, Tumor-Infiltrating",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Line, Tumor"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Breast Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TH",
+                      "qualifierName": "therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Chitosan",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AA",
+                      "qualifierName": "analogs & derivatives"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Immunotherapy",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Transcriptome"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Intraepithelial Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Breast cancer",
+              "Single-cell Rna Sequencing",
+              "N-dihydrogalactochitosan",
+              "Localized Ablative Immunotherapy",
+              "Γδt Cell Activation"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Chitosan",
+                "registryNumber": "9012-76-4"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.canlet.2024.217267"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11471373"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11471373?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.canlet.2024.217267"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "Y",
+          "dbCrossReferenceList": {
+            "dbName": [
+              "EMBL"
+            ]
+          },
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "Y",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "Y",
+          "manuscriptId": "NIHMS2025403",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo"
+            ]
+          },
+          "dateOfCompletion": "2024-10-13",
+          "dateOfCreation": "2024-09-22",
+          "dateOfRevision": "2025-11-02",
+          "electronicPublicationDate": "2024-09-20",
+          "firstPublicationDate": "2024-09-20",
+          "firstIndexDate": "2024-09-23",
+          "fullTextReceivedDate": "2025-11-29",
+          "embargoDate": "2025-11-01",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "25991474",
+          "source": "MED",
+          "pmid": "25991474",
+          "pmcid": "PMC4466157",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC4466157"
+            ]
+          },
+          "doi": "10.1016/j.cellimm.2015.04.008",
+          "title": "Human gamma delta T cells: Evolution and ligand recognition.",
+          "authorString": "Adams EJ, Gu S, Luoma AM.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Adams EJ",
+                "lastName": "Adams",
+                "firstName": "Erin J",
+                "initials": "EJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biochemistry and Molecular Biology, University of Chicago, Chicago, IL 60637, USA; Committee on Immunology, University of Chicago, Chicago, IL 60637, USA; Committee on Cancer Biology, University of Chicago, Chicago, IL 60637, USA. Electronic address: ejadams@uchicago.edu."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gu S",
+                "lastName": "Gu",
+                "firstName": "Siyi",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0711-7442"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biochemistry and Molecular Biology, University of Chicago, Chicago, IL 60637, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Luoma AM",
+                "lastName": "Luoma",
+                "firstName": "Adrienne M",
+                "initials": "AM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biochemistry and Molecular Biology, University of Chicago, Chicago, IL 60637, USA; Committee on Immunology, University of Chicago, Chicago, IL 60637, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0711-7442"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "296",
+            "journalIssueId": 2293926,
+            "dateOfPublication": "2015 Jul",
+            "monthOfPublication": 7,
+            "yearOfPublication": 2015,
+            "journal": {
+              "medlineAbbreviation": "Cell Immunol",
+              "title": "Cellular immunology",
+              "essn": "1090-2163",
+              "issn": "0008-8749",
+              "isoabbreviation": "Cell Immunol",
+              "nlmid": "1246405"
+            },
+            "printPublicationDate": "2015-07-01"
+          },
+          "pubYear": "2015",
+          "pageInfo": "31-40",
+          "abstractText": "The γδ T cell lineage in humans remains much of an enigma due to the low number of defined antigens, the non-canonical ways in which these cells respond to their environment and difficulty in tracking this population in vivo. In this review, we survey a comparative evolutionary analysis of the primate V, D and J gene segments and contrast these findings with recent progress in defining antigen recognition by different populations of γδ T cells in humans. Signatures of both purifying and diversifying selection at the Vδ and Vγ gene loci are placed into context of Vδ1+ γδ T cell recognition of CD1d presenting different lipids, and Vγ 9Vδ2 T cell modulation by pyrophosphate-based phosphoantigens through the butyrophilins BTN3A. From this comparison, it is clear that co-evolution between γδ TCRs and these ligands is likely occurring, but the diversity inherent in these recombined receptors is an important feature in ligand surveillance.",
+          "affiliation": "Department of Biochemistry and Molecular Biology, University of Chicago, Chicago, IL 60637, USA; Committee on Immunology, University of Chicago, Chicago, IL 60637, USA; Committee on Cancer Biology, University of Chicago, Chicago, IL 60637, USA. Electronic address: ejadams@uchicago.edu.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Comparative Study",
+              "research-article",
+              "Review",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "National Institutes of Health",
+                "grantId": "R01_AI073922",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI073922",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institutes of Health",
+                "grantId": "R01_AI115471",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI115471",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCATS NIH HHS",
+                "acronym": "TR",
+                "grantId": "UL1 TR000430",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Callithrix"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Pan troglodytes"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Diphosphates",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Membrane Glycoproteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Ligands"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lymphocyte Activation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Evolution, Molecular"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antigens, CD1d",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Butyrophilins"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "T cell receptor",
+              "T cells",
+              "Butyrophilin",
+              "Cd1d",
+              "Phosphoantigens",
+              "B30.2",
+              "Vdelta1",
+              "Vgamma9vdelta2"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Diphosphates",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Ligands",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Membrane Glycoproteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antigens, CD1d",
+                "registryNumber": "0"
+              },
+              {
+                "name": "CD1D protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "BTNL9 protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Butyrophilins",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://europepmc.org/articles/pmc4466157?pdf=render"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.cellimm.2015.04.008"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4466157"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4466157?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.cellimm.2015.04.008"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 168,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "Y",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "Y",
+          "manuscriptId": "NIHMS688169",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb"
+            ]
+          },
+          "dateOfCompletion": "2015-08-24",
+          "dateOfCreation": "2015-05-21",
+          "dateOfRevision": "2022-04-10",
+          "electronicPublicationDate": "2015-05-06",
+          "firstPublicationDate": "2015-05-06",
+          "firstIndexDate": "2015-05-21",
+          "fullTextReceivedDate": "2025-02-05",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "25255099",
+          "source": "MED",
+          "pmid": "25255099",
+          "pmcid": "PMC4174581",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC4174581"
+            ]
+          },
+          "doi": "10.7554/elife.03609",
+          "title": "Gamma delta T cells recognize haptens and mount a hapten-specific response.",
+          "authorString": "Zeng X, Meyer C, Huang J, Newell EW, Kidd BA, Wei YL, Chien YH.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Zeng X",
+                "lastName": "Zeng",
+                "firstName": "Xun",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, United States."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Meyer C",
+                "lastName": "Meyer",
+                "firstName": "Christina",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0380-195X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Program in Immunology, Stanford University, Stanford, United States."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Huang J",
+                "lastName": "Huang",
+                "firstName": "Jun",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, United States."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Newell EW",
+                "lastName": "Newell",
+                "firstName": "Evan W",
+                "initials": "EW",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2889-243X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, United States."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kidd BA",
+                "lastName": "Kidd",
+                "firstName": "Brian A",
+                "initials": "BA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2110-1145"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, United States."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wei YL",
+                "lastName": "Wei",
+                "firstName": "Yu-Ling",
+                "initials": "YL",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, United States."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chien YH",
+                "lastName": "Chien",
+                "firstName": "Yueh-hsiu",
+                "initials": "YH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, United States."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0380-195X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2889-243X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2110-1145"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "3",
+            "journalIssueId": 2202050,
+            "dateOfPublication": "2014 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2014,
+            "journal": {
+              "medlineAbbreviation": "Elife",
+              "title": "eLife",
+              "essn": "2050-084X",
+              "issn": "2050-084X",
+              "isoabbreviation": "Elife",
+              "nlmid": "101579614"
+            },
+            "printPublicationDate": "2014-09-01"
+          },
+          "pubYear": "2014",
+          "pageInfo": "e03609",
+          "abstractText": "The ability to recognize small organic molecules and chemical modifications of host molecules is an essential capability of the adaptive immune system, which until now was thought to be mediated mainly by B cell antigen receptors. Here we report that small molecules, such as cyanine 3 (Cy3), a synthetic fluorescent molecule, and 4-hydroxy-3-nitrophenylacetyl (NP), one of the most noted haptens, are γδ T cell antigens, recognized directly by specific γδ TCRs. Immunization with Cy3 conjugates induces a rapid Cy3-specific γδ T cell IL-17 response. These results expand the role of small molecules and chemical modifications in immunity and underscore the role of γδ T cells as unique adaptive immune cells that couple B cell-like antigen recognition capability with T cell effector function.",
+          "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, United States.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R21 AI107082",
+                "orderIn": 0
+              },
+              {
+                "agency": "Office of Extramural Research, National Institutes of Health",
+                "grantId": "R21AI107082",
+                "orderIn": 0
+              },
+              {
+                "agency": "Office of Extramural Research, National Institutes of Health",
+                "grantId": "U19AI090019",
+                "orderIn": 0
+              },
+              {
+                "agency": "The Burt and Marion Avery Endowment",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01AI80829",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R21AI107082",
+                "orderIn": 0
+              },
+              {
+                "agency": "Office of Extramural Research, National Institutes of Health",
+                "grantId": "RO1AI80829",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "U19AI090019",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Membrane",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice, Inbred C57BL"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Phenylacetates",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Carbocyanines",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Nitrophenols",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Haptens",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunization"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunity",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Mouse",
+              "Hapten",
+              "immunology",
+              "Gamma Delta T Cells",
+              "T Cell Antigen Recognition"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "cyanine dye 3",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Haptens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Phenylacetates",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Nitrophenols",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Carbocyanines",
+                "registryNumber": "0"
+              },
+              {
+                "name": "4-hydroxy-5-nitrophenyl acetic acid",
+                "registryNumber": "10463-20-4"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.7554/eLife.03609"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4174581"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4174581?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 29,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2015-07-02",
+          "dateOfCreation": "2014-09-26",
+          "dateOfRevision": "2021-10-21",
+          "electronicPublicationDate": "2014-09-25",
+          "firstPublicationDate": "2014-09-25",
+          "firstIndexDate": "2014-09-26",
+          "fullTextReceivedDate": "2020-07-11",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "23266231",
+          "source": "MED",
+          "pmid": "23266231",
+          "pmcid": "PMC3622789",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC3622789"
+            ]
+          },
+          "doi": "10.1016/j.it.2012.11.004",
+          "title": "The natural and the inducible: interleukin (IL)-17-producing γδ T cells.",
+          "authorString": "Chien YH, Zeng X, Prinz I.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Chien YH",
+                "lastName": "Chien",
+                "firstName": "Yueh-hsiu",
+                "initials": "YH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, School of Medicine, Stanford University, Stanford, CA 94305, USA. chien@stanford.edu"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zeng X",
+                "lastName": "Zeng",
+                "firstName": "Xun",
+                "initials": "X"
+              },
+              {
+                "fullName": "Prinz I",
+                "lastName": "Prinz",
+                "firstName": "Immo",
+                "initials": "I",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8789-9578"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8789-9578"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "wikipedia"
+            ]
+          },
+          "journalInfo": {
+            "issue": "4",
+            "volume": "34",
+            "journalIssueId": 2028816,
+            "dateOfPublication": "2013 Apr",
+            "monthOfPublication": 4,
+            "yearOfPublication": 2013,
+            "journal": {
+              "medlineAbbreviation": "Trends Immunol",
+              "title": "Trends in immunology",
+              "essn": "1471-4981",
+              "issn": "1471-4906",
+              "isoabbreviation": "Trends Immunol",
+              "nlmid": "100966032"
+            },
+            "printPublicationDate": "2013-04-01"
+          },
+          "pubYear": "2013",
+          "pageInfo": "151-154",
+          "abstractText": "γδ T cells are the major initial interleukin (IL)-17 producers in acute infections. Recent studies have indicated that some γδ T cells have IL-17-producing capabilities without explicit induction of an immune response. They are preferentially localized in barrier tissues and are likely to originate from fetal γδ thymocytes. In addition, γδ T cells present in the secondary lymphoid organs will mature and differentiate to produce IL-17 after antigen encounter in an immune response. Based on these studies, we propose that there are two different sets of IL-17-producing γδ T cells (Tγδ17) referred to as the 'natural' and the 'inducible' Tγδ17 cells. This review focuses on recent publications leading to the delineation of these two types of cells and their implied roles in host immune defense.",
+          "affiliation": "Department of Microbiology and Immunology, School of Medicine, Stanford University, Stanford, CA 94305, USA. chien@stanford.edu",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI080829",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI062794",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocyte Subsets",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Acute Disease"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Interleukin-17",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Differentiation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunity, Cellular"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Th17 Cells",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Infections",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Interleukin-17",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://europepmc.org/articles/pmc3622789?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://europepmc.org/articles/pmc3622789?pdf=render"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.it.2012.11.004"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC3622789"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC3622789?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.it.2012.11.004"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 116,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "authMan": "Y",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "Y",
+          "manuscriptId": "NIHMS431223",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2013-12-09",
+          "dateOfCreation": "2012-12-26",
+          "dateOfRevision": "2022-03-18",
+          "electronicPublicationDate": "2012-12-22",
+          "firstPublicationDate": "2012-12-22",
+          "firstIndexDate": "2012-12-26",
+          "fullTextReceivedDate": "2025-02-05",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "21114875",
+          "source": "MED",
+          "pmid": "21114875",
+          "pmcid": "PMC3007727",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC3007727"
+            ]
+          },
+          "doi": "10.1186/1479-5876-8-s1-i1",
+          "title": "Abstracts of the 5th European Workshop on Immune-Mediated Inflammatory Diseases. Sitges-Barcelona, Spain. December 1-3, 2010.",
+          "journalInfo": {
+            "volume": "8 Suppl 1",
+            "journalIssueId": 1789060,
+            "dateOfPublication": "2010 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2010,
+            "journal": {
+              "medlineAbbreviation": "J Transl Med",
+              "title": "Journal of translational medicine",
+              "essn": "1479-5876",
+              "issn": "1479-5876",
+              "isoabbreviation": "J Transl Med",
+              "nlmid": "101190741"
+            },
+            "printPublicationDate": "2010-01-01"
+          },
+          "pubYear": "2010",
+          "pageInfo": "I1-16, O1-8, P1-73",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Overall",
+              "Conference Proceedings",
+              "research-article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Immune System Diseases"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Inflammation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://translational-medicine.biomedcentral.com/track/pdf/10.1186/1479-5876-8-S1-I1"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "BioMedCentral",
+                "url": "http://www.biomedcentral.com/1479-5876/8_suppl_1/I1"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "BioMedCentral",
+                "url": "http://www.biomedcentral.com/content/pdf/1479-5876-8_suppl_1-I1.pdf"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "abs",
+                "site": "BioMedCentral",
+                "url": "http://www.biomedcentral.com/1479-5876/8_suppl_1/I1/abstract"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1186/1479-5876-8-s1-i1"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC3007727"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC3007727?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2010-12-10",
+          "dateOfCreation": "2010-12-01",
+          "dateOfRevision": "2026-01-28",
+          "electronicPublicationDate": "2010-11-25",
+          "firstPublicationDate": "2010-11-25",
+          "firstIndexDate": "2010-12-08",
+          "fullTextReceivedDate": "2025-02-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "19124761",
+          "source": "MED",
+          "pmid": "19124761",
+          "pmcid": "PMC2646375",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC2646375"
+            ]
+          },
+          "doi": "10.4049/jimmunol.182.2.1174",
+          "title": "Pulmonary V gamma 4+ gamma delta T cells have proinflammatory and antiviral effects in viral lung disease.",
+          "authorString": "Dodd J, Riffault S, Kodituwakku JS, Hayday AC, Openshaw PJ.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Dodd J",
+                "lastName": "Dodd",
+                "firstName": "Jonathan",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Respiratory Infections, National Heart and Lung Institute, St. Mary's Campus, Imperial College London, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Riffault S",
+                "lastName": "Riffault",
+                "firstName": "Sabine",
+                "initials": "S"
+              },
+              {
+                "fullName": "Kodituwakku JS",
+                "lastName": "Kodituwakku",
+                "firstName": "Jayanie S",
+                "initials": "JS"
+              },
+              {
+                "fullName": "Hayday AC",
+                "lastName": "Hayday",
+                "firstName": "Adrian C",
+                "initials": "AC",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9495-5793"
+                }
+              },
+              {
+                "fullName": "Openshaw PJ",
+                "lastName": "Openshaw",
+                "firstName": "Peter J M",
+                "initials": "PJ"
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9495-5793"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "related_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "2",
+            "volume": "182",
+            "journalIssueId": 1588457,
+            "dateOfPublication": "2009 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2009,
+            "journal": {
+              "medlineAbbreviation": "J Immunol",
+              "title": "Journal of immunology (Baltimore, Md. : 1950)",
+              "essn": "1550-6606",
+              "issn": "0022-1767",
+              "isoabbreviation": "J Immunol",
+              "nlmid": "2985117R"
+            },
+            "printPublicationDate": "2009-01-01"
+          },
+          "pubYear": "2009",
+          "pageInfo": "1174-1181",
+          "abstractText": "Host defenses, while effecting viral clearance, contribute substantially to inflammation and disease. This double action is a substantial obstacle to the development of safe and effective vaccines against many agents, particularly respiratory syncytial virus (RSV). RSV is a common cold virus and the major cause of infantile bronchiolitis worldwide. The role of alphabeta T cells in RSV-driven immunopathology is well studied, but little is known about the role of \"unconventional\" T cells. During primary RSV challenge of BALB/c mice, some Vgamma7+ gammadelta T cells were present; however, immunization with a live vaccinia vector expressing RSV F protein substantially enhanced Vgamma4+ gammadelta T cell influx after RSV infection. Harvested early, these cells produced IFN-gamma, TNF, and RANTES after ex vivo stimulation. By contrast, those recruited 5 days after challenge made IL-4, IL-5, and IL-10. Depletion of gammadelta T cells in vivo reduced lung inflammation and disease severity and slightly increased peak viral replication but did not prevent viral clearance. These studies demonstrate a novel role for gammadelta T cells in the development of immunopathology and cellular influx into the lungs after immunization and RSV challenge. Though a minor population, gammadelta T cells have a critical influence on disease and are an attractive interventional target in the alleviation of viral lung disease.",
+          "affiliation": "Center for Respiratory Infections, National Heart and Lung Institute, St. Mary's Campus, Imperial College London, UK.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Wellcome Trust",
+                "acronym": "WT_",
+                "grantId": "071534",
+                "orderIn": 0
+              },
+              {
+                "agency": "Wellcome Trust",
+                "acronym": "WT_",
+                "grantId": "071381",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lung",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "VI",
+                      "qualifierName": "virology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocyte Subsets",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "VI",
+                      "qualifierName": "virology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice, Inbred BALB C"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Respiratory Syncytial Viruses",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Respiratory Syncytial Virus Infections",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PC",
+                      "qualifierName": "prevention & control"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "BI",
+                      "qualifierName": "biosynthesis"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Vaccines, Synthetic",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AE",
+                      "qualifierName": "adverse effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Viral Fusion Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Inflammation Mediators",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Respiratory Syncytial Virus Vaccines",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AE",
+                      "qualifierName": "adverse effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Adjuvants, Immunologic",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AD",
+                      "qualifierName": "administration & dosage"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AE",
+                      "qualifierName": "adverse effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lymphocyte Depletion"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Severity of Illness Index"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lymphocyte Activation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Virus Replication",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Movement",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Adjuvants, Immunologic",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Vaccines, Synthetic",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Viral Fusion Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Inflammation Mediators",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Respiratory Syncytial Virus Vaccines",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "http://www.jimmunol.org/content/182/2/1174.full.pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.4049/jimmunol.182.2.1174"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC2646375"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC2646375?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.4049/jimmunol.182.2.1174"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 52,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "Y",
+          "epmcAuthMan": "Y",
+          "nihAuthMan": "N",
+          "manuscriptId": "UKMS3904",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2009-02-19",
+          "dateOfCreation": "2009-01-07",
+          "dateOfRevision": "2025-05-29",
+          "firstPublicationDate": "2009-01-01",
+          "firstIndexDate": "2009-12-23",
+          "fullTextReceivedDate": "2025-11-23",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "17671215",
+          "source": "MED",
+          "pmid": "17671215",
+          "pmcid": "PMC3915341",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC3915341"
+            ]
+          },
+          "doi": "10.1158/0008-5472.can-07-0199",
+          "title": "Targeting human {gamma}delta} T cells with zoledronate and interleukin-2 for immunotherapy of hormone-refractory prostate cancer.",
+          "authorString": "Dieli F, Vermijlen D, Fulfaro F, Caccamo N, Meraviglia S, Cicero G, Roberts A, Buccheri S, D'Asaro M, Gebbia N, Salerno A, Eberl M, Hayday AC.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Dieli F",
+                "lastName": "Dieli",
+                "firstName": "Francesco",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6685-352X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Dipartimento di Biopatologia e Metodologie Biomediche, Università di Palermo, Palermo, Italy. dieli@unipa.it"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Vermijlen D",
+                "lastName": "Vermijlen",
+                "firstName": "David",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7605-8845"
+                }
+              },
+              {
+                "fullName": "Fulfaro F",
+                "lastName": "Fulfaro",
+                "firstName": "Fabio",
+                "initials": "F"
+              },
+              {
+                "fullName": "Caccamo N",
+                "lastName": "Caccamo",
+                "firstName": "Nadia",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1018-5710"
+                }
+              },
+              {
+                "fullName": "Meraviglia S",
+                "lastName": "Meraviglia",
+                "firstName": "Serena",
+                "initials": "S"
+              },
+              {
+                "fullName": "Cicero G",
+                "lastName": "Cicero",
+                "firstName": "Giuseppe",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4717-437X"
+                }
+              },
+              {
+                "fullName": "Roberts A",
+                "lastName": "Roberts",
+                "firstName": "Andrew",
+                "initials": "A"
+              },
+              {
+                "fullName": "Buccheri S",
+                "lastName": "Buccheri",
+                "firstName": "Simona",
+                "initials": "S"
+              },
+              {
+                "fullName": "D'Asaro M",
+                "lastName": "D'Asaro",
+                "firstName": "Matilde",
+                "initials": "M"
+              },
+              {
+                "fullName": "Gebbia N",
+                "lastName": "Gebbia",
+                "firstName": "Nicola",
+                "initials": "N"
+              },
+              {
+                "fullName": "Salerno A",
+                "lastName": "Salerno",
+                "firstName": "Alfredo",
+                "initials": "A"
+              },
+              {
+                "fullName": "Eberl M",
+                "lastName": "Eberl",
+                "firstName": "Matthias",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9390-5348"
+                }
+              },
+              {
+                "fullName": "Hayday AC",
+                "lastName": "Hayday",
+                "firstName": "Adrian C",
+                "initials": "AC",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9495-5793"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1018-5710"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4717-437X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6685-352X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7605-8845"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9390-5348"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9495-5793"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "recommended_reviews"
+            ]
+          },
+          "journalInfo": {
+            "issue": "15",
+            "volume": "67",
+            "journalIssueId": 1454119,
+            "dateOfPublication": "2007 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2007,
+            "journal": {
+              "medlineAbbreviation": "Cancer Res",
+              "title": "Cancer research",
+              "essn": "1538-7445",
+              "issn": "0008-5472",
+              "isoabbreviation": "Cancer Res",
+              "nlmid": "2984705R"
+            },
+            "printPublicationDate": "2007-08-01"
+          },
+          "pubYear": "2007",
+          "pageInfo": "7450-7457",
+          "abstractText": "The increasing evidence that gammadelta T cells have potent antitumor activity suggests their value in immunotherapy, particularly in areas of unmet need such as metastatic carcinoma. To this end, we initiated a phase I clinical trial in metastatic hormone-refractory prostate cancer to examine the feasibility and consequences of using the gammadelta T-cell agonist zoledronate, either alone or in combination with low-dose interleukin 2 (IL-2), to activate peripheral blood gammadelta cells. Nine patients were enlisted to each arm. Neither treatment showed appreciable toxicity. Most patients were treated with zoledronate + IL-2, but conversely only two treated with zoledronate displayed a significant long-term shift of peripheral gammadelta cells toward an activated effector-memory-like state (T(EM)), producing IFN-gamma and perforin. These patients also maintained serum levels of tumor necrosis factor-related apoptosis inducing ligand (TRAIL), consistent with a parallel microarray analysis showing that TRAIL is produced by gammadelta cells activated via the T-cell receptor and IL-2. Moreover, the numbers of T(EM) gammadelta cells showed a statistically significant correlation with declining prostate-specific antigen levels and objective clinical outcomes that comprised three instances of partial remission and five of stable disease. By contrast, most patients treated only with zoledronate failed to sustain either gammadelta cell numbers or serum TRAIL, and showed progressive clinical deterioration. Thus, zoledronate + IL-2 represents a novel, safe, and feasible approach to induce immunologic and clinical responses in patients with metastatic carcinomas, potentially providing a substantially increased window for specific approaches to be administered. Moreover, gammadelta cell phenotypes and possibly serum TRAIL may constitute novel biomarkers of prognosis upon therapy with zoledronate + IL-2 in metastatic carcinoma.",
+          "affiliation": "Dipartimento di Biopatologia e Metodologie Biomediche, Università di Palermo, Palermo, Italy. dieli@unipa.it",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Wellcome Trust",
+                "acronym": "WT_",
+                "grantId": "071534",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CY",
+                      "qualifierName": "cytology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Prostatic Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Neoplasms, Hormone-Dependent",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "DT",
+                      "qualifierName": "drug therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Diphosphonates",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Imidazoles",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antineoplastic Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Interleukin-2",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Treatment Outcome"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunotherapy",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Salvage Therapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Drug Therapy, Combination"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Remission Induction"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Feasibility Studies"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lymphocyte Activation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DE",
+                      "qualifierName": "drug effects"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Dose-Response Relationship, Drug"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aged, 80 and over"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Middle Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Bone Density Conservation Agents",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TU",
+                      "qualifierName": "therapeutic use"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Zoledronic Acid"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antineoplastic Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Imidazoles",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Interleukin-2",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Diphosphonates",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Bone Density Conservation Agents",
+                "registryNumber": "0"
+              },
+              {
+                "name": "zoledronic acid",
+                "registryNumber": "6XC1PAD3KF"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1158/0008-5472.CAN-07-0199"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC3915341"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC3915341?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1158/0008-5472.can-07-0199"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 399,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "Y",
+          "epmcAuthMan": "Y",
+          "nihAuthMan": "N",
+          "manuscriptId": "EMS55526",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2007-09-11",
+          "dateOfCreation": "2007-08-03",
+          "dateOfRevision": "2025-05-29",
+          "firstPublicationDate": "2007-08-01",
+          "firstIndexDate": "2008-01-29",
+          "fullTextReceivedDate": "2025-12-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "10753741",
+          "source": "MED",
+          "pmid": "10753741",
+          "doi": "10.1016/s0960-9822(00)00408-5",
+          "title": "Gamma(delta) T cells: non-classical ligands for non-classical cells.",
+          "authorString": "Steele CR, Oppenheim DE, Hayday AC.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Steele CR",
+                "lastName": "Steele",
+                "firstName": "C R",
+                "initials": "CR",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunobiology, GKT School of Medicine, Guy's Hospital, London, SE1 9RT, UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Oppenheim DE",
+                "lastName": "Oppenheim",
+                "firstName": "D E",
+                "initials": "DE"
+              },
+              {
+                "fullName": "Hayday AC",
+                "lastName": "Hayday",
+                "firstName": "A C",
+                "initials": "AC",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9495-5793"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9495-5793"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "7",
+            "volume": "10",
+            "journalIssueId": 1016282,
+            "dateOfPublication": "2000 Apr",
+            "monthOfPublication": 4,
+            "yearOfPublication": 2000,
+            "journal": {
+              "medlineAbbreviation": "Curr Biol",
+              "title": "Current biology : CB",
+              "essn": "1879-0445",
+              "issn": "0960-9822",
+              "isoabbreviation": "Curr Biol",
+              "nlmid": "9107782"
+            },
+            "printPublicationDate": "2000-04-01"
+          },
+          "pubYear": "2000",
+          "pageInfo": "R282-5",
+          "abstractText": "A recent study describes direct binding between a gammadelta T-cell receptor and its ligand, T22, a non-classical class I major histocompatibility complex (MHC) molecule. A companion study, solving the crystal structure of T22, highlights the differences between this interaction and those of classical MHC molecules and alphabeta T cells.",
+          "affiliation": "Department of Immunobiology, GKT School of Medicine, Guy's Hospital, London, SE1 9RT, UK.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocyte Subsets",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Histocompatibility Antigens Class I",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Crystallography"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Models, Immunological"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Models, Molecular"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "T22 antigen",
+                "registryNumber": "130730-36-8"
+              },
+              {
+                "name": "Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Histocompatibility Antigens Class I",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "http://www.cell.com/article/S0960982200004085/pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/s0960-9822(00)00408-5"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 21,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2000-05-16",
+          "dateOfCreation": "2001-02-07",
+          "dateOfRevision": "2019-07-28",
+          "firstPublicationDate": "2000-04-01",
+          "firstIndexDate": "2008-01-29",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "11489972",
+          "source": "MED",
+          "pmid": "11489972",
+          "doi": "10.4049/jimmunol.167.4.1929",
+          "title": "Differential roles of cytokine receptors in the development of epidermal gamma delta T cells.",
+          "authorString": "Ye SK, Maki K, Lee HC, Ito A, Kawai K, Suzuki H, Mak TW, Chien  Y, Honjo T, Ikuta K.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Ye SK",
+                "lastName": "Ye",
+                "firstName": "S K",
+                "initials": "SK",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Chemistry, Graduate School of Medicine, Kyoto University, Kyoto, Japan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Maki K",
+                "lastName": "Maki",
+                "firstName": "K",
+                "initials": "K"
+              },
+              {
+                "fullName": "Lee HC",
+                "lastName": "Lee",
+                "firstName": "H C",
+                "initials": "HC"
+              },
+              {
+                "fullName": "Ito A",
+                "lastName": "Ito",
+                "firstName": "A",
+                "initials": "A"
+              },
+              {
+                "fullName": "Kawai K",
+                "lastName": "Kawai",
+                "firstName": "K",
+                "initials": "K"
+              },
+              {
+                "fullName": "Suzuki H",
+                "lastName": "Suzuki",
+                "firstName": "H",
+                "initials": "H"
+              },
+              {
+                "fullName": "Mak TW",
+                "lastName": "Mak",
+                "firstName": "T W",
+                "initials": "TW"
+              },
+              {
+                "fullName": "Chien  Y",
+                "lastName": "Chien ",
+                "firstName": "Y",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Honjo T",
+                "lastName": "Honjo",
+                "firstName": "T",
+                "initials": "T"
+              },
+              {
+                "fullName": "Ikuta K",
+                "lastName": "Ikuta",
+                "firstName": "K",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1319-1021"
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1319-1021"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "related_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "4",
+            "volume": "167",
+            "journalIssueId": 997381,
+            "dateOfPublication": "2001 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2001,
+            "journal": {
+              "medlineAbbreviation": "J Immunol",
+              "title": "Journal of immunology (Baltimore, Md. : 1950)",
+              "essn": "1550-6606",
+              "issn": "0022-1767",
+              "isoabbreviation": "J Immunol",
+              "nlmid": "2985117R"
+            },
+            "printPublicationDate": "2001-08-01"
+          },
+          "pubYear": "2001",
+          "pageInfo": "1929-1934",
+          "abstractText": "IL-7 and IL-15 play important roles in gammadelta T cell development. These receptors transmit proliferation and/or survival signals in gammadelta T cells. In addition, the IL-7R promotes recombination and transcription in the TCR gamma locus. To clarify the role of the cytokine receptors in the development of epidermal gammadelta T cells, we introduced a Vgamma3/Vdelta1 TCR transgene, derived from Thy-1+ dendritic epidermal T cells (DETC), into IL-7Ralpha-deficient mice, and we found that they partly rescued gammadelta T cells in the adult thymus but not in the spleen. Introduction of an additional Bcl-2 transgene had a minimal effect on gammadelta T cells in the adult thymus of these mice. In contrast to the adult thymus, the introduction of the Vgamma3/Vdelta1 TCR transgene into IL-7Ralpha-/- mice completely restored Vgamma3+ T cells in the fetal thymus and DETC in the adult skin. On the contrary, the same Vgamma3/Vdelta1 TCR transgene failed to rescue DETC in the skin of IL-2Rbeta-deficient mice, even with the additional Bcl-2 transgene. These results suggest that the IL-2/IL-15R, rather than the IL-7R, plays an essential role in proliferation and survival of DETC in the fetal thymus and the skin. In contrast, the IL-7R is probably essential in the induction of V-J recombination of TCRgamma genes. Thus, this study proves that IL-7R and IL-2/IL-15R serve differential functions in epidermal gammadelta T cell development.",
+          "affiliation": "Department of Medical Chemistry, Graduate School of Medicine, Kyoto University, Kyoto, Japan.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Epidermis",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Thymus Gland",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CY",
+                      "qualifierName": "cytology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Langerhans Cells",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocyte Subsets",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CY",
+                      "qualifierName": "cytology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Fetus",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CY",
+                      "qualifierName": "cytology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Skin",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CY",
+                      "qualifierName": "cytology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice, Inbred C57BL"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice, Transgenic"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice, Knockout"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Cytokine",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Interleukin-7",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "DF",
+                      "qualifierName": "deficiency"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Crosses, Genetic"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Differentiation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Survival",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aging",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Transgenes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Epidermal Cells"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Cytokine",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Interleukin-7",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.4049/jimmunol.167.4.1929"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 26,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2001-12-05",
+          "dateOfCreation": "2001-08-08",
+          "dateOfRevision": "2019-05-15",
+          "firstPublicationDate": "2001-08-01",
+          "firstIndexDate": "2008-01-29",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "11116955",
+          "source": "MED",
+          "pmid": "11116955",
+          "doi": "10.1007/pl00006752",
+          "title": "Antigen-recognition properties of murine gamma delta T cells.",
+          "authorString": "Chien YH, Hampl J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Chien YH",
+                "lastName": "Chien",
+                "firstName": "Y H",
+                "initials": "YH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, CA, USA. chien@leland.stanford.edu"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hampl J",
+                "lastName": "Hampl",
+                "firstName": "J",
+                "initials": "J"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "3",
+            "volume": "22",
+            "journalIssueId": 1085773,
+            "dateOfPublication": "2000 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2000,
+            "journal": {
+              "medlineAbbreviation": "Springer Semin Immunopathol",
+              "title": "Springer seminars in immunopathology",
+              "essn": "1432-2196",
+              "issn": "0344-4325",
+              "isoabbreviation": "Springer Semin Immunopathol",
+              "nlmid": "7910384"
+            },
+            "printPublicationDate": "2000-01-01"
+          },
+          "pubYear": "2000",
+          "pageInfo": "239-250",
+          "affiliation": "Department of Microbiology and Immunology, Stanford University, Stanford, CA, USA. chien@leland.stanford.edu",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocyte Subsets",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cytochrome c Group",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "AN",
+                      "qualifierName": "analysis"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Histocompatibility Antigens Class I"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Histocompatibility Antigens Class II",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Epitopes, T-Lymphocyte",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Ligands"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunity, Active"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunity, Cellular"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antigen Presentation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "T22 antigen",
+                "registryNumber": "130730-36-8"
+              },
+              {
+                "name": "Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Cytochrome c Group",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Ligands",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Histocompatibility Antigens Class II",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Histocompatibility Antigens Class I",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Epitopes, T-Lymphocyte",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1007/pl00006752"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 14,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2001-02-08",
+          "dateOfCreation": "2000-12-16",
+          "dateOfRevision": "2023-03-20",
+          "firstPublicationDate": "2000-01-01",
+          "firstIndexDate": "2008-01-29",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

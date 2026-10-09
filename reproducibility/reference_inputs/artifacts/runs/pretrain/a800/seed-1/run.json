@@ -1,0 +1,50 @@
+{
+  "arguments": {
+    "batch_size": 1024,
+    "checkpoint_interval": 2000,
+    "d_model": 256,
+    "decoder_layers": 4,
+    "device": "cuda",
+    "dim_feedforward": 1024,
+    "dropout": 0.1,
+    "encoder_layers": 4,
+    "learning_rate": 0.0003,
+    "max_length": 64,
+    "nhead": 8,
+    "num_workers": 4,
+    "output": "artifacts/runs/pretrain/a800/seed-1",
+    "resume": true,
+    "sampling": "sqrt",
+    "seed": 3508,
+    "steps": 20000,
+    "train": "data/splits/pretrain/train.tsv",
+    "validation": [
+      "data/splits/pretrain/gamma_validation.tsv",
+      "data/splits/pretrain/delta_validation.tsv"
+    ],
+    "validation_interval": 500,
+    "validation_sequences": 2048,
+    "warmup_steps": 500,
+    "weight_decay": 0.01
+  },
+  "git_head_from_original_log": "acc4c2d49e3df9d5db767d8c75b97492b0cd27b4",
+  "model_config": {
+    "d_model": 256,
+    "decoder_layers": 4,
+    "dim_feedforward": 1024,
+    "dropout": 0.1,
+    "encoder_layers": 4,
+    "max_length": 64,
+    "nhead": 8
+  },
+  "recovery": {
+    "checkpoint": "artifacts/runs/pretrain/a800/seed-1/last.pt",
+    "checkpoint_sha256": "a1acac8384c99b9010938ff00502a723d9257e2a535c922c0bdad17987a556d9",
+    "method": "Original completed-job stdout summary and saved checkpoint arguments; no inferred timing/device metadata",
+    "original_job_id": "2995691_1",
+    "reconstructed": true,
+    "source_log": "artifacts/slurm/gdtcr-pretrain-2995691_1.out",
+    "source_log_sha256": "f8d4a1d07800771a5c8e88e1cff16880ee2aebfe99b1debc19421d1d776e3d6b"
+  },
+  "torch_version": "2.7.1+cu126"
+}

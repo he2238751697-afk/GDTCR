@@ -1,0 +1,245 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.3389/fimmu.2023.1158295",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "36993970",
+        "source": "MED",
+        "pmid": "36993970",
+        "pmcid": "PMC10040587",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10040587"
+          ]
+        },
+        "doi": "10.3389/fimmu.2023.1158295",
+        "title": "UcTCRdb: An unconventional T cell receptor sequence database with online analysis functions.",
+        "authorString": "Dou Y, Shan S, Zhang J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dou Y",
+              "lastName": "Dou",
+              "firstName": "Yunsheng",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Academy of Medical Engineering and Translational Medicine, Tianjin University, Tianjin, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shan S",
+              "lastName": "Shan",
+              "firstName": "Shiwen",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Academy of Medical Engineering and Translational Medicine, Tianjin University, Tianjin, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang J",
+              "lastName": "Zhang",
+              "firstName": "Jian",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4966-2086"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Academy of Medical Engineering and Translational Medicine, Tianjin University, Tianjin, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4966-2086"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "14",
+          "journalIssueId": 3499696,
+          "dateOfPublication": "2023 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Front Immunol",
+            "title": "Frontiers in immunology",
+            "essn": "1664-3224",
+            "issn": "1664-3224",
+            "isoabbreviation": "Front Immunol",
+            "nlmid": "101560960"
+          },
+          "printPublicationDate": "2023-01-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "1158295",
+        "abstractText": "Unlike conventional major histocompatibility complex (MHC) class I and II molecules reactive T cells, the unconventional T cell subpopulations recognize various non-polymorphic antigen-presenting molecules and are typically characterized by simplified patterns of T cell receptors (TCRs), rapid effector responses and 'public' antigen specificities. Dissecting the recognition patterns of the non-MHC antigens by unconventional TCRs can help us further our understanding of the unconventional T cell immunity. The small size and irregularities of the released unconventional TCR sequences are far from high-quality to support systemic analysis of unconventional TCR repertoire. Here we present UcTCRdb, a database that contains 669,900 unconventional TCRs collected from 34 corresponding studies in humans, mice, and cattle. In UcTCRdb, users can interactively browse TCR features of different unconventional T cell subsets in different species, search and download sequences under different conditions. Additionally, basic and advanced online TCR analysis tools have been integrated into the database, which will facilitate the study of unconventional TCR patterns for users with different backgrounds. UcTCRdb is freely available at http://uctcrdb.cn/.",
+        "affiliation": "Academy of Medical Engineering and Translational Medicine, Tianjin University, Tianjin, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "brief-report",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "T-Lymphocyte Subsets"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Receptors, Antigen, T-Cell"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antigens"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Histocompatibility Antigens Class I"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Databases, Nucleic Acid"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "NKT cell",
+            "Bioinformatics And Computational Biology",
+            "\u0393\u03b4 T Cell",
+            "Mait Cell",
+            "Tcr (T Cell Receptor)",
+            "Unconventional T Cell",
+            "Cd8\u03b1\u03b1 T Cell"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antigens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Histocompatibility Antigens Class I",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Antigen, T-Cell",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fimmu.2023.1158295"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10040587"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10040587?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-03-31",
+        "dateOfCreation": "2023-03-30",
+        "dateOfRevision": "2023-04-24",
+        "electronicPublicationDate": "2023-03-13",
+        "firstPublicationDate": "2023-03-13",
+        "firstIndexDate": "2023-04-05",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,880 @@
+\documentclass[10pt]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,booktabs,array}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\newcommand{\gd}{\ensuremath{\gamma\delta}}
+\newcommand{\gtd}{\ensuremath{\gamma\!\rightarrow\!\delta}}
+\newcommand{\dtg}{\ensuremath{\delta\!\rightarrow\!\gamma}}
+\title{A controlled benchmark of single-CDR3 partner recovery for human gamma-delta T-cell receptors}
+\author{Anonymous submission}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\textbf{Background:} Recovering a recorded partner complementarity-determining
+region 3 (CDR3) from one gamma-delta T-cell receptor chain requires separating
+conditional information from target-sequence priors and shared-chain exposure.
+We developed a controlled benchmark using 9,068 unique human CDR3 pairs, a
+compact conditional Transformer, single-chain denoising and an independent
+pair ranker. Three connected-component splits and two model seeds were evaluated
+with matched controls, separate validation roles and paired cluster uncertainty.
+
+\textbf{Results:} Under exact exclusion of both chains across data partitions,
+pretraining improved mean target-token negative log likelihood from 1.115 to
+1.005 nats; the matched constant-source model obtained 1.013. At 64 draws,
+conditional candidate coverage averaged 0.88\%, but likelihood top-five recorded
+partner recovery was only 0.03\%, averaged equally over directions. Reranking
+reached 0.06\%, with all six fitted paired intervals for its improvement including
+zero, and validation selected zero fusion weight for the ranker. Recovery was
+strongly protocol dependent: delta-to-gamma likelihood recovery averaged 11.1\%
+under strict study holdout and 45.9\% when common supervised chains were retained,
+while constant-source controls reached 6.6\% and 43.4\%. These tasks differ in
+training composition and are not donor-independent validation. A 5,005-edge
+component dominates the paired corpus; only 5, 5 and 3 primary-test edges have
+both chains at least three edits from supervised and pretraining references.
+
+\textbf{Conclusions:} Better likelihood did not establish reliable free partner
+recovery or consistent ranking benefit in the primary chain-disjoint setting.
+Higher recovery under other exposure protocols requires strong prior controls
+and careful treatment of graph dependence. The benchmark supports reproducible
+evaluation of recorded pairing, while leaving distant-sequence transfer,
+donor-independent performance and biological function unresolved.
+\end{abstract}
+\noindent\textbf{Keywords:} gamma-delta T cells; T-cell receptor pairing; CDR3;
+sequence generation; evaluation design
+
+\section{Background}
+Gamma-delta T-cell receptors are heterodimers whose biological interpretation
+depends on both chains and the surrounding receptor and cellular context
+\cite{gd_review}.
+Large sequence collections create opportunities to learn chain-specific
+regularities, but abundant unpaired data do not directly reveal which partner
+belongs to a given chain. A model that generates plausible target CDR3s may
+therefore learn a useful sequence prior without recovering the recorded partner
+of a previously unseen input. Distinguishing these behaviors is necessary before
+using a score to prioritize receptor candidates.
+
+Public resources now support several related but distinct computational tasks.
+UcTCRdb and TCRdb 2.0 include unconventional or gamma/delta repertoires
+\cite{uctcrdb,tcrdb2}, while the Observed TCR Space database supports paired-chain
+analysis and conditional residue infilling \cite{ots}. TCR-BERT explores
+self-supervised TCR representations \cite{tcrbert}. Antigen-specific predictors
+and generators such as TCRBinder and TCRdesign address peptide recognition using
+paired alpha/beta inputs or antigen-conditioned beta-CDR3 design
+\cite{tcrbinder,tcrdesign}; their reported
+success does not by itself validate gamma/delta partner-CDR3 generation.
+Pretraining loss can also be a poor proxy for downstream benefit
+\cite{landry2025}. These distinctions motivate a controlled comparison of
+conditional information, target priors and candidate ranking within the same
+gamma/delta task.
+
+Related alpha/beta pairing studies have identified inter-chain sequence
+constraints \cite{pairing_constraints}. TCRpair predicts functional pairing
+within an HLA-A*02:01-restricted alpha/beta setting and includes residues flanking
+CDR3 \cite{tcrpair}. These studies motivate testing conditional information, but
+their populations, inputs and endpoints differ from gamma/delta partner-CDR3
+recovery and their published performance is not a directly transferable baseline.
+
+Here we ask three questions. Does single-chain denoising improve a matched
+conditional model relative to random initialization? Does the input CDR3 improve
+recorded-partner recovery beyond a constant-source target prior? Does an
+independently trained ranker improve ordering or support useful rejection of
+low-scoring candidates? We evaluate these questions under explicit exposure
+protocols and retain multiple recorded partners per input. The study concerns
+the performance of the tested model family on this dataset; it does not seek to
+prove that partner prediction is information-theoretically impossible.
+
+\section{Materials and methods}
+\subsection{Data assembly and provenance}
+The paired corpus contains 9,068 unique CDR3 pairs, including 8,443 pairs traced
+to GSE180059 \cite{gse180059}, 626 to Suo et al.\ through UcTCRdb
+\cite{suo2022,uctcrdb}, and one IEDB-export pair with unresolved original-study
+provenance \cite{iedb}. Two pairs occur in both major sources. GSE180059 profiles
+fetal and pediatric thymocytes, while the Suo study profiles the developing
+prenatal immune system. The paired cohort consequently does not represent the
+full adult peripheral gamma/delta repertoire.
+
+Cleaning uppercases and exact-deduplicates canonical amino-acid strings while
+retaining source-provided CDR3 boundaries. GEO contigs must satisfy cell,
+productive, high-confidence and full-length flags. A library-local barcode is
+paired only when exactly one distinct accepted gamma CDR3 and one delta CDR3
+remain. Equivalent original cell-quality information is unavailable for some
+database exports. Observation-level records retain source membership,
+library-local barcodes and available V/J annotations without imputing donor
+identity. The models use CDR3 alone.
+
+Single-chain inputs total 194,887 gamma and 1,262,692 delta sequences before
+pretraining filters. All chains appearing in the paired corpus are excluded
+from pretraining, and sequences shorter than six residues are removed. The main
+pretraining training pool contains 187,092 gamma and 1,230,589 delta sequences,
+with disjoint validation sets of 3,818 and 25,114 sequences. Source experiments
+use an additional study-excluded pool containing 186,949 gamma and 1,230,167
+delta training sequences, with 3,815 and 25,106 validation sequences. Both source
+protocols use the same filtered pretraining pool. SHA256 manifests identify raw,
+processed, split and provenance artifacts.
+
+\subsection{Exposure protocols and validation roles}
+We represent unique gamma and delta sequences as the two node sets of a
+bipartite graph and recorded pairings as edges. Whole connected components define
+three primary train/validation/test splits with seeds 17, 3407 and 2026. Each
+split has 7,254/907/907 edges and no exact gamma or delta overlap across sets.
+The largest component is assigned to training. Allocation targets edge counts;
+it does not optimize source or length balance. Already inspected historical
+test memberships are retained unchanged.
+
+Additional unseen-input tasks group by gamma for \gtd{} or delta for \dtg{},
+allowing target overlap. Seen-input tasks withhold edges from input chains with
+at least three partners while retaining a training edge for each such input.
+Strict study holdout removes traceable held-out-study chains from supervised
+training, whereas a source-shared diagnostic retains common chains. Both use
+the same 626 held-out Suo pairs. Their supervised training sizes differ, so the
+contrast is a joint diagnostic of exposure and training composition, not a
+causal estimate of memorization. These protocols are not donor-independent
+prospective external validation.
+
+Within each original validation set, whole components are assigned to checkpoint
+selection, score/sampling tuning and threshold calibration in approximate
+50/25/25 proportions with seed 7319. Directional tasks instead preserve source
+query groups. Primary split roles contain 453/227/227 edges. No test result
+selects a checkpoint, fusion weight, sampling setting or threshold. The v2
+completion protocol was specified after examining historical v1 results; it is
+not a preregistration of the historical study. V1 estimates retain their earlier
+selection and decoded-output validity rules and are excluded from v2 summaries.
+
+Grouped allocation has an important directional exception. Unseen-gamma
+checkpoint selection contains one gamma query with 581 delta partners; tuning
+and calibration each contain 163 edges and 36 and 26 gamma queries, respectively.
+All selection targets are recorded positives for that single query, making
+ranker selection mean reciprocal rank (MRR) identically one. The tie rule consequently selects the
+earliest eligible explicit-negative checkpoint, step 1,750 in both seeds.
+Generator selection likewise
+depends on one input. This frozen directional condition is a restricted
+diagnostic, not a robust validation of unseen-gamma prediction.
+
+\subsection{Generator, pretraining and matched controls}
+The generator is a shared encoder--decoder Transformer with 7,396,890 parameters,
+four encoder and four decoder layers, width 256, eight attention heads,
+feedforward width 1,024 and dropout 0.1. It tokenizes individual amino acids with
+chain identity and control tokens, using a maximum of 64 tokens. The two
+conditionals share parameters:
+\begin{equation}
+p_\theta(d\mid g),\qquad p_\theta(g\mid d).
+\end{equation}
+Training minimizes teacher-forced target-token negative log likelihood (NLL),
+including the end-of-sequence (EOS) token and excluding the chain-control
+prediction from the loss.
+
+Denoising uses 20,000 steps, batch size 1,024, AdamW at learning rate
+$3\times10^{-4}$ and 500 warmup steps. Each sequence is masked at 15\% or 30\%
+with equal probability. Selected residues are replaced by mask/random/unchanged
+tokens at 80/10/10 proportions, followed by short-span deletions targeting
+approximately 8\% of positions. Reconstruction is evaluated separately on
+corruption-selected residues and against an aligned copy control. The saved
+``damaged'' mask includes selected-but-unchanged positions in the 80/10/10 rule
+as well as deleted positions; it is not restricted to visibly altered residues.
+These teacher-forced
+metrics are not free partner-generation accuracy. Raw-frequency, square-root,
+balanced, gamma-only and delta-only chain mixtures use the same total number of
+sequence draws. Sequence and target-token exposure are reported separately.
+The square-root checkpoints are reused from the pair-excluded historical
+pretraining, with independently evaluated frozen corruption.
+
+Paired fine-tuning uses at most 1,500 steps at batch size 256, learning rate
+$2\times10^{-5}$, 200 warmup steps, validation every 100 steps and patience five.
+The selection criterion averages known-partner NLL within query, then queries
+within direction, then the two directions equally. Sampling chooses directions
+equally, input queries uniformly and one recorded partner uniformly per query.
+The constant-source control changes only source residues while retaining
+initialization, target sampling and optimization. Random initialization changes
+only initial weights. Edge-uniform sampling is a separate control.
+
+Each unidirectional model receives at most 750 steps and 100 warmup steps,
+matching nominal per-direction sequence exposure. Actual exposure under early
+stopping is recorded. Data-efficiency comparisons use nested complete-component
+subsets and both pretrained and random models. The 10/25/50/100\% labels
+correspond to 725/1,814/2,249/7,254 edges. The nominal 50\% subset is only 31.0\%
+because the 5,005-edge component cannot be split. The curve therefore changes
+component composition as well as sample size.
+All three smaller subsets consist exclusively of singleton components.
+
+\subsection{Independent pair ranking and reference methods}
+The v2 ranker starts from a separate copy of the selected condition-specific
+generator's encoder, after paired fine-tuning. It uses amino-acid-only pooling,
+128-dimensional chain-specific projections, a normalized vector dot product
+and a two-layer interaction head with hidden width 256 and dropout 0.15 over
+the concatenated vectors, their product and absolute difference. Independence
+refers to its subsequent parameters and optimization; it does not use an
+independent training cohort or update the frozen generator. Training uses 3,000 steps
+at batch size 256 and learning rate $3\times10^{-4}$. The first 1,500 steps use
+multi-positive contrastive loss; the remaining steps use constructed-negative
+binary cross-entropy. The primary negative ratio is three per positive, with
+half random and half length/terminal-motif matched draws. Ratios one and five
+and random-only training provide sensitivity controls. All negative construction
+uses training edges only; known training partners are excluded. The best mean
+directional selection-validation MRR after explicit-negative training begins
+selects the checkpoint.
+Positive and constructed-negative classes receive equal BCE loss weight at
+every ratio; increasing the ratio changes negative sampling diversity rather
+than the total weight of the negative class.
+
+Fixed-pool scorers include conditional likelihood, target-prior likelihood,
+deterministically shuffled-input likelihood, their conditional-minus-prior
+likelihood difference, ranker, fused score and seeded random scores.
+Likelihood scores are negative per-target-token NLL, including EOS; thus the
+likelihood difference uses length-normalized log scores rather than the raw
+sequence log-probability ratio. Additional
+controls are training-target frequency, a shallow length/terminal-feature
+logistic model and an exact two-chain edit-neighbor score. For a candidate
+$(g,d)$ and training edge set $E_{\rm tr}$, the latter is
+\begin{equation}
+s_{\rm NN}(g,d)=-\min_{(g',d')\in E_{\rm tr}}
+\frac{1}{2}\left[
+\frac{\operatorname{Lev}(g,g')}{\max(|g|,|g'|)}+
+\frac{\operatorname{Lev}(d,d')}{\max(|d|,|d'|)}\right].
+\end{equation}
+Every training edge contributes to the minimum. The shallow control is fitted
+to training positives and mixed constructed negatives at ratio 1:3, selecting
+$C\in\{0.1,1,10\}$ by mean Hit@5 across the four small selection-validation pools.
+
+\subsection{Free generation, retrieval and calibration}
+The primary setting uses 64 draws at temperature one and top-$p=0.95$.
+Split-17 primary conditional and constant-source models save 256 draws and
+reuse prefixes of 16, 64 and 256. A prespecified six-cell temperature/top-$p$
+grid is inspected on split-17 tuning data but does not replace the primary
+setting. Validity requires 6--35 canonical residues and an observed EOS token,
+allowing 36 decoding steps. Invalid or duplicate draws are not replaced.
+Candidates are evaluated both with and without exact training targets.
+
+For each split and query, fixed candidate pools contain all role-specific
+recorded positives and up to 100 unrecorded targets sampled from that split's
+target universe using random, length, terminal-motif or edit-neighbor matching.
+Full-target retrieval uses the same universe. Other recorded partners are
+excluded from distractors without being added as role-specific test positives.
+All scorers and model seeds share frozen candidate lists. Unlike free generation,
+these retrieval pools include the true targets by construction.
+Score ties are resolved by lexicographic target-sequence order. In the primary
+chain-disjoint tests, every training-frequency score is zero, so that baseline
+is a deterministic tie-order control, not informative frequency prediction.
+
+Direction-specific score means and population standard deviations are estimated
+on tuning candidates. A ranker fusion weight from $\{0,.25,.5,.75,1\}$ is shared
+across directions and selected by direction-balanced query-macro Hit@5, with
+ties favoring less ranker weight. Free and fixed-pool calibration are separate.
+An independent calibration subset selects the acceptance threshold by balanced
+accuracy against recorded positives and constructed unrecorded combinations;
+ties favor the highest threshold, including reject-all. No-positive or
+no-negative calibration yields reject-all. Acceptance curves apply fixed
+calibration-score quantiles and both endpoints to test data. Pooled AUROC and
+AUPRC are reported with positive prevalence, consistent with the limitations of
+imbalanced classification summaries \cite{pr_metrics}. These labels and scores
+do not define biological specificity or binding probability.
+
+\subsection{Metrics, uncertainty and similarity audit}
+For query $q$, let $P_q$ be its recorded test partners and $C_q$ its unique valid
+candidates. Coverage is $\mathbf{1}(P_q\cap C_q\ne\varnothing)$; Hit@$K$ records
+any partner among the top $K$ candidates, while Recall@$K$ is the recovered
+fraction of $P_q$. MRR uses the first recorded partner, assigning zero if absent.
+Mean positive rank averages all partner ranks, assigning $|C_q|+1$ to absent
+partners. We report query-macro outcomes and positive-count-weighted query
+outcomes; the latter yields edge-micro Recall. The primary endpoint is the
+equal-direction mean of query-macro Hit@5 at 64 draws, reported separately for
+likelihood, ranker and fused ordering. NLL, token-weighted NLL, raw ordering,
+validity, uniqueness, novelty and diversity are secondary summaries.
+
+We use 2,000 paired cluster-bootstrap replicates over complete test components,
+or source-query groups for directional tasks. Joint directional endpoints use
+the same component resample but average direction-specific query means equally.
+Model comparisons align query identities, positives and cluster labels; fixed
+pools must also have identical hashes. Two model seeds are averaged within each
+split before descriptive mean and standard deviation across three splits.
+Repeated splits and seeds are not independent biological subjects. Intervals
+condition on fitted models and saved candidates, and are descriptive without
+family-wise multiplicity adjustment. Zero-event percentile intervals of $[0,0]$
+are not population upper bounds; an explicitly labeled iid Wilson reference is
+provided for binary query events only, not fractional Recall.
+
+Every paired chain is compared with supervised and pretraining references using
+raw and length-normalized Levenshtein distances on complete CDR3, internal
+residues (excluding three residues at each end) and terminal residues. Exact
+minimum witnesses are saved. Full-sequence strata are 0, 1, 2 and at least 3.
+The distant subset requires both source and eligible recorded target to be at
+distance at least three from both reference pools. Edge-defined strata retain
+the original candidate lists and test-cluster identities. Empty and single-cluster
+strata are explicit. Source, length, number of partners and training-target
+overlap are additional descriptive strata.
+
+\subsection{Computational provenance and AI assistance}
+The computational environment uses Python 3.10.20 and PyTorch 2.7.1 with CUDA
+12.6. Training uses A800 GPUs; evaluation devices, commands, seeds and numeric
+settings are recorded per run. Frozen code and input/output hashes link fitted
+checkpoints, saved candidates and statistical analyses. Hardware timings are
+descriptive rather than a controlled device benchmark.
+
+An OpenAI coding assistant was used for code development, experimental
+orchestration, artifact checking, literature organization and manuscript drafting.
+The analysis files preserve the computational workflow. Author review and
+responsibility for the scientific content are required before journal submission.
+
+\section{Results}
+\subsection{A highly connected and source-concentrated paired corpus}
+The 9,068 pairs involve 3,944 gamma and 6,989 delta CDR3s. There are 3,294 graph
+components, of which 2,897 contain one edge. The largest component contains
+5,005 edges (55.2\% of the corpus) and remains wholly in training. The maximum
+recorded gamma and delta degrees are 581 and 140, respectively; 767 gamma and
+519 delta nodes have more than one partner. A unique CDR3 therefore does not
+have a unique label in this dataset. GSE180059 contributes 93.1\% of pairs,
+limiting the effective diversity of the paired supervision
+(Table~\ref{tab:data}; Figure~\ref{fig:data}).
+
+% BEGIN GENERATED TABLE data_table.tex
+\begin{table}[ht]
+\centering
+\caption{Primary split structure and proximity to the pretraining pool. Distance bins use unique test gamma queries. Distant edges require both chains to be at least three edits from supervised and pretraining references.}
+\label{tab:data}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.4200\linewidth}p{0.1600\linewidth}p{0.1600\linewidth}p{0.1600\linewidth}}
+\toprule
+Split seed & 17 & 3407 & 2026\\
+\midrule
+Training/validation/test edges & 7254/907/907 & 7254/907/907 & 7254/907/907\\
+Test gamma queries & 529 & 523 & 525\\
+Test delta queries & 900 & 906 & 904\\
+Gamma queries one edit from pretraining & 487 & 494 & 493\\
+Gamma queries at least three edits from pretraining & 8 & 7 & 4\\
+Distant test edges & 5 & 5 & 3\\
+\bottomrule
+\end{tabular}
+\end{table}
+% END GENERATED TABLE data_table.tex
+
+\subsection{Exact-chain exclusion leaves extensive near-neighbor exposure}
+All primary cross-partition exact-chain intersections are empty. Nevertheless,
+487/529, 494/523 and 493/525 test gamma queries are one edit from a pretraining
+sequence. Requiring distance at least three on both chains and against both
+reference pools leaves 5, 5 and 3 primary-test edges. Neither source test has any
+edge satisfying this condition. Consequently, a positive overall result under
+exact-chain exclusion would not establish robust distant-sequence generalization.
+
+\subsection{Denoising reconstruction exceeds aligned copying}
+On the frozen square-root-pretrained validation corruptions, selected-residue
+accuracy is 71.3\% and 70.3\% for gamma and 64.1\% and 64.7\% for delta across
+the two seeds. Corresponding aligned-copy accuracy is 6.9\%/6.3\% for gamma and
+6.7\%/6.2\% for delta. This establishes reconstruction beyond the specified
+copy control. It does not establish that pretraining improves recorded partner
+recovery; that question requires the downstream matched comparisons.
+
+\subsection{Likelihood improves more consistently than free partner recovery}
+Across the three primary splits, the pretrained conditional model has an
+equal-direction query-macro NLL of $1.005\pm0.004$ nats per target token,
+compared with $1.013\pm0.003$ for the matched constant-source model,
+$1.115\pm0.006$ for random initialization and $1.018\pm0.003$ with shuffled
+inputs (Table~\ref{tab:primary}; Figure~\ref{fig:primary}). Here and below,
+the three split means each average two model seeds, and the reported standard
+deviation describes variation between splits. All six fitted contrasts of conditional minus constant-source NLL are negative, ranging from approximately $-0.009$ to
+$-0.006$, with paired component-bootstrap intervals below zero. The analogous
+conditional-minus-random contrasts range from $-0.115$ to $-0.104$
+(Table~\ref{tab:paired}). These differences support a modest conditional
+likelihood contribution under the specified training protocol.
+
+The free-generation primary endpoint is much smaller. At 64 draws with
+training targets allowed, conditional coverage averages $0.88\pm0.19\%$ and
+likelihood Hit@5 $0.03\pm0.03\%$. The constant-source model has
+$0.50\pm0.10\%$ coverage and no top-five hits; random initialization has
+$0.68\pm0.11\%$ coverage and no likelihood top-five hits. Conditional coverage
+is strongly directional: $0.09\pm0.16\%$ for \gtd{} versus
+$1.66\pm0.23\%$ for \dtg{}. There are no \gtd{} top-five hits in any primary
+conditional fit. For \dtg{}, likelihood recovers two of 900 queries for
+split 17/model seed 3407 and one of 906 for split 3407/model seed 3508;
+the other four fits have zero events. These overlapping splits and repeated
+fits are not pooled as independent biological observations.
+
+Independent reranking yields equal-direction Hit@5 of $0.06\pm0.03\%$, with
+all six paired ranker-minus-likelihood intervals including zero. Free-candidate
+tuning selects zero ranker weight in every primary fit, so fused ordering has
+the same primary Hit@5 as likelihood. The matched contrasts therefore provide
+clearer evidence for improved likelihood than for a reproducible improvement
+in the prespecified free-recovery endpoint. A zero-event bootstrap interval
+does not establish absence of possible recovery in the population.
+
+% BEGIN GENERATED TABLE primary_table.tex
+\begin{table}[ht]
+\centering
+\caption{Free generation at 64 draws with training targets allowed. Values are means and descriptive standard deviations of three split means, each averaging two model seeds. NLL is in nats per target token; coverage and Hit@5 are percentages. The equal mean weights directions equally. A dash denotes an unavailable scorer, not a zero outcome.}
+\label{tab:primary}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.2200\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}}
+\toprule
+Model / direction & NLL & Coverage & Likelihood Hit@5 & Ranker Hit@5 & Fused Hit@5\\
+\midrule
+Conditional / \gtd{} & 1.253 $\pm$ 0.008 & 0.09 $\pm$ 0.16 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00\\
+Conditional / \dtg{} & 0.757 $\pm$ 0.003 & 1.66 $\pm$ 0.23 & 0.06 $\pm$ 0.06 & 0.11 $\pm$ 0.06 & 0.06 $\pm$ 0.06\\
+Conditional / Equal mean & 1.005 $\pm$ 0.004 & 0.88 $\pm$ 0.19 & 0.03 $\pm$ 0.03 & 0.06 $\pm$ 0.03 & 0.03 $\pm$ 0.03\\
+Constant source / \gtd{} & 1.257 $\pm$ 0.007 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & -- & --\\
+Constant source / \dtg{} & 0.769 $\pm$ 0.003 & 1.00 $\pm$ 0.20 & 0.00 $\pm$ 0.00 & -- & --\\
+Constant source / Equal mean & 1.013 $\pm$ 0.003 & 0.50 $\pm$ 0.10 & 0.00 $\pm$ 0.00 & -- & --\\
+Random init. / \gtd{} & 1.377 $\pm$ 0.010 & 0.03 $\pm$ 0.05 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00\\
+Random init. / \dtg{} & 0.853 $\pm$ 0.005 & 1.33 $\pm$ 0.22 & 0.00 $\pm$ 0.00 & 0.07 $\pm$ 0.03 & 0.02 $\pm$ 0.03\\
+Random init. / Equal mean & 1.115 $\pm$ 0.006 & 0.68 $\pm$ 0.11 & 0.00 $\pm$ 0.00 & 0.04 $\pm$ 0.02 & 0.01 $\pm$ 0.02\\
+Shuffled input / \gtd{} & 1.267 $\pm$ 0.006 & 0.03 $\pm$ 0.05 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00\\
+Shuffled input / \dtg{} & 0.769 $\pm$ 0.001 & 1.33 $\pm$ 0.10 & 0.02 $\pm$ 0.03 & 0.15 $\pm$ 0.08 & 0.04 $\pm$ 0.03\\
+Shuffled input / Equal mean & 1.018 $\pm$ 0.003 & 0.68 $\pm$ 0.07 & 0.01 $\pm$ 0.02 & 0.07 $\pm$ 0.04 & 0.02 $\pm$ 0.02\\
+\bottomrule
+\end{tabular}
+\end{table}
+% END GENERATED TABLE primary_table.tex
+
+% BEGIN GENERATED TABLE paired_primary_table.tex
+\begin{table}[ht]
+\centering
+\caption{Primary paired contrasts, with 95\% component-bootstrap percentile intervals conditional on each fitted model pair and its saved samples. All endpoints are equal-direction query means at 64 draws. C denotes the pretrained conditional model and P the matched constant-source prior. NLL differences are nats per token; Hit@5 differences are percentage points. Negative NLL and positive Hit@5 differences favor the first named condition. Ranker and fusion contrasts reorder the conditional model's identical candidates. Intervals are not adjusted for multiple comparisons; a zero-event [0,0] interval is not a population upper bound.}
+\label{tab:paired}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.2200\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}p{0.1360\linewidth}}
+\toprule
+Split / model seed & NLL: C minus P & Hit@5: C minus P & NLL: C minus random & Hit@5: ranker minus likelihood & Hit@5: fused minus likelihood\\
+\midrule
+17 / 3407 & -0.007 [-0.010, -0.004] & 0.11 [0.00, 0.27] & -0.109 [-0.116, -0.102] & 0.00 [-0.21, 0.22] & 0.00 [0.00, 0.00]\\
+17 / 3508 & -0.009 [-0.012, -0.006] & 0.00 [0.00, 0.00] & -0.104 [-0.111, -0.097] & 0.00 [0.00, 0.00] & 0.00 [0.00, 0.00]\\
+3407 / 3407 & -0.006 [-0.009, -0.004] & 0.00 [0.00, 0.00] & -0.115 [-0.123, -0.108] & 0.00 [0.00, 0.00] & 0.00 [0.00, 0.00]\\
+3407 / 3508 & -0.006 [-0.009, -0.004] & 0.06 [0.00, 0.17] & -0.111 [-0.118, -0.104] & 0.00 [-0.17, 0.16] & 0.00 [0.00, 0.00]\\
+2026 / 3407 & -0.009 [-0.011, -0.006] & 0.00 [0.00, 0.00] & -0.114 [-0.121, -0.106] & 0.06 [0.00, 0.17] & 0.00 [0.00, 0.00]\\
+2026 / 3508 & -0.008 [-0.010, -0.005] & 0.00 [0.00, 0.00] & -0.106 [-0.113, -0.099] & 0.11 [0.00, 0.28] & 0.00 [0.00, 0.00]\\
+\bottomrule
+\end{tabular}
+\end{table}
+% END GENERATED TABLE paired_primary_table.tex
+
+\subsection{Retrieval depends on direction and distractor construction}
+Fixed-pool retrieval is substantially easier than free generation because each
+pool includes the recorded targets (Figure~\ref{fig:retrieval}). In random
+small pools, mean conditional-likelihood Hit@5 is 8.9\% for \gtd{} and
+13.5\% for \dtg{}, compared with 8.5\% and 11.5\% for the target prior and
+8.0\% and 5.1\% for seeded random scores. In full-target retrieval,
+conditional likelihood reaches 1.2\% and 4.2\%, compared with 1.1\% and
+3.8\% for the prior. These are descriptive averages; the query-level reports
+retain paired intervals and pool membership for each fitted comparison.
+
+The conditional-minus-prior score is particularly sensitive to direction.
+For \gtd{}, it raises motif-pool Hit@5 from 5.4\% for conditional likelihood
+to 12.4\%, but a shallow length/terminal-feature model already reaches 11.8\%.
+For \dtg{}, the same difference score gives 6.0\% in motif pools and 1.0\%
+in full retrieval, below conditional likelihood's 8.0\% and 4.2\%.
+The independent ranker gives 8.3\%/5.1\% in motif pools and 1.1\%/1.4\%
+in full retrieval for the two directions. No single scorer dominates across
+these evaluation conditions. In particular, gains within truth-containing
+pools do not establish that a free sampler supplies the recorded partner.
+
+\subsection{Pretraining mixture and downstream sampling have distinct effects}
+The two-seed downstream NLL means for square-root, raw and balanced pretraining
+are, respectively, 1.256/0.754, 1.255/0.757 and 1.259/0.755 for \gtd{}/\dtg{}
+on split 17 (Figure~\ref{fig:figure_S1_pretraining}). Raw-minus-square-root
+equal-direction differences are approximately 0.001 nats per token in both
+fits, with paired intervals crossing zero. Balanced-minus-square-root
+differences are approximately 0.002 in both fits, with intervals above zero.
+These small NLL differences do not select a new primary mixture after testing.
+
+Restricting pretraining to one chain has larger directional effects. Gamma-only
+initialization gives downstream NLL 1.294/0.755, while delta-only initialization
+gives 1.257/0.779. On frozen denoising validation, gamma-only pretraining yields
+39.6\% selected-site accuracy for delta, and delta-only pretraining yields
+27.3\% for gamma, compared with 64.4\% and 70.8\% under the square-root
+mixture. The results are consistent with chain-specific reconstruction exposure
+affecting the target-sequence prior. Equal total sequence draws do not equate
+chain-specific or token exposure, and these teacher-forced differences do not
+demonstrate reliable free partner recovery.
+
+Edge-uniform paired training gives NLL 1.263/0.759, compared with 1.256/0.754
+under query-uniform training. Its equal-direction excess is approximately
+0.006 nats per token in both fitted seeds, with paired intervals above zero.
+The nominally direction-budget-matched unidirectional models give NLL
+1.258 for \gtd{} and 0.756 for \dtg{}, close to the bidirectional model.
+All these settings retain sparse free-recovery events. Their actual early-stop
+and token exposure records accompany the matched nominal budgets; the comparison
+does not establish a universal benefit from sharing the two directions.
+
+\subsection{The component-data curve mixes size and composition changes}
+Pretraining gives lower NLL than random initialization at every actual training
+size (Figure~\ref{fig:efficiency}). At 725 edges, two-seed mean pretrained NLL
+is 1.273/0.780 for \gtd{}/\dtg{}, compared with 1.392/0.849 for random
+initialization. At 2,249 edges the corresponding values are 1.255/0.771 and
+1.375/0.838. Moving to 7,254 edges changes them to 1.256/0.754 and
+1.376/0.847. The random model's \dtg{} NLL does not improve monotonically
+with more edges, and pretrained \gtd{} NLL largely plateaus beyond 1,814.
+
+The NLL advantage does not translate into a consistent small-data recovery
+advantage. Pretrained \dtg{} likelihood Hit@5 across 725/1,814/2,249/7,254
+edges is 0.06/0.17/0.33/0.11\%, while the random model gives
+0.22/0.44/0.17/0.00\%. Every \gtd{} likelihood Hit@5 remains zero. These
+tiny event rates, two-seed variation and the addition of the giant component
+only at full data prevent interpreting this curve as a pure sample-complexity
+estimate. It is a sensitivity analysis of the specified nested graph subsets.
+
+\subsection{Changing negative training does not resolve candidate scarcity}
+Random-only and mixed negative training at ratios one, three and five reuse the
+same split-17 generator candidates and retrieval pools
+(Figure~\ref{fig:figure_S2_negative_training}). All twelve fitted rankers have
+zero free-generation \gtd{} Hit@5. For \dtg{}, individual fitted values range
+from zero to 0.22\% (zero to two of 900 queries), with no monotonic gain from
+increasing the ratio. The primary mixed/3 setting averages 0.11\%; random/5,
+mixed/1 and mixed/5 each average 0.17\%. Such small event differences do not
+establish a reproducible recovery advantage: paired intervals for every
+alternative negative setting versus the primary setting include zero in both
+directions and both fitted seeds.
+
+Fixed-pool differences are larger but depend on the comparison. In random
+retrieval pools, random/3 gives two-seed mean ranker Hit@5 of 10.8\% for
+\gtd{}, compared with 8.2\% under mixed/3. For \dtg{}, random/5 gives
+9.1\%, compared with 7.1\% under mixed/3. These descriptive rankings are not
+uniform across pools or seeds, and no setting supplies candidates absent from
+the frozen free-generation set. Negative-draw and fallback counts, selected
+steps and paired contrasts are retained in the numerical supplement. None of
+these constructed-negative comparisons identifies biological incompatibility.
+
+\subsection{Directional tasks permit recovery of already exposed targets}
+Unseen-input tasks give substantially higher recovery than the both-chain-unseen
+primary task (Figure~\ref{fig:protocols}). For unseen gamma inputs, conditional
+\gtd{} likelihood Hit@5 is 14.06\% in each seed, compared with
+14.06\%/12.50\% for the constant-source model. There are only 64 test queries,
+and 252 distinct recorded target deltas also occur in supervised training.
+Moreover, the single-query checkpoint-selection limitation described in Methods
+applies. The estimate cannot establish robust unseen-gamma conditional benefit.
+
+For unseen delta inputs, conditional \dtg{} Hit@5 is 39.75\%/38.51\%,
+compared with 41.61\%/39.13\% for the prior. This test has 161 queries and
+244 distinct recorded target gammas shared with training. Thus, substantial
+recovery in a target-exposed task does not itself demonstrate an input-specific
+advantage. In seen-input/unseen-edge tests, conditional Hit@5 is
+6.89\%/6.67\% for \gtd{} versus 5.33\%/5.33\% for the prior, and
+32.58\%/34.09\% for \dtg{} versus 30.30\%/29.92\%. These populations,
+edge counts and permissible overlaps differ from the primary test and are
+reported as distinct diagnostics, with source-query-group intervals.
+For seen delta inputs, conditional-minus-prior Hit@5 differences are 2.27
+percentage points (95\% interval $[-1.52,6.06]$) and 4.17 points
+($[0.38,8.33]$). The latter fitted contrast is positive, but the two-seed
+result is not uniform and does not transfer to both-chain-unseen generation.
+
+\subsection{Source recovery is directional and concentrated in a large component}
+Strict study holdout has 207 gamma and 419 delta queries over 626 pairs.
+Conditional \dtg{} likelihood Hit@5 is 11.93\%/10.26\%, compared with
+6.68\%/6.44\% for constant source and 8.83\%/9.79\% for shuffled input.
+Conditional-minus-prior differences are 5.25 percentage points with a 95\%
+component interval $[0.00,6.23]$ and 3.82 points with $[0.00,4.48]$;
+both intervals reach zero despite positive fitted differences.
+When shared supervised chains are retained, the corresponding conditional
+values increase to 47.49\%/44.39\%; constant source already reaches
+43.68\%/43.20\%, and shuffled input reaches 43.68\%/43.91\%.
+The shared-source conditional-minus-prior differences are 3.82 percentage
+points ($[-2.13,4.69]$) and 1.19 points ($[0.00,1.42]$), again with paired
+component intervals including zero.
+For \gtd{}, conditional likelihood Hit@5 is zero in both seeds under both
+source protocols. Source results therefore cannot be reduced to uniform
+failure, nor can high \dtg{} recovery be attributed entirely to conditioning.
+
+The source test contains 90 components, with 529 of 626 edges and 323 of 419
+delta queries in its largest component. A post-hoc description of the saved
+query outcomes finds 50 of 50 and 42 of 43 strict-source conditional top-five
+hits in that component. The corresponding shared-source counts are 198 of 199
+and 184 of 186. This concentration motivates the clustered uncertainty rather
+than treating all hits as independent replications. The source protocols share
+the same test set and filtered pretraining pool, but supervised training contains
+4,956 versus 7,597 edges. Shared-source training overlaps the test in 144 gamma
+and 13 delta sequences. Exposure and training composition therefore change
+together. Neither protocol supports a donor-independent or distant-sequence
+generalization claim.
+
+Ranker-only \dtg{} Hit@5 is 3.10\%/2.86\% under strict source holdout and
+14.32\%/13.60\% under shared source, below likelihood in all four fits.
+The higher source-task recovery consequently does not rescue the proposed
+independent-ranking benefit.
+
+\subsection{More sampling increases coverage without ensuring top-five recovery}
+Split-17 conditional \dtg{} coverage increases from 0.67\%/0.33\% at 16
+draws to 2.33\%/1.44\% at 64 and 6.33\%/6.22\% at 256 for model seeds
+3407/3508. Nevertheless, with training targets allowed, likelihood Hit@5 is
+0.22\%/0.11\%, 0.22\%/0.00\% and 0.00\%/0.00\%, respectively
+(Figure~\ref{fig:budget}). Additional samples can introduce high-scoring
+competitors as well as recorded partners. The 256 draws average approximately
+203 unique valid gamma candidates per query, but only about 53\% of raw
+gamma draws differ from supervised-training targets. For \gtd{}, approximately
+88\% of draws are novel and about 244 unique candidates remain at 256 draws;
+coverage is 0.57\% in each seed and likelihood Hit@5 remains zero.
+
+Excluding exact training targets changes ordering without increasing the
+sampling budget. Because primary-test targets are chain-disjoint from training,
+their coverage is unchanged. At 256 draws, \dtg{} likelihood Hit@5 increases
+to 1.89\%/2.44\%, while \gtd{} reaches 0.57\%/0.19\%. This policy result
+is reported separately from the frozen primary endpoint. It cannot be applied
+unchanged as a general advantage in shared-target tasks, where exclusion may
+remove a legitimate test partner.
+
+The six-cell tuning-only temperature/top-$p$ grid has zero likelihood Hit@5
+in both directions for both fitted seeds at 64 draws. The prespecified tie
+rule retains temperature one and top-$p=0.95$; these sparse tuning outcomes
+do not establish an improved decoding setting. All grid cells and their
+coverage, validity, uniqueness and novelty are included in the supplement.
+
+Free-candidate calibration contains no recorded \gtd{} positive in any
+primary fit, triggering the specified reject-all rule. The \dtg{} calibration
+sets contain only one to six recorded positive candidates. Their selected
+likelihood/fused thresholds accept at least one candidate for every test query,
+without improving the very sparse top-five hits. These calibration data do not
+establish a useful operating point for biological candidate selection.
+
+Deterministically chosen descriptive examples illustrate both failure stages.
+For split 17/model seed 3407 in \dtg{}, 879 of 900 queries lack a recorded
+partner in the 64-draw candidate set, 19 contain one outside the likelihood
+top five, and two yield a top-five hit. In \gtd{}, the corresponding counts
+are 527, two and zero out of 529 queries. The supplement selects the first
+input in lexicographic order within each nonempty category and preserves its
+positives, ranked candidates and training-target flags. These examples are
+post-hoc descriptions, not additional independent validation.
+
+\section{Discussion}
+The principal model-level finding is a separation between likelihood improvement
+and finite-budget partner recovery. Pretraining gives a consistent NLL advantage
+over the matched random initialization, while the smaller conditional-minus-prior
+NLL advantage indicates some input-associated information under this training
+protocol. Neither establishes useful primary top-five recovery: candidate
+coverage is below one percent on average, and the ranker's paired primary
+improvement intervals all include zero. The data do not support presenting the
+pipeline as a validated receptor-design system.
+
+The direction and exposure comparisons sharpen this conclusion. Higher
+delta-to-gamma recovery under source and target-exposed protocols is a real
+recorded-pair outcome of the benchmark, including a strict-source result above
+its matched prior in both fitted seeds. Nevertheless, large prior and shuffled
+baselines, concentrated component-level events and changed training composition
+limit an input-specific transfer claim. Gamma-to-delta remains particularly
+difficult under the primary and source protocols. Differences in chain sequence
+distributions and target multiplicity are plausible contributors, but these
+experiments do not isolate their biological causes.
+
+The audited corpus exposes several distinct limits on interpreting partner
+recovery. First, the main paired training distribution is concentrated in one
+developmental-thymic study. Second, a giant component restricts which recorded
+public-chain combinations can appear in a both-chain-unseen test. Third, exact
+pretraining exclusion leaves most held-out gamma sequences only one edit from
+the pretraining pool. The strict distant sensitivity test is therefore too small
+to support a stable estimate. These are properties of the benchmark, independent
+of whether a particular scorer outperforms its controls.
+
+Likelihood, sampling coverage and ranking success answer different questions.
+A model can assign more probability to recorded partners without producing one
+within a finite sampling budget. A ranker can improve a fixed retrieval pool
+that includes the truth while failing to help a free candidate set that contains
+no recorded partner. Likewise, excluding training targets in a directional or
+source-shared task can remove legitimate recorded positives. Reporting all three
+axes prevents plausible sequence generation, truth-injected retrieval and
+biological pairing from being conflated.
+
+The study has additional limitations. The paired labels are incomplete, CDR3
+boundaries differ across upstream processing conventions, and equivalent
+cell-quality fields are unavailable for all sources. Source-shared and strict
+holdout differ in supervised training composition, and the nested component
+curve changes component composition. Donor identity cannot be fully recovered
+from the exports. The tested architecture and training budgets do not span all
+possible models. More informative external evaluation would require a newly
+frozen cohort with observation-level donor/library metadata and sufficient
+distant gamma/delta pairs, and functional claims would require independent
+experimental evidence. An apparent failure of these models is not proof of
+intrinsic non-identifiability.
+
+The initialization comparison matches the downstream optimizer and nominal
+step budget, with actual exposure recorded under early stopping. It does not
+match end-to-end computation: pretrained models receive additional denoising
+training. A fixed fine-tuning learning rate and step budget do not
+establish the best attainable randomly initialized model. Similarly, the frozen
+primary sampling rule estimates performance under a specified budget, not the
+optimal decoding strategy for each condition. These boundaries limit broad
+claims about pretraining efficiency or the capabilities of other architectures.
+
+These observations suggest concrete design changes for the next benchmark.
+Validation should be checked for independent query groups and actual distractors
+before freezing, rather than allocated solely by edge proportions. Data-efficiency
+experiments should separate graph composition from sample count, and randomly
+initialized models should receive their own validation tuning and an additional
+comparison at matched total computation. Source cohorts should be selected for
+traceable donor/library metadata and sufficient distant pairs. Sequence recovery,
+retrieval and functional screening would then remain separate endpoints, each
+with a dataset and uncertainty unit appropriate to its claim.
+
+\section{Conclusion}
+This benchmark finds lower target-token NLL after single-chain denoising and
+modest conditional information beyond a matched target prior, but very sparse
+free partner recovery under exact exclusion of both chains. Independent
+reranking does not show a consistent primary benefit. Recovery is substantially
+higher in several source and target-exposed tasks, where strong prior controls
+and component dependence are essential to interpretation. Frozen candidates,
+paired uncertainty and auditable exposure protocols provide a basis for future
+comparisons. The present evidence concerns recorded CDR3 pairs and the tested
+models; it establishes neither biological receptor function nor an intrinsic
+impossibility of partner prediction.
+
+\section*{Declarations}
+\subsection*{Ethics approval and consent to participate}
+This computational study reuses published sequence collections and involves no
+new participant recruitment, specimen collection or intervention. Ethical
+oversight and participant consent for the original collections are described in
+their source publications. The authors must confirm any required institutional
+determination for this secondary use, including the committee and reference if
+applicable, before journal submission; no exemption is inferred here.
+
+\subsection*{Consent for publication}
+The manuscript reports sequence-based analyses without participant names or
+images. A submission-specific consent-for-publication declaration remains for
+the authors to confirm.
+
+\subsection*{Availability of data and materials}
+The data card documents source accessions, processing and source limitations;
+the model card documents intended use and output interpretation. The local
+audit archive retains raw/processed hashes, frozen splits, commands, code
+snapshots, seeds, checkpoint hashes and saved query-level candidates. The
+anonymous review package provides the manuscript, figures, numerical
+supplements, source/configuration replicas and their provenance. Original
+sequence downloads remain subject to source-specific access and redistribution
+terms. No public deposition identifier or rights-holder license decision is
+asserted in this anonymous version.
+
+\subsection*{Competing interests}
+The authors' competing-interest declaration is withheld from this anonymous
+version and must be supplied and verified before submission. Absence of
+competing interests is not inferred.
+
+\subsection*{Funding}
+Funding and grant information is withheld from this anonymous version and must
+be supplied and verified before submission. No funding status is inferred.
+
+\subsection*{Authors' contributions}
+Author identities, order, affiliations, contributions and corresponding-author
+details are withheld for anonymous review and must be confirmed by the authors
+before submission.
+
+\subsection*{Acknowledgements}
+Identity-dependent acknowledgements are withheld for anonymous review. The use
+of an AI coding assistant and the need for author review are disclosed in the
+Methods. The assistant is not an author.
+
+\begin{thebibliography}{99}
+\bibitem{gd_review} Adams EJ, Gu S, Luoma AM.
+Human gamma delta T cells: Evolution and ligand recognition.
+Cellular Immunology. 2015;296:31--40. doi:10.1016/j.cellimm.2015.04.008.
+\bibitem{uctcrdb} Dou Y, Shan S, Zhang J.
+UcTCRdb: An unconventional T cell receptor sequence database with online analysis
+functions. Frontiers in Immunology. 2023;14:1158295.
+doi:10.3389/fimmu.2023.1158295.
+\bibitem{tcrdb2} Yue T, Chen SY, Shen WK, et al.
+TCRdb 2.0: an updated T-cell receptor sequence database.
+Nucleic Acids Research. 2026;54:D504--D510.
+doi:10.1093/nar/gkaf876.
+\bibitem{ots} Raybould MIJ, Greenshields-Watson A, Agarwal P, et al.
+The Observed T Cell Receptor Space database enables paired-chain repertoire
+mining, coherence analysis, and language modeling.
+Cell Reports. 2024;43:114704. doi:10.1016/j.celrep.2024.114704.
+\bibitem{tcrbert} Wu K, Yost KE, Daniel B, et al.
+TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding
+analyses. bioRxiv [preprint]. 2021. doi:10.1101/2021.11.18.469186.
+\bibitem{tcrbinder} Dong W, Yang Q, Xu L, et al.
+TCRBinder: Unified pre-trained language model with paired-chain synergy for
+predicting T-cell receptor binding specificity.
+PLoS Computational Biology. 2026;22:e1014396. doi:10.1371/journal.pcbi.1014396.
+\bibitem{tcrdesign} Li X, Yang Q, Xu L, et al.
+TCRdesign: an antigen-specific generative language model for de novo design of
+T-cell receptors. Briefings in Bioinformatics. 2025;26:bbaf691.
+doi:10.1093/bib/bbaf691.
+\bibitem{landry2025} Landry B, Zhang J.
+Masked language modeling pretraining dynamics for downstream peptide:
+T-cell receptor binding prediction. Bioinformatics Advances. 2025;5:vbaf028.
+doi:10.1093/bioadv/vbaf028.
+\bibitem{pairing_constraints} Milighetti M, Nagano Y, Henderson J, et al.
+Systematic analysis of CDR contacts and pairing constraints between T cell
+receptor alpha/beta chains.
+Bioinformatics. 2026;42:btag551. doi:10.1093/bioinformatics/btag551.
+\bibitem{tcrpair} M\"osch A, Frishman D.
+TCRpair: prediction of functional pairing between HLA-A*02:01-restricted
+T-cell receptor alpha and beta chains.
+Bioinformatics. 2021;37:3938--3940. doi:10.1093/bioinformatics/btab573.
+\bibitem{gse180059} Sanchez Sanchez G, Papadopoulou M, Azouz A, et al.
+Identification of distinct functional thymic programming of fetal and pediatric
+human gamma-delta thymocytes via single-cell analysis.
+Nature Communications. 2022;13:5842. doi:10.1038/s41467-022-33488-2.
+\bibitem{suo2022} Suo C, Dann E, Goh I, et al.
+Mapping the developing human immune system across organs.
+Science. 2022;376:eabo0510. doi:10.1126/science.abo0510.
+\bibitem{iedb} Vita R, Blazeska N, Marrama D, et al.
+The Immune Epitope Database (IEDB): 2024 update.
+Nucleic Acids Research. 2025;53:D436--D443. doi:10.1093/nar/gkae1092.
+\bibitem{pr_metrics} Saito T, Rehmsmeier M.
+The precision-recall plot is more informative than the ROC plot when evaluating
+binary classifiers on imbalanced datasets.
+PLoS ONE. 2015;10:e0118432. doi:10.1371/journal.pone.0118432.
+\end{thebibliography}
+% BEGIN GENERATED FIGURES
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth]{results/v2/figures/figure_1_data.pdf}
+\caption{Pairing-graph concentration and exact full-sequence Levenshtein proximity of test gamma queries to pretraining. Exact-chain exclusion does not remove near neighbors. The distant-edge counts are 5, 5 and 3 across the primary splits.}
+\label{fig:data}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth]{results/v2/figures/figure_2_primary.pdf}
+\caption{Primary free-generation results at 64 draws. Small points are the three split means after averaging two model seeds. Diamonds and bars are their mean and descriptive standard deviation, not independent-subject confidence intervals. Likelihood, ranker and fusion order the same conditional candidates.}
+\label{fig:primary}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth]{results/v2/figures/figure_3_retrieval.pdf}
+\caption{Fixed-pool retrieval, averaged over two seeds within each of three primary splits and then equally over splits. Pools include all recorded positives by construction and up to 100 unrecorded distractors, or the full role-specific target universe. Deterministic baselines have one value per split. Frequency scores are all zero under primary chain exclusion; that row reflects lexicographic tie breaking, not informative frequency prediction.}
+\label{fig:retrieval}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth]{results/v2/figures/figure_4_data_efficiency.pdf}
+\caption{Nested complete-component data-efficiency comparison on split 17. Lines are two-seed means; shading spans the two fitted-model estimates and is not a confidence interval. Actual subsets contain 725/1,814/2,249/7,254 edges (10.0/25.0/31.0/100\%). The nominal 50\% set is undersized. All smaller sets contain only singleton components; the largest component enters at full data, changing composition as well as sample size.}
+\label{fig:efficiency}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth]{results/v2/figures/figure_5_exposure_protocols.pdf}
+\caption{Distinct exposure protocols at 64 draws, shown as two-seed means with individual fitted-model points. The component-disjoint reference is split 17. Directional and source protocols use different query populations and training sets; changes across columns are diagnostic, not causal effects or independent replication. Unseen gamma-to-delta checkpoint selection has only one input and no ranking distractors. Study holdout is not donor-independent validation.}
+\label{fig:protocols}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth]{results/v2/figures/figure_6_budget_rejection.pdf}
+\caption{Split-17 sampling-budget and rejection sensitivity. Left: two-seed mean likelihood Hit@5 from nested 16/64/256-draw prefixes with training targets allowed or excluded. Right: calibration-quantile acceptance curves for each seed (solid/dashed); markers are independently calibrated thresholds. All test queries remain in the Hit@5 denominator. No point selects a threshold using test results.}
+\label{fig:budget}
+\end{figure}
+
+\clearpage
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth]{results/v2/figures/figure_S1_pretraining.pdf}
+\caption{Pretraining mixtures and downstream split-17 NLL. Left: two-seed reconstruction accuracy at corruption-selected sites, including the unchanged fraction of the 80/10/10 rule and deleted sites; aligned-copy accuracy is dotted and vertical ranges span fitted seeds. Other panels retain each downstream fitted-model estimate. All mixtures use 20,480,000 sequence draws; equal draws do not imply equal chain-specific or token exposure.}
+\label{fig:figure_S1_pretraining}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=\linewidth]{results/v2/figures/figure_S2_negative_training.pdf}
+\caption{Ranker negative-training sensitivity on split 17. Ratios 1/3/5 use random-only or mixed random/length-motif negatives. Bars average two model seeds; points retain each fitted ranker. Every setting reuses the primary generator's exact saved candidates and fixed pools, so differences reflect ranking and calibration rather than a new sampling budget.}
+\label{fig:figure_S2_negative_training}
+\end{figure}
+
+% END GENERATED FIGURES
+\end{document}

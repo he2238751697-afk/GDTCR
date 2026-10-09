@@ -1,0 +1,3168 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22gamma+delta%22+AND+TITLE_ABS%3A%22antigen+recognition%22+AND+FIRST_PDATE%3A%5B2018-01-01+TO+2026-09-30%5D&format=json&pageSize=10&resultType=core",
+  "retrieved_utc": "2026-09-30T05:56:43.040040+00:00",
+  "response": {
+    "version": "6.9",
+    "hitCount": 14,
+    "nextCursorMark": "AoIIQAB5aig1MjY4NTc2MA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22gamma+delta%22+AND+TITLE_ABS%3A%22antigen+recognition%22+AND+FIRST_PDATE%3A%5B2018-01-01+TO+2026-09-30%5D&cursorMark=AoIIQAB5aig1MjY4NTc2MA%3D%3D&resultType=core&pageSize=10&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"gamma delta\" AND TITLE_ABS:\"antigen recognition\" AND FIRST_PDATE:[2018-01-01 TO 2026-09-30]",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 10,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42375393",
+          "source": "MED",
+          "pmid": "42375393",
+          "pmcid": "PMC13310624",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13310624"
+            ]
+          },
+          "doi": "10.1016/j.omton.2026.201260",
+          "title": "Development of chimeric antigen receptors targeting the \u03b3\u03b4 T cell receptor.",
+          "authorString": "Cutmore LC, Lam N, Amatya C, Weissler KA, Hewitt SM, Natrakul DA, Kochenderfer JN.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Cutmore LC",
+                "lastName": "Cutmore",
+                "firstName": "Lauren C",
+                "initials": "LC",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Surgery Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lam N",
+                "lastName": "Lam",
+                "firstName": "Norris",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Surgery Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Amatya C",
+                "lastName": "Amatya",
+                "firstName": "Christina",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Surgery Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Weissler KA",
+                "lastName": "Weissler",
+                "firstName": "Katherine A",
+                "initials": "KA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Surgery Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hewitt SM",
+                "lastName": "Hewitt",
+                "firstName": "Stephen M",
+                "initials": "SM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Experimental Pathology Laboratory, Laboratory of Pathology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Natrakul DA",
+                "lastName": "Natrakul",
+                "firstName": "Danielle A",
+                "initials": "DA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Surgery Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kochenderfer JN",
+                "lastName": "Kochenderfer",
+                "firstName": "James N",
+                "initials": "JN",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Surgery Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "3",
+            "volume": "34",
+            "journalIssueId": 4222039,
+            "dateOfPublication": "2026 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Mol Ther Oncol",
+              "title": "Molecular therapy. Oncology",
+              "issn": "2950-3299",
+              "isoabbreviation": "Mol Ther Oncol",
+              "nlmid": "9918752083706676"
+            },
+            "printPublicationDate": "2026-09-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "201260",
+          "abstractText": "T cell malignancies expressing \u03b3\u03b4 T cell receptors (TCRs) have poor prognoses. No approved treatments specifically target \u03b3\u03b4 T cell malignancies. To address this deficiency, we aimed to develop chimeric antigen receptors (CARs) targeting the \u03b3\u03b4 TCR. We generated a panel of CARs with variations in antigen-recognition domains, hinge and transmembrane (HTM) domains, and costimulatory domains. We expressed CARs in human T cells by \u03b3-retroviral transduction. By assessing CAR T cell cytokine release in response to \u03b3\u03b4 TCR-expressing target cells, we identified two single-chain variable fragments (scFvs) with superior antigen specificity for the \u03b3\u03b4 TCR. CARs containing one of the two scFvs, which was designated maximal gamma-delta-long (MGDL), exhibited higher transduction efficiency. We compared three MGDL-containing CARs: MGDL-28Z (CD28 HTM and costimulatory domains), MGDL-CD828Z (CD8\u03b1 HTM domains and CD28 costimulatory domain), and MGDL-CD8BBZ (CD8\u03b1 HTM domains and 4-1BB costimulatory domain). Levels of antigen-specific cytokine release were higher for T cells expressing MGDL-28Z compared with the other MGDL CARs. We tested T cells expressing the three MGDL-containing CARs in two murine \u03b3\u03b4 T cell leukemia treatment models. MGDL-28Z-expressing T cells caused the most anti-leukemia activity and longest mouse survival. These findings support testing MGDL-28Z-expressing T cells in a clinical trial.",
+          "affiliation": "Surgery Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "National Institutes of Health",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health and Human Services",
+                "grantId": "ZIABC012157-02",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institutes of Health National Cancer Institute",
+                "grantId": "ZIABC012157-02",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Leukemia",
+              "Cancer",
+              "Immunotherapy",
+              "T cell",
+              "Lymphoma",
+              "Car",
+              "Chimeric Antigen Receptor",
+              "\u0393\u03b4 T Cells"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.omton.2026.201260"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13310624"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13310624?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-30",
+          "dateOfCreation": "2026-06-30",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-06",
+          "firstPublicationDate": "2026-06-06",
+          "firstIndexDate": "2026-07-02",
+          "fullTextReceivedDate": "2026-08-19",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41686911",
+          "source": "MED",
+          "pmid": "41686911",
+          "pmcid": "PMC13065098",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13065098"
+            ]
+          },
+          "doi": "10.1126/sciimmunol.adr7167",
+          "title": "TCR\u03b3 constant usage tunes human \u03b3\u03b4 T cell antigen sensitivity, thymic programming, and peripheral function.",
+          "authorString": "Viswanathan M, Castro CD, Broughton AE, Ramesh A, Asby N, Bergquist A, Kaiser C, Luna A, Huang J, Bissonnette M, Koh A, Hibino N, Schoettler N, Sperling A, Adams EJ.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Viswanathan M",
+                "lastName": "Viswanathan",
+                "firstName": "Mayuri",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8559-042X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Committee on Immunology, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Castro CD",
+                "lastName": "Castro",
+                "firstName": "Caitlin D",
+                "initials": "CD",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6920-611X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Committee on Immunology, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Broughton AE",
+                "lastName": "Broughton",
+                "firstName": "Augusta E",
+                "initials": "AE",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Committee on Immunology, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ramesh A",
+                "lastName": "Ramesh",
+                "firstName": "Amrita",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1181-5988"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biochemistry and Molecular Biology, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Asby N",
+                "lastName": "Asby",
+                "firstName": "Nicholas",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1675-7601"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bergquist A",
+                "lastName": "Bergquist",
+                "firstName": "Alejandra",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0008-0191-7562"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biochemistry and Molecular Biology, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kaiser C",
+                "lastName": "Kaiser",
+                "firstName": "Caroline",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2731-407X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human Genetics, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Luna A",
+                "lastName": "Luna",
+                "firstName": "Alexander",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Huang J",
+                "lastName": "Huang",
+                "firstName": "Jun",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0271-4384"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bissonnette M",
+                "lastName": "Bissonnette",
+                "firstName": "Marc",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8420-4294"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Koh A",
+                "lastName": "Koh",
+                "firstName": "Andrew",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4198-0143"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Committee on Immunology, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hibino N",
+                "lastName": "Hibino",
+                "firstName": "Narutoshi",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4551-9079"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Surgery, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Schoettler N",
+                "lastName": "Schoettler",
+                "firstName": "Nathan",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9851-6352"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sperling A",
+                "lastName": "Sperling",
+                "firstName": "Anne",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4265-9212"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, University of Virginia, Charlottesville, VA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Adams EJ",
+                "lastName": "Adams",
+                "firstName": "Erin J",
+                "initials": "EJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6271-8574"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Committee on Immunology, University of Chicago, Chicago, IL, USA."
+                    },
+                    {
+                      "affiliation": "Department of Biochemistry and Molecular Biology, University of Chicago, Chicago, IL, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6920-611X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8420-4294"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9851-6352"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1675-7601"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4198-0143"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4265-9212"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6271-8574"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8559-042X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0271-4384"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1181-5988"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2731-407X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4551-9079"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0008-0191-7562"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "116",
+            "volume": "11",
+            "journalIssueId": 4118389,
+            "dateOfPublication": "2026 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Sci Immunol",
+              "title": "Science immunology",
+              "essn": "2470-9468",
+              "issn": "2470-9468",
+              "isoabbreviation": "Sci Immunol",
+              "nlmid": "101688624"
+            },
+            "printPublicationDate": "2026-02-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "eadr7167",
+          "abstractText": "Activation in T cells through their antigen receptors has been closely tied to the strength of recognition of their cognate antigens, dictated by the variable complementarity-determining region loops. We show that, in the human gamma delta (\u03b3\u03b4) T cell receptors (TCRs), the gamma constant domains modulate activation intensity independent of variable region antigen recognition. Using single-cell RNA sequencing data, we demonstrate that C\u03b3 usage in vivo corresponds with distinct phenotypes, with cells using C\u03b31 having a more differentiated cytotoxic effector phenotype in the thymus and higher granzyme expression in peripheral tissues. TCRs with C\u03b31 are also selectively expanded in colorectal tumors. C\u03b32 usage is correlated with na\u00efve phenotypes in development and with inhibition and wound healing in the periphery. We propose that the modulation of activation using C\u03b31 or C\u03b32 translates to differences in \u03b3\u03b4 T cell phenotype and clonal expansion throughout its life span, providing human \u03b3\u03b4 T cells another \"dial\" to modulate their function.",
+          "affiliation": "Committee on Immunology, University of Chicago, Chicago, IL, USA.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Comprehensive Cancer Center, University of Chicago Medical Center",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI170844",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIGMS NIH HHS",
+                "acronym": "GM",
+                "grantId": "T32 GM150375",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institutes of Health",
+                "grantId": "AI155984",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institute of Allergy and Infectious Diseases",
+                "orderIn": 0
+              },
+              {
+                "agency": "University of Chicago",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI155984",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Thymus Gland",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Colorectal Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lymphocyte Activation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1126/sciimmunol.adr7167"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13065098"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13065098?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1126/sciimmunol.adr7167"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "MED",
+                "id": "41860995",
+                "reference": "Sci Immunol. 2026 Mar 20;11(117):eaeg7865. doi: 10.1126/sciimmunol.aeg7865.",
+                "type": "Erratum in",
+                "orderIn": 1
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "Y",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "Y",
+          "manuscriptId": "NIHMS2154770",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "cellosaurus",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-07-07",
+          "dateOfCreation": "2026-02-13",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-02-13",
+          "firstPublicationDate": "2026-02-13",
+          "firstIndexDate": "2026-02-14",
+          "fullTextReceivedDate": "2026-04-10",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41161891",
+          "source": "MED",
+          "pmid": "41161891",
+          "doi": "10.1016/bs.ircmb.2025.08.013",
+          "title": "Gamma-delta T cells in breast cancer: Dual role in tumor immunity and emerging therapeutic approaches.",
+          "authorString": "Silva-Romeiro S, S\u00e1nchez-Le\u00f3n ML, Jim\u00e9nez-Cortegana C, de Toro-Salas R, Machuca Aguado J, S\u00e1nchez-Margalet V, de la Cruz-Merino L.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Silva-Romeiro S",
+                "lastName": "Silva-Romeiro",
+                "firstName": "Silvia",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oncology Department, Virgen Macarena University Hospital, Seville, Spain; Instituto de Biomedicina de Sevilla (IBiS), Virgen Macarena University Hospital, University of Seville, Seville, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "S\u00e1nchez-Le\u00f3n ML",
+                "lastName": "S\u00e1nchez-Le\u00f3n",
+                "firstName": "Mar\u00eda Luisa",
+                "initials": "ML",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oncology Department, Virgen Macarena University Hospital, Seville, Spain; Instituto de Biomedicina de Sevilla (IBiS), Virgen Macarena University Hospital, University of Seville, Seville, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jim\u00e9nez-Cortegana C",
+                "lastName": "Jim\u00e9nez-Cortegana",
+                "firstName": "Carlos",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medical Biochemistry and Molecular Biology, School of Medicine, Virgen Macarena University Hospital, University of Seville, Seville, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "de Toro-Salas R",
+                "lastName": "de Toro-Salas",
+                "firstName": "Rub\u00e9n",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oncology Department, Virgen Macarena University Hospital, Seville, Spain; Instituto de Biomedicina de Sevilla (IBiS), Virgen Macarena University Hospital, University of Seville, Seville, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Machuca Aguado J",
+                "lastName": "Machuca Aguado",
+                "firstName": "Jes\u00fas",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2398-209X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Pathology Department, Virgen Macarena University Hospital, Seville, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "S\u00e1nchez-Margalet V",
+                "lastName": "S\u00e1nchez-Margalet",
+                "firstName": "V\u00edctor",
+                "initials": "V",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Instituto de Biomedicina de Sevilla (IBiS), Virgen Macarena University Hospital, University of Seville, Seville, Spain; Department of Medical Biochemistry and Molecular Biology, School of Medicine, Virgen Macarena University Hospital, University of Seville, Seville, Spain."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "de la Cruz-Merino L",
+                "lastName": "de la Cruz-Merino",
+                "firstName": "Luis",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Oncology Department, Virgen Macarena University Hospital, Seville, Spain; Instituto de Biomedicina de Sevilla (IBiS), Virgen Macarena University Hospital, University of Seville, Seville, Spain. Electronic address: ldelacruzmerino@gmail.com."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2398-209X"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "volume": "398",
+            "journalIssueId": 4039147,
+            "dateOfPublication": "2025 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Int Rev Cell Mol Biol",
+              "title": "International review of cell and molecular biology",
+              "issn": "1937-6448",
+              "isoabbreviation": "Int Rev Cell Mol Biol",
+              "nlmid": "101475846"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "185-207",
+          "abstractText": "Gamma delta (\u03b3\u03b4) T cells are a unique subset of T lymphocytes capable of bridging innate and adaptive immunity. Unlike \u03b1\u03b2 T lymphocytes, \u03b3\u03b4 T cells bypass the need for Major Histocompatibility Complex (MHC)-restricted antigen presentation, allowing them to rapidly respond to stress signals in contexts such as infections and cancer. In breast cancer (BC), \u03b3\u03b4 T cells play a dual role, exhibiting both anti-tumoral and pro-tumoral activities. Their capacity for direct cytotoxicity, cytokine production, and antigen presentation highlights their versatility within the tumor microenvironment (TME). The prognostic impact of \u03b3\u03b4 T cells in BC is complex and varies depending on their density, subset, and functional state. While V\u03b41\u00a0+\u00a0\u03b3\u03b4 T cells have been associated with improved survival, particularly in triple-negative BC, other subsets, such as IL-17-producing \u03b3\u03b4 T cells, contribute to tumor progression, promoting angiogenesis and immune suppression. The emerging therapeutic potential of \u03b3\u03b4 T cells resides in their MHC-independent activity and stress antigen recognition, highlighting their potential value in cancer immunotherapy, including adoptive cell therapies (e.g., chimeric antigen receptor-T approaches). Additionally, the combination of \u03b3\u03b4 T cells with immune checkpoint inhibitors or tumor-targeting antibodies has shown promise in overcoming the immunosuppressive challenges of the TME.",
+          "affiliation": "Oncology Department, Virgen Macarena University Hospital, Seville, Spain; Instituto de Biomedicina de Sevilla (IBiS), Virgen Macarena University Hospital, University of Seville, Seville, Spain.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Breast Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TH",
+                      "qualifierName": "therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunotherapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Tumor Microenvironment",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Intraepithelial Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunotherapy",
+              "Breast cancer",
+              "Tumor Microenvironment",
+              "Gamma Delta T Cells"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/bs.ircmb.2025.08.013"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2025-10-29",
+          "dateOfCreation": "2025-10-29",
+          "dateOfRevision": "2026-06-03",
+          "electronicPublicationDate": "2025-09-18",
+          "firstPublicationDate": "2025-09-18",
+          "firstIndexDate": "2025-10-30",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "41194129",
+          "source": "MED",
+          "pmid": "41194129",
+          "pmcid": "PMC12587523",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12587523"
+            ]
+          },
+          "doi": "10.1186/s12967-025-07259-8",
+          "title": "Innovative gene engineering strategies to address tumor antigen escape in cell therapy.",
+          "authorString": "Chen Y, Niu S, Li YR, Yang L.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Chen Y",
+                "lastName": "Chen",
+                "firstName": "Yuning",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+                    },
+                    {
+                      "affiliation": "Department of Bioengineering, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Niu S",
+                "lastName": "Niu",
+                "firstName": "Siyue",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0000-7847-6197"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+                    },
+                    {
+                      "affiliation": "Department of Bioengineering, University of California Los Angeles, Los Angeles, CA, 90095, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Li YR",
+                "lastName": "Li",
+                "firstName": "Yan-Ruide",
+                "initials": "YR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9858-300X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, University of California Los Angeles, Los Angeles, CA, 90095, USA. charlie.li@ucla.edu."
+                    },
+                    {
+                      "affiliation": "Department of Bioengineering, University of California Los Angeles, Los Angeles, CA, 90095, USA. charlie.li@ucla.edu."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang L",
+                "lastName": "Yang",
+                "firstName": "Lili",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, University of California Los Angeles, Los Angeles, CA, 90095, USA. liliyang@ucla.edu."
+                    },
+                    {
+                      "affiliation": "Department of Bioengineering, University of California Los Angeles, Los Angeles, CA, 90095, USA. liliyang@ucla.edu."
+                    },
+                    {
+                      "affiliation": "Molecular Biology Institute, University of California, Los Angeles, CA, 90095, USA. liliyang@ucla.edu."
+                    },
+                    {
+                      "affiliation": "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, University of California Los Angeles, Los Angeles, CA, 90095, USA. liliyang@ucla.edu."
+                    },
+                    {
+                      "affiliation": "Jonsson Comprehensive Cancer Center, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, 90095, USA. liliyang@ucla.edu."
+                    },
+                    {
+                      "affiliation": "Parker Institute for Cancer Immunotherapy, University of California Los Angeles, Los Angeles, CA, 90095, USA. liliyang@ucla.edu."
+                    },
+                    {
+                      "affiliation": "Goodman-Luskin Microbiome Center, University of California Los Angeles, Los Angeles, CA, 90095, USA. liliyang@ucla.edu."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9858-300X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0000-7847-6197"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "23",
+            "journalIssueId": 4042037,
+            "dateOfPublication": "2025 Nov",
+            "monthOfPublication": 11,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "J Transl Med",
+              "title": "Journal of translational medicine",
+              "essn": "1479-5876",
+              "issn": "1479-5876",
+              "isoabbreviation": "J Transl Med",
+              "nlmid": "101190741"
+            },
+            "printPublicationDate": "2025-11-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "1227",
+          "abstractText": "Tumor antigen escape limits the durability of antigen-specific immunotherapies, particularly chimeric antigen receptor (CAR)-based treatments. Malignant cells evade detection through six routes: antigen mutation or alternative splicing, impaired antigen processing, lineage switching, membrane redistribution, trogocytic epitope masking, and CAR-induced shielding during autologous manufacture. First noted in blood cancers, these tactics increasingly appear in solid tumors, where heterogeneity and immune suppression exacerbate escape. Emerging countermeasures broaden or restore antigen recognition: multi-specific modalities (dual/tandem CARs, bispecific engagers, adaptor CARs), logic-gated synNotch circuits, antigen-upregulating mRNA vaccines and epigenetic drugs, and non-conventional effectors such as invariant natural killer T (iNKT), gamma delta T (\u03b3\u03b4 T), and mucosal-associated invariant T (MAIT) cells. Collectively, these advances signal a shift toward adaptable, off-the-shelf, biomarker-guided platforms designed to keep pace with tumor evolution and achieve escape-resistant immunity.",
+          "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, University of California Los Angeles, Los Angeles, CA, 90095, USA.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TH",
+                      "qualifierName": "therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antigens, Neoplasm",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Genetic Engineering"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Tumor Escape",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cell- and Tissue-Based Therapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Chimeric Antigen",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Adoptive Cell Transfer",
+              "Immunotherapies",
+              "Tumor Antigen Escape",
+              "Car-based Cell Therapy",
+              "Unconventional T Cell Therapy; Multi-specific Cars"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antigens, Neoplasm",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Chimeric Antigen",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1186/s12967-025-07259-8"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12587523"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12587523?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 12,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2026-06-26",
+          "dateOfCreation": "2025-11-05",
+          "dateOfRevision": "2026-09-25",
+          "electronicPublicationDate": "2025-11-05",
+          "firstPublicationDate": "2025-11-05",
+          "firstIndexDate": "2025-11-06",
+          "fullTextReceivedDate": "2025-12-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40785982",
+          "source": "MED",
+          "pmid": "40785982",
+          "pmcid": "PMC12331877",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12331877"
+            ]
+          },
+          "doi": "10.1002/hem3.70182",
+          "title": "Harnessing the immunotherapeutic potentials of gamma delta T cells against hematological malignancies.",
+          "authorString": "Agbuduwe C, Maher J, Anderson J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Agbuduwe C",
+                "lastName": "Agbuduwe",
+                "firstName": "Charles",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4783-9853"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centre for Haematology Imperial College London London UK."
+                    },
+                    {
+                      "affiliation": "Catherine Lewis Centre (Haematology), Hammersmith Hospital Imperial College Healthcare NHS Trust London UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Maher J",
+                "lastName": "Maher",
+                "firstName": "John",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8275-8488"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Cancer and Pharmaceutical Sciences Kings College London London UK."
+                    },
+                    {
+                      "affiliation": "Department of Immunology Eastbourne Hospital Eastbourne East Sussex UK."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Anderson J",
+                "lastName": "Anderson",
+                "firstName": "John",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Zayed Centre for Research and The UCL Great Ormond Street Institute of Child Health University College London London UK."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8275-8488"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4783-9853"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "8",
+            "volume": "9",
+            "journalIssueId": 3992559,
+            "dateOfPublication": "2025 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Hemasphere",
+              "title": "HemaSphere",
+              "essn": "2572-9241",
+              "issn": "2572-9241",
+              "isoabbreviation": "Hemasphere",
+              "nlmid": "101740619"
+            },
+            "printPublicationDate": "2025-08-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "e70182",
+          "abstractText": "Gamma delta (\u03b3\u03b4) T cells, which constitute about 5%-10% of peripheral blood lymphocytes, play key roles in tumor immunosurveillance and are often enriched within epithelial tissues. They are unique in their Major Histocompatibility Complex-independent antigen recognition via the \u03b3\u03b4 T-cell receptor (TCR) as well as via innate receptors, making them ideal1 candidates for allogeneic \"off-the-shelf\" cell therapy products. In humans, two main structural subsets of \u03b3\u03b4 T cells-V\u03b41 and V\u03b42-have been defined, which differ in TCR\u03b4 chains, effector function, and tissue localizations. V\u03b42 T cells constitute the majority of \u03b3\u03b4 T cells in peripheral blood and can be expanded with aminobisphosphonates such as zoledronic acid. In recent years, the potent antitumor functions of V\u03b41 T cells have also been recognized, and new expansion protocols are being developed. Given the ample preclinical evidence of \u03b3\u03b4 T-cell efficacy against hematological malignancies, several \u03b3\u03b4 T-cell-based cell therapy products are currently in clinical development, and there has been an exponential increase in the number of adoptive \u03b3\u03b4 T-cell therapy clinical trials. This comprehensive review provides an overview of the rationale for \u03b3\u03b4 T-cell therapy, ongoing clinical trials, as well as the challenges and future role of \u03b3\u03b4 T-cell-based immune therapies in hematology.",
+          "affiliation": "Centre for Haematology Imperial College London London UK.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.1002/hem3.70182"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/hem3.70182"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12331877"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12331877?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 5,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-08-11",
+          "dateOfRevision": "2025-08-13",
+          "electronicPublicationDate": "2025-08-07",
+          "firstPublicationDate": "2025-08-07",
+          "firstIndexDate": "2025-08-21",
+          "fullTextReceivedDate": "2025-12-05",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "39748921",
+          "source": "MED",
+          "pmid": "39748921",
+          "pmcid": "PMC11693687",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11693687"
+            ]
+          },
+          "doi": "10.3389/fmed.2024.1480191",
+          "title": "Gamma delta T cells in cancer therapy: from tumor recognition to novel treatments.",
+          "authorString": "Luo X, Lv Y, Yang J, Long R, Qiu J, Deng Y, Tang G, Zhang C, Li J, Zuo J.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Luo X",
+                "lastName": "Luo",
+                "firstName": "Xinyu",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "The Affiliated Nanhua Hospital, Hengyang Medical School, University of South China, Hengyang, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lv Y",
+                "lastName": "Lv",
+                "firstName": "Yufan",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "The Affiliated Nanhua Hospital, Hengyang Medical School, University of South China, Hengyang, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang J",
+                "lastName": "Yang",
+                "firstName": "Jinsai",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Long R",
+                "lastName": "Long",
+                "firstName": "Rou",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Transformation Research Lab, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Qiu J",
+                "lastName": "Qiu",
+                "firstName": "Jieya",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Transformation Research Lab, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Deng Y",
+                "lastName": "Deng",
+                "firstName": "Yuqi",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Transformation Research Lab, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tang G",
+                "lastName": "Tang",
+                "firstName": "Guiyang",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Transformation Research Lab, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang C",
+                "lastName": "Zhang",
+                "firstName": "Chaohui",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "The Affiliated Nanhua Hospital, Hengyang Medical School, University of South China, Hengyang, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Li J",
+                "lastName": "Li",
+                "firstName": "Jiale",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zuo J",
+                "lastName": "Zuo",
+                "firstName": "Jianhong",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "The Affiliated Nanhua Hospital, Hengyang Medical School, University of South China, Hengyang, China."
+                    },
+                    {
+                      "affiliation": "Computer Institute, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+                    },
+                    {
+                      "affiliation": "Transformation Research Lab, Hengyang Medical School, University of South China, Hengyang, Hunan, China."
+                    },
+                    {
+                      "affiliation": "The Third Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "volume": "11",
+            "journalIssueId": 3703812,
+            "dateOfPublication": "2024 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Front Med (Lausanne)",
+              "title": "Frontiers in medicine",
+              "essn": "2296-858X",
+              "issn": "2296-858X",
+              "isoabbreviation": "Front Med (Lausanne)",
+              "nlmid": "101648047"
+            },
+            "printPublicationDate": "2024-01-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "1480191",
+          "abstractText": "Traditional immunotherapies mainly focus on \u03b1\u03b2 T cell-based strategies, which depend on MHC-mediated antigen recognition. However, this approach poses significant challenges in treating recurrent tumors, as immune escape mechanisms are widespread. \u03b3\u03b4 T cells, with their ability for MHC-independent antigen presentation, offer a promising alternative that could potentially overcome limitations observed in traditional immunotherapies. These cells play a role in tumor immune surveillance through a unique mechanism of antigen recognition and synergistic interactions with other immune effector cells. In this review, we will discuss the biological properties of the V\u03b41 and V\u03b42 T subsets of \u03b3\u03b4 T cells, their immunomodulatory role within the tumor microenvironment, and the most recent clinical advances in \u03b3\u03b4 T cell-based related immunotherapies, including cell engaging strategies and adoptive cell therapy.",
+          "affiliation": "The Affiliated Nanhua Hospital, Hengyang Medical School, University of South China, Hengyang, China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunotherapy",
+              "Tumor Microenvironment",
+              "Adoptive Cell Therapy",
+              "Gamma Delta T Cell",
+              "Car-\u03b3\u03b4 T Cell"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3389/fmed.2024.1480191"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11693687"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11693687?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-01-03",
+          "dateOfRevision": "2025-01-04",
+          "electronicPublicationDate": "2024-12-19",
+          "firstPublicationDate": "2024-12-19",
+          "firstIndexDate": "2025-01-03",
+          "fullTextReceivedDate": "2025-01-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40190167",
+          "source": "MED",
+          "pmid": "40190167",
+          "pmcid": "PMC11980450",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11980450"
+            ]
+          },
+          "doi": "10.1080/2162402x.2025.2485535",
+          "title": "EphA2 and phosphoantigen-mediated selective killing of medulloblastoma by \u03b3\u03b4T cells preserves neuronal and stem cell integrity.",
+          "authorString": "Boutin L, Liu M, D\u00e9chanet Merville J, Bedoya-Reina O, Wilhelm MT.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Boutin L",
+                "lastName": "Boutin",
+                "firstName": "Lola",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7928-6731"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Stockholm, Sweden."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Liu M",
+                "lastName": "Liu",
+                "firstName": "Mingzhi",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5842-8307"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Stockholm, Sweden."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "D\u00e9chanet Merville J",
+                "lastName": "D\u00e9chanet Merville",
+                "firstName": "Julie",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7521-9531"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "CNRS, ImmunoConcept, UMR 5164, Bordeaux University, Bordeaux, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bedoya-Reina O",
+                "lastName": "Bedoya-Reina",
+                "firstName": "Oscar",
+                "initials": "O",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0001-1703-2258"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Medical Sciences, \u00d6rebro University, \u00d6rebro, Sweden."
+                    },
+                    {
+                      "affiliation": "Department of Women's and Children's Health, Karolinska Institutet, Stockholm, Sweden."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wilhelm MT",
+                "lastName": "Wilhelm",
+                "firstName": "Margareta T",
+                "initials": "MT",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0516-9724"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Stockholm, Sweden."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5842-8307"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7521-9531"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7928-6731"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0516-9724"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0001-1703-2258"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "14",
+            "journalIssueId": 3867973,
+            "dateOfPublication": "2025 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Oncoimmunology",
+              "title": "Oncoimmunology",
+              "essn": "2162-402X",
+              "issn": "2162-4011",
+              "isoabbreviation": "Oncoimmunology",
+              "nlmid": "101570526"
+            },
+            "printPublicationDate": "2025-12-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "2485535",
+          "abstractText": "Medulloblastoma (MB) is a pediatric brain tumor that develops in the cerebellum, representing one of the most common malignant brain cancers in children. Standard treatments include surgery, chemotherapy, and radiation, but despite a 5-y survival rate of approximately 70%, these therapies often lead to significant neurological damage in the developing brain. This underscores the urgent need for less toxic, more effective therapeutic alternatives. Recent advancements in cancer immunotherapy, including immune checkpoint inhibitors and CAR-T cell therapy, have revolutionized cancer treatment. One promising avenue is the use of Gamma Delta (\u03b3\u03b4)T cells, a unique T cell population with potential advantages, such as non-alloreactivity, potent tumor cell lysis, and broad antigen recognition. However, their capacity to recognize and target MB cells remains underexplored. To investigate the therapeutic potential of \u03b3\u03b4T cells against MB, we analyzed the proportion and status of MB-infiltrated \u03b3\u03b4T cells within patient datasets. We next investigated the expression of \u03b3\u03b4T cell ligands on MB cells and identified the EphA2 receptor and the phosphoantigen/Butyrophilin complex as key ligands, activating V\u03b39\u2009V\u03b41 and V\u03b39\u2009V\u03b42 T cells, respectively, leading to significant MB cell lysis in both monolayer and spheroid models. Importantly, preliminary safety data showed that \u03b3\u03b4T cells did not target differentiated neurons or neuroepithelial stem cells derived from induced pluripotent stem cells, underscoring the selectivity and safety of this approach. In conclusion, \u03b3\u03b4T cells trigger an efficient and specific killing of MB and would offer a promising novel therapeutic strategy.",
+          "affiliation": "Department of Microbiology, Tumor and Cell Biology (MTC), Karolinska Institutet, Stockholm, Sweden.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Radiumhemmets Forskningsfonder",
+                "grantId": "214173",
+                "orderIn": 0
+              },
+              {
+                "agency": "Vetenskapsr\u00e5det",
+                "orderIn": 0
+              },
+              {
+                "agency": "Cancerfonden",
+                "grantId": "22 2236 Pj",
+                "orderIn": 0
+              },
+              {
+                "agency": "Barncancerfonden",
+                "grantId": "PR2021-0080",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Neurons",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Line, Tumor"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Medulloblastoma",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TH",
+                      "qualifierName": "therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cerebellar Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "TH",
+                      "qualifierName": "therapy"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptor, EphA2",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antigens, Neoplasm",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunotherapy, Adoptive",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Intraepithelial Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunotherapy",
+              "Medulloblastoma",
+              "Gamma Delta T Cells"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antigens, Neoplasm",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptor, EphA2",
+                "registryNumber": "EC 2.7.10.1"
+              },
+              {
+                "name": "EPHA2 protein, human",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.1080/2162402x.2025.2485535"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1080/2162402X.2025.2485535"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11980450"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11980450?pdf=render"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "PPR",
+                "id": "PPR923850",
+                "type": "Preprint in",
+                "note": "CrossRef Pre-print loader",
+                "orderIn": 10002
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo",
+              "nct",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2025-05-16",
+          "dateOfCreation": "2025-04-07",
+          "dateOfRevision": "2025-05-16",
+          "electronicPublicationDate": "2025-04-07",
+          "firstPublicationDate": "2025-04-07",
+          "firstIndexDate": "2025-04-07",
+          "fullTextReceivedDate": "2025-04-14",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "37393885",
+          "source": "MED",
+          "pmid": "37393885",
+          "doi": "10.1016/j.molimm.2023.06.012",
+          "title": "Distinct, age-dependent TLR7/8 signaling responses in porcine gamma-delta T cells.",
+          "authorString": "Bettin L, Darbellay J, van Kessel J, Scruten E, Napper S, Gerdts V.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Bettin L",
+                "lastName": "Bettin",
+                "firstName": "Leonie",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, Saskatchewan, Canada; Department of Veterinary Microbiology, Western College of Veterinary Medicine, University of Saskatchewan, Saskatoon, Saskatchewan, Canada."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Darbellay J",
+                "lastName": "Darbellay",
+                "firstName": "Joseph",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, Saskatchewan, Canada."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "van Kessel J",
+                "lastName": "van Kessel",
+                "firstName": "Jill",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, Saskatchewan, Canada."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Scruten E",
+                "lastName": "Scruten",
+                "firstName": "Erin",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, Saskatchewan, Canada."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Napper S",
+                "lastName": "Napper",
+                "firstName": "Scott",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, Saskatchewan, Canada; Department of Biochemistry, Microbiology and Immunology, University of Saskatchewan, Saskatoon, Saskatchewan, Canada."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gerdts V",
+                "lastName": "Gerdts",
+                "firstName": "Volker",
+                "initials": "V",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, Saskatchewan, Canada; Department of Veterinary Microbiology, Western College of Veterinary Medicine, University of Saskatchewan, Saskatoon, Saskatchewan, Canada. Electronic address: volker.gerdts@usask.ca."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "journalInfo": {
+            "volume": "160",
+            "journalIssueId": 3605994,
+            "dateOfPublication": "2023 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Mol Immunol",
+              "title": "Molecular immunology",
+              "essn": "1872-9142",
+              "issn": "0161-5890",
+              "isoabbreviation": "Mol Immunol",
+              "nlmid": "7905289"
+            },
+            "printPublicationDate": "2023-08-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "80-94",
+          "abstractText": "Gamma-Delta T cells are a prominent subset of T cells in pigs. However, developmental changes, antigen recognition, cell migration, and their contributions to pathogen clearance remain largely unknown. We have recently shown that porcine \u03b3\u03b4 T cells express Toll-like receptors (TLRs), and that TLR7/8 stimulation can function as a co-stimulatory signal that complements cytokine-induced signals to enhance INF\u03b3 production. Nonetheless, the signaling pathways behind this increased cytokine responsiveness remained unclear. Here, we analyzed the signaling pathways by measuring cellular kinase activity and selective inhibition, confirming that the TLR7/8 expression by \u03b3\u03b4 T cells is indeed functional. Moreover, TLR downstream signaling responses showed a distinct age-dependency, emphasizing the importance of age in immune function. While the TLR7/8 co-stimulation depended on activation of IRAK1/4, p38 and JNK in adult-derived \u03b3\u03b4 T cells, \u03b3\u03b4 T cells from young pigs utilized only p38, indicating the existence of an alternative signaling pathway in young pigs. Overall, this data suggests that porcine \u03b3\u03b4 T cells could be able to recognize viral RNA through TLR7/8 and subsequently support the survival and activation of the adaptive immune response by cytokine production.",
+          "affiliation": "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, Saskatchewan, Canada; Department of Veterinary Microbiology, Western College of Veterinary Medicine, University of Saskatchewan, Saskatoon, Saskatchewan, Canada.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "T-Lymphocytes"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Swine"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, gamma-delta"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cytokines"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Signal Transduction"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Toll-Like Receptor 7"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Age",
+              "Toll-like receptors",
+              "signaling pathways",
+              "Porcine \u0393\u03b4 T Cells"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell, gamma-delta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Cytokines",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Toll-Like Receptor 7",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.molimm.2023.06.012"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 1,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2023-10-23",
+          "dateOfCreation": "2023-07-02",
+          "dateOfRevision": "2023-10-25",
+          "electronicPublicationDate": "2023-06-30",
+          "firstPublicationDate": "2023-06-30",
+          "firstIndexDate": "2023-07-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR977550",
+          "source": "PPR",
+          "doi": "10.20944/preprints202502.0578.v1",
+          "title": "Car-\u03b3\u03b4 T Cells Targeting Claudin18.2 Show Superior Cytotoxicity Against Solid Tumor Compared to Traditional Car-\u03b1\u03b2 T Cells",
+          "authorString": "Zhao Y, Li Y, Wang S, Han J, Lu M, Xu Y, Qiao W, Cai M, Xu Y, Hu Y, Chen H, Zhang J, He W.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Zhao Y",
+                "lastName": "Zhao",
+                "firstName": "Yueqi",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Li Y",
+                "lastName": "Li",
+                "firstName": "Yinghui",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Wang S",
+                "lastName": "Wang",
+                "firstName": "Shuaiqi",
+                "initials": "S"
+              },
+              {
+                "fullName": "Han J",
+                "lastName": "Han",
+                "firstName": "Jingyi",
+                "initials": "J"
+              },
+              {
+                "fullName": "Lu M",
+                "lastName": "Lu",
+                "firstName": "Mingyang",
+                "initials": "M"
+              },
+              {
+                "fullName": "Xu Y",
+                "lastName": "Xu",
+                "firstName": "Yupeng",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Qiao W",
+                "lastName": "Qiao",
+                "firstName": "Wenhua",
+                "initials": "W"
+              },
+              {
+                "fullName": "Cai M",
+                "lastName": "Cai",
+                "firstName": "Menghua",
+                "initials": "M"
+              },
+              {
+                "fullName": "Xu Y",
+                "lastName": "Xu",
+                "firstName": "Yi",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Hu Y",
+                "lastName": "Hu",
+                "firstName": "Yu",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Chen H",
+                "lastName": "Chen",
+                "firstName": "Hui",
+                "initials": "H"
+              },
+              {
+                "fullName": "Zhang J",
+                "lastName": "Zhang",
+                "firstName": "Jianmin",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4765-0812"
+                }
+              },
+              {
+                "fullName": "He W",
+                "lastName": "He",
+                "firstName": "Wei",
+                "initials": "W"
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4765-0812"
+              }
+            ]
+          },
+          "pubYear": "2025",
+          "abstractText": "<h4>Background: </h4> Claudin18.2 (CLDN18.2) is highly expressed during the development of various malignant tumors, especially gastric cancer, and CAR-T cell targeting CLDN18.2 have therapeutic potential. However, their dependence on the major histocompatibility complex (MHC) for antigen recognition limits their application. Human Gamma Delta (\u03b3\u03b4) T cells, with strong MHC-independent cytotoxicity to most solid tumors both in vivo and in vitro, are emerging as ideal cells for the generation of robust universal CLDN18.2 CAR-T cell to treat solid tumors. Our aim was to construct a universal CAR-\u03b3\u03b4 T cell targeting CLDN18.2. <h4>Methods:</h4> We constructed novel CAR-CLDN18.2-\u03b3\u03b4 T cell by lentiviral infection and compared their superior efficacy in the treatment of CLDN18.2-positive solid tumors in vivo and in vitro. <h4>Results:</h4> CD3\u03b6 expression was verified in HEK293T cells after lentiviral transfection of CLDN18.2 CAR, and the lentivirus was packaged and concentrated to a titer of 4.90*108 TU/mL. Primary \u03b3\u03b4 T cells and \u03b1\u03b2 T cells were infected with efficiencies of approximately 31.76\u00b14.122% and 44.13\u00b14.436%, respectively. CAR-CLDN18.2-\u03b3\u03b4 T cells exhibited specific cytotoxicity against CLDN18.2-positive gastric cancer cells and secreted relatively high levels of Granzyme-B, Perforin-1 and IFN-\u03b3. CAR-\u03b3\u03b4 T cells also showed superior cytotoxicity to target cells compared to classical CAR-\u03b1\u03b2 T cell in vitro. Finally, the antitumor activity of \u03b3\u03b4 T-CAR-CLDN18.2 cells were evaluated in tumor-bearing NSG mice, and CAR-CLDN18.2-\u03b3\u03b4 T cells significantly inhibited tumor growth and prolonged the survival of the mice. <h4>Conclusions:</h4> Our results demonstrate that universal CAR-CLDN18.2-\u03b3\u03b4 T cell is promising for the treatment of CLDN18.2-positive solid tumor and provide insights for the development of more universal CAR-\u03b3\u03b4 T-cell strategies for tumor immunotherapy.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "Preprints.org",
+            "yearOfPublication": 2025
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.20944/preprints202502.0578.v1"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.20944/preprints202502.0578.v1"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "MED",
+                "id": "40149332",
+                "reference": "Cancers. \n    2025 Mar;17(6):998",
+                "type": "Preprint of",
+                "note": "Link created based on a title-first author match",
+                "orderIn": 10001
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2025-02-13",
+          "firstPublicationDate": "2025-02-10",
+          "firstIndexDate": "2025-02-13",
+          "versionList": {
+            "version": [
+              {
+                "id": "PPR977550",
+                "source": "PPR",
+                "versionNumber": 1,
+                "firstPublishDate": "2025-02-10",
+                "pubTypeList": {
+                  "pubType": [
+                    "preprint"
+                  ]
+                },
+                "hasEvaluations": "N"
+              }
+            ]
+          },
+          "versionNumber": 1,
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40149332",
+          "source": "MED",
+          "pmid": "40149332",
+          "pmcid": "PMC11940616",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11940616"
+            ]
+          },
+          "doi": "10.3390/cancers17060998",
+          "title": "CAR-\u03b3\u03b4 T Cells Targeting Claudin18.2 Show Superior Cytotoxicity Against Solid Tumor Compared to Traditional CAR-\u03b1\u03b2 T Cells.",
+          "authorString": "Zhao Y, Li Y, Wang S, Han J, Lu M, Xu Y, Qiao W, Cai M, Xu Y, Hu Y, Zhang J, Chen H, He W.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Zhao Y",
+                "lastName": "Zhao",
+                "firstName": "Yueqi",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Li Y",
+                "lastName": "Li",
+                "firstName": "Yinghui",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang S",
+                "lastName": "Wang",
+                "firstName": "Shuaiqi",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Han J",
+                "lastName": "Han",
+                "firstName": "Jingyi",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic Surgery, Qilu Hospital of Shandong University, Jinan 250012, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lu M",
+                "lastName": "Lu",
+                "firstName": "Mingyang",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xu Y",
+                "lastName": "Xu",
+                "firstName": "Yupeng",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Qiao W",
+                "lastName": "Qiao",
+                "firstName": "Wenhua",
+                "initials": "W",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cai M",
+                "lastName": "Cai",
+                "firstName": "Menghua",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xu Y",
+                "lastName": "Xu",
+                "firstName": "Yi",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    },
+                    {
+                      "affiliation": "Changzhou Xitaihu Institute for Frontier Technology of Cell Therapy, Changzhou 213000, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hu Y",
+                "lastName": "Hu",
+                "firstName": "Yu",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    },
+                    {
+                      "affiliation": "Beijing Jiadehe Cell Therapy Technology Co., Ltd., Beijing 100176, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang J",
+                "lastName": "Zhang",
+                "firstName": "Jianmin",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    },
+                    {
+                      "affiliation": "Changzhou Xitaihu Institute for Frontier Technology of Cell Therapy, Changzhou 213000, China."
+                    },
+                    {
+                      "affiliation": "Beijing Jiadehe Cell Therapy Technology Co., Ltd., Beijing 100176, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chen H",
+                "lastName": "Chen",
+                "firstName": "Hui",
+                "initials": "H",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0004-3980-1005"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    },
+                    {
+                      "affiliation": "Changzhou Xitaihu Institute for Frontier Technology of Cell Therapy, Changzhou 213000, China."
+                    },
+                    {
+                      "affiliation": "Beijing Jiadehe Cell Therapy Technology Co., Ltd., Beijing 100176, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "He W",
+                "lastName": "He",
+                "firstName": "Wei",
+                "initials": "W",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0009-0004-3980-1005"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "17",
+            "journalIssueId": 3919458,
+            "dateOfPublication": "2025 Mar",
+            "monthOfPublication": 3,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Cancers (Basel)",
+              "title": "Cancers",
+              "essn": "2072-6694",
+              "issn": "2072-6694",
+              "isoabbreviation": "Cancers (Basel)",
+              "nlmid": "101526829"
+            },
+            "printPublicationDate": "2025-03-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "998",
+          "abstractText": "<h4>Background</h4>Claudin18.2 (CLDN18.2) is highly expressed during the development of various malignant tumors, especially gastric cancer, and CAR-T cells targeting CLDN18.2 have therapeutic potential. However, their dependence on the major histocompatibility complex (MHC) for antigen recognition limits their application. Human Gamma Delta (\u03b3\u03b4) T cells, with strong MHC-independent cytotoxicity to most solid tumors both in vivo and in vitro, are emerging as ideal cells for the generation of robust universal CLDN18.2 CAR-T cells to treat solid tumors. Our aim was to construct a universal CAR-\u03b3\u03b4 T cell targeting CLDN18.2.<h4>Methods</h4>We constructed novel CAR-CLDN18.2-\u03b3\u03b4 T cells by lentiviral infection and compared their superior efficacy in the treatment of CLDN18.2-positive solid tumors in vivo and in vitro.<h4>Results</h4>CD3\u03b6 expression was verified in HEK293T cells after lentiviral transfection of CLDN18.2 CAR, and the lentivirus was packaged and concentrated to a titer of 4.90 \u00d7 10<sup>8</sup> TU/mL. Primary \u03b3\u03b4 T cells and \u03b1\u03b2 T cells were infected with efficiencies of approximately 31.76 \u00b1 4.122% and 44.13 \u00b1 4.436%, respectively. CAR-CLDN18.2-\u03b3\u03b4 T cells exhibited specific cytotoxicity against CLDN18.2-positive gastric cancer cells and secreted relatively high levels of Granzyme-B, Perforin-1, and IFN-\u03b3. CAR-\u03b3\u03b4 T cells also showed superior cytotoxicity to target cells compared to classical CAR-\u03b1\u03b2 T cells in vitro. Finally, the antitumor activity of \u03b3\u03b4 T-CAR-CLDN18.2 cells was evaluated in tumor-bearing NSG mice, and CAR-CLDN18.2-\u03b3\u03b4 T cells significantly inhibited tumor growth and prolonged the survival of the mice.<h4>Conclusions</h4>Our results demonstrate that universal CAR-CLDN18.2-\u03b3\u03b4 T cell is promising for the treatment of CLDN18.2-positive solid tumor and provide insights for the development of more universal CAR-\u03b3\u03b4 T-cell strategies for tumor immunotherapy.",
+          "affiliation": "Department of Immunology, CAMS Key Laboratory T-Cell and Cancer Immunotherapy, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and School of Basic Medicine, Peking Union Medical College, State Key Laboratory of Common Mechanism Research for Major Diseases, Beijing 100005, China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Beijing Municipal Commission of Science and Technology Fund for Innovative Drugs",
+                "grantId": "2021-I2M-1-035",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Key Research and Development Program of China",
+                "grantId": "2021-I2M-1-035",
+                "orderIn": 0
+              },
+              {
+                "agency": "CAMS Initiative for Innovative Medicine",
+                "grantId": "2022YFC3602004",
+                "orderIn": 0
+              },
+              {
+                "agency": "Beijing Municipal Commission of Science and Technology Fund for Innovative Drugs",
+                "grantId": "Z221100007922040",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Key Research and Development Program of China",
+                "grantId": "U20A20374",
+                "orderIn": 0
+              },
+              {
+                "agency": "Beijing Municipal Commission of Science and Technology Fund for Innovative Drugs",
+                "grantId": "32270915",
+                "orderIn": 0
+              },
+              {
+                "agency": "Beijing Municipal Commission of Science and Technology Fund for Innovative Drugs",
+                "grantId": "2022YFC3602004",
+                "orderIn": 0
+              },
+              {
+                "agency": "Beijing Municipal Commission of Science and Technology Fund for Innovative Drugs",
+                "grantId": "32300745",
+                "orderIn": 0
+              },
+              {
+                "agency": "CAMS Initiative for Innovative Medicine",
+                "grantId": "U20A20374",
+                "orderIn": 0
+              },
+              {
+                "agency": "CAMS Initiative for Innovative Medicine",
+                "grantId": "32270915",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Key Research and Development Program of China",
+                "grantId": "32300745",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "Z221100007922040",
+                "orderIn": 0
+              },
+              {
+                "agency": "CAMS Initiative for Innovative Medicine",
+                "grantId": "2021-I2M-1-035",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "2021-I2M-1-035",
+                "orderIn": 0
+              },
+              {
+                "agency": "CAMS Initiative for Innovative Medicine, the National Natural Science Foundation of China, the Beijing Municipal Commission of Science and Technology Fund for Innovative Drugs and the National Key Research and Development Program of China.",
+                "grantId": "2021-I2M-1-035\uff0c32270915, U20A20374 and 32300745\uff0cZ221100007922040\uff0c2022YFC3602004",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Key Research and Development Program of China",
+                "grantId": "2022YFC3602004",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "2022YFC3602004",
+                "orderIn": 0
+              },
+              {
+                "agency": "Beijing Municipal Commission of Science and Technology Fund for Innovative Drugs",
+                "grantId": "U20A20374",
+                "orderIn": 0
+              },
+              {
+                "agency": "CAMS Initiative for Innovative Medicine",
+                "grantId": "Z221100007922040",
+                "orderIn": 0
+              },
+              {
+                "agency": "CAMS Initiative for Innovative Medicine",
+                "grantId": "32300745",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "32300745",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Key Research and Development Program of China",
+                "grantId": "32270915",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "32270915",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "U20A20374",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Key Research and Development Program of China",
+                "grantId": "Z221100007922040",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunotherapy",
+              "\u0393\u03b4 T Cell",
+              "Cldn18.2",
+              "Universal Car-t Cell"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/cancers17060998"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11940616"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11940616?pdf=render"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "PPR",
+                "id": "PPR977550",
+                "type": "Preprint in",
+                "note": "Link created based on a title-first author match",
+                "orderIn": 10002
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 12,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2025-03-28",
+          "dateOfRevision": "2025-03-30",
+          "electronicPublicationDate": "2025-03-17",
+          "firstPublicationDate": "2025-03-17",
+          "firstIndexDate": "2025-04-01",
+          "fullTextReceivedDate": "2025-11-27",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

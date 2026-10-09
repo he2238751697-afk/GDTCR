@@ -1,0 +1,465 @@
+{
+  "replacements": [
+    {
+      "new_index": 0,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/generator_source_correction_jobs.json",
+      "new_manifest_sha256": "29879ad7f32b8cbafbc1f444b5580bb503167a62a293e4390c70d271c2da7b2a",
+      "old_index": 24,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/generator_jobs.json",
+      "old_manifest_sha256": "f34fc55f326bd41ee0ecb46e22ad37b3df59a6f32bfa2c49282af3f04aa7c281",
+      "reason": "Use protocol-required source-excluded initialization in source_shared",
+      "task_id": "generator-source_shared-paired-seed-0"
+    },
+    {
+      "new_index": 1,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/generator_source_correction_jobs.json",
+      "new_manifest_sha256": "29879ad7f32b8cbafbc1f444b5580bb503167a62a293e4390c70d271c2da7b2a",
+      "old_index": 25,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/generator_jobs.json",
+      "old_manifest_sha256": "f34fc55f326bd41ee0ecb46e22ad37b3df59a6f32bfa2c49282af3f04aa7c281",
+      "reason": "Use protocol-required source-excluded initialization in source_shared",
+      "task_id": "generator-source_shared-constant-seed-0"
+    },
+    {
+      "new_index": 2,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/generator_source_correction_jobs.json",
+      "new_manifest_sha256": "29879ad7f32b8cbafbc1f444b5580bb503167a62a293e4390c70d271c2da7b2a",
+      "old_index": 58,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/generator_jobs.json",
+      "old_manifest_sha256": "f34fc55f326bd41ee0ecb46e22ad37b3df59a6f32bfa2c49282af3f04aa7c281",
+      "reason": "Use protocol-required source-excluded initialization in source_shared",
+      "task_id": "generator-source_shared-paired-seed-1"
+    },
+    {
+      "new_index": 3,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/generator_source_correction_jobs.json",
+      "new_manifest_sha256": "29879ad7f32b8cbafbc1f444b5580bb503167a62a293e4390c70d271c2da7b2a",
+      "old_index": 59,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/generator_jobs.json",
+      "old_manifest_sha256": "f34fc55f326bd41ee0ecb46e22ad37b3df59a6f32bfa2c49282af3f04aa7c281",
+      "reason": "Use protocol-required source-excluded initialization in source_shared",
+      "task_id": "generator-source_shared-constant-seed-1"
+    },
+    {
+      "new_index": 0,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 0,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-main-split_seed17-seed-0"
+    },
+    {
+      "new_index": 1,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 1,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-random_init-split_seed17-seed-0"
+    },
+    {
+      "new_index": 2,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 2,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-main-split_seed3407-seed-0"
+    },
+    {
+      "new_index": 3,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 3,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-random_init-split_seed3407-seed-0"
+    },
+    {
+      "new_index": 4,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 4,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-main-split_seed2026-seed-0"
+    },
+    {
+      "new_index": 5,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 5,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-random_init-split_seed2026-seed-0"
+    },
+    {
+      "new_index": 6,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 6,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-random1-seed-0"
+    },
+    {
+      "new_index": 7,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 7,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-random3-seed-0"
+    },
+    {
+      "new_index": 8,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 8,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-random5-seed-0"
+    },
+    {
+      "new_index": 9,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 9,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-mixed1-seed-0"
+    },
+    {
+      "new_index": 10,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 10,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-mixed5-seed-0"
+    },
+    {
+      "new_index": 11,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 11,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-pretrain_raw-seed-0"
+    },
+    {
+      "new_index": 12,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 12,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-pretrain_balanced-seed-0"
+    },
+    {
+      "new_index": 13,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 13,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-pretrain_gamma-seed-0"
+    },
+    {
+      "new_index": 14,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 14,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-pretrain_delta-seed-0"
+    },
+    {
+      "new_index": 15,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 15,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-source_holdout-seed-0"
+    },
+    {
+      "new_index": 16,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 16,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-source_shared-seed-0"
+    },
+    {
+      "new_index": 17,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 17,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-unseen_input_gamma_to_delta-seed-0"
+    },
+    {
+      "new_index": 18,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 18,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-unseen_input_delta_to_gamma-seed-0"
+    },
+    {
+      "new_index": 19,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 19,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-seen_input_gamma_to_delta-seed-0"
+    },
+    {
+      "new_index": 20,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 20,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-seen_input_delta_to_gamma-seed-0"
+    },
+    {
+      "new_index": 21,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 21,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-main-split_seed17-seed-1"
+    },
+    {
+      "new_index": 22,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 22,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-random_init-split_seed17-seed-1"
+    },
+    {
+      "new_index": 23,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 23,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-main-split_seed3407-seed-1"
+    },
+    {
+      "new_index": 24,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 24,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-random_init-split_seed3407-seed-1"
+    },
+    {
+      "new_index": 25,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 25,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-main-split_seed2026-seed-1"
+    },
+    {
+      "new_index": 26,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 26,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-random_init-split_seed2026-seed-1"
+    },
+    {
+      "new_index": 27,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 27,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-random1-seed-1"
+    },
+    {
+      "new_index": 28,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 28,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-random3-seed-1"
+    },
+    {
+      "new_index": 29,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 29,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-random5-seed-1"
+    },
+    {
+      "new_index": 30,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 30,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-mixed1-seed-1"
+    },
+    {
+      "new_index": 31,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 31,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-negatives-mixed5-seed-1"
+    },
+    {
+      "new_index": 32,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 32,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-pretrain_raw-seed-1"
+    },
+    {
+      "new_index": 33,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 33,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-pretrain_balanced-seed-1"
+    },
+    {
+      "new_index": 34,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 34,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-pretrain_gamma-seed-1"
+    },
+    {
+      "new_index": 35,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 35,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-pretrain_delta-seed-1"
+    },
+    {
+      "new_index": 36,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 36,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-source_holdout-seed-1"
+    },
+    {
+      "new_index": 37,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 37,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-source_shared-seed-1"
+    },
+    {
+      "new_index": 38,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 38,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-unseen_input_gamma_to_delta-seed-1"
+    },
+    {
+      "new_index": 39,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 39,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-unseen_input_delta_to_gamma-seed-1"
+    },
+    {
+      "new_index": 40,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 40,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-seen_input_gamma_to_delta-seed-1"
+    },
+    {
+      "new_index": 41,
+      "new_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_corrected_jobs.json",
+      "new_manifest_sha256": "5d6969b400bc20bc4b7523f1ee16439da30c1a701d19c45bcbcb616b3962baca",
+      "old_index": 41,
+      "old_manifest": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/ranker_jobs.json",
+      "old_manifest_sha256": "b722f0382dfdc493274863c63b9b8191aba6e43b98cd61b340c761de08d01ab5",
+      "reason": "Apply frozen known-partner exclusion to validation-only checkpoint selection",
+      "task_id": "ranker-seen_input_delta_to_gamma-seed-1"
+    }
+  ],
+  "schema_version": 2
+}

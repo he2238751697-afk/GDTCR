@@ -1,0 +1,722 @@
+{
+  "base_prefix": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2",
+  "created_utc": "2026-09-30T05:02:34.429589+00:00",
+  "executable": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "lock_path": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/configs/completion_v2/requirements-lock.txt",
+  "lock_sha256": "c97f77ff0b1dfc35888b3ec7395bde340a6f42f42399f03abf4a04b03fb13cf8",
+  "package_installations": {
+    "annotated-doc": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.0.4"
+      }
+    ],
+    "anyio": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "4.13.0"
+      }
+    ],
+    "certifi": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2026.4.22"
+      }
+    ],
+    "click": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "8.3.3"
+      }
+    ],
+    "contourpy": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.3.2"
+      }
+    ],
+    "cuda-bindings": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "13.2.0"
+      }
+    ],
+    "cuda-pathfinder": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.5.4"
+      }
+    ],
+    "cuda-toolkit": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "13.0.2"
+      }
+    ],
+    "cycler": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.12.1"
+      }
+    ],
+    "exceptiongroup": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.3.1"
+      }
+    ],
+    "filelock": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.29.0"
+      }
+    ],
+    "fonttools": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "4.63.0"
+      }
+    ],
+    "fsspec": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2026.4.0"
+      }
+    ],
+    "h11": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.16.0"
+      }
+    ],
+    "hf-xet": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.5.0"
+      }
+    ],
+    "httpcore": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.0.9"
+      }
+    ],
+    "httpx": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.28.1"
+      }
+    ],
+    "huggingface-hub": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.15.0"
+      }
+    ],
+    "idna": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.15"
+      }
+    ],
+    "jinja2": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.1.6"
+      }
+    ],
+    "joblib": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.5.3"
+      }
+    ],
+    "kiwisolver": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.5.0"
+      }
+    ],
+    "llvmlite": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.47.0"
+      }
+    ],
+    "logomaker": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.8.7"
+      }
+    ],
+    "markdown-it-py": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "4.2.0"
+      }
+    ],
+    "markupsafe": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.0.3"
+      }
+    ],
+    "matplotlib": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.10.9"
+      }
+    ],
+    "mdurl": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.1.2"
+      }
+    ],
+    "mhcii-esm2-binding": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.1.0"
+      }
+    ],
+    "mpmath": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.3.0"
+      }
+    ],
+    "networkx": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.4.2"
+      }
+    ],
+    "numba": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.65.1"
+      }
+    ],
+    "numpy": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2.2.6"
+      }
+    ],
+    "nvidia-cublas": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "13.1.1.3"
+      }
+    ],
+    "nvidia-cublas-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.6.4.1"
+      }
+    ],
+    "nvidia-cuda-cupti": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "13.0.85"
+      }
+    ],
+    "nvidia-cuda-cupti-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.6.80"
+      }
+    ],
+    "nvidia-cuda-nvrtc": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "13.0.88"
+      }
+    ],
+    "nvidia-cuda-nvrtc-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.6.77"
+      }
+    ],
+    "nvidia-cuda-runtime": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "13.0.96"
+      }
+    ],
+    "nvidia-cuda-runtime-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.6.77"
+      }
+    ],
+    "nvidia-cudnn-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "9.5.1.17"
+      }
+    ],
+    "nvidia-cudnn-cu13": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "9.20.0.48"
+      }
+    ],
+    "nvidia-cufft": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.0.0.61"
+      }
+    ],
+    "nvidia-cufft-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "11.3.0.4"
+      }
+    ],
+    "nvidia-cufile": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.15.1.6"
+      }
+    ],
+    "nvidia-cufile-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.11.1.6"
+      }
+    ],
+    "nvidia-curand": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "10.4.0.35"
+      }
+    ],
+    "nvidia-curand-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "10.3.7.77"
+      }
+    ],
+    "nvidia-cusolver": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.0.4.66"
+      }
+    ],
+    "nvidia-cusolver-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "11.7.1.2"
+      }
+    ],
+    "nvidia-cusparse": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.6.3.3"
+      }
+    ],
+    "nvidia-cusparse-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.5.4.2"
+      }
+    ],
+    "nvidia-cusparselt-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.6.3"
+      }
+    ],
+    "nvidia-cusparselt-cu13": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.8.1"
+      }
+    ],
+    "nvidia-nccl-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2.26.2"
+      }
+    ],
+    "nvidia-nccl-cu13": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2.29.7"
+      }
+    ],
+    "nvidia-nvjitlink": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "13.0.88"
+      }
+    ],
+    "nvidia-nvjitlink-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.6.85"
+      }
+    ],
+    "nvidia-nvshmem-cu13": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.4.5"
+      }
+    ],
+    "nvidia-nvtx": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "13.0.85"
+      }
+    ],
+    "nvidia-nvtx-cu12": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.6.77"
+      }
+    ],
+    "packaging": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "26.0"
+      }
+    ],
+    "pandas": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2.3.3"
+      }
+    ],
+    "pillow": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "12.2.0"
+      }
+    ],
+    "pip": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/lib/python3.10/site-packages",
+        "version": "23.0.1"
+      },
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "26.0.1"
+      }
+    ],
+    "pygments": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2.20.0"
+      }
+    ],
+    "pynndescent": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.6.0"
+      }
+    ],
+    "pyparsing": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.3.2"
+      }
+    ],
+    "python-dateutil": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2.9.0.post0"
+      }
+    ],
+    "pytz": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2026.2"
+      }
+    ],
+    "pyyaml": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "6.0.3"
+      }
+    ],
+    "rapidfuzz": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/lib/python3.10/site-packages",
+        "version": "3.9.7"
+      }
+    ],
+    "regex": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2026.5.9"
+      }
+    ],
+    "rich": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "15.0.0"
+      }
+    ],
+    "safetensors": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.7.0"
+      }
+    ],
+    "scikit-learn": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.7.2"
+      }
+    ],
+    "scipy": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.15.3"
+      }
+    ],
+    "seaborn": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.13.2"
+      }
+    ],
+    "setuptools": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/lib/python3.10/site-packages",
+        "version": "79.0.1"
+      },
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "81.0.0"
+      }
+    ],
+    "shellingham": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.5.4"
+      }
+    ],
+    "six": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.17.0"
+      }
+    ],
+    "sympy": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "1.14.0"
+      }
+    ],
+    "threadpoolctl": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.6.0"
+      }
+    ],
+    "tokenizers": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.22.2"
+      }
+    ],
+    "torch": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2.7.1+cu126"
+      }
+    ],
+    "tqdm": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "4.67.3"
+      }
+    ],
+    "transformers": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "5.8.1"
+      }
+    ],
+    "triton": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "3.3.1"
+      }
+    ],
+    "typer": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.25.1"
+      }
+    ],
+    "typing-extensions": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "4.15.0"
+      }
+    ],
+    "tzdata": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "2026.2"
+      }
+    ],
+    "umap-learn": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.5.12"
+      }
+    ],
+    "wheel": [
+      {
+        "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+        "version": "0.46.3"
+      }
+    ]
+  },
+  "packages": {
+    "annotated-doc": "0.0.4",
+    "anyio": "4.13.0",
+    "certifi": "2026.4.22",
+    "click": "8.3.3",
+    "contourpy": "1.3.2",
+    "cuda-bindings": "13.2.0",
+    "cuda-pathfinder": "1.5.4",
+    "cuda-toolkit": "13.0.2",
+    "cycler": "0.12.1",
+    "exceptiongroup": "1.3.1",
+    "filelock": "3.29.0",
+    "fonttools": "4.63.0",
+    "fsspec": "2026.4.0",
+    "h11": "0.16.0",
+    "hf-xet": "1.5.0",
+    "httpcore": "1.0.9",
+    "httpx": "0.28.1",
+    "huggingface-hub": "1.15.0",
+    "idna": "3.15",
+    "jinja2": "3.1.6",
+    "joblib": "1.5.3",
+    "kiwisolver": "1.5.0",
+    "llvmlite": "0.47.0",
+    "logomaker": "0.8.7",
+    "markdown-it-py": "4.2.0",
+    "markupsafe": "3.0.3",
+    "matplotlib": "3.10.9",
+    "mdurl": "0.1.2",
+    "mhcii-esm2-binding": "0.1.0",
+    "mpmath": "1.3.0",
+    "networkx": "3.4.2",
+    "numba": "0.65.1",
+    "numpy": "2.2.6",
+    "nvidia-cublas": "13.1.1.3",
+    "nvidia-cublas-cu12": "12.6.4.1",
+    "nvidia-cuda-cupti": "13.0.85",
+    "nvidia-cuda-cupti-cu12": "12.6.80",
+    "nvidia-cuda-nvrtc": "13.0.88",
+    "nvidia-cuda-nvrtc-cu12": "12.6.77",
+    "nvidia-cuda-runtime": "13.0.96",
+    "nvidia-cuda-runtime-cu12": "12.6.77",
+    "nvidia-cudnn-cu12": "9.5.1.17",
+    "nvidia-cudnn-cu13": "9.20.0.48",
+    "nvidia-cufft": "12.0.0.61",
+    "nvidia-cufft-cu12": "11.3.0.4",
+    "nvidia-cufile": "1.15.1.6",
+    "nvidia-cufile-cu12": "1.11.1.6",
+    "nvidia-curand": "10.4.0.35",
+    "nvidia-curand-cu12": "10.3.7.77",
+    "nvidia-cusolver": "12.0.4.66",
+    "nvidia-cusolver-cu12": "11.7.1.2",
+    "nvidia-cusparse": "12.6.3.3",
+    "nvidia-cusparse-cu12": "12.5.4.2",
+    "nvidia-cusparselt-cu12": "0.6.3",
+    "nvidia-cusparselt-cu13": "0.8.1",
+    "nvidia-nccl-cu12": "2.26.2",
+    "nvidia-nccl-cu13": "2.29.7",
+    "nvidia-nvjitlink": "13.0.88",
+    "nvidia-nvjitlink-cu12": "12.6.85",
+    "nvidia-nvshmem-cu13": "3.4.5",
+    "nvidia-nvtx": "13.0.85",
+    "nvidia-nvtx-cu12": "12.6.77",
+    "packaging": "26.0",
+    "pandas": "2.3.3",
+    "pillow": "12.2.0",
+    "pip": "23.0.1",
+    "pygments": "2.20.0",
+    "pynndescent": "0.6.0",
+    "pyparsing": "3.3.2",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2026.2",
+    "pyyaml": "6.0.3",
+    "rapidfuzz": "3.9.7",
+    "regex": "2026.5.9",
+    "rich": "15.0.0",
+    "safetensors": "0.7.0",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3",
+    "seaborn": "0.13.2",
+    "setuptools": "79.0.1",
+    "shellingham": "1.5.4",
+    "six": "1.17.0",
+    "sympy": "1.14.0",
+    "threadpoolctl": "3.6.0",
+    "tokenizers": "0.22.2",
+    "torch": "2.7.1+cu126",
+    "tqdm": "4.67.3",
+    "transformers": "5.8.1",
+    "triton": "3.3.1",
+    "typer": "0.25.1",
+    "typing-extensions": "4.15.0",
+    "tzdata": "2026.2",
+    "umap-learn": "0.5.12",
+    "wheel": "0.46.3"
+  },
+  "platform": "Linux-4.18.0-372.9.1.el8.x86_64-x86_64-with-glibc2.28",
+  "prefix": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime",
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "script_sha256": "84a85e516a998fc214750ce08b302fb725b5fda1156628c6f4b74d6d77e125f4",
+  "shadowed_packages": {
+    "pip": {
+      "installations": [
+        {
+          "location": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/lib/python3.10/site-packages",
+          "version": "23.0.1"
+        },
+        {
+          "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+          "version": "26.0.1"
+        }
+      ],
+      "resolved_location": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/lib/python3.10/site-packages",
+      "resolved_version": "23.0.1"
+    },
+    "setuptools": {
+      "installations": [
+        {
+          "location": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/lib/python3.10/site-packages",
+          "version": "79.0.1"
+        },
+        {
+          "location": "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages",
+          "version": "81.0.0"
+        }
+      ],
+      "resolved_location": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/lib/python3.10/site-packages",
+      "resolved_version": "79.0.1"
+    }
+  },
+  "sys_path": [
+    "/gpfs/work/bio/zihanhe25/Programs/GDTCR/src",
+    "/gpfs/work/bio/zihanhe25/Programs/GDTCR/scripts",
+    "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python310.zip",
+    "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10",
+    "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/lib-dynload",
+    "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/lib/python3.10/site-packages",
+    "/gpfs/work/bio/zihanhe25/miniconda3/envs/mhcii-esm2/lib/python3.10/site-packages"
+  ],
+  "torch": "2.7.1+cu126",
+  "torch_cuda": "12.6"
+}

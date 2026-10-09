@@ -1,0 +1,1806 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Immune+Epitope+Database%22+AND+FIRST_PDATE%3A%5B2023-01-01+TO+2026-09-30%5D&format=json&resultType=core&pageSize=6",
+  "retrieved_utc": "2026-09-30T06:41:02.379893+00:00",
+  "response": {
+    "version": "6.9",
+    "hitCount": 6,
+    "request": {
+      "queryString": "TITLE:\"Immune Epitope Database\" AND FIRST_PDATE:[2023-01-01 TO 2026-09-30]",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 6,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "PPR1247261",
+          "source": "PPR",
+          "doi": "10.64898/2026.06.03.728549",
+          "title": "Revised Adaptive Immune Receptor Data in the Immune Epitope Database",
+          "authorString": "Scheffer L, Richardson EM, Vita R, Zarebski L, Blazeska N, Wheeler DK, Cantrell JR, Deleuran SN, Lees WD, Christley S, Corrie B, Cowell LG, Sette A, Peters B.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Scheffer L",
+                "lastName": "Scheffer",
+                "firstName": "Lonneke",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8900-075X"
+                }
+              },
+              {
+                "fullName": "Richardson EM",
+                "lastName": "Richardson",
+                "firstName": "Eve",
+                "initials": "EM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5499-6283"
+                }
+              },
+              {
+                "fullName": "Vita R",
+                "lastName": "Vita",
+                "firstName": "Randi",
+                "initials": "R",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8957-7612"
+                }
+              },
+              {
+                "fullName": "Zarebski L",
+                "lastName": "Zarebski",
+                "firstName": "Laura",
+                "initials": "L"
+              },
+              {
+                "fullName": "Blazeska N",
+                "lastName": "Blazeska",
+                "firstName": "Nina",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6604-0019"
+                }
+              },
+              {
+                "fullName": "Wheeler DK",
+                "lastName": "Wheeler",
+                "firstName": "Daniel",
+                "initials": "DK"
+              },
+              {
+                "fullName": "Cantrell JR",
+                "lastName": "Cantrell",
+                "firstName": "Jason",
+                "initials": "JR"
+              },
+              {
+                "fullName": "Deleuran SN",
+                "lastName": "Deleuran",
+                "firstName": "Sebastian",
+                "initials": "SN"
+              },
+              {
+                "fullName": "Lees WD",
+                "lastName": "Lees",
+                "firstName": "William",
+                "initials": "WD",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9834-6840"
+                }
+              },
+              {
+                "fullName": "Christley S",
+                "lastName": "Christley",
+                "firstName": "Scott",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9889-1221"
+                }
+              },
+              {
+                "fullName": "Corrie B",
+                "lastName": "Corrie",
+                "firstName": "Brian",
+                "initials": "B"
+              },
+              {
+                "fullName": "Cowell LG",
+                "lastName": "Cowell",
+                "firstName": "Lindsay",
+                "initials": "LG"
+              },
+              {
+                "fullName": "Sette A",
+                "lastName": "Sette",
+                "firstName": "Alessandro",
+                "initials": "A"
+              },
+              {
+                "fullName": "Peters B",
+                "lastName": "Peters",
+                "firstName": "Bjoern",
+                "initials": "B"
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8900-075X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8957-7612"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9834-6840"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5499-6283"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6604-0019"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9889-1221"
+              }
+            ]
+          },
+          "pubYear": "2026",
+          "abstractText": "The Immune Epitope Database (IEDB,  iedb.org ) is a freely available resource that catalogs experimentally defined immune epitopes and – if available – the immune receptors that recognize them. Currently, the IEDB records ∼185, 000 T cell receptors and ∼5, 000 B cell receptors/antibodies with experimentally verified epitope specificity. Because these receptor data were manually curated from ∼3, 300 references spanning decades, nomenclature inconsistencies present challenges for computational analyses and user queries. To support integrated analysis of the entire dataset, we revised the IEDB receptor data standardization and validation pipeline to flag and correct inaccuracies. Anomalous receptors from over 800 studies were flagged for re-curation. The updated receptor dataset shows greater conformity through consistent gene nomenclature formatting and harmonized CDR sequence delimitation. Taking advantage of the increased receptor data consistency, the IEDB web interface was expanded to include receptor search features directly on the homepage, support V/J gene and species options in the refined receptor search, and allow direct data export in the Adaptive Immune Receptor Repertoire (AIRR) format. We anticipate that the improved receptor data quality will simplify bioinformatics analyses, and facilitate integration of IEDB data into cross-repository data resources, such as the AIRR Knowledge Commons.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2026
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "National Institute of Allergy and Infectious Diseases",
+                "grantId": "75N93019C00001",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institute of Allergy and Infectious Diseases",
+                "grantId": "U24I177622",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institute of Allergy and Infectious Diseases",
+                "grantId": "75N93026C00001",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Cancer Institute",
+                "grantId": "U24CA248138",
+                "orderIn": 0
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.64898/2026.06.03.728549"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc0",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2026-06-07",
+          "firstPublicationDate": "2026-06-06",
+          "firstIndexDate": "2026-06-07",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "39558162",
+          "source": "MED",
+          "pmid": "39558162",
+          "pmcid": "PMC11701597",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11701597"
+            ]
+          },
+          "doi": "10.1093/nar/gkae1092",
+          "title": "The Immune Epitope Database (IEDB): 2024 update.",
+          "authorString": "Vita R, Blazeska N, Marrama D, IEDB Curation Team Members\n, Duesing S, Bennett J, Greenbaum J, De Almeida Mendes M, Mahita J, Wheeler DK, Cantrell JR, Overton JA, Natale DA, Sette A, Peters B.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Vita R",
+                "lastName": "Vita",
+                "firstName": "Randi",
+                "initials": "R",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8957-7612"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Blazeska N",
+                "lastName": "Blazeska",
+                "firstName": "Nina",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Marrama D",
+                "lastName": "Marrama",
+                "firstName": "Daniel",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "collectiveName": "IEDB Curation Team Members\n"
+              },
+              {
+                "fullName": "Duesing S",
+                "lastName": "Duesing",
+                "firstName": "Sebastian",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bennett J",
+                "lastName": "Bennett",
+                "firstName": "Jason",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Greenbaum J",
+                "lastName": "Greenbaum",
+                "firstName": "Jason",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1381-0390"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "De Almeida Mendes M",
+                "lastName": "De Almeida Mendes",
+                "firstName": "Marcus",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2183-0121"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mahita J",
+                "lastName": "Mahita",
+                "firstName": "Jarjapu",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wheeler DK",
+                "lastName": "Wheeler",
+                "firstName": "Daniel K",
+                "initials": "DK",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Leidos, Inc, San Diego, CA 92121, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cantrell JR",
+                "lastName": "Cantrell",
+                "firstName": "Jason R",
+                "initials": "JR",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Leidos, Inc, San Diego, CA 92121, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Overton JA",
+                "lastName": "Overton",
+                "firstName": "James A",
+                "initials": "JA",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5139-5557"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Knocean Inc, Toronto, Ontario M2P 2T3, Canada."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Natale DA",
+                "lastName": "Natale",
+                "firstName": "Darren A",
+                "initials": "DA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Protein Information Resource, Georgetown University Medical Center, Washington, DC 20007, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sette A",
+                "lastName": "Sette",
+                "firstName": "Alessandro",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, University of California San Diego, La Jolla, CA 92093, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Peters B",
+                "lastName": "Peters",
+                "firstName": "Bjoern",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8457-6693"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, University of California San Diego, La Jolla, CA 92093, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "investigatorList": {
+            "investigator": [
+              {
+                "fullName": "Shackelford D",
+                "lastName": "Shackelford",
+                "firstName": "Deborah",
+                "initials": "D"
+              },
+              {
+                "fullName": "Zalman L",
+                "lastName": "Zalman",
+                "firstName": "Leora",
+                "initials": "L"
+              },
+              {
+                "fullName": "Foos G",
+                "lastName": "Foos",
+                "firstName": "Gabriele",
+                "initials": "G"
+              },
+              {
+                "fullName": "Zarebski L",
+                "lastName": "Zarebski",
+                "firstName": "Laura",
+                "initials": "L"
+              },
+              {
+                "fullName": "Chan K",
+                "lastName": "Chan",
+                "firstName": "Kenneth",
+                "initials": "K"
+              },
+              {
+                "fullName": "Reardon B",
+                "lastName": "Reardon",
+                "firstName": "Brian",
+                "initials": "B"
+              },
+              {
+                "fullName": "Fitzpatrick S",
+                "lastName": "Fitzpatrick",
+                "firstName": "Sidne",
+                "initials": "S"
+              },
+              {
+                "fullName": "Busse M",
+                "lastName": "Busse",
+                "firstName": "Matthew",
+                "initials": "M"
+              },
+              {
+                "fullName": "Coleman S",
+                "lastName": "Coleman",
+                "firstName": "Sara",
+                "initials": "S"
+              },
+              {
+                "fullName": "Sedwick C",
+                "lastName": "Sedwick",
+                "firstName": "Caitlin",
+                "initials": "C"
+              },
+              {
+                "fullName": "Edwards L",
+                "lastName": "Edwards",
+                "firstName": "Lindy",
+                "initials": "L"
+              },
+              {
+                "fullName": "MacFarlane C",
+                "lastName": "MacFarlane",
+                "firstName": "Catriona",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4733-5356"
+                }
+              },
+              {
+                "fullName": "Ennis M",
+                "lastName": "Ennis",
+                "firstName": "Marcus",
+                "initials": "M"
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5139-5557"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8957-7612"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1381-0390"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2183-0121"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4733-5356"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8457-6693"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "D1",
+            "volume": "53",
+            "journalIssueId": 3884742,
+            "dateOfPublication": "2025 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "Nucleic Acids Res",
+              "title": "Nucleic acids research",
+              "essn": "1362-4962",
+              "issn": "0305-1048",
+              "isoabbreviation": "Nucleic Acids Res",
+              "nlmid": "0411011"
+            },
+            "printPublicationDate": "2025-01-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "D436-D443",
+          "abstractText": "Over the past 20 years, the Immune Epitope Database (IEDB, iedb.org) has established itself as the foremost resource for immune epitope data. The IEDB catalogs published epitopes and their contextual experimental data in a freely searchable public resource. The IEDB team manually curates data from the literature into a structured format and spans infectious, allergic, autoimmune, and transplant diseases. Here, we describe the enhancements made since our 2018 paper, capturing user-directed updates to the search interface, advanced data exports, increases in data quality, and improved interoperability across related resources. As we look forward to the next 20 years, we are confident in our ability to meet the needs of our users and to contribute to the broader field of data standardization.",
+          "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "U01 AI169243",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "75N93019C00001",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institutes of Health",
+                "grantId": "75N93019C00001",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIH HHS",
+                "acronym": "NH",
+                "grantId": "75N93019C00001",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Epitopes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Software"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "User-Computer Interface"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Databases, Protein"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Epitopes",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.1093/nar/gkae1092"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/nar/gkae1092"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11701597"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11701597?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 227,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2025-01-08",
+          "dateOfCreation": "2024-11-18",
+          "dateOfRevision": "2025-07-19",
+          "firstPublicationDate": "2025-01-01",
+          "firstIndexDate": "2024-11-20",
+          "fullTextReceivedDate": "2025-12-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "40121509",
+          "source": "MED",
+          "pmid": "40121509",
+          "pmcid": "PMC11929277",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11929277"
+            ]
+          },
+          "doi": "10.1186/s13326-025-00324-7",
+          "title": "Standardizing free-text data exemplified by two fields from the Immune Epitope Database.",
+          "authorString": "Duesing S, Bennett J, Overton JA, Vita R, Peters B.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Duesing S",
+                "lastName": "Duesing",
+                "firstName": "Sebastian",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA, 92037, USA. sduesing@lji.org."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bennett J",
+                "lastName": "Bennett",
+                "firstName": "Jason",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA, 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Overton JA",
+                "lastName": "Overton",
+                "firstName": "James A",
+                "initials": "JA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Knocean Inc., Toronto, ON, M2P 2T3, Canada."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Vita R",
+                "lastName": "Vita",
+                "firstName": "Randi",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA, 92037, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Peters B",
+                "lastName": "Peters",
+                "firstName": "Bjoern",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA, 92037, USA. bpeters@lji.org."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, University of California San Diego, La Jolla, CA, 92093, USA. bpeters@lji.org."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "16",
+            "journalIssueId": 3912349,
+            "dateOfPublication": "2025 Mar",
+            "monthOfPublication": 3,
+            "yearOfPublication": 2025,
+            "journal": {
+              "medlineAbbreviation": "J Biomed Semantics",
+              "title": "Journal of biomedical semantics",
+              "essn": "2041-1480",
+              "issn": "2041-1480",
+              "isoabbreviation": "J Biomed Semantics",
+              "nlmid": "101531992"
+            },
+            "printPublicationDate": "2025-03-01"
+          },
+          "pubYear": "2025",
+          "pageInfo": "5",
+          "abstractText": "<h4>Background</h4>While unstructured data, such as free text, constitutes a large amount of publicly available biomedical data, it is underutilized in automated analyses due to the difficulty of extracting meaning from it. Normalizing free-text data, i.e., removing inessential variance, enables the use of structured vocabularies like ontologies to represent the data and allow for harmonized queries over it. This paper presents an adaptable tool for free-text normalization and an evaluation of the application of this tool to two different fields curated from the literature in the Immune Epitope Database (IEDB): \"age\" and \"data-location\" (the part of a paper in which data was found).<h4>Results</h4>Free text entries for the database fields for subject age (4095 distinct values) and publication data-location (251,810 distinct values) in the IEDB were analyzed. Normalization was performed in three steps, namely character normalization, word normalization, and phrase normalization, using generalizable rules developed and applied with the tool presented in this manuscript. For the age dataset, in the character stage, the application of 21 rules resulted in 99.97% output validity; in the word stage, the application of 94 rules resulted in 98.06% output validity; and in the phrase stage, the application of 16 rules resulted in 83.81% output validity. For the data-location dataset, in the character stage, the application of 39 rules resulted in 99.99% output validity; in the word stage, the application of 187 rules resulted in 98.46% output validity; and in the phrase stage, the application of 12 rules resulted in 97.95% output validity.<h4>Conclusions</h4>We developed a generalizable approach for normalization of free text as found in database fields with content on a specific topic. Creating and testing the rules took a one-time effort for a given field that can now be applied to data as it is being curated. The standardization achieved in two datasets tested produces significantly reduced variance in the content which enhances the findability and usability of that data, chiefly by improving search functionality and enabling linkages with formal ontologies.",
+          "affiliation": "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA, 92037, USA. sduesing@lji.org.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "U24 CA248138",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "75N93019C00001",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Epitopes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Databases, Factual"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Biological Ontologies"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Ontology",
+              "Data Normalization",
+              "Immune Epitope Database",
+              "Data Standardization",
+              "Unstructured Data",
+              "Free-text Data"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Epitopes",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.1186/s13326-025-00324-7"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1186/s13326-025-00324-7"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11929277"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11929277?pdf=render"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "MED",
+                "id": "39606440",
+                "reference": "Res Sq. 2024 Nov 14:rs.3.rs-5363542. doi: 10.21203/rs.3.rs-5363542/v1.",
+                "type": "Update of",
+                "orderIn": 1
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb"
+            ]
+          },
+          "dateOfCompletion": "2025-05-14",
+          "dateOfCreation": "2025-03-23",
+          "dateOfRevision": "2025-08-18",
+          "electronicPublicationDate": "2025-03-22",
+          "firstPublicationDate": "2025-03-22",
+          "firstIndexDate": "2025-03-26",
+          "fullTextReceivedDate": "2025-12-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR940115",
+          "source": "PPR",
+          "doi": "10.21203/rs.3.rs-5363542/v1",
+          "title": "Standardizing Free-Text Data Exemplified by Age and Data-Location Fields in the Immune Epitope Database",
+          "authorString": "Duesing S, Bennett J, Overton JA, Vita R, Peters B.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Duesing S",
+                "lastName": "Duesing",
+                "firstName": "Sebastian",
+                "initials": "S"
+              },
+              {
+                "fullName": "Bennett J",
+                "lastName": "Bennett",
+                "firstName": "Jason",
+                "initials": "J"
+              },
+              {
+                "fullName": "Overton JA",
+                "lastName": "Overton",
+                "firstName": "James",
+                "initials": "JA"
+              },
+              {
+                "fullName": "Vita R",
+                "lastName": "Vita",
+                "firstName": "Randi",
+                "initials": "R"
+              },
+              {
+                "fullName": "Peters B",
+                "lastName": "Peters",
+                "firstName": "Bjoern",
+                "initials": "B"
+              }
+            ]
+          },
+          "pubYear": "2024",
+          "abstractText": "<title>Abstract</title>  <p>Background  While unstructured data, such as free text, constitutes a large amount of publicly available biomedical data, it is underutilized in automated analyses due to the difficulty of extracting meaning from it. Normalizing free-text data, <italic>i.e.</italic>, removing inessential variance, enables the use of structured vocabularies like ontologies to represent the data and allow for harmonized queries over it. This paper presents an adaptable tool for free-text normalization and an evaluation of the application of this tool to two different sets of unstructured biomedical data curated from the literature in the Immune Epitope Database (IEDB): age and data-location. Results  Free text entries for the database fields for subject age (4095 distinct values) and publication data-location (251,810 distinct values) in the IEDB were analyzed. Normalization was performed in three steps, namely character normalization, word normalization, and phrase normalization, using generalizable rules developed and applied with the tool presented in this manuscript. For the age dataset, in the character stage, the application of 21 rules resulted in 99.97% output validity; in the word stage, the application of 94 rules resulted in 98.06% output validity; and in the phrase stage, the application of 16 rules resulted in 83.81% output validity. For the data-location dataset, in the character stage, the application of 39 rules resulted in 99.99% output validity; in the word stage, the application of 187 rules resulted in 98.46% output validity; and in the phrase stage, the application of 12 rules resulted in 97.95% output validity. Conclusions  We developed a generalizable approach for normalization of free text as found in database fields with content on a specific topic. Creating and testing the rules took a one-time effort for a given field that can now be applied to data as it is being curated. The standardization achieved in two datasets tested produces significantly reduced variance in the content which enhances the findability and usability of that data, chiefly by improving search functionality and enabling linkages with formal ontologies.</p>",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "Research Square",
+            "yearOfPublication": 2024
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.21203/rs.3.rs-5363542/v1"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.21203/rs.3.rs-5363542/v1"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "N",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2024-11-16",
+          "firstPublicationDate": "2024-11-14",
+          "firstIndexDate": "2024-11-16",
+          "versionList": {
+            "version": [
+              {
+                "id": "PPR940115",
+                "source": "PPR",
+                "versionNumber": 1,
+                "firstPublishDate": "2024-11-14",
+                "pubTypeList": {
+                  "pubType": [
+                    "preprint"
+                  ]
+                },
+                "hasEvaluations": "N"
+              }
+            ]
+          },
+          "versionNumber": 1,
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "36806329",
+          "source": "MED",
+          "pmid": "36806329",
+          "pmcid": "PMC10022491",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10022491"
+            ]
+          },
+          "doi": "10.1002/pro.4605",
+          "title": "IEDB-3D 2.0: Structural data analysis within the Immune Epitope Database.",
+          "authorString": "Mendes M, Mahita J, Blazeska N, Greenbaum J, Ha B, Wheeler K, Wang J, Shackelford D, Sette A, Peters B.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Mendes M",
+                "lastName": "Mendes",
+                "firstName": "Marcus",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mahita J",
+                "lastName": "Mahita",
+                "firstName": "Jarjapu",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Blazeska N",
+                "lastName": "Blazeska",
+                "firstName": "Nina",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Greenbaum J",
+                "lastName": "Greenbaum",
+                "firstName": "Jason",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1381-0390"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ha B",
+                "lastName": "Ha",
+                "firstName": "Brendan",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wheeler K",
+                "lastName": "Wheeler",
+                "firstName": "Kelly",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Leidos Company, San Diego, California, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang J",
+                "lastName": "Wang",
+                "firstName": "Jiyao",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shackelford D",
+                "lastName": "Shackelford",
+                "firstName": "Deborah",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sette A",
+                "lastName": "Sette",
+                "firstName": "Alessandro",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, University of California, San Diego, La Jolla, California, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Peters B",
+                "lastName": "Peters",
+                "firstName": "Bjoern",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8457-6693"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, University of California, San Diego, La Jolla, California, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1381-0390"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8457-6693"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "4",
+            "volume": "32",
+            "journalIssueId": 3532271,
+            "dateOfPublication": "2023 Apr",
+            "monthOfPublication": 4,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Protein Sci",
+              "title": "Protein science : a publication of the Protein Society",
+              "essn": "1469-896X",
+              "issn": "0961-8368",
+              "isoabbreviation": "Protein Sci",
+              "nlmid": "9211750"
+            },
+            "printPublicationDate": "2023-04-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "e4605",
+          "abstractText": "The Immune Epitope Database (IEDB) catalogs T cell, B cell, and major histocompatibility complex ligand information in the context of infectious disease, allergy, autoimmunity, and transplantation. An important component of this information is three-dimensional structural data on T cell receptors, antibodies, and pairwise residue interactions between immune receptors and antigens, which we refer to as IEDB-3D. Such data is highly valuable for mechanically understanding receptor:ligand interactions. Here, we present IEDB-3D 2.0, which comprises a complete overhaul of how we obtain and present 3D structural data. A new 3D viewer experience that utilizes iCn3D has been implemented to replace outdated java-based technology. In addition, we have designed a new epitope mapping system that matches each epitope available in the IEDB with its antigen structural data. Finally, immunogenicity data retrieved from the IEDB's ImmunomeBrowser can now be used to highlight immunogenic regions of an antigen directly in iCn3D. Overall, the IEDB-3D 2.0 provides an updated tool platform to visualize epitope data cataloged in the IEDB.",
+          "affiliation": "Center for Infectious Disease and Vaccine Research, La Jolla Institute for Immunology, La Jolla, California, USA.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "75N93019C00001",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "U24 CA248138",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antibodies"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antigens"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Epitopes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Ligands"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Databases, Protein"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Antigens",
+              "Database",
+              "Epitopes",
+              "adaptive immunity",
+              "Structural Biology",
+              "Immunoinformatics"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Antibodies",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Epitopes",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Ligands",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/pro.4605"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10022491"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10022491?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 31,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "uniprot",
+              "pdb"
+            ]
+          },
+          "dateOfCompletion": "2023-04-03",
+          "dateOfCreation": "2023-02-22",
+          "dateOfRevision": "2025-01-24",
+          "firstPublicationDate": "2023-04-01",
+          "firstIndexDate": "2023-02-23",
+          "fullTextReceivedDate": "2025-02-05",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "36901730",
+          "source": "MED",
+          "pmid": "36901730",
+          "pmcid": "PMC10001542",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10001542"
+            ]
+          },
+          "doi": "10.3390/ijms24054296",
+          "title": "Characteristics of the (Auto)Reactive T Cells in Rheumatoid Arthritis According to the Immune Epitope Database.",
+          "authorString": "Carlé C, Degboe Y, Ruyssen-Witrand A, Arleevskaya MI, Clavel C, Renaudineau Y.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Carlé C",
+                "lastName": "Carlé",
+                "firstName": "Caroline",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Referral Medical Biology Laboratory, Immunology Department, Institut Fédératif de Biologie, Toulouse University Hospital Center, 31300 Toulouse, France."
+                    },
+                    {
+                      "affiliation": "Laboratory of Cell Biology and Cytology, Institut Fédératif de Biologie, Toulouse University Hospital Center, 31300 Toulouse, France."
+                    },
+                    {
+                      "affiliation": "Toulouse Institute for Infectious and Inflammatory Diseases (INFINITy), INSERM U1291, CNRS U5051, University Toulouse III, 31062 Toulouse, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Degboe Y",
+                "lastName": "Degboe",
+                "firstName": "Yannick",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4293-8596"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Toulouse Institute for Infectious and Inflammatory Diseases (INFINITy), INSERM U1291, CNRS U5051, University Toulouse III, 31062 Toulouse, France."
+                    },
+                    {
+                      "affiliation": "Rheumatology Department, Toulouse University Hospital Center, 31300 Toulouse, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ruyssen-Witrand A",
+                "lastName": "Ruyssen-Witrand",
+                "firstName": "Adeline",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Rheumatology Department, Toulouse University Hospital Center, 31300 Toulouse, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Arleevskaya MI",
+                "lastName": "Arleevskaya",
+                "firstName": "Marina I",
+                "initials": "MI",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0584-446X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Central Research Laboratory, Kazan State Medical Academy, 420012 Kazan, Russia."
+                    },
+                    {
+                      "affiliation": "Institute of Fundamental Medicine and Biology, Kazan (Volga Region) Federal University, 420008 Kazan, Russia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Clavel C",
+                "lastName": "Clavel",
+                "firstName": "Cyril",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratory of Cell Biology and Cytology, Institut Fédératif de Biologie, Toulouse University Hospital Center, 31300 Toulouse, France."
+                    },
+                    {
+                      "affiliation": "Toulouse Institute for Infectious and Inflammatory Diseases (INFINITy), INSERM U1291, CNRS U5051, University Toulouse III, 31062 Toulouse, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Renaudineau Y",
+                "lastName": "Renaudineau",
+                "firstName": "Yves",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5098-5002"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Referral Medical Biology Laboratory, Immunology Department, Institut Fédératif de Biologie, Toulouse University Hospital Center, 31300 Toulouse, France."
+                    },
+                    {
+                      "affiliation": "Toulouse Institute for Infectious and Inflammatory Diseases (INFINITy), INSERM U1291, CNRS U5051, University Toulouse III, 31062 Toulouse, France."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5098-5002"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0584-446X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4293-8596"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "5",
+            "volume": "24",
+            "journalIssueId": 3523331,
+            "dateOfPublication": "2023 Feb",
+            "monthOfPublication": 2,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Int J Mol Sci",
+              "title": "International journal of molecular sciences",
+              "essn": "1422-0067",
+              "issn": "1422-0067",
+              "isoabbreviation": "Int J Mol Sci",
+              "nlmid": "101092791"
+            },
+            "printPublicationDate": "2023-02-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "4296",
+          "abstractText": "T cells are known to be involved in the pathogenesis of rheumatoid arthritis (RA). Accordingly, and to better understand T cells' contribution to RA, a comprehensive review based on an analysis of the Immune Epitope Database (IEDB) was conducted. An immune CD8+ T cell senescence response is reported in RA and inflammatory diseases, which is driven by active viral antigens from latent viruses and cryptic self-apoptotic peptides. RA-associated pro-inflammatory CD4+ T cells are selected by MHC class II and immunodominant peptides, which are derived from molecular chaperones, host extra-cellular and cellular peptides that could be post-translationally modified (PTM), and bacterial cross-reactive peptides. A large panel of techniques have been used to characterize (auto)reactive T cells and RA-associated peptides with regards to their interaction with the MHC and TCR, capacity to enter the docking site of the shared epitope (DRB1-SE), capacity to induce T cell proliferation, capacity to select T cell subsets (Th1/Th17, Treg), and clinical contribution. Among docking DRB1-SE peptides, those with PTM expand autoreactive and high-affinity CD4+ memory T cells in RA patients with an active disease. Considering original therapeutic options in RA, mutated, or altered peptide ligands (APL) have been developed and are tested in clinical trials.",
+          "affiliation": "Referral Medical Biology Laboratory, Immunology Department, Institut Fédératif de Biologie, Toulouse University Hospital Center, 31300 Toulouse, France.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Russian Science Foundation",
+                "grantId": "17-15-01099",
+                "orderIn": 0
+              },
+              {
+                "agency": "Société Française de Rhumatologie",
+                "grantId": "2023",
+                "orderIn": 0
+              },
+              {
+                "agency": "the “Russian Science Foundation”",
+                "grantId": "N°17-15-01099",
+                "orderIn": 0
+              },
+              {
+                "agency": "the “Société Française de Rhumatologie”",
+                "grantId": "N°17-15-01099",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocyte Subsets"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "CD4-Positive T-Lymphocytes"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Arthritis, Rheumatoid"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Peptides"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Epitopes"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "HLA-DRB1 Chains"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Rheumatoid arthritis",
+              "Peptides",
+              "Memory T cells",
+              "Neoepitopes",
+              "Shared Epitope"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Peptides",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Epitopes",
+                "registryNumber": "0"
+              },
+              {
+                "name": "HLA-DRB1 Chains",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.mdpi.com/1422-0067/24/5/4296/pdf?version=1677234449"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/ijms24054296"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10001542"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10001542?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 13,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2023-03-14",
+          "dateOfCreation": "2023-03-11",
+          "dateOfRevision": "2023-03-14",
+          "electronicPublicationDate": "2023-02-21",
+          "firstPublicationDate": "2023-02-21",
+          "firstIndexDate": "2023-03-12",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

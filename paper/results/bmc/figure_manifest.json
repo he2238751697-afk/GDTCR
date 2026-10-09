@@ -1,0 +1,51 @@
+[
+  {
+    "number": 1,
+    "id": "figure_1_workflow",
+    "label": "workflow",
+    "title": "Overview of the single-CDR3 partner-recovery benchmark and model workflow.",
+    "caption": "A: each task maps one gamma or delta CDR3 to recorded partner CDR3s. B: denoising pretraining excludes all paired-corpus chains. C: conditional generation and separately trained ranking share training-edge and encoder provenance. The ranker optimizes its copied encoder; the original generator remains fixed. D: free generation and truth-containing retrieval are different endpoints. The primary endpoint is equal-direction mean query-macro Hit@5 at 64 draws under component-disjoint splitting; other exposure protocols are diagnostics."
+  },
+  {
+    "number": 2,
+    "id": "figure_2_data",
+    "label": "data",
+    "title": "Pairing-graph concentration and sequence exposure.",
+    "caption": "A: schematic component assignment, with all 5005 edges of the largest component retained in training. Nodes are unique gamma/delta CDR3s and edges are publicly recorded pairs. Primary partitions have no exact chain overlap. B: observed component concentration. C: minimum full-CDR3 Levenshtein distance to the pretraining pool. D: a distant edge requires both chains to be at least three edits from both supervised and pretraining references. The 5/5/3 distant-edge counts are too small for stable inferential transfer claims. This figure describes dataset exposure, not a recovery endpoint."
+  },
+  {
+    "number": 3,
+    "id": "figure_3_primary",
+    "label": "primary",
+    "title": "Sparse free recorded-partner recovery at 64 draws.",
+    "caption": "No recorded positive is injected into free candidates; training targets are allowed. Conditional, constant-source, random-initialization and shuffled-input conditions share the evaluation rule. Points are three split means after averaging two model seeds; diamonds and ranges are their mean and descriptive SD, not subject-level confidence intervals. Likelihood, ranker and fused scores order identical conditional candidates. The graphic gives conditional events:query counts for each fitted model; all conditions are tabulated in Additional file 4. Zero events are retained. A lower NLL does not imply reliable candidate availability or top-five recovery."
+  },
+  {
+    "number": 4,
+    "id": "figure_4_retrieval",
+    "label": "retrieval",
+    "title": "Ranking within truth-containing fixed candidate pools.",
+    "caption": "Fixed pools contain recorded positives by construction. Random, length, motif and edit pools add up to 100 unrecorded distractors; Full uses the complete role-specific target universe. Values average seeds within split and then the three primary splits equally. Deterministic methods have one value per split. Nearest-input similarity scores candidates by target distance to partners of the single nearest training input; direct partner transfer is reported separately. No scorer dominates all pools and directions. These retrieval outcomes cannot be equated with free-generation recovery or biological specificity."
+  },
+  {
+    "number": 5,
+    "id": "figure_5_efficiency",
+    "label": "efficiency",
+    "title": "Likelihood and recovery across nested complete-component training subsets.",
+    "caption": "The actual subsets contain 725/1814/2249/7254 edges. The nominal 50% subset contains only 31.0% of training edges. All smaller subsets contain singleton components; the giant component enters only at full data, so composition and size change together. Lines average two model seeds and shading spans their fitted estimates; it is not a confidence interval. Lower NLL does not provide a consistent small-data free-recovery advantage."
+  },
+  {
+    "number": 6,
+    "id": "figure_6_protocols",
+    "label": "protocols",
+    "title": "Recovery across distinct exposure populations.",
+    "caption": "Each point is one model seed at 64 free draws; labels give conditional events/queries in seed order 3407;3508. The first row is the primary split-17 reference; all other rows are diagnostic populations with different training composition. Original unseen-gamma selection used a single query and had degenerate MRR; the plotted revision refits use 31 selection queries, leaving train/test membership unchanged. Unseen-input tasks permit target exposure; seen-input and within-giant tasks retain supervised input exposure, with both endpoints exposed in the latter. Missing shuffled points in original directional tasks mean not evaluated. Strict study holdout excludes held-study chains; source-shared retains common chains. Neither is donor-independent external validation. All within-giant edges arise from one original component; no inferential component interval is asserted."
+  },
+  {
+    "number": 7,
+    "id": "figure_7_budget",
+    "label": "budget",
+    "title": "Sampling budgets and exploratory calibration.",
+    "caption": "The 16/64/256 budgets are prefixes of the same saved draws on split 17. Left and middle panels separate candidate coverage from likelihood Hit@5, with exact training targets allowed (solid) or excluded (dashed); lines average two seeds. Coverage is unchanged by target exclusion in the chain-disjoint primary test. Right panels are exploratory calibration-quantile operating curves; solid/dashed lines identify seeds and markers identify independently calibrated thresholds. All test queries remain in recovery denominators. More draws can increase coverage without improving top-five ordering. No threshold is a validated biological selector."
+  }
+]

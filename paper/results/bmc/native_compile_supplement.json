@@ -1,0 +1,10 @@
+{
+  "source": "paper/supplementary_methods_bmc.tex",
+  "attempted_source_sha256": "6b8ce0c11d642f6347d0091689b2035987cd40ed5cb2882fc7a8465b27e7e495",
+  "current_source_sha256": "6b8ce0c11d642f6347d0091689b2035987cd40ed5cb2882fc7a8465b27e7e495",
+  "status": "unavailable_platform_error",
+  "native_compilation_verified": false,
+  "log": "Unable to find standard directories for platform",
+  "reading_copy_renderer": "scripts/render_bmc_pdf.py",
+  "note": "Final source submitted to built-in compiler; platform-directory failure, not a source diagnostic. Source remains editable; reading PDF rendered separately."
+}

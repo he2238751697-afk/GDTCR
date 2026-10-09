@@ -1,0 +1,4071 @@
+{
+  "code_digest": "a56cefe8f74f169dcd3db133a9832d3e07ff5f7be8ac034920d7781c8ea55848",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/code/20260930T043740Z_a56cefe8f74f",
+  "created_utc": "2026-09-30T04:37:40.973172+00:00",
+  "job_records": "artifacts/completion_v2/jobs/generator",
+  "phase": "generator",
+  "protocol": "paper/protocol_v2.md",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed17-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed17/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed17-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed17/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed17/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed17/random/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed17-random-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed17/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed3407/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed3407-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed3407/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed3407-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed3407/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed3407/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed3407/random/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed3407-random-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed2026/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed2026-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed2026/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed2026-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed2026/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed2026/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed2026/random/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed2026-random-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/pretrain_raw/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/completion_v2/pretrain/raw/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-pretrain_raw-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/pretrain_raw/seed-0/best.pt",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-0/summary.json",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/completion_v2/pretrain/raw/seed-0/last.pt",
+        "artifacts/completion_v2/pretrain/raw/seed-0/summary.json",
+        "artifacts/completion_v2/pretrain/raw/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/pretrain_balanced/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/completion_v2/pretrain/balanced/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-pretrain_balanced-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-0/best.pt",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-0/summary.json",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/completion_v2/pretrain/balanced/seed-0/last.pt",
+        "artifacts/completion_v2/pretrain/balanced/seed-0/summary.json",
+        "artifacts/completion_v2/pretrain/balanced/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/pretrain_gamma/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/completion_v2/pretrain/gamma/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-pretrain_gamma-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-0/best.pt",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-0/summary.json",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/completion_v2/pretrain/gamma/seed-0/last.pt",
+        "artifacts/completion_v2/pretrain/gamma/seed-0/summary.json",
+        "artifacts/completion_v2/pretrain/gamma/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/pretrain_delta/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/completion_v2/pretrain/delta/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-pretrain_delta-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/pretrain_delta/seed-0/best.pt",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-0/summary.json",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/completion_v2/pretrain/delta/seed-0/last.pt",
+        "artifacts/completion_v2/pretrain/delta/seed-0/summary.json",
+        "artifacts/completion_v2/pretrain/delta/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/edge_uniform/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "edge",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-edge_uniform-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/edge_uniform/seed-0/best.pt",
+        "artifacts/completion_v2/generator/edge_uniform/seed-0/summary.json",
+        "artifacts/completion_v2/generator/edge_uniform/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/edge_uniform/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "750",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "100",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unidirectional-gamma_to_delta-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-0/best.pt",
+        "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-0/summary.json",
+        "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "750",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "100",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unidirectional-delta_to_gamma-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-0/best.pt",
+        "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-0/summary.json",
+        "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction10-pretrained-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-0/best.pt",
+        "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-0/summary.json",
+        "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction10/random/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction10-random-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction10/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/data_fraction10/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/data_fraction10/random/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction10/random/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction25-pretrained-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-0/best.pt",
+        "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-0/summary.json",
+        "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction25/random/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction25-random-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction25/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/data_fraction25/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/data_fraction25/random/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction25/random/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction50-pretrained-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-0/best.pt",
+        "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-0/summary.json",
+        "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction50/random/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction50-random-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction50/random/seed-0/best.pt",
+        "artifacts/completion_v2/generator/data_fraction50/random/seed-0/summary.json",
+        "artifacts/completion_v2/generator/data_fraction50/random/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction50/random/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/source_holdout/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/source_holdout/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-source_holdout-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+        "artifacts/runs/pretrain/source_holdout/seed-0/last.pt",
+        "artifacts/runs/pretrain/source_holdout/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/source_holdout/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/source_holdout/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-source_holdout-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/source_holdout/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/source_holdout/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/source_holdout/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/source_holdout/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+        "artifacts/runs/pretrain/source_holdout/seed-0/last.pt",
+        "artifacts/runs/pretrain/source_holdout/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_shared/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/source_shared/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-source_shared-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/source_shared/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/splits/completion_v2/source_shared/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_shared/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/source_shared/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-source_shared-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/source_shared/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/source_shared/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/source_shared/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/source_shared/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/splits/completion_v2/source_shared/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unseen_input_gamma_to_delta-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unseen_input_gamma_to_delta-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unseen_input_delta_to_gamma-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unseen_input_delta_to_gamma-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-seen_input_gamma_to_delta-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-seen_input_gamma_to_delta-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-seen_input_delta_to_gamma-paired-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0/best.pt",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0/summary.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-0",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-0/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-seen_input_delta_to_gamma-constant-seed-0",
+      "outputs": [
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-0/best.pt",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-0/summary.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-0/provenance.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-0/last.pt",
+        "artifacts/runs/pretrain/a800/seed-0/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed17/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed17-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed17/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed17/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed17-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed17/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed17/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed17/random/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed17-random-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed17/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed17/random/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed3407/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed3407-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed3407/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed3407/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed3407-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed3407/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed3407/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed3407/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed3407/random/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed3407-random-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed3407/random/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/splits/completion_v2/split_seed3407/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed2026/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed2026-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed2026/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed2026/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed2026-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed2026/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed2026/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed2026/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/split_seed2026/random/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-split_seed2026-random-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/split_seed2026/random/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D2",
+        "G1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/splits/completion_v2/split_seed2026/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/pretrain_raw/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/completion_v2/pretrain/raw/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-pretrain_raw-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/pretrain_raw/seed-1/best.pt",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-1/summary.json",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/pretrain_raw/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/completion_v2/pretrain/raw/seed-1/last.pt",
+        "artifacts/completion_v2/pretrain/raw/seed-1/summary.json",
+        "artifacts/completion_v2/pretrain/raw/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/pretrain_balanced/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/completion_v2/pretrain/balanced/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-pretrain_balanced-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-1/best.pt",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-1/summary.json",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/pretrain_balanced/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/completion_v2/pretrain/balanced/seed-1/last.pt",
+        "artifacts/completion_v2/pretrain/balanced/seed-1/summary.json",
+        "artifacts/completion_v2/pretrain/balanced/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/pretrain_gamma/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/completion_v2/pretrain/gamma/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-pretrain_gamma-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-1/best.pt",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-1/summary.json",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/pretrain_gamma/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/completion_v2/pretrain/gamma/seed-1/last.pt",
+        "artifacts/completion_v2/pretrain/gamma/seed-1/summary.json",
+        "artifacts/completion_v2/pretrain/gamma/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/pretrain_delta/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/completion_v2/pretrain/delta/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-pretrain_delta-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/pretrain_delta/seed-1/best.pt",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-1/summary.json",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/pretrain_delta/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "P2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/completion_v2/pretrain/delta/seed-1/last.pt",
+        "artifacts/completion_v2/pretrain/delta/seed-1/summary.json",
+        "artifacts/completion_v2/pretrain/delta/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/edge_uniform/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "edge",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-edge_uniform-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/edge_uniform/seed-1/best.pt",
+        "artifacts/completion_v2/generator/edge_uniform/seed-1/summary.json",
+        "artifacts/completion_v2/generator/edge_uniform/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/edge_uniform/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "750",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "100",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unidirectional-gamma_to_delta-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-1/best.pt",
+        "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-1/summary.json",
+        "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/unidirectional/gamma_to_delta/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "750",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "100",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unidirectional-delta_to_gamma-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-1/best.pt",
+        "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-1/summary.json",
+        "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/unidirectional/delta_to_gamma/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G2"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction10-pretrained-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-1/best.pt",
+        "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-1/summary.json",
+        "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction10/pretrained/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction10/random/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction10-random-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction10/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/data_fraction10/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/data_fraction10/random/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction10/random/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction25-pretrained-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-1/best.pt",
+        "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-1/summary.json",
+        "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction25/pretrained/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction25/random/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction25-random-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction25/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/data_fraction25/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/data_fraction25/random/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction25/random/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction50-pretrained-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-1/best.pt",
+        "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-1/summary.json",
+        "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction50/pretrained/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+            "--validation",
+            "data/splits/completion_v2/split_seed17/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/data_fraction50/random/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-data_fraction50-random-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/data_fraction50/random/seed-1/best.pt",
+        "artifacts/completion_v2/generator/data_fraction50/random/seed-1/summary.json",
+        "artifacts/completion_v2/generator/data_fraction50/random/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/data_fraction50/random/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "G3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+        "data/splits/completion_v2/split_seed17/validation_selection.tsv"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/source_holdout/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/source_holdout/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-source_holdout-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/source_holdout/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+        "artifacts/runs/pretrain/source_holdout/seed-1/last.pt",
+        "artifacts/runs/pretrain/source_holdout/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/source_holdout/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/source_holdout/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-source_holdout-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/source_holdout/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/source_holdout/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/source_holdout/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/source_holdout/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/splits/completion_v2/source_holdout/validation_selection.tsv",
+        "artifacts/runs/pretrain/source_holdout/seed-1/last.pt",
+        "artifacts/runs/pretrain/source_holdout/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_shared/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/source_shared/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-source_shared-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/source_shared/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/source_shared/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/splits/completion_v2/source_shared/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/source_shared/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/source_shared/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "both",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-source_shared-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/source_shared/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/source_shared/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/source_shared/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/source_shared/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "S1"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/splits/completion_v2/source_shared/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unseen_input_gamma_to_delta-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unseen_input_gamma_to_delta-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/unseen_input_gamma_to_delta/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unseen_input_delta_to_gamma-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-unseen_input_delta_to_gamma-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/unseen_input_delta_to_gamma/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-seen_input_gamma_to_delta-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "gamma_to_delta",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-seen_input_gamma_to_delta-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/seen_input_gamma_to_delta/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/splits/completion_v2/seen_input_gamma_to_delta/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "paired",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-seen_input_delta_to_gamma-paired-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1/best.pt",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1/summary.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--train",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--validation",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+            "--output",
+            "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-1",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--direction",
+            "delta_to_gamma",
+            "--source-mode",
+            "constant",
+            "--sampling",
+            "input",
+            "--validation-objective",
+            "direction_query_nll",
+            "--steps",
+            "1500",
+            "--batch-size",
+            "256",
+            "--learning-rate",
+            "2e-5",
+            "--warmup-steps",
+            "200",
+            "--validation-interval",
+            "100",
+            "--early-stopping-patience",
+            "5",
+            "--num-workers",
+            "4",
+            "--compact-checkpoints",
+            "--init",
+            "artifacts/runs/pretrain/a800/seed-1/last.pt"
+          ],
+          "script": "scripts/train_generator.py"
+        }
+      ],
+      "id": "generator-seen_input_delta_to_gamma-constant-seed-1",
+      "outputs": [
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-1/best.pt",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-1/summary.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-1/provenance.json",
+        "artifacts/completion_v2/generator/seen_input_delta_to_gamma/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "D3"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/splits/completion_v2/seen_input_delta_to_gamma/validation_selection.tsv",
+        "artifacts/runs/pretrain/a800/seed-1/last.pt",
+        "artifacts/runs/pretrain/a800/seed-1/summary.json"
+      ]
+    }
+  ]
+}

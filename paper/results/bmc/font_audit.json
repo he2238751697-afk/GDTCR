@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "figures": [
+    {
+      "file": "paper/results/bmc/figures/figure_1_workflow.pdf",
+      "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     15  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     22  0\n"
+    },
+    {
+      "file": "paper/results/bmc/figures/figure_2_data.pdf",
+      "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     17  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     24  0\n"
+    },
+    {
+      "file": "paper/results/bmc/figures/figure_3_primary.pdf",
+      "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     43  0\nFJGZKM+DejaVuSansMono                CID TrueType      Identity-H       yes yes yes     50  0\n"
+    },
+    {
+      "file": "paper/results/bmc/figures/figure_4_retrieval.pdf",
+      "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     18  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     25  0\n"
+    },
+    {
+      "file": "paper/results/bmc/figures/figure_5_efficiency.pdf",
+      "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     31  0\n"
+    },
+    {
+      "file": "paper/results/bmc/figures/figure_6_protocols.pdf",
+      "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     27  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     34  0\n"
+    },
+    {
+      "file": "paper/results/bmc/figures/figure_7_budget.pdf",
+      "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     31  0\n"
+    }
+  ]
+}

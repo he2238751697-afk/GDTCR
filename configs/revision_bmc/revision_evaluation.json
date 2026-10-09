@@ -1,0 +1,845 @@
+{
+  "code_digest": "78f1af8b20195ba5a64e1bef4aa9473f76a83253916c5d0e696f8ed063244e90",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/revision_bmc/code/20261006T132118Z_78f1af8b2019",
+  "created_utc": "2026-10-06T13:21:19.025311+00:00",
+  "job_records": "artifacts/revision_bmc/jobs/revision_evaluation",
+  "phase": "revision_evaluation",
+  "protocol": "paper/revision_bmc_protocol.md",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-0/best.pt",
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-0",
+            "--directions",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same",
+            "--ranker",
+            "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-0/best.pt"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-unseen_gamma_repaired-paired-seed-0",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-0/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-0/summary.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-0/provenance.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-0/best.pt",
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-0/checksums.json",
+        "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-0/best.pt",
+        "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/unseen_gamma_repaired/constant/seed-0/best.pt",
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-0",
+            "--directions",
+            "gamma_to_delta",
+            "--source-mode",
+            "constant",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-unseen_gamma_repaired-constant-seed-0",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-0/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-0/summary.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-0/provenance.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/constant/seed-0/best.pt",
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/constant/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/unseen_gamma_repaired/random/seed-0/best.pt",
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-0",
+            "--directions",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-unseen_gamma_repaired-random-seed-0",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-0/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-0/summary.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-0/provenance.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/random/seed-0/best.pt",
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/random/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-0/best.pt",
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-0",
+            "--directions",
+            "gamma_to_delta",
+            "--source-mode",
+            "shuffled",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same",
+            "--ranker",
+            "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-0/best.pt"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-unseen_gamma_repaired-shuffled-seed-0",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-0/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-0/summary.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-0/provenance.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-0/best.pt",
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-0/checksums.json",
+        "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-0/best.pt",
+        "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-1/best.pt",
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-1",
+            "--directions",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same",
+            "--ranker",
+            "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-1/best.pt"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-unseen_gamma_repaired-paired-seed-1",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-1/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-1/summary.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-1/provenance.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-1/best.pt",
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-1/checksums.json",
+        "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-1/best.pt",
+        "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/unseen_gamma_repaired/constant/seed-1/best.pt",
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-1",
+            "--directions",
+            "gamma_to_delta",
+            "--source-mode",
+            "constant",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-unseen_gamma_repaired-constant-seed-1",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-1/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-1/summary.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-1/provenance.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/constant/seed-1/best.pt",
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/constant/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/unseen_gamma_repaired/random/seed-1/best.pt",
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-1",
+            "--directions",
+            "gamma_to_delta",
+            "--source-mode",
+            "paired",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-unseen_gamma_repaired-random-seed-1",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-1/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-1/summary.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-1/provenance.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/random/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/random/seed-1/best.pt",
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/random/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-1/best.pt",
+            "--train",
+            "data/splits/revision_bmc/unseen_gamma_repaired/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/unseen_gamma_repaired/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-1",
+            "--directions",
+            "gamma_to_delta",
+            "--source-mode",
+            "shuffled",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same",
+            "--ranker",
+            "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-1/best.pt"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-unseen_gamma_repaired-shuffled-seed-1",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-1/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-1/summary.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-1/provenance.json",
+        "artifacts/revision_bmc/evaluation/unseen_gamma_repaired/shuffled/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-1/best.pt",
+        "artifacts/revision_bmc/generator/unseen_gamma_repaired/paired/seed-1/checksums.json",
+        "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-1/best.pt",
+        "artifacts/revision_bmc/ranker/unseen_gamma_repaired/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-0/best.pt",
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-0",
+            "--directions",
+            "both",
+            "--source-mode",
+            "paired",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same",
+            "--ranker",
+            "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-0/best.pt"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-giant_edge_holdout-paired-seed-0",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-0/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-0/summary.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-0/provenance.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-0/best.pt",
+        "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-0/checksums.json",
+        "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-0/best.pt",
+        "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/giant_edge_holdout/constant/seed-0/best.pt",
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-0",
+            "--directions",
+            "both",
+            "--source-mode",
+            "constant",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-giant_edge_holdout-constant-seed-0",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-0/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-0/summary.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-0/provenance.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/giant_edge_holdout/constant/seed-0/best.pt",
+        "artifacts/revision_bmc/generator/giant_edge_holdout/constant/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/giant_edge_holdout/random/seed-0/best.pt",
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-0",
+            "--directions",
+            "both",
+            "--source-mode",
+            "paired",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-giant_edge_holdout-random-seed-0",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-0/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-0/summary.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-0/provenance.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/giant_edge_holdout/random/seed-0/best.pt",
+        "artifacts/revision_bmc/generator/giant_edge_holdout/random/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-0/best.pt",
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-0",
+            "--directions",
+            "both",
+            "--source-mode",
+            "shuffled",
+            "--device",
+            "cuda",
+            "--seed",
+            "3407",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same",
+            "--ranker",
+            "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-0/best.pt"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-giant_edge_holdout-shuffled-seed-0",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-0/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-0/summary.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-0/provenance.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-0/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-0/best.pt",
+        "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-0/checksums.json",
+        "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-0/best.pt",
+        "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-0/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-1/best.pt",
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-1",
+            "--directions",
+            "both",
+            "--source-mode",
+            "paired",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same",
+            "--ranker",
+            "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-1/best.pt"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-giant_edge_holdout-paired-seed-1",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-1/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-1/summary.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-1/provenance.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/paired/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-1/best.pt",
+        "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-1/checksums.json",
+        "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-1/best.pt",
+        "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/giant_edge_holdout/constant/seed-1/best.pt",
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-1",
+            "--directions",
+            "both",
+            "--source-mode",
+            "constant",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-giant_edge_holdout-constant-seed-1",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-1/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-1/summary.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-1/provenance.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/constant/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/giant_edge_holdout/constant/seed-1/best.pt",
+        "artifacts/revision_bmc/generator/giant_edge_holdout/constant/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/giant_edge_holdout/random/seed-1/best.pt",
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-1",
+            "--directions",
+            "both",
+            "--source-mode",
+            "paired",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-giant_edge_holdout-random-seed-1",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-1/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-1/summary.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-1/provenance.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/random/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/giant_edge_holdout/random/seed-1/best.pt",
+        "artifacts/revision_bmc/generator/giant_edge_holdout/random/seed-1/checksums.json"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--generator",
+            "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-1/best.pt",
+            "--train",
+            "data/splits/revision_bmc/giant_edge_holdout/train.tsv",
+            "--pairs",
+            "data/splits/revision_bmc/giant_edge_holdout/test.tsv",
+            "--output",
+            "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-1",
+            "--directions",
+            "both",
+            "--source-mode",
+            "shuffled",
+            "--device",
+            "cuda",
+            "--seed",
+            "3508",
+            "--samples",
+            "64",
+            "--batch-size",
+            "128",
+            "--temperature",
+            "1",
+            "--top-p",
+            "0.95",
+            "--ranker-source-mode",
+            "same",
+            "--ranker",
+            "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-1/best.pt"
+          ],
+          "script": "scripts/evaluate_free_v2.py"
+        }
+      ],
+      "id": "evaluate-giant_edge_holdout-shuffled-seed-1",
+      "outputs": [
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-1/rows.json.gz",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-1/summary.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-1/provenance.json",
+        "artifacts/revision_bmc/evaluation/giant_edge_holdout/shuffled/seed-1/checksums.json"
+      ],
+      "requirements": [
+        "BMC-P0-2",
+        "BMC-P0-3"
+      ],
+      "requires": [
+        "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-1/best.pt",
+        "artifacts/revision_bmc/generator/giant_edge_holdout/paired/seed-1/checksums.json",
+        "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-1/best.pt",
+        "artifacts/revision_bmc/ranker/giant_edge_holdout/seed-1/checksums.json"
+      ]
+    }
+  ]
+}

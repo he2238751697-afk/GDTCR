@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "documents": [
+    {
+      "pdf": "output/pdf/gdtcr_bmc_revision.pdf",
+      "pdf_sha256": "b6ec4648a8b3f18f35934ec7ac4cc1e67709ef6cd50759d109b1c5ea9e78268a",
+      "source_sha256": "2d9d2661241d0f3a75eeace8647c9121a3ec38026f92bd54d572d2f10feb7f99",
+      "inspected_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "rendered_pages_directory": "tmp/pdfs/bmc_main_final",
+      "method": "Visual inspection of every page in rendered contact sheets, with separate full-resolution figures; extracted-text numeric/reference checks recorded separately",
+      "findings": "No observed clipping, caption overflow, missing figure/table, broken glyph or unresolved reference. Administrative pending fields are intentional. Native TeX compilation remains unavailable.",
+      "passed": true
+    },
+    {
+      "pdf": "output/pdf/additional_file_1_bmc.pdf",
+      "pdf_sha256": "a7e1682a21ee3114f0939e997140eedf3f536c97765e3ecc7d93663b40c2d7d6",
+      "source_sha256": "6b8ce0c11d642f6347d0091689b2035987cd40ed5cb2882fc7a8465b27e7e495",
+      "inspected_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "rendered_pages_directory": "tmp/pdfs/bmc_supplement_final",
+      "method": "Visual inspection of every page in rendered contact sheets, with separate full-resolution figures; extracted-text numeric/reference checks recorded separately",
+      "findings": "No observed clipping, caption overflow, missing figure/table, broken glyph or unresolved reference. Administrative pending fields are intentional. Native TeX compilation remains unavailable.",
+      "passed": true
+    }
+  ],
+  "main_figures_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "supplementary_figures_inspected": [
+    "S1",
+    "S2"
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "directional_seed": 1729,
+  "input_pair_sha256": "c144fd4ad466021d276540eb9210e55e34ad12591e5d50e25d8746950de157b4",
+  "protocol": "completion_v2",
+  "protocols": {
+    "seen_input_delta_to_gamma": {
+      "bootstrap_unit": "source_query",
+      "direction": "delta_to_gamma",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 264,
+          "gamma": 129
+        },
+        "train_validation": {
+          "delta": 264,
+          "gamma": 127
+        },
+        "validation_test": {
+          "delta": 264,
+          "gamma": 65
+        }
+      },
+      "kind": "seen_input",
+      "output_sha256": {
+        "test.tsv": "1ee350d3e9e8aecaed13fafa57fbefe7b46a3662eec9e6af55702e61e8b3ba89",
+        "train.tsv": "c08a68f043efa1f90188b8328449a7403160b4cf597126df176ee4286e891c51",
+        "validation.tsv": "853e18a61d96392837cdff07b3a8a33ff6c3cd3852a565cd0c829adb0abfeaac",
+        "validation_calibration.tsv": "d6a9c786de544a201b86edfacc82e8231073f573c3702d90a7bb29f6b9219a10",
+        "validation_selection.tsv": "f26754191498a0c896189db7295f65fac6b2c8dc3c75ff9ca43b0212fced2035",
+        "validation_tuning.tsv": "560decc19b7e356de89e62529392135b9c39bce5a3140e7f44bfda01b46e3b3b"
+      },
+      "sizes": {
+        "test": 333,
+        "train": 8402,
+        "validation": 333
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 264,
+          "gamma": 158
+        },
+        "train": {
+          "delta": 6989,
+          "gamma": 3880
+        },
+        "validation": {
+          "delta": 264,
+          "gamma": 162
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 83,
+        "selection": 167,
+        "tuning": 83
+      }
+    },
+    "seen_input_gamma_to_delta": {
+      "bootstrap_unit": "source_query",
+      "direction": "gamma_to_delta",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 138,
+          "gamma": 450
+        },
+        "train_validation": {
+          "delta": 153,
+          "gamma": 450
+        },
+        "validation_test": {
+          "delta": 48,
+          "gamma": 450
+        }
+      },
+      "kind": "seen_input",
+      "output_sha256": {
+        "test.tsv": "3f95238119f6f4413f956767b0d8a7b9d4575762223b44d87f7f5548974d06b2",
+        "train.tsv": "8bdd991f0dc49c94638b701516daafce8031f0090c685d882fa98ac4b5295331",
+        "validation.tsv": "03503904e0c5bf73fb43df8244e2935b05cac25869f29f46a35584e46d74b3f6",
+        "validation_calibration.tsv": "39328d4c762f1527c0de70188d01e5051c64e18551a1d810e6e985447f28fd4c",
+        "validation_selection.tsv": "6e383c76c55a6255195c55f7004adbb8c7d8f7e6126ca3918c5dda7784504102",
+        "validation_tuning.tsv": "49c977a0812d934489cfc2b2034173b3daff780c908e18cb966d8363361b0b93"
+      },
+      "sizes": {
+        "test": 706,
+        "train": 7656,
+        "validation": 706
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 612,
+          "gamma": 450
+        },
+        "train": {
+          "delta": 6073,
+          "gamma": 3944
+        },
+        "validation": {
+          "delta": 598,
+          "gamma": 450
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 177,
+        "selection": 353,
+        "tuning": 176
+      }
+    },
+    "source_holdout": {
+      "bootstrap_unit": "component",
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 0
+        }
+      },
+      "kind": "legacy_test_unchanged",
+      "output_sha256": {
+        "test.tsv": "709a5815598750761b8118fa8e693ce562fbe548a9a8cb111be42749dc71b5e0",
+        "train.tsv": "00069a35339cb38f3bf7038198dd70da7725af4ba97568fde2ed6bfa16df7b4a",
+        "validation.tsv": "1eb8c0757e9d6fd3b6dfd737f643443401312d1e2fee62901c04ba87be503b6c",
+        "validation_calibration.tsv": "7e2fd7b187d2c4f02fdbc13b8eb5ecba1e793dd08494063677b13120532f797a",
+        "validation_selection.tsv": "3b5403b26a8ee256550cf9f033c429959cad21f4e5611a7949cccca77f25370d",
+        "validation_tuning.tsv": "259bae365693e638f7428e7893f474e232508a56ede3dc364d675198a446f77d"
+      },
+      "sizes": {
+        "test": 626,
+        "train": 4956,
+        "validation": 551
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 419,
+          "gamma": 207
+        },
+        "train": {
+          "delta": 4433,
+          "gamma": 3594
+        },
+        "validation": {
+          "delta": 547,
+          "gamma": 129
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 138,
+        "selection": 275,
+        "tuning": 138
+      }
+    },
+    "source_shared": {
+      "bootstrap_unit": "component",
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 13,
+          "gamma": 144
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 10
+        }
+      },
+      "kind": "legacy_test_unchanged",
+      "output_sha256": {
+        "test.tsv": "709a5815598750761b8118fa8e693ce562fbe548a9a8cb111be42749dc71b5e0",
+        "train.tsv": "6353acbfd87bc84425b3ac5fbe8975f504bbeaa95e770cb7f865837a73a150e6",
+        "validation.tsv": "a2ad864796f3fcc0472e02ec5fdf58218cea12656955a3028a97bcbeea7f9c3f",
+        "validation_calibration.tsv": "2596ed45f4714a1b7d187942e2518a3c8a6a4a5f4eb97938e53195d2d163174a",
+        "validation_selection.tsv": "c16f0ca9a4e77ab98c99feb06bbb5403767e9218f2d3d08475343e99dc92607e",
+        "validation_tuning.tsv": "37de3472c8b58e8bda23643cb8cf11d2093c022456ac4649e8ee064a6977c541"
+      },
+      "sizes": {
+        "test": 626,
+        "train": 7597,
+        "validation": 844
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 419,
+          "gamma": 207
+        },
+        "train": {
+          "delta": 5743,
+          "gamma": 3630
+        },
+        "validation": {
+          "delta": 839,
+          "gamma": 260
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 211,
+        "selection": 422,
+        "tuning": 211
+      }
+    },
+    "split_seed17": {
+      "bootstrap_unit": "component",
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 0
+        }
+      },
+      "kind": "legacy_test_unchanged",
+      "nested_subsets": {
+        "10": {
+          "actual_fraction": 0.09994485800937414,
+          "components": 725,
+          "pairs": 725
+        },
+        "100": {
+          "actual_fraction": 1.0,
+          "components": 2250,
+          "pairs": 7254
+        },
+        "25": {
+          "actual_fraction": 0.2500689274882823,
+          "components": 1814,
+          "pairs": 1814
+        },
+        "50": {
+          "actual_fraction": 0.3100358422939068,
+          "components": 2249,
+          "pairs": 2249
+        }
+      },
+      "output_sha256": {
+        "test.tsv": "c34b44a0aff824c6cd9aacca4c6eb2fb7e75b9de15e4a5c747b03ab649c0bdce",
+        "train.tsv": "f32af4b4565cfbea25b89be29a54d73c31bcbfb0e10514450ff0e488b2947a68",
+        "train_fraction10.tsv": "71da4ae1edeba051f93b3e79d4c23361df1e1545bdd1dd5715dfd9b89ba228c6",
+        "train_fraction100.tsv": "f32af4b4565cfbea25b89be29a54d73c31bcbfb0e10514450ff0e488b2947a68",
+        "train_fraction25.tsv": "e6223228a0db1eb2bc53af59acfc1de1aed0c2833fb5e60f6206e936041223f6",
+        "train_fraction50.tsv": "8fa5ecb2df920a0152520c2d93c7f878b70be73356bc8d037e2b44cd0ec24096",
+        "validation.tsv": "1e508bec9fc7fb99378e694711c5f539b8636e1bb62ccc92ada43a386fcb1e9b",
+        "validation_calibration.tsv": "d0eba5feda461fb817dff490fde87324c850f74c053f04e63b9830f826d859a7",
+        "validation_selection.tsv": "e44246b373493da22c7341dab43ebae06fa2a47e5dabe502ffc9d5357138ec9e",
+        "validation_tuning.tsv": "a8a37c30e5e6e32d395220c9a7f3a583978aff023b9a21ceb040e6dc1d0cef53"
+      },
+      "sizes": {
+        "test": 907,
+        "train": 7254,
+        "validation": 907
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 900,
+          "gamma": 529
+        },
+        "train": {
+          "delta": 5185,
+          "gamma": 2890
+        },
+        "validation": {
+          "delta": 904,
+          "gamma": 525
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 227,
+        "selection": 453,
+        "tuning": 227
+      }
+    },
+    "split_seed2026": {
+      "bootstrap_unit": "component",
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 0
+        }
+      },
+      "kind": "legacy_test_unchanged",
+      "output_sha256": {
+        "test.tsv": "0895c7d5813a39ab554f8218796bb3e95e3b863dabfaa9c522e92b07d4102a1e",
+        "train.tsv": "230241c43ef708f45c07e732bc667fbbca915bde0e7a9ab05feedfcacef5db87",
+        "validation.tsv": "e4d6f9e69a7c395b8c308d1acfc739d94add61a37ccea7a437fdf4ee25c9411d",
+        "validation_calibration.tsv": "2bd450ac2c89f4f7590a01ec10e1e83e25f4e4c4d93258d2c1f025a23ef34b94",
+        "validation_selection.tsv": "ec669cc9b86000a3d191bc7a42cf223fee2751aa7facf8f62023f06efc816630",
+        "validation_tuning.tsv": "9ba1c68c78112dbb70153f1d86d8946dd5ef49f25e1b6a5830807777f5af6ce2"
+      },
+      "sizes": {
+        "test": 907,
+        "train": 7254,
+        "validation": 907
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 904,
+          "gamma": 525
+        },
+        "train": {
+          "delta": 5185,
+          "gamma": 2890
+        },
+        "validation": {
+          "delta": 900,
+          "gamma": 529
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 227,
+        "selection": 453,
+        "tuning": 227
+      }
+    },
+    "split_seed3407": {
+      "bootstrap_unit": "component",
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 0
+        }
+      },
+      "kind": "legacy_test_unchanged",
+      "output_sha256": {
+        "test.tsv": "f97d357a003bdd41936db19fcd75c76f2f55436f5a3d66991b102c4513606dcc",
+        "train.tsv": "a2ca08bb8ad1f32fb0d68c418992e02e8ae4d029a0c014f2c150ae65c25fc183",
+        "validation.tsv": "f6b4dd837d605ce695bbdc1bc41f34209f2697f36d665229354c4bbb3d91bd7e",
+        "validation_calibration.tsv": "c15181573e4ed0403503fe37f60ac04af1579c2526e6003361e15d43f2731535",
+        "validation_selection.tsv": "52644db62cffcf3e11e0dea1a11421d2c7090142c0b49b018439a4aee800bb85",
+        "validation_tuning.tsv": "fe495c3e1396cb2924e7590ab1eaead05abc89a4e8ae19d490c739c36c15d285"
+      },
+      "sizes": {
+        "test": 907,
+        "train": 7254,
+        "validation": 907
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 906,
+          "gamma": 523
+        },
+        "train": {
+          "delta": 5185,
+          "gamma": 2890
+        },
+        "validation": {
+          "delta": 898,
+          "gamma": 531
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 227,
+        "selection": 453,
+        "tuning": 227
+      }
+    },
+    "unseen_input_delta_to_gamma": {
+      "bootstrap_unit": "source_query",
+      "direction": "delta_to_gamma",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 244
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 250
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 159
+        }
+      },
+      "kind": "unseen_input",
+      "output_sha256": {
+        "test.tsv": "dbf5bad1212218d8c496421d0f6a4df7ca62382554345f22edb38a2d271942a8",
+        "train.tsv": "b17ca97d88ff68ae1e03fe6458c0165af9e9bb08ba67c8fe7c6cb145f6356a8f",
+        "validation.tsv": "ffe1ada94be653334db9f28fbd8c66bb7b1372bf828756a5f5a192e84d23d094",
+        "validation_calibration.tsv": "4fb6c6d1419d7c894737d45c6579fb281aaae1fcef1851c3d936cc2e490068ba",
+        "validation_selection.tsv": "ae36c8948568d9b4ae58d47b001a5e22982e27786e0881ee1ce1eeabb3753b11",
+        "validation_tuning.tsv": "c38ee31a8ccccceb4618e5352f64e2324300b6f37c0f2aad004b9939366deb73"
+      },
+      "sizes": {
+        "test": 907,
+        "train": 7254,
+        "validation": 907
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 161,
+          "gamma": 399
+        },
+        "train": {
+          "delta": 6667,
+          "gamma": 3661
+        },
+        "validation": {
+          "delta": 161,
+          "gamma": 388
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 227,
+        "selection": 453,
+        "tuning": 227
+      }
+    },
+    "unseen_input_gamma_to_delta": {
+      "bootstrap_unit": "source_query",
+      "direction": "gamma_to_delta",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 252,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 243,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 176,
+          "gamma": 0
+        }
+      },
+      "kind": "unseen_input",
+      "output_sha256": {
+        "test.tsv": "b9670b129f6a293ea19c0546491f518750c8e33a7adca67a7d32f9e65e0b1193",
+        "train.tsv": "eebbb22f32e0f36875a970f359a8608295909e858ec5e0524904319c2dd015b6",
+        "validation.tsv": "4b3a7036114b4a730243358cfb956cef10f8b953960c44417e1e631debf2cc52",
+        "validation_calibration.tsv": "a8dccded0864f3a686ccabe0afd9fb6ba9096c412cc7d90b85889dd686d3484a",
+        "validation_selection.tsv": "537c05871d2e2743081d199071118c12cacdd78a8d7033cb13a2aa46de813c4a",
+        "validation_tuning.tsv": "1eacf71c72b80ede226f24524842c5b36e3089749b3c6992e4a65ce41a25f495"
+      },
+      "sizes": {
+        "test": 907,
+        "train": 7254,
+        "validation": 907
+      },
+      "unique_chains": {
+        "test": {
+          "delta": 771,
+          "gamma": 64
+        },
+        "train": {
+          "delta": 5942,
+          "gamma": 3817
+        },
+        "validation": {
+          "delta": 816,
+          "gamma": 63
+        }
+      },
+      "validation_role_sizes": {
+        "calibration": 163,
+        "selection": 581,
+        "tuning": 163
+      }
+    }
+  },
+  "subset_seed": 1731,
+  "validation_seed": 7319
+}

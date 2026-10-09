@@ -1,0 +1,16 @@
+{
+  "assertions": [
+    "all frozen file hashes",
+    "role-specific recorded positives",
+    "all positives in every pool",
+    "other known partners excluded",
+    "at most 100 constructed distractors per small pool"
+  ],
+  "candidate_memberships_checked": 12167950,
+  "directional_queries_checked": 17703,
+  "files_checked": 36,
+  "known_pairs_sha256": "c144fd4ad466021d276540eb9210e55e34ad12591e5d50e25d8746950de157b4",
+  "pool_manifest_sha256": "4e81c140b20527a900df3bd21023223556bf85610458dc528f15cd9e90a1bca3",
+  "query_pools_checked": 88515,
+  "schema_version": 2
+}

@@ -1,0 +1,15 @@
+{
+  "chain": "delta",
+  "chunk_size": 32,
+  "chunks": 219,
+  "elapsed_seconds_this_invocation": 957.7606303691864,
+  "queries_sha256": "c144fd4ad466021d276540eb9210e55e34ad12591e5d50e25d8746950de157b4",
+  "query_path": "data/processed/paired_chain.txt",
+  "query_sequences": 6989,
+  "reference_format": "sequences",
+  "reference_path": "data/splits/pretrain/train.tsv",
+  "reference_sequences": 1230589,
+  "reference_sha256": "2589f9e5d9b75f39bf469b8b72514c21237e798acd1cb4c32cd5812e412cd29a",
+  "rows_sha256": "0a1871c4384cd713c9a5b04f775f45a3e4a439dff771d3f00a4b70753b40c1d9",
+  "script_sha256": "884bc07985fb07ecfb7479186fc34d9b3bd8eb096a4b5a8c4abbbb8d268619bb"
+}

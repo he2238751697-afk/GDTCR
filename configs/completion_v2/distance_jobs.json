@@ -1,0 +1,985 @@
+{
+  "code_digest": "cea9e37da9bfcd6388c4818573894c07f14f5d82029202ebf4aace6fdb9f5a21",
+  "code_snapshot": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/code/20260930T050530Z_cea9e37da9bf",
+  "created_utc": "2026-09-30T05:05:30.903084+00:00",
+  "job_records": "artifacts/completion_v2/jobs/distance",
+  "phase": "distance",
+  "protocol": "paper/protocol_v2.md",
+  "python": "/gpfs/work/bio/zihanhe25/Programs/GDTCR/artifacts/completion_v2/runtime/bin/python",
+  "root": "/gpfs/work/bio/zihanhe25/Programs/GDTCR",
+  "schema_version": 2,
+  "tasks": [
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/pretrain/train.tsv",
+            "--reference-format",
+            "sequences",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/pretrain_gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-pretrain_gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/pretrain_gamma/summary.json",
+        "artifacts/completion_v2/distances/pretrain_gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/pretrain_gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/pretrain/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/source_holdout/pretrain/train.tsv",
+            "--reference-format",
+            "sequences",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/pretrain_source_excluded_gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-pretrain_source_excluded_gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/pretrain_source_excluded_gamma/summary.json",
+        "artifacts/completion_v2/distances/pretrain_source_excluded_gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/pretrain_source_excluded_gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/source_holdout/pretrain/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/source_holdout/pretrain/train.tsv",
+            "--reference-format",
+            "sequences",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/pretrain_source_excluded_delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-pretrain_source_excluded_delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/pretrain_source_excluded_delta/summary.json",
+        "artifacts/completion_v2/distances/pretrain_source_excluded_delta/rows.json.gz",
+        "artifacts/completion_v2/distances/pretrain_source_excluded_delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/source_holdout/pretrain/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-seen_input_delta_to_gamma-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-seen_input_delta_to_gamma-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/seen_input_delta_to_gamma/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_delta_to_gamma/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-seen_input_gamma_to_delta-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-seen_input_gamma_to_delta-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/seen_input_gamma_to_delta/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/seen_input_gamma_to_delta/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/source_holdout/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-source_holdout-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/source_holdout/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/source_holdout/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/source_holdout/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/source_holdout/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/source_holdout/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-source_holdout-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/source_holdout/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/source_holdout/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/source_holdout/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_holdout/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/source_shared/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-source_shared-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/source_shared/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/source_shared/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/source_shared/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/source_shared/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/source_shared/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-source_shared-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/source_shared/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/source_shared/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/source_shared/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/source_shared/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/split_seed17/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-split_seed17-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/split_seed17/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed17/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/split_seed17/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed17/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/split_seed17/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-split_seed17-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/split_seed17/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed17/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/split_seed17/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/split_seed2026/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-split_seed2026-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/split_seed2026/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed2026/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/split_seed2026/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed2026/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/split_seed2026/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-split_seed2026-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/split_seed2026/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed2026/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/split_seed2026/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed2026/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/split_seed3407/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-split_seed3407-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/split_seed3407/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed3407/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/split_seed3407/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed3407/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/split_seed3407/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-split_seed3407-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/split_seed3407/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/split_seed3407/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/split_seed3407/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed3407/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-unseen_input_delta_to_gamma-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-unseen_input_delta_to_gamma-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/unseen_input_delta_to_gamma/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_delta_to_gamma/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-unseen_input_gamma_to_delta-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-unseen_input_gamma_to_delta-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/unseen_input_gamma_to_delta/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/unseen_input_gamma_to_delta/train.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/data_fraction10/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-data_fraction10-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/data_fraction10/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction10/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/data_fraction10/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/data_fraction10/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-data_fraction10-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/data_fraction10/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction10/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/data_fraction10/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction10.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/data_fraction25/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-data_fraction25-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/data_fraction25/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction25/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/data_fraction25/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/data_fraction25/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-data_fraction25-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/data_fraction25/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction25/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/data_fraction25/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction25.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "gamma",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/data_fraction50/gamma",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-data_fraction50-gamma",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/data_fraction50/gamma/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction50/gamma/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/data_fraction50/gamma/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    },
+    {
+      "commands": [
+        {
+          "args": [
+            "--reference",
+            "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+            "--reference-format",
+            "pairs",
+            "--queries",
+            "data/processed/paired_chain.txt",
+            "--chain",
+            "delta",
+            "--output",
+            "artifacts/completion_v2/distances/supervised/data_fraction50/delta",
+            "--chunk-size",
+            "32",
+            "--workers",
+            "4"
+          ],
+          "script": "scripts/nearest_sequences_v2.py"
+        }
+      ],
+      "id": "distance-supervised-data_fraction50-delta",
+      "outputs": [
+        "artifacts/completion_v2/distances/supervised/data_fraction50/delta/summary.json",
+        "artifacts/completion_v2/distances/supervised/data_fraction50/delta/rows.json.gz",
+        "artifacts/completion_v2/distances/supervised/data_fraction50/delta/run.json"
+      ],
+      "requirements": [
+        "D4"
+      ],
+      "requires": [
+        "data/splits/completion_v2/split_seed17/train_fraction50.tsv",
+        "data/processed/paired_chain.txt"
+      ]
+    }
+  ]
+}

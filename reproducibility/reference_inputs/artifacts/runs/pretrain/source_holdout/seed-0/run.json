@@ -1,0 +1,47 @@
+{
+  "arguments": {
+    "batch_size": 1024,
+    "checkpoint_interval": 2000,
+    "d_model": 256,
+    "decoder_layers": 4,
+    "device": "cuda",
+    "dim_feedforward": 1024,
+    "dropout": 0.1,
+    "encoder_layers": 4,
+    "learning_rate": 0.0003,
+    "max_length": 64,
+    "nhead": 8,
+    "num_workers": 4,
+    "output": "artifacts/runs/pretrain/source_holdout/seed-0",
+    "resume": false,
+    "sampling": "sqrt",
+    "seed": 3407,
+    "steps": 20000,
+    "train": "data/splits/source_holdout/pretrain/train.tsv",
+    "validation": [
+      "data/splits/source_holdout/pretrain/gamma_validation.tsv",
+      "data/splits/source_holdout/pretrain/delta_validation.tsv"
+    ],
+    "validation_interval": 500,
+    "validation_sequences": 2048,
+    "warmup_steps": 500,
+    "weight_decay": 0.01
+  },
+  "chain_sampling": "sqrt",
+  "chain_sampling_probability_gamma": 0.2804895300745177,
+  "device": "cuda",
+  "device_name": "NVIDIA A800 80GB PCIe",
+  "model_config": {
+    "d_model": 256,
+    "decoder_layers": 4,
+    "dim_feedforward": 1024,
+    "dropout": 0.1,
+    "encoder_layers": 4,
+    "max_length": 64,
+    "nhead": 8
+  },
+  "parameter_count": 7396890,
+  "torch_version": "2.7.1+cu126",
+  "train_rows": 1417116,
+  "validation_rows": 28921
+}

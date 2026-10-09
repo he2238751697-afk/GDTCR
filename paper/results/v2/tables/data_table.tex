@@ -1,0 +1,19 @@
+\begin{table}[ht]
+\centering
+\caption{Primary split structure and proximity to the pretraining pool. Distance bins use unique test gamma queries. Distant edges require both chains to be at least three edits from supervised and pretraining references.}
+\label{tab:data}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.4200\linewidth}p{0.1600\linewidth}p{0.1600\linewidth}p{0.1600\linewidth}}
+\toprule
+Split seed & 17 & 3407 & 2026\\
+\midrule
+Training/validation/test edges & 7254/907/907 & 7254/907/907 & 7254/907/907\\
+Test gamma queries & 529 & 523 & 525\\
+Test delta queries & 900 & 906 & 904\\
+Gamma queries one edit from pretraining & 487 & 494 & 493\\
+Gamma queries at least three edits from pretraining & 8 & 7 & 4\\
+Distant test edges & 5 & 5 & 3\\
+\bottomrule
+\end{tabular}
+\end{table}

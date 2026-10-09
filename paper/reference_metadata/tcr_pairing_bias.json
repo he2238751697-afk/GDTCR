@@ -1,0 +1,4343 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22pairing%22+AND+%28TITLE%3A%22T-cell+receptor%22+OR+TITLE%3A%22T+cell+receptor%22%29&format=json&resultType=core&pageSize=10",
+  "retrieved_utc": "2026-09-30T06:43:08.928882+00:00",
+  "response": {
+    "version": "6.9",
+    "hitCount": 26,
+    "nextCursorMark": "AoIIP9aWzig0MjkwNjk3Mw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22pairing%22+AND+%28TITLE%3A%22T-cell+receptor%22+OR+TITLE%3A%22T+cell+receptor%22%29&cursorMark=AoIIP9aWzig0MjkwNjk3Mw%3D%3D&resultType=core&pageSize=10&format=json",
+    "request": {
+      "queryString": "TITLE:\"pairing\" AND (TITLE:\"T-cell receptor\" OR TITLE:\"T cell receptor\")",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 10,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42288475",
+          "source": "MED",
+          "pmid": "42288475",
+          "pmcid": "PMC13408770",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13408770"
+            ]
+          },
+          "doi": "10.1038/s41467-026-73396-3",
+          "title": "Deciphering small sequence differences in T cell receptor-antigen pairing.",
+          "authorString": "Han Y, Yang Y, Zhu J, Fattah FJ, von Itzstein MS, Zhang M, Bermack C, Jiang P, Singh S, Tian Y, Hu Y, Deng Y, Kang X, Yang DM, Liu J, Xue Y, Liang C, Raman I, Zhu C, Xiao O, Dowell JE, Homsi J, Rashdan S, Pan K, Yang S, Gwin ME, Hsiehchen D, Gloria-McCutchen Y, Wu F, Heymach JV, Gibbons D, Huang J, Cheng C, Zhang J, Yee C, Reuben A, Gerber DE, Wang T.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Han Y",
+                "lastName": "Han",
+                "firstName": "Yi",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang Y",
+                "lastName": "Yang",
+                "firstName": "Yuqiu",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0975-1658"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhu J",
+                "lastName": "Zhu",
+                "firstName": "James",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fattah FJ",
+                "lastName": "Fattah",
+                "firstName": "Farjana J",
+                "initials": "FJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "von Itzstein MS",
+                "lastName": "von Itzstein",
+                "firstName": "Mitchell S",
+                "initials": "MS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0530-3169"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang M",
+                "lastName": "Zhang",
+                "firstName": "Minying",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bermack C",
+                "lastName": "Bermack",
+                "firstName": "Casey",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Melanoma Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jiang P",
+                "lastName": "Jiang",
+                "firstName": "Peixin",
+                "initials": "P",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-8033-1639"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Singh S",
+                "lastName": "Singh",
+                "firstName": "Shailbala",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Melanoma Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tian Y",
+                "lastName": "Tian",
+                "firstName": "Yanhua",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7095-8765"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    },
+                    {
+                      "affiliation": "Department of Genomic Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hu Y",
+                "lastName": "Hu",
+                "firstName": "Yifei",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-5709-4129"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Deng Y",
+                "lastName": "Deng",
+                "firstName": "Yafang",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5524-9629"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Biology and Center for Inflammation Research, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kang X",
+                "lastName": "Kang",
+                "firstName": "Xiongbin",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang DM",
+                "lastName": "Yang",
+                "firstName": "Donghan M",
+                "initials": "DM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Liu J",
+                "lastName": "Liu",
+                "firstName": "Jialiang",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xue Y",
+                "lastName": "Xue",
+                "firstName": "Yaming",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Liang C",
+                "lastName": "Liang",
+                "firstName": "Chaoying",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Raman I",
+                "lastName": "Raman",
+                "firstName": "Indu",
+                "initials": "I",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhu C",
+                "lastName": "Zhu",
+                "firstName": "Chengsong",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8872-9450"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Immunology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xiao O",
+                "lastName": "Xiao",
+                "firstName": "Olivia",
+                "initials": "O",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dowell JE",
+                "lastName": "Dowell",
+                "firstName": "Jonathan E",
+                "initials": "JE",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Homsi J",
+                "lastName": "Homsi",
+                "firstName": "Jade",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rashdan S",
+                "lastName": "Rashdan",
+                "firstName": "Sawsan",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pan K",
+                "lastName": "Pan",
+                "firstName": "Ke",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Melanoma Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang S",
+                "lastName": "Yang",
+                "firstName": "Shengjie",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gwin ME",
+                "lastName": "Gwin",
+                "firstName": "Mary E",
+                "initials": "ME",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hsiehchen D",
+                "lastName": "Hsiehchen",
+                "firstName": "David",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9139-302X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, USA."
+                    },
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gloria-McCutchen Y",
+                "lastName": "Gloria-McCutchen",
+                "firstName": "Yvonne",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wu F",
+                "lastName": "Wu",
+                "firstName": "Fangjiang",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8812-8655"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Peter O'Donnell Jr. School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Heymach JV",
+                "lastName": "Heymach",
+                "firstName": "John V",
+                "initials": "JV",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9068-8942"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gibbons D",
+                "lastName": "Gibbons",
+                "firstName": "Don",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2362-3094"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Huang J",
+                "lastName": "Huang",
+                "firstName": "Junzhou",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9548-1227"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Computer Science and Engineering, University of Texas at Arlington, Arlington, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cheng C",
+                "lastName": "Cheng",
+                "firstName": "Chao",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5002-3417"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Medicine, Baylor College of Medicine, Houston, TX, USA."
+                    },
+                    {
+                      "affiliation": "Dan L Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX, USA."
+                    },
+                    {
+                      "affiliation": "The Institute for Clinical and Translational Research, Baylor College of Medicine, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang J",
+                "lastName": "Zhang",
+                "firstName": "Jianjun",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7872-3477"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yee C",
+                "lastName": "Yee",
+                "firstName": "Cassian",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4429-7307"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Melanoma Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. CYee@mdanderson.org."
+                    },
+                    {
+                      "affiliation": "Department of Immunology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. CYee@mdanderson.org."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Reuben A",
+                "lastName": "Reuben",
+                "firstName": "Alexandre",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4510-0382"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. AReuben@mdanderson.org."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gerber DE",
+                "lastName": "Gerber",
+                "firstName": "David E",
+                "initials": "DE",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7812-6741"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, USA. David.Gerber@utsoutwestern.edu."
+                    },
+                    {
+                      "affiliation": "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA. David.Gerber@utsoutwestern.edu."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wang T",
+                "lastName": "Wang",
+                "firstName": "Tao",
+                "initials": "T",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4355-149X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA. twang10@mdanderson.org."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5524-9629"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7095-8765"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7872-3477"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8812-8655"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8872-9450"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9068-8942"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9139-302X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0975-1658"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4355-149X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4429-7307"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5002-3417"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7812-6741"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9548-1227"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0530-3169"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2362-3094"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4510-0382"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-5709-4129"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-8033-1639"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "17",
+            "journalIssueId": 4204868,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Nat Commun",
+              "title": "Nature communications",
+              "essn": "2041-1723",
+              "issn": "2041-1723",
+              "nlmid": "101528555",
+              "isoabbreviation": "Nat Commun"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "7511",
+          "abstractText": "T cells have important functions in development and disease processes through T cell receptor (TCR)-dependent activities. Many tools were developed to predict the binding between TCRs and antigens. However, one of the uncertainties is whether such tools can decipher how small changes in the TCRs or antigenic peptides contribute to binding. We develop a deep learning model, pMTnet-omni, which not only predicts the binding vs. non-binding of TCRs towards pMHCs, but also distinguishes the stronger vs. weaker binding of TCRs similar in sequence. We leverage this capability to interpret the biological rules that govern TCR-antigen pairing. This also enables pMTnet-omni to accurately predict variant TCRs with desired stronger or weaker binding to the antigen, in conjunction with a Lab-in-the-Loop (LiL) mechanism. We show that pMTnet-omni can also predict binding of TCRs towards similar pMHCs. Overall, we provide a flexible toolkit for research and translational applications involving antigens and TCRs.",
+          "affiliation": "Department of Bioinformatics & Comp Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | NIH | National Cancer Institute",
+                "grantId": "5R01CA258584",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health & Human Services | NIH | National Cancer Institute (NCI)",
+                "grantId": "5R01CA258584",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI190103",
+                "orderIn": 0
+              },
+              {
+                "agency": "Cancer Prevention and Research Institute of Texas",
+                "grantId": "RP230363",
+                "orderIn": 0
+              },
+              {
+                "agency": "Cancer Prevention and Research Institute of Texas (Cancer Prevention Research Institute of Texas)",
+                "grantId": "RP230363",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "R01 CA258584",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI192499",
+                "orderIn": 0
+              },
+              {
+                "agency": "Division of Intramural Research, National Institute of Allergy and Infectious Diseases (Division of Intramural Research of the NIAID)",
+                "grantId": "R01AI190103",
+                "orderIn": 0
+              },
+              {
+                "agency": "Division of Intramural Research, National Institute of Allergy and Infectious Diseases",
+                "grantId": "R01AI190103",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Antigens",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Amino Acid Sequence"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Protein Binding"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41467-026-73396-3"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13408770"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13408770?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-07-30",
+          "dateOfCreation": "2026-06-13",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-13",
+          "firstPublicationDate": "2026-06-13",
+          "firstIndexDate": "2026-06-16",
+          "fullTextReceivedDate": "2026-09-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42485223",
+          "source": "MED",
+          "pmid": "42485223",
+          "pmcid": "PMC13447020",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13447020"
+            ]
+          },
+          "doi": "10.1093/bioinformatics/btag551",
+          "title": "Systematic analysis of CDR contacts and pairing constraints between T cell receptor αβ chains.",
+          "authorString": "Milighetti M, Nagano Y, Henderson J, Hershberg U, Tiffeau-Mayer A, Bitbol AF, Chain B.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Milighetti M",
+                "lastName": "Milighetti",
+                "firstName": "Martina",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4170-8796"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Infection and Immunity, University College London, London, WC1E 6BT, United Kingdom."
+                    },
+                    {
+                      "affiliation": "Cancer Institute, University College London, London, WC1E 6BT, United Kingdom."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nagano Y",
+                "lastName": "Nagano",
+                "firstName": "Yuta",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1784-9276"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Infection and Immunity, University College London, London, WC1E 6BT, United Kingdom."
+                    },
+                    {
+                      "affiliation": "Division of Medicine, University College London, London, WC1E 6BT, United Kingdom."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Henderson J",
+                "lastName": "Henderson",
+                "firstName": "James",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Infection and Immunity, University College London, London, WC1E 6BT, United Kingdom."
+                    },
+                    {
+                      "affiliation": "Institute for the Physics of Living Systems, University College London, London, WC1E 6BT, United Kingdom."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hershberg U",
+                "lastName": "Hershberg",
+                "firstName": "Uri",
+                "initials": "U",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Human Biology, School of Life Sciences, Faculty of Sciences and Center of Biophysics and Quantitative Biology, University of Haifa, Haifa 3498858, Israel."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tiffeau-Mayer A",
+                "lastName": "Tiffeau-Mayer",
+                "firstName": "Andreas",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6643-7622"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Infection and Immunity, University College London, London, WC1E 6BT, United Kingdom."
+                    },
+                    {
+                      "affiliation": "Institute for the Physics of Living Systems, University College London, London, WC1E 6BT, United Kingdom."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bitbol AF",
+                "lastName": "Bitbol",
+                "firstName": "Anne-Florence",
+                "initials": "AF",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1020-494X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), CH-1015 Lausanne, Switzerland."
+                    },
+                    {
+                      "affiliation": "SIB Swiss Institute of Bioinformatics, CH-1015 Lausanne, Switzerland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chain B",
+                "lastName": "Chain",
+                "firstName": "Benny",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7417-3970"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Infection and Immunity, University College London, London, WC1E 6BT, United Kingdom."
+                    },
+                    {
+                      "affiliation": "Department of Computer Science, University College London, London, WC1E 6BT, United Kingdom."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1784-9276"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6643-7622"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7417-3970"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1020-494X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4170-8796"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "8",
+            "volume": "42",
+            "journalIssueId": 4237127,
+            "dateOfPublication": "2026 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Bioinformatics",
+              "title": "Bioinformatics (Oxford, England)",
+              "essn": "1367-4811",
+              "issn": "1367-4803",
+              "nlmid": "9808944",
+              "isoabbreviation": "Bioinformatics"
+            },
+            "printPublicationDate": "2026-08-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "btag551",
+          "abstractText": "<h4>Motivation</h4>The six complementarity determining regions (CDRs) of the T cell receptor (TCR) form multiple contacts with cognate peptide and major histocompatibility complex, thus determining antigen specificity. However, the contacts between the CDRs themselves are less understood.<h4>Results</h4>Our systematic study of all available TCR crystallographic structures identified consistent patterns of intra- and inter-chain CDR contacts in both free and antigen-bound TCRs. In addition, the protein sequences of TCRα and TCRβ from sets of TCRs which recognise a shared antigen shared mutual information and were not independent. As a result, sequence-based models can partially predict TCRα/TCRβ pairing de novo. The conserved patterns of CDR amino acid contacts, and the mutual sequence constraints between antigen-specific sets of TCR α and β chains represent an under-appreciated element of TCR structure, which may play an important role in T cell antigen recognition.<h4>Availability and implementation</h4>The code and data necessary to reproduce the analyses are available at https://github.com/mm523/TCRab-pairing.",
+          "affiliation": "Division of Infection and Immunity, University College London, London, WC1E 6BT, United Kingdom.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Cancer Research UK City of London Centre",
+                "grantId": "BCCG1C8R",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Complementarity Determining Regions",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell, alpha-beta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Amino Acid Sequence"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Models, Molecular"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell, alpha-beta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Complementarity Determining Regions",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/bioinformatics/btag551"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13447020"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13447020?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "pdb"
+            ]
+          },
+          "dateOfCompletion": "2026-08-06",
+          "dateOfCreation": "2026-07-22",
+          "dateOfRevision": "2026-09-23",
+          "firstPublicationDate": "2026-08-01",
+          "firstIndexDate": "2026-07-23",
+          "fullTextReceivedDate": "2026-09-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "42356506",
+          "source": "MED",
+          "pmid": "42356506",
+          "doi": "10.3390/ph19060888",
+          "title": "Engineering a Second Interchain Disulfide Bond in the αβ T-Cell Receptor Constant Domain: A Powerful Strategy to Enhance Stability, Pairing Fidelity, and Therapeutic Efficacy in TCR-T Cell Therapy.",
+          "authorString": "Quan NT, Lin X, Xuan DTN, Anh BTV.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Quan NT",
+                "lastName": "Quan",
+                "firstName": "Nguyen Trung",
+                "initials": "NT",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biomedical Sciences, City University of Hong Kong, Kowloon, Hong Kong 999077, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lin X",
+                "lastName": "Lin",
+                "firstName": "Xiangliang",
+                "initials": "X",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0008-0250-6693"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Esco Aster Pte. Ltd., Singapore 139950, Singapore."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xuan DTN",
+                "lastName": "Xuan",
+                "firstName": "Duong Thi Nhu",
+                "initials": "DTN",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Anh BTV",
+                "lastName": "Anh",
+                "firstName": "Bui Thi Van",
+                "initials": "BTV",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Esco Aster Pte. Ltd., Singapore 139950, Singapore."
+                    },
+                    {
+                      "affiliation": "Faculty of Pharmacy, Ton Duc Thang University, Ho Chi Minh City 700000, Vietnam."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4423-5990"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0008-0250-6693"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "6",
+            "volume": "19",
+            "journalIssueId": 4222013,
+            "dateOfPublication": "2026 Jun",
+            "monthOfPublication": 6,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Pharmaceuticals (Basel)",
+              "title": "Pharmaceuticals (Basel, Switzerland)",
+              "essn": "1424-8247",
+              "issn": "1424-8247",
+              "nlmid": "101238453",
+              "isoabbreviation": "Pharmaceuticals (Basel)"
+            },
+            "printPublicationDate": "2026-06-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "888",
+          "abstractText": "Adoptive TCR-T cell therapy holds great promise for personalised cancer treatment, yet it is limited by poor surface expression, chain mispairing, and suboptimal stability of introduced TCRs. One effective structure-guided approach is to introduce a second interchain disulfide bond between the α and β constant domains. This review summarises the structural and mechanistic basis of this strategy, its impact on TCR folding, CD3 assembly, mechanotransduction, and anti-tumour function, as well as current engineering approaches, persistent challenges, and future perspectives. Preclinical studies demonstrate improved heterodimer stability, reduced mispairing, higher surface expression, and enhanced signalling, positioning the second disulfide bond as a valuable complementary tool in next-generation TCR engineering.",
+          "affiliation": "Department of Biomedical Sciences, City University of Hong Kong, Kowloon, Hong Kong 999077, China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Disulfide bond",
+              "Immunotherapy",
+              "Constant domain",
+              "Tcr-t"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/ph19060888"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-06-26",
+          "dateOfCreation": "2026-06-26",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-06-03",
+          "firstPublicationDate": "2026-06-03",
+          "firstIndexDate": "2026-06-27",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "39191945",
+          "source": "MED",
+          "pmid": "39191945",
+          "pmcid": "PMC13094068",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13094068"
+            ]
+          },
+          "doi": "10.1038/s41590-024-01937-3",
+          "title": "A mass cytometry method pairing T cell receptor and differentiation state analysis.",
+          "authorString": "Garcia Castillo J, DeBarge R, Mende A, Tenvooren I, Marquez DM, Straub A, Busch DH, Spitzer MH, DuPage M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Garcia Castillo J",
+                "lastName": "Garcia Castillo",
+                "firstName": "Jesse",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5786-7914"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Immunology and Molecular Medicine, Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "DeBarge R",
+                "lastName": "DeBarge",
+                "firstName": "Rachel",
+                "initials": "R",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California, San Francisco, San Francisco, CA, USA."
+                    },
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of California, San Francisco, San Francisco, CA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mende A",
+                "lastName": "Mende",
+                "firstName": "Abigail",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8893-7839"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Immunology and Molecular Medicine, Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tenvooren I",
+                "lastName": "Tenvooren",
+                "firstName": "Iliana",
+                "initials": "I",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California, San Francisco, San Francisco, CA, USA."
+                    },
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of California, San Francisco, San Francisco, CA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Marquez DM",
+                "lastName": "Marquez",
+                "firstName": "Diana M",
+                "initials": "DM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California, San Francisco, San Francisco, CA, USA."
+                    },
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of California, San Francisco, San Francisco, CA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Straub A",
+                "lastName": "Straub",
+                "firstName": "Adrian",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4200-5785"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Medical Microbiology, Immunology and Hygiene, Technische Universität München (TUM), Munich, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Busch DH",
+                "lastName": "Busch",
+                "firstName": "Dirk H",
+                "initials": "DH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Medical Microbiology, Immunology and Hygiene, Technische Universität München (TUM), Munich, Germany; Partner site Munich, German Center for Infection Research (DZIF), Munich, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Spitzer MH",
+                "lastName": "Spitzer",
+                "firstName": "Matthew H",
+                "initials": "MH",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5291-3819"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California, San Francisco, San Francisco, CA, USA. matthew.spitzer@ucsf.edu."
+                    },
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of California, San Francisco, San Francisco, CA, USA. matthew.spitzer@ucsf.edu."
+                    },
+                    {
+                      "affiliation": "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA. matthew.spitzer@ucsf.edu."
+                    },
+                    {
+                      "affiliation": "Parker Institute for Cancer Immunotherapy, San Francisco, CA, USA. matthew.spitzer@ucsf.edu."
+                    },
+                    {
+                      "affiliation": "Chan Zuckerberg Biohub San Francisco, San Francisco, CA, USA. matthew.spitzer@ucsf.edu."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "DuPage M",
+                "lastName": "DuPage",
+                "firstName": "Michel",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1479-9840"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Immunology and Molecular Medicine, Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA. dupage@berkeley.edu."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5786-7914"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1479-9840"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5291-3819"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8893-7839"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4200-5785"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "9",
+            "volume": "25",
+            "journalIssueId": 3820209,
+            "dateOfPublication": "2024 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Nat Immunol",
+              "title": "Nature immunology",
+              "essn": "1529-2916",
+              "issn": "1529-2908",
+              "nlmid": "100941354",
+              "isoabbreviation": "Nat Immunol"
+            },
+            "printPublicationDate": "2024-09-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "1754-1763",
+          "abstractText": "T cell antigen receptor (TCR) recognition followed by clonal expansion is a fundamental feature of adaptive immune responses. Here, we present a mass cytometric (CyTOF) approach to track T cell responses by combining antibodies for specific TCR Vα and Vβ chains with antibodies against T cell activation and differentiation proteins in mice. This strategy identifies expansions of CD8<sup>+</sup> and CD4<sup>+</sup> T cells expressing specific Vβ and Vα chains with varying differentiation states in response to Listeria monocytogenes, tumors and respiratory influenza infection. Expanded T cell populations expressing Vβ chains could be directly linked to the recognition of specific antigens from Listeria, tumor cells or influenza. In the setting of influenza infection, we found that common therapeutic approaches of intramuscular vaccination or convalescent serum transfer altered the TCR diversity and differentiation state of responding T cells. Thus, we present a method to monitor broad changes in TCR use paired with T cell phenotyping during adaptive immune responses.",
+          "affiliation": "Division of Immunology and Molecular Medicine, Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "DP2 CA247830",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIDDK NIH HHS",
+                "acronym": "DK",
+                "grantId": "P30 DK063720",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIDCR NIH HHS",
+                "acronym": "DE",
+                "grantId": "R01 DE032033",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health",
+                "grantId": "1DP2CA247830-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health & Human Services | National Institutes of Health (NIH)",
+                "grantId": "1DP2CA247830-01",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIH HHS",
+                "acronym": "OD",
+                "grantId": "DP5 OD023056",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIH HHS",
+                "acronym": "OD",
+                "grantId": "S10 OD018040",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "CD4-Positive T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "CD8-Positive T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice, Inbred C57BL"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Listeria monocytogenes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Orthomyxoviridae Infections",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, alpha-beta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Flow Cytometry",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "MT",
+                      "qualifierName": "methods"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lymphocyte Activation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cell Differentiation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Adaptive Immunity"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Listeriosis",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "IM",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, alpha-beta",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41590-024-01937-3"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13094068"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13094068?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41590-024-01937-3"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "Y",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "Y",
+          "manuscriptId": "NIHMS2147765",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2024-08-29",
+          "dateOfCreation": "2024-08-27",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2024-08-27",
+          "firstPublicationDate": "2024-08-27",
+          "firstIndexDate": "2024-08-28",
+          "fullTextReceivedDate": "2026-04-22",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "37133356",
+          "source": "MED",
+          "pmid": "37133356",
+          "pmcid": "PMC10156162",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10156162"
+            ]
+          },
+          "doi": "10.7554/elife.81810",
+          "title": "Improved T cell receptor antigen pairing through data-driven filtering of sequencing information from single cells.",
+          "authorString": "Povlsen HR, Bentzen AK, Kadivar M, Jessen LE, Hadrup SR, Nielsen M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Povlsen HR",
+                "lastName": "Povlsen",
+                "firstName": "Helle Rus",
+                "initials": "HR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5687-4386"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Health Technology at Technical University of Denmark, Kongens Lyngby, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bentzen AK",
+                "lastName": "Bentzen",
+                "firstName": "Amalie Kai",
+                "initials": "AK",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5184-3054"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Health Technology at Technical University of Denmark, Kongens Lyngby, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kadivar M",
+                "lastName": "Kadivar",
+                "firstName": "Mohammad",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1499-191X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Health Technology at Technical University of Denmark, Kongens Lyngby, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Jessen LE",
+                "lastName": "Jessen",
+                "firstName": "Leon Eyrich",
+                "initials": "LE",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2879-2559"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Health Technology at Technical University of Denmark, Kongens Lyngby, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hadrup SR",
+                "lastName": "Hadrup",
+                "firstName": "Sine Reker",
+                "initials": "SR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5937-4344"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Health Technology at Technical University of Denmark, Kongens Lyngby, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nielsen M",
+                "lastName": "Nielsen",
+                "firstName": "Morten",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7885-4311"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Health Technology at Technical University of Denmark, Kongens Lyngby, Denmark."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7885-4311"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5184-3054"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5687-4386"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5937-4344"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1499-191X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2879-2559"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data",
+              "protocols"
+            ]
+          },
+          "journalInfo": {
+            "volume": "12",
+            "journalIssueId": 3555840,
+            "dateOfPublication": "2023 May",
+            "monthOfPublication": 5,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Elife",
+              "title": "eLife",
+              "essn": "2050-084X",
+              "issn": "2050-084X",
+              "nlmid": "101579614",
+              "isoabbreviation": "Elife"
+            },
+            "printPublicationDate": "2023-05-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "e81810",
+          "abstractText": "Novel single-cell-based technologies hold the promise of matching T cell receptor (TCR) sequences with their cognate peptide-MHC recognition motif in a high-throughput manner. Parallel capture of TCR transcripts and peptide-MHC is enabled through the use of reagents labeled with DNA barcodes. However, analysis and annotation of such single-cell sequencing (SCseq) data are challenged by dropout, random noise, and other technical artifacts that must be carefully handled in the downstream processing steps. We here propose a rational, data-driven method termed ITRAP (improved T cell Receptor Antigen Paring) to deal with these challenges, filtering away likely artifacts, and enable the generation of large sets of TCR-pMHC sequence data with a high degree of specificity and sensitivity, thus outputting the most likely pMHC target per T cell. We have validated this approach across 10 different virus-specific T cell responses in 16 healthy donors. Across these samples, we have identified up to 1494 high-confident TCR-pMHC pairs derived from 4135 single cells.",
+          "affiliation": "Department of Health Technology at Technical University of Denmark, Kongens Lyngby, Denmark.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "75N93019C00001",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Institute of Allergy and Infectious Diseases",
+                "grantId": "75N93019C00001",
+                "orderIn": 0
+              },
+              {
+                "agency": "Lundbeck Foundation",
+                "grantId": "R324-2019-1671",
+                "orderIn": 0
+              },
+              {
+                "agency": "Lundbeck Foundation",
+                "grantId": "R322-2019-2445",
+                "orderIn": 0
+              },
+              {
+                "agency": "European Research Council",
+                "acronym": "ERC_",
+                "grantId": "StG 677268 NextDART",
+                "orderIn": 0
+              },
+              {
+                "agency": "Danmarks Frie Forskningsfond",
+                "grantId": "7014-00055",
+                "orderIn": 0
+              },
+              {
+                "agency": "Lundbeck Foundation",
+                "grantId": "R190-2014-4178",
+                "orderIn": 0
+              },
+              {
+                "agency": "Lundbeckfonden",
+                "grantId": "R190-2014-4178",
+                "orderIn": 0
+              },
+              {
+                "agency": "Lundbeckfonden",
+                "grantId": "R322-2019-2445",
+                "orderIn": 0
+              },
+              {
+                "agency": "European Research Council",
+                "grantId": "677268",
+                "orderIn": 0
+              },
+              {
+                "agency": "Lundbeckfonden",
+                "grantId": "R324-2019-1671",
+                "orderIn": 0
+              },
+              {
+                "agency": "HORIZON EUROPE Marie Sklodowska-Curie Actions",
+                "grantId": "713683",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "T-Lymphocytes"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Peptides"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Antigens"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Human",
+              "T cell receptor",
+              "Inflammation",
+              "Evaluation methods",
+              "systems biology",
+              "computational biology",
+              "immunology",
+              "Sequence Similarity",
+              "Epitope Specificity",
+              "Single-cell Immune Profiling"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Peptides",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.7554/eLife.81810"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10156162"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10156162?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 30,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2023-05-05",
+          "dateOfCreation": "2023-05-03",
+          "dateOfRevision": "2023-11-02",
+          "electronicPublicationDate": "2023-05-03",
+          "firstPublicationDate": "2023-05-03",
+          "firstIndexDate": "2023-05-03",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR539827",
+          "source": "PPR",
+          "doi": "10.1101/2022.08.31.506001",
+          "title": "ATRAP - Accurate T cell Receptor Antigen Pairing through data-driven filtering of sequencing information from single-cells",
+          "authorString": "Povlsen HR, Bentzen AK, Kadivar M, Jessen LE, Hadrup SR, Nielsen M.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Povlsen HR",
+                "lastName": "Povlsen",
+                "firstName": "Helle Rus",
+                "initials": "HR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5687-4386"
+                }
+              },
+              {
+                "fullName": "Bentzen AK",
+                "lastName": "Bentzen",
+                "firstName": "Amalie Kai",
+                "initials": "AK"
+              },
+              {
+                "fullName": "Kadivar M",
+                "lastName": "Kadivar",
+                "firstName": "Mohammad",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1499-191X"
+                }
+              },
+              {
+                "fullName": "Jessen LE",
+                "lastName": "Jessen",
+                "firstName": "Leon Eyrich",
+                "initials": "LE"
+              },
+              {
+                "fullName": "Hadrup SR",
+                "lastName": "Hadrup",
+                "firstName": "Sine Reker",
+                "initials": "SR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5937-4344"
+                }
+              },
+              {
+                "fullName": "Nielsen M",
+                "lastName": "Nielsen",
+                "firstName": "Morten",
+                "initials": "M"
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5687-4386"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5937-4344"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1499-191X"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "recommended_reviews"
+            ]
+          },
+          "pubYear": "2022",
+          "abstractText": "Novel single-cell based technologies hold the promise of matching T cell receptor (TCR) sequences with their cognate peptide-MHC recognition motif in a high-throughput manner. Parallel capture of TCR transcripts and peptide-MHC is enabled through the use of reagents labeled with DNA barcodes. However, analysis and annotation of such single-cell sequencing (SCseq) data is challenged by dropout, random noise, and other technical artifacts that must be carefully handled in the downstream processing steps. We here propose a rational, data-driven method termed ATRAP (Accurate T cell Receptor Antigen Paring) to deal with these challenges, filtering away likely artifacts, and enable the generation of large sets of TCR-pMHC sequence data with a high degree of specificity and sensitivity, thus outputting the most likely pMHC target per T cell. We have validated this approach across 10 different virus-specific T cell responses in 16 healthy donors. Across these samples we have identified up to 1494 high-confident TCR-pMHC pairs derived from 4135 single-cells.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2022
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/02/2022.08.31.506001.full.pdf"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1101/2022.08.31.506001"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 1,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2022-09-04",
+          "firstPublicationDate": "2022-09-02",
+          "firstIndexDate": "2022-09-04",
+          "hasEvaluations": "Y"
+        },
+        {
+          "id": "34487137",
+          "source": "MED",
+          "pmid": "34487137",
+          "doi": "10.1093/bioinformatics/btab573",
+          "title": "TCRpair: prediction of functional pairing between HLA-A*02:01-restricted T-cell receptor α and β chains.",
+          "authorString": "Mösch A, Frishman D.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Mösch A",
+                "lastName": "Mösch",
+                "firstName": "Anja",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6008-0220"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics, Wissenschaftszentrum Weihenstephan, Technical University of Munich, Freising 85354, Germany."
+                    },
+                    {
+                      "affiliation": "Medigene Immunotherapies GmbH, A Subsidiary of Medigene AG, Planegg 82152, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Frishman D",
+                "lastName": "Frishman",
+                "firstName": "Dmitrij",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9006-4707"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Bioinformatics, Wissenschaftszentrum Weihenstephan, Technical University of Munich, Freising 85354, Germany."
+                    },
+                    {
+                      "affiliation": "Department of Bioinformatics, Peter the Great Saint Petersburg Polytechnic University, Saint Petersburg 195251, Russia."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6008-0220"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9006-4707"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "21",
+            "volume": "37",
+            "journalIssueId": 3265356,
+            "dateOfPublication": "2021 Nov",
+            "monthOfPublication": 11,
+            "yearOfPublication": 2021,
+            "journal": {
+              "medlineAbbreviation": "Bioinformatics",
+              "title": "Bioinformatics (Oxford, England)",
+              "essn": "1367-4811",
+              "issn": "1367-4803",
+              "nlmid": "9808944",
+              "isoabbreviation": "Bioinformatics"
+            },
+            "printPublicationDate": "2021-11-01"
+          },
+          "pubYear": "2021",
+          "pageInfo": "3938-3940",
+          "abstractText": "<h4>Summary</h4>The ability of a T cell to recognize foreign peptides is defined by a single α and a single β hypervariable complementarity determining region (CDR3), which together form the T-cell receptor (TCR) heterodimer. In ∼30-35% of T cells, two α chains are expressed at the mRNA level but only one α chain is part of the functional TCR. This effect can also be observed for β chains, although it is less common. The identification of functional α/β chain pairs is instrumental in high-throughput characterization of therapeutic TCRs. TCRpair is the first method that predicts whether an α and β chain pair forms a functional, HLA-A*02:01 specific TCR without requiring the sequence of a recognized peptide. By taking additional amino acids flanking the CDR3 regions into account, TCRpair achieves an AUC of 0.71.<h4>Availability and implementation</h4>TCRpair is implemented in Python using TensorFlow 2.0 and is freely available at https://www.github.com/amoesch/TCRpair.<h4>Supplementary information</h4>Supplementary data are available at Bioinformatics online.",
+          "affiliation": "Department of Bioinformatics, Wissenschaftszentrum Weihenstephan, Technical University of Munich, Freising 85354, Germany.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Peptides"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Complementarity Determining Regions",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Receptors, Antigen, T-Cell, alpha-beta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "HLA-A Antigens",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Amino Acid Sequence"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Peptides",
+                "registryNumber": "0"
+              },
+              {
+                "name": "HLA-A Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, alpha-beta",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Complementarity Determining Regions",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/bioinformatics/btab573"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 1,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2023-04-13",
+          "dateOfCreation": "2021-09-06",
+          "dateOfRevision": "2023-04-16",
+          "firstPublicationDate": "2021-11-01",
+          "firstIndexDate": "2021-09-07",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "30215679",
+          "source": "MED",
+          "pmid": "30215679",
+          "pmcid": "PMC6477980",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC6477980"
+            ]
+          },
+          "doi": "10.1093/bioinformatics/bty801",
+          "title": "A Bayesian framework for high-throughput T cell receptor pairing.",
+          "authorString": "Holec PV, Berleant J, Bathe M, Birnbaum ME.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Holec PV",
+                "lastName": "Holec",
+                "firstName": "Patrick V",
+                "initials": "PV",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA."
+                    },
+                    {
+                      "affiliation": "Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Berleant J",
+                "lastName": "Berleant",
+                "firstName": "Joseph",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5672-4292"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bathe M",
+                "lastName": "Bathe",
+                "firstName": "Mark",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Birnbaum ME",
+                "lastName": "Birnbaum",
+                "firstName": "Michael E",
+                "initials": "ME",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2281-3518"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA."
+                    },
+                    {
+                      "affiliation": "Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5672-4292"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2281-3518"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "8",
+            "volume": "35",
+            "journalIssueId": 2829956,
+            "dateOfPublication": "2019 Apr",
+            "monthOfPublication": 4,
+            "yearOfPublication": 2019,
+            "journal": {
+              "medlineAbbreviation": "Bioinformatics",
+              "title": "Bioinformatics (Oxford, England)",
+              "essn": "1367-4811",
+              "issn": "1367-4803",
+              "nlmid": "9808944",
+              "isoabbreviation": "Bioinformatics"
+            },
+            "printPublicationDate": "2019-04-01"
+          },
+          "pubYear": "2019",
+          "pageInfo": "1318-1325",
+          "abstractText": "<h4>Motivation</h4>The study of T cell receptor (TCR) repertoires has generated new insights into immune system recognition. However, the ability to robustly characterize these populations has been limited by technical barriers and an inability to reliably infer heterodimeric chain pairings for TCRs.<h4>Results</h4>Here, we describe a novel analytical approach to an emerging immune repertoire sequencing method, improving the resolving power of this low-cost technology. This method relies upon the distribution of a T cell population across a 96-well plate, followed by barcoding and sequencing of the relevant transcripts from each T cell. Multicell Analytical Deconvolution for High Yield Paired-chain Evaluation (MAD-HYPE) uses Bayesian inference to more accurately extract TCR information, improving our ability to study and characterize T cell populations for immunology and immunotherapy applications.<h4>Availability and implementation</h4>The MAD-HYPE algorithm is released as an open-source project under the Apache License and is available from https://github.com/birnbaumlab/MAD-HYPE.<h4>Supplementary information</h4>Supplementary data are available at Bioinformatics online.",
+          "affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "AACR-TESARO Career Development Award for Immuno-oncology Research",
+                "grantId": "17-20-47-BIRN",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "P30 CA014051",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Science Foundation Physics of Living Systems",
+                "grantId": "PHY-1707999",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Science Foundation Graduate Research Fellowships Program",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Cancer Institute",
+                "grantId": "P30-CA14051",
+                "orderIn": 0
+              },
+              {
+                "agency": "V Foundation",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Science Foundation Physics of Living Systems",
+                "grantId": "PHY-1305537",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIGMS NIH HHS",
+                "acronym": "GM",
+                "grantId": "T32 GM087237",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "T-Lymphocytes"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunotherapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Bayes Theorem"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Algorithms"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Antigen, T-Cell",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://europepmc.org/articles/pmc6477980?pdf=render"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/bioinformatics/bty801"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC6477980"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC6477980?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/bioinformatics/bty801"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2020-02-18",
+          "dateOfCreation": "2018-09-15",
+          "dateOfRevision": "2020-04-15",
+          "firstPublicationDate": "2019-04-01",
+          "firstIndexDate": "2018-09-15",
+          "fullTextReceivedDate": "2025-02-03",
+          "embargoDate": "2020-04-15",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "31879353",
+          "source": "MED",
+          "pmid": "31879353",
+          "pmcid": "PMC6955297",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC6955297"
+            ]
+          },
+          "doi": "10.1073/pnas.1915008117",
+          "title": "Determinants governing T cell receptor α/β-chain pairing in repertoire formation of identical twins.",
+          "authorString": "Tanno H, Gould TM, McDaniel JR, Cao W, Tanno Y, Durrett RE, Park D, Cate SJ, Hildebrand WH, Dekker CL, Tian L, Weyand CM, Georgiou G, Goronzy JJ.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Tanno H",
+                "lastName": "Tanno",
+                "firstName": "Hidetaka",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemical Engineering, University of Texas at Austin, Austin, TX 78712."
+                    },
+                    {
+                      "affiliation": "Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gould TM",
+                "lastName": "Gould",
+                "firstName": "Timothy M",
+                "initials": "TM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6858-1265"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Immunology and Rheumatology, Department of Medicine, Stanford University School of Medicine, Stanford, CA 94305."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, Palo Alto Veterans Administration Healthcare System, Palo Alto, CA 94304."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "McDaniel JR",
+                "lastName": "McDaniel",
+                "firstName": "Jonathan R",
+                "initials": "JR",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemical Engineering, University of Texas at Austin, Austin, TX 78712."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cao W",
+                "lastName": "Cao",
+                "firstName": "Wenqiang",
+                "initials": "W",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5024-0817"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Immunology and Rheumatology, Department of Medicine, Stanford University School of Medicine, Stanford, CA 94305."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, Palo Alto Veterans Administration Healthcare System, Palo Alto, CA 94304."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tanno Y",
+                "lastName": "Tanno",
+                "firstName": "Yuri",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemical Engineering, University of Texas at Austin, Austin, TX 78712."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Durrett RE",
+                "lastName": "Durrett",
+                "firstName": "Russell E",
+                "initials": "RE",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemical Engineering, University of Texas at Austin, Austin, TX 78712."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Park D",
+                "lastName": "Park",
+                "firstName": "Daechan",
+                "initials": "D",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Life Sciences, Ajou University, Suwon 16499, South Korea."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cate SJ",
+                "lastName": "Cate",
+                "firstName": "Steven J",
+                "initials": "SJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hildebrand WH",
+                "lastName": "Hildebrand",
+                "firstName": "William H",
+                "initials": "WH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dekker CL",
+                "lastName": "Dekker",
+                "firstName": "Cornelia L",
+                "initials": "CL",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pediatrics (Infectious Diseases), Stanford University School of Medicine, Stanford, CA 94305."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tian L",
+                "lastName": "Tian",
+                "firstName": "Lu",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5893-0169"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Biomedical Data Science, Stanford University School of Medicine, Stanford, CA 94305."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Weyand CM",
+                "lastName": "Weyand",
+                "firstName": "Cornelia M",
+                "initials": "CM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Immunology and Rheumatology, Department of Medicine, Stanford University School of Medicine, Stanford, CA 94305."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, Palo Alto Veterans Administration Healthcare System, Palo Alto, CA 94304."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Georgiou G",
+                "lastName": "Georgiou",
+                "firstName": "George",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Chemical Engineering, University of Texas at Austin, Austin, TX 78712; jgoronzy@stanford.edu gg@che.utexas.edu."
+                    },
+                    {
+                      "affiliation": "Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Goronzy JJ",
+                "lastName": "Goronzy",
+                "firstName": "Jörg J",
+                "initials": "JJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7670-1856"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Division of Immunology and Rheumatology, Department of Medicine, Stanford University School of Medicine, Stanford, CA 94305; jgoronzy@stanford.edu gg@che.utexas.edu."
+                    },
+                    {
+                      "affiliation": "Department of Medicine, Palo Alto Veterans Administration Healthcare System, Palo Alto, CA 94304."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6749-0938"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7670-1856"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5024-0817"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5893-0169"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6858-1265"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "117",
+            "journalIssueId": 2899872,
+            "dateOfPublication": "2020 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2020,
+            "journal": {
+              "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+              "title": "Proceedings of the National Academy of Sciences of the United States of America",
+              "essn": "1091-6490",
+              "issn": "0027-8424",
+              "nlmid": "7505876",
+              "isoabbreviation": "Proc Natl Acad Sci U S A"
+            },
+            "printPublicationDate": "2020-01-01"
+          },
+          "pubYear": "2020",
+          "pageInfo": "532-540",
+          "abstractText": "The T cell repertoire in each individual includes T cell receptors (TCRs) of enormous sequence diversity through the pairing of diverse TCR α- and β-chains, each generated by somatic recombination of paralogous gene segments. Whether the TCR repertoire contributes to susceptibility to infectious or autoimmune diseases in concert with disease-associated major histocompatibility complex (MHC) polymorphisms is unknown. Due to a lack in high-throughput technologies to sequence TCR α-β pairs, current studies on whether the TCR repertoire is shaped by host genetics have so far relied only on single-chain analysis. Using a high-throughput single T cell sequencing technology, we obtained the largest paired TCRαβ dataset so far, comprising 965,523 clonotypes from 15 healthy individuals including 6 monozygotic twin pairs. Public TCR α- and, to a lesser extent, TCR β-chain sequences were common in all individuals. In contrast, sharing of entirely identical TCRαβ amino acid sequences was very infrequent in unrelated individuals, but highly increased in twins, in particular in CD4 memory T cells. Based on nucleotide sequence identity, a subset of these shared clonotypes appeared to be the progeny of T cells that had been generated during fetal development and had persisted for more than 50 y. Additional shared TCRαβ in twins were encoded by different nucleotide sequences, implying that genetic determinants impose structural constraints on thymic selection that favor the selection of TCR α-β pairs with entire sequence identities.",
+          "affiliation": "Department of Chemical Engineering, University of Texas at Austin, Austin, TX 78712.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NIA NIH HHS",
+                "acronym": "AG",
+                "grantId": "R01 AG045779",
+                "orderIn": 0
+              },
+              {
+                "agency": "NHLBI NIH HHS",
+                "acronym": "HL",
+                "grantId": "P01 HL129941",
+                "orderIn": 0
+              },
+              {
+                "agency": "Cancer Prevention and Research Institute of Texas",
+                "grantId": "RP160015",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCATS NIH HHS",
+                "acronym": "TR",
+                "grantId": "UL1 TR001085",
+                "orderIn": 0
+              },
+              {
+                "agency": "HHS | National Institutes of Health",
+                "grantId": "AI129191",
+                "orderIn": 0
+              },
+              {
+                "agency": "HHS | National Institutes of Health",
+                "grantId": "UL1 TR001085",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "U19 AI057266",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCATS NIH HHS",
+                "acronym": "TR",
+                "grantId": "UL1 TR003142",
+                "orderIn": 0
+              },
+              {
+                "agency": "HHS | National Institutes of Health",
+                "grantId": "AI057266",
+                "orderIn": 0
+              },
+              {
+                "agency": "DOD | Defense Threat Reduction Agency",
+                "grantId": "HDTRA1-12-C-0105",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI129191",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "U19 AI090023",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIAID NIH HHS",
+                "acronym": "AI",
+                "grantId": "R01 AI108891",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "CD4-Positive T-Lymphocytes",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Receptors, Antigen, T-Cell, alpha-beta",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "HLA Antigens",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Histocompatibility Testing"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Sequence Analysis, DNA"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Immunologic Memory"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Amino Acid Sequence",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Base Sequence",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Twins, Monozygotic",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Models, Genetic"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Adult"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Middle Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Single-Cell Analysis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "High-Throughput Nucleotide Sequencing"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Datasets as Topic"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Major histocompatibility complex",
+              "Monozygotic Twins",
+              "T Cell Repertoire",
+              "Single-cell Sequencing"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "HLA Antigens",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Receptors, Antigen, T-Cell, alpha-beta",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.pnas.org/content/pnas/117/1/532.full.pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1073/pnas.1915008117"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC6955297"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC6955297?pdf=render"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1073/pnas.1915008117"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 55,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "bioproject"
+            ]
+          },
+          "dateOfCompletion": "2020-05-05",
+          "dateOfCreation": "2019-12-28",
+          "dateOfRevision": "2024-03-20",
+          "electronicPublicationDate": "2019-12-26",
+          "firstPublicationDate": "2019-12-26",
+          "firstIndexDate": "2019-12-30",
+          "fullTextReceivedDate": "2025-02-03",
+          "embargoDate": "2020-06-26",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR261782",
+          "source": "PPR",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PPR261782"
+            ]
+          },
+          "doi": "10.2139/ssrn.3751796",
+          "title": "High Precursor Frequency and Promiscuity in Αβ T Cell Receptor Pairing Underpin CD8+ T-Cell Responses to an Immunodominant SARS-CoV-2 Nucleocapsid Epitope",
+          "authorString": "Nguyen THO, Rowntree LC, Petersen J, Chua B, Hensen L, Kedzierski L, Sandt Cvd, Chaurasia P, Tan H, Habel JR, Zhang W, Allen L, Earnest L, Mak KY, Juno JA, Wragg K, Mordant FL, Amanat F, Krammer F, Doolan DL, Flanagan KL, Sonda S, Kaur J, Wakim LM, Westall GP, James F, Mouhtouris E, Gordon CL, Holmes NE, Smibert O, Trubiano JA, AC C, Harcourt P, Wheatley AK, Kent SJ, Rossjohn J, Torresi J, Kedzierska K.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Nguyen THO",
+                "lastName": "Nguyen",
+                "firstName": "Thi",
+                "initials": "THO",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9294-7693"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rowntree LC",
+                "lastName": "Rowntree",
+                "firstName": "Louise",
+                "initials": "LC",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0649-5089"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Petersen J",
+                "lastName": "Petersen",
+                "firstName": "Jan",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Infection and Immunity Program and Department of Biochemistry and Molecular Biology, Biomedicine Discovery Institute, Monash University, Clayton, Victoria 3800, Australia"
+                    },
+                    {
+                      "affiliation": "Australian Research Council Centre of Excellence for Advanced Molecular Imaging, Monash University, Clayton, Victoria 3800, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chua B",
+                "lastName": "Chua",
+                "initials": "B",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5654-1293"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    },
+                    {
+                      "affiliation": "Global Station for Zoonosis Control, Global Institution for Collaborative Research and Education (GI-CoRE), Hokkaido University, Sapporo, Japan"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hensen L",
+                "lastName": "Hensen",
+                "firstName": "Luca",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8467-8537"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kedzierski L",
+                "lastName": "Kedzierski",
+                "firstName": "Lukasz",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0203-1057"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    },
+                    {
+                      "affiliation": "Faculty of Veterinary and Agricultural Sciences, University of Melbourne, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sandt Cvd",
+                "lastName": "Sandt",
+                "firstName": "van de",
+                "initials": "Cvd",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    },
+                    {
+                      "affiliation": "Department of Hematopoiesis, Sanquin Research and Landsteiner Laboratory, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chaurasia P",
+                "lastName": "Chaurasia",
+                "firstName": "Priyanka",
+                "initials": "P",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Infection and Immunity Program and Department of Biochemistry and Molecular Biology, Biomedicine Discovery Institute, Monash University, Clayton, Victoria 3800, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tan H",
+                "lastName": "Tan",
+                "firstName": "Hyon-Xhi",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Habel JR",
+                "lastName": "Habel",
+                "firstName": "Jennifer",
+                "initials": "JR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0380-1527"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Zhang W",
+                "lastName": "Zhang",
+                "firstName": "Wuji",
+                "initials": "W",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Allen L",
+                "lastName": "Allen",
+                "firstName": "Lily",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Earnest L",
+                "lastName": "Earnest",
+                "firstName": "Linda",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mak KY",
+                "lastName": "Mak",
+                "firstName": "Kai Yan",
+                "initials": "KY",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Juno JA",
+                "lastName": "Juno",
+                "firstName": "Jennifer",
+                "initials": "JA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wragg K",
+                "lastName": "Wragg",
+                "firstName": "Kathleen",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mordant FL",
+                "lastName": "Mordant",
+                "firstName": "Francesca",
+                "initials": "FL",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Amanat F",
+                "lastName": "Amanat",
+                "firstName": "Fatima",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                    },
+                    {
+                      "affiliation": "Graduate School of Biomedical Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Krammer F",
+                "lastName": "Krammer",
+                "firstName": "Florian",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Doolan DL",
+                "lastName": "Doolan",
+                "firstName": "Denise",
+                "initials": "DL",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7354-8817"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centre for Molecular Therapeutics, Australian Institute of Tropical Health & Medicine, James Cook University, Cairns, Queensland, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Flanagan KL",
+                "lastName": "Flanagan",
+                "firstName": "Katie",
+                "initials": "KL",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1575-1953"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Health Sciences and School of Medicine, University of Tasmania, Launceston, Tasmania, Australia"
+                    },
+                    {
+                      "affiliation": "Department of Immunology and Pathology, Monash University, Commercial Road, Melbourne, Victoria, Australia"
+                    },
+                    {
+                      "affiliation": "School of Health and Biomedical Science, RMIT University, Melbourne, Victoria, Australia"
+                    },
+                    {
+                      "affiliation": "Tasmanian Vaccine Trial Centre, Clifford Craig Foundation, Launceston General Hospital, Launceston, Tasmania 7250, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sonda S",
+                "lastName": "Sonda",
+                "firstName": "Sabrina",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Health Sciences and School of Medicine, University of Tasmania, Launceston, Tasmania, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kaur J",
+                "lastName": "Kaur",
+                "firstName": "Jasveen",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Health Sciences and School of Medicine, University of Tasmania, Launceston, Tasmania, Australia"
+                    },
+                    {
+                      "affiliation": "Tasmanian Vaccine Trial Centre, Clifford Craig Foundation, Launceston General Hospital, Launceston, Tasmania 7250, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wakim LM",
+                "lastName": "Wakim",
+                "firstName": "Linda",
+                "initials": "LM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1752-9579"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Westall GP",
+                "lastName": "Westall",
+                "firstName": "Glen",
+                "initials": "GP",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Lung Transplant Unit, Alfred Hospital, Melbourne, Victoria 3004, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "James F",
+                "lastName": "James",
+                "firstName": "Fiona",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Austin Hospital, Heidelberg, Victoria, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mouhtouris E",
+                "lastName": "Mouhtouris",
+                "firstName": "Effie",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Austin Hospital, Heidelberg, Victoria, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gordon CL",
+                "lastName": "Gordon",
+                "firstName": "Claire",
+                "initials": "CL",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    },
+                    {
+                      "affiliation": "Department of Infectious Diseases, Austin Hospital, Heidelberg, Victoria, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Holmes NE",
+                "lastName": "Holmes",
+                "firstName": "Natasha",
+                "initials": "NE",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Austin Hospital, Heidelberg, Victoria, Australia"
+                    },
+                    {
+                      "affiliation": "Department of Medicine and Radiology, The University of Melbourne, Parkville, Victoria 3000, Australia"
+                    },
+                    {
+                      "affiliation": "Data Analytics Research and Evaluation (DARE) Centre, Austin Health and The University of Melbourne, Heidelberg, Victoria, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Smibert O",
+                "lastName": "Smibert",
+                "firstName": "Olivia",
+                "initials": "O",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1232-5884"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Austin Hospital, Heidelberg, Victoria, Australia"
+                    },
+                    {
+                      "affiliation": "Department of Infectious Diseases, Peter McCallum Cancer Centre, Melbourne, Victoria, Australia"
+                    },
+                    {
+                      "affiliation": "The National Centre for Infections in Cancer, Peter McCallum Cancer Centre, Melbourne, Victoria, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Trubiano JA",
+                "lastName": "Trubiano",
+                "firstName": "Jason",
+                "initials": "JA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Peter McCallum Cancer Centre, Melbourne, Victoria, Australia"
+                    },
+                    {
+                      "affiliation": "The National Centre for Infections in Cancer, Peter McCallum Cancer Centre, Melbourne, Victoria, Australia"
+                    },
+                    {
+                      "affiliation": "Centre for Antibiotic Allergy and Research, Department of Infectious Diseases Austin Health, Heidelberg, Victoria, Australia"
+                    },
+                    {
+                      "affiliation": "Department of Medicine (Austin Health), The University of Melbourne, Heidelberg, Victoria, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "AC C",
+                "lastName": "AC",
+                "firstName": "Cheng",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Infection Prevention and Healthcare Epidemiology Unit, Alfred Health, Melbourne, Victoria 3004, Australia"
+                    },
+                    {
+                      "affiliation": "School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Harcourt P",
+                "lastName": "Harcourt",
+                "firstName": "Peter",
+                "initials": "P",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "AFL House, Melbourne, Victoria 3001, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wheatley AK",
+                "lastName": "Wheatley",
+                "firstName": "Adam",
+                "initials": "AK",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "AFL House, Melbourne, Victoria 3001, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kent SJ",
+                "lastName": "Kent",
+                "firstName": "Stephen",
+                "initials": "SJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8539-4891"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    },
+                    {
+                      "affiliation": "ARC Centre of Excellence in Convergent Bio-Nano Science and Technology, University of Melbourne, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Rossjohn J",
+                "lastName": "Rossjohn",
+                "firstName": "Jamie",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2020-7522"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    },
+                    {
+                      "affiliation": "ARC Centre of Excellence in Convergent Bio-Nano Science and Technology, University of Melbourne, Melbourne, Victoria 3000, Australia"
+                    },
+                    {
+                      "affiliation": "Melbourne Sexual Health Centre, Infectious Diseases Department, Alfred Health, Central Clinical School, Monash University, Melbourne, Australia"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Torresi J",
+                "lastName": "Torresi",
+                "firstName": "Joseph",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Infection and Immunity Program and Department of Biochemistry and Molecular Biology, Biomedicine Discovery Institute, Monash University, Clayton, Victoria 3800, Australia"
+                    },
+                    {
+                      "affiliation": "Australian Research Council Centre of Excellence for Advanced Molecular Imaging, Monash University, Clayton, Victoria 3800, Australia"
+                    },
+                    {
+                      "affiliation": "Institute of Infection and Immunity, Cardiff University School of Medicine, Heath Park, Cardiff CF14 4XN, United Kingdom"
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Kedzierska K",
+                "lastName": "Kedzierska",
+                "firstName": "Katherine",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Microbiology and Immunology, University of Melbourne, at the Peter Doherty Institute for Infection and Immunity, Melbourne, Victoria 3000, Australia"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5654-1293"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7354-8817"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8467-8537"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0649-5089"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1575-1953"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2020-7522"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4155-7433"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8539-4891"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9294-7693"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0203-1057"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0380-1527"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1232-5884"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1752-9579"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-3152-116X"
+              }
+            ]
+          },
+          "pubYear": "2020",
+          "abstractText": "T-cell responses to SARS-CoV-2-derived peptide pools have been documented, however it remains largely unclear whether prominent SARS-CoV-2-specific T cell populations originate from naïve or pre-existing memory sets. As HLA-B*07:02-restricted N<sub>105-113</sub> epitope (B7/N<sub>105</sub>) is the most dominant SARS-CoV-2 CD8+ T-cell specificity to date, we dissected CD8+ T-cell responses directed at this epitope by direct <i>ex vivo</i> analyses in peripheral blood mononuclear cells (PBMCs) from acute and convalescent COVID-19 patients, and pre-pandemic PBMCs, tonsils, lungs and spleens. Using peptide-HLA tetramers, immunodominant B7/N<sub>105</sub>+CD8+ T-cells were detected at a high frequency (∼2.18x10<sup>-4</sup>) in COVID-19 patients, comparable to the well-established influenza-specific A2/M1<sub>58</sub>+CD8+ T-cell population. Remarkably, frequencies of B7/N<sub>105</sub>+CD8+ T-cells were also readily detectable in pre-pandemic PBMCs and tonsils (at 6.55x10<sup>-5</sup> and 2.76x10<sup>-4</sup>, respectively), although they mainly displayed a naïve phenotype, indicating a lack of previous cross-reactive exposures. <i>Ex vivo</i> TCRαβ analyses revealed that a diverse TCRαβ repertoire and promiscuity in αβ TCR pairing underlie such high naïve precursor frequencies of B7/N<sub>105</sub>+CD8+ T-cells. Overall, our study demonstrates that high precursor frequency and plasticity of TCRα-TCRβ pairing underpin immunodominance of SARS-CoV-2-specific B7/N<sub>105</sub>+CD8+ T-cell responses and advocates for vaccine strategies which include the nucleocapsid protein to elicit immunodominant CD8+ T-cell responses in HLA-B*07:02 individuals.<br><br>Funding: This work was supported by theClifford Craig Foundation to KLF and KK, NHMRC Leadership Investigator Grant to KK (1173871), NHMRC Program Grant to DLD (#1132975), Research Grants Council of theHong Kong Special Administrative Region, China (#T11-712/19-N) to KK, the Victorian Government (SJK, AKW), MRFF award (#2002073) to SJK and AKW, MRFFAward (#1202445) to KK, NHMRC program grant 1149990 (SJK) and NHMRC project grant 1162760 (AKW). AKW is supported by Emerging Leadership 1 Investigator Grant (#1173433), JAJ by an NHMRC Early Career Fellowship (ECF) (#1123673), KK by NHMRC SeniorResearch Fellowship (1102792), DLD by a NHMRC Principal Research Fellowship(#1137285) and SJK by NHMRC Senior Principal Research Fellowship (#1136322). CES has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie grant agreement (#792532). JR is supported by an ARC Laureate fellowship. JRH and WZ are supported by the Melbourne Research Scholarship from The University of Melbourne. LH is supported by the Melbourne International Research Scholarship (MIRS) and the Melbourne International Fee Remission Scholarship (MIFRS) from The University of Melbourne.<br><br>Ethical Approval: Experiments conformed to the Declaration of Helsinki Principles and theAustralian National Health and Medical Research Council Code of Practice. Written informed consents were obtained from all blood donors prior to the study. Lung and spleen tissues were obtained from deceased organ donors after written informed consents from the next of kin.Written informed consents were obtained from participants’ parental or guardians for underage tonsil tissue donors. The study was approved by the Alfred Hospital (#280/14), Austin Health (HREC/63201/Austin-2020); the University of Melbourne (#2057366.1, #2056901.1,#2056689, #2056761, #1442952, #1955465, and #1443389), the Australian Red CrossLifeblood (ID 2015#8), the Tasmanian Health and Medical (ID H0017479) and the James Cook University (H7886) Human Research Ethics Committees.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "SSRN",
+            "yearOfPublication": 2020
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.2139/ssrn.3751796"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.2139/ssrn.3751796"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/article/PPR/PPR261782"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.2139/ssrn.3751796"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "authMan": "N",
+          "epmcAuthMan": "Y",
+          "nihAuthMan": "N",
+          "manuscriptId": "EMS109891",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2021-01-06",
+          "firstPublicationDate": "2020-12-19",
+          "firstIndexDate": "2021-01-07",
+          "fullTextReceivedDate": "2021-01-15",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

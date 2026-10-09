@@ -1,0 +1,649 @@
+split_seed	condition	training_seed	direction	test_component_edges	metric	queries	components	estimate	events	interpretation
+17	constant	3407	delta_to_gamma	1	query_mean_nll	325	325	0.9877095223390139		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	delta_to_gamma	1	coverage	325	325	0.003076923076923077	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	delta_to_gamma	2-5	query_mean_nll	473	184	0.6591330139757967		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	delta_to_gamma	2-5	coverage	473	184	0.008456659619450317	4	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	delta_to_gamma	2-5	likelihood|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	delta_to_gamma	6-20	query_mean_nll	102	13	0.5465504196928996		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	delta_to_gamma	6-20	coverage	102	13	0.0196078431372549	2	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	delta_to_gamma	6-20	likelihood|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	1	query_mean_nll	325	325	1.2914703257267293		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	2-5	query_mean_nll	188	184	1.2160216694816628		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	2-5	coverage	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	2-5	likelihood|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	6-20	query_mean_nll	16	13	1.1150515478596081		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	6-20	coverage	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3407	gamma_to_delta	6-20	likelihood|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	1	query_mean_nll	325	325	0.9913064146958864		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	2-5	query_mean_nll	473	184	0.6589207610166602		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	2-5	coverage	473	184	0.019027484143763214	9	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	2-5	likelihood|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	6-20	query_mean_nll	102	13	0.5528089819488183		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	6-20	coverage	102	13	0.049019607843137254	5	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	delta_to_gamma	6-20	likelihood|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	1	query_mean_nll	325	325	1.295965088880979		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	2-5	query_mean_nll	188	184	1.2139892564174977		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	2-5	coverage	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	2-5	likelihood|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	6-20	query_mean_nll	16	13	1.1087033605836363		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	6-20	coverage	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	constant	3508	gamma_to_delta	6-20	likelihood|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	1	query_mean_nll	325	325	0.9743116380618169		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	1	coverage	325	325	0.003076923076923077	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	2-5	query_mean_nll	473	184	0.651134381334575		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	2-5	coverage	473	184	0.023255813953488372	11	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	2-5	likelihood|hit_at_5	473	184	0.0021141649048625794	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	2-5	ranker|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	2-5	fused|hit_at_5	473	184	0.0021141649048625794	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	6-20	query_mean_nll	102	13	0.53489661357956		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	6-20	coverage	102	13	0.08823529411764706	9	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	6-20	likelihood|hit_at_5	102	13	0.00980392156862745	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	6-20	ranker|hit_at_5	102	13	0.0196078431372549	2	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	delta_to_gamma	6-20	fused|hit_at_5	102	13	0.00980392156862745	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	1	query_mean_nll	325	325	1.2866985271527216		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	2-5	query_mean_nll	188	184	1.2130443783886466		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	2-5	coverage	188	184	0.005319148936170213	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	2-5	likelihood|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	2-5	ranker|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	2-5	fused|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	6-20	query_mean_nll	16	13	1.1019539448595237		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	6-20	coverage	16	13	0.0625	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	6-20	likelihood|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	6-20	ranker|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3407	gamma_to_delta	6-20	fused|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	1	query_mean_nll	325	325	0.972955062022576		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	1	coverage	325	325	0.003076923076923077	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	2-5	query_mean_nll	473	184	0.6489629335937742		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	2-5	coverage	473	184	0.019027484143763214	9	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	2-5	likelihood|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	2-5	ranker|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	2-5	fused|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	6-20	query_mean_nll	102	13	0.5404062812137448		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	6-20	coverage	102	13	0.029411764705882353	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	6-20	likelihood|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	6-20	ranker|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	delta_to_gamma	6-20	fused|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	1	query_mean_nll	325	325	1.2890441911954147		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	2-5	query_mean_nll	188	184	1.2129972384912329		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	2-5	coverage	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	2-5	likelihood|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	2-5	ranker|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	2-5	fused|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	6-20	query_mean_nll	16	13	1.0992076524384724		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	6-20	coverage	16	13	0.0625	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	6-20	likelihood|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	6-20	ranker|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	paired	3508	gamma_to_delta	6-20	fused|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	1	query_mean_nll	325	325	1.0810281034616325		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	1	coverage	325	325	0.006153846153846154	2	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	2-5	query_mean_nll	473	184	0.7410612149168019		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	2-5	coverage	473	184	0.0021141649048625794	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	2-5	likelihood|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	2-5	ranker|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	2-5	fused|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	6-20	query_mean_nll	102	13	0.6126589570559707		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	6-20	coverage	102	13	0.06862745098039216	7	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	6-20	likelihood|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	6-20	ranker|hit_at_5	102	13	0.00980392156862745	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	delta_to_gamma	6-20	fused|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	1	query_mean_nll	325	325	1.4075294789901147		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	2-5	query_mean_nll	188	184	1.3417392863290953		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	2-5	coverage	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	2-5	likelihood|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	2-5	ranker|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	2-5	fused|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	6-20	query_mean_nll	16	13	1.2208381036413194		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	6-20	coverage	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	6-20	likelihood|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	6-20	ranker|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3407	gamma_to_delta	6-20	fused|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	1	query_mean_nll	325	325	1.0801653564893283		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	2-5	query_mean_nll	473	184	0.7363655967893863		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	2-5	coverage	473	184	0.016913319238900635	8	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	2-5	likelihood|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	2-5	ranker|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	2-5	fused|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	6-20	query_mean_nll	102	13	0.6030720972936917		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	6-20	coverage	102	13	0.058823529411764705	6	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	6-20	likelihood|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	6-20	ranker|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	delta_to_gamma	6-20	fused|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	1	query_mean_nll	325	325	1.4022045538975643		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	2-5	query_mean_nll	188	184	1.3363662225293356		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	2-5	coverage	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	2-5	likelihood|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	2-5	ranker|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	2-5	fused|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	6-20	query_mean_nll	16	13	1.2115039583367164		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	6-20	coverage	16	13	0.0625	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	6-20	likelihood|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	6-20	ranker|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	random	3508	gamma_to_delta	6-20	fused|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	1	query_mean_nll	325	325	0.9940299851160783		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	1	coverage	325	325	0.006153846153846154	2	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	2-5	query_mean_nll	473	184	0.6612246224290472		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	2-5	coverage	473	184	0.012684989429175475	6	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	2-5	likelihood|hit_at_5	473	184	0.0021141649048625794	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	2-5	ranker|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	2-5	fused|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	6-20	query_mean_nll	102	13	0.5411015241072069		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	6-20	coverage	102	13	0.029411764705882353	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	6-20	likelihood|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	6-20	ranker|hit_at_5	102	13	0.00980392156862745	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	delta_to_gamma	6-20	fused|hit_at_5	102	13	0.00980392156862745	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	1	query_mean_nll	325	325	1.3031715547121487		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	2-5	query_mean_nll	188	184	1.2290376633801994		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	2-5	coverage	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	2-5	likelihood|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	2-5	ranker|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	2-5	fused|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	6-20	query_mean_nll	16	13	1.1416527873697186		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	6-20	coverage	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	6-20	likelihood|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	6-20	ranker|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3407	gamma_to_delta	6-20	fused|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	1	query_mean_nll	325	325	0.9935056368204264		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	1	coverage	325	325	0.003076923076923077	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	2-5	query_mean_nll	473	184	0.659684806999142		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	2-5	coverage	473	184	0.008456659619450317	4	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	2-5	likelihood|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	2-5	ranker|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	2-5	fused|hit_at_5	473	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	6-20	query_mean_nll	102	13	0.5445159443355854		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	6-20	coverage	102	13	0.08823529411764706	9	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	6-20	likelihood|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	6-20	ranker|hit_at_5	102	13	0.0196078431372549	2	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	delta_to_gamma	6-20	fused|hit_at_5	102	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	1	query_mean_nll	325	325	1.300219854758336		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	2-5	query_mean_nll	188	184	1.2250152495260358		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	2-5	coverage	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	2-5	likelihood|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	2-5	ranker|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	2-5	fused|hit_at_5	188	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	6-20	query_mean_nll	16	13	1.1287668713065813		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	6-20	coverage	16	13	0.0625	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	6-20	likelihood|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	6-20	ranker|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+17	shuffled	3508	gamma_to_delta	6-20	fused|hit_at_5	16	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	1	query_mean_nll	325	325	0.9981166491141686		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	2-5	query_mean_nll	474	184	0.6616487188052528		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	2-5	coverage	474	184	0.008438818565400843	4	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	2-5	likelihood|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	6-20	query_mean_nll	105	13	0.5495261050405956		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	6-20	coverage	105	13	0.02857142857142857	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	1	query_mean_nll	325	325	1.2602660848544194		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	2-5	query_mean_nll	187	184	1.2293646709060502		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	2-5	coverage	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	2-5	likelihood|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	6-20	query_mean_nll	13	13	1.2764265370659302		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3407	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	1	query_mean_nll	325	325	1.0037711136157697		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	2-5	query_mean_nll	474	184	0.6626799057556104		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	2-5	coverage	474	184	0.0189873417721519	9	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	2-5	likelihood|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	6-20	query_mean_nll	105	13	0.5552027989001501		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	6-20	coverage	105	13	0.02857142857142857	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	1	query_mean_nll	325	325	1.2588955789345961		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	2-5	query_mean_nll	187	184	1.2257812014556826		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	2-5	coverage	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	2-5	likelihood|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	6-20	query_mean_nll	13	13	1.2787734638418131		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	constant	3508	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	1	query_mean_nll	325	325	0.9789117635213411		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	1	coverage	325	325	0.006153846153846154	2	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	2-5	query_mean_nll	474	184	0.6539268692963234		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	2-5	coverage	474	184	0.0189873417721519	9	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	2-5	likelihood|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	2-5	ranker|hit_at_5	474	184	0.002109704641350211	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	2-5	fused|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	6-20	query_mean_nll	105	13	0.5456035077571869		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	6-20	coverage	105	13	0.02857142857142857	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	1	query_mean_nll	325	325	1.2533903299845182		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	2-5	query_mean_nll	187	184	1.2236862357606229		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	2-5	coverage	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	2-5	likelihood|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	2-5	ranker|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	2-5	fused|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	6-20	query_mean_nll	13	13	1.2764590504022224		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3407	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	1	query_mean_nll	325	325	0.9838067052914546		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	2-5	query_mean_nll	474	184	0.6532895255063657		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	2-5	coverage	474	184	0.012658227848101266	6	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	2-5	likelihood|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	2-5	ranker|hit_at_5	474	184	0.002109704641350211	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	2-5	fused|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	6-20	query_mean_nll	105	13	0.5504012127717336		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	6-20	coverage	105	13	0.05714285714285714	6	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.009523809523809525	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	1	query_mean_nll	325	325	1.255114687039302		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	2-5	query_mean_nll	187	184	1.2253872565672776		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	2-5	coverage	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	2-5	likelihood|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	2-5	ranker|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	2-5	fused|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	6-20	query_mean_nll	13	13	1.2787521701761202		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	paired	3508	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	1	query_mean_nll	325	325	1.0947269390179561		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	2-5	query_mean_nll	474	184	0.7511597666182096		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	2-5	coverage	474	184	0.010548523206751054	5	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	2-5	likelihood|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	2-5	ranker|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	2-5	fused|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	6-20	query_mean_nll	105	13	0.6108974365960984		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	6-20	coverage	105	13	0.05714285714285714	6	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.009523809523809525	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.009523809523809525	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	1	query_mean_nll	325	325	1.3796323796418997		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	2-5	query_mean_nll	187	184	1.3517277126059386		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	2-5	coverage	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	2-5	likelihood|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	2-5	ranker|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	2-5	fused|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	6-20	query_mean_nll	13	13	1.399970942752143		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3407	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	1	query_mean_nll	325	325	1.083699363378378		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	2-5	query_mean_nll	474	184	0.745708628231463		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	2-5	coverage	474	184	0.006329113924050633	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	2-5	likelihood|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	2-5	ranker|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	2-5	fused|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	6-20	query_mean_nll	105	13	0.5992904393445878		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	6-20	coverage	105	13	0.05714285714285714	6	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.009523809523809525	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	1	query_mean_nll	325	325	1.3782989478111267		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	2-5	query_mean_nll	187	184	1.3457027975356937		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	2-5	coverage	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	2-5	likelihood|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	2-5	ranker|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	2-5	fused|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	6-20	query_mean_nll	13	13	1.3959523957562885		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	random	3508	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	1	query_mean_nll	325	325	0.997295612188486		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	2-5	query_mean_nll	474	184	0.6637473405036243		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	2-5	coverage	474	184	0.008438818565400843	4	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	2-5	likelihood|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	2-5	ranker|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	2-5	fused|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	6-20	query_mean_nll	105	13	0.5458606464522225		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	6-20	coverage	105	13	0.047619047619047616	5	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.02857142857142857	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	1	query_mean_nll	325	325	1.2711266361750089		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	2-5	query_mean_nll	187	184	1.2399489688363303		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	2-5	coverage	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	2-5	likelihood|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	2-5	ranker|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	2-5	fused|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	6-20	query_mean_nll	13	13	1.2775101314262238		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3407	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	1	query_mean_nll	325	325	0.9988944251720722		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	2-5	query_mean_nll	474	184	0.6613876212875551		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	2-5	coverage	474	184	0.014767932489451477	7	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	2-5	likelihood|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	2-5	ranker|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	2-5	fused|hit_at_5	474	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	6-20	query_mean_nll	105	13	0.5466058504013788		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	6-20	coverage	105	13	0.05714285714285714	6	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.009523809523809525	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.009523809523809525	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	1	query_mean_nll	325	325	1.2692296734222999		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	2-5	query_mean_nll	187	184	1.2400210374444987		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	2-5	coverage	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	2-5	likelihood|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	2-5	ranker|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	2-5	fused|hit_at_5	187	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	6-20	query_mean_nll	13	13	1.285123150974625		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+2026	shuffled	3508	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	1	query_mean_nll	325	325	0.9732784243730398		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	2-5	query_mean_nll	476	184	0.6718181972744084		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	2-5	coverage	476	184	0.008403361344537815	4	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	2-5	likelihood|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	6-20	query_mean_nll	105	13	0.5591744678361076		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	6-20	coverage	105	13	0.05714285714285714	6	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	1	query_mean_nll	325	325	1.2789669374319224		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	2-5	query_mean_nll	185	184	1.2354498708355537		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	2-5	coverage	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	2-5	likelihood|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	6-20	query_mean_nll	13	13	1.2718375233032353		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3407	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	1	query_mean_nll	325	325	0.9761712233836835		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	2-5	query_mean_nll	476	184	0.6776389174100732		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	2-5	coverage	476	184	0.0021008403361344537	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	2-5	likelihood|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	6-20	query_mean_nll	105	13	0.5648636761165801		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	6-20	coverage	105	13	0.02857142857142857	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	1	query_mean_nll	325	325	1.2741873379854056		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	2-5	query_mean_nll	185	184	1.2333470145270626		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	2-5	coverage	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	2-5	likelihood|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	6-20	query_mean_nll	13	13	1.2718695920883145		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	constant	3508	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	1	query_mean_nll	325	325	0.9585308859898494		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	1	coverage	325	325	0.003076923076923077	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	2-5	query_mean_nll	476	184	0.6653717423186583		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	2-5	coverage	476	184	0.01050420168067227	5	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	2-5	likelihood|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	2-5	ranker|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	2-5	fused|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	6-20	query_mean_nll	105	13	0.5553518113635835		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	6-20	coverage	105	13	0.02857142857142857	3	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	1	query_mean_nll	325	325	1.2741879261457003		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	2-5	query_mean_nll	185	184	1.2347364103203418		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	2-5	coverage	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	2-5	likelihood|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	2-5	ranker|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	2-5	fused|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	6-20	query_mean_nll	13	13	1.2683654412704788		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3407	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	1	query_mean_nll	325	325	0.9609235775470734		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	2-5	query_mean_nll	476	184	0.6658673329638833		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	2-5	coverage	476	184	0.0273109243697479	13	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	2-5	likelihood|hit_at_5	476	184	0.0021008403361344537	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	2-5	ranker|hit_at_5	476	184	0.0021008403361344537	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	2-5	fused|hit_at_5	476	184	0.0021008403361344537	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	6-20	query_mean_nll	105	13	0.5566486128738948		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	6-20	coverage	105	13	0.0761904761904762	8	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	1	query_mean_nll	325	325	1.273233625613726		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	2-5	query_mean_nll	185	184	1.2346083365528435		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	2-5	coverage	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	2-5	likelihood|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	2-5	ranker|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	2-5	fused|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	6-20	query_mean_nll	13	13	1.2716587027825592		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	paired	3508	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	1	query_mean_nll	325	325	1.0810113541896527		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	2-5	query_mean_nll	476	184	0.7565465583896437		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	2-5	coverage	476	184	0.023109243697478993	11	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	2-5	likelihood|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	2-5	ranker|hit_at_5	476	184	0.0021008403361344537	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	2-5	fused|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	6-20	query_mean_nll	105	13	0.6321081459522248		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	6-20	coverage	105	13	0.0761904761904762	8	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	1	query_mean_nll	325	325	1.4036844493792606		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	2-5	query_mean_nll	185	184	1.3642733714602013		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	2-5	coverage	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	2-5	likelihood|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	2-5	ranker|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	2-5	fused|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	6-20	query_mean_nll	13	13	1.3993229215708638		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3407	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	1	query_mean_nll	325	325	1.0735699829688439		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	2-5	query_mean_nll	476	184	0.7534977403007636		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	2-5	coverage	476	184	0.004201680672268907	2	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	2-5	likelihood|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	2-5	ranker|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	2-5	fused|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	6-20	query_mean_nll	105	13	0.6285243045716059		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	6-20	coverage	105	13	0.06666666666666667	7	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	1	query_mean_nll	325	325	1.4015601855057938		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	2-5	query_mean_nll	185	184	1.3586325509215265		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	2-5	coverage	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	2-5	likelihood|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	2-5	ranker|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	2-5	fused|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	6-20	query_mean_nll	13	13	1.3940696409877669		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	random	3508	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	1	query_mean_nll	325	325	0.9760316802905156		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	2-5	query_mean_nll	476	184	0.6729487173822748		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	2-5	coverage	476	184	0.018907563025210083	9	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	2-5	likelihood|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	2-5	ranker|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	2-5	fused|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	6-20	query_mean_nll	105	13	0.5534830598604111		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	6-20	coverage	105	13	0.06666666666666667	7	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	1	query_mean_nll	325	325	1.2871325815640964		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	2-5	query_mean_nll	185	184	1.2442497775146555		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	2-5	coverage	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	2-5	likelihood|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	2-5	ranker|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	2-5	fused|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	6-20	query_mean_nll	13	13	1.2767618371614353		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3407	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	1	query_mean_nll	325	325	0.9869520937479459		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	2-5	query_mean_nll	476	184	0.6736247657853014		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	2-5	coverage	476	184	0.008403361344537815	4	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	2-5	likelihood|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	2-5	ranker|hit_at_5	476	184	0.0021008403361344537	1	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	2-5	fused|hit_at_5	476	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	6-20	query_mean_nll	105	13	0.554895050468899		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	6-20	coverage	105	13	0.047619047619047616	5	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	6-20	likelihood|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	6-20	ranker|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	delta_to_gamma	6-20	fused|hit_at_5	105	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	1	query_mean_nll	325	325	1.2834586713864253		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	1	coverage	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	1	likelihood|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	1	ranker|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	1	fused|hit_at_5	325	325	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	2-5	query_mean_nll	185	184	1.2481216175491745		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	2-5	coverage	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	2-5	likelihood|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	2-5	ranker|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	2-5	fused|hit_at_5	185	184	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	6-20	query_mean_nll	13	13	1.2820732751352133		Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	6-20	coverage	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	6-20	likelihood|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	6-20	ranker|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval
+3407	shuffled	3508	gamma_to_delta	6-20	fused|hit_at_5	13	13	0.0	0	Post-hoc descriptive size stratum; saved candidates/positives unchanged; no pooled or inferential interval

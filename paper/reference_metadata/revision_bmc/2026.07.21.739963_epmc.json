@@ -1,0 +1,119 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.64898/2026.07.21.739963",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR1285367",
+        "source": "PPR",
+        "doi": "10.64898/2026.07.21.739963",
+        "title": "A germline shortcut in protein language model retrieval of adaptive immune receptors",
+        "authorString": "Wang S, Sengupta A, Li S, Standley DM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang S",
+              "lastName": "Wang",
+              "firstName": "Suyue",
+              "initials": "S"
+            },
+            {
+              "fullName": "Sengupta A",
+              "lastName": "Sengupta",
+              "firstName": "Ayan",
+              "initials": "A"
+            },
+            {
+              "fullName": "Li S",
+              "lastName": "Li",
+              "firstName": "Songling",
+              "initials": "S"
+            },
+            {
+              "fullName": "Standley DM",
+              "lastName": "Standley",
+              "firstName": "Daron",
+              "initials": "DM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4078-0817"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4078-0817"
+            }
+          ]
+        },
+        "pubYear": "2026",
+        "abstractText": "Protein language models (PLMs) are increasingly used to represent adaptive immune receptors; however, their advantages over classical alignment-based methods remain unclear. We benchmarked the ESM2 family, ESM-C, antibody-, and TCR-specific PLMs against sequence-alignment methods across four B-cell and T-cell receptor databases using CDR3, clonotype, paratope, and full variable domain representations. At the CDR3 level, alignments consistently out-performed all PLMs, except SCEPTR, a contrastively pre-trained TCR model that additionally encodes the germline V gene. BLOSUM62 and Levenshtein distance metrics exceeded all ESM2 variants by 7\u201312 percentage points in top-1 retrieval accuracy, and domain-specific PLMs did not close this gap. At the full variable domain level, the alignments and PLMs converged. Alignment performance peaked at the paratope level, whereas PLMs benefited primarily from the addition of conserved framework information in the full-length sequences. The one exception was heavily-mutated HIV-1 antibodies, where PLMs outperformed alignments. These results, together with germline reversion analyses, indicate that full-length PLM performance takes advantage of a germline shortcut rather than improved extraction of antigen-specific information from CDRs. We further showed that conventional random train-test splits inflate retrieval accuracy by 15\u201328 percentage points owing to clonal leakage. Together, these findings define the strengths and limitations of frozen zero-shot PLM embeddings for immune receptor retrieval and establish clone-aware benchmarking as a practical standard of comparison. <h4>Key Points</h4>  Classical sequence alignment consistently outperformed frozen protein language models (PLMs) for CDR3 immune-receptor retrieval across the four datasets. Protein language models reached parity only in the full variable domain by exploiting the conserved germline-derived sequence, thus revealing a germline shortcut. Frozen PLMs exceeded alignment only for highly mutated HIV-1 antibodies. One PLM matching alignment at CDR3, SCEPTR, encoded germline V gene information. Random train\u2013test splitting inflated accuracy by 15\u201328 percentage points; clone-aware splitting should be the standard. <h4>Bibliographical Note</h4>  Daron M. Standley is Professor of Genome Informatics at the Research Institute for Microbial Diseases, Osaka University. His research developed computational methods for immune repertoire analysis and antibody discovery.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2026
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "JST",
+              "grantId": "JPMJSP2138",
+              "orderIn": 0
+            },
+            {
+              "agency": "AMED",
+              "grantId": "J261540001",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.64898/2026.07.21.739963"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2026-07-25",
+        "firstPublicationDate": "2026-07-23",
+        "firstIndexDate": "2026-07-25",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

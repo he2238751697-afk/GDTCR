@@ -1,0 +1,3047 @@
+{
+  "input_sha256": {
+    "/gpfs/work/bio/zihanhe25/Programs/GDTCR/scripts/audit_data_v2.py": "fe17f83926591cc65cea60afb61342802f95d0f8037ca04b8295a7b4c838cd69",
+    "data/processed/paired_chain.txt": "c144fd4ad466021d276540eb9210e55e34ad12591e5d50e25d8746950de157b4",
+    "data/provenance/unique_pairs.tsv.gz": "b9084665c1602824a4b7f026d627b6382045efe463bd4f28555b4ce2308a7d2b",
+    "data/splits/completion_v2/manifest.json": "e787a6186dc14c0069511677fa16d6e4c11cf33f45f509712fe1e27b1d63849f",
+    "data/splits/pretrain/train.tsv": "2589f9e5d9b75f39bf469b8b72514c21237e798acd1cb4c32cd5812e412cd29a"
+  },
+  "master": {
+    "components": 3294,
+    "delta_degree": {
+      "max": 140,
+      "mean": 1.29746744884819,
+      "median": 1,
+      "min": 1,
+      "n": 6989
+    },
+    "delta_length": {
+      "max": 26,
+      "mean": 16.867776797529775,
+      "median": 16.0,
+      "min": 6,
+      "n": 9068
+    },
+    "gamma_degree": {
+      "max": 581,
+      "mean": 2.2991886409736306,
+      "median": 1.0,
+      "min": 1,
+      "n": 3944
+    },
+    "gamma_length": {
+      "max": 24,
+      "mean": 13.426334362593737,
+      "median": 13.0,
+      "min": 6,
+      "n": 9068
+    },
+    "largest_component_pairs": 5005,
+    "multi_partner_nodes": {
+      "delta": 519,
+      "gamma": 767
+    },
+    "pairs": 9068,
+    "queries": {
+      "delta_to_gamma": 6989,
+      "gamma_to_delta": 3944
+    },
+    "studies": {
+      "GSE180059": 8443,
+      "IEDB_untraced": 1,
+      "Suo_2022": 626
+    }
+  },
+  "paired_sequences_excluded_from_pretraining": {
+    "delta": 1230589,
+    "gamma": 187092
+  },
+  "pretraining_audit": {
+    "exact_pair_exclusion": true,
+    "file_sha256": {
+      "data/splits/pretrain/delta_validation.tsv": "205012c88fa20d7f53fe77e29499ed62f6f310d619db7e356ca13cbc6d3ca902",
+      "data/splits/pretrain/gamma_validation.tsv": "83e1d625fe325f02a1fa9220ef85430c58d72610fc235b0d810e30c6336ebf09",
+      "data/splits/pretrain/train.tsv": "2589f9e5d9b75f39bf469b8b72514c21237e798acd1cb4c32cd5812e412cd29a",
+      "data/splits/source_holdout/pretrain/delta_validation.tsv": "7ac42edaa50e8d2a02101b4d9a188f2e77bbf833b7ee83dbae963c93c76dc35e",
+      "data/splits/source_holdout/pretrain/gamma_validation.tsv": "6166b863035d88caabe3cf31a86c4aaf074cd3a72f409f4f73d527d32aba7854",
+      "data/splits/source_holdout/pretrain/train.tsv": "febbdd25479e2a08766cff596796438be262dc5a54f6ca4b751f709094230ea4"
+    },
+    "main_counts": {
+      "delta_validation": {
+        "delta": 25114,
+        "gamma": 0
+      },
+      "gamma_validation": {
+        "delta": 0,
+        "gamma": 3818
+      },
+      "train": {
+        "delta": 1230589,
+        "gamma": 187092
+      }
+    },
+    "main_pool_exact_eligible_coverage": true,
+    "source_excluded_counts": {
+      "delta_validation": {
+        "delta": 25106,
+        "gamma": 0
+      },
+      "gamma_validation": {
+        "delta": 0,
+        "gamma": 3815
+      },
+      "train": {
+        "delta": 1230167,
+        "gamma": 186949
+      }
+    },
+    "source_exclusion_counts": {
+      "delta": 858,
+      "gamma": 419
+    },
+    "source_filter_exact": true,
+    "source_shared_pretraining_identical_to_strict": true,
+    "train_validation_disjoint": true
+  },
+  "protocols": {
+    "seen_input_delta_to_gamma": {
+      "direction": "delta_to_gamma",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 264,
+          "gamma": 129
+        },
+        "train_validation": {
+          "delta": 264,
+          "gamma": 127
+        },
+        "validation_test": {
+          "delta": 264,
+          "gamma": 65
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "1ee350d3e9e8aecaed13fafa57fbefe7b46a3662eec9e6af55702e61e8b3ba89",
+        "train.tsv": "c08a68f043efa1f90188b8328449a7403160b4cf597126df176ee4286e891c51",
+        "validation.tsv": "853e18a61d96392837cdff07b3a8a33ff6c3cd3852a565cd0c829adb0abfeaac",
+        "validation_calibration.tsv": "d6a9c786de544a201b86edfacc82e8231073f573c3702d90a7bb29f6b9219a10",
+        "validation_selection.tsv": "f26754191498a0c896189db7295f65fac6b2c8dc3c75ff9ca43b0212fced2035",
+        "validation_tuning.tsv": "560decc19b7e356de89e62529392135b9c39bce5a3140e7f44bfda01b46e3b3b"
+      },
+      "kind": "seen_input",
+      "parts": {
+        "test": {
+          "components": 94,
+          "delta_degree": {
+            "max": 14,
+            "mean": 1.2613636363636365,
+            "median": 1.0,
+            "min": 1,
+            "n": 264
+          },
+          "delta_length": {
+            "max": 18,
+            "mean": 14.447447447447447,
+            "median": 15,
+            "min": 10,
+            "n": 333
+          },
+          "gamma_degree": {
+            "max": 35,
+            "mean": 2.107594936708861,
+            "median": 1.0,
+            "min": 1,
+            "n": 158
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 13.393393393393394,
+            "median": 13,
+            "min": 9,
+            "n": 333
+          },
+          "largest_component_pairs": 199,
+          "multi_partner_nodes": {
+            "delta": 24,
+            "gamma": 44
+          },
+          "pairs": 333,
+          "queries": {
+            "delta_to_gamma": 264,
+            "gamma_to_delta": 158
+          },
+          "studies": {
+            "GSE180059": 293,
+            "Suo_2022": 40
+          }
+        },
+        "train": {
+          "components": 3351,
+          "delta_degree": {
+            "max": 112,
+            "mean": 1.202174846186865,
+            "median": 1,
+            "min": 1,
+            "n": 6989
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 17.059628659842893,
+            "median": 17.0,
+            "min": 6,
+            "n": 8402
+          },
+          "gamma_degree": {
+            "max": 526,
+            "mean": 2.165463917525773,
+            "median": 1.0,
+            "min": 1,
+            "n": 3880
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.427993334920258,
+            "median": 13.0,
+            "min": 6,
+            "n": 8402
+          },
+          "largest_component_pairs": 4194,
+          "multi_partner_nodes": {
+            "delta": 413,
+            "gamma": 744
+          },
+          "pairs": 8402,
+          "queries": {
+            "delta_to_gamma": 6989,
+            "gamma_to_delta": 3880
+          },
+          "studies": {
+            "GSE180059": 7857,
+            "IEDB_untraced": 1,
+            "Suo_2022": 546
+          }
+        },
+        "validation": {
+          "components": 93,
+          "delta_degree": {
+            "max": 14,
+            "mean": 1.2613636363636365,
+            "median": 1.0,
+            "min": 1,
+            "n": 264
+          },
+          "delta_length": {
+            "max": 18,
+            "mean": 14.447447447447447,
+            "median": 15,
+            "min": 10,
+            "n": 333
+          },
+          "gamma_degree": {
+            "max": 31,
+            "mean": 2.0555555555555554,
+            "median": 1.0,
+            "min": 1,
+            "n": 162
+          },
+          "gamma_length": {
+            "max": 18,
+            "mean": 13.417417417417417,
+            "median": 13,
+            "min": 9,
+            "n": 333
+          },
+          "largest_component_pairs": 164,
+          "multi_partner_nodes": {
+            "delta": 24,
+            "gamma": 52
+          },
+          "pairs": 333,
+          "queries": {
+            "delta_to_gamma": 264,
+            "gamma_to_delta": 162
+          },
+          "studies": {
+            "GSE180059": 293,
+            "Suo_2022": 40
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 28,
+          "delta_degree": {
+            "max": 10,
+            "mean": 1.66,
+            "median": 1.0,
+            "min": 1,
+            "n": 50
+          },
+          "delta_length": {
+            "max": 17,
+            "mean": 14.08433734939759,
+            "median": 14,
+            "min": 10,
+            "n": 83
+          },
+          "gamma_degree": {
+            "max": 6,
+            "mean": 1.360655737704918,
+            "median": 1,
+            "min": 1,
+            "n": 61
+          },
+          "gamma_length": {
+            "max": 18,
+            "mean": 13.421686746987952,
+            "median": 13,
+            "min": 10,
+            "n": 83
+          },
+          "largest_component_pairs": 35,
+          "multi_partner_nodes": {
+            "delta": 11,
+            "gamma": 15
+          },
+          "pairs": 83,
+          "queries": {
+            "delta_to_gamma": 50,
+            "gamma_to_delta": 61
+          },
+          "studies": {
+            "GSE180059": 76,
+            "Suo_2022": 7
+          }
+        },
+        "selection": {
+          "components": 82,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0182926829268293,
+            "median": 1.0,
+            "min": 1,
+            "n": 164
+          },
+          "delta_length": {
+            "max": 18,
+            "mean": 14.62874251497006,
+            "median": 15,
+            "min": 10,
+            "n": 167
+          },
+          "gamma_degree": {
+            "max": 17,
+            "mean": 1.964705882352941,
+            "median": 1,
+            "min": 1,
+            "n": 85
+          },
+          "gamma_length": {
+            "max": 16,
+            "mean": 13.317365269461078,
+            "median": 13,
+            "min": 9,
+            "n": 167
+          },
+          "largest_component_pairs": 17,
+          "multi_partner_nodes": {
+            "delta": 3,
+            "gamma": 26
+          },
+          "pairs": 167,
+          "queries": {
+            "delta_to_gamma": 164,
+            "gamma_to_delta": 85
+          },
+          "studies": {
+            "GSE180059": 144,
+            "Suo_2022": 23
+          }
+        },
+        "tuning": {
+          "components": 30,
+          "delta_degree": {
+            "max": 14,
+            "mean": 1.66,
+            "median": 1.0,
+            "min": 1,
+            "n": 50
+          },
+          "delta_length": {
+            "max": 18,
+            "mean": 14.44578313253012,
+            "median": 15,
+            "min": 11,
+            "n": 83
+          },
+          "gamma_degree": {
+            "max": 8,
+            "mean": 1.3174603174603174,
+            "median": 1,
+            "min": 1,
+            "n": 63
+          },
+          "gamma_length": {
+            "max": 18,
+            "mean": 13.614457831325302,
+            "median": 13,
+            "min": 10,
+            "n": 83
+          },
+          "largest_component_pairs": 25,
+          "multi_partner_nodes": {
+            "delta": 10,
+            "gamma": 9
+          },
+          "pairs": 83,
+          "queries": {
+            "delta_to_gamma": 50,
+            "gamma_to_delta": 63
+          },
+          "studies": {
+            "GSE180059": 73,
+            "Suo_2022": 10
+          }
+        }
+      }
+    },
+    "seen_input_gamma_to_delta": {
+      "direction": "gamma_to_delta",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 138,
+          "gamma": 450
+        },
+        "train_validation": {
+          "delta": 153,
+          "gamma": 450
+        },
+        "validation_test": {
+          "delta": 48,
+          "gamma": 450
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "3f95238119f6f4413f956767b0d8a7b9d4575762223b44d87f7f5548974d06b2",
+        "train.tsv": "8bdd991f0dc49c94638b701516daafce8031f0090c685d882fa98ac4b5295331",
+        "validation.tsv": "03503904e0c5bf73fb43df8244e2935b05cac25869f29f46a35584e46d74b3f6",
+        "validation_calibration.tsv": "39328d4c762f1527c0de70188d01e5051c64e18551a1d810e6e985447f28fd4c",
+        "validation_selection.tsv": "6e383c76c55a6255195c55f7004adbb8c7d8f7e6126ca3918c5dda7784504102",
+        "validation_tuning.tsv": "49c977a0812d934489cfc2b2034173b3daff780c908e18cb966d8363361b0b93"
+      },
+      "kind": "seen_input",
+      "parts": {
+        "test": {
+          "components": 361,
+          "delta_degree": {
+            "max": 12,
+            "mean": 1.15359477124183,
+            "median": 1.0,
+            "min": 1,
+            "n": 612
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.321529745042493,
+            "median": 16.0,
+            "min": 11,
+            "n": 706
+          },
+          "gamma_degree": {
+            "max": 58,
+            "mean": 1.568888888888889,
+            "median": 1.0,
+            "min": 1,
+            "n": 450
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 13.124645892351275,
+            "median": 13.0,
+            "min": 9,
+            "n": 706
+          },
+          "largest_component_pairs": 269,
+          "multi_partner_nodes": {
+            "delta": 43,
+            "gamma": 66
+          },
+          "pairs": 706,
+          "queries": {
+            "delta_to_gamma": 612,
+            "gamma_to_delta": 450
+          },
+          "studies": {
+            "GSE180059": 632,
+            "Suo_2022": 74
+          }
+        },
+        "train": {
+          "components": 3359,
+          "delta_degree": {
+            "max": 112,
+            "mean": 1.2606619463197761,
+            "median": 1,
+            "min": 1,
+            "n": 6073
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.971003134796238,
+            "median": 16.0,
+            "min": 9,
+            "n": 7656
+          },
+          "gamma_degree": {
+            "max": 465,
+            "mean": 1.9411764705882353,
+            "median": 1.0,
+            "min": 1,
+            "n": 3944
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.481974921630094,
+            "median": 13.0,
+            "min": 6,
+            "n": 7656
+          },
+          "largest_component_pairs": 3789,
+          "multi_partner_nodes": {
+            "delta": 418,
+            "gamma": 627
+          },
+          "pairs": 7656,
+          "queries": {
+            "delta_to_gamma": 6073,
+            "gamma_to_delta": 3944
+          },
+          "studies": {
+            "GSE180059": 7156,
+            "IEDB_untraced": 1,
+            "Suo_2022": 501
+          }
+        },
+        "validation": {
+          "components": 349,
+          "delta_degree": {
+            "max": 16,
+            "mean": 1.1806020066889633,
+            "median": 1.0,
+            "min": 1,
+            "n": 598
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.294617563739376,
+            "median": 16.0,
+            "min": 6,
+            "n": 706
+          },
+          "gamma_degree": {
+            "max": 58,
+            "mean": 1.568888888888889,
+            "median": 1.0,
+            "min": 1,
+            "n": 450
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 13.124645892351275,
+            "median": 13.0,
+            "min": 9,
+            "n": 706
+          },
+          "largest_component_pairs": 276,
+          "multi_partner_nodes": {
+            "delta": 44,
+            "gamma": 66
+          },
+          "pairs": 706,
+          "queries": {
+            "delta_to_gamma": 598,
+            "gamma_to_delta": 450
+          },
+          "studies": {
+            "GSE180059": 655,
+            "Suo_2022": 51
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 68,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0598802395209581,
+            "median": 1,
+            "min": 1,
+            "n": 167
+          },
+          "delta_length": {
+            "max": 24,
+            "mean": 15.898305084745763,
+            "median": 16,
+            "min": 10,
+            "n": 177
+          },
+          "gamma_degree": {
+            "max": 58,
+            "mean": 2.269230769230769,
+            "median": 1.0,
+            "min": 1,
+            "n": 78
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 12.937853107344633,
+            "median": 13,
+            "min": 10,
+            "n": 177
+          },
+          "largest_component_pairs": 97,
+          "multi_partner_nodes": {
+            "delta": 9,
+            "gamma": 14
+          },
+          "pairs": 177,
+          "queries": {
+            "delta_to_gamma": 167,
+            "gamma_to_delta": 78
+          },
+          "studies": {
+            "GSE180059": 166,
+            "Suo_2022": 11
+          }
+        },
+        "selection": {
+          "components": 243,
+          "delta_degree": {
+            "max": 11,
+            "mean": 1.165016501650165,
+            "median": 1,
+            "min": 1,
+            "n": 303
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.577903682719548,
+            "median": 16,
+            "min": 6,
+            "n": 353
+          },
+          "gamma_degree": {
+            "max": 4,
+            "mean": 1.204778156996587,
+            "median": 1,
+            "min": 1,
+            "n": 293
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 12.937677053824363,
+            "median": 13,
+            "min": 9,
+            "n": 353
+          },
+          "largest_component_pairs": 16,
+          "multi_partner_nodes": {
+            "delta": 23,
+            "gamma": 37
+          },
+          "pairs": 353,
+          "queries": {
+            "delta_to_gamma": 303,
+            "gamma_to_delta": 293
+          },
+          "studies": {
+            "GSE180059": 333,
+            "Suo_2022": 20
+          }
+        },
+        "tuning": {
+          "components": 68,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0731707317073171,
+            "median": 1.0,
+            "min": 1,
+            "n": 164
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.125,
+            "median": 16.0,
+            "min": 10,
+            "n": 176
+          },
+          "gamma_degree": {
+            "max": 44,
+            "mean": 2.2278481012658227,
+            "median": 1,
+            "min": 1,
+            "n": 79
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 13.6875,
+            "median": 14.0,
+            "min": 10,
+            "n": 176
+          },
+          "largest_component_pairs": 55,
+          "multi_partner_nodes": {
+            "delta": 8,
+            "gamma": 15
+          },
+          "pairs": 176,
+          "queries": {
+            "delta_to_gamma": 164,
+            "gamma_to_delta": 79
+          },
+          "studies": {
+            "GSE180059": 156,
+            "Suo_2022": 20
+          }
+        }
+      }
+    },
+    "source_holdout": {
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 0
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "709a5815598750761b8118fa8e693ce562fbe548a9a8cb111be42749dc71b5e0",
+        "train.tsv": "00069a35339cb38f3bf7038198dd70da7725af4ba97568fde2ed6bfa16df7b4a",
+        "validation.tsv": "1eb8c0757e9d6fd3b6dfd737f643443401312d1e2fee62901c04ba87be503b6c",
+        "validation_calibration.tsv": "7e2fd7b187d2c4f02fdbc13b8eb5ecba1e793dd08494063677b13120532f797a",
+        "validation_selection.tsv": "3b5403b26a8ee256550cf9f033c429959cad21f4e5611a7949cccca77f25370d",
+        "validation_tuning.tsv": "259bae365693e638f7428e7893f474e232508a56ede3dc364d675198a446f77d"
+      },
+      "kind": "legacy_test_unchanged",
+      "parts": {
+        "test": {
+          "components": 90,
+          "delta_degree": {
+            "max": 24,
+            "mean": 1.494033412887828,
+            "median": 1,
+            "min": 1,
+            "n": 419
+          },
+          "delta_length": {
+            "max": 23,
+            "mean": 15.439297124600639,
+            "median": 16.0,
+            "min": 9,
+            "n": 626
+          },
+          "gamma_degree": {
+            "max": 114,
+            "mean": 3.024154589371981,
+            "median": 1,
+            "min": 1,
+            "n": 207
+          },
+          "gamma_length": {
+            "max": 19,
+            "mean": 13.752396166134185,
+            "median": 14.0,
+            "min": 8,
+            "n": 626
+          },
+          "largest_component_pairs": 529,
+          "multi_partner_nodes": {
+            "delta": 77,
+            "gamma": 68
+          },
+          "pairs": 626,
+          "queries": {
+            "delta_to_gamma": 419,
+            "gamma_to_delta": 207
+          },
+          "studies": {
+            "GSE180059": 2,
+            "Suo_2022": 626
+          }
+        },
+        "train": {
+          "components": 3219,
+          "delta_degree": {
+            "max": 80,
+            "mean": 1.1179787953981501,
+            "median": 1,
+            "min": 1,
+            "n": 4433
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 17.80871670702179,
+            "median": 18.0,
+            "min": 9,
+            "n": 4956
+          },
+          "gamma_degree": {
+            "max": 50,
+            "mean": 1.3789649415692822,
+            "median": 1.0,
+            "min": 1,
+            "n": 3594
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.490516545601292,
+            "median": 13.0,
+            "min": 6,
+            "n": 4956
+          },
+          "largest_component_pairs": 1292,
+          "multi_partner_nodes": {
+            "delta": 121,
+            "gamma": 517
+          },
+          "pairs": 4956,
+          "queries": {
+            "delta_to_gamma": 4433,
+            "gamma_to_delta": 3594
+          },
+          "studies": {
+            "GSE180059": 4956
+          }
+        },
+        "validation": {
+          "components": 125,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0073126142595978,
+            "median": 1,
+            "min": 1,
+            "n": 547
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.566243194192378,
+            "median": 18,
+            "min": 6,
+            "n": 551
+          },
+          "gamma_degree": {
+            "max": 19,
+            "mean": 4.271317829457364,
+            "median": 4,
+            "min": 1,
+            "n": 129
+          },
+          "gamma_length": {
+            "max": 23,
+            "mean": 12.823956442831216,
+            "median": 13,
+            "min": 9,
+            "n": 551
+          },
+          "largest_component_pairs": 19,
+          "multi_partner_nodes": {
+            "delta": 4,
+            "gamma": 91
+          },
+          "pairs": 551,
+          "queries": {
+            "delta_to_gamma": 547,
+            "gamma_to_delta": 129
+          },
+          "studies": {
+            "GSE180059": 551
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 26,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0222222222222221,
+            "median": 1,
+            "min": 1,
+            "n": 135
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.67391304347826,
+            "median": 18.5,
+            "min": 11,
+            "n": 138
+          },
+          "gamma_degree": {
+            "max": 13,
+            "mean": 4.758620689655173,
+            "median": 4,
+            "min": 1,
+            "n": 29
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 12.768115942028986,
+            "median": 13.0,
+            "min": 10,
+            "n": 138
+          },
+          "largest_component_pairs": 18,
+          "multi_partner_nodes": {
+            "delta": 3,
+            "gamma": 20
+          },
+          "pairs": 138,
+          "queries": {
+            "delta_to_gamma": 135,
+            "gamma_to_delta": 29
+          },
+          "studies": {
+            "GSE180059": 138
+          }
+        },
+        "selection": {
+          "components": 74,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0036496350364963,
+            "median": 1.0,
+            "min": 1,
+            "n": 274
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.62909090909091,
+            "median": 19,
+            "min": 12,
+            "n": 275
+          },
+          "gamma_degree": {
+            "max": 8,
+            "mean": 3.6666666666666665,
+            "median": 4,
+            "min": 1,
+            "n": 75
+          },
+          "gamma_length": {
+            "max": 23,
+            "mean": 12.909090909090908,
+            "median": 13,
+            "min": 9,
+            "n": 275
+          },
+          "largest_component_pairs": 8,
+          "multi_partner_nodes": {
+            "delta": 1,
+            "gamma": 51
+          },
+          "pairs": 275,
+          "queries": {
+            "delta_to_gamma": 274,
+            "gamma_to_delta": 75
+          },
+          "studies": {
+            "GSE180059": 275
+          }
+        },
+        "tuning": {
+          "components": 25,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1.0,
+            "min": 1,
+            "n": 138
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.333333333333332,
+            "median": 18.0,
+            "min": 6,
+            "n": 138
+          },
+          "gamma_degree": {
+            "max": 19,
+            "mean": 5.52,
+            "median": 5,
+            "min": 1,
+            "n": 25
+          },
+          "gamma_length": {
+            "max": 16,
+            "mean": 12.710144927536232,
+            "median": 13.0,
+            "min": 11,
+            "n": 138
+          },
+          "largest_component_pairs": 19,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 20
+          },
+          "pairs": 138,
+          "queries": {
+            "delta_to_gamma": 138,
+            "gamma_to_delta": 25
+          },
+          "studies": {
+            "GSE180059": 138
+          }
+        }
+      }
+    },
+    "source_shared": {
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 13,
+          "gamma": 144
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 10
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "709a5815598750761b8118fa8e693ce562fbe548a9a8cb111be42749dc71b5e0",
+        "train.tsv": "6353acbfd87bc84425b3ac5fbe8975f504bbeaa95e770cb7f865837a73a150e6",
+        "validation.tsv": "a2ad864796f3fcc0472e02ec5fdf58218cea12656955a3028a97bcbeea7f9c3f",
+        "validation_calibration.tsv": "2596ed45f4714a1b7d187942e2518a3c8a6a4a5f4eb97938e53195d2d163174a",
+        "validation_selection.tsv": "c16f0ca9a4e77ab98c99feb06bbb5403767e9218f2d3d08475343e99dc92607e",
+        "validation_tuning.tsv": "37de3472c8b58e8bda23643cb8cf11d2093c022456ac4649e8ee064a6977c541"
+      },
+      "kind": "legacy_test_unchanged",
+      "parts": {
+        "test": {
+          "components": 90,
+          "delta_degree": {
+            "max": 24,
+            "mean": 1.494033412887828,
+            "median": 1,
+            "min": 1,
+            "n": 419
+          },
+          "delta_length": {
+            "max": 23,
+            "mean": 15.439297124600639,
+            "median": 16.0,
+            "min": 9,
+            "n": 626
+          },
+          "gamma_degree": {
+            "max": 114,
+            "mean": 3.024154589371981,
+            "median": 1,
+            "min": 1,
+            "n": 207
+          },
+          "gamma_length": {
+            "max": 19,
+            "mean": 13.752396166134185,
+            "median": 14.0,
+            "min": 8,
+            "n": 626
+          },
+          "largest_component_pairs": 529,
+          "multi_partner_nodes": {
+            "delta": 77,
+            "gamma": 68
+          },
+          "pairs": 626,
+          "queries": {
+            "delta_to_gamma": 419,
+            "gamma_to_delta": 207
+          },
+          "studies": {
+            "GSE180059": 2,
+            "Suo_2022": 626
+          }
+        },
+        "train": {
+          "components": 3025,
+          "delta_degree": {
+            "max": 140,
+            "mean": 1.3228277903534738,
+            "median": 1,
+            "min": 1,
+            "n": 5743
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.79899960510728,
+            "median": 16,
+            "min": 9,
+            "n": 7597
+          },
+          "gamma_degree": {
+            "max": 519,
+            "mean": 2.092837465564738,
+            "median": 1.0,
+            "min": 1,
+            "n": 3630
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.45465315256022,
+            "median": 13,
+            "min": 6,
+            "n": 7597
+          },
+          "largest_component_pairs": 4397,
+          "multi_partner_nodes": {
+            "delta": 437,
+            "gamma": 520
+          },
+          "pairs": 7597,
+          "queries": {
+            "delta_to_gamma": 5743,
+            "gamma_to_delta": 3630
+          },
+          "studies": {
+            "GSE180059": 7597
+          }
+        },
+        "validation": {
+          "components": 255,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0059594755661503,
+            "median": 1,
+            "min": 1,
+            "n": 839
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.546208530805686,
+            "median": 18.0,
+            "min": 6,
+            "n": 844
+          },
+          "gamma_degree": {
+            "max": 19,
+            "mean": 3.246153846153846,
+            "median": 3.0,
+            "min": 1,
+            "n": 260
+          },
+          "gamma_length": {
+            "max": 19,
+            "mean": 12.930094786729859,
+            "median": 13.0,
+            "min": 9,
+            "n": 844
+          },
+          "largest_component_pairs": 19,
+          "multi_partner_nodes": {
+            "delta": 4,
+            "gamma": 220
+          },
+          "pairs": 844,
+          "queries": {
+            "delta_to_gamma": 839,
+            "gamma_to_delta": 260
+          },
+          "studies": {
+            "GSE180059": 844
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 51,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0047619047619047,
+            "median": 1.0,
+            "min": 1,
+            "n": 210
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.412322274881518,
+            "median": 18,
+            "min": 10,
+            "n": 211
+          },
+          "gamma_degree": {
+            "max": 19,
+            "mean": 4.0576923076923075,
+            "median": 3.0,
+            "min": 1,
+            "n": 52
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 12.777251184834123,
+            "median": 13,
+            "min": 9,
+            "n": 211
+          },
+          "largest_component_pairs": 19,
+          "multi_partner_nodes": {
+            "delta": 1,
+            "gamma": 46
+          },
+          "pairs": 211,
+          "queries": {
+            "delta_to_gamma": 210,
+            "gamma_to_delta": 52
+          },
+          "studies": {
+            "GSE180059": 211
+          }
+        },
+        "selection": {
+          "components": 152,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.002375296912114,
+            "median": 1,
+            "min": 1,
+            "n": 421
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.64691943127962,
+            "median": 18.0,
+            "min": 10,
+            "n": 422
+          },
+          "gamma_degree": {
+            "max": 5,
+            "mean": 2.758169934640523,
+            "median": 3,
+            "min": 1,
+            "n": 153
+          },
+          "gamma_length": {
+            "max": 19,
+            "mean": 13.061611374407583,
+            "median": 13.0,
+            "min": 9,
+            "n": 422
+          },
+          "largest_component_pairs": 5,
+          "multi_partner_nodes": {
+            "delta": 1,
+            "gamma": 128
+          },
+          "pairs": 422,
+          "queries": {
+            "delta_to_gamma": 421,
+            "gamma_to_delta": 153
+          },
+          "studies": {
+            "GSE180059": 422
+          }
+        },
+        "tuning": {
+          "components": 52,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0144230769230769,
+            "median": 1.0,
+            "min": 1,
+            "n": 208
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.47867298578199,
+            "median": 18,
+            "min": 6,
+            "n": 211
+          },
+          "gamma_degree": {
+            "max": 12,
+            "mean": 3.8363636363636364,
+            "median": 3,
+            "min": 1,
+            "n": 55
+          },
+          "gamma_length": {
+            "max": 16,
+            "mean": 12.819905213270141,
+            "median": 13,
+            "min": 9,
+            "n": 211
+          },
+          "largest_component_pairs": 12,
+          "multi_partner_nodes": {
+            "delta": 2,
+            "gamma": 46
+          },
+          "pairs": 211,
+          "queries": {
+            "delta_to_gamma": 208,
+            "gamma_to_delta": 55
+          },
+          "studies": {
+            "GSE180059": 211
+          }
+        }
+      }
+    },
+    "split_seed17": {
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 0
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "c34b44a0aff824c6cd9aacca4c6eb2fb7e75b9de15e4a5c747b03ab649c0bdce",
+        "train.tsv": "f32af4b4565cfbea25b89be29a54d73c31bcbfb0e10514450ff0e488b2947a68",
+        "train_fraction10.tsv": "71da4ae1edeba051f93b3e79d4c23361df1e1545bdd1dd5715dfd9b89ba228c6",
+        "train_fraction100.tsv": "f32af4b4565cfbea25b89be29a54d73c31bcbfb0e10514450ff0e488b2947a68",
+        "train_fraction25.tsv": "e6223228a0db1eb2bc53af59acfc1de1aed0c2833fb5e60f6206e936041223f6",
+        "train_fraction50.tsv": "8fa5ecb2df920a0152520c2d93c7f878b70be73356bc8d037e2b44cd0ec24096",
+        "validation.tsv": "1e508bec9fc7fb99378e694711c5f539b8636e1bb62ccc92ada43a386fcb1e9b",
+        "validation_calibration.tsv": "d0eba5feda461fb817dff490fde87324c850f74c053f04e63b9830f826d859a7",
+        "validation_selection.tsv": "e44246b373493da22c7341dab43ebae06fa2a47e5dabe502ffc9d5357138ec9e",
+        "validation_tuning.tsv": "a8a37c30e5e6e32d395220c9a7f3a583978aff023b9a21ceb040e6dc1d0cef53"
+      },
+      "kind": "legacy_test_unchanged",
+      "nested_subsets": {
+        "10": {
+          "components": 725,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 725
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.88689655172414,
+            "median": 19,
+            "min": 11,
+            "n": 725
+          },
+          "gamma_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 725
+          },
+          "gamma_length": {
+            "max": 21,
+            "mean": 13.849655172413794,
+            "median": 14,
+            "min": 7,
+            "n": 725
+          },
+          "largest_component_pairs": 1,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 0
+          },
+          "pairs": 725,
+          "queries": {
+            "delta_to_gamma": 725,
+            "gamma_to_delta": 725
+          },
+          "studies": {
+            "GSE180059": 718,
+            "Suo_2022": 7
+          }
+        },
+        "100": {
+          "components": 2250,
+          "delta_degree": {
+            "max": 140,
+            "mean": 1.3990356798457089,
+            "median": 1,
+            "min": 1,
+            "n": 5185
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.455748552522746,
+            "median": 16.0,
+            "min": 9,
+            "n": 7254
+          },
+          "gamma_degree": {
+            "max": 581,
+            "mean": 2.5100346020761246,
+            "median": 1.0,
+            "min": 1,
+            "n": 2890
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.46415770609319,
+            "median": 13.0,
+            "min": 7,
+            "n": 7254
+          },
+          "largest_component_pairs": 5005,
+          "multi_partner_nodes": {
+            "delta": 510,
+            "gamma": 375
+          },
+          "pairs": 7254,
+          "queries": {
+            "delta_to_gamma": 5185,
+            "gamma_to_delta": 2890
+          },
+          "studies": {
+            "GSE180059": 6653,
+            "Suo_2022": 603
+          }
+        },
+        "25": {
+          "components": 1814,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1.0,
+            "min": 1,
+            "n": 1814
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.67034178610805,
+            "median": 19.0,
+            "min": 9,
+            "n": 1814
+          },
+          "gamma_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1.0,
+            "min": 1,
+            "n": 1814
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.877067254685777,
+            "median": 14.0,
+            "min": 7,
+            "n": 1814
+          },
+          "largest_component_pairs": 1,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 0
+          },
+          "pairs": 1814,
+          "queries": {
+            "delta_to_gamma": 1814,
+            "gamma_to_delta": 1814
+          },
+          "studies": {
+            "GSE180059": 1790,
+            "Suo_2022": 24
+          }
+        },
+        "50": {
+          "components": 2249,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 2249
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.674966651845263,
+            "median": 19,
+            "min": 9,
+            "n": 2249
+          },
+          "gamma_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 2249
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.893730546909739,
+            "median": 14,
+            "min": 7,
+            "n": 2249
+          },
+          "largest_component_pairs": 1,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 0
+          },
+          "pairs": 2249,
+          "queries": {
+            "delta_to_gamma": 2249,
+            "gamma_to_delta": 2249
+          },
+          "studies": {
+            "GSE180059": 2220,
+            "Suo_2022": 29
+          }
+        }
+      },
+      "parts": {
+        "test": {
+          "components": 522,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0077777777777779,
+            "median": 1.0,
+            "min": 1,
+            "n": 900
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.529217199558985,
+            "median": 19,
+            "min": 9,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 19,
+            "mean": 1.714555765595463,
+            "median": 1,
+            "min": 1,
+            "n": 529
+          },
+          "gamma_length": {
+            "max": 21,
+            "mean": 13.320837927232635,
+            "median": 13,
+            "min": 6,
+            "n": 907
+          },
+          "largest_component_pairs": 19,
+          "multi_partner_nodes": {
+            "delta": 6,
+            "gamma": 195
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 900,
+            "gamma_to_delta": 529
+          },
+          "studies": {
+            "GSE180059": 897,
+            "IEDB_untraced": 1,
+            "Suo_2022": 9
+          }
+        },
+        "train": {
+          "components": 2250,
+          "delta_degree": {
+            "max": 140,
+            "mean": 1.3990356798457089,
+            "median": 1,
+            "min": 1,
+            "n": 5185
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.455748552522746,
+            "median": 16.0,
+            "min": 9,
+            "n": 7254
+          },
+          "gamma_degree": {
+            "max": 581,
+            "mean": 2.5100346020761246,
+            "median": 1.0,
+            "min": 1,
+            "n": 2890
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.46415770609319,
+            "median": 13.0,
+            "min": 7,
+            "n": 7254
+          },
+          "largest_component_pairs": 5005,
+          "multi_partner_nodes": {
+            "delta": 510,
+            "gamma": 375
+          },
+          "pairs": 7254,
+          "queries": {
+            "delta_to_gamma": 5185,
+            "gamma_to_delta": 2890
+          },
+          "studies": {
+            "GSE180059": 6653,
+            "Suo_2022": 603
+          }
+        },
+        "validation": {
+          "components": 522,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0033185840707965,
+            "median": 1.0,
+            "min": 1,
+            "n": 904
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.50165380374862,
+            "median": 18,
+            "min": 6,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 12,
+            "mean": 1.7276190476190476,
+            "median": 1,
+            "min": 1,
+            "n": 525
+          },
+          "gamma_length": {
+            "max": 23,
+            "mean": 13.229327453142227,
+            "median": 13,
+            "min": 7,
+            "n": 907
+          },
+          "largest_component_pairs": 12,
+          "multi_partner_nodes": {
+            "delta": 3,
+            "gamma": 197
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 904,
+            "gamma_to_delta": 525
+          },
+          "studies": {
+            "GSE180059": 893,
+            "Suo_2022": 14
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 101,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 227
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.475770925110133,
+            "median": 18,
+            "min": 6,
+            "n": 227
+          },
+          "gamma_degree": {
+            "max": 11,
+            "mean": 2.2475247524752477,
+            "median": 1,
+            "min": 1,
+            "n": 101
+          },
+          "gamma_length": {
+            "max": 18,
+            "mean": 12.92511013215859,
+            "median": 13,
+            "min": 7,
+            "n": 227
+          },
+          "largest_component_pairs": 11,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 47
+          },
+          "pairs": 227,
+          "queries": {
+            "delta_to_gamma": 227,
+            "gamma_to_delta": 101
+          },
+          "studies": {
+            "GSE180059": 223,
+            "Suo_2022": 4
+          }
+        },
+        "selection": {
+          "components": 319,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0066666666666666,
+            "median": 1.0,
+            "min": 1,
+            "n": 450
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.492273730684328,
+            "median": 18,
+            "min": 10,
+            "n": 453
+          },
+          "gamma_degree": {
+            "max": 3,
+            "mean": 1.406832298136646,
+            "median": 1.0,
+            "min": 1,
+            "n": 322
+          },
+          "gamma_length": {
+            "max": 23,
+            "mean": 13.410596026490067,
+            "median": 13,
+            "min": 8,
+            "n": 453
+          },
+          "largest_component_pairs": 3,
+          "multi_partner_nodes": {
+            "delta": 3,
+            "gamma": 103
+          },
+          "pairs": 453,
+          "queries": {
+            "delta_to_gamma": 450,
+            "gamma_to_delta": 322
+          },
+          "studies": {
+            "GSE180059": 445,
+            "Suo_2022": 8
+          }
+        },
+        "tuning": {
+          "components": 102,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 227
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.54625550660793,
+            "median": 18,
+            "min": 12,
+            "n": 227
+          },
+          "gamma_degree": {
+            "max": 12,
+            "mean": 2.2254901960784315,
+            "median": 1.0,
+            "min": 1,
+            "n": 102
+          },
+          "gamma_length": {
+            "max": 19,
+            "mean": 13.17180616740088,
+            "median": 13,
+            "min": 9,
+            "n": 227
+          },
+          "largest_component_pairs": 12,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 47
+          },
+          "pairs": 227,
+          "queries": {
+            "delta_to_gamma": 227,
+            "gamma_to_delta": 102
+          },
+          "studies": {
+            "GSE180059": 225,
+            "Suo_2022": 2
+          }
+        }
+      }
+    },
+    "split_seed2026": {
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 0
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "0895c7d5813a39ab554f8218796bb3e95e3b863dabfaa9c522e92b07d4102a1e",
+        "train.tsv": "230241c43ef708f45c07e732bc667fbbca915bde0e7a9ab05feedfcacef5db87",
+        "validation.tsv": "e4d6f9e69a7c395b8c308d1acfc739d94add61a37ccea7a437fdf4ee25c9411d",
+        "validation_calibration.tsv": "2bd450ac2c89f4f7590a01ec10e1e83e25f4e4c4d93258d2c1f025a23ef34b94",
+        "validation_selection.tsv": "ec669cc9b86000a3d191bc7a42cf223fee2751aa7facf8f62023f06efc816630",
+        "validation_tuning.tsv": "9ba1c68c78112dbb70153f1d86d8946dd5ef49f25e1b6a5830807777f5af6ce2"
+      },
+      "kind": "legacy_test_unchanged",
+      "parts": {
+        "test": {
+          "components": 522,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0033185840707965,
+            "median": 1.0,
+            "min": 1,
+            "n": 904
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.626240352811465,
+            "median": 19,
+            "min": 10,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 19,
+            "mean": 1.7276190476190476,
+            "median": 1,
+            "min": 1,
+            "n": 525
+          },
+          "gamma_length": {
+            "max": 22,
+            "mean": 13.224917309812568,
+            "median": 13,
+            "min": 6,
+            "n": 907
+          },
+          "largest_component_pairs": 19,
+          "multi_partner_nodes": {
+            "delta": 3,
+            "gamma": 195
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 904,
+            "gamma_to_delta": 525
+          },
+          "studies": {
+            "GSE180059": 896,
+            "Suo_2022": 11
+          }
+        },
+        "train": {
+          "components": 2250,
+          "delta_degree": {
+            "max": 140,
+            "mean": 1.3990356798457089,
+            "median": 1,
+            "min": 1,
+            "n": 5185
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.457540667218087,
+            "median": 16.0,
+            "min": 9,
+            "n": 7254
+          },
+          "gamma_degree": {
+            "max": 581,
+            "mean": 2.5100346020761246,
+            "median": 1.0,
+            "min": 1,
+            "n": 2890
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.470636889991729,
+            "median": 13.0,
+            "min": 7,
+            "n": 7254
+          },
+          "largest_component_pairs": 5005,
+          "multi_partner_nodes": {
+            "delta": 510,
+            "gamma": 375
+          },
+          "pairs": 7254,
+          "queries": {
+            "delta_to_gamma": 5185,
+            "gamma_to_delta": 2890
+          },
+          "studies": {
+            "GSE180059": 6657,
+            "IEDB_untraced": 1,
+            "Suo_2022": 598
+          }
+        },
+        "validation": {
+          "components": 522,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0077777777777779,
+            "median": 1.0,
+            "min": 1,
+            "n": 900
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.390297684674753,
+            "median": 18,
+            "min": 6,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 12,
+            "mean": 1.714555765595463,
+            "median": 1,
+            "min": 1,
+            "n": 529
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.27342888643881,
+            "median": 13,
+            "min": 7,
+            "n": 907
+          },
+          "largest_component_pairs": 12,
+          "multi_partner_nodes": {
+            "delta": 6,
+            "gamma": 197
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 900,
+            "gamma_to_delta": 529
+          },
+          "studies": {
+            "GSE180059": 890,
+            "Suo_2022": 17
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 101,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 227
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.54625550660793,
+            "median": 18,
+            "min": 11,
+            "n": 227
+          },
+          "gamma_degree": {
+            "max": 11,
+            "mean": 2.2475247524752477,
+            "median": 1,
+            "min": 1,
+            "n": 101
+          },
+          "gamma_length": {
+            "max": 20,
+            "mean": 13.066079295154186,
+            "median": 13,
+            "min": 8,
+            "n": 227
+          },
+          "largest_component_pairs": 11,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 48
+          },
+          "pairs": 227,
+          "queries": {
+            "delta_to_gamma": 227,
+            "gamma_to_delta": 101
+          },
+          "studies": {
+            "GSE180059": 222,
+            "Suo_2022": 5
+          }
+        },
+        "selection": {
+          "components": 319,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0089086859688197,
+            "median": 1,
+            "min": 1,
+            "n": 449
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.33112582781457,
+            "median": 18,
+            "min": 9,
+            "n": 453
+          },
+          "gamma_degree": {
+            "max": 4,
+            "mean": 1.4024767801857585,
+            "median": 1,
+            "min": 1,
+            "n": 323
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.509933774834437,
+            "median": 13,
+            "min": 8,
+            "n": 453
+          },
+          "largest_component_pairs": 4,
+          "multi_partner_nodes": {
+            "delta": 4,
+            "gamma": 101
+          },
+          "pairs": 453,
+          "queries": {
+            "delta_to_gamma": 449,
+            "gamma_to_delta": 323
+          },
+          "studies": {
+            "GSE180059": 444,
+            "Suo_2022": 9
+          }
+        },
+        "tuning": {
+          "components": 102,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0133928571428572,
+            "median": 1.0,
+            "min": 1,
+            "n": 224
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.352422907488986,
+            "median": 18,
+            "min": 6,
+            "n": 227
+          },
+          "gamma_degree": {
+            "max": 12,
+            "mean": 2.1619047619047618,
+            "median": 1,
+            "min": 1,
+            "n": 105
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 13.008810572687224,
+            "median": 13,
+            "min": 7,
+            "n": 227
+          },
+          "largest_component_pairs": 12,
+          "multi_partner_nodes": {
+            "delta": 2,
+            "gamma": 48
+          },
+          "pairs": 227,
+          "queries": {
+            "delta_to_gamma": 224,
+            "gamma_to_delta": 105
+          },
+          "studies": {
+            "GSE180059": 224,
+            "Suo_2022": 3
+          }
+        }
+      }
+    },
+    "split_seed3407": {
+      "direction": "both",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 0
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "f97d357a003bdd41936db19fcd75c76f2f55436f5a3d66991b102c4513606dcc",
+        "train.tsv": "a2ca08bb8ad1f32fb0d68c418992e02e8ae4d029a0c014f2c150ae65c25fc183",
+        "validation.tsv": "f6b4dd837d605ce695bbdc1bc41f34209f2697f36d665229354c4bbb3d91bd7e",
+        "validation_calibration.tsv": "c15181573e4ed0403503fe37f60ac04af1579c2526e6003361e15d43f2731535",
+        "validation_selection.tsv": "52644db62cffcf3e11e0dea1a11421d2c7090142c0b49b018439a4aee800bb85",
+        "validation_tuning.tsv": "fe495c3e1396cb2924e7590ab1eaead05abc89a4e8ae19d490c739c36c15d285"
+      },
+      "kind": "legacy_test_unchanged",
+      "parts": {
+        "test": {
+          "components": 522,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0011037527593818,
+            "median": 1.0,
+            "min": 1,
+            "n": 906
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.5832414553473,
+            "median": 18,
+            "min": 6,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 19,
+            "mean": 1.7342256214149139,
+            "median": 1,
+            "min": 1,
+            "n": 523
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.254685777287762,
+            "median": 13,
+            "min": 8,
+            "n": 907
+          },
+          "largest_component_pairs": 19,
+          "multi_partner_nodes": {
+            "delta": 1,
+            "gamma": 196
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 906,
+            "gamma_to_delta": 523
+          },
+          "studies": {
+            "GSE180059": 894,
+            "Suo_2022": 13
+          }
+        },
+        "train": {
+          "components": 2250,
+          "delta_degree": {
+            "max": 140,
+            "mean": 1.3990356798457089,
+            "median": 1,
+            "min": 1,
+            "n": 5185
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.439205955334987,
+            "median": 16.0,
+            "min": 9,
+            "n": 7254
+          },
+          "gamma_degree": {
+            "max": 581,
+            "mean": 2.5100346020761246,
+            "median": 1.0,
+            "min": 1,
+            "n": 2890
+          },
+          "gamma_length": {
+            "max": 23,
+            "mean": 13.464571271022884,
+            "median": 13.0,
+            "min": 6,
+            "n": 7254
+          },
+          "largest_component_pairs": 5005,
+          "multi_partner_nodes": {
+            "delta": 510,
+            "gamma": 375
+          },
+          "pairs": 7254,
+          "queries": {
+            "delta_to_gamma": 5185,
+            "gamma_to_delta": 2890
+          },
+          "studies": {
+            "GSE180059": 6653,
+            "IEDB_untraced": 1,
+            "Suo_2022": 602
+          }
+        },
+        "validation": {
+          "components": 522,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.010022271714922,
+            "median": 1.0,
+            "min": 1,
+            "n": 898
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.579933847850054,
+            "median": 19,
+            "min": 9,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 12,
+            "mean": 1.7080979284369116,
+            "median": 1,
+            "min": 1,
+            "n": 531
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.292171995589857,
+            "median": 13,
+            "min": 7,
+            "n": 907
+          },
+          "largest_component_pairs": 12,
+          "multi_partner_nodes": {
+            "delta": 8,
+            "gamma": 196
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 898,
+            "gamma_to_delta": 531
+          },
+          "studies": {
+            "GSE180059": 896,
+            "Suo_2022": 11
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 101,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 227
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.56387665198238,
+            "median": 19,
+            "min": 11,
+            "n": 227
+          },
+          "gamma_degree": {
+            "max": 11,
+            "mean": 2.2475247524752477,
+            "median": 1,
+            "min": 1,
+            "n": 101
+          },
+          "gamma_length": {
+            "max": 20,
+            "mean": 13.162995594713657,
+            "median": 13,
+            "min": 10,
+            "n": 227
+          },
+          "largest_component_pairs": 11,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 47
+          },
+          "pairs": 227,
+          "queries": {
+            "delta_to_gamma": 227,
+            "gamma_to_delta": 101
+          },
+          "studies": {
+            "GSE180059": 223,
+            "Suo_2022": 4
+          }
+        },
+        "selection": {
+          "components": 319,
+          "delta_degree": {
+            "max": 2,
+            "mean": 1.0134228187919463,
+            "median": 1,
+            "min": 1,
+            "n": 447
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.543046357615893,
+            "median": 19,
+            "min": 9,
+            "n": 453
+          },
+          "gamma_degree": {
+            "max": 3,
+            "mean": 1.393846153846154,
+            "median": 1,
+            "min": 1,
+            "n": 325
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.496688741721854,
+            "median": 13,
+            "min": 7,
+            "n": 453
+          },
+          "largest_component_pairs": 3,
+          "multi_partner_nodes": {
+            "delta": 6,
+            "gamma": 101
+          },
+          "pairs": 453,
+          "queries": {
+            "delta_to_gamma": 447,
+            "gamma_to_delta": 325
+          },
+          "studies": {
+            "GSE180059": 447,
+            "Suo_2022": 6
+          }
+        },
+        "tuning": {
+          "components": 102,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0133928571428572,
+            "median": 1.0,
+            "min": 1,
+            "n": 224
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 18.669603524229075,
+            "median": 19,
+            "min": 10,
+            "n": 227
+          },
+          "gamma_degree": {
+            "max": 12,
+            "mean": 2.1619047619047618,
+            "median": 1,
+            "min": 1,
+            "n": 105
+          },
+          "gamma_length": {
+            "max": 19,
+            "mean": 13.013215859030836,
+            "median": 13,
+            "min": 8,
+            "n": 227
+          },
+          "largest_component_pairs": 12,
+          "multi_partner_nodes": {
+            "delta": 2,
+            "gamma": 48
+          },
+          "pairs": 227,
+          "queries": {
+            "delta_to_gamma": 224,
+            "gamma_to_delta": 105
+          },
+          "studies": {
+            "GSE180059": 226,
+            "Suo_2022": 1
+          }
+        }
+      }
+    },
+    "unseen_input_delta_to_gamma": {
+      "direction": "delta_to_gamma",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 0,
+          "gamma": 244
+        },
+        "train_validation": {
+          "delta": 0,
+          "gamma": 250
+        },
+        "validation_test": {
+          "delta": 0,
+          "gamma": 159
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "dbf5bad1212218d8c496421d0f6a4df7ca62382554345f22edb38a2d271942a8",
+        "train.tsv": "b17ca97d88ff68ae1e03fe6458c0165af9e9bb08ba67c8fe7c6cb145f6356a8f",
+        "validation.tsv": "ffe1ada94be653334db9f28fbd8c66bb7b1372bf828756a5f5a192e84d23d094",
+        "validation_calibration.tsv": "4fb6c6d1419d7c894737d45c6579fb281aaae1fcef1851c3d936cc2e490068ba",
+        "validation_selection.tsv": "ae36c8948568d9b4ae58d47b001a5e22982e27786e0881ee1ce1eeabb3753b11",
+        "validation_tuning.tsv": "c38ee31a8ccccceb4618e5352f64e2324300b6f37c0f2aad004b9939366deb73"
+      },
+      "kind": "unseen_input",
+      "parts": {
+        "test": {
+          "components": 70,
+          "delta_degree": {
+            "max": 140,
+            "mean": 5.633540372670807,
+            "median": 1,
+            "min": 1,
+            "n": 161
+          },
+          "delta_length": {
+            "max": 25,
+            "mean": 14.715545755237045,
+            "median": 15,
+            "min": 11,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 49,
+            "mean": 2.273182957393484,
+            "median": 1,
+            "min": 1,
+            "n": 399
+          },
+          "gamma_length": {
+            "max": 19,
+            "mean": 13.278941565600881,
+            "median": 13,
+            "min": 8,
+            "n": 907
+          },
+          "largest_component_pairs": 838,
+          "multi_partner_nodes": {
+            "delta": 62,
+            "gamma": 123
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 161,
+            "gamma_to_delta": 399
+          },
+          "studies": {
+            "GSE180059": 828,
+            "Suo_2022": 81
+          }
+        },
+        "train": {
+          "components": 3370,
+          "delta_degree": {
+            "max": 4,
+            "mean": 1.088045597720114,
+            "median": 1,
+            "min": 1,
+            "n": 6667
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 17.408326440584506,
+            "median": 17.0,
+            "min": 9,
+            "n": 7254
+          },
+          "gamma_degree": {
+            "max": 472,
+            "mean": 1.9814258399344442,
+            "median": 1,
+            "min": 1,
+            "n": 3661
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.467190515577613,
+            "median": 13.0,
+            "min": 6,
+            "n": 7254
+          },
+          "largest_component_pairs": 2802,
+          "multi_partner_nodes": {
+            "delta": 395,
+            "gamma": 664
+          },
+          "pairs": 7254,
+          "queries": {
+            "delta_to_gamma": 6667,
+            "gamma_to_delta": 3661
+          },
+          "studies": {
+            "GSE180059": 6770,
+            "IEDB_untraced": 1,
+            "Suo_2022": 483
+          }
+        },
+        "validation": {
+          "components": 67,
+          "delta_degree": {
+            "max": 101,
+            "mean": 5.633540372670807,
+            "median": 1,
+            "min": 1,
+            "n": 161
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 14.696802646085997,
+            "median": 15,
+            "min": 6,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 60,
+            "mean": 2.3376288659793816,
+            "median": 1.0,
+            "min": 1,
+            "n": 388
+          },
+          "gamma_length": {
+            "max": 18,
+            "mean": 13.24696802646086,
+            "median": 13,
+            "min": 7,
+            "n": 907
+          },
+          "largest_component_pairs": 840,
+          "multi_partner_nodes": {
+            "delta": 62,
+            "gamma": 121
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 161,
+            "gamma_to_delta": 388
+          },
+          "studies": {
+            "GSE180059": 845,
+            "Suo_2022": 62
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 13,
+          "delta_degree": {
+            "max": 101,
+            "mean": 8.107142857142858,
+            "median": 1.0,
+            "min": 1,
+            "n": 28
+          },
+          "delta_length": {
+            "max": 25,
+            "mean": 13.964757709251101,
+            "median": 13,
+            "min": 11,
+            "n": 227
+          },
+          "gamma_degree": {
+            "max": 10,
+            "mean": 1.4099378881987579,
+            "median": 1,
+            "min": 1,
+            "n": 161
+          },
+          "gamma_length": {
+            "max": 18,
+            "mean": 13.193832599118943,
+            "median": 13,
+            "min": 7,
+            "n": 227
+          },
+          "largest_component_pairs": 215,
+          "multi_partner_nodes": {
+            "delta": 12,
+            "gamma": 32
+          },
+          "pairs": 227,
+          "queries": {
+            "delta_to_gamma": 28,
+            "gamma_to_delta": 161
+          },
+          "studies": {
+            "GSE180059": 207,
+            "Suo_2022": 20
+          }
+        },
+        "selection": {
+          "components": 53,
+          "delta_degree": {
+            "max": 62,
+            "mean": 4.314285714285714,
+            "median": 1,
+            "min": 1,
+            "n": 105
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 15.022075055187639,
+            "median": 15,
+            "min": 10,
+            "n": 453
+          },
+          "gamma_degree": {
+            "max": 38,
+            "mean": 2.013333333333333,
+            "median": 1,
+            "min": 1,
+            "n": 225
+          },
+          "gamma_length": {
+            "max": 18,
+            "mean": 13.28476821192053,
+            "median": 13,
+            "min": 9,
+            "n": 453
+          },
+          "largest_component_pairs": 400,
+          "multi_partner_nodes": {
+            "delta": 38,
+            "gamma": 61
+          },
+          "pairs": 453,
+          "queries": {
+            "delta_to_gamma": 105,
+            "gamma_to_delta": 225
+          },
+          "studies": {
+            "GSE180059": 415,
+            "Suo_2022": 38
+          }
+        },
+        "tuning": {
+          "components": 13,
+          "delta_degree": {
+            "max": 100,
+            "mean": 8.107142857142858,
+            "median": 1.0,
+            "min": 1,
+            "n": 28
+          },
+          "delta_length": {
+            "max": 23,
+            "mean": 14.779735682819384,
+            "median": 14,
+            "min": 6,
+            "n": 227
+          },
+          "gamma_degree": {
+            "max": 12,
+            "mean": 1.4645161290322581,
+            "median": 1,
+            "min": 1,
+            "n": 155
+          },
+          "gamma_length": {
+            "max": 17,
+            "mean": 13.224669603524228,
+            "median": 13,
+            "min": 8,
+            "n": 227
+          },
+          "largest_component_pairs": 215,
+          "multi_partner_nodes": {
+            "delta": 12,
+            "gamma": 37
+          },
+          "pairs": 227,
+          "queries": {
+            "delta_to_gamma": 28,
+            "gamma_to_delta": 155
+          },
+          "studies": {
+            "GSE180059": 223,
+            "Suo_2022": 4
+          }
+        }
+      }
+    },
+    "unseen_input_gamma_to_delta": {
+      "direction": "gamma_to_delta",
+      "exact_chain_overlap": {
+        "train_test": {
+          "delta": 252,
+          "gamma": 0
+        },
+        "train_validation": {
+          "delta": 243,
+          "gamma": 0
+        },
+        "validation_test": {
+          "delta": 176,
+          "gamma": 0
+        }
+      },
+      "file_sha256": {
+        "test.tsv": "b9670b129f6a293ea19c0546491f518750c8e33a7adca67a7d32f9e65e0b1193",
+        "train.tsv": "eebbb22f32e0f36875a970f359a8608295909e858ec5e0524904319c2dd015b6",
+        "validation.tsv": "4b3a7036114b4a730243358cfb956cef10f8b953960c44417e1e631debf2cc52",
+        "validation_calibration.tsv": "a8dccded0864f3a686ccabe0afd9fb6ba9096c412cc7d90b85889dd686d3484a",
+        "validation_selection.tsv": "537c05871d2e2743081d199071118c12cacdd78a8d7033cb13a2aa46de813c4a",
+        "validation_tuning.tsv": "1eacf71c72b80ede226f24524842c5b36e3089749b3c6992e4a65ce41a25f495"
+      },
+      "kind": "unseen_input",
+      "parts": {
+        "test": {
+          "components": 53,
+          "delta_degree": {
+            "max": 10,
+            "mean": 1.1763942931258107,
+            "median": 1,
+            "min": 1,
+            "n": 771
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 15.426681367144432,
+            "median": 15,
+            "min": 9,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 441,
+            "mean": 14.171875,
+            "median": 1.0,
+            "min": 1,
+            "n": 64
+          },
+          "gamma_length": {
+            "max": 18,
+            "mean": 14.306504961411246,
+            "median": 15,
+            "min": 10,
+            "n": 907
+          },
+          "largest_component_pairs": 847,
+          "multi_partner_nodes": {
+            "delta": 88,
+            "gamma": 15
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 771,
+            "gamma_to_delta": 64
+          },
+          "studies": {
+            "GSE180059": 718,
+            "Suo_2022": 190
+          }
+        },
+        "train": {
+          "components": 3244,
+          "delta_degree": {
+            "max": 126,
+            "mean": 1.2208010770784248,
+            "median": 1.0,
+            "min": 1,
+            "n": 5942
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 17.249517507582024,
+            "median": 17.0,
+            "min": 6,
+            "n": 7254
+          },
+          "gamma_degree": {
+            "max": 64,
+            "mean": 1.9004453759496986,
+            "median": 1,
+            "min": 1,
+            "n": 3817
+          },
+          "gamma_length": {
+            "max": 24,
+            "mean": 13.37055417700579,
+            "median": 13.0,
+            "min": 6,
+            "n": 7254
+          },
+          "largest_component_pairs": 3190,
+          "multi_partner_nodes": {
+            "delta": 279,
+            "gamma": 738
+          },
+          "pairs": 7254,
+          "queries": {
+            "delta_to_gamma": 5942,
+            "gamma_to_delta": 3817
+          },
+          "studies": {
+            "GSE180059": 6921,
+            "IEDB_untraced": 1,
+            "Suo_2022": 332
+          }
+        },
+        "validation": {
+          "components": 53,
+          "delta_degree": {
+            "max": 5,
+            "mean": 1.1115196078431373,
+            "median": 1.0,
+            "min": 1,
+            "n": 816
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 15.255788313120176,
+            "median": 15,
+            "min": 9,
+            "n": 907
+          },
+          "gamma_degree": {
+            "max": 581,
+            "mean": 14.396825396825397,
+            "median": 1,
+            "min": 1,
+            "n": 63
+          },
+          "gamma_length": {
+            "max": 23,
+            "mean": 12.992282249173098,
+            "median": 13,
+            "min": 8,
+            "n": 907
+          },
+          "largest_component_pairs": 841,
+          "multi_partner_nodes": {
+            "delta": 69,
+            "gamma": 14
+          },
+          "pairs": 907,
+          "queries": {
+            "delta_to_gamma": 816,
+            "gamma_to_delta": 63
+          },
+          "studies": {
+            "GSE180059": 804,
+            "Suo_2022": 104
+          }
+        }
+      },
+      "validation_roles": {
+        "calibration": {
+          "components": 26,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 163
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 15.36196319018405,
+            "median": 15,
+            "min": 11,
+            "n": 163
+          },
+          "gamma_degree": {
+            "max": 137,
+            "mean": 6.269230769230769,
+            "median": 1.0,
+            "min": 1,
+            "n": 26
+          },
+          "gamma_length": {
+            "max": 23,
+            "mean": 13.184049079754601,
+            "median": 13,
+            "min": 10,
+            "n": 163
+          },
+          "largest_component_pairs": 137,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 2
+          },
+          "pairs": 163,
+          "queries": {
+            "delta_to_gamma": 163,
+            "gamma_to_delta": 26
+          },
+          "studies": {
+            "GSE180059": 132,
+            "Suo_2022": 31
+          }
+        },
+        "selection": {
+          "components": 1,
+          "delta_degree": {
+            "max": 1,
+            "mean": 1,
+            "median": 1,
+            "min": 1,
+            "n": 581
+          },
+          "delta_length": {
+            "max": 25,
+            "mean": 14.80895008605852,
+            "median": 15,
+            "min": 9,
+            "n": 581
+          },
+          "gamma_degree": {
+            "max": 581,
+            "mean": 581,
+            "median": 581,
+            "min": 581,
+            "n": 1
+          },
+          "gamma_length": {
+            "max": 13,
+            "mean": 13,
+            "median": 13,
+            "min": 13,
+            "n": 581
+          },
+          "largest_component_pairs": 581,
+          "multi_partner_nodes": {
+            "delta": 0,
+            "gamma": 1
+          },
+          "pairs": 581,
+          "queries": {
+            "delta_to_gamma": 581,
+            "gamma_to_delta": 1
+          },
+          "studies": {
+            "GSE180059": 520,
+            "Suo_2022": 62
+          }
+        },
+        "tuning": {
+          "components": 32,
+          "delta_degree": {
+            "max": 3,
+            "mean": 1.0382165605095541,
+            "median": 1,
+            "min": 1,
+            "n": 157
+          },
+          "delta_length": {
+            "max": 26,
+            "mean": 16.742331288343557,
+            "median": 16,
+            "min": 11,
+            "n": 163
+          },
+          "gamma_degree": {
+            "max": 71,
+            "mean": 4.527777777777778,
+            "median": 1.0,
+            "min": 1,
+            "n": 36
+          },
+          "gamma_length": {
+            "max": 19,
+            "mean": 12.773006134969325,
+            "median": 12,
+            "min": 8,
+            "n": 163
+          },
+          "largest_component_pairs": 110,
+          "multi_partner_nodes": {
+            "delta": 4,
+            "gamma": 11
+          },
+          "pairs": 163,
+          "queries": {
+            "delta_to_gamma": 157,
+            "gamma_to_delta": 36
+          },
+          "studies": {
+            "GSE180059": 152,
+            "Suo_2022": 11
+          }
+        }
+      }
+    }
+  },
+  "provenance_files": {
+    "file_sha256": {
+      "data/processed/heavy_chain.txt": "2b94a7d70c6deb484607af9f9f4d1649d875f680f4516a5e831355ec7e935246",
+      "data/processed/light_chain.txt": "c7a1ceeb939acfbd9bc7c846fcbd81b3c0f646bf459e13c2bb65aa6ef85cd6b7",
+      "data/processed/paired_chain.txt": "c144fd4ad466021d276540eb9210e55e34ad12591e5d50e25d8746950de157b4",
+      "data/provenance/pair_observations.tsv.gz": "e071aa643c5ff2935a49a7c8a8f206bc8ba2938efecf79c130c9c991dc484c17",
+      "data/provenance/sequence_sources.tsv.gz": "33d6c38ac977a45d620c90bf4456855912a4862718da372d7ee138a501d3a1ff",
+      "data/provenance/unique_pairs.tsv.gz": "b9084665c1602824a4b7f026d627b6382045efe463bd4f28555b4ce2308a7d2b",
+      "data/raw/GSE180059/GSM5451968_FT1_TCR_filtered_contig_annotations.csv.gz": "92c3072d53f744de6c44f72d9d5e6cf617165fdab801f997b907a39b55cdf0a4",
+      "data/raw/GSE180059/GSM5451969_FT2_TCR_filtered_contig_annotations.csv.gz": "b400422a68b3c2bfec90a5da12a05c9306d2430d652a6962ef5abf7d519302ac",
+      "data/raw/GSE180059/GSM5451970_PNT1_TCR_filtered_contig_annotations.csv.gz": "7b3efa951c38a92a121e832ced918ddb3a3b42d9398b482fafbcda19318d9bee",
+      "data/raw/GSE180059/GSM5451971_PNT2_TCR_filtered_contig_annotations.csv.gz": "74aee92bb99a52a5b7164f5ab8ce9e8b2b5254b01d561076fb934a488e14f3c5",
+      "data/raw/GSE180059/GSM6470055_FT3_filtered_contig_annotations.csv.gz": "adfe45a8b9c34c17ff193f89194adc329961da144ac67291d27b14ca0b1a1508",
+      "data/raw/GSE180059/GSM6470056_FT6_filtered_contig_annotations.csv.gz": "190061245618543d490a75deb1d620d6d360b136b9915324917ab97eb2772d7a",
+      "data/raw/GSE180059/GSM6470057_FT5_filtered_contig_annotations.csv.gz": "6c67e53c803caf4eec846435a68f3c3333295a0188c7ca3ba771b2fcb6c5c0ab",
+      "data/raw/GSE180059/GSM6470058_FT4_filtered_contig_annotations.csv.gz": "50b2efbc3b6b7a1ba9b5e77e1892a8563fc874307b2c158d1f27210a1b2cf599",
+      "data/raw/GSE180059/GSM6470059_PNT3_filtered_contig_annotations.csv.gz": "d1a462a4bc35ed0d82a7f328ba9935ef05c1f905175e6b2f97e5da8f177eac0a",
+      "data/raw/IEDB/receptor_table_export_1790684212.xlsx": "6576c4da8768a4458d2a34fbbba5114a440f2c05e5fc0ac42fa43615f00dc5c8",
+      "data/raw/TCRdb2.0/PRJNA338592.zip": "476d18fdaa4cbcea16f8fcad77be1d4c6abd1ecb7d54582d94fc82e9a3d7e541",
+      "data/raw/TCRdb2.0/PRJNA393947.zip": "901406ea70c43cbacdc72347997c76d4318d56aa6f36c56678022697ffc34c19",
+      "data/raw/TCRdb2.0/PRJNA397967.zip": "c446cf4a864a273396398b7a06c158266472f4a5bdf3b7fd73dc814ea7708582",
+      "data/raw/TCRdb2.0/PRJNA429026.zip": "6d2c27882cf1ace942aa47d1117a98ee69a500355f74449c4ccaa433e4563302",
+      "data/raw/TCRdb2.0/PRJNA491919.zip": "20b3ee3d61107246556e2701488eddc0c91eb810fb64d4f0ff203dd7688dbf4a",
+      "data/raw/TCRdb2.0/PRJNA495594.zip": "de0d2a181a4c7182b380b0aa8f1079cd1b1e64fc1748a815ac22b1e3f1277ad3",
+      "data/raw/TCRdb2.0/PRJNA592548.zip": "0a3236cf5bea6a65ec5ba137025f4456089a7fff11b71527d9e70c79952bd2b4",
+      "data/raw/TCRdb2.0/PRJNA596380.zip": "c34fca41562ebff93df73395bdfdf30e59483fa95fe7e4f12895048b37c8184b",
+      "data/raw/TCRdb2.0/PRJNA624366.zip": "9bc64ce5d9f48e3d62a2b09fe2a86a5aaad54bf691af7dd3c94c1347a36d9f95",
+      "data/raw/TCRdb2.0/PRJNA625515.zip": "4ef13639caf4d74a75b23dbd38ce6ef0c8072124c79e82cba2ae4de1a1bdad8f",
+      "data/raw/TCRdb2.0/PRJNA631458.zip": "4b8cb2d26f82711e5a31e31a6155843635e0d0ddbc37f38d98a0bc18d84d0f53",
+      "data/raw/TCRdb2.0/PRJNA633174.zip": "bfdd3d5d681bd5360a58fb6f23e123d0767adad42204c32de71464f131e750f2",
+      "data/raw/TCRdb2.0/PRJNA650391.zip": "9a81785e4dc2dd443835482b12aa9f7aa04a77886fcab324a62e12e2baf363b1",
+      "data/raw/TCRdb2.0/PRJNA715076.zip": "068d7e8e8cd910e023e2a56df95fdffb8d45640efaef642c6e3be27a45a073f7",
+      "data/raw/TCRdb2.0/PRJNA746353.zip": "0e24153e34aa4c3791cf55a7872d780ebd4c8664bc3b466b4117d828532645a5",
+      "data/raw/TCRdb2.0/PRJNA770107.zip": "5822a132e5b951198bbb5c6d6d06d7cddddb0b0eba4eff2c31da504c0c9b8546",
+      "data/raw/TCRdb2.0/PRJNA939405.zip": "3c12f78d29de90a84eec51f834f16fd55155d174406374513b2f20ffe8b147be",
+      "data/raw/UcTCRdb/GD_Human_Arruda_2022.csv.gz": "342b8a1302e998ddd0555ed744e91036975fb8599e5169d3f9264fd6e886aecd",
+      "data/raw/UcTCRdb/GD_Human_Beziat_2021.csv.gz": "d4f3be52af1a692345bbd0c51e0833be43539427f7177743ea57e26f7aef4e8a",
+      "data/raw/UcTCRdb/GD_Human_Charlotte_2022.csv.gz": "ebf237654d06a9583554595004700d8e087a8598a198d27c632c756e8120c8a9",
+      "data/raw/UcTCRdb/GD_Human_Chen_2017.csv.gz": "430e49d353c15f6d22e36b4bdf940faccb2f7cf33b7a8b6dfd8ef3d9494dbc1a",
+      "data/raw/UcTCRdb/GD_Human_Crossley_2021.csv.gz": "65967a48d317414f60eb364b3ae986f39d43bf6662dfe8735ac0b0a29f424f68",
+      "data/raw/UcTCRdb/GD_Human_Delmas_2019.csv.gz": "39ea1f59e6c3dc7c98d92b8a8c83a7e0904e330c79f544eaa8c46b6475936ff3",
+      "data/raw/UcTCRdb/GD_Human_Delmonte_2021.csv.gz": "7c3948787daddb05a0f07d6a55c6b811286957f8264c633b13ccdcf401fcfb0a",
+      "data/raw/UcTCRdb/GD_Human_Dewitt_2018.csv.gz": "b71628edf58f5c84adb451c2d44a07f86748a1d82ca73fbf46aba412c3b839e4",
+      "data/raw/UcTCRdb/GD_Human_Gaballa_2019.csv.gz": "83758e634e9c2e19769491c15c604a548f7b535a33f47c317916ee049ce230a6",
+      "data/raw/UcTCRdb/GD_Human_Harden_2015.csv.gz": "ef758233fe0a298fa9c5180c9c59c9c016c94498a0fbe01f1badf3b32d90378a",
+      "data/raw/UcTCRdb/GD_Human_Heikkil_2020.csv.gz": "f2285b8343f72641eeefd91bd1ad4205ce5ec5e8cd0e459bb21b537f5ef2e606",
+      "data/raw/UcTCRdb/GD_Human_Heikkil_2021.csv.gz": "49ff556e2e89c54da5df6d5888877944549102f1207acabe315bb818810d57e5",
+      "data/raw/UcTCRdb/GD_Human_Kanakry_2016.csv.gz": "57a8aa9b62a557aa5437ce241df9b314ad5f803d65e36c8def86b251b4151c25",
+      "data/raw/UcTCRdb/GD_Human_Ogongo_2019.csv.gz": "045d74bc21b22e7c024274c1ddfb98d47a73d47cac807a251544fd96ba8cc93c",
+      "data/raw/UcTCRdb/GD_Human_Song_2017.csv.gz": "30352b826895bc2f0d35cd86dbba8edf356e9fbb841effee27eb608ee2a588cf",
+      "data/raw/UcTCRdb/GD_Human_Suo_2022.csv.gz": "58a436c75e516f5c09869d4211c18ccad233981e152569f1f77d4cdb3b8e93dd"
+    },
+    "files_verified": 49,
+    "manifest_sha256": "24f477e05a26314716b94c0171a99edd66d9c38dd07053bac301f692810a92b5"
+  },
+  "schema_version": 2
+}
