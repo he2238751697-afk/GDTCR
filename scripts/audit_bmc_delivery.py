@@ -38,6 +38,21 @@ def main():
     for block,name in zip(blocks,('data_table.tex','primary_table.tex','paired_primary_table.tex')):
         old=(Path('paper/results/v2/tables')/name).read_text()
         oldrows=old.split(r'\midrule')[1].split(r'\bottomrule')[0].split(r'\\')
+        if name=='paired_primary_table.tex':
+            panels=re.findall(r'\\midrule(.*?)\\bottomrule',block,re.S)
+            check('paired table has two readable panels',len(panels)==2,'main Table 3')
+            decoded=[]
+            for panel in panels:
+                panel=re.sub(r'\\shortstack\[l\]\{([^{}]*(?:\{\}[^{}]*)*)\}',lambda m:m[1].replace(r'\\',' ').replace('{}',''),panel,flags=re.S)
+                decoded.append([re.sub(r'^\[3pt\]','',r.strip()).split('&')
+                                for r in panel.split(r'\\') if re.sub(r'^\[3pt\]','',r.strip())])
+            for i,row in enumerate(r for r in oldrows if r.strip()):
+                cells=row.strip().split('&')
+                for section,indices in enumerate(((0,1,2,3),(0,4,5))):
+                    check(f'paired table row {i+1} panel {section+1} unchanged',
+                          [compact(cells[k]) for k in indices]==[compact(v) for v in decoded[section][i]],
+                          'frozen evidence-generated paired table; only presentation changed')
+            continue
         newrows=block.split(r'\midrule')[1].split(r'\bottomrule')[0].split(r'\\')
         norm=lambda s:compact(re.sub(r'(?<=\d),(?=\d{3}(?:\D|$))','',s))
         for i,row in enumerate(oldrows):
@@ -64,7 +79,17 @@ def main():
     check('no forced source page breaks',not re.search(r'\\(?:newpage|clearpage|pagebreak)\b',text),'editable source')
     check('no thousands separators in numeric manuscript text',not re.search(r'\d,\d{3}(?:\D|$)',text),'editable source')
     check('no unfinished scientific-result marker',not any(x in text for x in ('fits and their fixed-setting evaluations are in progress','unobserved outcomes','TODO')),'main text')
-    check('author facts remain pending',text.count('Pending author confirmation.')>=4 and 'not yet\nbeen established' in text,'user-confirmed pending declarations')
+    check('verified author names and affiliation',
+          all(v in text for v in ('Zihan He', 'Jia Meng', 'Academy of Life and Natural Sciences',
+                                  "Xi'an Jiaotong-Liverpool University")),
+          'author information supplied by the user on 2026-10-09')
+    check('unconfirmed declarations remain explicit',text.count('Pending author confirmation.')>=4,
+          'author review and declarations deferred by the user')
+    check('public release identified without an invented DOI or license',
+          all(v in text for v in ('https://github.com/he2238751697-afk/GDTCR',
+                                  'fcf153c76d8eeac358d1a26da3df470eb4118992',
+                                  'no archive DOI has been issued', 'licenses remain unselected')),
+          'verified GitHub reproducibility-v1 release and user-confirmed pending Zenodo/licensing')
 
     # Aggregate NLL and recovery values are computed from the frozen runs.
     for condition in ('paired','constant','random','shuffled'):
@@ -74,6 +99,28 @@ def main():
         vals=[100*v for v in e.split_means('paired','free','equal_direction_macro',metric)]
         # Table values place \pm in its own math span; strip dollar signs.
         present('primary conditional mean/SD '+metric,f'{statistics.mean(vals):.2f} \\pm {statistics.stdev(vals):.2f}',text.replace('$',''))
+
+    # Reverse the saved prior-minus-conditional contrast, swapping interval ends.
+    primary_contrasts=[]
+    for row in csv.DictReader(open('paper/results/v2/tables/paired_endpoints.tsv'),delimiter='\t'):
+        if (row['mode']=='free' and row['direction']=='equal_direction_macro'
+            and row['protocol'] in {f'split_seed{s}' for s in SPLITS}
+            and row['comparison'].endswith('/constant/versus_primary')
+            and row['metric']=='64/allow_training_targets|likelihood|hit_at_5'):
+            estimate,lower,upper=(-100*float(row[k]) if float(row[k]) else 0.0
+                                  for k in ('estimate','upper','lower'))
+            primary_contrasts.append((estimate,lower,upper))
+            check('primary Hit@5 interval includes zero '+row['comparison']+'/'+row['seed_index'],
+                  lower<=0<=upper,'saved paired component-bootstrap contrast')
+            if estimate:
+                present('primary Hit@5 paired interval '+row['comparison'],
+                        f'[{lower:.2f},{upper:.2f}]')
+    check('six saved primary conditional/prior Hit@5 contrasts',len(primary_contrasts)==6,
+          'paired_endpoints.tsv')
+    check('four zero-event primary contrasts',
+          sum(all(v==0 for v in item) for item in primary_contrasts)==4,'paired_endpoints.tsv')
+    present('primary average Hit@5 difference',
+            f'{statistics.mean(v[0] for v in primary_contrasts):.2f} percentage points')
 
     # New test counts and selected MRR must appear in the stated diagnostic.
     for protocol in ('unseen_gamma_repaired','giant_edge_holdout'):
@@ -148,7 +195,9 @@ def main():
        'primary_evidence_sha256':sha('artifacts/completion_v2/final_evidence/evidence.json'),
        'revision_evidence_sha256':sha('paper/results/bmc/revision_summary.json'),
        'scope':'Deterministic source/figure/reference/table checks and key numerical excerpts; sentence interpretation is documented separately',
-       'native_compilation_verified':False,'author_items_pending':True,'records':checks}
+       'native_compilation_verified':all(load('output/pdf/'+n+'.render.json')['native_compilation_verified']
+                                        for n in ('gdtcr_bmc_revision','additional_file_1_bmc')),
+       'author_items_pending':True,'records':checks}
     Path('paper/results/bmc/numerical_audit.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k!='records'}))
 

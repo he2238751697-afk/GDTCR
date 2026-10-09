@@ -1,0 +1,42 @@
+{
+  "native_compilation_verified": true,
+  "documents": [
+    {
+      "source": "paper/manuscript_bmc.tex",
+      "source_sha256": "37607eaa3bcb5b70fce2a4951d7ed50c21091511062cfeffc35e0b4f4cb9f2ca",
+      "pdf": "output/pdf/gdtcr_bmc_revision.pdf",
+      "pdf_sha256": "70d76293dafc5e2225f421d89776a8a71cebf470a7b081e0bb1609aa8d277f4e",
+      "engine": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+      "native_compilation_verified": true,
+      "passes": 2,
+      "pages": 40,
+      "figure_sha256": {
+        "paper/results/bmc/figures/figure_1_workflow.pdf": "11f20d4da22e0ad83bea237951057f7dc05b70c05c45261a524205f80ce2ba73",
+        "paper/results/bmc/figures/figure_2_data.pdf": "fa2bffc381a4da9ff139049843417fe49b2a767c8a31fa198e5a4777d169ce78",
+        "paper/results/bmc/figures/figure_3_primary.pdf": "a9ab34ab919f1f7d23c003304e5f8c4f1d890bdb7b1738e7af9496703c0c3b9c",
+        "paper/results/bmc/figures/figure_4_retrieval.pdf": "7d11ba5ce5f8e4beb6e00ff51869fcf41f90a8530ec665985e5ecfdb9cc20bd8",
+        "paper/results/bmc/figures/figure_5_efficiency.pdf": "ae0affedd722cf5d52e8dc08d48beeafa0764481ea1f14ab954573fe106fa98a",
+        "paper/results/bmc/figures/figure_6_protocols.pdf": "9839816546317eecd7f6db96360d6a7302221b4f5309862e7bf69d979718d6e2",
+        "paper/results/bmc/figures/figure_7_budget.pdf": "de2bebdc817137562345015eb45d5b099a0c52b2f4ad445cff8f7bc66fe74a84"
+      },
+      "critical_tex_diagnostics": [],
+      "visual_inspection": "Recorded separately after rendering every page."
+    },
+    {
+      "source": "paper/supplementary_methods_bmc.tex",
+      "source_sha256": "9ebbd49c17e6771df40c65e1db31d8ed902ed942840c3590ba056b4e64115bc1",
+      "pdf": "output/pdf/additional_file_1_bmc.pdf",
+      "pdf_sha256": "c590ed019cd5983efde0097ad2a1255f67bed737c1aafe08d4e7cb4015c1f78a",
+      "engine": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+      "native_compilation_verified": true,
+      "passes": 2,
+      "pages": 6,
+      "figure_sha256": {
+        "paper/results/bmc/figures/figure_S1_pretraining.pdf": "f39908a5c458a54ed102edf593f917ac17c2f2134f04e8524068992b12d1bb27",
+        "paper/results/bmc/figures/figure_S2_negative_training.pdf": "3f26d12cd4796db92096d600932676dcc57d0149005df6d67b7afcedb5426ee2"
+      },
+      "critical_tex_diagnostics": [],
+      "visual_inspection": "Recorded separately after rendering every page."
+    }
+  ]
+}

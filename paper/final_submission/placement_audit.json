@@ -1,0 +1,98 @@
+[
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Figure",
+    "label": "fig:workflow",
+    "number": "1",
+    "first_citation_page": 8,
+    "caption_page": 9
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Figure",
+    "label": "fig:data",
+    "number": "2",
+    "first_citation_page": 16,
+    "caption_page": 16
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Figure",
+    "label": "fig:primary",
+    "number": "3",
+    "first_citation_page": 19,
+    "caption_page": 20
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Figure",
+    "label": "fig:retrieval",
+    "number": "4",
+    "first_citation_page": 21,
+    "caption_page": 23
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Figure",
+    "label": "fig:efficiency",
+    "number": "5",
+    "first_citation_page": 24,
+    "caption_page": 25
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Figure",
+    "label": "fig:protocols",
+    "number": "6",
+    "first_citation_page": 27,
+    "caption_page": 28
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Figure",
+    "label": "fig:budget",
+    "number": "7",
+    "first_citation_page": 30,
+    "caption_page": 32
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Table",
+    "label": "tab:data",
+    "number": "1",
+    "first_citation_page": 15,
+    "caption_page": 15
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Table",
+    "label": "tab:primary",
+    "number": "2",
+    "first_citation_page": 17,
+    "caption_page": 18
+  },
+  {
+    "document": "gdtcr_bmc_revision",
+    "kind": "Table",
+    "label": "tab:paired",
+    "number": "3",
+    "first_citation_page": 17,
+    "caption_page": 21
+  },
+  {
+    "document": "additional_file_1_bmc",
+    "kind": "Figure",
+    "label": "fig:figure_S1_pretraining",
+    "number": "S1",
+    "first_citation_page": 3,
+    "caption_page": 4
+  },
+  {
+    "document": "additional_file_1_bmc",
+    "kind": "Figure",
+    "label": "fig:figure_S2_negative_training",
+    "number": "S2",
+    "first_citation_page": 5,
+    "caption_page": 5
+  }
+]

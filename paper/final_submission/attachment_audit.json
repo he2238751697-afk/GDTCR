@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "all_six_citations_mapped": true,
+  "all_numbered_archives_below_20_million_bytes": true,
+  "records": [
+    {
+      "bytes": 663906,
+      "members": 9,
+      "path": "output/bmc_revision/additional_file_1.zip",
+      "sha256": "67f1b91c8baa735a79eaa3787b44914a954c6ca9bce15b74a647a012f1acee7d",
+      "verified": true,
+      "number": 1,
+      "manuscript_description": "Supplementary methods PDF/TeX and Figures S1/S2",
+      "description_matches_contents": true,
+      "required_members_checked": [
+        "additional_file_1.pdf",
+        "paper/supplementary_methods_bmc.tex",
+        "paper/results/bmc/figures/figure_S1_pretraining.svg",
+        "paper/results/bmc/figures/figure_S2_negative_training.pdf"
+      ],
+      "zip_entries": 10,
+      "payload_members_including_release_readme_excluding_manifest": 9,
+      "pdf_matches_compiled_supplement": true
+    },
+    {
+      "bytes": 74584,
+      "members": 17,
+      "path": "output/bmc_revision/additional_file_2.zip",
+      "sha256": "819ce28a3ad1741d105ad3ae40d41a68902adc31ccd478a3959b8ea65e36238e",
+      "verified": true,
+      "number": 2,
+      "manuscript_description": "Dataset, source, graph, distance and validation audits",
+      "description_matches_contents": true,
+      "required_members_checked": [
+        "tables/dataset_composition.tsv",
+        "tables/distant_edges.tsv",
+        "tables/data_protocols.tsv",
+        "tables/validation_information.tsv",
+        "tables/primary_component_size_strata.tsv",
+        "data/provenance/manifest.json"
+      ],
+      "zip_entries": 18,
+      "payload_members_including_release_readme_excluding_manifest": 17
+    },
+    {
+      "bytes": 282943,
+      "members": 384,
+      "path": "output/bmc_revision/additional_file_3.zip",
+      "sha256": "307f545f6aa82fafac8bacdc020a4d620679910972736159e8d1f218724d1520",
+      "verified": true,
+      "number": 3,
+      "manuscript_description": "Training, seeds, checkpoints, run settings and actual exposure",
+      "description_matches_contents": true,
+      "required_members_checked": [
+        "tables/training.tsv",
+        "tables/pretraining_exposure.tsv",
+        "tables/revision_training.tsv",
+        "paper/MODEL_CARD.md"
+      ],
+      "zip_entries": 385,
+      "payload_members_including_release_readme_excluding_manifest": 384,
+      "run_summary_checksum_metadata_files": 378,
+      "contains_weight_blobs": false
+    },
+    {
+      "bytes": 7357995,
+      "members": 55,
+      "path": "output/bmc_revision/additional_file_4.zip",
+      "sha256": "b99d87d4de3a58ed2ff027eb8df9471a8c688b980d890b4fade0e4c554cdb973",
+      "verified": true,
+      "number": 4,
+      "manuscript_description": "Primary/diagnostic metrics, events, paired contrasts and query outcomes",
+      "description_matches_contents": true,
+      "required_members_checked": [
+        "revision_tables/primary_query_results.tsv",
+        "revision_tables/primary_events.tsv",
+        "revision_tables/revision_query_results.tsv",
+        "revision_tables/revision_paired_contrasts.tsv",
+        "original_tables/paired_endpoints.tsv",
+        "original_tables/retrieval.tsv",
+        "revision_tables/nearest_input_transfer.tsv"
+      ],
+      "zip_entries": 56,
+      "payload_members_including_release_readme_excluding_manifest": 55,
+      "rows": {
+        "revision_tables/primary_query_results.tsv": 34296,
+        "revision_tables/primary_events.tsv": 168,
+        "revision_tables/revision_query_results.tsv": 4016,
+        "revision_tables/revision_paired_contrasts.tsv": 102,
+        "original_tables/paired_endpoints.tsv": 26526,
+        "original_tables/retrieval.tsv": 16140,
+        "revision_tables/nearest_input_transfer.tsv": 346
+      },
+      "compact_nearest_input_queries_verified": 6980
+    },
+    {
+      "bytes": 8187860,
+      "members": 110,
+      "path": "output/bmc_revision/additional_file_5.zip",
+      "sha256": "1c012606c9ca0b56c6c6c0b7302f906904524e41cb094ecb715a48e1f7ac14ca",
+      "verified": true,
+      "number": 5,
+      "manuscript_description": "Frozen splits, truth-containing candidate pools and free-draw hashes",
+      "description_matches_contents": true,
+      "required_members_checked": [
+        "FREE_CANDIDATE_HASHES.json",
+        "artifacts/completion_v2/pool_audit.json",
+        "artifacts/completion_v2/pools/manifest.json"
+      ],
+      "zip_entries": 111,
+      "payload_members_including_release_readme_excluding_manifest": 110,
+      "split_files": 70,
+      "pool_files": 37,
+      "free_draw_hashes": 690
+    },
+    {
+      "bytes": 3749007,
+      "members": 552,
+      "path": "output/bmc_revision/additional_file_6.zip",
+      "sha256": "264ee0f530596a70147b2af06a6620bb96fec38b4149662101736811d38f8ccb",
+      "verified": true,
+      "number": 6,
+      "manuscript_description": "Current code/configs, frozen source objects, environment, task records and audits",
+      "description_matches_contents": true,
+      "required_members_checked": [
+        "SNAPSHOT_INDEX.json",
+        "materialize_snapshots.py",
+        "current_source/reproducibility/tasks.json",
+        "current_source/reproducibility/frozen_source.zip",
+        "current_source/scripts/reproduce.py",
+        "paper/final_submission/native_compile.json",
+        "paper/final_submission/visual_audit.json"
+      ],
+      "zip_entries": 553,
+      "payload_members_including_release_readme_excluding_manifest": 552,
+      "restored_local_snapshots": 25,
+      "restored_local_files": 2456,
+      "embedded_public_source_archive": {
+        "snapshots": 27,
+        "distinct_objects": 271,
+        "restored_files": 2768
+      }
+    }
+  ],
+  "separate_journal_figures": {
+    "bytes": 3336486,
+    "members": 27,
+    "path": "output/bmc_revision/journal_figure_assets.zip",
+    "sha256": "6e14ff233f50ad880ed7ce48f2766640b30c63fcaa6a6e22e508eee2d18bacdd"
+  },
+  "editable_source": {
+    "bytes": 3762320,
+    "path": "output/bmc_revision/gdtcr_bmc_editable_source.zip",
+    "sha256": "0dfc0738cc0c544ae75ac5c9b955963ec6b3f4da747573afa1be88934f99b7d8",
+    "verified": true
+  },
+  "author_review_complete": false,
+  "persistent_archive_doi": null
+}

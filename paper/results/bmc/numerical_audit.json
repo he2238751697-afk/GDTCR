@@ -1,12 +1,12 @@
 {
   "passed": true,
-  "checks": 418,
+  "checks": 437,
   "source": "paper/manuscript_bmc.tex",
-  "source_sha256": "2d9d2661241d0f3a75eeace8647c9121a3ec38026f92bd54d572d2f10feb7f99",
+  "source_sha256": "37607eaa3bcb5b70fce2a4951d7ed50c21091511062cfeffc35e0b4f4cb9f2ca",
   "primary_evidence_sha256": "5badb3b9b8ead02c57afeb5f578f85f3a5e343bad9714fb7daa08f48342b2f3b",
   "revision_evidence_sha256": "d19a7f3a517058dc230e73b6b10c2bbc19cfdd83c9b0a9a407945804a277ef70",
   "scope": "Deterministic source/figure/reference/table checks and key numerical excerpts; sentence interpretation is documented separately",
-  "native_compilation_verified": false,
+  "native_compilation_verified": true,
   "author_items_pending": true,
   "records": [
     {
@@ -120,49 +120,74 @@
       "source": "evidence-generated primary table"
     },
     {
-      "check": "paired_primary_table.tex row 1 unchanged",
+      "check": "paired table has two readable panels",
       "passed": true,
-      "source": "evidence-generated primary table"
+      "source": "main Table 3"
     },
     {
-      "check": "paired_primary_table.tex row 2 unchanged",
+      "check": "paired table row 1 panel 1 unchanged",
       "passed": true,
-      "source": "evidence-generated primary table"
+      "source": "frozen evidence-generated paired table; only presentation changed"
     },
     {
-      "check": "paired_primary_table.tex row 3 unchanged",
+      "check": "paired table row 1 panel 2 unchanged",
       "passed": true,
-      "source": "evidence-generated primary table"
+      "source": "frozen evidence-generated paired table; only presentation changed"
     },
     {
-      "check": "paired_primary_table.tex row 4 unchanged",
+      "check": "paired table row 2 panel 1 unchanged",
       "passed": true,
-      "source": "evidence-generated primary table"
+      "source": "frozen evidence-generated paired table; only presentation changed"
     },
     {
-      "check": "paired_primary_table.tex row 5 unchanged",
+      "check": "paired table row 2 panel 2 unchanged",
       "passed": true,
-      "source": "evidence-generated primary table"
+      "source": "frozen evidence-generated paired table; only presentation changed"
     },
     {
-      "check": "paired_primary_table.tex row 6 unchanged",
+      "check": "paired table row 3 panel 1 unchanged",
       "passed": true,
-      "source": "evidence-generated primary table"
+      "source": "frozen evidence-generated paired table; only presentation changed"
+    },
+    {
+      "check": "paired table row 3 panel 2 unchanged",
+      "passed": true,
+      "source": "frozen evidence-generated paired table; only presentation changed"
+    },
+    {
+      "check": "paired table row 4 panel 1 unchanged",
+      "passed": true,
+      "source": "frozen evidence-generated paired table; only presentation changed"
+    },
+    {
+      "check": "paired table row 4 panel 2 unchanged",
+      "passed": true,
+      "source": "frozen evidence-generated paired table; only presentation changed"
+    },
+    {
+      "check": "paired table row 5 panel 1 unchanged",
+      "passed": true,
+      "source": "frozen evidence-generated paired table; only presentation changed"
+    },
+    {
+      "check": "paired table row 5 panel 2 unchanged",
+      "passed": true,
+      "source": "frozen evidence-generated paired table; only presentation changed"
+    },
+    {
+      "check": "paired table row 6 panel 1 unchanged",
+      "passed": true,
+      "source": "frozen evidence-generated paired table; only presentation changed"
+    },
+    {
+      "check": "paired table row 6 panel 2 unchanged",
+      "passed": true,
+      "source": "frozen evidence-generated paired table; only presentation changed"
     },
     {
       "check": "seven main figures",
       "passed": true,
       "source": "figure manifest"
-    },
-    {
-      "check": "resolved reference fig:workflow",
-      "passed": true,
-      "source": "manuscript TeX"
-    },
-    {
-      "check": "resolved reference fig:data",
-      "passed": true,
-      "source": "manuscript TeX"
     },
     {
       "check": "resolved reference fig:workflow",
@@ -181,6 +206,11 @@
     },
     {
       "check": "resolved reference tab:primary",
+      "passed": true,
+      "source": "manuscript TeX"
+    },
+    {
+      "check": "resolved reference tab:paired",
       "passed": true,
       "source": "manuscript TeX"
     },
@@ -490,9 +520,19 @@
       "source": "main text"
     },
     {
-      "check": "author facts remain pending",
+      "check": "verified author names and affiliation",
       "passed": true,
-      "source": "user-confirmed pending declarations"
+      "source": "author information supplied by the user on 2026-10-09"
+    },
+    {
+      "check": "unconfirmed declarations remain explicit",
+      "passed": true,
+      "source": "author review and declarations deferred by the user"
+    },
+    {
+      "check": "public release identified without an invented DOI or license",
+      "passed": true,
+      "source": "verified GitHub reproducibility-v1 release and user-confirmed pending Zenodo/licensing"
     },
     {
       "check": "primary NLL mean/SD paired",
@@ -533,6 +573,61 @@
       "check": "primary conditional mean/SD fused|hit_at_5",
       "passed": true,
       "source": "frozen evidence; expected 0.03 \\pm 0.03"
+    },
+    {
+      "check": "primary Hit@5 interval includes zero split_seed17/constant/versus_primary/0",
+      "passed": true,
+      "source": "saved paired component-bootstrap contrast"
+    },
+    {
+      "check": "primary Hit@5 paired interval split_seed17/constant/versus_primary",
+      "passed": true,
+      "source": "frozen evidence; expected [0.00,0.27]"
+    },
+    {
+      "check": "primary Hit@5 interval includes zero split_seed17/constant/versus_primary/1",
+      "passed": true,
+      "source": "saved paired component-bootstrap contrast"
+    },
+    {
+      "check": "primary Hit@5 interval includes zero split_seed2026/constant/versus_primary/0",
+      "passed": true,
+      "source": "saved paired component-bootstrap contrast"
+    },
+    {
+      "check": "primary Hit@5 interval includes zero split_seed2026/constant/versus_primary/1",
+      "passed": true,
+      "source": "saved paired component-bootstrap contrast"
+    },
+    {
+      "check": "primary Hit@5 interval includes zero split_seed3407/constant/versus_primary/0",
+      "passed": true,
+      "source": "saved paired component-bootstrap contrast"
+    },
+    {
+      "check": "primary Hit@5 interval includes zero split_seed3407/constant/versus_primary/1",
+      "passed": true,
+      "source": "saved paired component-bootstrap contrast"
+    },
+    {
+      "check": "primary Hit@5 paired interval split_seed3407/constant/versus_primary",
+      "passed": true,
+      "source": "frozen evidence; expected [0.00,0.17]"
+    },
+    {
+      "check": "six saved primary conditional/prior Hit@5 contrasts",
+      "passed": true,
+      "source": "paired_endpoints.tsv"
+    },
+    {
+      "check": "four zero-event primary contrasts",
+      "passed": true,
+      "source": "paired_endpoints.tsv"
+    },
+    {
+      "check": "primary average Hit@5 difference",
+      "passed": true,
+      "source": "frozen evidence; expected 0.03 percentage points"
     },
     {
       "check": "unseen_gamma_repaired/paired/0/gamma_to_delta likelihood events",

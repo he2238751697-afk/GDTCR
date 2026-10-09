@@ -142,3 +142,28 @@ within-giant test has one original component, so it has no inferential
 component-bootstrap confidence interval. Fixed-pool retrieval and free
 generation are different endpoints. See `paper/BMC_REPRODUCIBILITY.md`,
 `paper/protocol_v2.md`, and `paper/revision_bmc_protocol.md` for scientific detail.
+
+## 7. Compile the author-review documents
+
+The committed sources and figures are sufficient to build both PDFs; model
+training and the local artifact tree are not needed for compilation. Install
+TeX Live with pdflatex and Poppler, then run from the repository root:
+
+    python scripts/build_submission_pdfs.py --copy-reading-copies
+
+Use --pdflatex /absolute/path/to/pdflatex when the engine is outside PATH.
+The script compiles until references stabilize, checks critical TeX diagnostics,
+records the engine and source/figure hashes, and produces PDFs plus logs under
+output/pdf/. The build date is fixed for this 9 October 2026 author-review version.
+PDF byte hashes may differ with another TeX installation; source and scientific
+input hashes remain the appropriate comparison. Both current reading copies
+were natively compiled, and all 46 pages were visually inspected.
+
+The current placement, numerical, visual and attachment audits are under
+paper/final_submission/. Audit scripts that compare historical query outputs
+require the completed artifact tree; they are distinct from the fresh-clone
+verification above. No full GPU rerun is claimed for this presentation revision.
+
+Zenodo preparation is documented in paper/final_submission/zenodo/README.md.
+Authentication, author review, license selection and final declarations remain
+outstanding. No deposit or DOI is created by the local preparation command.

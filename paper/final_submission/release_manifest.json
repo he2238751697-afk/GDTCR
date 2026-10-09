@@ -1,0 +1,69 @@
+{
+  "attachments": [
+    {
+      "bytes": 663906,
+      "members": 9,
+      "path": "output/bmc_revision/additional_file_1.zip",
+      "sha256": "67f1b91c8baa735a79eaa3787b44914a954c6ca9bce15b74a647a012f1acee7d",
+      "verified": true
+    },
+    {
+      "bytes": 74584,
+      "members": 17,
+      "path": "output/bmc_revision/additional_file_2.zip",
+      "sha256": "819ce28a3ad1741d105ad3ae40d41a68902adc31ccd478a3959b8ea65e36238e",
+      "verified": true
+    },
+    {
+      "bytes": 282943,
+      "members": 384,
+      "path": "output/bmc_revision/additional_file_3.zip",
+      "sha256": "307f545f6aa82fafac8bacdc020a4d620679910972736159e8d1f218724d1520",
+      "verified": true
+    },
+    {
+      "bytes": 7357995,
+      "members": 55,
+      "path": "output/bmc_revision/additional_file_4.zip",
+      "sha256": "b99d87d4de3a58ed2ff027eb8df9471a8c688b980d890b4fade0e4c554cdb973",
+      "verified": true
+    },
+    {
+      "bytes": 8187860,
+      "members": 110,
+      "path": "output/bmc_revision/additional_file_5.zip",
+      "sha256": "1c012606c9ca0b56c6c6c0b7302f906904524e41cb094ecb715a48e1f7ac14ca",
+      "verified": true
+    },
+    {
+      "bytes": 3749007,
+      "members": 552,
+      "path": "output/bmc_revision/additional_file_6.zip",
+      "sha256": "264ee0f530596a70147b2af06a6620bb96fec38b4149662101736811d38f8ccb",
+      "verified": true
+    }
+  ],
+  "author_items_pending": true,
+  "author_review_complete": false,
+  "base_release": "reproducibility-v1",
+  "distinct_source_objects": 254,
+  "editable_source": {
+    "bytes": 3762320,
+    "path": "output/bmc_revision/gdtcr_bmc_editable_source.zip",
+    "sha256": "0dfc0738cc0c544ae75ac5c9b955963ec6b3f4da747573afa1be88934f99b7d8",
+    "verified": true
+  },
+  "journal_figures": {
+    "bytes": 3336486,
+    "members": 27,
+    "path": "output/bmc_revision/journal_figure_assets.zip",
+    "sha256": "6e14ff233f50ad880ed7ce48f2766640b30c63fcaa6a6e22e508eee2d18bacdd"
+  },
+  "native_compilation_verified": true,
+  "persistent_archive_doi": null,
+  "repository": "https://github.com/he2238751697-afk/GDTCR",
+  "revision_evidence_sha256": "d19a7f3a517058dc230e73b6b10c2bbc19cfdd83c9b0a9a407945804a277ef70",
+  "scientific_base_public": true,
+  "source_snapshots": 25,
+  "status": "author_review_draft"
+}

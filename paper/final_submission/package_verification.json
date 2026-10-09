@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "archives": [
+    {
+      "path": "output/bmc_revision/additional_file_1.zip",
+      "sha256": "67f1b91c8baa735a79eaa3787b44914a954c6ca9bce15b74a647a012f1acee7d",
+      "members": 9,
+      "verified": true
+    },
+    {
+      "path": "output/bmc_revision/additional_file_2.zip",
+      "sha256": "819ce28a3ad1741d105ad3ae40d41a68902adc31ccd478a3959b8ea65e36238e",
+      "members": 17,
+      "verified": true
+    },
+    {
+      "path": "output/bmc_revision/additional_file_3.zip",
+      "sha256": "307f545f6aa82fafac8bacdc020a4d620679910972736159e8d1f218724d1520",
+      "members": 384,
+      "verified": true
+    },
+    {
+      "path": "output/bmc_revision/additional_file_4.zip",
+      "sha256": "b99d87d4de3a58ed2ff027eb8df9471a8c688b980d890b4fade0e4c554cdb973",
+      "members": 55,
+      "verified": true
+    },
+    {
+      "path": "output/bmc_revision/additional_file_5.zip",
+      "sha256": "1c012606c9ca0b56c6c6c0b7302f906904524e41cb094ecb715a48e1f7ac14ca",
+      "members": 110,
+      "verified": true
+    },
+    {
+      "path": "output/bmc_revision/additional_file_6.zip",
+      "sha256": "264ee0f530596a70147b2af06a6620bb96fec38b4149662101736811d38f8ccb",
+      "members": 552,
+      "verified": true
+    },
+    {
+      "path": "output/bmc_revision/gdtcr_bmc_editable_source.zip",
+      "sha256": "0dfc0738cc0c544ae75ac5c9b955963ec6b3f4da747573afa1be88934f99b7d8",
+      "members": 33,
+      "verified": true
+    },
+    {
+      "path": "output/bmc_revision/journal_figure_assets.zip",
+      "sha256": "6e14ff233f50ad880ed7ce48f2766640b30c63fcaa6a6e22e508eee2d18bacdd",
+      "members": 27,
+      "verified": true
+    }
+  ],
+  "baseline_queries_verified": 6980,
+  "restored_snapshots": 25,
+  "restored_files_verified": 2456,
+  "public_scientific_release_snapshots_verified": {
+    "snapshots": 27,
+    "distinct_objects": 271,
+    "restored_files": 2768
+  },
+  "scientific_base_public": true,
+  "persistent_archive_doi": null,
+  "author_review_complete": false,
+  "author_items_pending": true
+}

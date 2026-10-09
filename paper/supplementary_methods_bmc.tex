@@ -3,12 +3,16 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb,graphicx,booktabs,array}
-\usepackage{hyperref}
+\usepackage{microtype,placeins}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
 \newcommand{\gtd}{\ensuremath{\gamma\!\rightarrow\!\delta}}
 \newcommand{\dtg}{\ensuremath{\delta\!\rightarrow\!\gamma}}
 \title{Additional file 1: supplementary methods and sensitivity analyses}
-\author{GDTCR scientific revision}
-\date{}
+\author{Zihan He and Jia Meng}
+\date{Author-review draft: 9 October 2026}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
 \begin{document}
 \maketitle
 \section{Corruption and reconstruction}
@@ -108,7 +112,7 @@ on fitted models and saved samples, without multiplicity adjustment. A zero-even
 are averaged first and the three split means have a descriptive SD; neither
 fits nor repeated splits are independent biological replicates.
 
-\section{Supplementary sensitivity results}
+\section{Pretraining and negative-sampling sensitivity}
 \subsection{Pretraining mixture and downstream sampling have distinct effects}
 The two-seed downstream NLL means for square-root, raw and balanced pretraining
 are, respectively, 1.256/0.754, 1.255/0.757 and 1.259/0.755 for \gtd{}/\dtg{}
@@ -137,6 +141,14 @@ All these settings retain sparse free-recovery events. Their actual early-stop
 and token exposure records accompany the matched nominal budgets; the comparison
 does not establish a universal benefit from sharing the two directions.
 
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth]{results/bmc/figures/figure_S1_pretraining.pdf}
+\caption{Pretraining mixture sensitivity. Dots retain fitted seeds. Equal sequence draws do not imply equal chain-specific or token exposure. Reconstruction is a single-chain endpoint.}
+\label{fig:figure_S1_pretraining}
+\end{figure}
+\FloatBarrier
+
 \subsection{Changing negative training does not resolve candidate scarcity}
 Random-only and mixed negative training at ratios one, three and five reuse the
 same split-17 generator candidates and retrieval pools
@@ -159,7 +171,15 @@ steps and paired contrasts are retained in the numerical supplement. None of
 these constructed-negative comparisons identifies biological incompatibility.
 
 
-\section{Revision protocol}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth]{results/bmc/figures/figure_S2_negative_training.pdf}
+\caption{Ranker negative-sampling sensitivity. All settings reuse the same saved free candidates and frozen truth-containing retrieval pools. No ranker adds absent candidate sequences.}
+\label{fig:figure_S2_negative_training}
+\end{figure}
+\FloatBarrier
+
+\section{Nearest-input baselines and exposure diagnostics}
 Nearest-input transfer uses the normalized full-CDR3 distance, lexicographic
 input ties and training-degree/lexicographic target ordering. One nearest
 input is primary; five is a fixed sensitivity. At most 64 unique training
@@ -174,7 +194,7 @@ size nor distance rule was selected using test outcomes. Test memberships,
 selection repairs and the giant-component edge reservation are frozen in the
 revision split manifest. These are post-primary revision diagnostics.
 
-\subsection{Preserved original unseen-gamma diagnostic}
+\subsection{Unseen-gamma validation design and historical estimates}
 The original selection partition contained one gamma query with 581 recorded
 partners and no ranking distractors. Its ranker selection MRR was identically
 one. Original conditional likelihood Hit@5 was 9/64 in each seed (14.06\%),
@@ -187,7 +207,7 @@ gamma queries, 275 edges, a largest query with 137 partners and at least 118
 eligible distractors per query. The tuning and calibration roles each contain
 16 disjoint gamma queries and are not used for new tuning in this revision.
 
-\subsection{Interpretation of additional descriptive exports}
+\subsection{Source and component-stratified descriptive analyses}
 Additional file 2 includes primary source and source-distance strata and a
 post-hoc source-balanced description. The latter averages nonempty source
 membership strata equally. Memberships can overlap, and very small source
@@ -204,18 +224,4 @@ paired contrasts. Additional file 3 records actual generator sequences and
 target tokens; ranker encoded-token counts were not logged and are not imputed.
 
 
-\setcounter{figure}{0}
-\renewcommand{\thefigure}{S\arabic{figure}}
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\linewidth]{results/v2/figures/figure_S1_pretraining.pdf}
-\caption{Pretraining mixture sensitivity. Dots retain fitted seeds. Equal sequence draws do not imply equal chain-specific or token exposure. Reconstruction is a single-chain endpoint.}
-\label{fig:figure_S1_pretraining}
-\end{figure}
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\linewidth]{results/v2/figures/figure_S2_negative_training.pdf}
-\caption{Ranker negative-sampling sensitivity. All settings reuse the same saved free candidates and frozen truth-containing retrieval pools. No ranker adds absent candidate sequences.}
-\label{fig:figure_S2_negative_training}
-\end{figure}
 \end{document}

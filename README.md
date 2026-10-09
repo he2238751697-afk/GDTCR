@@ -77,10 +77,19 @@ free partner recovery and no established primary reranking gain. Some exposed
 target and source protocols have higher recovery, substantial prior performance
 and clustered hits. See `paper/manuscript_bmc.tex` and `paper/DATA_CARD.md`.
 
-The provided PDFs are ReportLab reading copies. Native LaTeX compilation has
-not been verified. Author declarations, ethics determinations, funding and a
-persistent archive DOI remain pending; public source availability does not
-resolve those submission items.
+The current author-review PDFs were compiled with native LaTeX and all 40 main
+and 6 supplementary pages were visually inspected. Start with
+[the manuscript PDF](paper/reading_copies/gdtcr_bmc_revision.pdf),
+[supplementary methods](paper/reading_copies/additional_file_1_bmc.pdf), and
+[the final checks and change record](paper/final_submission/README.md).
+The original scientific release remains at the immutable
+[reproducibility-v1 tag](https://github.com/he2238751697-afk/GDTCR/releases/tag/reproducibility-v1).
+
+This version precedes author review and is not approved for journal submission.
+Author declarations, correspondence details, code/weight licenses and a Zenodo
+DOI remain pending, as recorded in [the author checklist](paper/BMC_AUTHOR_ITEMS.md).
+Zenodo was selected, with authentication deferred. The local archive preparation
+does not create a deposit or DOI.
 
 ## Data attribution and licensing
 

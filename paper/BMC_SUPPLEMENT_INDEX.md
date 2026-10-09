@@ -1,9 +1,12 @@
-# BMC revision: local attachment guide
+# BMC author-review attachment guide
 
-These six archives accompany `manuscript_bmc.tex` and the BMC reading PDF.
-They are local release candidates. None has been deposited publicly, assigned
-a DOI or given a new redistribution license. `output/bmc_revision/release_manifest.json`
-records archive sizes and SHA256 hashes; every archive contains a member manifest.
+These six archives accompany `manuscript_bmc.tex` and its native LaTeX PDF.
+They are the author-review attachments prepared on 9 October 2026.
+The underlying scientific code, original input exports and reference results
+are public at https://github.com/he2238751697-afk/GDTCR/releases/tag/reproducibility-v1 .
+The updated attachments have no Zenodo DOI or newly assigned license.
+`output/bmc_revision/release_manifest.json` records archive sizes and SHA256
+hashes; every archive contains a member manifest.
 
 | Attachment | Main contents | Reading rule |
 | --- | --- | --- |
@@ -16,9 +19,12 @@ records archive sizes and SHA256 hashes; every archive contains a member manifes
 
 The separate `gdtcr_bmc_editable_source.zip` includes the main and supplementary
 TeX sources and all figure files. Compile from its `paper/` directory so relative
-figure paths resolve. The built-in standalone compiler returned a platform-directory
-error. The supplied reading PDFs were rendered with ReportLab and inspected;
-they are not proof of successful TeX compilation.
+figure paths resolve, or use `scripts/build_submission_pdfs.py` from a repository
+clone. The current PDFs were compiled with native TeX Live 2026, with logs,
+source/figure hashes and stabilized cross-references recorded in
+`paper/final_submission/native_compile.json`. The earlier ReportLab reading
+copies and failed standalone-compiler records remain in the historical
+`reproducibility-v1` release; they do not describe the current compilation.
 
 ## New numerical tables
 
@@ -64,5 +70,6 @@ resample source queries. Two seeds and three overlapping graph splits are not
 independent biological replicates. New within-giant results have one original
 component and no inferential component interval. New scientific tasks passed
 saved-output/hash/metric/checkpoint audits; this audit did not rerun every GPU
-forward pass. Public code/data accessions and licensing decisions remain on
-the author-owned checklist.
+forward pass. Public code/data access is established; the permanent archive DOI,
+code/weight licenses, unresolved third-party terms and final author declarations
+remain on the author-owned checklist.

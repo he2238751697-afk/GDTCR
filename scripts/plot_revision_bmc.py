@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
 import numpy as np
 from render_results_v2 import Evidence,COLORS,DIRECTIONS,DIRECTION_LABELS,SPLITS,PRIMARY
-from plot_sensitivity_v2 import seed_pair
+from plot_sensitivity_v2 import seed_pair,figure_pretraining,figure_negatives
 
 OUT=Path('paper/results/bmc/figures')
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.titlesize':11,
@@ -33,41 +33,41 @@ def arrow(ax,a,b,style='-'):
     ax.annotate('',xy=b,xytext=a,arrowprops={'arrowstyle':'->','color':'#475966','lw':1.2,'linestyle':style})
 
 def workflow():
-    fig,axes=plt.subplots(2,2,figsize=(12,8.6),layout='constrained')
+    fig,axes=plt.subplots(2,2,figsize=(8.4,8.2),layout='constrained')
     for ax in axes.flat:ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
     a,b,c,d=axes.flat
     for ax,title in zip(axes.flat,['A  Task definition','B  Single-chain denoising pretraining',
                                  'C  Conditional generation and separate ranking','D  Controlled evaluation']):
-        ax.set_title(title,loc='left',weight='bold',pad=12)
-    box(a,.03,.70,.36,.17,'Single gamma (γ) CDR3','#e6f1f5');box(a,.60,.70,.36,.17,'Recorded delta (δ)\npartner CDR3','#fff0e5')
+        ax.set_title(title.replace(' and separate ranking','\nand separate ranking').replace('denoising pretraining','denoising\npretraining'),loc='left',weight='bold',pad=12,fontsize=10)
+    box(a,.03,.70,.36,.17,'Single gamma (γ)\nCDR3','#e6f1f5');box(a,.60,.70,.36,.17,'Recorded delta (δ)\npartner CDR3','#fff0e5')
     arrow(a,(.41,.785),(.58,.785))
-    box(a,.03,.42,.36,.17,'Single delta (δ) CDR3','#fff0e5');box(a,.60,.42,.36,.17,'Recorded gamma (γ)\npartner CDR3','#e6f1f5')
+    box(a,.03,.42,.36,.17,'Single delta (δ)\nCDR3','#fff0e5');box(a,.60,.42,.36,.17,'Recorded gamma (γ)\npartner CDR3','#e6f1f5')
     arrow(a,(.41,.505),(.58,.505))
-    a.text(.5,.23,'Two directions share one generator\nMultiple recorded partners per query are retained',ha='center',va='center')
+    a.text(.5,.23,'Two directions share one generator\nMultiple recorded partners are retained',ha='center',va='center',fontsize=9)
     a.text(.5,.07,'Endpoint: recorded sequence recovery',ha='center',weight='bold',color=COLORS[0])
     box(b,.04,.73,.92,.18,'Unpaired gamma / delta CDR3 sequences\nAll paired-corpus chains excluded','#e8f2e9')
     box(b,.04,.42,.40,.20,'Masking + deletion\n15% / 30%; 80/10/10','#e8f2e9')
     box(b,.58,.42,.38,.20,'Shared Transformer\nreconstruction','#e8f2e9');arrow(b,(.46,.52),(.56,.52));arrow(b,(.50,.71),(.25,.65))
-    b.text(.5,.23,'Teacher-forced token loss and aligned-copy control\nUnique-sequence-disjoint train / validation',ha='center',va='center')
+    b.text(.5,.23,'Teacher-forced loss; aligned-copy control\nUnique-sequence-disjoint train / validation',ha='center',va='center',fontsize=9)
     b.text(.5,.07,'Reconstruction is a separate endpoint',ha='center',weight='bold',color=COLORS[2])
-    box(c,.02,.70,.25,.17,'Input CDR3','#e6f1f5');box(c,.36,.70,.29,.17,'Encoder--decoder','#e6f1f5');box(c,.75,.70,.23,.17,'Candidate\nCDR3s','#fff0e5')
+    box(c,.02,.70,.25,.17,'Input CDR3','#e6f1f5');box(c,.36,.70,.29,.17,'Encoder--\ndecoder','#e6f1f5');box(c,.75,.70,.23,.17,'Candidate\nCDR3s','#fff0e5')
     c.text(.5,.95,'Paired fine-tuning on recorded training edges',ha='center',fontsize=9.8)
     arrow(c,(.28,.785),(.35,.785));arrow(c,(.66,.785),(.74,.785))
-    box(c,.06,.40,.45,.17,'Copied fine-tuned encoder\nseparately optimized','#f1eaf5');box(c,.64,.40,.32,.17,'Pair ranker\ncandidate scores','#f1eaf5')
+    box(c,.06,.40,.45,.17,'Copied fine-tuned\nencoder, separately\noptimized','#f1eaf5',9);box(c,.64,.40,.32,.17,'Pair ranker\ncandidate\nscores','#f1eaf5',9)
     arrow(c,(.49,.68),(.28,.59),'--');arrow(c,(.53,.485),(.62,.485));arrow(c,(.87,.68),(.83,.59))
-    c.text(.5,.29,'Same training edges; original generator stays fixed',ha='center',fontsize=9.8)
-    c.text(.5,.10,'Generator: 7.40M parameters | 4 encoder + 4 decoder layers\nWidth 256 | 8 heads | FFN 1024 | dropout 0.1 | max 64 tokens',ha='center',va='center',fontsize=9.3)
-    box(d,.02,.69,.45,.21,'Free generation\n64 draws; truth not guaranteed\nCoverage + Hit@5','#fff0e5',9.8)
-    box(d,.53,.69,.45,.21,'Fixed-pool retrieval\nRecorded positives injected\nHit@5 + Recall + MRR','#e6f1f5',9.8)
-    box(d,.02,.37,.96,.20,'Primary: whole-component split, both chains unseen\nDiagnostics: unseen / seen inputs, study exposure, giant edges','#f0f1f2',9.6)
+    c.text(.5,.29,'Same training edges\nOriginal generator stays fixed',ha='center',fontsize=9)
+    c.text(.5,.08,'7.40M parameters | 4 encoder + 4 decoder layers\nWidth 256 | 8 heads | FFN 1024\nDropout 0.1 | max 64 tokens',ha='center',va='center',fontsize=9)
+    box(d,.02,.69,.45,.21,'Free generation\n64 draws; no guaranteed\nrecorded partner\nCoverage + Hit@5','#fff0e5',9)
+    box(d,.53,.69,.45,.21,'Fixed-pool retrieval\nRecorded positives\ninjected\nHit@5 + Recall + MRR','#e6f1f5',9)
+    box(d,.02,.37,.96,.20,'Primary: whole-component split\nBoth chains unseen\nDiagnostics: unseen / seen inputs,\nstudy exposure, giant edges','#f0f1f2',9)
     arrow(d,(.245,.67),(.245,.60));arrow(d,(.755,.67),(.755,.60))
-    d.text(.5,.21,'Primary: equal-direction mean query-macro Hit@5 at 64 draws',ha='center',fontsize=9.7,weight='bold')
-    d.text(.5,.07,'Exact-overlap and sequence-distance audits accompany recovery',ha='center',fontsize=9.2)
+    d.text(.5,.21,'Primary: equal-direction query-macro\nHit@5 at 64 draws',ha='center',fontsize=9,weight='bold')
+    d.text(.5,.07,'Exact-overlap and sequence-distance audits\naccompany recovery',ha='center',fontsize=9)
     save(fig,1,'workflow','Overview of the single-CDR3 partner-recovery benchmark and model workflow.',
          'A: each task maps one gamma or delta CDR3 to recorded partner CDR3s. B: denoising pretraining excludes all paired-corpus chains. C: conditional generation and separately trained ranking share training-edge and encoder provenance. The ranker optimizes its copied encoder; the original generator remains fixed. D: free generation and truth-containing retrieval are different endpoints. The primary endpoint is equal-direction mean query-macro Hit@5 at 64 draws under component-disjoint splitting; other exposure protocols are diagnostics.')
 
 def graph(e):
-    fig,ax=plt.subplots(2,2,figsize=(11,7.5),layout='constrained');a,b,c,d=ax.flat
+    fig,ax=plt.subplots(2,2,figsize=(8.4,6.5),layout='constrained');a,b,c,d=ax.flat
     a.set(xlim=(0,1),ylim=(0,1));a.axis('off');a.set_title('A  Whole-component assignment (schematic)',loc='left',weight='bold')
     for x,width,title,color in [(.01,.43,'Training\n7254 edges','#e7f1f5'),(.48,.23,'Validation\n907 edges','#f0edf6'),(.75,.23,'Test\n907 edges','#fff0e5')]:
         box(a,x,.18,width,.66,'',color)
@@ -100,11 +100,13 @@ def graph(e):
          'A: schematic component assignment, with all 5005 edges of the largest component retained in training. Nodes are unique gamma/delta CDR3s and edges are publicly recorded pairs. Primary partitions have no exact chain overlap. B: observed component concentration. C: minimum full-CDR3 Levenshtein distance to the pretraining pool. D: a distant edge requires both chains to be at least three edits from both supervised and pretraining references. The 5/5/3 distant-edge counts are too small for stable inferential transfer claims. This figure describes dataset exposure, not a recovery endpoint.')
 
 def primary(e):
-    fig=plt.figure(figsize=(12,9));gs=fig.add_gridspec(3,3,height_ratios=[1,1,.62],hspace=.73,wspace=.34)
-    fig.text(.5,.96,'Small circles: split means (two seeds each)   Diamonds and bars: mean ± between-split SD',ha='center',fontsize=9)
+    fig=plt.figure(figsize=(8.4,8.6))
+    gs=fig.add_gridspec(4,2,height_ratios=[1,1,1,1.0],hspace=.95,wspace=.4,
+                       top=.90,bottom=.035,left=.09,right=.98)
+    fig.text(.5,.98,'Circles: split means (two seeds each)\nDiamonds / bars: mean ± across-split descriptive SD (not confidence intervals)',ha='center',va='top',fontsize=9)
     for i,direction in enumerate(DIRECTIONS):
         for j,metric in enumerate(('query_mean_nll','coverage','likelihood|hit_at_5')):
-            ax=fig.add_subplot(gs[i,j]);groups=[(m,metric,l) for m,l in [('paired','Conditional'),('constant','Constant'),('random','Random init.'),('shuffled','Shuffled')]]
+            ax=fig.add_subplot(gs[j,i]);groups=[(m,metric,l) for m,l in [('paired','Conditional'),('constant','Constant'),('random','Random init.'),('shuffled','Shuffled')]]
             if j==2:groups=[('paired','likelihood|hit_at_5','Likelihood'),('paired','ranker|hit_at_5','Ranker'),('paired','fused|hit_at_5','Fused')]+groups[1:]
             for x,(model,metric,label) in enumerate(groups):
                 vals=np.array(e.split_means(model,'free',direction,metric))*(1 if j==0 else 100)
@@ -113,23 +115,29 @@ def primary(e):
                 ax.scatter(x+np.array([-.12,0,.12]),vals,color=color,s=17)
                 ax.errorbar(x,vals.mean(),yerr=vals.std(ddof=1),fmt='D',color=color,ms=5,capsize=3)
             ax.set_xticks(range(len(groups)),[g[2] for g in groups],rotation=35,ha='right',fontsize=8)
-            ax.set_title(chr(65+i*3+j)+'  '+DIRECTION_LABELS[direction]+' | '+('NLL' if j==0 else 'Coverage' if j==1 else 'Hit@5'),loc='left')
+            ax.set_title(chr(65+j*2+i)+'  '+DIRECTION_LABELS[direction]+' | '+('NLL' if j==0 else 'Coverage' if j==1 else 'Hit@5'),loc='left')
             ax.set_ylabel('Nats / target token' if j==0 else 'Query-macro (%)');ax.grid(axis='y',alpha=.2)
             if j:ax.set_ylim(bottom=0)
             if i==0 and j==2:ax.set_ylim(0,.12);ax.text(.5,.6,'Zero top-five events\nfor every shown condition',transform=ax.transAxes,ha='center',fontsize=9)
-    ax=fig.add_subplot(gs[2,:]);ax.axis('off')
-    lines=['Conditional event counts (seed 3407 / 3508 within each split; fits are not pooled):',
-           f"{'Direction / endpoint':<29}{'Split 17':<24}{'Split 3407':<24}{'Split 2026':<24}"]
+    ax=fig.add_subplot(gs[3,:]);ax.axis('off')
+    rows=[]
     for direction in DIRECTIONS:
         for metric,label in [('coverage','coverage'),('likelihood|hit_at_5','likelihood H@5'),('ranker|hit_at_5','ranker H@5')]:
             counts=[]
             for split in SPLITS:
                 r=[e.metric(f'split_seed{split}/paired',s,'free',direction,metric) for s in (0,1)]
                 counts.append(' / '.join(f"{x['events']}:{x['denominator']}" for x in r))
-            lines.append(f"{DIRECTION_LABELS[direction]+' '+label:<29}"+''.join(f'{v:<24}' for v in counts))
-    ax.text(0,1,'\n'.join(lines),transform=ax.transAxes,ha='left',va='top',fontfamily='DejaVu Sans Mono',fontsize=8.2,linespacing=1.5)
+            rows.append([DIRECTION_LABELS[direction]+' '+label]+counts)
+    ax.set_title('Conditional events:queries; seed 3407 / 3508 in each cell (fits not pooled)',
+                 fontsize=9,loc='left',pad=7)
+    table=ax.table(cellText=rows,colLabels=['Endpoint','Split 17','Split 3407','Split 2026'],
+                   cellLoc='left',colLoc='left',colWidths=[.31,.23,.23,.23],bbox=[0,-.18,1,1.20])
+    table.auto_set_font_size(False);table.set_fontsize(8.6)
+    for (row,col),cell in table.get_celld().items():
+        cell.set_edgecolor('#dddddd');cell.set_linewidth(.35)
+        if row==0:cell.set_text_props(weight='bold')
     save(fig,3,'primary','Sparse free recorded-partner recovery at 64 draws.',
-         'No recorded positive is injected into free candidates; training targets are allowed. Conditional, constant-source, random-initialization and shuffled-input conditions share the evaluation rule. Points are three split means after averaging two model seeds; diamonds and ranges are their mean and descriptive SD, not subject-level confidence intervals. Likelihood, ranker and fused scores order identical conditional candidates. The graphic gives conditional events:query counts for each fitted model; all conditions are tabulated in Additional file 4. Zero events are retained. A lower NLL does not imply reliable candidate availability or top-five recovery.')
+         'No recorded positive is injected into free candidates; training targets are allowed. Conditional, constant-source, random-initialization and shuffled-input conditions share the evaluation rule. Points are three split means after averaging two model seeds; diamonds and ranges are their mean and across-split descriptive SD, not confidence intervals. Likelihood, ranker and fused scores order identical conditional candidates. The graphic gives conditional events:query counts for each fitted model; all conditions are tabulated in Additional file 4. Zero events are retained. A lower NLL does not imply reliable candidate availability or top-five recovery.')
 
 def retrieval(e):
     methods=[('likelihood','Conditional likelihood'),('prior','Target prior'),('difference','Conditional minus prior'),('shallow','Shallow length / motif'),('input_neighbor','Nearest-input similarity'),('edit_neighbor','Two-chain edit neighbor'),('ranker','Separately trained ranker'),('fused','Fused'),('shuffled','Shuffled-input likelihood'),('random','Seeded random')]
@@ -154,18 +162,18 @@ def retrieval(e):
                 row.append(100*statistics.mean(vals))
             matrix.append(row)
         matrices.append(np.array(matrix))
-    fig,axes=plt.subplots(1,2,figsize=(12,5.4),layout='constrained');vmax=max(m.max() for m in matrices)
+    fig,axes=plt.subplots(2,1,figsize=(8.4,8.0),layout='constrained');vmax=max(m.max() for m in matrices)
     for ax,m,direction,panel in zip(axes,matrices,DIRECTIONS,'AB'):
         im=ax.imshow(m,cmap='Blues',vmin=0,vmax=vmax,aspect='auto');ax.set_xticks(range(5),['Random','Length','Motif','Edit','Full'],rotation=15)
         ax.set_yticks(range(len(methods)),[r[1] for r in methods],fontsize=8.8);ax.set_title(panel+'  '+DIRECTION_LABELS[direction],loc='left',weight='bold')
         for i in range(len(methods)):
             for j in range(5):ax.text(j,i,f'{m[i,j]:.1f}',ha='center',va='center',fontsize=9,color='white' if m[i,j]>vmax*.57 else '#111')
     fig.colorbar(im,ax=axes,label='Query-macro Hit@5 (%)',shrink=.8)
-    save(fig,4,'retrieval','Ranking within truth-containing fixed candidate pools.',
+    save(fig,4,'retrieval','Diagnostic ranking in truth-containing fixed candidate pools.',
          'Fixed pools contain recorded positives by construction. Random, length, motif and edit pools add up to 100 unrecorded distractors; Full uses the complete role-specific target universe. Values average seeds within split and then the three primary splits equally. Deterministic methods have one value per split. Nearest-input similarity scores candidates by target distance to partners of the single nearest training input; direct partner transfer is reported separately. No scorer dominates all pools and directions. These retrieval outcomes cannot be equated with free-generation recovery or biological specificity.')
 
 def efficiency(e):
-    fig,axes=plt.subplots(2,2,figsize=(10,6.8),layout='constrained');x=np.array([725,1814,2249,7254])
+    fig,axes=plt.subplots(2,2,figsize=(8.4,6.3),layout='constrained');x=np.array([725,1814,2249,7254])
     fig.suptitle('Two fitted seeds per setting; shading spans their values (not a confidence interval)',fontsize=10)
     for i,direction in enumerate(DIRECTIONS):
         for j,metric in enumerate(('query_mean_nll','likelihood|hit_at_5')):
@@ -175,17 +183,17 @@ def efficiency(e):
                 v=np.array([seed_pair(e,n,'free',direction,metric,1 if j==0 else 100) for n in names])
                 ax.plot(x,v.mean(1),'o-',color=color,label=model.capitalize());ax.fill_between(x,v.min(1),v.max(1),color=color,alpha=.14)
                 ax.scatter(np.repeat(x,2),v.ravel(),s=12,color=color)
-            ax.set_xscale('log');ax.set_xticks(x,['725','1814','2249\n31.0%','7254\n+ giant'],rotation=20,fontsize=9);ax.minorticks_off()
+            ax.set_xscale('log');ax.set_xticks(x,['725','1814','2249\n31.0%','7254\n+ giant'],rotation=50,ha='right',fontsize=9);ax.minorticks_off()
             ax.set_title(chr(65+i*2+j)+'  '+DIRECTION_LABELS[direction],loc='left');ax.set_xlabel('Actual training edges (log scale)')
             ax.set_ylabel('Nats / target token' if j==0 else 'Likelihood Hit@5 (%)');ax.grid(axis='y',alpha=.2)
             if j:ax.set_ylim(bottom=0)
     axes[0,0].legend(frameon=False,fontsize=9)
-    save(fig,5,'efficiency','Likelihood and recovery across nested complete-component training subsets.',
+    save(fig,5,'efficiency','Training-size and graph-composition sensitivity.',
          'The actual subsets contain 725/1814/2249/7254 edges. The nominal 50% subset contains only 31.0% of training edges. All smaller subsets contain singleton components; the giant component enters only at full data, so composition and size change together. Lines average two model seeds and shading spans their fitted estimates; it is not a confidence interval. Lower NLL does not provide a consistent small-data free-recovery advantage.')
 
 def budget(e):
     evals={r['seed']:r for r in e.raw['evaluations'].values() if r['evaluation_name']=='split_seed17/paired'}
-    fig,axes=plt.subplots(2,3,figsize=(12.5,7.1),layout='constrained')
+    fig,grid=plt.subplots(3,2,figsize=(8.4,8.4),layout='constrained');axes=grid.T
     fig.suptitle('Calibration panels: solid / circles = seed 3407; dashed / crosses = seed 3508',fontsize=9.5)
     for i,direction in enumerate(DIRECTIONS):
         for j,metric in enumerate(('coverage','likelihood|hit_at_5')):
@@ -195,7 +203,7 @@ def budget(e):
                     v=np.array([seed_pair(e,'split_seed17/'+model,'free',direction,metric,100,f'{n}/{policy}') for n in (16,64,256)])
                     ax.plot((16,64,256),v.mean(1),style,marker='o',ms=4,color=COLORS[k],label=('Conditional' if k==0 else 'Constant')+(', allowed' if style=='-' else ', excluded'))
             ax.set_xscale('log',base=4);ax.set_xticks((16,64,256),('16','64','256'));ax.set_xlabel('Nested draw prefix');ax.set_ylabel(('Coverage' if j==0 else 'Likelihood Hit@5')+' (%)');ax.grid(alpha=.2);ax.set_ylim(bottom=0)
-            ax.set_title(chr(65+i*3+j)+'  '+DIRECTION_LABELS[direction],loc='left')
+            ax.set_title(chr(65+j*2+i)+'  '+DIRECTION_LABELS[direction],loc='left')
         ax=axes[i,2]
         for seed,result in sorted(evals.items()):
             s=result['modes']['free']['analyzed']['directions'][direction]
@@ -203,16 +211,16 @@ def budget(e):
                 points=s['acceptance_curves'][method]['points']
                 ax.plot([100*p['accepted_query_fraction'] for p in points],[100*p['recorded_hit_at_5'] for p in points],color=COLORS[k],linestyle='-' if seed==0 else '--',label=method.capitalize() if seed==0 else None)
                 chosen=s['calibrated'][PRIMARY][method];ax.scatter(100*chosen['accepted_query_fraction'],100*chosen['hit_at_5'],color=COLORS[k],marker='o' if seed==0 else 'x',s=26)
-        ax.set(xlim=(-2,102),xlabel='Queries accepted (%)',ylabel='Hit@5 / all queries (%)');ax.set_ylim(bottom=0);ax.grid(alpha=.2);ax.set_title(chr(67+i*3)+'  Exploratory calibration',loc='left')
+        ax.set(xlim=(-2,102),xlabel='Queries accepted (%)',ylabel='Hit@5 / all queries (%)');ax.set_ylim(bottom=0);ax.grid(alpha=.2);ax.set_title(chr(69+i)+'  '+DIRECTION_LABELS[direction]+' calibration',loc='left')
         if i==0:ax.set_ylim(0,.1);ax.text(.5,.5,'Zero top-five events\nat all thresholds',transform=ax.transAxes,ha='center',fontsize=9)
     axes[0,0].legend(frameon=False,fontsize=7.2);axes[1,2].legend(frameon=False,fontsize=8)
     save(fig,7,'budget','Sampling budgets and exploratory calibration.',
-         'The 16/64/256 budgets are prefixes of the same saved draws on split 17. Left and middle panels separate candidate coverage from likelihood Hit@5, with exact training targets allowed (solid) or excluded (dashed); lines average two seeds. Coverage is unchanged by target exclusion in the chain-disjoint primary test. Right panels are exploratory calibration-quantile operating curves; solid/dashed lines identify seeds and markers identify independently calibrated thresholds. All test queries remain in recovery denominators. More draws can increase coverage without improving top-five ordering. No threshold is a validated biological selector.')
+         'The 16/64/256 budgets are prefixes of the same saved draws on split 17. The first two rows separate candidate coverage from likelihood Hit@5, with exact training targets allowed (solid) or excluded (dashed); lines average two seeds. Coverage is unchanged by target exclusion in the chain-disjoint primary test. The last row shows exploratory calibration-quantile operating curves; solid/dashed lines identify seeds and markers identify independently calibrated thresholds. All test queries remain in recovery denominators. More draws can increase coverage without improving top-five ordering. No threshold is a validated biological selector.')
 
 def protocols(e):
     p=Path('paper/results/bmc/revision_summary.json')
     if not p.exists():return
-    rev=json.loads(p.read_text());fig,axes=plt.subplots(1,2,figsize=(12.5,7.6),layout='constrained')
+    rev=json.loads(p.read_text());fig,axes=plt.subplots(2,1,figsize=(8.4,8.0),layout='constrained')
     for ax,direction,panel in zip(axes,DIRECTIONS,'AB'):
         names=['split_seed17','unseen_gamma_repaired' if direction=='gamma_to_delta' else 'unseen_input_delta_to_gamma','seen_input_'+direction,'source_holdout','source_shared','giant_edge_holdout']
         labels=['Primary component-disjoint','Unseen input (repaired γ selection)' if direction=='gamma_to_delta' else 'Unseen input','Seen input / withheld edge','Strict study holdout','Source-shared','Within giant / withheld edge']
@@ -239,9 +247,31 @@ def protocols(e):
     save(fig,6,'protocols','Recovery across distinct exposure populations.',
          'Each point is one model seed at 64 free draws; labels give conditional events/queries in seed order 3407;3508. The first row is the primary split-17 reference; all other rows are diagnostic populations with different training composition. Original unseen-gamma selection used a single query and had degenerate MRR; the plotted revision refits use 31 selection queries, leaving train/test membership unchanged. Unseen-input tasks permit target exposure; seen-input and within-giant tasks retain supervised input exposure, with both endpoints exposed in the latter. Missing shuffled points in original directional tasks mean not evaluated. Strict study holdout excludes held-study chains; source-shared retains common chains. Neither is donor-independent external validation. All within-giant edges arise from one original component; no inferential component interval is asserted.')
 
+def supplementary(e):
+    """Reuse frozen supplementary plot calculations with readable panel placement."""
+    from matplotlib.text import Text
+    class SupplementFigures:
+        def save(self,fig,name,caption):
+            if name=='figure_S1_pretraining':
+                axes=fig.axes
+                grid=fig.add_gridspec(2,2)
+                for ax,spec in zip(axes,(grid[0,:],grid[1,0],grid[1,1])):
+                    ax.set_subplotspec(spec)
+                fig.set_size_inches(8.4,6.7)
+            else:
+                fig.set_size_inches(8.4,6.5)
+            for item in fig.findobj(Text):
+                item.set_fontsize(max(9,item.get_fontsize()))
+            for extension in ('pdf','png','svg'):
+                fig.savefig(OUT/(name+'.'+extension),bbox_inches='tight',facecolor='white')
+            plt.close(fig)
+    sink=SupplementFigures()
+    figure_pretraining(e,sink);figure_negatives(e,sink)
+
 def main():
     e=Evidence(json.load(open('artifacts/completion_v2/final_evidence/evidence.json')))
     workflow();graph(e);primary(e);retrieval(e);efficiency(e);protocols(e);budget(e)
+    supplementary(e)
     Path('paper/results/bmc/figure_manifest.json').write_text(json.dumps(sorted(RECORDS,key=lambda r:r['number']),indent=2)+'\n')
     print('Figures:',[r['number'] for r in RECORDS])
 if __name__=='__main__':main()
