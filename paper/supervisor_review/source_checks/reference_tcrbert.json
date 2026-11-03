@@ -1,0 +1,70 @@
+{
+  "key": "tcrbert",
+  "url": "https://api.crossref.org/works/10.1101%2F2021.11.18.469186",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1101/2021.11.18.469186",
+    "title": [
+      "TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-xbinding analyses"
+    ],
+    "container-title": [],
+    "type": "posted-content",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          20
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": null,
+    "relation": {},
+    "authors": [
+      {
+        "given": "Kevin",
+        "family": "Wu"
+      },
+      {
+        "given": "Kathryn E.",
+        "family": "Yost"
+      },
+      {
+        "given": "Bence",
+        "family": "Daniel"
+      },
+      {
+        "given": "Julia A.",
+        "family": "Belk"
+      },
+      {
+        "given": "Yu",
+        "family": "Xia"
+      },
+      {
+        "given": "Takeshi",
+        "family": "Egawa"
+      },
+      {
+        "given": "Ansuman",
+        "family": "Satpathy"
+      },
+      {
+        "given": "Howard Y.",
+        "family": "Chang"
+      },
+      {
+        "given": "James",
+        "family": "Zou"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/tcrbert_publisher.json",
+  "previous_metadata_sha256": "ae784c9f81dd32bdf226c67404887d1d2c44cfbff6ce451818d6b6850e9af2d5"
+}

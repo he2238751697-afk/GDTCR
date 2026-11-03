@@ -1,0 +1,164 @@
+{
+  "key": "iedb",
+  "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkae1092",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1093/nar/gkae1092",
+    "title": [
+      "The Immune Epitope Database (IEDB): 2024 update"
+    ],
+    "container-title": [
+      "Nucleic Acids Research"
+    ],
+    "type": "journal-article",
+    "volume": "53",
+    "issue": "D1",
+    "page": "D436-D443",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          18
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          6
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          18
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Randi",
+        "family": "Vita"
+      },
+      {
+        "given": "Nina",
+        "family": "Blazeska"
+      },
+      {
+        "given": "Daniel",
+        "family": "Marrama"
+      },
+      {
+        "given": null,
+        "family": null
+      },
+      {
+        "given": "Deborah",
+        "family": "Shackelford"
+      },
+      {
+        "given": "Leora",
+        "family": "Zalman"
+      },
+      {
+        "given": "Gabriele",
+        "family": "Foos"
+      },
+      {
+        "given": "Laura",
+        "family": "Zarebski"
+      },
+      {
+        "given": "Kenneth",
+        "family": "Chan"
+      },
+      {
+        "given": "Brian",
+        "family": "Reardon"
+      },
+      {
+        "given": "Sidne",
+        "family": "Fitzpatrick"
+      },
+      {
+        "given": "Matthew",
+        "family": "Busse"
+      },
+      {
+        "given": "Sara",
+        "family": "Coleman"
+      },
+      {
+        "given": "Caitlin",
+        "family": "Sedwick"
+      },
+      {
+        "given": "Lindy",
+        "family": "Edwards"
+      },
+      {
+        "given": "Catriona",
+        "family": "MacFarlane"
+      },
+      {
+        "given": "Marcus",
+        "family": "Ennis"
+      },
+      {
+        "given": "Sebastian",
+        "family": "Duesing"
+      },
+      {
+        "given": "Jason",
+        "family": "Bennett"
+      },
+      {
+        "given": "Jason",
+        "family": "Greenbaum"
+      },
+      {
+        "given": "Marcus",
+        "family": "De Almeida Mendes"
+      },
+      {
+        "given": "Jarjapu",
+        "family": "Mahita"
+      },
+      {
+        "given": "Daniel K",
+        "family": "Wheeler"
+      },
+      {
+        "given": "Jason R",
+        "family": "Cantrell"
+      },
+      {
+        "given": "James A",
+        "family": "Overton"
+      },
+      {
+        "given": "Darren A",
+        "family": "Natale"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Sette"
+      },
+      {
+        "given": "Bjoern",
+        "family": "Peters"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/iedb_crossref.json",
+  "previous_metadata_sha256": "a942214e3366750897e3c6cb8c42dd38bc72931e2248fbddc3eee48c1c05a568"
+}

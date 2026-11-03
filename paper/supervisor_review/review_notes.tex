@@ -1,0 +1,64 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype,parskip}
+\usepackage[colorlinks=true,allcolors=blue,pdfauthor={}]{hyperref}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\Large\bfseries GDTCR: guide for supervisor review}\\[5pt]
+Scientific draft prepared for discussion before journal submission
+\end{center}
+
+\textbf{Purpose and positioning.}
+The manuscript evaluates recovery of publicly recorded human gamma/delta TCR
+partners from one CDR3. Its contribution is a controlled benchmark separating
+sequence priors, conditional information, free candidate availability,
+ranking and exposure. BMC Bioinformatics is the primary preparation target;
+the accompanying journal comparison assesses two alternatives.
+
+\textbf{Central finding.}
+Across the primary component-disjoint splits, conditional NLL is 1.005 nats
+per target token, compared with 1.013 for the matched prior and 1.115 for
+random initialization. However, primary likelihood Hit@5 at 64 draws is only
+0.03\%. Separate ranking does not show a reproducible primary improvement.
+Higher recovery in exposed-target populations coexists with substantial
+prior performance and concentrated events. Recorded recovery is not evidence
+of receptor function.
+
+\textbf{Reading order.}
+Start with the structured abstract, Figure 1, and Results 3.1--3.3 with
+Tables 1--3. Figures 4--6 then distinguish constructed retrieval from free
+generation and explain graph-composition/exposure sensitivity.
+Discussion 4.1--4.4 states the interpretation and limits.
+Additional file 1 provides full methods, sensitivity analyses and Figures
+S1--S3; Additional files 2--6 retain numerical and reproducibility evidence.
+
+\textbf{Questions for the supervisor.}
+\begin{enumerate}
+\setlength{\itemsep}{2pt}
+\item Is the benchmark question and contribution sufficiently clear for
+BMC Bioinformatics, and is the proposed title appropriate?
+\item Are the controls, uncertainty units and interpretation of sparse hits
+convincing, especially in relation to target priors and sequence neighborhoods?
+\item Are the source concentration, distant-pair scarcity and lack of
+donor-independent validation adequately bounded?
+\item Is further evidence needed before submission, or should the current
+bounded benchmark be submitted first? Would a higher-positioned journal
+justify a separate study extension?
+\end{enumerate}
+
+\textbf{What changed.}
+The draft consolidates the Results into six sections, reorganizes Methods and
+Discussion, and moves sampling/calibration detail to the supplement.
+Scientific data, fitted results, intervals and model settings remain frozen.
+Author details and administrative statements are outside these review PDFs.
+The separate submission checklist records decisions to complete after review.
+
+\textbf{Materials.}
+Main and supplementary PDFs, editable LaTeX, six numbered attachments,
+separate figure assets and a consistency/placement audit accompany the draft.
+The public scientific base is
+\url{https://github.com/he2238751697-afk/GDTCR}.
+\end{document}

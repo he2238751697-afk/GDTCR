@@ -1,0 +1,188 @@
+{
+  "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aef5674",
+  "checked": "2026-11-03",
+  "metadata": {
+    "DOI": "10.1126/sciadv.aef5674",
+    "title": [
+      "General prediction of T cell receptor antigen specificity from sequence using AlphaFold 3"
+    ],
+    "container-title": [
+      "Science Advances"
+    ],
+    "volume": "12",
+    "issue": "44",
+    "page": null,
+    "article-number": "eaef5674",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          30
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          30
+        ]
+      ]
+    },
+    "published-online": null,
+    "type": "journal-article",
+    "abstract": "<jats:p>The major histocompatibility complex (MHC):peptide:T cell receptor (TCR) complex is the most diverse trimolecular interface known in nature and a key trigger for adaptive immunity. TCRs are now routinely sequenced at scale; however, decoding their specificity for antigens remains a bottleneck. While in silico approaches have advanced considerably, none enables prediction against “unseen” epitopes, limiting their applicability to a tiny fraction of cases. Here, we show that AlphaFold 3 (AF3) predicts the structures of MHC:peptide:TCR triads with unprecedented accuracy. By applying AF3 to &gt;9000 TCRs mapped to &gt;1000 distinct epitopes restricted by &gt;70 MHC class I/II alleles, we identify features that distinguish cognate triads from controls. The resulting model achieves median areas under the curve of 0.81 to 0.92 on validation triads unseen by AF3 or during feature selection. Our results reveal that generalized prediction of TCR specificity from sequence is possible, with the potential to greatly accelerate the decoding of immune responses.</jats:p>",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-0713-4167",
+        "authenticated-orcid": true,
+        "given": "Lawson J.",
+        "family": "Woods",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The Translational Genomics Research Institute (TGen), Phoenix, AZ, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brandon",
+        "family": "Neff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Translational Genomics Research Institute (TGen), Phoenix, AZ, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4339-5749",
+        "authenticated-orcid": true,
+        "given": "Kamel",
+        "family": "Lahouel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Translational Genomics Research Institute (TGen), Phoenix, AZ, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antoine",
+        "family": "Goursaud",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Translational Genomics Research Institute (TGen), Phoenix, AZ, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-0120-5054",
+        "authenticated-orcid": true,
+        "given": "Mete",
+        "family": "Mulazimoglu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Translational Genomics Research Institute (TGen), Phoenix, AZ, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-5409-3193",
+        "authenticated-orcid": true,
+        "given": "Kameron",
+        "family": "Bates",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Translational Genomics Research Institute (TGen), Phoenix, AZ, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3277-4804",
+        "authenticated-orcid": true,
+        "given": "Cristian",
+        "family": "Tomasetti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "City of Hope Comprehensive Cancer Center, Duarte, CA, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7587-7470",
+        "authenticated-orcid": true,
+        "given": "John A.",
+        "family": "Altin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Translational Genomics Research Institute (TGen), Flagstaff, AZ, USA."
+          },
+          {
+            "name": "Charles Perkins Centre, The University of Sydney, Camperdown, NSW 2006, Australia."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "resource": {
+      "primary": {
+        "URL": "https://www.science.org/doi/10.1126/sciadv.aef5674"
+      }
+    }
+  }
+}

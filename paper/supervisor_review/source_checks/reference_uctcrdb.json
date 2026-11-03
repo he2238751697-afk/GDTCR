@@ -1,0 +1,56 @@
+{
+  "key": "uctcrdb",
+  "url": "https://api.crossref.org/works/10.3389%2Ffimmu.2023.1158295",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.3389/fimmu.2023.1158295",
+    "title": [
+      "UcTCRdb: An unconventional T cell receptor sequence database with online analysis functions"
+    ],
+    "container-title": [
+      "Frontiers in Immunology"
+    ],
+    "type": "journal-article",
+    "volume": "14",
+    "issue": null,
+    "page": null,
+    "article-number": "1158295",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          13
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          13
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Yunsheng",
+        "family": "Dou"
+      },
+      {
+        "given": "Shiwen",
+        "family": "Shan"
+      },
+      {
+        "given": "Jian",
+        "family": "Zhang"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/fimmu.2023.1158295_epmc.json",
+  "previous_metadata_sha256": "028d6468a3a207c565ce484a689c9d15526f8d525d8e96296d71589a5051ea7b"
+}

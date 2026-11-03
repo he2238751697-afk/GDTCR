@@ -1,0 +1,76 @@
+{
+  "key": "tcrdb2",
+  "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkaf876",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1093/nar/gkaf876",
+    "title": [
+      "TCRdb 2.0: an updated T-cell receptor sequence database"
+    ],
+    "container-title": [
+      "Nucleic Acids Research"
+    ],
+    "type": "journal-article",
+    "volume": "54",
+    "issue": "D1",
+    "page": "D504-D510",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          9
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Tao",
+        "family": "Yue"
+      },
+      {
+        "given": "Si-Yi",
+        "family": "Chen"
+      },
+      {
+        "given": "Wen-Kang",
+        "family": "Shen"
+      },
+      {
+        "given": "Yu",
+        "family": "Liao"
+      },
+      {
+        "given": "Qian",
+        "family": "Lei"
+      },
+      {
+        "given": "An-Yuan",
+        "family": "Guo"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/tcrdb2_crossref.json",
+  "previous_metadata_sha256": "4629228f973f4667dbdf761925d469c112552b3d56db2d278ccf643488a53609"
+}

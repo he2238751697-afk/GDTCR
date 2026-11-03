@@ -1,0 +1,60 @@
+{
+  "key": "landry2025",
+  "url": "https://api.crossref.org/works/10.1093%2Fbioadv%2Fvbaf028",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1093/bioadv/vbaf028",
+    "title": [
+      "Masked language modeling pretraining dynamics for downstream peptide: T-cell receptor binding prediction"
+    ],
+    "container-title": [
+      "Bioinformatics Advances"
+    ],
+    "type": "journal-article",
+    "volume": "5",
+    "issue": "1",
+    "page": null,
+    "article-number": "vbaf028",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          26
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          26
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          20
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Brock",
+        "family": "Landry"
+      },
+      {
+        "given": "Jian",
+        "family": "Zhang"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/vbaf028_epmc.json",
+  "previous_metadata_sha256": "bb3e71f25be7c8c20b7f9f888f76e9661762b8fac7aa6551b4b5918669010cb7"
+}

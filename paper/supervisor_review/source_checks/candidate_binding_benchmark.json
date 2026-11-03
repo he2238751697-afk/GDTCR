@@ -1,0 +1,109 @@
+{
+  "url": "https://api.crossref.org/works/10.1038%2Fs43588-026-01073-y",
+  "checked": "2026-11-03",
+  "metadata": {
+    "DOI": "10.1038/s43588-026-01073-y",
+    "title": [
+      "Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction"
+    ],
+    "container-title": [
+      "Nature Computational Science"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": null,
+    "author": [
+      {
+        "given": "Xinyuan",
+        "family": "Zhu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-9804-0651",
+        "authenticated-orcid": false,
+        "given": "Jiadong",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yeqing",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuyan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5828-9842",
+        "authenticated-orcid": false,
+        "given": "Fuli",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s43588-026-01073-y"
+      }
+    }
+  }
+}

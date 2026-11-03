@@ -4,6 +4,7 @@
 Does not stage, commit or publish anything. The immutable scientific release
 retains its original manifest; this updates the working branch inventory.
 """
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -24,6 +25,9 @@ def git(*args):
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--manuscript-version',default='bmc-author-review-2026-10-09')
+    args=parser.parse_args()
     if git('ls-files','--others','--exclude-standard','-z'):
         raise ValueError('Stage intended new files before refreshing the release inventory')
     entries={}
@@ -44,7 +48,7 @@ def main():
     result={'schema_version':1,'files':entries,
             'note':'SHA256/size of every tracked working-branch payload file; excludes this inventory. Original scientific inventory remains at reproducibility-v1.',
             'scientific_base_release':'reproducibility-v1',
-            'manuscript_version':'bmc-author-review-2026-10-09'}
+            'manuscript_version':args.manuscript_version}
     (ROOT/INVENTORY).write_text(json.dumps(result,indent=2,sort_keys=True)+'\n')
     print(json.dumps({'files':len(entries),'bytes':sum(r['bytes'] for r in entries.values()),
                       'largest_file_bytes':max(r['bytes'] for r in entries.values()),

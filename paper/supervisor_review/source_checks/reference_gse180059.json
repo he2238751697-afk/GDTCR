@@ -1,0 +1,100 @@
+{
+  "key": "gse180059",
+  "url": "https://api.crossref.org/works/10.1038%2Fs41467-022-33488-2",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1038/s41467-022-33488-2",
+    "title": [
+      "Identification of distinct functional thymic programming of fetal and pediatric human γδ thymocytes via single-cell analysis"
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "type": "journal-article",
+    "volume": "13",
+    "issue": "1",
+    "page": null,
+    "article-number": "5842",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          4
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          4
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Guillem",
+        "family": "Sanchez Sanchez"
+      },
+      {
+        "given": "Maria",
+        "family": "Papadopoulou"
+      },
+      {
+        "given": "Abdulkader",
+        "family": "Azouz"
+      },
+      {
+        "given": "Yohannes",
+        "family": "Tafesse"
+      },
+      {
+        "given": "Archita",
+        "family": "Mishra"
+      },
+      {
+        "given": "Jerry K. Y.",
+        "family": "Chan"
+      },
+      {
+        "given": "Yiping",
+        "family": "Fan"
+      },
+      {
+        "given": "Isoline",
+        "family": "Verdebout"
+      },
+      {
+        "given": "Silvana",
+        "family": "Porco"
+      },
+      {
+        "given": "Frédérick",
+        "family": "Libert"
+      },
+      {
+        "given": "Florent",
+        "family": "Ginhoux"
+      },
+      {
+        "given": "Bart",
+        "family": "Vandekerckhove"
+      },
+      {
+        "given": "Stanislas",
+        "family": "Goriely"
+      },
+      {
+        "given": "David",
+        "family": "Vermijlen"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/gse180059_crossref.json",
+  "previous_metadata_sha256": "88c175e6f81a72ad04c2ea3d87ae7d8a204c6b8af1d8b7e4c904f59b376c0470"
+}

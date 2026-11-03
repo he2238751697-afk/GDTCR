@@ -1,0 +1,60 @@
+{
+  "key": "pr_metrics",
+  "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0118432",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1371/journal.pone.0118432",
+    "title": [
+      "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    ],
+    "container-title": [
+      "PLOS ONE"
+    ],
+    "type": "journal-article",
+    "volume": "10",
+    "issue": "3",
+    "page": "e0118432",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          4
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          4
+        ]
+      ]
+    },
+    "relation": {
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.3410/f.725375858.793530299",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "given": "Takaya",
+        "family": "Saito"
+      },
+      {
+        "given": "Marc",
+        "family": "Rehmsmeier"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/pr_metrics_crossref.json",
+  "previous_metadata_sha256": "821ca3cea23d26405299002f9f93b4177531c7a17a779c99452b256cfd75cac1"
+}

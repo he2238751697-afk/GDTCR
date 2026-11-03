@@ -1,0 +1,68 @@
+{
+  "native_compilation_verified": true,
+  "documents": [
+    {
+      "source": "paper/supervisor_review/manuscript.tex",
+      "source_sha256": "d1b3e0d9d990a6ad5ca717819d84ecfe1fde125bd83cf213d99cbe6bb4583eb8",
+      "pdf": "output/supervisor_review/GDTCR_supervisor_review.pdf",
+      "pdf_sha256": "afed3fc1e4b7d32b686f4f9bf587d1c7cba64d4dc6b84ff2f9bbc7835d58ac8a",
+      "engine": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+      "native_compilation_verified": true,
+      "passes": 2,
+      "pages": 24,
+      "figure_sha256": {
+        "paper/results/bmc/figures/figure_1_workflow.pdf": "11f20d4da22e0ad83bea237951057f7dc05b70c05c45261a524205f80ce2ba73",
+        "paper/results/bmc/figures/figure_2_data.pdf": "fa2bffc381a4da9ff139049843417fe49b2a767c8a31fa198e5a4777d169ce78",
+        "paper/results/bmc/figures/figure_3_primary.pdf": "a9ab34ab919f1f7d23c003304e5f8c4f1d890bdb7b1738e7af9496703c0c3b9c",
+        "paper/results/bmc/figures/figure_4_retrieval.pdf": "7d11ba5ce5f8e4beb6e00ff51869fcf41f90a8530ec665985e5ecfdb9cc20bd8",
+        "paper/results/bmc/figures/figure_5_efficiency.pdf": "ae0affedd722cf5d52e8dc08d48beeafa0764481ea1f14ab954573fe106fa98a",
+        "paper/results/bmc/figures/figure_6_protocols.pdf": "9839816546317eecd7f6db96360d6a7302221b4f5309862e7bf69d979718d6e2"
+      },
+      "critical_tex_diagnostics": [],
+      "visual_inspection": "Recorded separately after rendering every page."
+    },
+    {
+      "source": "paper/supervisor_review/supplementary.tex",
+      "source_sha256": "d070102334556ddc278e44060447743b88583e0be6efdedadc419fc6e35c1581",
+      "pdf": "output/supervisor_review/GDTCR_supplementary.pdf",
+      "pdf_sha256": "4c1530d253e7d417558ee30d0ca2c9be2bde141d183480e1eb5d02b5d01bc162",
+      "engine": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+      "native_compilation_verified": true,
+      "passes": 2,
+      "pages": 14,
+      "figure_sha256": {
+        "paper/results/bmc/figures/figure_S1_pretraining.pdf": "f39908a5c458a54ed102edf593f917ac17c2f2134f04e8524068992b12d1bb27",
+        "paper/results/bmc/figures/figure_S2_negative_training.pdf": "3f26d12cd4796db92096d600932676dcc57d0149005df6d67b7afcedb5426ee2",
+        "paper/results/bmc/figures/figure_7_budget.pdf": "de2bebdc817137562345015eb45d5b099a0c52b2f4ad445cff8f7bc66fe74a84"
+      },
+      "critical_tex_diagnostics": [],
+      "visual_inspection": "Recorded separately after rendering every page."
+    },
+    {
+      "source": "paper/supervisor_review/review_notes.tex",
+      "source_sha256": "1c2057ff769fff5dd48a2c40099f6d82ef9c5673855ffc95217a25a9b7baf4ff",
+      "pdf": "output/supervisor_review/GDTCR_review_notes.pdf",
+      "pdf_sha256": "898e46fe548519da3582eea32cfa0492a1ed0e2bcfec4c94cb7418aaddaffb27",
+      "engine": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+      "native_compilation_verified": true,
+      "passes": 2,
+      "pages": 1,
+      "figure_sha256": {},
+      "critical_tex_diagnostics": [],
+      "visual_inspection": "Recorded separately after rendering every page."
+    },
+    {
+      "source": "paper/supervisor_review/journal_comparison.tex",
+      "source_sha256": "c36283ae83be870f49b7fb55d919e6c70d281903630f503357b92511106d49b6",
+      "pdf": "output/supervisor_review/GDTCR_journal_comparison.pdf",
+      "pdf_sha256": "0fbd45a3e378e0752e04dfe2ba5d66ad66d3c530e9ec5752e6f3d3ed969f7213",
+      "engine": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+      "native_compilation_verified": true,
+      "passes": 2,
+      "pages": 1,
+      "figure_sha256": {},
+      "critical_tex_diagnostics": [],
+      "visual_inspection": "Recorded separately after rendering every page."
+    }
+  ]
+}

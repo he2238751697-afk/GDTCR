@@ -1,0 +1,176 @@
+{
+  "key": "suo2022",
+  "url": "https://api.crossref.org/works/10.1126%2Fscience.abo0510",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1126/science.abo0510",
+    "title": [
+      "Mapping the developing human immune system across organs"
+    ],
+    "container-title": [
+      "Science"
+    ],
+    "type": "journal-article",
+    "volume": "376",
+    "issue": "6597",
+    "page": null,
+    "article-number": "eabo0510",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          3
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          3
+        ]
+      ]
+    },
+    "published-online": null,
+    "relation": {
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.3410/f.742140369.793593868",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.3410/f.742140369.793593909",
+          "asserted-by": "object"
+        }
+      ],
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2022.01.17.476665",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "given": "Chenqu",
+        "family": "Suo"
+      },
+      {
+        "given": "Emma",
+        "family": "Dann"
+      },
+      {
+        "given": "Issac",
+        "family": "Goh"
+      },
+      {
+        "given": "Laura",
+        "family": "Jardine"
+      },
+      {
+        "given": "Vitalii",
+        "family": "Kleshchevnikov"
+      },
+      {
+        "given": "Jong-Eun",
+        "family": "Park"
+      },
+      {
+        "given": "Rachel A.",
+        "family": "Botting"
+      },
+      {
+        "given": "Emily",
+        "family": "Stephenson"
+      },
+      {
+        "given": "Justin",
+        "family": "Engelbert"
+      },
+      {
+        "given": "Zewen Kelvin",
+        "family": "Tuong"
+      },
+      {
+        "given": "Krzysztof",
+        "family": "Polanski"
+      },
+      {
+        "given": "Nadav",
+        "family": "Yayon"
+      },
+      {
+        "given": "Chuan",
+        "family": "Xu"
+      },
+      {
+        "given": "Ondrej",
+        "family": "Suchanek"
+      },
+      {
+        "given": "Rasa",
+        "family": "Elmentaite"
+      },
+      {
+        "given": "Cecilia",
+        "family": "Domínguez Conde"
+      },
+      {
+        "given": "Peng",
+        "family": "He"
+      },
+      {
+        "given": "Sophie",
+        "family": "Pritchard"
+      },
+      {
+        "given": "Mohi",
+        "family": "Miah"
+      },
+      {
+        "given": "Corina",
+        "family": "Moldovan"
+      },
+      {
+        "given": "Alexander S.",
+        "family": "Steemers"
+      },
+      {
+        "given": "Pavel",
+        "family": "Mazin"
+      },
+      {
+        "given": "Martin",
+        "family": "Prete"
+      },
+      {
+        "given": "Dave",
+        "family": "Horsfall"
+      },
+      {
+        "given": "John C.",
+        "family": "Marioni"
+      },
+      {
+        "given": "Menna R.",
+        "family": "Clatworthy"
+      },
+      {
+        "given": "Muzlifah",
+        "family": "Haniffa"
+      },
+      {
+        "given": "Sarah A.",
+        "family": "Teichmann"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/suo2022_crossref.json",
+  "previous_metadata_sha256": "8992acac8731310187ec53150212443c0f2775c16516b0fd41c6f46ec59dbd25"
+}

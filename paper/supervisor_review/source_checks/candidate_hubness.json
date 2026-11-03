@@ -1,0 +1,71 @@
+{
+  "url": "https://api.crossref.org/works/10.64898%2F2026.10.13.758726",
+  "checked": "2026-11-03",
+  "metadata": {
+    "DOI": "10.64898/2026.10.13.758726",
+    "title": [
+      "Hubness and local scaling in paired T cell receptor distance spaces"
+    ],
+    "container-title": [],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": null,
+    "type": "posted-content",
+    "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Nearest-neighbour retrieval in T cell receptor distance spaces is uneven: some receptors enter many neighbour lists while others enter none. We quantified this hubness in paired variable-domain distances and evaluated local scaling as a post-processing correction. Across ITRAP-filtered dextramers, VDJdb and McPAS-TCR, the skewness of the ten-neighbour occurrence count was 1.26 to 1.50. Local scaling reduced it to 0.13 to 0.31.</jats:p>\n                <jats:p>Under a diagnostic restriction requiring different V families on both chains, macro retrieval gain increased by 0.1418 on VDJdb (95% hierarchical bootstrap interval 0.0079 to 0.3016). The same untuned correction gave a gain of 0.1185 on the held-out IMMREP25 corpus (0.0040 to 0.2477). On IMMREP22, mean micro-AUC increased from 0.8091 to 0.8394, with improvement on 14 of 17 epitopes (paired Wilcoxon p = 0.0026). Gains for CDR3 edit distance and SCEPTR had the same direction but were not significant separately.</jats:p>\n                <jats:p>The benefit has narrow boundaries. CDR3 length alone recovered approximately one-third to three-fifths of it. Eight corrections failed to give reproducible gains on deduplicated beta-only receptors in the two principal corpora. Unrestricted retrieval did not yield a gain surviving the declared multiplicity corrections. Directly penalizing neighbour occurrence was harmful, and clustering results depended on partition granularity. Hubness reduction and specificity retrieval are therefore distinct outcomes. These findings support reporting hubness alongside retrieval accuracy and testing local scaling within paired-domain evaluations; they do not establish a universal correction or an absolute benchmark ranking.</jats:p>",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-7266-3252",
+        "authenticated-orcid": false,
+        "given": "Kilian",
+        "family": "Maire",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Immunology and Microbiology, LEO Foundation Skin Immunology Research Center, University of Copenhagen, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4528-3038",
+        "authenticated-orcid": false,
+        "given": "Wenning",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Immunology and Microbiology, LEO Foundation Skin Immunology Research Center, University of Copenhagen, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.10.13.758726"
+      }
+    }
+  }
+}

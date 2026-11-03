@@ -1,0 +1,60 @@
+{
+  "key": "tcrpair",
+  "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtab573",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1093/bioinformatics/btab573",
+    "title": [
+      "TCRpair: prediction of functional pairing between HLA-A*02:01-restricted T-cell receptor α and β chains"
+    ],
+    "container-title": [
+      "Bioinformatics"
+    ],
+    "type": "journal-article",
+    "volume": "37",
+    "issue": "21",
+    "page": "3938-3940",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          5
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          6
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Anja",
+        "family": "Mösch"
+      },
+      {
+        "given": "Dmitrij",
+        "family": "Frishman"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/tcrpair_crossref.json",
+  "previous_metadata_sha256": "7e19840c6e1ece8682d326f32733475ae4d417f7023cbc0727d339ec209a1769"
+}

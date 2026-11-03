@@ -1,0 +1,50 @@
+{
+  "key": "germline_shortcut",
+  "url": "https://api.crossref.org/works/10.64898%2F2026.07.21.739963",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.64898/2026.07.21.739963",
+    "title": [
+      "A germline shortcut in protein language model retrieval of adaptive immune receptors"
+    ],
+    "container-title": [],
+    "type": "posted-content",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          23
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": null,
+    "relation": {},
+    "authors": [
+      {
+        "given": "Suyue",
+        "family": "Wang"
+      },
+      {
+        "given": "Ayan",
+        "family": "Sengupta"
+      },
+      {
+        "given": "Songling",
+        "family": "Li"
+      },
+      {
+        "given": "Daron M",
+        "family": "Standley"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/germline_shortcut_crossref.json",
+  "previous_metadata_sha256": "59a32590a585c32d15d644008a8ee9fdacb31e7bb9b386915c164b70e778eb5b"
+}
