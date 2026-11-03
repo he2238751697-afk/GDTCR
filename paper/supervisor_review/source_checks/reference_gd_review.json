@@ -1,0 +1,54 @@
+{
+  "key": "gd_review",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.cellimm.2015.04.008",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1016/j.cellimm.2015.04.008",
+    "title": [
+      "Human gamma delta T cells: Evolution and ligand recognition"
+    ],
+    "container-title": [
+      "Cellular Immunology"
+    ],
+    "type": "journal-article",
+    "volume": "296",
+    "issue": "1",
+    "page": "31-40",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          7
+        ]
+      ]
+    },
+    "published-online": null,
+    "relation": {},
+    "authors": [
+      {
+        "given": "Erin J.",
+        "family": "Adams"
+      },
+      {
+        "given": "Siyi",
+        "family": "Gu"
+      },
+      {
+        "given": "Adrienne M.",
+        "family": "Luoma"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/gd_review_crossref.json",
+  "previous_metadata_sha256": "954f566d5b8cd3a8d9c0f364fda4d36e1a206c8e8d4b6974b0199e7f2da0d51b"
+}

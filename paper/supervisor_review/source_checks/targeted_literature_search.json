@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-03",
+  "database": "Europe PMC",
+  "searches": [
+    {
+      "query": "(\"gamma delta\" OR \"gamma-delta\" OR \"paired-chain\" OR \"paired chain\") AND (TCR OR \"T cell receptor\") AND FIRST_PDATE:[2026-10-07 TO 2026-11-03]",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22gamma+delta%22+OR+%22gamma-delta%22+OR+%22paired-chain%22+OR+%22paired+chain%22%29+AND+%28TCR+OR+%22T+cell+receptor%22%29+AND+FIRST_PDATE%3A%5B2026-10-07+TO+2026-11-03%5D&format=json&pageSize=100&resultType=core",
+      "checked": "2026-11-03",
+      "retrieved": false,
+      "error": "HTTP Error 503: "
+    },
+    {
+      "query": "(\"T cell receptor\" OR TCR) AND (pairing OR \"partner recovery\" OR \"sequence generation\") AND FIRST_PDATE:[2026-10-07 TO 2026-11-03]",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22T+cell+receptor%22+OR+TCR%29+AND+%28pairing+OR+%22partner+recovery%22+OR+%22sequence+generation%22%29+AND+FIRST_PDATE%3A%5B2026-10-07+TO+2026-11-03%5D&format=json&pageSize=100&resultType=core",
+      "checked": "2026-11-03",
+      "retrieved": false,
+      "error": "HTTP Error 503: "
+    }
+  ],
+  "scope": "Targeted update since the prior 6 October check; not a systematic review."
+}

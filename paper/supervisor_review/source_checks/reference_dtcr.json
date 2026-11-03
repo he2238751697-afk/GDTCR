@@ -1,0 +1,63 @@
+{
+  "key": "dtcr",
+  "url": "https://api.crossref.org/works/10.1093%2Fbib%2Fbbag438",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1093/bib/bbag438",
+    "title": [
+      "DTCR: generating realistic, diverse, and epitope-specific T cell receptor sequences via a discrete diffusion model"
+    ],
+    "container-title": [
+      "Briefings in Bioinformatics"
+    ],
+    "type": "journal-article",
+    "volume": "27",
+    "issue": "4",
+    "page": null,
+    "article-number": "bbag438",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          3
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          27
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Haoyan",
+        "family": "Wang"
+      },
+      {
+        "given": "Tianyi",
+        "family": "Zang"
+      },
+      {
+        "given": "Yadong",
+        "family": "Liu"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/dtcr_crossref.json",
+  "previous_metadata_sha256": "8a36c28fb069fe9caf6033c1bdc595377815396f9657e9d02e822fcd94a78bfd"
+}

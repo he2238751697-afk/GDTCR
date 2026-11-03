@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "archives": [
+    {
+      "path": "output/supervisor_review/package/additional_file_1.zip",
+      "bytes": 1192459,
+      "sha256": "9ddab39e5fd627e5a718f8ec59b11bef5b092e03179b325bbc98a067003ed67c",
+      "members": 14,
+      "description": "Supplementary methods, sensitivity analyses, Table S1 and Figures S1-S3.",
+      "verified": true,
+      "current_sources_checked": 12,
+      "unavailable_source_paths": []
+    },
+    {
+      "path": "output/supervisor_review/package/additional_file_2.zip",
+      "bytes": 76214,
+      "sha256": "2dfbfd4fc93845ecec3deb2146e8bd0c047a232b9b902685347d355a3131676f",
+      "members": 18,
+      "description": "Dataset, provenance, source, graph, component-size and sequence-distance audits.",
+      "verified": true,
+      "current_sources_checked": 17,
+      "unavailable_source_paths": []
+    },
+    {
+      "path": "output/supervisor_review/package/additional_file_3.zip",
+      "bytes": 284573,
+      "sha256": "b798c9d76b802e17891dc8be56cc4efb6c44b3ad923095d80e27a53cf383b898",
+      "members": 385,
+      "description": "Training seeds, model settings, checkpoint provenance and actual exposure.",
+      "verified": true,
+      "current_sources_checked": 384,
+      "unavailable_source_paths": []
+    },
+    {
+      "path": "output/supervisor_review/package/additional_file_4.zip",
+      "bytes": 7359661,
+      "sha256": "9c837b7365b5b401f571b36f46552bafcc28ed647ac66ee50a87ea577efa643f",
+      "members": 56,
+      "description": "Primary and diagnostic query outcomes, events, paired contrasts and sensitivity tables.",
+      "verified": true,
+      "current_sources_checked": 44,
+      "unavailable_source_paths": []
+    },
+    {
+      "path": "output/supervisor_review/package/additional_file_5.zip",
+      "bytes": 8189514,
+      "sha256": "b370d55146bee7968192ef083ef1479b7d7689c8f6fa6442b5742d39fc3083e6",
+      "members": 111,
+      "description": "Split assignments, validation roles, fixed pools and free-candidate hash inventory.",
+      "verified": true,
+      "current_sources_checked": 109,
+      "unavailable_source_paths": []
+    },
+    {
+      "path": "output/supervisor_review/package/additional_file_6.zip",
+      "bytes": 3898652,
+      "sha256": "b9629728f0a1d3b45b553c8c83b9237a5e2827560c4ebfd7ba8f8dd4f81e1b08",
+      "members": 603,
+      "description": "Current source/configurations/environments and unchanged historical execution snapshots.",
+      "verified": true,
+      "current_sources_checked": 599,
+      "unavailable_source_paths": []
+    },
+    {
+      "path": "output/supervisor_review/package/GDTCR_editable_source.zip",
+      "bytes": 3376033,
+      "sha256": "eab2021428686e49940e5652d37ff7e42bb25a29b3339bca5b73c0a9e9dddbf8",
+      "members": 32,
+      "verified": true,
+      "current_sources_checked": 31,
+      "unavailable_source_paths": []
+    },
+    {
+      "path": "output/supervisor_review/package/GDTCR_figure_assets.zip",
+      "bytes": 3338172,
+      "sha256": "18722178b2e0a0a3b0488c42383261564d923a25369a32aba9a46bd6dabd437c",
+      "members": 29,
+      "verified": true,
+      "current_sources_checked": 27,
+      "unavailable_source_paths": []
+    }
+  ],
+  "restored_execution_snapshots": 25,
+  "restored_execution_files": 2456,
+  "public_release_snapshots": {
+    "snapshots": 27,
+    "distinct_objects": 271,
+    "restored_files": 2768
+  },
+  "experiment_execution_performed": false,
+  "persistent_archive_doi": null,
+  "scientific_payload_comparison": [
+    {
+      "additional_file": 2,
+      "unchanged_scientific_members": 16,
+      "all_byte_identical": true
+    },
+    {
+      "additional_file": 3,
+      "unchanged_scientific_members": 383,
+      "all_byte_identical": true
+    },
+    {
+      "additional_file": 4,
+      "unchanged_scientific_members": 52,
+      "all_byte_identical": true
+    },
+    {
+      "additional_file": 5,
+      "unchanged_scientific_members": 109,
+      "all_byte_identical": true
+    },
+    {
+      "additional_file": 6,
+      "unchanged_scientific_members": 282,
+      "all_byte_identical": true
+    }
+  ]
+}

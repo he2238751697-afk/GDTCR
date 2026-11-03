@@ -1,0 +1,100 @@
+{
+  "key": "tcrdesign",
+  "url": "https://api.crossref.org/works/10.1093%2Fbib%2Fbbaf691",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1093/bib/bbaf691",
+    "title": [
+      "TCRdesign: an antigen-specific generative language model for\n                    <i>de novo</i>\n                    design of T-cell receptors"
+    ],
+    "container-title": [
+      "Briefings in Bioinformatics"
+    ],
+    "type": "journal-article",
+    "volume": "26",
+    "issue": "6",
+    "page": null,
+    "article-number": "bbaf691",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          26
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Xiaokun",
+        "family": "Li"
+      },
+      {
+        "given": "Qiang",
+        "family": "Yang"
+      },
+      {
+        "given": "Long",
+        "family": "Xu"
+      },
+      {
+        "given": "Weihe",
+        "family": "Dong"
+      },
+      {
+        "given": "Kuanquan",
+        "family": "Wang"
+      },
+      {
+        "given": "Suyu",
+        "family": "Dong"
+      },
+      {
+        "given": "Wei",
+        "family": "Wang"
+      },
+      {
+        "given": "Gongning",
+        "family": "Luo"
+      },
+      {
+        "given": "Xianyu",
+        "family": "Zhang"
+      },
+      {
+        "given": "Tiansong",
+        "family": "Yang"
+      },
+      {
+        "given": "Xin",
+        "family": "Gao"
+      },
+      {
+        "given": "Guohua",
+        "family": "Wang"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/tcrdesign_crossref.json",
+  "previous_metadata_sha256": "515bd99c852e60348a01b07365293f7790b8d38398afdd327f3061e07cfd814f"
+}

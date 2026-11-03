@@ -1,0 +1,106 @@
+[
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Figure",
+    "label": "fig:workflow",
+    "number": "1",
+    "first_citation_page": 5,
+    "caption_page": 6
+  },
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Figure",
+    "label": "fig:data",
+    "number": "2",
+    "first_citation_page": 9,
+    "caption_page": 10
+  },
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Figure",
+    "label": "fig:primary",
+    "number": "3",
+    "first_citation_page": 12,
+    "caption_page": 13
+  },
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Figure",
+    "label": "fig:retrieval",
+    "number": "4",
+    "first_citation_page": 15,
+    "caption_page": 16
+  },
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Figure",
+    "label": "fig:efficiency",
+    "number": "5",
+    "first_citation_page": 17,
+    "caption_page": 17
+  },
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Figure",
+    "label": "fig:protocols",
+    "number": "6",
+    "first_citation_page": 18,
+    "caption_page": 19
+  },
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Table",
+    "label": "tab:data",
+    "number": "1",
+    "first_citation_page": 9,
+    "caption_page": 9
+  },
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Table",
+    "label": "tab:primary",
+    "number": "2",
+    "first_citation_page": 11,
+    "caption_page": 11
+  },
+  {
+    "document": "GDTCR_supervisor_review",
+    "kind": "Table",
+    "label": "tab:paired",
+    "number": "3",
+    "first_citation_page": 11,
+    "caption_page": 14
+  },
+  {
+    "document": "GDTCR_supplementary",
+    "kind": "Figure",
+    "label": "fig:figure_S1_pretraining",
+    "number": "S1",
+    "first_citation_page": 7,
+    "caption_page": 8
+  },
+  {
+    "document": "GDTCR_supplementary",
+    "kind": "Figure",
+    "label": "fig:figure_S2_negative_training",
+    "number": "S2",
+    "first_citation_page": 9,
+    "caption_page": 9
+  },
+  {
+    "document": "GDTCR_supplementary",
+    "kind": "Figure",
+    "label": "fig:sampling",
+    "number": "S3",
+    "first_citation_page": 12,
+    "caption_page": 14
+  },
+  {
+    "document": "GDTCR_supplementary",
+    "kind": "Table",
+    "label": "tab:controls",
+    "number": "S1",
+    "first_citation_page": 2,
+    "caption_page": 3
+  }
+]

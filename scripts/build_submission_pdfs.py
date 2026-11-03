@@ -16,23 +16,31 @@ DOCUMENTS = (
     ("manuscript_bmc.tex", "gdtcr_bmc_revision"),
     ("supplementary_methods_bmc.tex", "additional_file_1_bmc"),
 )
+SUPERVISOR_DOCUMENTS = (
+    ("supervisor_review/manuscript.tex", "GDTCR_supervisor_review"),
+    ("supervisor_review/supplementary.tex", "GDTCR_supplementary"),
+)
+REVIEW_NOTES = (
+    ("supervisor_review/review_notes.tex", "GDTCR_review_notes"),
+    ("supervisor_review/journal_comparison.tex", "GDTCR_journal_comparison"),
+)
 
 
 def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
-def build(source_name, name, engine, destination):
+def build(source_name, name, engine, destination, epoch="1791504000"):
     source = ROOT / "paper" / source_name
     build_dir = destination / "tex" / name
     build_dir.mkdir(parents=True, exist_ok=True)
     environment = os.environ.copy()
     # Stable PDF metadata dates; scientific data and manuscript dates are fixed.
-    environment["SOURCE_DATE_EPOCH"] = "1791504000"  # 2026-10-09 00:00 UTC
+    environment["SOURCE_DATE_EPOCH"] = epoch
     environment["FORCE_SOURCE_DATE"] = "1"
     command = [
         engine, "-no-shell-escape", "-halt-on-error", "-interaction=nonstopmode",
-        "-file-line-error", "-output-directory=" + str(build_dir), source_name,
+        "-file-line-error", "-output-directory=" + str(build_dir), source.name,
     ]
     previous_aux = None
     passes = 0
@@ -69,7 +77,7 @@ def build(source_name, name, engine, destination):
         raise RuntimeError(f"Broken extracted glyph/reference marker: {source_name}")
     figures = {}
     for relative in re.findall(r"\\includegraphics(?:\[[^\]]*\])?\{([^}]+)\}", source.read_text()):
-        asset = source.parent / relative
+        asset = (source.parent / relative).resolve()
         figures[str(asset.relative_to(ROOT))] = digest(asset)
     result = {
         "source": str(source.relative_to(ROOT)), "source_sha256": digest(source),
@@ -86,21 +94,30 @@ def build(source_name, name, engine, destination):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--profile", choices=("bmc", "supervisor-review"), default="bmc")
+    parser.add_argument("--include-review-notes", action="store_true")
     parser.add_argument("--pdflatex", default=shutil.which("pdflatex"))
-    parser.add_argument("--output", type=Path, default=ROOT / "output/pdf")
+    parser.add_argument("--output", type=Path)
     parser.add_argument("--copy-reading-copies", action="store_true")
     args = parser.parse_args()
     if not args.pdflatex:
         parser.error("Install TeX Live with pdflatex or supply --pdflatex /absolute/path")
-    destination = args.output.resolve()
+    supervisor = args.profile == "supervisor-review"
+    destination = (args.output or ROOT / ("output/supervisor_review" if supervisor else "output/pdf")).resolve()
     destination.mkdir(parents=True, exist_ok=True)
-    records = [build(source, name, args.pdflatex, destination) for source, name in DOCUMENTS]
+    documents = SUPERVISOR_DOCUMENTS if supervisor else DOCUMENTS
+    if args.include_review_notes:
+        if not supervisor:
+            parser.error("--include-review-notes requires --profile supervisor-review")
+        documents += REVIEW_NOTES
+    epoch = "1793664000" if supervisor else "1791504000"
+    records = [build(source, name, args.pdflatex, destination, epoch) for source, name in documents]
     if args.copy_reading_copies:
-        reading = ROOT / "paper/reading_copies"
+        reading = ROOT / ("paper/supervisor_review" if supervisor else "paper/reading_copies")
         reading.mkdir(exist_ok=True)
-        for _, name in DOCUMENTS:
+        for _, name in documents:
             shutil.copyfile(destination / (name + ".pdf"), reading / (name + ".pdf"))
-    report = ROOT / "paper/final_submission/native_compile.json"
+    report = ROOT / ("paper/supervisor_review/native_compile.json" if supervisor else "paper/final_submission/native_compile.json")
     report.parent.mkdir(exist_ok=True)
     report.write_text(json.dumps({"native_compilation_verified": True,
                                  "documents": records}, indent=2) + "\n")

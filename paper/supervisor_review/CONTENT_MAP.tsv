@@ -1,0 +1,19 @@
+original_location	new_location	treatment
+Methods: data assembly	Methods 2.1; Supplement S1	Pretraining pools retained in full
+Methods: exposure protocols	Methods 2.2; Supplement S8	Primary versus exploratory roles retained
+Methods: generator and controls	Methods 2.3; Supplement S2-S3	All optimization and exposure details retained
+Methods: ranker and references	Methods 2.3-2.4; Supplement S4	Secondary status retained
+Methods: free generation and calibration	Methods 2.4; Supplement S5 and S9	Budget and calibration details moved
+Methods: metrics and uncertainty	Methods 2.5; Supplement S6	NLL hierarchy remains in the main text
+Methods: computational provenance	Methods 2.6	Environment retained; author/assistance narrative removed
+Results: dataset and proximity	Results 3.1	Two old subsections combined
+Results: reconstruction and NLL	Results 3.2; Supplement S2	Reconstruction detail retained
+Results: free generation	Results 3.3	All primary comparisons retained
+Results: retrieval	Results 3.4	Direct transfer and similarity ranking remain separate
+Results: training size and negative sensitivity	Results 3.5; Supplement S7	Full negative sensitivity retained
+Results: four exposure diagnostics	Results 3.6; Supplement S8	Full counts and intervals retained
+Results: sampling/calibration	Results 3.3; Supplement S9	Original Figure 7 becomes Figure S3
+Discussion	Discussion 4.1-4.4	Findings, exposure, evaluation design and limitations
+Declarations and author information	Separate existing author checklist	Excluded from both scientific PDFs
+Figures 1-6; Tables 1-3	Main manuscript, same numbering	Original vector assets and all table cells retained
+Figures S1-S2	Supplement, same numbering	Original assets retained

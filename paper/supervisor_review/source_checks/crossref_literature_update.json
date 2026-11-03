@@ -1,0 +1,745 @@
+{
+  "date": "2026-11-03",
+  "database": "Crossref",
+  "searches": [
+    {
+      "query": "gamma delta T cell receptor pairing",
+      "url": "https://api.crossref.org/works?query=gamma+delta+T+cell+receptor+pairing&filter=from-pub-date%3A2026-10-07%2Cuntil-pub-date%3A2026-11-03&rows=20&select=DOI%2Ctitle%2Cpublished%2Ctype%2Ccontainer-title%2Cabstract",
+      "retrieved": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "query": "T cell receptor partner sequence generation",
+      "url": "https://api.crossref.org/works?query=T+cell+receptor+partner+sequence+generation&filter=from-pub-date%3A2026-10-07%2Cuntil-pub-date%3A2026-11-03&rows=20&select=DOI%2Ctitle%2Cpublished%2Ctype%2Ccontainer-title%2Cabstract",
+      "retrieved": true,
+      "total_results": 15197,
+      "results": [
+        {
+          "DOI": "10.7554/elife.107627.3.sa0",
+          "title": [
+            "eLife Assessment: Synthetic auxotrophy reveals metabolic regulation of plasma cell generation, affinity maturation, and cytokine receptor signaling"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                29
+              ]
+            ]
+          },
+          "type": "peer-review"
+        },
+        {
+          "DOI": "10.7554/elife.107627.3.sa2",
+          "title": [
+            "Reviewer #3 (Public review): Synthetic auxotrophy reveals metabolic regulation of plasma cell generation, affinity maturation, and cytokine receptor signaling"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                29
+              ]
+            ]
+          },
+          "type": "peer-review"
+        },
+        {
+          "DOI": "10.7554/elife.107627.3.sa1",
+          "title": [
+            "Reviewer #2 (Public review): Synthetic auxotrophy reveals metabolic regulation of plasma cell generation, affinity maturation, and cytokine receptor signaling"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                29
+              ]
+            ]
+          },
+          "type": "peer-review"
+        },
+        {
+          "DOI": "10.1007/978-1-0716-5619-8_39",
+          "title": [
+            "Generation of Murine Chimeric Antigen Receptor T Cells for Adoptive T Cell Therapy for Melanoma"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                25
+              ]
+            ]
+          },
+          "type": "book-chapter",
+          "container-title": [
+            "Methods in Molecular Biology",
+            "Melanoma"
+          ]
+        },
+        {
+          "DOI": "10.1126/sciadv.aef5674",
+          "title": [
+            "General prediction of T cell receptor antigen specificity from sequence using AlphaFold 3"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                30
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Science Advances"
+          ],
+          "abstract": "<jats:p>The major histocompatibility complex (MHC):peptide:T cell receptor (TCR) complex is the most diverse trimolecular interface known in nature and a key trigger for adaptive immunity. TCRs are now routinely sequenced at scale; however, decoding their specificity for antigens remains a bottleneck. While in silico approaches have advanced considerably, none enables prediction against \u201cunseen\u201d epitopes, limiting their applicability to a tiny fraction of cases. Here, we show that AlphaFold 3 (AF3) predicts the structures of MHC:peptide:TCR triads with unprecedented accuracy. By applying AF3 to &gt;9000 TCRs mapped to &gt;1000 distinct epitopes restricted by &gt;70 MHC class I/II alleles, we identify features that distinguish cognate triads from controls. The resulting model achieves median areas under the curve of 0.81 to 0.92 on validation triads unseen by AF3 or during feature selection. Our results reveal that generalized prediction of TCR specificity from sequence is possible, with the potential to greatly accelerate the decoding of immune responses.</jats:p>"
+        },
+        {
+          "DOI": "10.64898/2026.10.15.759394",
+          "title": [
+            "RiboCouple links RNA backbone generation to sequence design through a learned interaction topology"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                18
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Designing RNAs with prescribed structures is central to RNA engineering. Backbone-first approaches generate geometry before sequence assignment, yet how to transfer relational information to sequence design remains unclear. We introduce RiboCouple, which infers a probabilistic residue-pair state from backbone geometry, recycles pair probabilities through a second pass and transfers them to sequence decoding as soft attention biases. On 550 generated backbones, pair-type decoding achieved joint refolding validity of 45.1% versus 33.5% for a matched topology-free decoder. In another 110-backbone cohort, replacing aligned pair states with statistics-matched donor states reduced validity from 46.4% to 21.4%, demonstrating that decoding depends on backbone-aligned relational information. Before external refolding, pair-confidence ranking enriched validity to 59.6% in the top 248 and transferred to other generators; on a 94-chain temporally held-out native-backbone benchmark, pair-coupled decoding improved secondary-structure agreement. These findings establish backbone-inferred interaction topology as an intermediate representation connecting backbone generation, sequence decoding, and candidate prioritization.</jats:p>"
+        },
+        {
+          "DOI": "10.55041/ijcope.v2i10.102",
+          "title": [
+            "Lead Generation, Qualification and Client Relationship-Building in Real Estate Channel-Partner Sales."
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                17
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "International Journal of Creative and Open Research in Engineering and Management"
+          ],
+          "abstract": "<jats:p>Indian real estate relies heavily on channel partners, independent firms authorised by developers, to turn broad, low-intent enquiries into qualified buyers and, ultimately, site visits. Using primary field data gathered during a three-month engagement with AV Assets, a Pune-based channel partner working with Kolte-Patil Developers Ltd (The Reserve, Sinhgad Road) and Rohan Builders (Nitara, Mahalunge NX), this paper examines how leads are generated and qualified, how client relationships are built across the calling-to-site-visit cycle, and what this means for a buyer\u2019s willingness to engage further. A descriptive, field-based design was adopted, centred on a structured, BANT-based (Budget, Authority, Need, Timeline) qualification questionnaire applied to an estimated population of 1,000 prospective buyers. Of these, 120 (12.0 per cent) qualified as genuine prospects, and 20 of them (16.7 per cent of qualified prospects) progressed to a scheduled site visit. A closely tracked sub-record shows that concentrating calls on one well-matched project raised efficiency from about 0.24 to 3.03 site visits per 1,000 calls, a roughly twelve-fold gain with no increase in daily call volume. The findings suggest that structured qualification screens out casual enquirers effectively, and that consultative, needs-first conversation, more than calling volume, is the main route through which channel-partner relationships turn into buyer action.\n\nKeywords\u2014 Real Estate Channel Partners, Lead Qualification, BANT Framework, Consultative Selling, Customer Relationship Management, Sales Funnel, Site-Visit Conversion.</jats:p>"
+        },
+        {
+          "DOI": "10.1891/pa-2026-0042",
+          "title": [
+            "Intimate Partner Violence Surveys: The Mismeasure of Man"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                15
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Partner Abuse"
+          ],
+          "abstract": "<jats:p>A survey was conducted of national and international surveys of the incidence of intimate partner violence (IPV). Methodologically, the most sound surveys were carried out in the United States by several independent organizations. They assessed both IPV victimization and perpetration and found that 50% of all reported IPV was bilateral and matched for the level of severity. Another 35% was unilateral\u2014women more severe, and 15% was unilateral\u2014men more severe. Surveys that do not assess both victimization and perpetration conflate the 50% mutual combat group with 15% of women victimized by male IPV. Hence, these estimates of female victimization are inflated by 77%. International surveys only ask women about IPV victimization despite the findings of the U.S. National Surveys.</jats:p>"
+        },
+        {
+          "DOI": "10.26434/chemrxiv.15010253/v1",
+          "title": [
+            "CP-GFM-SGX: Topology-Aware Cyclic Peptide Generation and Design with Receptor-Conditioned Structural Evaluation and Experimental KRAS Affinity Optimization"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                12
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>Cyclic-peptide discovery requires molecular topology, atomic structure, receptor-associated evidence and computational decisions to remain consistent across a multistage workflow. We present CP-GFM-SGX, an all-atom generative AI model for cyclic-peptide design that integrates a topology-aware generative core with a Unified Evidence State Machine (UESM) to track candidate identity, chemical validity, provenance, typed failures and bounded computation. We evaluated three distinct aspects of the system. In Track A, a frozen five-complex known-ligand benchmark with 100 scheduled poses per complex, the native-free FULL route selected a ligand-backbone pose with root-mean-square deviation (RMSD) below 2 \u00c5 in four of five systems; retrospective best-of-100 evaluation found a sub-2-\u00c5 pose in all five (median selected RMSD, 1.72 \u00c5). In Track B, matched true-pocket versus shuffled-pocket comparisons favored the specified pocket in all seven main targets (median of target medians, +172.6 Rosetta energy units; weakest margin, +3.9 for MCL-1\u20139CDT). An exploratory post-protocol assessor admitted 42/42, 42/42 and 40/42 selected top-K slots in the full, condition-masked and post hoc head-to-tail arms, respectively. In Track C, FULL UESM produced the specified protective outcomes for six deterministic synthetic fault fixtures and one additional missing-evidence case; targeted ablations isolated the roles of provenance and failure propagation. In a separate KRAS G12D\u2013GDP experimental-feedback series, synthesis and SPR/BLI testing of cyclic-peptide analogues guided position-2 basic-side-chain selection and dual-basic-group placement, advancing the reported SPR affinity from approximately 60 \u00b5M for CRO-748 to approximately 6 \u00b5M for 748-R1 and approximately 1 \u00b5M for 748-RK. Comparisons using the 31-dimension Structured Capability and Evidence Grid (SCEG-31D) demonstrate that CP-GFM-SGX exhibits certain superiority over other design platforms in multiple aspects. Together, we evaluate a topology-aware generative artificial intelligence workflow for receptor-focused cyclic-peptide design and show, in a KRAS feedback series, how binding measurements guide iterative chemical optimization.</jats:p>"
+        },
+        {
+          "DOI": "10.64898/2026.10.16.759689",
+          "title": [
+            "Cell-level integration of gene expression and B cell receptor data captures complementary B cell information"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                22
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Single-cell B cell analyses commonly define relationships among cells using gene expression (GEX), although paired B cell receptor (BCR) sequences provide complementary information about receptor features, differentiation, and clonal relationships. We evaluated multiple approaches for integrating paired GEX and BCR data into cell-level representations and compared their ability to capture complementary aspects of B cell biology. We compared BCR representations based on language-model embeddings and engineered sequence features across multiple integration strategies. Spaces dominated by BCR language-model embeddings captured broad sequence and clonal information but could distort cell type relationships, as assessed using independent cell surface protein measurements. In contrast, concatenating GEX with selected BCR features (isotype, somatic hypermutation frequency, and CDRH3 length) incorporated receptor information while retaining transcriptional and surface-protein-associated structure. The resulting space reduced discordance between GEX-based cell type annotations and BCR characteristics and revealed B-cell substructure supported by both transcriptional and receptor-derived features. Thus, integrating GEX and BCR data captures complementary biological information and provides a richer foundation for single-cell B cell analysis.</jats:p>"
+        },
+        {
+          "DOI": "10.64898/2026.10.13.758726",
+          "title": [
+            "Hubness and local scaling in paired T cell receptor distance spaces"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                13
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Nearest-neighbour retrieval in T cell receptor distance spaces is uneven: some receptors enter many neighbour lists while others enter none. We quantified this hubness in paired variable-domain distances and evaluated local scaling as a post-processing correction. Across ITRAP-filtered dextramers, VDJdb and McPAS-TCR, the skewness of the ten-neighbour occurrence count was 1.26 to 1.50. Local scaling reduced it to 0.13 to 0.31.</jats:p>\n                <jats:p>Under a diagnostic restriction requiring different V families on both chains, macro retrieval gain increased by 0.1418 on VDJdb (95% hierarchical bootstrap interval 0.0079 to 0.3016). The same untuned correction gave a gain of 0.1185 on the held-out IMMREP25 corpus (0.0040 to 0.2477). On IMMREP22, mean micro-AUC increased from 0.8091 to 0.8394, with improvement on 14 of 17 epitopes (paired Wilcoxon p = 0.0026). Gains for CDR3 edit distance and SCEPTR had the same direction but were not significant separately.</jats:p>\n                <jats:p>The benefit has narrow boundaries. CDR3 length alone recovered approximately one-third to three-fifths of it. Eight corrections failed to give reproducible gains on deduplicated beta-only receptors in the two principal corpora. Unrestricted retrieval did not yield a gain surviving the declared multiplicity corrections. Directly penalizing neighbour occurrence was harmful, and clustering results depended on partition granularity. Hubness reduction and specificity retrieval are therefore distinct outcomes. These findings support reporting hubness alongside retrieval accuracy and testing local scaling within paired-domain evaluations; they do not establish a universal correction or an absolute benchmark ranking.</jats:p>"
+        },
+        {
+          "DOI": "10.32614/cran.package.sandwichrand",
+          "title": [
+            "sandwichrand: Sandwich Mixed Randomization for Allocation Sequence Generation"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                14
+              ]
+            ]
+          },
+          "type": "dataset",
+          "container-title": [
+            "CRAN: Contributed Packages"
+          ]
+        },
+        {
+          "DOI": "10.64898/2026.10.15.759459",
+          "title": [
+            "A computable probability landscape for T cell receptor repertoire sampling and comparison"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                21
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Finite sampling complicates interpretation and comparison of T cell receptor (TCR) repertoires. We introduce BEAM, a probability model for TCR\n                  <jats:italic>\u03b2</jats:italic>\n                  complementarity-determining region 3 amino-acid sequences that combines local sequence dependence with exact normalisation. Its tractable local structure permits deterministic evaluation of sequence-pattern probabilities and sampling expectations without enumerating or Monte Carlo sampling the sequence domain. A reference built from 38,538 human repertoires links sampling depth to expected sequence recovery, recurrence, overlap and publicness, the number of cohort repertoires containing a sequence. Models built from individual repertoires define distances attributable to sequence lengths and local patterns. BEAM improves held-out sequence prediction over controls matched for length and individual-position frequencies, ranks sequence publicness in an external cohort and matches CD4 and CD8 repertoires across independent studies. BEAM therefore provides a tractable observational probability landscape for depth-aware sampling calculations and interpretable repertoire comparison.\n                </jats:p>"
+        },
+        {
+          "DOI": "10.7554/elife.107627.3.sa3",
+          "title": [
+            "Author response: Synthetic auxotrophy reveals metabolic regulation of plasma cell generation, affinity maturation, and cytokine receptor signaling"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                29
+              ]
+            ]
+          },
+          "type": "peer-review"
+        },
+        {
+          "DOI": "10.1007/s12080-026-00646-x",
+          "title": [
+            "Adaptive partner recruitment reshapes the coevolutionary stability of mutualistic systems with partner choice"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                21
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Theoretical Ecology"
+          ]
+        },
+        {
+          "DOI": "10.1007/s44307-026-00139-2",
+          "title": [
+            "A single-cell profile of the porcine immune repertoire: concurrent profiling of T cell receptor and B cell receptor V(D)J sequences in health"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                9
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Advanced Biotechnology"
+          ],
+          "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Adaptive immune diversity is shaped by the complex organization of T cell receptor (TCR) and B cell receptor (BCR) repertoires across tissues. However, a systematic cross-tissue immune repertoire profiling in healthy pigs is still lacking. In this study, we used 3 14-day-old Duroc\u2009\u00d7\u2009Landrace\u2009\u00d7\u2009Yorkshire (DLY) crossbred piglets, all of which were male. After sample purification, a total of 71,731 cells were retained. We established single-cell profiling integrating paired BCR and TCR repertoires across 11 immune-associated tissues using single-cell RNA sequencing combined with V(D)J sequencing based on DLY crossbred piglets. Diverse populations of immune cells were identified, with significant tissue-specific heterogeneity being revealed in lymphatic, mucosal, and circulatory organs. Immune repertoire analysis demonstrated biased V(D)J gene usage, conserved complementarity-determining region 3 (CDR3) length distributions, preferential receptor pairing patterns, and extensive clonotype diversity. Cross-tissue analyses further revealed coordinated clonotype sharing and distinct clonal expansion patterns among immune cell subsets. In addition, using the Pig-specific V(D)J primers we designed, the sequencing results have achieved a modest improvement in the detection of immunoglobulin alleles compared to previous studies. It is expected to provide a more reliable technical solution for related research. Collectively, this work provides a comprehensive reference profiling of the healthy DLY crossbred piglet adaptive immune system and offers valuable resources for future studies of porcine immunology, infectious diseases, and vaccine responses.</jats:p>"
+        },
+        {
+          "DOI": "10.1016/j.xcrp.2026.103618",
+          "title": [
+            "From sequence to function: Peptide-nucleotide-based complex coacervates as protocell models"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                11
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Cell Reports Physical Science"
+          ]
+        },
+        {
+          "DOI": "10.3389/fimmu.2026.2002535",
+          "title": [
+            "Molecular mechanisms regulating T-cell receptor signaling and T-cell function"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                27
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Frontiers in Immunology"
+          ],
+          "abstract": "<jats:p>The T-cell receptor (TCR) is the central mediator of antigen-specific recognition and a key regulator of T-lymphocyte function. Current evidence indicates that TCR signaling is not a linear cascade but a multilevel dynamic system in which cellular responses are shaped by the combined effects of TCR-CD3 structural organization, spatial receptor distribution, the lipid microenvironment, mechanical forces, kinase and phosphatase activity, co-stimulatory and inhibitory receptors, cellular metabolic state, and the strength and duration of TCR interactions with peptide-MHC (pMHC) complexes. This review summarizes current concepts of the molecular and spatial organization of TCR-CD3; mechanisms of signal initiation involving Lck, CD45, SHP phosphatases, ITAMs, ZAP-70, and the LAT-SLP-76 signalosome; and the coupling of TCR signaling to T-cell metabolic programs. Particular attention is paid to the nonlinear relationship between functional responses, TCR affinity, and target pMHC density; the role of chronic antigenic stimulation in T-cell exhaustion and activation-induced cell death (AICD); and the involvement of NFAT-, TOX-, NR4A-, and TCF1-dependent programs in this process. We also discuss the translational relevance of these mechanisms to antitumor immunotherapy and the restoration of immune tolerance, including immune checkpoint blockade, CAR-T, TCR-T, and TCR-Treg approaches and CD3/TCR-directed T-cell-engager platforms. Finally, we consider the concept of TCR signal tuning, according to which therapeutic efficacy is determined not by maximal receptor signal strength but by an optimal balance between antigen sensitivity, specificity, effector activity, metabolic fitness, and the ability of T cells to retain function under sustained antigenic pressure.</jats:p>"
+        },
+        {
+          "DOI": "10.32388/vvmuvc.2",
+          "title": [
+            "Spouse or partner"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                15
+              ]
+            ]
+          },
+          "type": "reference-entry",
+          "container-title": [
+            "Definitions"
+          ]
+        },
+        {
+          "DOI": "10.1016/j.lfs.2026.124677",
+          "title": [
+            "Intramolecular determinants of Retinoid X receptor involved in heterodimeric interactions with its partner PXR: Implications in receptor dynamics and mitotic chromatin interactions"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                11
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Life Sciences"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "T cell receptor paired chain benchmark",
+      "url": "https://api.crossref.org/works?query=T+cell+receptor+paired+chain+benchmark&filter=from-pub-date%3A2026-10-07%2Cuntil-pub-date%3A2026-11-03&rows=20&select=DOI%2Ctitle%2Cpublished%2Ctype%2Ccontainer-title%2Cabstract",
+      "retrieved": true,
+      "total_results": 12528,
+      "results": [
+        {
+          "DOI": "10.64898/2026.10.13.758726",
+          "title": [
+            "Hubness and local scaling in paired T cell receptor distance spaces"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                13
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Nearest-neighbour retrieval in T cell receptor distance spaces is uneven: some receptors enter many neighbour lists while others enter none. We quantified this hubness in paired variable-domain distances and evaluated local scaling as a post-processing correction. Across ITRAP-filtered dextramers, VDJdb and McPAS-TCR, the skewness of the ten-neighbour occurrence count was 1.26 to 1.50. Local scaling reduced it to 0.13 to 0.31.</jats:p>\n                <jats:p>Under a diagnostic restriction requiring different V families on both chains, macro retrieval gain increased by 0.1418 on VDJdb (95% hierarchical bootstrap interval 0.0079 to 0.3016). The same untuned correction gave a gain of 0.1185 on the held-out IMMREP25 corpus (0.0040 to 0.2477). On IMMREP22, mean micro-AUC increased from 0.8091 to 0.8394, with improvement on 14 of 17 epitopes (paired Wilcoxon p = 0.0026). Gains for CDR3 edit distance and SCEPTR had the same direction but were not significant separately.</jats:p>\n                <jats:p>The benefit has narrow boundaries. CDR3 length alone recovered approximately one-third to three-fifths of it. Eight corrections failed to give reproducible gains on deduplicated beta-only receptors in the two principal corpora. Unrestricted retrieval did not yield a gain surviving the declared multiplicity corrections. Directly penalizing neighbour occurrence was harmful, and clustering results depended on partition granularity. Hubness reduction and specificity retrieval are therefore distinct outcomes. These findings support reporting hubness alongside retrieval accuracy and testing local scaling within paired-domain evaluations; they do not establish a universal correction or an absolute benchmark ranking.</jats:p>"
+        },
+        {
+          "DOI": "10.1038/s43588-026-01073-y",
+          "title": [
+            "Machine learning dataset and benchmark for accurate T cell receptor\u2013pHLA binding prediction"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                26
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Nature Computational Science"
+          ]
+        },
+        {
+          "DOI": "10.20944/preprints202610.2330.v1",
+          "title": [
+            "Attractor Landscapes and Network Dynamics of iPSC-Derived Neural Stem Cell Plasticity: A Complexity-Theoretic Benchmark of Cell-Fate Transitions"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                23
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>Cell fate decisions are often studied as static transcriptomic snapshots even though differentiation is intrinsically a complex dynamical, multistable, and plastic process. To better elucidate cell fate plasticity dynamics, we developed a complexity-theoretic and machine learning framework to model neural stem cell state-transitions using a two-time point single-cell RNA-sequencing subset of GSE138121 (iPSC-derived motor neurons). The primary cohort comprised 1,960 quality-controlled cells from the Batch A control iPSC line at days 12 and 18, represented by 815 genes and 62 metacells. Ten neural/progenitor states were annotated and contrasted with NNMF and Leiden communities. We integrated forward-in-time metacell transport, quasi-potential landscapes, basin and dwell-time analysis, Spearman and Kauffman Random Boolean Networks, BDM perturbation analysis, and 5-fold cross-validation of classical machine learning and deep learning models. Transition kernels showed broad funneling toward the neuroblast/immature-neuron state. The continuous attractor landscape resolved four basins, while the 180-node, 1,080-edge Boolean Kauffman abstraction produced 18 attractors, basin entropy of 2.75 bits, and Derrida one-bit sensitivity of 1.69, indicating damage amplification rather than directly demonstrated critical point. Consensus steering prioritized ONECUT2, ZFP36L1, DCX, HOXB2, TMEM123, TUBA1A, ENO1, ELAVL4, MAP1B, and MLLT11. ESN/reservoir computing yielded the lowest latent endpoint MAE (0.138), while CTM and Transformer achieved the lowest transition-kernel RMSE after validation-selected blending with a training-only state/time prior (0.0402 and 0.0404). These results support a complex systems view of iPSC-derived neural differentiation as trajectories through a multi-basin state-space, linking attractor geometry, network topology, and explainable AI to generate testable candidates for cell fate control and reprogramming.</jats:p>"
+        },
+        {
+          "DOI": "10.21203/rs.3.rs-11370244/v1",
+          "title": [
+            "Scoring the downstream chain of small-n label-free proteomics against known ratios: search engine, match-between-runs, imputation, differential testing and enrichment background on a public three-species benchmark"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                15
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<title>Abstract</title>\n                <p>\n                  Background.\n Benchmarks of label-free proteomics usually compare search and quantification software. The result a biologist reads, however, is also shaped by later choices: whether identifications are transferred between runs, how missing values are handled, which test and threshold are applied, whether intensities are normalised again, and which background is used for enrichment. These choices are rarely scored against a known answer in the three-versus-three designs that are common in practice.\nMethods.\n I reanalysed a public hybrid-proteome benchmark (PRIDE PXD028735) in which human, yeast and\n                  <italic>Escherichia coli</italic>\n                  digests were mixed so that the true log2 ratios between two conditions are 0, \u2212\u20091 and +\u20092. Six Orbitrap DDA runs (three per condition) were processed with MaxQuant 2.8.1 and FragPipe 24, and six TripleTOF SWATH runs of the same samples with DIA-NN 2.3.2. Each downstream step was scored by the fraction of proteins whose ratio fell within \u00b1\u20090.5 log2 of the truth and by the number of unchanged human proteins called significant.\nResults.\n On the 3,866 proteins quantified by all three tools, the fraction within \u00b1\u20090.5 for human / yeast /\n                  <italic>E. coli</italic>\n                  was 98.9 / 92.4 / 80.9% for MaxQuant LFQ, 99.7 / 99.3 / 97.7% for FragPipe and 100 / 99.4 / 97.7% for DIA-NN. For the 77\n                  <italic>E. coli</italic>\n                  proteins MaxQuant quantified both with and without match-between-runs, 94.8% of ratios were within \u00b1\u20090.5 with it and 62.3% without. With a strict valid-value filter and MBR, no imputation and five imputation methods found 84\u201392% of the true changes at 1.0\u20131.3% false discoveries; a loose filter raised the number of changes found but lowered the fraction found (for example 78% vs 92%) and roughly doubled the false discovery proportion, and k-nearest-neighbour imputation moved the median of a true\u2009+\u20092 change to +\u20090.02 in one setting. At BH-adjusted p\u2009&lt;\u20090.05 without a fold-change threshold, t-test / limma / DEqMS called 68 / 104 / 284 unchanged human proteins on MaxQuant LFQ output (human median\u2009+\u20090.145), 15 / 43 / 37 on FragPipe (+\u20090.014) and 106 / 167 / 188 on DIA-NN (\u2212\u20090.010). A |log2FC| \u2265 0.5 threshold reduced these to 2\u201322 for MaxQuant and DIA-NN but only to 7\u201335 for FragPipe, whose remaining false calls were large ratio errors in both directions. An additional per-sample median normalisation of DIA-NN output raised limma's false calls to 3,461 (59% of calls). Random lists of detected proteins returned a median of 103 GO and KEGG terms at FDR\u2009&lt;\u20090.05 against STRING's whole-genome background.\nConclusions.\n In this benchmark, single decisions after the search engine changed the number of false discoveries on the engines' output by up to 34-fold (adding a fold-change threshold: MaxQuant t-test, 68 to 2) or 25-fold (an extra median normalisation: DIA-NN t-test, 106 to 2,695). Pairing FDR with a fold-change threshold, using a strict valid-value filter, avoiding an extra median normalisation of FragPipe and DIA-NN output, and using the detected proteins as enrichment background each removed much of the false signal. Scripts, settings and result tables are public (doi:10.5281/zenodo.23355028).\n                </p>"
+        },
+        {
+          "DOI": "10.64898/2026.10.20.760514",
+          "title": [
+            "Centered cross-context perturbation transfer on the public 2025 Virtual Cell Challenge benchmark"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                25
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Predicting transcriptional responses across cellular contexts requires transferring both expression direction and differential-expression priority. We developed a compact numerical method that combines public perturbation summaries with a differential-expression kernel fitted to H1 CRISPRi training targets. The method centers an independent KOLF2.1J source on known training targets, transfers its response signs and magnitude ranks, and uses isotonic regression to render predicted expression means. We evaluated the frozen model retrospectively on the released public TEST100 of the 2025 Virtual Cell Challenge, using an external KOLF source released in 2026. The model achieved DES 0.371834, PDS 0.8614, and MAE 0.302206. With reconstructed historical anchors, its composite score was 0.341344, compared with the archived champion score of 0.340052, a difference of +0.001292. The comparison showed higher DES and lower PDS, with zero normalized MAE contributions for both methods. Source centering also improved development PDS across all three TRAIN folds and official VALIDATION. These results demonstrate a practical numerical approach to cross-context perturbation transfer and differential-expression ranking.</jats:p>"
+        },
+        {
+          "DOI": "10.1016/j.physb.2026.419326",
+          "title": [
+            "Paired benchmark of Zr substitution in BCST ceramics: temperature-dependent permittivity and P-E loops for Ba0.8Ca0.1Sr0.1Ti1-xZrxO3 (x = 0, 0.10)"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                11
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Physica B: Condensed Matter"
+          ]
+        },
+        {
+          "DOI": "10.21203/rs.3.rs-11023801/v1",
+          "title": [
+            "Comparative Analysis of Somatic Variants in Paired Pre- and Post-Neoadjuvant Chemotherapy Samples of Locally Advanced Hormone Receptor-Positive Breast Cancer"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                15
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<title>Abstract</title>\n                <p>Background\n\nNeoadjuvant chemotherapy (NACT) is a standard treatment for locally advanced breast cancer (LABC), although hormone receptor-positive (HR+) tumors generally show lower response rates than other molecular subtypes. Patients with residual disease after NACT remain at increased risk of recurrence, underscoring the need to identify molecular determinants of treatment resistance. This study investigated somatic genetic alterations associated with NACT response in HR+ breast cancer stratified by residual cancer burden (RCB).\n\nMethods\n\nA total of 120 HR+ LABC patients treated with NACT were assessed for RCB and classified as good responders (RCB-0/I) or poor responders (RCB-II/III). Targeted next-generation sequencing of ESR1, ESR2, PIK3CA, PTEN, TP53, MAPK1, and AKT1 was performed on matched pre- and post-treatment tumor samples from 20 patients representing different RCB categories. Key alterations were validated by droplet digital PCR in the full cohort. Hotspot mutations in PIK3CA and ESR1 were also evaluated in an independent cohort of 50 metastatic HR+ breast cancer patients.\n\nResults\n\nPathological complete response was achieved in 26.6% of patients, while 73.3% were poor responders. Recurrent alterations in PIK3CA, TP53, and PTEN were identified. The PIK3CA; p.H1047R hotspot mutation was enriched in pretreatment biopsies from poor responders, suggesting a role in chemotherapy resistance. No mutations were detected in the ESR1 hotspot in the LABC cohort. In contrast, the metastatic cohort harboured ESR1 mutations (p.D538G, p.Y537S) and hotspot PIK3CA variants (p.H1047R, p.E545K, p.E542K).\n\nConclusions\n\nPIK3CA, particularly p.H1047R, may represent a predictive biomarker of NACT resistance in HR+ breast cancer and warrants validation in larger prospective studies.</p>"
+        },
+        {
+          "DOI": "10.1016/j.tranon.2026.103031",
+          "title": [
+            "Paired bulk transcriptomic analysis of recurrent glioblastoma with primary single-cell reference mapping"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                11
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Translational Oncology"
+          ]
+        },
+        {
+          "DOI": "10.3389/fbinf.2026.1878538",
+          "title": [
+            "REACH: a reproducible benchmark for inter-lineage rare malignant cell detection in single-cell RNA sequencing"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                19
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Frontiers in Bioinformatics"
+          ],
+          "abstract": "<jats:p>Rare malignant cells in single-cell RNA sequencing (scRNA-seq), including circulating tumor cells (CTCs), minimal residual disease (MRD) cells, and small malignant populations in heterogeneous tumor microenvironments (TME), represent an important clinical challenge. These cells occur at very low frequency, requiring separation from a large non-malignant background. Existing methods show inconsistent evaluation, using different datasets, label definitions, prevalence settings, scoring strategies, and failure handling. We present Rare-cell Evaluation Across Cancer Heterogeneity (REACH), treating inter-lineage rare malignant cell detection as an imbalanced ranking task. REACH benchmarks CNV-supported malignant cells (P_HC) against immune, stromal, and normal epithelial cells (B_HC), modeling the CTC and MRD screening setting. REACH excludes intra-lineage state discovery, including drug-tolerant persisters, epithelial\u2013mesenchymal transition (EMT), and transitional malignant states, evaluating these separately in Track F. REACH combines confidence tiered multi-arm labels with five evaluation tracks, covering controlled real spike-ins, synthetic Splatter stress tests, null background controls, natural blood/CTC prevalence, and supervised label noise diagnostics. Applying standardized method wrappers, fallback-aware metrics, non-parametric statistics, and audited figure regeneration, REACH provides a reproducible evaluation framework. REACH evaluates 10 computational methods on 10 curated scRNA-seq cancer datasets containing 359,739 cells. This benchmark produces 11,250 performance measurements across 1,125 benchmark tasks. The supervised highly variable gene logistic regression ceiling achieves a median average precision of 1.0, indicating strong expression differences between tumor and non-tumor cells. Current unsupervised methods recover only part of this signal. CaSee, serving as a cancer/normal cell scorer rather than a rare-cell detector, reaches a median average precision of 0.512 (0.606 excluding 20 degenerate units). FiRE, the strongest published inter-lineage detector, achieves a median average precision of 0.313. Statistical testing confirms significant performance differences among methods. REACH shows strong context dependence, with no method performing best across all tumor types. Track F further shows performance depending strongly on the inter-lineage malignant-versus-microenvironment contrast. Restricting the background to normal epithelial cells of the same lineage, nine of ten methods fall to near-chance average precision. These results indicate that inter-lineage leaderboards should not be extrapolated to intra-lineage rare-cell discovery.</jats:p>"
+        },
+        {
+          "DOI": "10.3390/fi18100549",
+          "title": [
+            "EPCIS-MutBench: A Controlled Benchmark for Security-Relevant Semantic and Lifecycle Integrity Validation in EPCIS 2.0.1 Supply-Chain Histories"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                11
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Future Internet"
+          ],
+          "abstract": "<jats:p>Electronic Product Code Information Services (EPCIS) standardizes inter-organizational supply-chain visibility events, yet structurally conformant histories can contain contradictory lifecycle claims that undermine information integrity. We present EPCIS-MutBench, a controlled benchmark and layered validator for evaluating security-relevant semantic and lifecycle integrity in EPCIS 2.0.1 histories. Mutations are treated as integrity violations independently of accidental or adversarial origin; the benchmark evaluates detection and localization rather than attacker attribution. The evaluation uses 2000 deterministic clean histories and 20,000 primary mutants, including 16,000 single-fault and 4000 compound cases, with validator-independent typed ground truth. Across all primary mutants, JavaScript Object Notation (JSON) Schema plus compatibility-projected GS1 Shapes Constraint Language (SHACL) detected 18.27%, whereas the full event-local and role-aware lifecycle validator detected 95.29%. Among 13,429 single-fault mutants that passed both structural baselines, the full validator achieved 92.98% recall, with end-to-end intended-rule, event, and field/edge localization of 92.90%, 92.19%, and 92.14%, respectively. No false positives occurred on the 2000 generated-clean controls; however, in a separate sensitivity analysis that provisionally treated all 37 parseable external-source fixtures as clean, 19 were marked invalid. A separate attestation layer used cryptographic hashes, Merkle commitments, a digital signature, and public-testnet receipts to make post-freeze evidence modification detectable. The results demonstrate controlled, reproducible evaluation of EPCIS information-integrity assurance beyond structural conformance.</jats:p>"
+        },
+        {
+          "DOI": "10.54365/adyumbd.1989408",
+          "title": [
+            "Photovoltaic Cell Defect Severity Classification with Squeeze-and-Excitation Enhanced ResNet50 on the ELPV Benchmark Dataset"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                21
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Ad\u0131yaman \u00dcniversitesi M\u00fchendislik Bilimleri Dergisi"
+          ],
+          "abstract": "<jats:p xml:lang=\"en\">Cell defects in photovoltaic (PV) modules directly affect production yield, making early and reliable detection critical. Electroluminescence (EL) imaging is widely used for this purpose since it reveals defects such as microcracks and inactive regions; however, manual assessment is time-consuming and subjective. In this study, EL images from the public ELPV benchmark dataset are automatically classified into four defect-severity levels (flawless, low, medium, high). The proposed method augments a ResNet50 backbone with the Squeeze-and-Excitation (SE) block, which adaptively recalibrates channel-wise features. The model is compared against ResNet50, MobileNetV2 and EfficientNetB0 baselines using ImageNet pretrained weights and stratified 5-fold cross-validation. The proposed SE-ResNet50 outperforms all baselines with 0.7609 accuracy and 0.559 macro-F1. Furthermore, an ordinal error-magnitude analysis shows that the SE block yields the smallest and closest errors, reducing the mean absolute level error to 0.443. Nevertheless, the contribution of SE remains limited for the minority 'medium' class, indicating that class imbalance is the principal bottleneck.</jats:p>"
+        },
+        {
+          "DOI": "10.59350/kbyzp-ays42",
+          "title": [
+            "October 2026 links"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                30
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>Tacit knowledge, AI and biosecurity, field building, chat with DNA, Nextflow, AI in academia and science, R package development, peer review</jats:p>"
+        },
+        {
+          "DOI": "10.59350/5q0dk-5vx42",
+          "title": [
+            "October 2026 links"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                30
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>Tacit knowledge, AI and biosecurity, field building, chat with DNA, Nextflow, AI in academia and science, R package development, peer review</jats:p>"
+        },
+        {
+          "DOI": "10.59350/006kq-m0w38",
+          "title": [
+            "Podcast Recommendations Oct 2026"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                25
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>Down to a Science, UVA SDS Data Points, AI Exchange at UVA. One episode recommendation from each.</jats:p>"
+        },
+        {
+          "DOI": "10.59350/re15w-69745",
+          "title": [
+            "What Counts as Impact?"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                19
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>Bean-counting published papers and impact factors was always a flawed proxy. Generative AI made it much worse.</jats:p>"
+        },
+        {
+          "DOI": "10.59350/7djax-w5z83",
+          "title": [
+            "Podcast Recommendations Oct 2026"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                25
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>Down to a Science, UVA SDS Data Points, AI Exchange at UVA. One episode recommendation from each.</jats:p>"
+        },
+        {
+          "DOI": "10.1016/j.oraloncology.2026.108171",
+          "title": [
+            "Regarding \u201cPaired analysis of primary adenoid cystic carcinoma and derived cell lines reveals a mesenchymal and stem-like shift associated with therapy resistance\u201d"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                11
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "container-title": [
+            "Oral Oncology"
+          ]
+        },
+        {
+          "DOI": "10.59350/006jq-a4y25",
+          "title": [
+            "What Counts as Impact?"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                19
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>Bean-counting published papers and impact factors was always a flawed proxy. Generative AI made it much worse.</jats:p>"
+        },
+        {
+          "DOI": "10.59350/1e4jf-fbj80",
+          "title": [
+            "I'm Skeptical of AI Disclosures"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                17
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>800 words, 3.5 minutes reading time</jats:p>"
+        },
+        {
+          "DOI": "10.59350/006je-bzv92",
+          "title": [
+            "I'm Skeptical of AI Disclosures"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                17
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "abstract": "<jats:p>800 words, 3.5 minutes reading time</jats:p>"
+        }
+      ]
+    }
+  ],
+  "scope": "Fallback targeted update after Europe PMC returned HTTP 503; relevance requires title/abstract screening."
+}

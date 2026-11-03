@@ -1,0 +1,88 @@
+{
+  "key": "tcrbinder",
+  "url": "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1014396",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1371/journal.pcbi.1014396",
+    "title": [
+      "TCRBinder: Unified pre-trained language model with paired-chain synergy for predicting T-cell receptor binding specificity"
+    ],
+    "container-title": [
+      "PLOS Computational Biology"
+    ],
+    "type": "journal-article",
+    "volume": "22",
+    "issue": "6",
+    "page": "e1014396",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          22
+        ]
+      ]
+    },
+    "published-print": null,
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          22
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Weihe",
+        "family": "Dong"
+      },
+      {
+        "given": "Qiang",
+        "family": "Yang"
+      },
+      {
+        "given": "Long",
+        "family": "Xu"
+      },
+      {
+        "given": "Xiaokun",
+        "family": "Li"
+      },
+      {
+        "given": "Kuanquan",
+        "family": "Wang"
+      },
+      {
+        "given": "Suyu",
+        "family": "Dong"
+      },
+      {
+        "given": "Gongning",
+        "family": "Luo"
+      },
+      {
+        "given": "Xianyu",
+        "family": "Zhang"
+      },
+      {
+        "given": "Tiansong",
+        "family": "Yang"
+      },
+      {
+        "given": "Xin",
+        "family": "Gao"
+      },
+      {
+        "given": "Guohua",
+        "family": "Wang"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/tcrbinder_crossref.json",
+  "previous_metadata_sha256": "ec55805f75ea85c3a9836348868214e1b261f0358dc019b8c3e096e0bbeaa819"
+}

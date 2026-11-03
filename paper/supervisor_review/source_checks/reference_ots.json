@@ -1,0 +1,82 @@
+{
+  "key": "ots",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.celrep.2024.114704",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1016/j.celrep.2024.114704",
+    "title": [
+      "The Observed T Cell Receptor Space database enables paired-chain repertoire mining, coherence analysis, and language modeling"
+    ],
+    "container-title": [
+      "Cell Reports"
+    ],
+    "type": "journal-article",
+    "volume": "43",
+    "issue": "9",
+    "page": "114704",
+    "article-number": "114704",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "published-online": null,
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/2024.05.20.594960",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "given": "Matthew I.J.",
+        "family": "Raybould"
+      },
+      {
+        "given": "Alexander",
+        "family": "Greenshields-Watson"
+      },
+      {
+        "given": "Parth",
+        "family": "Agarwal"
+      },
+      {
+        "given": "Broncio",
+        "family": "Aguilar-Sanjuan"
+      },
+      {
+        "given": "Tobias H.",
+        "family": "Olsen"
+      },
+      {
+        "given": "Oliver M.",
+        "family": "Turnbull"
+      },
+      {
+        "given": "Nele P.",
+        "family": "Quast"
+      },
+      {
+        "given": "Charlotte M.",
+        "family": "Deane"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/j.celrep.2024.114704_epmc.json",
+  "previous_metadata_sha256": "6098e9e70b39f825eb1f1fb6a95e15313e8b5338b27a9f5fad332097971599f5"
+}

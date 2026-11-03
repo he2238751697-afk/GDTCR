@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "archive": "GDTCR_editable_source.zip",
+      "source": "manuscript.tex",
+      "standalone_compilation": true,
+      "identical_extracted_content": true,
+      "archive_sha256": "eab2021428686e49940e5652d37ff7e42bb25a29b3339bca5b73c0a9e9dddbf8",
+      "reference_pdf": "paper/supervisor_review/GDTCR_supervisor_review.pdf",
+      "reference_pdf_sha256": "afed3fc1e4b7d32b686f4f9bf587d1c7cba64d4dc6b84ff2f9bbc7835d58ac8a"
+    },
+    {
+      "archive": "GDTCR_editable_source.zip",
+      "source": "supplementary.tex",
+      "standalone_compilation": true,
+      "identical_extracted_content": true,
+      "archive_sha256": "eab2021428686e49940e5652d37ff7e42bb25a29b3339bca5b73c0a9e9dddbf8",
+      "reference_pdf": "paper/supervisor_review/GDTCR_supplementary.pdf",
+      "reference_pdf_sha256": "4c1530d253e7d417558ee30d0ca2c9be2bde141d183480e1eb5d02b5d01bc162"
+    },
+    {
+      "archive": "additional_file_1.zip",
+      "source": "supplementary.tex",
+      "standalone_compilation": true,
+      "identical_extracted_content": true,
+      "archive_sha256": "9ddab39e5fd627e5a718f8ec59b11bef5b092e03179b325bbc98a067003ed67c",
+      "reference_pdf": "paper/supervisor_review/GDTCR_supplementary.pdf",
+      "reference_pdf_sha256": "4c1530d253e7d417558ee30d0ca2c9be2bde141d183480e1eb5d02b5d01bc162"
+    }
+  ],
+  "scope": "Fresh temporary-directory native compilation of editable-source and Additional file 1 archives; extracted text compared with the verified reading copies."
+}

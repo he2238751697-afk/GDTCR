@@ -1,0 +1,80 @@
+{
+  "key": "pairing_constraints",
+  "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtag551",
+  "checked": "2026-11-03",
+  "retrieved": true,
+  "metadata": {
+    "DOI": "10.1093/bioinformatics/btag551",
+    "title": [
+      "Systematic analysis of CDR contacts and pairing constraints between T cell receptor\n                    <i>αβ</i>\n                    chains"
+    ],
+    "container-title": [
+      "Bioinformatics"
+    ],
+    "type": "journal-article",
+    "volume": "42",
+    "issue": "8",
+    "page": null,
+    "article-number": "btag551",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          22
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          3
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          22
+        ]
+      ]
+    },
+    "relation": {},
+    "authors": [
+      {
+        "given": "Martina",
+        "family": "Milighetti"
+      },
+      {
+        "given": "Yuta",
+        "family": "Nagano"
+      },
+      {
+        "given": "James",
+        "family": "Henderson"
+      },
+      {
+        "given": "Uri",
+        "family": "Hershberg"
+      },
+      {
+        "given": "Andreas",
+        "family": "Tiffeau-Mayer"
+      },
+      {
+        "given": "Anne-Florence",
+        "family": "Bitbol"
+      },
+      {
+        "given": "Benny",
+        "family": "Chain"
+      }
+    ]
+  },
+  "previous_metadata_file": "paper/reference_metadata/revision_bmc/pairing_constraints_crossref.json",
+  "previous_metadata_sha256": "3b7d1bc738341522c5d5685621d7bbe88ff7d010ed9def4d78e441d3b42eeb80"
+}

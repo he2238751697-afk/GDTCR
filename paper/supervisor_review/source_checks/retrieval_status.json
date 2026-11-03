@@ -1,0 +1,97 @@
+{
+  "checked": "2026-11-03",
+  "sources": {
+    "bmc_guidelines": {
+      "retrieved": true,
+      "url": "https://link.springer.com/journal/12859/submission-guidelines/research-article"
+    },
+    "bmc_scope": {
+      "retrieved": true,
+      "url": "https://link.springer.com/journal/12859/aims-and-scope"
+    },
+    "bmc_metrics": {
+      "retrieved": true,
+      "url": "https://link.springer.com/journal/12859"
+    },
+    "uctcrdb": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.3389%2Ffimmu.2023.1158295"
+    },
+    "gse180059": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1038%2Fs41467-022-33488-2"
+    },
+    "suo2022": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.abo0510"
+    },
+    "tcrdb2": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkaf876"
+    },
+    "tcrbinder": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pcbi.1014396"
+    },
+    "ots": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1016%2Fj.celrep.2024.114704"
+    },
+    "tcrdesign": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1093%2Fbib%2Fbbaf691"
+    },
+    "bib_metrics": {
+      "retrieved": true,
+      "url": "https://academic.oup.com/bib/pages/About"
+    },
+    "bioinformatics_metrics": {
+      "retrieved": true,
+      "url": "https://academic.oup.com/bioinformatics/pages/About"
+    },
+    "pr_metrics": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0118432"
+    },
+    "tcrbert": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1101%2F2021.11.18.469186"
+    },
+    "gd_review": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cellimm.2015.04.008"
+    },
+    "iedb": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkae1092"
+    },
+    "landry2025": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1093%2Fbioadv%2Fvbaf028"
+    },
+    "germline_shortcut": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.64898%2F2026.07.21.739963"
+    },
+    "tcrpair": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtab573"
+    },
+    "dtcr": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1093%2Fbib%2Fbbag438"
+    },
+    "bioinformatics_guidelines": {
+      "retrieved": true,
+      "url": "https://academic.oup.com/bioinformatics/pages/General_Instructions"
+    },
+    "bib_guidelines": {
+      "retrieved": true,
+      "url": "https://academic.oup.com/bib/pages/General_Instructions"
+    },
+    "pairing_constraints": {
+      "retrieved": true,
+      "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtag551"
+    }
+  }
+}
